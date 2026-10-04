@@ -1,0 +1,7 @@
+mesh_filename prefabs\buildings\furniture\family_table_nocenter.x
+socket hero 0.450000 0.600000 0.000000
+socket wife 0.440000 -0.600000 0.000000
+socket kid1 -0.430000 0.830000 0.090000
+socket kid2 -0.430000 -0.820000 0.090000
+socket camera 2.000000 1.400000 1.680000
+socket camera_look_at 0.000000 0.000000 1.000000

@@ -1,0 +1,115 @@
+Vehicle >manure_spreader2_old
+prefab prefabs\vehicles\manure_spreader2_old\manure_spreader2_old_nocenter.x
+Mass 800.0
+Stiffness 10
+
+spawn_id 59
+
+tag >MT28
+
+
+nawoz
+dung
+przyczepa
+price 2100
+used
+grain_capacity 900
+
+
+// to definiuje jak szybko rosnie gorka od ziarna
+mnoznik_wzrostu_ladunku 1
+
+// to ustala wysokosc globalna ladunku
+mnoznik_skali_ladunku 2.5
+
+
+
+
+
+renew_and_paint
+repairable manure_spreader2_old.dds manure_spreader2_old_repaired.dds
+color 0.19 0.33 0.16
+
+
+
+// COLLISION MESH
+
+// pScaleZ
+mnoznik_fizyki_z 0.75
+// pScaleY
+mnoznik_fizyki_y 0.25
+// pScaleX
+mnoznik_fizyki_x 0.8
+
+// pTransZ
+przesuniecie_fizyki_przod -0.4
+// pTransY
+przesuniecie_fizyki_gora 0.75
+// pTransX
+przesuniecie_fizyki_prawo 0.0
+
+
+
+//HOOKS
+hak zaczep
+// reverse_fold_panel_info
+old_tractors_can_attach
+zaczep_tylko_do_traktora
+
+
+
+
+
+// animacja tekstury w osi v podczas koszenia (cmd0)
+// move_on_operate <nr_attachmentu_lub_0> <nr_subsetu_liczac_od_0> <Mnoznik_Predkosci_default_1.0>
+move_on_operate 0 2 1
+
+
+
+
+
+// rotor (1)
+// ta komenda jest ok trzeba dodac os obrotu
+attachment_atomizer_X prefabs\vehicles\manure_spreader2_old\rotor_nocenter.x rotor
+
+
+// stopka podporowa (2)
+attachment_stopka prefabs\vehicles\manure_spreader2_old\support_leg_nocenter.x support_leg 0.02 0.35
+
+
+
+//manure (3)
+attachment_zboze prefabs\vehicles\manure_spreader2_old\manure_nocenter.x manure
+
+
+
+
+// WHEELS
+// prefab_kola socket_kola promien_kola podniesienie_osi_kola
+
+wheel_invisible prefabs\vehicles\manure_spreader2_old\wheel_left_nocenter.x wheel_front
+wheel prefabs\vehicles\manure_spreader2_old\wheel_left_nocenter.x wheel_left
+wheel prefabs\vehicles\manure_spreader2_old\wheel_right_nocenter.x wheel_right
+
+
+
+
+// LIGHTS
+swiatlo_tyl lt1
+swiatlo_cofania lc1
+
+
+
+// WORKING FX
+working_fx afx_manure fx0
+// working_fx afx_sianie fx1
+// working_fx afx_sianie fx2
+
+
+
+// ANIM FX
+// attachment_anim_fx <prefab> <socket> [<attachment do przyczepienia lub 0>] [<mnoznik predkosci przesuwu gibania - 1 domyslnie>] [<mnoznik gibania animacji - 1 domyslnie>] [<mnoznik predkosci przesuwu tekstury - 1 domyslnie>]
+// attachment_anim_fx prefabs\vehicles\manure_spreader2_old\manure2_nocenter.x anim_dump 0 1 0.3 0.5
+
+
+

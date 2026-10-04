@@ -1,0 +1,175 @@
+actor m2_old_mateo1
+
+default_phase bot
+model prefabs\models\m2_old\m2_old.X
+name >NameM65
+belongs_to_yard neighbor_yard_010
+
+eye prefabs\attachments\eye_left_blue_nocenter.X eye_left
+eye prefabs\attachments\eye_right_blue_nocenter.X eye_right
+
+contact_distance 8
+contact_angle 50
+
+rotate_180 
+
+voice 2
+
+scale 0.91
+
+
+
+// clothes
+// max attachments 16
+
+
+
+// HAIR
+
+random_hair prefabs\attachments\m_hair_001_elderly_nocenter.x hair
+random_hair prefabs\attachments\m_hair_001_elderly_nocenter.x hair
+random_hair prefabs\attachments\m_hair_003_elderly_nocenter.x hair
+random_hair prefabs\attachments\m_hair_003_elderly_nocenter.x hair
+random_hair prefabs\attachments\m_hair_005_elderly_nocenter.x hair
+random_hair prefabs\attachments\m_hair_005_elderly_nocenter.x hair
+random_hair prefabs\attachments\flat_cap_elderly_nocenter.x hair
+random_hair prefabs\attachments\m_hat_1_60s_elderly_nocenter.x hair
+random_hair prefabs\attachments\m_hat_10_60s_elderly_nocenter.x hair
+
+random_hair_winter prefabs\attachments\m_hair_003_elderly_nocenter.x hair
+random_hair_winter prefabs\attachments\m_hair_003_elderly_nocenter.x hair
+random_hair_winter prefabs\attachments\m_hair_005_elderly_nocenter.x hair
+random_hair_winter prefabs\attachments\m_hair_005_elderly_nocenter.x hair
+random_hair_winter prefabs\attachments\m_hair_004_elderly_nocenter.x hair
+random_hair_winter prefabs\attachments\m_hair_004_elderly_nocenter.x hair
+random_hair_winter prefabs\attachments\hat_60s_002_elderly_nocenter.x hair
+random_hair_winter prefabs\attachments\m_hat_3_60s_elderly_nocenter.x hair
+random_hair_winter prefabs\attachments\m_hat_3_60s_elderly_nocenter.x hair
+random_hair_winter prefabs\attachments\m_hat_4_60s_elderly_nocenter.x hair
+random_hair_winter prefabs\attachments\m_hat_4_60s_elderly_nocenter.x hair
+random_hair_winter prefabs\attachments\flat_cap_elderly_nocenter.x hair
+
+random_hair_modern prefabs\attachments\m_hair_001_elderly_nocenter.x hair
+random_hair_modern prefabs\attachments\m_hair_002_elderly_nocenter.x hair
+random_hair_modern prefabs\attachments\m_hair_003_elderly_nocenter.x hair
+random_hair_modern prefabs\attachments\m_hair_004_elderly_nocenter.x hair
+random_hair_modern prefabs\attachments\m_hair_005_elderly_nocenter.x hair
+random_hair_modern prefabs\attachments\m_hair_006_elderly_nocenter.x hair
+random_hair_modern prefabs\attachments\m_hat_2_elderly_nocenter.x hair
+random_hair_modern prefabs\attachments\m_hat_8_elderly_nocenter.x hair
+random_hair_modern prefabs\attachments\m_hat_9_elderly_nocenter.x hair
+random_hair_modern prefabs\attachments\m_hat_11_elderly_nocenter.x hair
+random_hair_modern prefabs\attachments\m_hat_8_elderly_nocenter.x hair
+
+random_hair_modern_winter prefabs\attachments\m_hair_001_elderly_nocenter.x hair
+random_hair_modern_winter prefabs\attachments\m_hair_002_elderly_nocenter.x hair
+random_hair_modern_winter prefabs\attachments\m_hair_003_elderly_nocenter.x hair
+random_hair_modern_winter prefabs\attachments\m_hair_004_elderly_nocenter.x hair
+random_hair_modern_winter prefabs\attachments\m_hair_005_elderly_nocenter.x hair
+random_hair_modern_winter prefabs\attachments\m_hair_006_elderly_nocenter.x hair
+random_hair_modern_winter prefabs\attachments\m_hat_2_elderly_nocenter.x hair
+random_hair_modern_winter prefabs\attachments\m_hat_5_elderly_nocenter.x hair
+random_hair_modern_winter prefabs\attachments\m_hat_5_elderly_nocenter.x hair
+random_hair_modern_winter prefabs\attachments\m_hat_7_elderly_nocenter.x hair
+random_hair_modern_winter prefabs\attachments\m_hat_7_elderly_nocenter.x hair
+random_hair_modern_winter prefabs\attachments\m_hat_11_elderly_nocenter.x hair
+random_hair_modern_winter prefabs\attachments\m_hat_4_60s_elderly_nocenter.x hair
+random_hair_modern_winter prefabs\attachments\m_hat_3_60s_elderly_nocenter.x hair
+
+
+
+// GLASSES
+// random_attachment prefabs\attachments\eyewear_001_nocenter.X eyewear
+// random_attachment prefabs\attachments\eyewear_002_nocenter.X eyewear
+// random_attachment prefabs\attachments\eyewear_003_nocenter.X eyewear
+// random_attachment prefabs\attachments\eyewear_004_nocenter.X eyewear
+// random_attachment prefabs\attachments\eyewear_005_nocenter.X eyewear
+
+
+random_attachment prefabs\attachments\belt_axe_nocenter.x belt
+// random_attachment prefabs\attachments\eyewear_60s_001_nocenter.X eyewear
+// random_attachment prefabs\attachments\eyewear_60s_003_nocenter.X eyewear
+// random_attachment prefabs\attachments\no_eyewear_nocenter.X eyewear
+
+
+
+
+
+
+
+// class 0 - boots
+clothes 0 prefabs\models\clothes\man\class0_boots\m_slips_on_001_60s.X
+clothes_winter 0 prefabs\models\clothes\Man\class0_boots\m_boots_001_60s.X
+clothes_modern 0 prefabs\models\clothes\man\class0_boots\m_slips_on_001.X
+clothes_modern_winter 0 prefabs\models\clothes\Man\class0_boots\m_boots_001.X
+
+
+
+// class 1 - pants
+clothes 1 prefabs\models\clothes\man\class1_pants\m_pants_pockets_001.X
+clothes_winter 1 prefabs\models\clothes\man\class1_pants\m_pants_pockets_002.X
+clothes_modern 1 prefabs\models\clothes\man\class1_pants\m_pants_pockets_001.X
+clothes_modern_winter 1 prefabs\models\clothes\man\class1_pants\m_pants_pockets_002.X
+
+
+
+// class 2 - shirts
+clothes 2 prefabs\models\clothes\man\class2_shirts\m_sweater_zip_001.X
+clothes_winter 2 prefabs\models\clothes\man\class2_shirts\m_jacket_moro_5_60s.X
+clothes_modern 2 prefabs\models\clothes\man\class2_shirts\m_sweater_zip_001.X
+clothes_modern_winter 2 prefabs\models\clothes\man\class2_shirts\m_jacket_moro_5_60s.X
+
+
+// class 3 - beard
+
+
+
+
+
+
+// animations
+
+phase f3
+animation h_stand_to_sit
+on_end f3a
+
+phase f3a
+animation h_sit
+on_end f3b
+
+phase f3b
+animation h_sit_to_stand
+on_end f3
+
+
+
+
+phase idle
+animation m_idle1
+on_end idle
+
+
+phase walk
+animation m_walk
+on_end walk
+
+
+
+phase talk
+animation m_speak1
+animation m_speak2
+animation m_speak3
+animation m_listen1
+animation m_listen2
+animation m_listen3
+animation m_listen4
+animation m_listen5
+on_end talk
+
+
+
+phase talking_head
+animation m_talking_head
+on_end talking_head
+
+

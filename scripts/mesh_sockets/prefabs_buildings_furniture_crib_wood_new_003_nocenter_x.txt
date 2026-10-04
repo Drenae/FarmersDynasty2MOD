@@ -1,0 +1,2 @@
+mesh_filename prefabs\buildings\furniture\crib_wood_new_003_nocenter.x
+socket child 0.000000 0.200000 0.300000

@@ -1,0 +1,209 @@
+// definiuje kolejne prefaby (stopnie przebudowy), w grze moze byc wlozony dowolny, ale musza byc unikalne dla danego setu
+// part <id_warstwy> <id_materialu> <klucz_text_keys_z_opisem> <sciezka\prefab>
+// -1 jako indeks materialu oznacza ten sam material, ale nie budowe tylko naprawe, czyli przejscie z polamanych na naprostowane deski BEZ kupowania desek.
+
+
+
+// niebisekie
+
+part 0 15 MAT15 prefabs\Buildings\barns\bn_bitumen_old_roof_top_1_1_nocenter.X
+part 1 -1  MAT13 prefabs\Buildings\barns\bn_bitumen_fixed_roof_top_1_1_nocenter.X
+
+part 2 15 MAT15 prefabs\Buildings\barns\bn_bitumen_old_roof_top_2_1_nocenter.X
+part 3 -1  MAT13 prefabs\Buildings\barns\bn_bitumen_fixed_roof_top_2_1_nocenter.X
+
+part 4 15 MAT15 prefabs\Buildings\barns\bn_bitumen_old_roof_top_3_1_nocenter.X
+part 5 -1  MAT13 prefabs\Buildings\barns\bn_bitumen_fixed_roof_top_3_1_nocenter.X
+
+part 6 15 MAT15 prefabs\Buildings\barns\bn_bitumen_old_roof_top_4_1_nocenter.X
+part 7 -1  MAT13 prefabs\Buildings\barns\bn_bitumen_fixed_roof_top_4_1_nocenter.X
+
+
+
+part 8 15 MAT15 prefabs\Buildings\barns\bn_bitumen_old_roof_middle_1_1_nocenter.X
+part 9 -1  MAT13 prefabs\Buildings\barns\bn_bitumen_fixed_roof_middle_1_1_nocenter.X
+
+part 10 15 MAT15 prefabs\Buildings\barns\bn_bitumen_old_roof_middle_2_1_nocenter.X
+part 11 -1  MAT13 prefabs\Buildings\barns\bn_bitumen_fixed_roof_middle_2_1_nocenter.X
+
+part 12 15 MAT15 prefabs\Buildings\barns\bn_bitumen_old_roof_middle_3_1_nocenter.X
+part 13 -1  MAT13 prefabs\Buildings\barns\bn_bitumen_fixed_roof_middle_3_1_nocenter.X
+
+part 14 15 MAT15 prefabs\Buildings\barns\bn_bitumen_old_roof_middle_4_1_nocenter.X
+part 15 -1  MAT13 prefabs\Buildings\barns\bn_bitumen_fixed_roof_middle_4_1_nocenter.X
+
+
+
+part 16 15 MAT15 prefabs\Buildings\barns\bn_bitumen_old_roof_bottom_1_1_nocenter.X
+part 17 -1  MAT13 prefabs\Buildings\barns\bn_bitumen_fixed_roof_bottom_1_1_nocenter.X
+
+part 18 15 MAT15 prefabs\Buildings\barns\bn_bitumen_old_roof_bottom_2_1_nocenter.X
+part 19 -1  MAT13 prefabs\Buildings\barns\bn_bitumen_fixed_roof_bottom_2_1_nocenter.X
+
+part 20 15 MAT15 prefabs\Buildings\barns\bn_bitumen_old_roof_bottom_3_1_nocenter.X
+part 21 -1  MAT13 prefabs\Buildings\barns\bn_bitumen_fixed_roof_bottom_3_1_nocenter.X
+
+part 22 15 MAT15 prefabs\Buildings\barns\bn_bitumen_old_roof_bottom_4_1_nocenter.X
+part 23 -1  MAT13 prefabs\Buildings\barns\bn_bitumen_fixed_roof_bottom_4_1_nocenter.X
+
+
+
+part 24 15 MAT15 prefabs\Buildings\barns\bn_bitumen_old_roof_edge_1_1_nocenter.X
+part 25 -1  MAT13 prefabs\Buildings\barns\bn_bitumen_fixed_roof_edge_1_1_nocenter.X
+
+part 26 15 MAT15 prefabs\Buildings\barns\bn_bitumen_old_roof_edge_2_1_nocenter.X
+part 27 -1  MAT13 prefabs\Buildings\barns\bn_bitumen_fixed_roof_edge_2_1_nocenter.X
+
+part 28 15 MAT15 prefabs\Buildings\barns\bn_bitumen_old_roof_edge_3_1_nocenter.X
+part 29 -1  MAT13 prefabs\Buildings\barns\bn_bitumen_fixed_roof_edge_3_1_nocenter.X
+
+
+
+
+//eternit
+
+part 30 14 MAT14 prefabs\Buildings\barns\bn_bitumen_old_roof_4_1_nocenter.X
+part 31 -1  MAT13 prefabs\Buildings\barns\bn_bitumen_fixed_roof_4_1_nocenter.X
+
+part 32 14 MAT14 prefabs\Buildings\barns\bn_bitumen_old_roof_4_2_nocenter.X
+part 33 -1  MAT13 prefabs\Buildings\barns\bn_bitumen_fixed_roof_4_2_nocenter.X
+
+part 34 14 MAT14 prefabs\Buildings\barns\bn_bitumen_old_roof_4_3_nocenter.X
+part 35 -1  MAT13 prefabs\Buildings\barns\bn_bitumen_fixed_roof_4_3_nocenter.X
+
+part 36 14 MAT14 prefabs\Buildings\barns\bn_bitumen_old_roof_4_4_nocenter.X
+part 37 -1  MAT13 prefabs\Buildings\barns\bn_bitumen_fixed_roof_4_4_nocenter.X
+
+
+
+// niewidzialne i papa
+
+part 38 26 MAT26 prefabs\Buildings\barns\bn_bitumen_fixed_roof_7_1_nocenter.X
+part 48 -1 MAT26 prefabs\buildings\barns\bn_stretch_fixed_roof_7_1_nocenter.x
+
+part 49 26 MAT26 prefabs\buildings\barns\bn_bitumen_fixed_roof_7_2_nocenter.x
+part 50 -1 MAT26 prefabs\buildings\barns\bn_stretch_fixed_roof_7_2_nocenter.x
+
+part 51 26 MAT26 prefabs\buildings\barns\bn_bitumen_fixed_roof_7_3_nocenter.x
+part 52 -1 MAT26 prefabs\buildings\barns\bn_stretch_fixed_roof_7_3_nocenter.x
+
+
+//nowe
+
+// bitumen
+part 39 13 MAT13 prefabs\Buildings\barns\bn_bitumen_fixed_roof_1_1_nocenter.X
+
+// green metal
+part 40 15 MAT15 prefabs\buildings\barns\bn_metal_new_roof_2_nocenter.x
+part 41 15 MAT15 prefabs\buildings\barns\bn_metal_new_roof_2_nocenter.x
+
+// red shingle
+part 42 14  MAT14 prefabs\buildings\barns\bn_shingle_new_roof_1_nocenter.x
+part 43 14  MAT14 prefabs\buildings\barns\bn_shingle_new_roof_1_nocenter.x
+part 44 14  MAT14 prefabs\buildings\barns\bn_shingle_new_roof_1_nocenter.x
+part 45 14  MAT14 prefabs\buildings\barns\bn_shingle_new_roof_1_nocenter.x
+
+// red ceramic
+part 46 16 MAT16 prefabs\buildings\barns\bn_ceramic_new_roof_3_nocenter.x
+
+// tin roof
+part 47 17 MAT17 prefabs\buildings\barns\bn_tin_new_roof_4_nocenter.x
+
+
+
+
+part 53 15 MAT15 prefabs\Buildings\barns\bn_bitumen_new_roof_1_1_nocenter.X
+part 54 15 MAT15 prefabs\Buildings\barns\bn_bitumen_new_roof_2_1_nocenter.X
+
+part 55 15  MAT14 prefabs\Buildings\barns\bn_bitumen_fixed_roof_3_1_nocenter.X
+part 56 15  MAT14 prefabs\Buildings\barns\bn_bitumen_fixed_roof_3_2_nocenter.X
+part 57 15  MAT14 prefabs\Buildings\barns\bn_bitumen_fixed_roof_3_3_nocenter.X
+part 58 15  MAT14 prefabs\Buildings\barns\bn_bitumen_fixed_roof_3_4_nocenter.X
+
+
+part 59 16 MAT16 prefabs\Buildings\barns\bn_bitumen_fixed_roof_5_1_nocenter.X
+
+part 60 17 MAT17 prefabs\Buildings\barns\bn_bitumen_fixed_roof_6_1_nocenter.X
+
+
+
+
+
+
+
+
+
+
+// i teraz dla danego elementu definiujemy w ktory moze przejsc
+// pierwszy parametr to ktorego tyczy sie definicja, nastepne - w ktore moze byc zmieniony
+
+path 0   1 39 40 42 46 47
+path 1   39 40 42 46 47
+path 2   3 39 41 43 46 47
+path 3   39 41 43 46 47
+path 4   5 39 40 44 46 47
+path 5   39 40 44 46 47
+path 6   7 39 41 45 46 47
+path 7   39 41 45 46 47
+path 8   9 39 40 42 46 47
+path 9   39 40 42 46 47
+path 10   11 39 41 43 46 47
+path 11   39 41 43 46 47
+path 12   13 39 40 44 46 47
+path 13   39 40 44 46 47
+path 14   15 39 41 45 46 47
+path 15   39 41 45 46 47
+path 16   17 39 40 42 46 47
+path 17   39 40 42 46 47
+path 18   19 39 41 43 46 47
+path 19   39 41 43 46 47
+path 20   21 39 40 44 46 47
+path 21   39 40 44 46 47
+path 22   23 39 41 45 46 47
+path 23   39 41 45 46 47
+path 24   25 39 40 42 46 47
+path 25   39 40 42 46 47
+path 26   27 39 41 43 46 47
+path 27   39 41 43 46 47
+path 28   29 39 40 44 46 47
+path 29   39 40 44 46 47
+
+path 30   31 39 40 42 46 47
+path 31   39 40 42 46 47
+path 32   33 39 41 43 46 47
+path 33   39 41 43 46 47
+path 34   35 39 40 44 46 47
+path 35   39 40 44 46 47
+path 36   37 39 41 45 46 47
+path 37   39 41 45 46 47
+
+path 38   39 40 42 46 47 48
+path 39   40 42 46 47
+path 40   39 43 46 47
+path 41   39 44 46 47
+path 42   39 40 46 47
+path 43   39 41 46 47
+path 44   39 40 46 47
+path 45   39 41 46 47
+
+path 46   39 40 42 47
+path 47   39 41 43 46
+
+path 48   39 40 42 46 47
+
+path 49   39 40 42 46 47 50
+path 50   39 40 42 46 47
+
+path 51   39 40 42 46 47 52
+path 52   39 40 42 46 47
+
+path 53   39 40 42 46 47
+path 54   39 40 42 46 47
+path 55   39 40 42 46 47
+path 56   39 40 42 46 47
+path 57   39 40 42 46 47
+path 58   39 40 42 46 47
+path 59   39 40 42 46 47
+path 60   39 40 42 46 47
+
+

@@ -1,0 +1,33 @@
+
+// nazwa questa, unikalna i wymagana
+name The_landlord
+icon hud_map_job.dds
+given_by_icon actor_unknown_social.dds
+
+title OB68
+initial_waypoint farm_repair_marker
+initial_objective OB69
+given_by jeremy1
+
+social_award 2
+
+wait 0.1 -waypoint * -checkpoint 10
+
+//napraw se calutkie gospodarstwo
+wait 1 -waypoint farm_repair_marker -checkpoint 20
+wait_repair_building farm_windmill -checkpoint 40
+wait_repair_building farm_henhouse -checkpoint 60
+wait_repair_building farm_barn -checkpoint 80
+set_achievment FD2_ACH_09
+wait_repair_building farm_silo -checkpoint 100
+wait_repair_building farm_cowshed -checkpoint 120
+wait_repair_building farm_greenhouse -checkpoint 140
+wait_repair_building farm_garage -checkpoint 160
+wait_repair_building farm_house -checkpoint 180
+wait 1 -waypoint * -checkpoint 200
+
+set_achievment FD2_ACH_29
+print koniec_questa_the_landlord
+wait 1
+
+

@@ -1,0 +1,87 @@
+
+// nazwa questa, unikalna i wymagana
+name Jeremy_meet
+icon hud_map_social.dds
+given_by_icon actor_unknown_man.dds
+
+title OB25
+initial_waypoint jeremy1
+initial_objective OB26
+given_by jeremy1
+
+// gdy startuje ten quest, niech bedzie sledzony
+focus_on_start
+
+tutorial
+
+social_award 1
+
+wait 0.1 -waypoint * -checkpoint 10
+
+//idziemy na farme 3, dialog z dziadkiem
+goto jeremy1 -distance 5 -waypoint jeremy1 -checkpoint 20
+wait 0.1 -waypoint *
+hero_dialog jeremy1_dialog1 jeremy1
+wait_end_hero_dialog
+wait 1 -checkpoint 30
+
+//dziadek uczy czopac drzewa siekierom
+wait 1 -checkpoint 40
+unlock_perk forester00
+set_chapter_var 8
+allow_field_work field_158
+wait 1 -checkpoint 50
+
+//scinamy sosne
+wait 1 -waypoint jeremy_pine_marker -objective OB27 -checkpoint 60
+wait_cut_tree jeremy_pine -checkpoint 70
+set_chapter_var 9
+wait 0.1 -waypoint * -checkpoint 80
+
+//scinamy choinke
+//wait 1 -waypoint jeremy_spruce_marker -checkpoint 90
+//wait_cut_tree jeremy_spruce -checkpoint 100
+//wait 0.1 -waypoint * -checkpoint 110
+
+//naczopac drewna dziadkowi
+wait 1 -playerhas firewood 30 -objective OB27 -checkpoint 120
+
+//wracamy z drewnem, dialog z dziadkiem
+goto jeremy1 -distance 5 -waypoint jeremy1 -objective OB28 -checkpoint 130 -playerhas firewood 30
+wait 0.1 -waypoint *
+hero_dialog jeremy1_dialog2 jeremy1
+take_from_player firewood 20
+forbid_field_work field_158
+wait_end_hero_dialog
+set_chapter_var 10
+wait 1 -checkpoint 150
+//dziadek uczy ostrzenia siekiery
+unlock_perk mechanic02
+start_quest Repair_windmill
+
+//naprawiamy dziadkowi kurnik
+wait 1 -waypoint neighbor_henhouse_003 -objective OB32 -checkpoint 160
+wait_repair_building neighbor_henhouse_003 -checkpoint 170
+
+//wracamy po naprawieniu kurnika, dialog z dziadkiem
+goto jeremy1 -distance 5 -waypoint jeremy1 -objective OB33 -checkpoint 180
+wait 0.1 -waypoint *
+hero_dialog jeremy1_dialog3 jeremy1
+wait_end_hero_dialog
+give_bird_food 0.5
+//set_phase jeremy1 bot
+wait 1 -checkpoint 190
+
+likes_player jeremy1 0.25
+wait 0.5
+print koniec_questa_jeremy_meet
+wait 0.5
+
+start_quest Hen_owner
+
+
+
+
+
+
+

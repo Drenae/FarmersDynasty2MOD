@@ -1,0 +1,2 @@
+mesh_filename prefabs\vehicles\baler_cm\knives_nocenter.x
+socket piston -0.140000 0.010000 0.320000

@@ -1,0 +1,110 @@
+Vehicle >plough_MA3
+prefab prefabs\vehicles\plough_ma3\plough_ma3_nocenter.x
+Mass 500.0
+Stiffness 10
+
+spawn_id 39
+
+tag >MT05
+
+renew_and_paint
+color 0.843 0.219 0.223
+
+plug
+price 28000
+przyczepa
+invert_groove
+working_width 3.5
+add_when_loose 0.125
+furrows_attachment 1
+
+
+
+
+// COLLISION MESH
+
+
+// collision_mesh prefabs\vehicles\plough_ma3\physics_plough_ma3_nocenter.x
+
+
+// pScaleZ
+mnoznik_fizyki_z 0.9
+// pScaleY
+mnoznik_fizyki_y 0.45
+// pScaleX
+mnoznik_fizyki_x 0.6
+
+// pTransZ
+przesuniecie_fizyki_przod 0.2
+// pTransY
+przesuniecie_fizyki_gora 0.3
+// pTransX
+przesuniecie_fizyki_prawo 0.0
+
+
+
+
+
+
+
+// HOOKS
+zaczep3p zaczep3p
+zaczep3pgora zaczep3pgora
+mnoznik_kata_na_3p_gora 5
+
+// zmienia wysokosc podniesienia 3p w fazie opuszczonej
+// mnoznik_podniesienia_na_3p_dol -0.1
+additional_lift_3p_when_up 0.3
+additional_lift_3p_when_down 0.1
+
+
+// PLOUGH
+
+// furrows (1)
+attachment prefabs\vehicles\plough_ma3\furrows_nocenter.x furrows
+
+// support leg (2)
+attachment prefabs\vehicles\plough_ma3\support_leg_nocenter.x 1 0.02 0.3
+
+// support wheel arm (3)
+plough_support_wheel_arm
+attachment prefabs\vehicles\plough_ma3\support_wheel_nocenter.x support_wheel 1
+
+// wheel (4)
+plough_wheel
+attachment_wheel prefabs\vehicles\plough_ma3\wheel_nocenter.x wheel 3
+
+
+
+
+// PISTONS
+// piston <prefab> <nr_attachmentu> <socket> <nr_attachmentu_docelowego> <socket_docelowy> <rotacja po osi R F U>
+
+piston prefabs\vehicles\plough_ma3\piston2_nocenter.x 0 p1 1 p2 R
+piston prefabs\vehicles\plough_ma3\piston3_nocenter.x 1 p2 0 p1 R
+// piston prefabs\vehicles\plough_ma3\piston1_nocenter.x 1 p3 3 p4
+
+
+
+
+// ANIM FX
+// attachment_anim_fx <prefab> <socket> [<attachment do przyczepienia lub 0>] [<mnoznik predkosci przesuwu gibania - 1 domyslnie>] [<mnoznik gibania animacji - 1 domyslnie>] [<mnoznik predkosci przesuwu tekstury - 1 domyslnie>]
+// attachment_anim_fx prefabs\vehicles\plough_ma3\plow_anim_ground_nocenter.X fx2 1 0.5 0.5
+
+
+// WORKING_FX <nazwa_fx> <socket> [<numer_attachmentu>] [<czy_jak_plug_obrocony>] [<prefab_spod_ziemi>] [<mnoznik_predkosci_przesuwu_tekstury>]
+working_fx fx_plow_dust01 fx0 1 0 prefabs\vehicles\plough_ma3\chunk_nocenter.x 0.11
+working_fx fx_plow_dust01 fx1 1 0 prefabs\vehicles\plough_ma3\chunk_nocenter.x 0.12
+working_fx fx_plow_dust01 fx2 1 0 prefabs\vehicles\plough_ma3\chunk_nocenter.x 0.115
+working_fx fx_plow_dust01 fx3 1 0 prefabs\vehicles\plough_ma3\chunk_nocenter.x 0.135
+working_fx fx_plow_dust01 fx4 1 0 prefabs\vehicles\plough_ma3\chunk_nocenter.x 0.1125
+working_fx fx_plow_dust01 fx5 1 1 prefabs\vehicles\plough_ma3\chunk_nocenter.x 0.11
+
+
+
+
+
+
+// SOUNDS
+// sound_cmd3_on sounds\vehicles\plough1.wav
+

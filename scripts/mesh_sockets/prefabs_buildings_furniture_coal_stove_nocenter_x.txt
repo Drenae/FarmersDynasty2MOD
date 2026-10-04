@@ -1,0 +1,2 @@
+mesh_filename prefabs\buildings\furniture\coal_stove_nocenter.x
+socket fire -0.026000 -0.253000 0.803000

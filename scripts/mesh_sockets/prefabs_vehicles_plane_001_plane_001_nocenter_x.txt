@@ -1,0 +1,5 @@
+mesh_filename prefabs\vehicles\plane_001\plane_001_nocenter.x
+socket kierowca -0.020000 1.660000 1.400000
+socket fx0 -3.000000 1.000000 1.000000
+socket fx1 3.000000 1.000000 1.000000
+socket rotor 0.000000 4.000000 1.680000

@@ -1,0 +1,114 @@
+Vehicle >manure_spreader_k13
+prefab prefabs\vehicles\manure_spreader_13k\manure_spreader_13k_nocenter.x
+Mass 1200.0
+Stiffness 10
+
+spawn_id 34
+
+tag >MT03
+
+
+renew_and_paint
+
+przyczepa
+nawoz
+price 23900
+dung
+grain_capacity 13000
+zaczep_tylko_do_traktora
+
+hak zaczep
+// pto pto
+// zaczep_do_hak_gorny
+reverse_fold_panel_info
+
+
+// old_tractors_can_attach
+
+
+// COLLISION MESH
+
+// pScaleY
+mnoznik_fizyki_y 0.6
+// pScaleZ
+mnoznik_fizyki_z 0.8
+// pScaleX
+mnoznik_fizyki_x 0.7
+
+// pTransY
+przesuniecie_fizyki_gora 1.0
+// pTransZ
+przesuniecie_fizyki_przod -0.2
+// pTransX
+przesuniecie_fizyki_prawo 0.0
+
+
+// LID (1)
+attachment prefabs\vehicles\manure_spreader_13k\lid_nocenter.x lid
+
+
+// SUPPORT LEG (2)
+attachment_stopka prefabs\vehicles\manure_spreader_13k\support_leg_nocenter.x support_leg 0.1 0.5
+
+
+
+
+// WHEELS
+// wheel_invisible prefabs\vehicles\manure_spreader_old\wheel_fake_nocenter.X wheel_fake
+
+wheel  prefabs\vehicles\manure_spreader_13k\wheel_right_nocenter.x wheel_right
+wheel  prefabs\vehicles\manure_spreader_13k\wheel_left_nocenter.x wheel_left
+
+
+
+// WORKING FX
+working_fx afx_sianie fx0
+working_fx fx_plow_dust01 fx1
+working_fx afx_sianie fx2
+
+
+
+// ANIM FX
+// attachment_anim_fx <prefab> <socket> [<attachment do przyczepienia lub 0>] [<mnoznik predkosci przesuwu gibania - 1 domyslnie>] [<mnoznik gibania animacji - 1 domyslnie>] [<mnoznik predkosci przesuwu tekstury - 1 domyslnie>]
+attachment_anim_fx  prefabs\vehicles\manure_spreader_13k\manure_nocenter.x anim_dump 0 1 0.3 0.5
+
+
+
+// LIGHTS
+
+attachment_light prefabs\vehicles\manure_spreader_13k\lamp1_nocenter.X light1
+attachment_name swiatlo_lt1
+swiatlo_tyl lt1
+swiatlo_z swiatlo_lt1
+
+attachment_light prefabs\vehicles\manure_spreader_13k\lamp2_nocenter.X light2
+attachment_name swiatlo_lt2
+swiatlo_tyl lt2
+swiatlo_z swiatlo_lt2
+
+attachment_light prefabs\vehicles\manure_spreader_13k\lamp3_nocenter.X light3
+attachment_name swiatlo_lt3
+swiatlo_tyl lt3
+swiatlo_z swiatlo_lt3
+
+attachment_light prefabs\vehicles\manure_spreader_13k\lamp4_nocenter.X light4
+attachment_name swiatlo_lt4
+swiatlo_tyl lt4
+swiatlo_z swiatlo_lt4
+
+
+
+
+attachment_light prefabs\vehicles\manure_spreader_13k\lamp5_nocenter.X light5
+attachment_name swiatlo_lc1
+swiatlo_cofania lc1
+swiatlo_z swiatlo_lc1
+
+attachment_light prefabs\vehicles\manure_spreader_13k\lamp6_nocenter.X light6
+attachment_name swiatlo_lc2
+swiatlo_cofania lc2
+swiatlo_z swiatlo_lc2
+
+
+
+

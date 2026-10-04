@@ -1,0 +1,52 @@
+Vehicle >header_e10_cereal
+prefab prefabs\vehicles\header_e10\header_e10_cereal_nocenter.x
+Mass 300.0
+Stiffness 10
+
+spawn_id 11
+
+tag >MT04
+
+
+
+price 11500
+
+Kombajn_id 2
+
+renew_and_paint
+color 0.335 0.453 0.320
+
+
+heder
+standard_heder
+add_when_loose 0.0
+
+// kolejnosc attachmentow jest wazna! - helix, knives, reel
+
+attachment prefabs\vehicles\header_e10\header_e10_helix_nocenter.x helix
+attachment prefabs\vehicles\header_e10\header_e10_knives_nocenter.x knives
+attachment prefabs\vehicles\header_e10\header_e10_reel_nocenter.x reel
+
+
+
+
+// COLLISION MESH
+
+// pScaleY
+mnoznik_fizyki_y 0.5
+// pScaleZ
+mnoznik_fizyki_z 0.68
+// pScaleX
+mnoznik_fizyki_x 0.9
+
+// pTransY
+przesuniecie_fizyki_gora 0.7
+// pTransZ
+przesuniecie_fizyki_przod 0.1
+// pTransX
+przesuniecie_fizyki_prawo 0.0 
+
+
+
+// SOUNDS
+working_sound sfx\vehicles\header.wav

@@ -1,0 +1,54 @@
+Vehicle >header_mf40_corn
+prefab prefabs\vehicles\header_old_mf41_corn\header_old_mf41_corn_nocenter.x
+Mass 40.0
+Stiffness 10
+
+spawn_id 16
+
+tag >MT27
+
+price 4500
+
+
+Kombajn_id 1
+
+
+corn
+
+heder
+standard_heder
+add_when_loose 0.1
+
+
+// kolejnosc attachmentow jest wazna! - helix, knives, reel
+
+attachment prefabs\vehicles\header_old_mf41_corn\helix_nocenter.x helix
+// attachment prefabs\vehicles\header_old_mf41_corn\knives_nocenter.x knives
+
+
+renew_and_paint
+repairable header_old_MF41_corn.dds header_old_MF41_corn_repaired.dds
+color 0.8 0.39 0.32
+
+
+// COLLISION MESH
+
+// pScaleY
+mnoznik_fizyki_y 0.6
+// pScaleZ
+mnoznik_fizyki_z 0.79
+// pScaleX
+mnoznik_fizyki_x 0.9
+
+// pTransY
+przesuniecie_fizyki_gora 0.7
+// pTransZ
+przesuniecie_fizyki_przod 0.4
+// pTransX
+przesuniecie_fizyki_prawo 0.0
+
+
+
+
+// SOUNDS
+working_sound sfx\vehicles\header.wav

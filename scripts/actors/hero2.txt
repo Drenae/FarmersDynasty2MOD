@@ -1,0 +1,101 @@
+actor hero2
+
+default_phase idle
+model prefabs\models\hero2\hero2.X
+
+socket_eyes oczy
+
+contact_distance 8
+contact_angle 50
+
+
+rotate_180 
+
+voice 1
+
+
+// Dialog anims
+
+// animacje idle calego ciala do dialogow (NPC z NPC, NPC z graczem), max 8
+dialog_anim_idle m_listen1
+dialog_anim_idle m_listen2
+dialog_anim_idle m_listen3
+dialog_anim_idle m_listen4
+dialog_anim_idle m_listen5
+
+// animacje mowi do dialogow (NPC z NPC, NPC z graczem), max 8
+dialog_anim_talk m_speak1
+dialog_anim_talk m_speak2
+dialog_anim_talk m_speak3
+
+
+// animacje (tylko glowa) gada do dialogow (NPC z NPC, NPC z graczem), max 8
+dialog_anim_talk_head m_talking_head
+
+
+
+
+random_hair prefabs\attachments\m_hair_004_nocenter.X hair
+random_hair prefabs\attachments\m_hair_004_nocenter.X hair
+random_hair prefabs\attachments\m_hair_004_nocenter.X hair
+random_hair prefabs\attachments\m_hair_004_nocenter.X hair
+random_hair prefabs\attachments\m_hair_004_nocenter.X hair
+random_hair prefabs\attachments\m_hair_004_nocenter.X hair
+random_hair prefabs\attachments\m_hair_004_nocenter.X hair
+random_hair prefabs\attachments\m_hair_004_nocenter.X hair
+random_hair prefabs\attachments\m_hair_004_nocenter.X hair
+random_hair prefabs\attachments\m_hair_004_nocenter.X hair
+random_hair prefabs\attachments\m_hair_004_nocenter.X hair
+random_hair prefabs\attachments\m_hair_004_nocenter.X hair
+random_hair prefabs\attachments\m_hair_004_nocenter.X hair
+random_hair prefabs\attachments\m_hair_004_nocenter.X hair
+random_hair prefabs\attachments\m_hair_004_nocenter.X hair
+random_hair prefabs\attachments\m_hair_004_nocenter.X hair
+
+
+
+
+// class 0 - boots
+skinmesh_attachment 0 prefabs\models\clothes\Man\class0_boots\m_basket_shoes_001.X
+
+// class 1 - pants
+// skinmesh_attachment 1 prefabs\models\clothes\hero\class1_pants\h_overalls_001.X
+// skinmesh_attachment 1 prefabs\models\clothes\man\class1_pants\m_slim_jeans_001.X
+skinmesh_attachment 1 prefabs\models\clothes\man\class1_pants\m_pants_pockets_001.X
+
+
+// class 2 - shirts
+skinmesh_attachment 2 prefabs\models\clothes\hero\class2_shirts\h_flannel_001.X
+
+
+// class 3 - beard
+
+
+
+
+
+
+
+// animations
+
+
+
+
+phase idle
+animation m_idle1
+on_end idle
+
+
+phase walk
+animation m_walk
+on_end walk
+
+
+phase talk
+animation m_talk1
+on_end talk
+
+
+
+
+

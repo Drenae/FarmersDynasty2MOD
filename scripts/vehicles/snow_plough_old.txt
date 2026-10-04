@@ -1,0 +1,96 @@
+Vehicle >snow_plough_old
+prefab prefabs\vehicles\snow_plough_old\snow_plough_old_nocenter.X
+Mass 300.0
+Stiffness 10
+
+spawn_id 25
+
+tag >MT32
+
+
+
+price 700
+przyczepa
+//plant_on_unfold
+//reverse_fold
+//reverse_fold_panel_info
+
+// HOOKS
+
+// front3p
+// zaczep_front3p zaczep_przod
+zaczep3p zaczep3p
+zaczep3pgora zaczep3pgora
+// hak zaczep
+// zaczep_do_hak_gorny
+// hak_tyl zaczep_tyl
+
+old_tractors_can_attach
+
+
+renew_and_paint
+repairable snow_plough.dds snow_plough_repaired.dds
+color 0.58 0.41 0.20
+
+
+
+// COLLISION MESH
+
+// pScaleZ
+mnoznik_fizyki_z 0.82
+// pScaleY
+mnoznik_fizyki_y 0.5
+// pScaleX
+mnoznik_fizyki_x 3.5
+
+// pTransZ
+przesuniecie_fizyki_przod 0.59
+// pTransY
+przesuniecie_fizyki_gora -0.05
+// pTransX
+przesuniecie_fizyki_prawo -0.08
+
+
+// !!!!!!!!!!!powinna być fizyka ponizej, zapada sie pod ziemie.
+
+// collision_mesh prefabs\vehicles\snow_plough_old\PHYSCIS_snow_plough_old_nocenter.X
+
+
+
+
+
+// rotor (1)
+attachment prefabs\vehicles\snow_plough_old\rotor_nocenter.X rotor
+
+
+// plough (2)
+// !!!!!!!!!!!powinno byc reczne opuszczanie/podnoszenie 	rotate_cmd4 20 Y
+
+attachment prefabs\vehicles\snow_plough_old\plough_nocenter.X plough 1
+
+
+// support leg (3) 
+
+// !!!!!!!!!!!powinno być doczepione do attachmentu 1
+attachment_stopka prefabs\vehicles\snow_plough_old\support_leg_nocenter.X support_leg 0.00 0.20
+
+
+
+// LIGHTS
+
+// !!!!!!!!!!!powinno być doczepione do attachmentu 2
+
+attachment_light prefabs\vehicles\snow_plough_old\lamp1_nocenter.X light1 2
+attachment_name swiatlo_pp
+swiatlo_przod lp1 1
+swiatlo_z swiatlo_pp
+
+
+// WORKING_FX <nazwa_fx> <socket> [<numer_attachmentu>] [<czy_jak_plug_obrocony>] [<prefab_spod_ziemi>] [<mnoznik_predkosci_przesuwu_tekstury>]
+// working_fx fx_snow_dust01 fx0 0 0 prefabs\vehicles\snow_plough_old\chunk_fake_nocenter.X 0.22
+// working_fx fx_snow_dust01 fx1
+// working_fx fx_snow_dust01 fx2
+
+
+
+

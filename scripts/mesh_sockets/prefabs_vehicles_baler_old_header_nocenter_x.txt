@@ -1,0 +1,3 @@
+mesh_filename prefabs\vehicles\baler_old\header_nocenter.x
+socket reel1 0.035000 0.860000 -0.530000
+socket reel2 0.030000 0.230000 -0.240000

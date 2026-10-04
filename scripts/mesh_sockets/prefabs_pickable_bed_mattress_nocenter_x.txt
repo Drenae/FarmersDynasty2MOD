@@ -1,0 +1,3 @@
+mesh_filename prefabs\pickable\bed_mattress_nocenter.x
+socket pillow 0.000000 0.660000 0.215000
+socket blanket -0.000000 -0.000000 0.190000

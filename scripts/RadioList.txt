@@ -1,0 +1,11 @@
+//
+// list of internet streaming radio stations
+// radio <lockit_name_key> <full internet address>
+//
+
+radio AA396 https://oreo.truckstopradio.co.uk/listen/truckstopradio/FD2
+radio AA397 https://simulatorradio.stream/
+radio AA398 https://radio.truckers.fm/
+radio AA399 https://radio.bigrig.fm/
+radio AA454 https://mira.streamerr.co/listen/hyperion_radio/farm.mp3
+radio AA505 http://157.15.225.250:8000/radio.mp3

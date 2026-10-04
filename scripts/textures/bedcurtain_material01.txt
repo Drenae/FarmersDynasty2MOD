@@ -1,0 +1,10 @@
+texture bedcurtain_material01.dds
+2sided
+animation_speed 1.000000
+appear_distance 0.000000
+normal sheets_detail01.dds
+normal_density 1.5000000
+metalness 0.100000
+glossiness 0.600000
+reflection_for_nonmetals 0.240000
+move_along_v 0.000000

@@ -1,0 +1,96 @@
+//
+// Dialog z dziadkiem
+//
+
+//Meet Jeremy
+// dzien dobry, naczopaj mje drewna
+hero_dialog jeremy1_dialog1
+actor DLQ02L01
+hero DLQ02L02
+actor DLQ02L03
+hero DLQ02L04
+actor DLQ02L05
+actor DLQ02L06
+hero DLQ02L07
+actor DLQ02L08
+hero DLQ02L09
+actor DLQ02L10
+actor DLQ02L11
+
+// naczopane, dzieki mordo, btw napraw se wiatrak, a mje napraw kurnik to dam ci worek jadla dla czikinuf
+hero_dialog jeremy1_dialog2
+hero DLQ02L12
+actor DLQ02L13
+hero DLQ02L14
+actor DLQ02L15
+actor DLQ02L16
+actor DLQ02L17
+actor DLQ02L18
+actor DLQ02L19
+
+// naprawilem ci kurnik, dzieki mordo, masz jadlo dla czikinuf, sobie tez kurnik napraw to dam ci czikiny
+hero_dialog jeremy1_dialog3
+hero DLQ02L20
+actor DLQ02L21
+actor DLQ02L22
+hero DLQ02L24
+
+//Hen owner
+// naprawilem se kurnik, supcio, masz tam jusz czikiny, ale koguta sam se ogarnij, a wgl masz tu jaje, daj Jackowi, no i idz do somsiadki sie przywitac
+hero_dialog jeremy1_dialog4
+hero DLQ02L25
+actor DLQ02L26
+hero DLQ02L27
+actor DLQ02L28
+hero DLQ02L29
+actor DLQ02L30
+actor DLQ02L31
+actor DLQ02L23
+actor DLQ02L33
+hero DLQ02L34
+actor DLQ02L35
+hero DLQ02L32
+
+//Expansion
+// dobrze ci idzie mlody, btw znalem Henia co tu mieszkał przed tobą, ale o tym pozniej, tera odwiedz staro babe ziolowa i te dwie dzemowe dziunie, ale jak wolisz stukac mlotkiem, orac pole na traktore i doic krowy to tez spoko, btw masz tu obrazek Henia, mozesz zajrzec w przyszlosc
+hero_dialog jeremy1_dialog5
+hero DLQ09L01
+actor DLQ09L02
+actor DLQ09L03
+actor DLQ09L04
+actor DLQ09L05
+hero DLQ09L06
+actor DLQ09L07
+hero DLQ09L08
+actor DLQ09L09
+actor DLQ09L10
+hero DLQ09L11
+actor DLQ09L12
+actor DLQ09L13
+hero DLQ09L14
+actor DLQ09L15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

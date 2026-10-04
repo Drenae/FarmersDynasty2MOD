@@ -1,0 +1,77 @@
+Vehicle >fertilizer_FA300
+prefab prefabs\vehicles\fertilizer_fa300\fertilizer_fa300_nocenter.x
+Mass 600.0
+Stiffness 10
+
+spawn_id 32
+
+tag >MT11
+
+renew_and_paint
+color 0.29 0.42 0.06
+
+przyczepa
+nawoz
+grain_capacity 3000
+price 19900
+
+
+
+// COLLISION MESH
+
+// pScaleZ
+mnoznik_fizyki_z 1.0
+// pScaleY
+mnoznik_fizyki_y 0.75
+// pScaleX
+mnoznik_fizyki_x 0.8
+
+// pTransZ
+przesuniecie_fizyki_przod 0.1
+// pTransY
+przesuniecie_fizyki_gora 0.4
+// pTransX
+przesuniecie_fizyki_prawo 0.0
+
+
+
+// HOOKS
+zaczep3p zaczep3p
+zaczep3pgora zaczep3pgora
+
+additional_lift_3p_when_up 0.5
+additional_lift_3p_when_down 0.4
+
+add_when_loose 0.1
+
+
+
+
+// FERTILIZER
+
+attachment_atomizer prefabs\vehicles\fertilizer_fa300\rotor1_nocenter.x atomizer1
+attachment_atomizer prefabs\vehicles\fertilizer_fa300\rotor2_nocenter.x atomizer2
+
+// GRANULATE
+
+attachment prefabs\vehicles\fertilizer_fa300\granulate_nocenter.x dump
+
+
+
+
+
+// LIGHTS
+swiatlo_tyl lt1
+swiatlo_tyl lt2
+
+
+
+// WORKING FX
+working_fx fx_fertilizer atomizer1
+working_fx fx_fertilizer atomizer2
+
+
+
+// SOUNDS
+working_sound sfx\vehicles\fertilizer.wav
+

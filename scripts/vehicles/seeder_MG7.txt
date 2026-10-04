@@ -1,0 +1,69 @@
+Vehicle >seeder_MG7
+prefab prefabs\vehicles\seeder_mg7\seeder_mg7_nocenter.x
+Mass 280.0
+Stiffness 10
+
+spawn_id 41
+
+tag >MT07
+
+renew_and_paint
+color 0.113 0.407 0.06
+
+price 48000
+
+przyczepa
+siewnik
+grain_capacity 860
+zaczep3p zaczep3p
+zaczep3pgora zaczep3pgora
+zaczep3pshaft zaczep3pshaft
+
+suitable_for 0 1 2 3 4 5 6 7 10
+
+// COLLISION MESH
+
+// pScaleZ
+mnoznik_fizyki_z 0.6
+// pScaleY
+mnoznik_fizyki_y 0.7
+// pScaleX
+mnoznik_fizyki_x 0.9
+
+// pTransZ
+przesuniecie_fizyki_przod 0.0
+// pTransY
+przesuniecie_fizyki_gora 0.3
+// pTransX
+przesuniecie_fizyki_prawo 0.0
+
+
+additional_lift_3p_when_up 0.5
+additional_lift_3p_when_down 0.3
+
+add_when_loose 0.15
+
+
+// disks1 (1)
+Rotate_X
+reverse
+attachment_wheel prefabs\vehicles\seeder_mg7\disks1_nocenter.x disks1
+
+
+
+// disks2 (2)
+Rotate_X
+reverse
+attachment_wheel prefabs\vehicles\seeder_mg7\disks2_nocenter.x disks2
+
+
+
+
+
+// prefab_kola socket_kola promien_kola podniesienie_osi_kola
+wheel_invisible prefabs\vehicles\seeder_mg7\fake_wheel_nocenter.x wheel_fake
+
+
+working_fx afx_sianie fx0
+working_fx afx_sianie fx1
+working_fx afx_sianie fx2

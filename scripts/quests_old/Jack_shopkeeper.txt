@@ -1,0 +1,43 @@
+
+// nazwa questa, unikalna i wymagana
+name Jack_shopkeeper
+icon hud_map_social.dds
+given_by_icon actor_unknown_man.dds
+
+title OB36
+initial_waypoint jack1
+initial_objective OB37
+given_by jack1
+
+// gdy startuje ten quest, niech bedzie sledzony
+focus_on_start
+
+social_award 1
+
+wait 0.1 -waypoint * -checkpoint 10
+
+//idziemy do sklepu 1, miej jaje od dziadka, dialog z Jackiem, Jack uczy handlu
+goto jack1 -distance 5 -waypoint jack1 -checkpoint 20 -playerhas egg 30
+wait 0.1 -waypoint *
+player_teleport jack_dialog_teleport
+hero_dialog jack1_dialog1 jack1
+take_from_player egg 30
+wait_end_hero_dialog
+wait 0.4 -checkpoint 30
+unlock_perk TP00
+give_player honey 10
+wait 0.4 -checkpoint 40
+
+likes_player jack1 0.25
+wait 1
+skill_advance TeamPlayer 5
+wait 1 -waypoint * -checkpoint 60
+print koniec_questa_jack_shopkeeper
+wait 1
+
+start_quest Ariana_meet
+
+
+
+
+

@@ -1,0 +1,2 @@
+mesh_filename prefabs\vehicles\tractor_snow\3p_rear_top_nocenter.X
+socket z3p3 0.000000 0.280000 -0.020000

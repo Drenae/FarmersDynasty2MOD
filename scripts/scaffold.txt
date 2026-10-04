@@ -1,0 +1,12 @@
+// skrypt okresla meshe ktore naleza do rusztowania
+// ponizszych meshy NIE wpisywac do pliku multiple_objects, to sa zupelnie rozdzielne optymalizacje.
+//
+
+
+scaffold prefabs\buildings\scaffold\scaffold1_nocenter.x
+scaffold prefabs\buildings\scaffold\scaffold2_nocenter.x
+scaffold prefabs\buildings\scaffold\scaffold3_nocenter.x
+scaffold prefabs\buildings\scaffold\scaffold4_nocenter.x
+scaffold prefabs\buildings\scaffold\scaffold5_nocenter.x
+scaffold prefabs\buildings\scaffold\scaffold6_nocenter.x
+scaffold prefabs\buildings\scaffold\scaffold7_nocenter.x

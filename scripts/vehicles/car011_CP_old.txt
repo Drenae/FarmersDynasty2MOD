@@ -1,0 +1,177 @@
+Vehicle >car011_CP_old
+prefab prefabs\vehicles\car011_cp_old\car011_cp_old_nocenter.x
+Mass 4000.0
+Stiffness 10
+player_can_drive
+
+spawn_id 50
+
+tag >MT13
+
+
+car
+price 900
+automatic
+max_vel 60
+bhp 150
+// no_back_beep
+tank 82
+
+
+// DRIVER
+skala_kierowcy 1.0
+driver_anim_drive_left h_drive_old_pickup_left
+driver_anim_drive_right h_drive_old_pickup_right
+driver_anim_drive h_drive_old_pickup
+
+
+hay_sockets x1 x2 x3
+crate_sockets y1 y2
+
+
+// COLLISION MESH
+
+// collision_mesh prefabs\vehicles\car011_cp\PHYSICS_car011_cp_nocenter.x
+
+
+// pScaleY
+mnoznik_fizyki_y 0.38
+// pScaleZ
+mnoznik_fizyki_z 0.94
+// pScaleX
+mnoznik_fizyki_x 0.85
+
+// pTransY
+przesuniecie_fizyki_gora 0.72
+// pTransZ
+przesuniecie_fizyki_przod 0
+// pTransX
+przesuniecie_fizyki_prawo 0.0
+
+
+//PANEL
+
+
+// wskazowka_obrotow pos_x pos_y skala kat_min kat_max
+// wskazowka_temp pos_x pos_y skala kat_min kat_max
+// wskazowka_paliwo pos_x pos_y skala kat_min kat_max
+
+// wskazowka_predkosc ma dodatkowy parametr - maks prędkość do jakiej jest wyskalowany licznik.
+// wskazowka_predkosc pos_x pos_y skala kat_min kat_max max_predkosc
+// Wskazówka prędkości jest zablokowana dla maksymalnej prędkości = maksymalnego dozwolonego kąta.
+
+
+
+panel car011_CP2_gauges.dds
+
+wskazowka_predkosc 125 126 0.8 23 190 53
+//wskazowka_obrotow 412 117 0.6
+
+wskazowka_temp 494 195 0.4 0 35
+wskazowka_paliwo 344 106 0.6 150 210
+
+//wskazowka_akumulator 483 193 0.5 210 150
+
+
+
+
+
+// DOOR
+attachment_door prefabs\vehicles\car011_CP_old\door_left_old_nocenter.x door_left door_left2 75
+attachment prefabs\vehicles\car011_CP_old\door_right_old_nocenter.x door_right
+
+
+
+
+// WHEELS & MUDGUARDS
+
+front_wheel prefabs\vehicles\car011_CP_old\wheel_right_old_nocenter.X wheel_front_right
+front_wheel prefabs\vehicles\car011_CP_old\wheel_left_old_nocenter.X wheel_front_left
+
+wheel prefabs\vehicles\car011_CP_old\wheel_right_old_nocenter.X wheel_rear_right
+wheel prefabs\vehicles\car011_CP_old\wheel_left_old_nocenter.X wheel_rear_left
+
+
+
+// STEERING WHEEL
+
+steering_wheel prefabs\vehicles\car011_CP_old\steering_wheel_old_nocenter.x steering_wheel
+korekcja_kierownicy 50
+mnoznik_obrotu_kierownicy 1.8
+
+
+
+
+// LIGHTS
+
+attachment_light prefabs\vehicles\car011_cp_old\lamp1_old_nocenter.x light1
+attachment_name swiatlo_lp1
+swiatlo_przod lp1 1
+swiatlo_z swiatlo_lp1
+
+attachment_light prefabs\vehicles\car011_cp_old\lamp2_old_nocenter.x light2
+attachment_name swiatlo_lp2
+swiatlo_przod lp2 1
+swiatlo_z swiatlo_lp2
+
+attachment_light prefabs\vehicles\car011_cp_old\lamp3_old_nocenter.x light3
+attachment_name swiatlo_lt1
+swiatlo_tyl lt1
+swiatlo_z swiatlo_lt1
+
+attachment_light prefabs\vehicles\car011_cp_old\lamp4_old_nocenter.x light4
+attachment_name swiatlo_lt2
+swiatlo_tyl lt2
+swiatlo_z swiatlo_lt2
+
+
+
+
+
+// INTERIOR LIGHTS
+vehicle_light vehicle_light1 0.5 1.5 209 224 225
+
+
+
+
+// SOUNDS
+
+engine_start_sound sfx\vehicles\van_start1.wav
+
+engine_stop_sound sfx\vehicles\van_stop1.wav
+
+engine_sound sfx\vehicles\van_work1.wav
+engine_frequency_base 44000
+engine_frequency_change 120
+
+engine_sound2 sfx\vehicles\van_idle1.wav
+engine_frequency_base2 44100
+engine_frequency_change2 100
+
+
+engine_frequency_add_during_wheel_spin 10
+
+Wheel_Spin_Splash_Sound_Water sfx\vehicles\water_spin1.wav 3.3
+Wheel_Spin_Splash_Sound_Water sfx\vehicles\water_spin2.wav 2.8
+Wheel_Spin_Splash_Sound_Water sfx\vehicles\water_spin3.wav 4.2
+Wheel_Spin_Splash_Sound_Water sfx\vehicles\water_spin4.wav 3.8
+Wheel_Spin_Splash_Sound_Water sfx\vehicles\water_spin5.wav 3.3
+Wheel_Spin_Splash_Sound_Water sfx\vehicles\water_spin6.wav 2.2
+Wheel_Spin_Splash_Sound_Water sfx\vehicles\water_spin7.wav 3.8
+Wheel_Spin_Splash_Sound_Water sfx\vehicles\water_spin8.wav 4.2
+
+Wheel_Spin_Splash_Sound_Mud sfx\vehicles\mud_spin1.wav 1.9
+Wheel_Spin_Splash_Sound_Mud sfx\vehicles\mud_spin2.wav 2.5
+Wheel_Spin_Splash_Sound_Mud sfx\vehicles\mud_spin3.wav 1.8
+Wheel_Spin_Splash_Sound_Mud sfx\vehicles\mud_spin4.wav 2.5
+Wheel_Spin_Splash_Sound_Mud sfx\vehicles\mud_spin5.wav 1.9
+Wheel_Spin_Splash_Sound_Mud sfx\vehicles\mud_spin6.wav 2.5
+Wheel_Spin_Splash_Sound_Mud sfx\vehicles\mud_spin7.wav 1.8
+Wheel_Spin_Splash_Sound_Mud sfx\vehicles\mud_spin8.wav 2.5
+
+Wheel_Splash_Sound_Enter_Water sfx\vehicles\water_splash1.wav 4.1
+Wheel_Splash_Sound_Enter_Water sfx\vehicles\water_splash2.wav 4.5
+Wheel_Splash_Sound_Enter_Water sfx\vehicles\water_splash3.wav 3.6
+
+
+

@@ -1,0 +1,2 @@
+mesh_filename prefabs\vehicles\baler_cq3\press_rotor_nocenter.x
+socket rotor 0.000000 0.000000 -0.600000

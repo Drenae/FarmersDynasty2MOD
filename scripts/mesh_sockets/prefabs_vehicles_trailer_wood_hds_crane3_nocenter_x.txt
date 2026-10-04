@@ -1,0 +1,3 @@
+mesh_filename prefabs\vehicles\trailer_wood_hds\crane3_nocenter.x
+socket crane4 0.000000 -1.640000 -0.110000
+socket p2a 0.000000 -0.420000 -0.130000

@@ -1,0 +1,14 @@
+mesh_filename prefabs\vehicles\trailer_header_old\trailer_header_old_nocenter.x
+socket attachment 0.000000 5.560000 0.170000
+socket wheel_left -0.890000 -4.793000 0.440000
+socket wheel_right 0.890000 -4.793000 0.440000
+socket wheel_front_left -0.420000 5.500000 0.490000
+socket wheel_front_right 0.420000 5.500000 0.490000
+socket header 0.030000 -0.540000 1.230000
+socket lt1 -0.920000 -5.560000 1.000000
+socket lt2 0.910000 -5.560000 0.920000
+socket wheel_fake 0.000000 3.200000 0.140000
+socket light1 -1.008000 -5.543000 0.999000
+socket light2 -0.922000 -5.543000 0.999000
+socket light3 0.907000 -5.543000 0.910000
+socket lc1 -1.010000 -5.560000 0.996000

@@ -1,0 +1,50 @@
+//
+// Dialog z mateo
+//
+
+//brat nie oddal kasy co mu pozyczylem i tera nie stac mnie na piwo, pomusz
+hero_dialog mateo1_dialog1
+hero DLQ18L01
+actor DLQ18L02
+hero DLQ18L03
+actor DLQ18L04
+hero DLQ18L05
+actor DLQ18L06
+hero DLQ18L07
+actor DLQ18L08
+actor DLQ18L09
+hero DLQ18L10
+actor DLQ18L11
+hero DLQ18L12
+actor DLQ18L13
+hero DLQ18L14
+actor DLQ18L15
+hero DLQ18L16
+actor DLQ18L17
+hero DLQ18L18
+
+
+//jusz jestem, masz tu hajsy od brata
+hero_dialog mateo1_dialog2
+actor DLQ18L56
+hero DLQ18L57
+actor DLQ18L58
+hero DLQ18L59
+actor DLQ18L60
+hero DLQ18L61
+actor DLQ18L62
+hero DLQ18L63
+actor DLQ18L64
+hero DLQ18L65
+actor DLQ18L66
+hero DLQ18L67
+actor DLQ18L68
+hero DLQ18L69
+actor DLQ18L70
+actor DLQ18L71
+hero DLQ18L72
+actor DLQ18L73
+
+
+
+

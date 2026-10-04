@@ -1,0 +1,7 @@
+mesh_filename prefabs\vehicles\header_e3\header_e3_cereal_nocenter.x
+socket helix 0.000000 -0.350000 0.480000
+socket knives 0.000000 0.270000 0.110000
+socket s0 2.100000 1.047000 0.155000
+socket s1 -2.100000 0.847000 0.155000
+socket reel -0.040000 0.677000 0.825000
+socket header 0.000000 -0.660000 0.690000

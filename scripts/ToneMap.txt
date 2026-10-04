@@ -1,0 +1,7 @@
+CineLinearWhite 11.20
+CineA 0.22
+CineB 0.22
+CineC 0.3
+CineD 0.14
+CineE 0.02
+CineF 0.21

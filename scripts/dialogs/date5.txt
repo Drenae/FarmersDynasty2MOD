@@ -1,0 +1,468 @@
+// date5
+//przy chatce w lesie
+hero_dialog date5
+
+
+//intro
+actor_silent 1
+black
+//pora 17
+movie_camera
+rotate_180
+camera_pos date5_cam00
+camera_look_at date5_cam00_look_at
+print dialog_intro
+
+hero_pos date5_h_pos00
+hero_anim h_date5_walk1
+hero_look_at date5_h_pos00_look_at
+
+actor_pos date5_w_pos00
+actor_anim w_date5_idle1
+actor_look_at date5_w_pos00_look_at
+
+
+//spotykajo sie przy chatce
+// Welcome to the former kingdom of my grandfather, the place where the adventure of his life first began.
+hero DLD05L01
+movie_camera
+fade_in
+rotate_180
+fov 1.1
+
+camera_pos date5_cam00
+camera_move_to date5_cam00_target 0.20
+camera_look_at date5_cam00_look_at
+
+
+//gadajo razem
+//The beginnings must have been difficult, I'm surprised how much you've achieved over the years.
+actor DLD05L02
+movie_camera
+fade_in
+rotate_180
+fov 1.1
+
+camera_pos date5_cam01
+camera_move_to date5_cam01_target 0.03
+camera_look_at date5_cam01_look_at
+
+hero_pos date5_h_pos00
+hero_anim h_idle1
+hero_look_at date5_h_pos00_look_at
+
+actor_pos date5_w_pos00
+actor_anim w_date5_idle1
+actor_look_at date5_w_pos00_look_at
+
+
+//pozniej
+actor_silent 0.5
+black
+
+
+//stojo razem, widok na oboje
+hero DLD05L03
+movie_camera
+fade_in
+rotate_180
+fov 0.8
+
+camera_pos date5_cam03
+camera_look_at date5_cam03_look_at
+
+hero_pos date5_h_pos00
+hero_anim h_speak1
+hero_look_at date5_h_pos00_look_at
+//dof_distance 1.2
+
+actor_pos date5_w_pos00
+actor_anim w_idle1
+actor_look_at date5_w_pos00_look_at
+
+
+actor DLD05L04
+movie_camera
+//fade_in
+rotate_180
+fov 0.8
+
+camera_pos date5_cam03
+camera_look_at date5_cam03_look_at
+
+hero_pos date5_h_pos00
+hero_anim h_idle1
+hero_look_at date5_h_pos00_look_at
+//dof_distance 1.2
+
+actor_pos date5_w_pos00
+actor_anim w_speak1
+actor_look_at date5_w_pos00_look_at
+
+
+
+
+
+
+
+
+
+
+//stojo razem, widok zza laski
+label choice1
+choice
+movie_camera
+fade_in
+rotate_180
+fov 1.1
+
+//camera_pos date5_cam04
+//camera_look_at date5_cam04_look_at
+camera_pos date5_cam05
+camera_look_at date5_cam05_look_at
+
+dof_distance 2
+
+hero_pos date5_h_pos00
+hero_anim h_idle1
+hero_look_at date5_h_pos00_look_at
+
+actor_pos date5_w_pos00
+actor_anim w_idle1
+actor_look_at date5_w_pos00_look_at
+
+answer DLD05L05
+on_answer_goto_label dalej1a
+
+answer DLD05L06
+on_answer_goto_label dalej1b
+
+
+// tu slabo, laska sobie idzie
+
+//stojo razem, widok zza bohatera
+label dalej1a
+actor DLD05L07
+movie_camera
+fade_in
+rotate_180
+fov 1.1
+
+//camera_pos date5_cam05
+//camera_look_at date5_cam05_look_at
+camera_pos date5_cam04
+camera_look_at date5_cam04_look_at
+
+dof_distance 2
+
+hero_pos date5_h_pos00
+hero_anim h_idle1
+hero_look_at date5_h_pos00_look_at
+
+actor_pos date5_w_pos00
+actor_anim w_speak1
+actor_look_at date5_w_pos00_look_at
+
+goto_label dalej1a1
+
+
+// widok zza laski
+label dalej1a1
+hero DLD05L08
+movie_camera
+fade_in
+rotate_180
+fov 1.1
+
+//camera_pos date5_cam04
+//camera_look_at date5_cam04_look_at
+camera_pos date5_cam05
+camera_look_at date5_cam05_look_at
+
+//dof_distance 2
+
+hero_pos date5_h_pos00
+hero_anim h_speak1
+hero_look_at date5_h_pos00_look_at
+
+actor_pos date5_w_pos00
+actor_anim w_idle1
+actor_look_at date5_w_pos00_look_at
+
+goto_label dalej1a2
+
+
+label dalej1a2
+//stojo razem, widok zza bohatera
+actor DLD05L09
+movie_camera
+fade_in
+rotate_180
+fov 1.1
+
+//camera_pos date5_cam05
+//camera_look_at date5_cam05_look_at
+camera_pos date5_cam04
+camera_look_at date5_cam04_look_at
+dof_distance 2
+
+hero_pos date5_h_pos00
+hero_anim h_idle1
+hero_look_at date5_h_pos00_look_at
+
+actor_pos date5_w_pos00
+actor_anim w_speak1
+actor_look_at date5_w_pos00_look_at
+
+goto_label koniec1
+
+
+
+// tu sukces, lecimy dalej
+
+//stojo razem, widok zza bohatera
+label dalej1b
+actor DLD05L10
+movie_camera
+fade_in
+rotate_180
+fov 1.1
+
+like_player 0.1
+//camera_pos date5_cam05
+//camera_look_at date5_cam05_look_at
+camera_pos date5_cam04
+camera_look_at date5_cam04_look_at
+//dof_distance 2
+
+hero_pos date5_h_pos00
+hero_anim h_idle1
+hero_look_at date5_h_pos00_look_at
+
+actor_pos date5_w_pos00
+actor_anim w_speak1
+actor_look_at date5_w_pos00_look_at
+
+
+// widok zza laski
+hero DLD05L11
+movie_camera
+fade_in
+rotate_180
+fov 1.1
+
+//camera_pos date5_cam04
+//camera_look_at date5_cam04_look_at
+camera_pos date5_cam05
+camera_look_at date5_cam05_look_at
+
+//dof_distance 2
+
+hero_pos date5_h_pos00
+hero_anim h_speak1
+hero_look_at date5_h_pos00_look_at
+
+actor_pos date5_w_pos00
+actor_anim w_idle1
+actor_look_at date5_w_pos00_look_at
+
+
+//stojo razem, widok na oboje
+hero DLD05L12
+movie_camera
+fade_in
+rotate_180
+fov 0.8
+
+camera_pos date5_cam03
+camera_look_at date5_cam03_look_at
+
+hero_pos date5_h_pos00
+hero_anim h_speak1
+hero_look_at date5_h_pos00_look_at
+//dof_distance 1.2
+
+actor_pos date5_w_pos00
+actor_anim w_idle1
+actor_look_at date5_w_pos00_look_at
+
+// cont.
+hero DLD05L13
+movie_camera
+//fade_in
+rotate_180
+fov 0.8
+
+camera_pos date5_cam03
+camera_look_at date5_cam03_look_at
+
+hero_pos date5_h_pos00
+//hero_anim h_idle1
+hero_look_at date5_h_pos00_look_at
+//dof_distance 1.2
+
+actor_pos date5_w_pos00
+//actor_anim w_idle1
+actor_look_at date5_w_pos00_look_at
+
+
+
+//stojo razem, widok zza bohatera
+actor DLD05L14
+movie_camera
+fade_in
+rotate_180
+fov 1.1
+
+like_player 0.1
+//camera_pos date5_cam05
+//camera_look_at date5_cam05_look_at
+camera_pos date5_cam04
+camera_look_at date5_cam04_look_at
+//dof_distance 2
+
+hero_pos date5_h_pos00
+hero_anim h_idle1
+hero_look_at date5_h_pos00_look_at
+
+actor_pos date5_w_pos00
+actor_anim w_speak1
+actor_look_at date5_w_pos00_look_at
+
+
+// cont
+actor DLD05L15
+movie_camera
+//fade_in
+rotate_180
+fov 1.1
+
+//camera_pos date5_cam05
+//camera_look_at date5_cam05_look_at
+camera_pos date5_cam04
+camera_look_at date5_cam04_look_at
+//dof_distance 2
+
+hero_pos date5_h_pos00
+//hero_anim h_idle1
+hero_look_at date5_h_pos00_look_at
+
+actor_pos date5_w_pos00
+//actor_anim w_idle1
+actor_look_at date5_w_pos00_look_at
+
+
+
+//ido sobie
+//Let's go back, it's getting dark.
+label koniec1
+hero DLD05L16
+movie_camera
+fade_in
+rotate_180
+fov 1.1
+
+camera_pos date5_cam06
+camera_move_to date5_cam06_target 0.4
+camera_look_at date5_cam06_look_at
+
+hero_pos date5_t_pos00
+hero_anim h_date5_walk2
+hero_look_at date5_t_pos00_look_at
+
+actor_pos date5_t_pos00
+actor_anim w_date5_walk1
+actor_look_at date5_t_pos00_look_at
+
+
+
+actor_silent 0.3
+black
+movie_camera
+rotate_180
+
+hero_pos date5_t_pos01
+hero_anim h_date5_walk2
+hero_look_at date5_t_pos01_look_at
+
+actor_pos date5_t_pos01
+actor_anim w_date5_walk1
+actor_look_at date5_t_pos01_look_at
+
+
+//ido sobie
+//Next time I'll invite you to a more civilized place.
+actor DLD05L17
+movie_camera
+fade_in
+rotate_180
+fov 1.1
+
+camera_pos date5_cam07
+camera_move_to date5_cam07_target 0.4
+camera_look_at date5_cam07_look_at
+
+
+//koniec
+actor_silent 0.5
+black
+movie_camera
+
+end_dialog
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

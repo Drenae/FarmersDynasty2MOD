@@ -1,0 +1,5 @@
+mesh_filename prefabs\buildings\greenhouses\gh_wood_fixed_table_1_1_nocenter.x
+socket bowl1 1.130000 0.000000 0.780000
+socket bowl2 0.380000 0.000000 0.780000
+socket bowl3 -0.380000 0.000000 0.780000
+socket bowl4 -1.130000 0.000000 0.780000

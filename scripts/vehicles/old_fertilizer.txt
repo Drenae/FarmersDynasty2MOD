@@ -1,0 +1,125 @@
+Vehicle >fertilizer_old
+prefab prefabs\vehicles\fertilizer_old\fertilizer_old_nocenter.X
+Mass 2500.0
+Stiffness 10
+
+spawn_id 36
+
+tag >MT29
+
+
+
+nawoz
+price 2100
+przyczepa
+grain_capacity 250
+old_tractors_can_attach
+zaczep_tylko_do_traktora
+
+renew_and_paint
+repairable fertilizer_old.dds fertilizer_old_repaired.dds
+color 0.32 0.41 0.31
+
+
+
+// COLLISION MESH
+collision_mesh prefabs\vehicles\fertilizer_old\PHYSICS_fertilizer_old_nocenter.x
+
+
+// pScaleZ
+mnoznik_fizyki_z 0.6
+// pScaleY
+mnoznik_fizyki_y 0.4
+// pScaleX
+mnoznik_fizyki_x 0.7
+
+// pTransZ
+przesuniecie_fizyki_przod -0.5
+// pTransY
+przesuniecie_fizyki_gora 0.2
+// pTransX
+przesuniecie_fizyki_prawo 0.0
+
+
+// HOOKS
+hak zaczep
+zaczep_do_hak_gorny
+
+
+
+
+
+// PEDALS
+
+// komenda obracajaca attachment podczas pracy. Podawana bezposrednio PRZED attachmentem ktorego dotyczy
+// rotate <os_obrotu> <warunek> <mnoznik> [<dodatkowy_skret_os> <dodatkowy_skret_rotacja>]
+// <os_obrotu> to: right - wokol osi X
+//                 forward - wokol osi Z
+//                 up - wokol osi Y
+// <warunek> to: enable - wlaczony silnik, predkosc to mnoznik (stopnie/sek)
+//               rpm    - predkosc zalezy od obrotow silnika * mnoznik (w stpniach)
+//               speed  - predkosc to predkosc pojazdu (kph) * mnoznik (w stpniach)
+//               turn   - ustala sie kat: wspolczynnik obrotu kierownicy * mnoznik (w stpniach)
+//               gas    - ustala sie kat: wcianiety gaz (maks wcisniety to 1) * mnoznik (w stpniach)
+//               brake  - ustala sie kat: wcianiety hamulec (maks wcisniety to 1) * mnoznik (w stpniach)
+//               direction - ustala sie kat: (jazda przod to 1, jazda tyl to 0) * mnoznik (w stpniach)
+//               clutch - ustala sie kat: (wysprzeglony to 1, sprzeglo puszczone to 0) * mnoznik (w stpniach)
+// dodatkowy skret pozwala na stale skrzywic obrot wokol dodatkowej osi, np. wygiac wiatrak chlodnizy obracajacy sie wokol osi Z, o staly kat wokol osi X
+// <dodatkowy_skret_os> to: add_rot_right dodaje staly obrot wokol osi X
+//                          add_rot_forward dodaje staly obrot wokol osi Z
+//                          add_rot_up dodaje staly obrot wokol osi Y
+// <dodatkowy_skret_rotacja> to stala wartosc (w stopniach) dodatkowego obrotu
+//
+// dodatkowe (stale) skrety mozna stosowac wiecej niz jeden, na przyklad na koncu linijki moze byc add_rot_right 15 add_rot_up 45 (w dowolnej kolejnosci), a moze nie byc zadnego
+//
+// przykladowo:
+// rotate right rpm 90 add_rot_up 45 - obraca attachment wokol osi X o 90 stopni/sek razy RPM (gdzie 1000 to 1), z dodatkowym stalym skrzywieniem wokol osi Y wynoszacym 45 stopni
+// albo
+// rotate forward turn 1 add_rot_right 15 - obraca pretem sterujacym kierownicy dokladnie o kat kierownicy, i przekrzywia go w osi X o 15 stopni
+
+
+
+// GEAR (1)
+rotate right speed 2
+attachment prefabs\vehicles\fertilizer_old\gear_nocenter.x gear
+
+// SHAFT (2)
+rotate right speed 2
+attachment prefabs\vehicles\fertilizer_old\shaft_nocenter.x shaft
+
+
+// CHAIN (3)
+attachment prefabs\vehicles\fertilizer_old\chain_nocenter.x chain
+
+
+
+
+// ATOMIZERS
+
+rotate right speed 0 add_rot_right 10
+attachment_atomizer prefabs\vehicles\fertilizer_old\rotor_left_nocenter.X atomizer1
+
+rotate right speed 0 add_rot_right 10
+attachment_atomizer prefabs\vehicles\fertilizer_old\rotor_right_nocenter.X atomizer2
+
+
+
+
+// WHEELS & MUDGUARDS
+// prefab_kola socket_kola promien_kola podniesienie_osi_kola
+
+wheel prefabs\vehicles\fertilizer_old\wheel_fake_nocenter.X wheel_fake
+wheel prefabs\vehicles\fertilizer_old\wheel_left_nocenter.X wheel_left
+wheel prefabs\vehicles\fertilizer_old\wheel_right_nocenter.X wheel_right
+
+
+
+// WORKING FX
+working_fx fx_fertilizer atomizer1
+working_fx fx_fertilizer atomizer2
+
+
+// SOUNDS
+working_sound sfx\vehicles\fertilizer_old.wav
+
+

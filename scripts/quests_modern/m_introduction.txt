@@ -1,0 +1,197 @@
+
+// nazwa questa, unikalna i wymagana
+name m_introduction
+icon hud_map_social.dds
+given_by_icon actor_unknown_man.dds
+
+set_day 200
+set_pora 6.5
+set_snow 0.0
+
+title OB85
+initial_waypoint time_start_point
+initial_objective OB86
+given_by william1
+
+// gdy startuje ten quest, niech bedzie sledzony
+focus_on_start
+
+social_award 1
+// jesli quest ma sie odpalic na starcie gry
+default
+
+map maps\map1.map
+
+// kombajn gracza
+wait 0.1
+spawn prefabs\vehicles\harvester_l770\harvester_l770_nocenter.x s_combine01 combine01
+wait 0.1
+give_vehicle_to_player combine01
+
+print quest_spawn_modern_combine
+
+// header gracza
+wait 0.1
+spawn prefabs\vehicles\header_e3\header_e3_cereal_nocenter.x s_header01 header01
+wait 0.1
+give_vehicle_to_player header01
+
+print quest_spawn_modern_header
+
+// traktor gracza
+wait 0.1
+spawn prefabs\vehicles\tractor_a530\tractor_a530_nocenter.x s_tractor01 tractor01
+wait 0.1
+give_vehicle_to_player tractor01
+
+print quest_spawn_modern_tractor
+
+// stara przyczepa gracza
+wait 0.1
+spawn prefabs\vehicles\trailer_old_cereal\trailer_old_cereal_nocenter.x s_trailer01 trailer01
+wait 0.1
+give_vehicle_to_player trailer01
+
+print quest_spawn_modern_trailer
+
+//stary pickup gracza
+wait 0.1
+spawn prefabs\vehicles\car002_ch_pickup\car002_ch_pickup_nocenter.X s_pickup_modern_times pickup_modern_times
+wait 0.1
+give_vehicle_to_player pickup_modern_times
+
+// przyczepa na logi Williama
+wait 0.1
+spawn prefabs\vehicles\trailer_wood_hds\trailer_wood_hds_nocenter.x dest_logtrailer_new william_logtrailer
+wait 0.2
+take_vehicle_from_player william_logtrailer
+
+// baleron Jamesa
+wait 0.1
+spawn prefabs\vehicles\baler_old\baler_old_nocenter.x s_james_baler james_baler
+wait 0.2
+take_vehicle_from_player james_baler
+wait 0.1
+
+
+// obsiewam pole Jamesa pszenica <nazwa_pola> <rodzaj_zboza>
+sow_field field_009 0
+wait 0.1
+
+// obsiewam pola gracza zytem <nazwa_pola> <rodzaj_zboza>
+sow_field field_000 3
+wait 0.1
+
+//sow_field field_001 3
+//wait 0.1
+
+sow_field field_003 3
+wait 0.1
+
+// kosze pole Jamesa
+harvest_field field_009
+wait 0.1
+
+// naprawianie wszystkich budynkow gracza i stary mlyn
+wait 0.1 -waypoint * -checkpoint 10
+fix_building farm_house
+wait 0.1
+fix_building farm_windmill
+wait 0.1
+fix_building farm_garage
+wait 0.1
+fix_building farm_silo
+wait 0.1
+fix_building farm_barn
+wait 0.1
+fix_building farm_cowshed
+wait 0.1
+fix_building farm_henhouse
+wait 0.1
+fix_building farm_greenhouse
+wait 0.1
+fix_building old_mill_silo
+wait 0.1 -checkpoint 20
+
+//william odwiedza cie w garazu pod domem, dialog z williamem
+set_achievment FD2_ACH_04
+goto william1 -distance 5 -waypoint william1 -checkpoint 30
+wait 0.1 -waypoint *
+hero_dialog william1_dialog1 william1
+wait_end_hero_dialog
+wait 1 -checkpoint 40
+Chapter 1
+//william idzie do domu
+set_phase william1 walk_home
+likes_player william1 0.25
+
+
+//info jestes teraz w przyszlosci
+wait 1
+info OB87
+wait 1
+
+//info masz tu kombajn
+wait 1
+info OB88
+wait 1
+
+//wejdz do kombajnu
+enter combine01 -waypoint combine01 -objective OB89 -checkpoint 50
+wait 1 -waypoint * -checkpoint 60
+
+//przyczep heder
+attach header01 -waypoint header01 -objective OB90 -checkpoint 70
+wait 1 -waypoint * -checkpoint 80
+
+//zbierz zboze z pierwszego pola
+wait_harvest field_000 -waypoint player_field_000 -objective OB91 -checkpoint 90
+wait 1 -waypoint * -checkpoint 100
+
+//zbierz zboze z drugiego pola
+//wait_harvest field_001 -waypoint player_field_001 -objective OB92 -checkpoint 110
+//wait 1 -waypoint * -checkpoint 120
+
+//info wylej zboze na przyczepe
+wait 2 -waypoint trailer01 -checkpoint 130
+info OB93
+wait 2 -waypoint * -checkpoint 140
+
+//info albo jedz do skupu kombajnem
+wait 1 -waypoint grain_market
+info OB94
+wait 1 
+
+//jedz do skupu
+goto grain_market -distance 15 -waypoint grain_market -objective OB95 -checkpoint 150
+wait 0.2 -waypoint *
+
+//info tu skup
+wait 0.2
+info OB96
+wait 1
+
+// wracaj do domu
+goto s_combine01 -distance 15 -waypoint s_combine01 -objective OB97 -checkpoint 160
+wait 0.2 -waypoint *
+
+//info przygodo witaj
+wait 1 -checkpoint 170
+info OB98
+wait 5 -checkpoint 180
+
+print koniec_questa_m_introduction
+wait 1
+//wait_forever
+
+start_quest William_help
+
+
+
+
+
+
+
+
+
+

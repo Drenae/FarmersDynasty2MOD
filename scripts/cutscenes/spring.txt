@@ -1,0 +1,63 @@
+// definicje aktorow
+
+
+
+
+//do_not_skip
+
+//start
+cut start
+black
+time 1.0
+hour 8.0
+camera_move_bezier bzr_spring1 5.6
+camera_look_at_bezier bzr_spring_cam1 1.4
+
+
+
+
+// 
+cut cut1
+fade_in 0.3
+time 2
+hour 8.4
+weather 0.2
+
+music music\jingles\New_Place1.ogg
+
+camera_move_bezier bzr_spring1 5.6
+camera_look_at_bezier bzr_spring_cam1 1.4
+camera_fov 1.1
+
+
+
+// rzut na auto
+cut cut2
+time 18
+//hour 7.8
+
+text AA187A
+
+camera_continue_bezier bzr_spring1 5.6
+camera_look_at_bezier bzr_spring_cam1 1.4
+camera_fov 1.1
+
+
+cut end
+
+camera_continue_bezier bzr_spring1 5.6
+camera_look_at_bezier bzr_spring_cam1 1.4
+camera_fov 1.1
+
+fade_out 0.7
+time 0.7
+
+cut end_black
+black
+time 2.0
+
+
+
+
+
+

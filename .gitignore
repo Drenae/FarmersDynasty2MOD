@@ -1,0 +1,34 @@
+# Archives Argon
+*.dat
+
+# Assets graphiques très lourds
+*.dds
+*.bmp
+
+# Terrain
+*.bin
+
+# Audio
+*.ogg
+*.wav
+*.mp3
+*.flac
+
+# Bibliothèques
+*.dll
+
+# Fichiers locaux
+*.log
+!ConsoleLog.txt
+
+# Git / IDE
+.idea/
+.vscode/
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Notre inventaire local
+FD2_Inventory.txt
+Lister_FD2.bat

@@ -1,0 +1,3 @@
+mesh_filename prefabs\Objects\tools\bed_mattress_nocenter.X
+socket pillow 0.000000 0.660000 0.215000
+socket blanket -0.000000 -0.000000 0.190000

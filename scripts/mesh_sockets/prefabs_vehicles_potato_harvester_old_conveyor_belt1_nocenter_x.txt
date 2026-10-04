@@ -1,0 +1,3 @@
+mesh_filename prefabs\vehicles\potato_harvester_old\conveyor_belt1_nocenter.x
+socket lift2 0.490000 -0.000000 0.760000
+socket potato2 0.000000 0.000000 0.000000

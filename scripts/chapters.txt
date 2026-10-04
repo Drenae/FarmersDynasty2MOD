@@ -1,0 +1,91 @@
+// skrypt opisuje chaptery
+// numeracja opcjonalna, do zapisu sejwa, żeby móc wciskać chaptery pomiędzy.
+// max conditions == 4
+// max chapters == 100
+
+chapter 10 AC01
+condition AC02 is_set 1
+condition AC03 is_set 2
+condition AC04 is_set 3
+condition AC05 is_set 4
+
+chapter 20 AC06
+condition AC07 is_set 5
+condition AC08 is_set 6
+condition AC09 is_set 7
+
+chapter 30 AC10
+condition AC11 is_set 8
+condition AC12 is_set 9
+condition AC13 is_set 10
+
+chapter 40 AC14
+condition AC15 is_building_repaired farm_windmill
+condition AC16 is_building_repaired farm_henhouse
+condition AC17 own_animal_hen 2
+
+// tu sie zaczynaja nie questowe
+
+chapter 50 AC18
+// napraw szklarnie
+condition AC19 is_building_repaired farm_greenhouse
+// zasadz 10 warzyw
+condition AC20 is_bigger_equal 14 10
+
+chapter 60 AC21
+// unlock 5 different skills
+condition AC22 unlock_different_skills 5
+
+chapter 70 AC23
+// own a plough
+condition AC24 own_vehicle_plough 1
+condition AC25 own_vehicle_cultivator 1
+condition AC26 own_vehicle_seeder 1
+
+chapter 80 AC27
+// plow a field
+condition AC28 is_bigger_equal 15 100
+condition AC29 is_bigger_equal 16 100
+condition AC30 is_bigger_equal 17 100
+
+chapter 90 AC31
+condition AC32 is_building_repaired farm_barn
+condition AC33 is_building_repaired farm_cowshed
+condition AC34 own_animal_cow 5
+condition AC35 own_animal_pig 5
+
+chapter 100 AC36
+condition AC37 unlock_hero_skill 5
+condition AC38 unlock_farmer_skill 5
+condition AC39 unlock_TP_skill 5
+condition AC40 unlock_builder_skill 5
+
+chapter 110 AC41
+condition AC42 is_building_repaired farm_house
+condition AC43 is_building_repaired farm_garage
+
+chapter 120 AC44
+condition AC45 is_bigger_equal 18 10
+condition AC46 is_bigger_equal 19 10
+
+chapter 130 AC47
+condition AC48 is_bigger_equal 20 50
+condition AC49 is_bigger_equal 21 20
+
+chapter 140 AC50
+condition AC51 own_vehicle_combine 1
+condition AC52 own_vehicle_header 1
+
+chapter 150 AC53
+condition AC54 own_areas 10
+
+chapter 160 AC55
+condition AC56 unlock_all_map_points
+
+chapter 170 AC57
+condition AC58 is_set 22
+condition AC59 is_set 23
+
+chapter 180 AC60
+condition AC61 is_set 24
+

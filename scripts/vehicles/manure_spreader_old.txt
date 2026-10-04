@@ -1,0 +1,81 @@
+Vehicle >manure_spreader_old
+prefab prefabs\vehicles\manure_spreader_old\manure_spreader_old_nocenter.X
+Mass 1200.0
+Stiffness 10
+
+spawn_id 35
+
+tag >MT40
+
+
+
+przyczepa
+nawoz
+price 3600
+dung
+grain_capacity 8000
+
+hak zaczep
+// pto pto
+// zaczep_do_hak_gorny
+reverse_fold_panel_info
+old_tractors_can_attach
+zaczep_tylko_do_traktora
+
+renew_and_paint
+repairable manure_spreader_old.dds manure_spreader_old_repaired.dds
+color 0.22 0.44 0.48
+
+
+
+// COLLISION MESH
+
+// pScaleY
+mnoznik_fizyki_y 0.6
+// pScaleZ
+mnoznik_fizyki_z 0.8
+// pScaleX
+mnoznik_fizyki_x 0.7
+
+// pTransY
+przesuniecie_fizyki_gora 1.0
+// pTransZ
+przesuniecie_fizyki_przod -0.2
+// pTransX
+przesuniecie_fizyki_prawo 0.0
+
+
+// LID (1)
+attachment prefabs\vehicles\manure_spreader_old\lid_nocenter.x lid
+
+
+// SUPPORT LEG (2)
+attachment_stopka prefabs\vehicles\manure_spreader_old\support_leg_nocenter.x support_leg 0.02 0.1
+
+
+
+
+// WHEELS
+wheel_invisible prefabs\vehicles\manure_spreader_old\wheel_fake_nocenter.X wheel_fake
+
+wheel  prefabs\vehicles\manure_spreader_old\wheel_right_nocenter.x wheel_right
+wheel  prefabs\vehicles\manure_spreader_old\wheel_left_nocenter.x wheel_left
+
+
+
+// WORKING FX
+working_fx afx_sianie fx0
+working_fx fx_plow_dust01 fx1
+working_fx afx_sianie fx2
+
+
+
+// ANIM FX
+// attachment_anim_fx <prefab> <socket> [<attachment do przyczepienia lub 0>] [<mnoznik predkosci przesuwu gibania - 1 domyslnie>] [<mnoznik gibania animacji - 1 domyslnie>] [<mnoznik predkosci przesuwu tekstury - 1 domyslnie>]
+attachment_anim_fx  prefabs\vehicles\manure_spreader_old\manure_nocenter.X anim_dump 0 1 0.3 0.5
+
+
+
+
+
+

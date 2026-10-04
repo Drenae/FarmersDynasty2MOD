@@ -1,0 +1,7 @@
+mesh_filename prefabs\objects\beehives\centrifuge_hanger_nocenter.x
+socket h1 -0.346000 0.000000 0.970000
+socket h2 0.346500 0.000000 0.970000
+socket h3 -0.000000 0.350000 0.970000
+socket h4 0.000000 0.260000 0.970000
+socket h5 0.000000 -0.260000 0.970000
+socket h6 0.000000 -0.350000 0.970000

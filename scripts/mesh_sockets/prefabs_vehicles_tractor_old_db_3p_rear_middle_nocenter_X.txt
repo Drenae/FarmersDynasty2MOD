@@ -1,0 +1,2 @@
+mesh_filename prefabs\vehicles\tractor_old_db\3p_rear_middle_nocenter.X
+socket z3p2 0.000000 0.750000 0.000000

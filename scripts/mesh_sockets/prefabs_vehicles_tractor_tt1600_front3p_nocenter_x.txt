@@ -1,0 +1,4 @@
+mesh_filename prefabs\vehicles\tractor_tt1600\front3p_nocenter.x
+socket p1 0.340000 0.300000 -0.100000
+socket p2 -0.335000 0.300000 -0.100000
+socket zaczep_przod 0.000000 0.960000 -0.010000

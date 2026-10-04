@@ -1,0 +1,110 @@
+Vehicle >harrow_new
+prefab prefabs\vehicles\harrow_new\harrow_new_nocenter.X
+Mass 200.0
+Stiffness 10
+
+spawn_id 33
+
+tag >MT15
+
+renew_and_paint
+color 0.89 0.23 0.23
+
+kultywator
+przyczepa
+price 8000
+working_width 3.2
+old_tractors_can_attach
+
+
+// COLLISION MESH
+
+// pScaleZ
+mnoznik_fizyki_z 0.95
+// pScaleY
+mnoznik_fizyki_y 0.5
+// pScaleX
+mnoznik_fizyki_x 0.9
+
+// pTransZ
+przesuniecie_fizyki_przod -0.3
+// pTransY
+przesuniecie_fizyki_gora 0.5
+// pTransX
+przesuniecie_fizyki_prawo 0.0
+
+
+
+// HOOKS
+zaczep3p zaczep3p
+zaczep3pgora zaczep3pgora
+
+// additional_lift_3p_when_up 0.1
+// additional_lift_3p_when_down -0.1
+// mnoznik_kata 0.2
+
+add_when_loose 0.2
+old_tractors_can_attach
+
+
+
+
+// HARROWS
+
+// harrow1 (1)
+wobbly
+3p_lift_angle -0.03 0
+attachment prefabs\vehicles\harrow_new\harrow1_nocenter.X harrow1
+
+// harrow2 (2)
+wobbly
+3p_lift_angle -0.02 0
+attachment prefabs\vehicles\harrow_new\harrow2_nocenter.X harrow2
+
+
+
+
+
+// WHEELS
+reverse
+Rotate_X
+attachment_wheel prefabs\vehicles\harrow_new\wheel_left_nocenter.X wheel_left
+
+reverse
+Rotate_X
+attachment_wheel prefabs\vehicles\harrow_new\wheel_right_nocenter.X wheel_right
+
+// wheel_invisible prefabs\vehicles\harrow_new\wheel_right_nocenter.X wheel_fake
+
+
+
+
+// CHAINS
+
+piston prefabs\vehicles\harrow_new\chain1_nocenter.X 0 chain1 1 chain1
+piston prefabs\vehicles\harrow_new\chain1_nocenter.X 0 chain2 1 chain2
+piston prefabs\vehicles\harrow_new\chain1_nocenter.X 0 chain3 2 chain3
+piston prefabs\vehicles\harrow_new\chain1_nocenter.X 0 chain4 2 chain4
+
+piston prefabs\vehicles\harrow_new\chain2_nocenter.X 0 chain5 1 chain5
+piston prefabs\vehicles\harrow_new\chain2_nocenter.X 0 chain6 1 chain6
+piston prefabs\vehicles\harrow_new\chain2_nocenter.X 0 chain7 2 chain7
+piston prefabs\vehicles\harrow_new\chain2_nocenter.X 0 chain8 2 chain8
+
+
+
+
+
+
+// WORKING FX
+working_fx fx_plow_dust01 fx0
+working_fx afx_sianie fx1
+working_fx fx_plow_dust01 fx2
+working_fx afx_sianie fx3
+working_fx fx_plow_dust01 fx5
+working_fx afx_sianie fx4
+working_fx fx_plow_dust01 fx6
+working_fx afx_sianie fx7
+working_fx fx_plow_dust01 fx8
+
+

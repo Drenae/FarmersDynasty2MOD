@@ -1,0 +1,11 @@
+//
+//Dialog z leo
+//
+
+//
+//
+hero_dialog leo1_dialog1
+
+
+
+

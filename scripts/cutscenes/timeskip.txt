@@ -1,0 +1,388 @@
+// definicje aktorow
+
+// hero dziadek
+actor 0 prefabs\models\hero1\hero1.x sc1_actor_hero
+
+clothing 0 prefabs\models\clothes\hero1_shoes.X
+clothing 1 prefabs\models\clothes\hero1_pants.X
+clothing 2 prefabs\models\clothes\hero1_jacket.X
+hair prefabs\attachments\flat_cap_nocenter.X hair wlosy_hero1
+
+//stary traktor
+actor 1 prefabs\vehicles\tractor_old_Fnd\tractor_old_demo_nocenter.X sc1_actor_tractor
+
+//kola starego traktora
+actor 2 prefabs\vehicles\tractor_old_Fnd\wheel_front_left_nocenter.X
+actor 3 prefabs\vehicles\tractor_old_Fnd\wheel_front_right_nocenter.X
+actor 4 prefabs\vehicles\tractor_old_Fnd\wheel_rear_left_nocenter.X
+actor 5 prefabs\vehicles\tractor_old_Fnd\wheel_rear_right_nocenter.X
+
+//hero wnuk
+actor 6 prefabs\models\hero2\hero2.X sc1_actor_hero2
+
+clothing 0 prefabs\models\clothes\Man\class0_boots\m_basket_shoes_001.X
+clothing 1 prefabs\models\clothes\man\class1_pants\m_pants_pockets_001.X
+clothing 2 prefabs\models\clothes\hero\class2_shirts\h_flannel_001.X
+hair prefabs\attachments\m_hair_004_nocenter.X hair wlosy_hero1
+
+//nowy traktor
+actor 7 prefabs\vehicles\tractor_a530\tractor_new_demo_nocenter.X sc1_actor_tractor2
+
+//kola nowego traktora
+actor 8 prefabs\vehicles\tractor_a530\wheel_front_left_nocenter.X
+actor 9 prefabs\vehicles\tractor_a530\wheel_front_right_nocenter.X
+actor 10 prefabs\vehicles\tractor_a530\wheel_rear_left_nocenter.X
+actor 11 prefabs\vehicles\tractor_a530\wheel_rear_right_nocenter.X
+
+
+do_not_skip
+
+//start
+cut start
+time 0.2
+hour 12
+black
+
+music music\cut1.ogg
+
+actor_move_bezier 1 timeskip_bzr 4
+
+//kola na traktor
+actor_pos 0 sc1_actor_tractor kierowca
+animation 0 hero1_drive_old_tractor
+actor_pos 2 sc1_actor_tractor wheel_front_left
+actor_pos 3 sc1_actor_tractor wheel_front_right
+actor_pos 4 sc1_actor_tractor wheel_rear_left
+actor_pos 5 sc1_actor_tractor wheel_rear_right
+rotate_actor_x 2 9
+rotate_actor_x 3 9
+rotate_actor_x 4 6
+rotate_actor_x 5 6
+
+//stary traktor jedzie, kamera z tylu
+cut cut1
+time 8
+fade_in 0.1
+hour 18
+weather 0.32
+
+camera_pos cam_001
+camera_move_to cam_002 2.5
+camera_look_at cam_001_lookat
+sound3D 1 sfx\vehicles\cut_tractor_old_8sec.wav
+actor_move_bezier 1 timeskip_bzr_old 4
+
+//kola na traktor, kierowca dziadek
+actor_pos 0 sc1_actor_tractor kierowca
+animation 0 hero1_drive_old_tractor
+actor_pos 2 sc1_actor_tractor wheel_front_left
+actor_pos 3 sc1_actor_tractor wheel_front_right
+actor_pos 4 sc1_actor_tractor wheel_rear_left
+actor_pos 5 sc1_actor_tractor wheel_rear_right
+rotate_actor_x 2 9
+rotate_actor_x 3 9
+rotate_actor_x 4 6
+rotate_actor_x 5 6
+
+
+
+//stary traktor jedzie, kamera z dolu
+cut cut2
+time 8
+hour 18
+weather 0.32
+
+fov 0.8
+fade_in 2
+
+camera_pos cam_003
+camera_move_to cam_004 2
+camera_look_at cam_003_lookat
+// sound3D 1 sfx\vehicles\cut_tractor_old_8sec.wav
+actor_move_bezier 1 timeskip_bzr_old 4
+
+//kola na traktor, kierowca dziadek
+actor_pos 0 sc1_actor_tractor kierowca
+animation 0 hero1_drive_old_tractor
+actor_pos 2 sc1_actor_tractor wheel_front_left
+actor_pos 3 sc1_actor_tractor wheel_front_right
+actor_pos 4 sc1_actor_tractor wheel_rear_left
+actor_pos 5 sc1_actor_tractor wheel_rear_right
+rotate_actor_x 2 9
+rotate_actor_x 3 9
+rotate_actor_x 4 6
+rotate_actor_x 5 6
+
+
+
+//stary traktor jedzie na kamere
+cut cut3
+time 7
+hour 18
+weather 0.32
+camera_fov 0.6
+camera_pos cam_005
+camera_move_to cam_006 0.4
+camera_look_at cam_005_lookat
+// sound3D 1 sfx\vehicles\cut_tractor_old_8sec.wav
+actor_move_bezier 1 timeskip_bzr_old 4
+
+//kola na traktor, kierowca dziadek
+actor_pos 0 sc1_actor_tractor kierowca
+animation 0 hero1_drive_old_tractor
+actor_pos 2 sc1_actor_tractor wheel_front_left
+actor_pos 3 sc1_actor_tractor wheel_front_right
+actor_pos 4 sc1_actor_tractor wheel_rear_left
+actor_pos 5 sc1_actor_tractor wheel_rear_right
+rotate_actor_x 2 9
+rotate_actor_x 3 9
+rotate_actor_x 4 6
+rotate_actor_x 5 6
+
+
+
+//fadeout
+cut cut4
+time 1
+fade_out 1
+// sound3D 1 sfx\vehicles\cut_tractor_old_8sec.wav
+camera_fov 0.6
+
+//kola na traktor, kierowca dziadek wyjezdza z kadru
+actor_move_bezier 1 timeskip_bzr_old 4
+actor_pos 0 sc1_actor_tractor kierowca
+animation 0 hero1_drive_old_tractor
+actor_pos 2 sc1_actor_tractor wheel_front_left
+actor_pos 3 sc1_actor_tractor wheel_front_right
+actor_pos 4 sc1_actor_tractor wheel_rear_left
+actor_pos 5 sc1_actor_tractor wheel_rear_right
+
+
+
+//ciemno, timeskip
+cut cut45
+time 0.5
+black
+era 1 
+day 266
+hour 17
+
+//kola na traktor, kierowca dziadek wyjezdza z kadru
+actor_move_bezier 1 timeskip_bzr_old 4
+actor_pos 0 sc1_actor_tractor kierowca
+animation 0 hero1_drive_old_tractor
+actor_pos 2 sc1_actor_tractor wheel_front_left
+actor_pos 3 sc1_actor_tractor wheel_front_right
+actor_pos 4 sc1_actor_tractor wheel_rear_left
+actor_pos 5 sc1_actor_tractor wheel_rear_right
+
+
+
+//50 years later
+cut cut5
+time 3
+black
+text OB27
+
+//kola na traktor, kierowca dziadek wyjezdza z kadru
+actor_move_bezier 1 timeskip_bzr_old 4
+actor_pos 0 sc1_actor_tractor kierowca
+animation 0 hero1_drive_old_tractor
+actor_pos 2 sc1_actor_tractor wheel_front_left
+actor_pos 3 sc1_actor_tractor wheel_front_right
+actor_pos 4 sc1_actor_tractor wheel_rear_left
+actor_pos 5 sc1_actor_tractor wheel_rear_right
+
+
+
+//kamera z boku na nowy traktor
+cut cut6
+time 10
+fade_in 0.1
+hour 17
+weather 0.5
+
+camera_pos cam_007
+camera_move_to cam_008 6
+camera_look_at cam_007_lookat
+sound3D 7 sfx\vehicles\cut_tractor_new_10sec.wav
+actor_move_bezier 7 timeskip_bzr_new 6
+
+// kierowca wnuk
+actor_pos 6 sc1_actor_tractor2 kierowca
+animation 6 hero1_drive_tractor_L7
+
+//kola na traktor
+actor_pos 8 sc1_actor_tractor2 wheel_front_left
+actor_pos 9 sc1_actor_tractor2 wheel_front_right
+actor_pos 10 sc1_actor_tractor2 wheel_rear_left
+actor_pos 11 sc1_actor_tractor2 wheel_rear_right
+rotate_actor_x 8 12
+rotate_actor_x 9 12
+rotate_actor_x 10 8
+rotate_actor_x 11 8
+
+//kola na traktor, kierowca dziadek wyjezdza z kadru
+actor_move_bezier 1 timeskip_bzr_old 4
+actor_pos 0 sc1_actor_tractor kierowca
+animation 0 hero1_drive_old_tractor
+actor_pos 2 sc1_actor_tractor wheel_front_left
+actor_pos 3 sc1_actor_tractor wheel_front_right
+actor_pos 4 sc1_actor_tractor wheel_rear_left
+actor_pos 5 sc1_actor_tractor wheel_rear_right
+
+
+
+// nowy traktor jedzie w kamere, w tle billboard
+cut cut7
+time 8
+hour 17
+weather 0.3
+camera_fov 0.6
+camera_pos cam_009
+camera_move_to cam_010 0.7
+camera_look_at cam_009_lookat
+// sound3D 7 sfx\vehicles\cut_tractor_new_10sec.wav
+actor_move_bezier 7 timeskip_bzr_new 6
+
+// kierowca wnuk
+actor_pos 6 sc1_actor_tractor2 kierowca
+animation 6 hero1_drive_tractor_L7
+
+//kola na traktor
+actor_pos 8 sc1_actor_tractor2 wheel_front_left
+actor_pos 9 sc1_actor_tractor2 wheel_front_right
+actor_pos 10 sc1_actor_tractor2 wheel_rear_left
+actor_pos 11 sc1_actor_tractor2 wheel_rear_right
+rotate_actor_x 8 12
+rotate_actor_x 9 12
+rotate_actor_x 10 8
+rotate_actor_x 11 8
+
+//kola na traktor, kierowca dziadek wyjezdza z kadru
+actor_move_bezier 1 timeskip_bzr_old 4
+actor_pos 0 sc1_actor_tractor kierowca
+animation 0 hero1_drive_old_tractor
+actor_pos 2 sc1_actor_tractor wheel_front_left
+actor_pos 3 sc1_actor_tractor wheel_front_right
+actor_pos 4 sc1_actor_tractor wheel_rear_left
+actor_pos 5 sc1_actor_tractor wheel_rear_right
+
+
+
+//traktor wjezdza przez brame
+cut cut8
+time 8
+hour 17
+weather 0.4
+fade_in 2
+
+camera_fov 1.2
+camera_pos cam_011
+camera_move_to cam_012 1.2
+camera_look_at cam_011_lookat
+// sound3D 7 sfx\vehicles\cut_tractor_new_10sec.wav
+actor_move_bezier 7 timeskip_bzr_new2 5
+
+// kierowca wnuk
+actor_pos 6 sc1_actor_tractor2 kierowca
+animation 6 hero1_drive_tractor_L7
+
+//kola na traktor
+actor_pos 8 sc1_actor_tractor2 wheel_front_left
+actor_pos 9 sc1_actor_tractor2 wheel_front_right
+actor_pos 10 sc1_actor_tractor2 wheel_rear_left
+actor_pos 11 sc1_actor_tractor2 wheel_rear_right
+rotate_actor_x 8 10
+rotate_actor_x 9 10
+rotate_actor_x 10 7
+rotate_actor_x 11 7
+
+
+
+//traktor wjezdza na podworko, widok na farme
+cut cut9
+time 6
+hour 17
+weather 0.4
+fade_in 2
+
+camera_pos cam_013
+camera_move_to cam_014 1.7
+camera_look_at sc1_actor_tractor2
+// sound3D 7 sfx\vehicles\cut_tractor_new_10sec.wav
+actor_move_bezier 7 timeskip_bzr_new2 3
+
+// kierowca wnuk
+actor_pos 6 sc1_actor_tractor2 kierowca
+animation 6 hero1_drive_tractor_L7
+
+//kola na traktor
+actor_pos 8 sc1_actor_tractor2 wheel_front_left
+actor_pos 9 sc1_actor_tractor2 wheel_front_right
+actor_pos 10 sc1_actor_tractor2 wheel_rear_left
+actor_pos 11 sc1_actor_tractor2 wheel_rear_right
+rotate_actor_x 8 6
+rotate_actor_x 9 6
+rotate_actor_x 10 4
+rotate_actor_x 11 4
+
+
+
+//traktor wjezdza na podworko, koniec
+cut cut10
+time 5
+hour 17
+weather 0.4
+//fade_out 1
+camera_fov 0.8
+fade_in 2
+
+camera_pos cam_015
+camera_move_to cam_016 0.7
+camera_look_at sc1_actor_tractor2
+sound3D 7 sfx\vehicles\tractor_L134_engine_idle1.wav
+// sound3D 7 sfx\vehicles\cut_tractor_new_10sec.wav
+actor_move_bezier 7 timeskip_bzr_new2 1
+
+// kierowca wnuk
+actor_pos 6 sc1_actor_tractor2 kierowca
+animation 6 hero1_drive_tractor_L7
+
+//kola na traktor
+actor_pos 8 sc1_actor_tractor2 wheel_front_left
+actor_pos 9 sc1_actor_tractor2 wheel_front_right
+actor_pos 10 sc1_actor_tractor2 wheel_rear_left
+actor_pos 11 sc1_actor_tractor2 wheel_rear_right
+rotate_actor_x 8 2
+rotate_actor_x 9 2
+rotate_actor_x 10 1
+rotate_actor_x 11 1
+
+
+//koniec, fade out
+cut cut11
+time 2
+hour 17
+weather 0.4
+fade_out 1
+camera_fov 0.8
+
+//camera_pos cam_015
+//camera_move_to cam_016 1.7
+camera_look_at sc1_actor_tractor2
+actor_move_bezier 7 timeskip_bzr_new2 1
+
+// kierowca wnuk
+actor_pos 6 sc1_actor_tractor2 kierowca
+animation 6 hero1_drive_tractor_L7
+
+//kola na traktor
+actor_pos 8 sc1_actor_tractor2 wheel_front_left
+actor_pos 9 sc1_actor_tractor2 wheel_front_right
+actor_pos 10 sc1_actor_tractor2 wheel_rear_left
+actor_pos 11 sc1_actor_tractor2 wheel_rear_right
+rotate_actor_x 8 2
+rotate_actor_x 9 2
+rotate_actor_x 10 1
+rotate_actor_x 11 1

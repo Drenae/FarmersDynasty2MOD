@@ -1,0 +1,5 @@
+mesh_filename prefabs\vehicles\seeder_old_001\drill_1_nocenter.X
+socket disk 0.000000 -1.045000 -0.480000
+socket p1 -1.020000 -1.147000 -0.292000
+socket p5 -0.270000 -1.147000 -0.292000
+socket p8 0.280000 -1.147000 -0.292000

@@ -1,0 +1,89 @@
+
+// nazwa questa, unikalna i wymagana
+name Audrey_Claire
+icon hud_map_social.dds
+given_by_icon actor_unknown_woman.dds
+
+title OB70
+initial_waypoint audrey1
+initial_objective OB71
+given_by audrey1
+
+social_award 1
+award seeder_old_001
+
+wait 0.1 -waypoint * -checkpoint 10
+
+//idziemy na farme 22, dialog z audrey, dostajemy flaszke
+goto audrey1 -distance 5 -waypoint audrey1 -checkpoint 20
+wait 0.1 -waypoint *
+hero_dialog audrey1_dialog1 audrey1
+wait_end_hero_dialog
+give_player tincture01 1
+wait 1 -checkpoint 30
+
+//naprawiamy farme 22
+//obora
+//wait 1 
+//wait_repair_building neighbor_cowshed_022 -waypoint neighbor_cowshed_022 -objective OB72 -checkpoint 40
+//stodola
+//wait 1 
+//wait_repair_building neighbor_barn_022 -waypoint neighbor_barn_022 -checkpoint 50
+
+//idziemy do sklepu 1, dialog z Jackiem, miej flaszke
+goto jack1 -distance 5 -waypoint jack1 -objective OB72A -checkpoint 60 -playerhas tincture01 1
+wait 0.1 -waypoint *
+hero_dialog jack1_dialog2 jack1
+wait_end_hero_dialog
+wait 1 -checkpoint 70
+
+//idziemy do agro szopa 2, dialog z Josephem, miej flaszke
+goto joseph1 -distance 5 -waypoint joseph1 -objective OB72B -checkpoint 80 -playerhas tincture01 1
+wait 0.1 -waypoint *
+player_teleport joseph_dialog_teleport
+hero_dialog joseph1_dialog1 joseph1
+take_from_player tincture01 1
+wait_end_hero_dialog
+give_player orchardfertilizer 10
+wait 1 -checkpoint 90
+
+//zalatwione, dialog z audrey, miej nawoz od Josepha
+goto audrey1 -distance 5 -waypoint audrey1 -objective OB73 -checkpoint 100 -playerhas orchardfertilizer 10
+wait 0.1 -waypoint *
+hero_dialog audrey1_dialog2 audrey1
+take_from_player orchardfertilizer 10
+likes_player audrey1 0.25
+likes_player claire1 0.25
+wait_end_hero_dialog
+wait 1 -checkpoint 110
+
+//odbieramy siewnik
+give_vehicle_to_player audrey_claire_seeder
+add_seeds 3 1000
+wait 1 -checkpoint 120
+goto audrey_claire_seeder -distance 8 -waypoint audrey_claire_seeder -objective OB74 -checkpoint 140
+wait 1 -waypoint * -checkpoint 150
+skill_advance TeamPlayer 10
+wait 1 -waypoint * -checkpoint 160
+print koniec_questa_audrey_claire
+wait 1
+
+//start_quest
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

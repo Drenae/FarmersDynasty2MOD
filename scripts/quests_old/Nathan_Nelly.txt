@@ -1,0 +1,71 @@
+
+// nazwa questa, unikalna i wymagana
+name Nathan_Nelly
+icon hud_map_social.dds
+given_by_icon actor_unknown_man.dds
+
+title OB47
+initial_waypoint nathan1
+initial_objective OB48
+given_by nathan1
+
+// gdy startuje ten quest, niech bedzie sledzony
+focus_on_start
+
+social_award 1
+award cultivator_old
+
+wait 0.1 -waypoint * -checkpoint 10
+
+//idziemy na farme 4, dialog z natanem
+goto nathan1 -distance 5 -waypoint nathan1 -checkpoint 20
+wait 0.1 -waypoint *
+hero_dialog nathan1_dialog1 nathan1
+wait_end_hero_dialog
+wait 1 -checkpoint 30
+
+//naprawiamy barn natana
+wait 1 -waypoint neighbor_barn_004 -objective OB49 -checkpoint 40
+wait_repair_building neighbor_barn_004 -checkpoint 50
+
+//wracamy po nagrode, dialog z natanem
+goto nathan1 -distance 5 -waypoint nathan1 -objective OB50 -checkpoint 60
+wait 0.1 -waypoint *
+hero_dialog nathan1_dialog2 nathan1
+wait_end_hero_dialog
+likes_player nathan1 0.25
+wait 0.2 -checkpoint 70
+
+//odbieramy kultywator
+give_vehicle_to_player nathan_cultivator
+wait 0.2
+goto nathan_cultivator -distance 8 -waypoint nathan_cultivator -objective OB51 -checkpoint 110
+wait 0.2 -waypoint * -checkpoint 120
+
+
+wait 0.5
+print koniec_questa_nathan_nelly
+wait 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

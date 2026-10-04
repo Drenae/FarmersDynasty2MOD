@@ -1,0 +1,6 @@
+mesh_filename prefabs\vehicles\trailer_old_transporter\attachment_nocenter.x
+socket przyczepa 0.000000 -0.000000 0.000000
+socket thill 0.000000 0.960000 0.600000
+socket traktor 0.000000 2.010000 0.200000
+socket wheel_front_left -0.620000 0.040000 0.460000
+socket wheel_front_right 0.620000 0.041000 0.460000

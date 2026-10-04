@@ -1,0 +1,57 @@
+
+// nazwa questa, unikalna i wymagana
+name Luna_touch_time
+icon hud_map_social.dds
+given_by_icon actor_unknown_woman.dds
+
+title OC17
+initial_waypoint luna1
+initial_objective OC18
+given_by luna1
+
+// gdy startuje ten quest, niech bedzie sledzony
+focus_on_start
+
+social_award 1
+
+wait 0.1 -waypoint * -checkpoint 10
+
+//idziemy na farme 20, dialog z Luna
+goto luna1 -distance 5 -waypoint luna1 -checkpoint 20
+wait 0.1 -waypoint *
+hero_dialog luna1_dialog1 luna1
+wait_end_hero_dialog
+wait 1 -waypoint luna_field -objective OC19 -checkpoint 30
+
+//kosimy pole pszenicy
+allow_field_work field_028
+
+wait 3 -checkpoint 40
+wait_harvest field_028 
+
+//jodymy do młyna
+goto old_mill_chute_quest_marker -distance 10 -waypoint old_mill_chute_quest_marker -objective OC20 -checkpoint 50
+
+wait 1 -playerhas_cash 2000 -playerhas flour 4 -objective OC20 -checkpoint 60
+wait 1 -waypoint * -checkpoint 70
+wait 5
+forbid_field_work field_028
+
+//dej Lunie jej haj$y i monke
+goto luna1 -distance 5 -waypoint luna1 -objective OC21 -checkpoint 80 -playerhas_cash 2000 -playerhas flour 4
+wait 0.1 -waypoint *
+hero_dialog luna1_dialog2 luna1
+take_from_player flour 4
+take_cash 2000
+likes_player luna1 0.25
+wait_end_hero_dialog
+wait 1 -checkpoint 90
+//Luna uczy zapadania w sen zimowy
+unlock_perk hero20
+print koniec_questa_luna_touch_time
+wait 1
+
+
+
+
+

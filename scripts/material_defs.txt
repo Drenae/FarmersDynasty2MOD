@@ -1,0 +1,632 @@
+// tu definiujemy kolejne materialy w grze
+
+// -1 to jest naprawa, nie material
+// sluzy do definicji FXow i dzwiekow
+// FX oraz dzwiekow moze byc do 8 na material, beda losowane, moga sie powtarzac.
+// fx/dzwiek jest definiowany dla tego na ktory podmieniamy, nie podmienianego - czyli dla starych cegiel czy starego drewna jest zbedny
+
+material -1
+
+// to sa domyslne FXy
+FX FX_fix2
+FX_Material 0 FX_fix2
+FX_Material 0 fx_fix_wood
+FX_Material 0 fx_fix_wood
+
+socket_icon item_icon_repair_indicator_hammer.dds
+
+
+
+
+// to sa fxy specyficzne dla danego materialu (po numerkach z tego pliku). Uzywajac narzedzia na tym materiale, te fxy maja priorytet.
+// tez sa losowane. w sumie moze byc ich 32 w jednej definicji materialu (dla roznych materialow sie sumuja)
+
+
+
+// to sa dzwiekiy specyficzne dla danego materialu (po numerkach z tego pliku). Uzywajac narzedzia na tym materiale, te dzwieki maja priorytet.
+// tez sa losowane. w sumie moze byc ich 32 w jednej definicji materialu (dla roznych materialow sie sumuja)
+
+working_sound_material 0 sfx\tools\nailer_hit1.wav
+working_sound_material 0 sfx\tools\nailer_hit2.wav
+working_sound_material 0 sfx\tools\nailer_hit3.wav
+working_sound_material 0 sfx\tools\nailer_hit4.wav
+working_sound_material 0 sfx\tools\nailer_hit5.wav
+working_sound_material 0 sfx\tools\nailer_hit6.wav
+working_sound_material 0 sfx\tools\nailer_hit7.wav
+working_sound_material 0 sfx\tools\nailer_hit8.wav
+
+working_sound_material 29 sfx\tools\glass_hit1.wav
+working_sound_material 29 sfx\tools\glass_hit2.wav
+working_sound_material 29 sfx\tools\glass_hit3.wav
+working_sound_material 29 sfx\tools\glass_hit4.wav
+working_sound_material 29 sfx\tools\glass_hit5.wav
+
+
+
+
+
+
+
+
+
+
+
+// repair wood
+
+tool prefabs\useable\old_nailer_nocenter.x
+tool_socket nailer
+
+working_animation T_nailer_hit1 0.99
+working_animation T_nailer_hit2 1.2
+working_animation T_nailer_hit3 0.99
+working_animation T_nailer_hit4 0.92
+working_animation T_nailer_hit5 1.1
+idle_animation T_nailer_idle1 0.8
+idle_animation T_nailer_idle2 0.9
+idle_animation T_nailer_idle3 0.6
+idle_walk_animation T_nailer_walk 0.9
+
+
+// wspolczesna epoka
+
+// tool prefabs\useable\new_nailer_nocenter.x
+// tool_socket nailer_new
+
+// working_animation T_nailer_new_hit1 0.99
+// idle_animation T_nailer_new_idle1 0.8
+// idle_animation T_nailer_new_idle2 0.8
+// idle_animation T_nailer_new_idle3 0.8
+// idle_walk_animation T_nailer_new_walk 0.9
+
+
+
+
+// repair bricks
+
+// przelaczam na alternatywny fix #1
+fix 1
+
+// do ktorych materialow pasuje
+fix_material 3 5
+
+tool prefabs\useable\trowel_old_nocenter.x
+tool_socket trowel_old
+
+working_animation T_trowel_old_hit1
+idle_animation T_trowel_old_idle1
+idle_walk_animation T_trowel_old_walk
+
+
+
+
+
+
+// repair glass
+
+// przelaczam na alternatywny fix #2
+fix 2
+
+// do ktorych materialow pasuje
+fix_material 12
+
+tool prefabs\Buildings\held_materials\held_cardboard_nocenter.x
+tool_socket cardboard
+
+working_animation T_cardboard_hit1
+working_animation T_cardboard_hit1
+working_animation T_cardboard_hit1
+idle_animation T_cardboard_idle1
+idle_animation T_cardboard_idle1
+idle_walk_animation T_cardboard_walk
+
+
+
+
+
+
+
+
+
+
+
+// 0 old wood (stare drewno)
+material 0
+description MAT00_id
+
+socket_icon item_icon_repair_indicator_hammer.dds
+
+
+
+// 1- new wood (nowe drewno)
+material 1
+
+FX fx_fix_wood
+FX FX_fix2
+FX FX_fix2
+
+description MAT01_id
+source prefabs\buildings\buildings_materials\pallet_wood_new_nocenter.x
+icon icon_rebuild_wood.dds
+price 10
+
+default_color
+item rebuild_wood
+
+held prefabs\Buildings\held_materials\held_plank_nocenter.X
+held_socket plank
+
+tool prefabs\useable\old_nailer_nocenter.x
+tool_socket nailer
+
+working_animation T_nailer_plank_hit1 0.99
+idle_animation T_nailer_plank_idle1 0.9
+idle_animation T_nailer_plank_idle2 0.9
+idle_walk_animation T_nailer_plank_walk1 0.9
+
+working_sound sfx\tools\nailer_wood_hit1.wav
+working_sound sfx\tools\nailer_wood_hit2.wav
+working_sound sfx\tools\nailer_wood_hit3.wav
+working_sound sfx\tools\nailer_wood_hit4.wav
+working_sound sfx\tools\nailer_wood_hit5.wav
+
+
+
+
+
+
+// 3- old brick (stara cegla)
+material 3
+description MAT03_id
+
+
+
+
+
+// 4- new brick (nowa cegla)
+material 4
+
+FX fx_fix4
+
+description MAT04_id
+source prefabs\buildings\buildings_materials\pallet_brick_new_nocenter.x
+icon icon_rebuild_brick.dds
+price 220
+item rebuild_brick
+
+held prefabs\buildings\held_materials\held_brick_nocenter.x
+held_socket brick
+
+tool prefabs\useable\trowel_old_nocenter.x
+tool_socket trowel_old
+
+working_animation T_trowel_brick_old_hit1
+idle_animation T_trowel_brick_old_idle1
+idle_walk_animation T_trowel_brick_old_walk1
+
+working_sound sfx\tools\bricks_trowel1.wav
+working_sound sfx\tools\bricks_trowel2.wav
+working_sound sfx\tools\bricks_trowel3.wav
+working_sound sfx\tools\bricks_trowel4.wav
+working_sound sfx\tools\bricks_trowel5.wav
+
+
+
+
+
+
+// 5- old plaster (stary tynk)
+material 5
+description MAT05_id
+
+
+
+// 6- new plaster (nowy tynk)
+material 6
+
+FX fx_fixplaster
+FX fx_fixplaster
+FX fx_fix2
+
+description MAT06_id
+source prefabs\buildings\buildings_materials\pallet_plaster_new_nocenter.x
+icon icon_rebuild_plaster.dds
+price 470
+color_picker
+item rebuild_plaster
+
+held prefabs\useable\trowel_wooden_old_nocenter.x
+held_socket trowel_old_left
+
+tool prefabs\useable\trowel_old_nocenter.x
+tool_socket trowel_old
+
+working_animation T_trowel_woodTrowel_hit1
+idle_animation T_trowel_woodTrowel_idle1
+idle_walk_animation T_trowel_woodTrowel_walk1
+
+
+working_sound sfx\tools\trowel1.wav
+working_sound sfx\tools\trowel2.wav
+working_sound sfx\tools\trowel3.wav
+
+
+
+
+
+
+
+
+
+// 10- wallpaper2 (tapeta)
+material 10
+
+FX fx_fixplaster
+FX fx_fixplaster
+FX fx_fix2
+
+description MAT11_id
+source prefabs\buildings\buildings_materials\pallet_wallpaper2_new_nocenter.x
+icon icon_rebuild_plaster.dds
+price 70
+item rebuild_wallpaper2
+
+held prefabs\useable\trowel_wooden_old_nocenter.x
+held_socket empty
+
+tool prefabs\buildings\held_materials\held_wallpaper2_nocenter.x
+tool_socket wallpaper
+
+working_animation T_wallpaper_hit1
+idle_animation T_wallpaper_idle1
+idle_walk_animation T_wallpaper_walk1
+
+
+working_sound sfx\tools\brush_painting1.wav
+working_sound sfx\tools\brush_painting2.wav
+working_sound sfx\tools\brush_painting3.wav
+working_sound sfx\tools\brush_painting4.wav
+working_sound sfx\tools\brush_painting5.wav
+
+
+
+
+
+
+// 12 glass (stare szklo)
+material 12
+description MAT12_id
+
+
+
+
+
+
+
+
+// 13- new roof 0 (bitumen)
+material 13
+
+FX fx_fix4
+
+description MAT13_id
+// kupka z ktorej bierzemy pape
+source prefabs\buildings\buildings_materials\pallet_bitumen_new_nocenter.x
+icon icon_rebuild_bitumen.dds
+price 200
+item rebuild_bitumen
+
+held prefabs\buildings\held_materials\held_bitumen_nocenter.x
+held_socket plank
+
+tool prefabs\useable\old_nailer_nocenter.x
+tool_socket nailer
+
+working_animation T_nailer_plank_hit1 0.99
+idle_animation T_nailer_plank_idle1 0.8
+idle_walk_animation T_nailer_plank_walk1 0.9
+
+working_sound sfx\tools\nailer_hit1.wav
+working_sound sfx\tools\nailer_hit2.wav
+working_sound sfx\tools\nailer_hit3.wav
+working_sound sfx\tools\nailer_hit4.wav
+working_sound sfx\tools\nailer_hit5.wav
+
+
+
+
+// 14- new roof 1 (czerwony gont)
+material 14
+FX fx_fix4
+
+description MAT14_id
+// kupka z ktorej bierzemy pape
+source prefabs\buildings\buildings_materials\pallet_roof_1_new_nocenter.x
+icon icon_rebuild_roof_1.dds
+price 200
+item rebuild_roof_1
+
+held prefabs\buildings\held_materials\held_roof_1_nocenter.x
+held_socket plank
+
+tool prefabs\useable\old_nailer_nocenter.x
+tool_socket nailer
+
+working_animation T_nailer_plank_hit1 0.99
+idle_animation T_nailer_plank_idle1 0.8
+idle_walk_animation T_nailer_plank_walk1 0.9
+
+working_sound sfx\tools\nailer_ceramic_hit1.wav
+working_sound sfx\tools\nailer_ceramic_hit2.wav
+working_sound sfx\tools\nailer_ceramic_hit3.wav
+working_sound sfx\tools\nailer_ceramic_hit4.wav
+working_sound sfx\tools\nailer_ceramic_hit5.wav
+
+
+
+
+// 15- new roof 2 (zielona blacha)
+material 15
+FX fx_fix4
+
+description MAT15_id
+// kupka z ktorej bierzemy pape
+source prefabs\buildings\buildings_materials\pallet_roof_2_new_nocenter.x
+icon icon_rebuild_roof_2.dds
+price 200
+item rebuild_roof_2
+
+held prefabs\buildings\held_materials\held_roof_2_nocenter.X
+held_socket plank
+
+tool prefabs\useable\old_nailer_nocenter.x
+tool_socket nailer
+
+working_animation T_nailer_plank_hit1 0.99
+idle_animation T_nailer_plank_idle1 0.8
+idle_walk_animation T_nailer_plank_walk1 0.9
+
+working_sound sfx\tools\nailer_metal_hit1.wav
+working_sound sfx\tools\nailer_metal_hit2.wav
+working_sound sfx\tools\nailer_metal_hit3.wav
+working_sound sfx\tools\nailer_metal_hit4.wav
+working_sound sfx\tools\nailer_metal_hit5.wav
+
+
+
+
+// 16- new roof 3 (czerwona ceramika)
+material 16
+FX fx_fix4
+
+description MAT16_id
+// kupka z ktorej bierzemy pape
+source prefabs\buildings\buildings_materials\pallet_roof_3_new_nocenter.x
+icon icon_rebuild_roof_3.dds
+price 200
+item rebuild_roof_3
+
+held prefabs\buildings\held_materials\held_roof_3_nocenter.X
+held_socket plank
+
+tool prefabs\useable\old_nailer_nocenter.x
+tool_socket empty
+
+working_animation T_empty_hand_hit1 0.9
+idle_animation T_empty_hand_idle1
+idle_walk_animation T_empty_hand_walk1
+
+working_sound sfx\tools\hammer_wood_hit1.wav
+working_sound sfx\tools\hammer_wood_hit2.wav
+working_sound sfx\tools\hammer_wood_hit3.wav
+working_sound sfx\tools\hammer_wood_hit4.wav
+working_sound sfx\tools\hammer_wood_hit5.wav
+
+
+
+
+
+// 17- new roof 4 (ocynk blacha)
+material 17
+FX fx_fix4
+
+description MAT17_id
+// kupka z ktorej bierzemy pape
+source prefabs\buildings\buildings_materials\pallet_roof_4_new_nocenter.x
+icon icon_rebuild_roof_4.dds
+price 200
+item rebuild_roof_4
+
+held prefabs\buildings\held_materials\held_roof_4_nocenter.X
+held_socket plank
+
+tool prefabs\useable\old_nailer_nocenter.x
+tool_socket nailer
+
+working_animation T_nailer_plank_hit1 0.99
+idle_animation T_nailer_plank_idle1 0.8
+idle_walk_animation T_nailer_plank_walk1 0.9
+
+working_sound sfx\tools\nailer_metal_hit1.wav
+working_sound sfx\tools\nailer_metal_hit2.wav
+working_sound sfx\tools\nailer_metal_hit3.wav
+working_sound sfx\tools\nailer_metal_hit4.wav
+working_sound sfx\tools\nailer_metal_hit5.wav
+
+
+
+
+
+
+// 18- old metal (stary metal)
+material 18
+description MAT18_id
+
+
+
+
+
+// 19- scratches metal (nowy metal) 
+material 19
+FX fx_fix2
+description MAT19_id
+source prefabs\buildings\buildings_materials\pallet_metal_new_nocenter.x
+icon icon_rebuild_metal.dds
+price 240
+item rebuild_metal
+
+
+held prefabs\buildings\held_materials\held_metal_nocenter.X
+held_socket plank
+
+tool prefabs\useable\old_nailer_nocenter.x
+tool_socket nailer
+
+working_animation T_nailer_plank_hit1 0.99
+idle_animation T_nailer_plank_idle1 0.8
+idle_walk_animation T_nailer_plank_walk1 0.9
+
+working_sound sfx\tools\nailer_metal_hit1.wav
+working_sound sfx\tools\nailer_metal_hit2.wav
+working_sound sfx\tools\nailer_metal_hit3.wav
+working_sound sfx\tools\nailer_metal_hit4.wav
+working_sound sfx\tools\nailer_metal_hit5.wav
+
+
+
+// 21- old ceramic (stare plytki ceramiczne)
+material 21
+description MAT21_id
+
+
+
+
+// 23- parquet 1
+material 23
+FX fx_fix4
+
+description MAT23_id
+// kupka z ktorej bierzemy pape
+source prefabs\buildings\buildings_materials\pallet_parquet1_nocenter.x
+icon icon_rebuild_parquet1.dds
+price 120
+item rebuild_parquet1
+
+held prefabs\buildings\held_materials\held_parquet1_nocenter.x
+held_socket plank
+
+tool prefabs\useable\old_nailer_nocenter.x
+tool_socket empty
+
+working_animation T_empty_hand_hit1 0.9
+idle_animation T_empty_hand_idle1
+idle_walk_animation T_empty_hand_walk1
+
+working_sound sfx\tools\hammer_wood_hit1.wav
+working_sound sfx\tools\hammer_wood_hit2.wav
+working_sound sfx\tools\hammer_wood_hit3.wav
+working_sound sfx\tools\hammer_wood_hit4.wav
+working_sound sfx\tools\hammer_wood_hit5.wav
+
+
+
+
+
+// 27- painted (malowanie)
+
+material 27
+FX fx_fix_wood
+FX FX_fix2
+FX FX_fix2
+
+description MAT27_id
+source prefabs\buildings\buildings_materials\pallet_paint_new_nocenter.x
+icon icon_rebuild_paint.dds
+price 20
+item rebuild_paint
+
+color_picker
+
+socket_icon item_icon_repair_indicator_paint.dds
+
+// teraz materialy sie podnosi do inventory i musza byc zdefiniowane jako itemy
+
+tool prefabs\buildings\held_materials\held_brush_nocenter.x
+tool_socket brush
+
+working_animation T_paint_hit1 0.9
+idle_animation T_paint_idle1 0.9
+idle_walk_animation T_paint_walk1 1.0
+
+
+working_sound sfx\tools\brush_painting1.wav
+working_sound sfx\tools\brush_painting2.wav
+working_sound sfx\tools\brush_painting3.wav
+working_sound sfx\tools\brush_painting4.wav
+working_sound sfx\tools\brush_painting5.wav
+
+
+
+
+
+// 28- solar roof
+material 28
+FX fx_fix4
+
+description MAT28_id
+// kupka z ktorej bierzemy pape
+source prefabs\buildings\buildings_materials\pallet_solar_new_nocenter.x
+icon icon_rebuild_solar.dds
+price 300
+item rebuild_solar
+
+held prefabs\buildings\held_materials\held_solar_nocenter.x
+held_socket plank
+
+tool prefabs\useable\old_nailer_nocenter.x
+tool_socket empty
+
+working_animation T_empty_hand_hit1 0.9
+idle_animation T_empty_hand_idle1
+idle_walk_animation T_empty_hand_walk1
+
+working_sound sfx\tools\hammer_wood_hit1.wav
+working_sound sfx\tools\hammer_wood_hit2.wav
+working_sound sfx\tools\hammer_wood_hit3.wav
+working_sound sfx\tools\hammer_wood_hit4.wav
+working_sound sfx\tools\hammer_wood_hit5.wav
+
+
+
+
+
+// 29- glass (nowe szkło)
+material 29
+
+FX FX_fix2
+FX FX_fix2
+
+description MAT29_id
+// kupka z ktorej bierzemy szklo
+source prefabs\buildings\buildings_materials\pallet_glass_new_nocenter.x
+icon icon_rebuild_glass.dds 
+price 200
+item rebuild_glass
+
+tool prefabs\buildings\held_materials\held_glass_nocenter.x
+tool_socket cardboard
+
+working_animation T_cardboard_hit1
+idle_animation T_cardboard_idle1
+idle_walk_animation T_cardboard_walk
+
+working_sound sfx\tools\glass_hit1.wav
+working_sound sfx\tools\glass_hit2.wav
+working_sound sfx\tools\glass_hit3.wav
+working_sound sfx\tools\glass_hit4.wav
+working_sound sfx\tools\glass_hit5.wav
+
+
+
+
+
+

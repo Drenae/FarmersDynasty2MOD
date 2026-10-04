@@ -1,0 +1,1935 @@
+//
+// skrypt definiuje itemy z inventory - do jedzenia, do dawania, do mniejszego handlu
+//
+
+// produkty surowe, najnizsza jakosc odzywcza
+// zasieg cenowy do 5 eur, odzywia do maks. 20 punktow (na 100)
+// lista dostepnych skladnikow (ingredients). Mogą być pisane małymi literami, bez różnicy
+// MEAT
+// FISH
+// FLUID (woda, piwo etc)
+// FRUIT
+// HERB
+// VEGETABLE
+// FLOUR
+// FAT - olej, smalec
+// MUSHROOM
+// DAIRY - mleko, ser
+// EGG
+// SWEET (honey, sugar)
+// podanie ingredient bez parametru daje domyslny neutralny
+// nutrition podaje wartosc odzywcza podobnie jak food, ale gra wie że na surowo tego sie nie zje.
+
+//
+// narzedzia do uzywania pod domyslne klawisze F1-F8
+//
+
+// pila
+
+item axe
+title AT873
+icon item_icon_axe.dds
+description AT874
+price 80
+axe
+dont_stack
+weight 3
+
+item chainsaw
+title AT73
+icon item_icon_chainsaw.dds
+description AT74
+price 480
+chainsaw
+dont_stack
+weight 5
+
+// tool do naprawy
+item repair
+title AT177
+icon icon_pallet_rubble.dds
+description AT178
+price 0.1
+repair
+put_away prefabs\Buildings\buildings_materials\pallet_rubble_nocenter.x
+weight 0.1
+
+// garnek
+item cookpot
+title AT889
+icon item_icon_pot01.dds
+description AT890
+price 15
+cookpot
+dont_stack
+weight 1
+
+// firewood
+item firewood
+title AT891
+icon item_icon_firewood01.dds
+description AT892
+price 1.6
+firewood
+weight 0.25
+
+item canister
+title IT49
+icon item_icon_canister.dds
+description IT49n
+price 500
+canister
+weight 1
+
+item wirebrush
+title IT48
+icon item_icon_wire_brush.dds
+description IT48n
+price 24
+wirebrush
+weight 0.3
+
+item sparewheel
+title IT47
+icon item_icon_spare_wheel.dds
+description IT47n
+price 920
+sparewheel
+weight 5
+
+
+// tu lista tooli materialowych do przebudowy
+// cene podajemy za jeden material (deske, cegle), nie za palete!
+
+item rebuild_wood
+title MAT01_id
+icon icon_rebuild_wood.DDS
+description AT932
+price 0.8
+rebuild 1
+weight 0.15
+
+item rebuild_brick
+title MAT04_id
+icon icon_rebuild_brick.DDS
+description AT932
+price 2.2
+rebuild 4
+weight 0.2
+
+item rebuild_plaster
+title MAT06_id
+icon icon_rebuild_plaster.DDS
+description AT932
+price 1.6
+rebuild 6
+weight 0.1
+
+item rebuild_wallpaper2
+title MAT11_id
+icon icon_rebuild_wallpaper2.DDS
+description AT932
+price 0.7
+rebuild 10
+weight 0.1
+
+item rebuild_parquet1
+title MAT23_id
+icon icon_rebuild_parquet1.DDS
+description AT932
+price 1.2
+rebuild 23
+weight 0.1
+
+item rebuild_glass
+title MAT29_id
+icon icon_rebuild_glass.DDS
+description AT932
+price 2.00
+rebuild 29 
+weight 0.1
+
+
+item rebuild_bitumen
+title MAT13_id
+icon icon_rebuild_bitumen.DDS
+description AT932
+price 1.90
+rebuild 13
+weight 0.2
+
+item rebuild_roof_1
+title MAT14_id
+icon icon_rebuild_roof_1.DDS
+description AT932
+price 2.00
+rebuild 14
+weight 0.15
+
+item rebuild_roof_2
+title MAT15_id
+icon icon_rebuild_roof_2.DDS
+description AT932
+price 2.10
+rebuild 15
+weight 0.2
+
+item rebuild_roof_3
+title MAT16_id
+icon icon_rebuild_roof_3.DDS
+description AT932
+price 2.20
+rebuild 16
+weight 0.2
+
+item rebuild_roof_4
+title MAT17_id
+icon icon_rebuild_roof_4.DDS
+description AT932
+price 2.40
+rebuild 17
+weight 0.2
+
+item rebuild_metal
+title MAT19_id
+icon icon_rebuild_metal.DDS
+description AT932
+price 2.20
+rebuild 19
+weight 0.15
+
+item rebuild_paint
+title MAT27_id
+icon icon_rebuild_paint.DDS
+description AT932
+price 1.20
+rebuild 27
+weight 0.1
+color
+
+item rebuild_solar
+title MAT28_id
+icon icon_rebuild_solar.DDS
+description AT932
+price 3.00
+rebuild 28
+weight 0.15
+
+
+
+
+// dalej..
+
+// scaffold
+item scaffold
+title AT180
+icon item_icon_scaffolding.dds
+description AT181
+price 100
+scaffold
+dont_stack
+weight 5
+
+
+// wedka
+item fishingrod
+title AT320
+icon item_icon_fishing_rod.dds
+description AT52
+price 260
+fishingrod
+dont_stack
+weight 0.5
+
+
+// kosiarka
+item motorsense
+title AT321
+icon item_icon_motorsense.dds
+description AT51
+price 520
+motorsense
+dont_stack
+weight 3
+
+// kosiarka
+item motorsenseold
+title AA424
+icon item_icon_oldmower.dds
+description AA425
+price 360
+motorsense_old
+dont_stack
+weight 5
+
+
+
+// radio stara epoka - do homewares
+item radio0
+title AA233
+icon icon_radio_old.dds
+description AA234
+price 320
+dont_stack
+put_away prefabs\useable\radio_old_nocenter.x SPECIAL_RADIO_OLD
+weight 5.2
+
+// radio nowa epoka - do homewares
+item radio1
+title AA235
+icon icon_radio_new.dds
+description AA236
+price 240
+dont_stack
+put_away prefabs\useable\radio_new_nocenter.x SPECIAL_RADIO_NEW
+weight 1.5
+
+
+// wanna stara epoka - do homewares, ale w nowej epoce też bym zostawił w sklepie
+item bathtub0
+title AT850
+icon icon_bathtub_old_1.dds
+description AA256
+price 1220
+dont_stack
+put_away prefabs\useable\bathtub_old_1_nocenter.x SPECIAL_BATHTUB
+weight 82
+indoors_only
+
+// prysznic nowa epoka - do homewares
+item bathtub1
+title AT848
+icon icon_bathtub_old_2.dds
+description AA257
+price 1240
+dont_stack
+put_away prefabs\useable\bathtub_old_2_nocenter.x SPECIAL_SHOWER
+weight 75
+indoors_only
+
+// bbq stara epoka - do homewares
+item bbq0
+title AA239
+icon icon_bbq_60s.dds
+description AA240
+price 1320
+dont_stack
+put_away prefabs\useable\bbq_60s_nocenter.x SPECIAL_BBQ_OLD
+weight 45.5
+outdoors_only
+
+// bbq nowa epoka - do homewares
+item bbq1
+title AA239
+icon icon_bbq_new.dds
+description AA240
+price 1420
+dont_stack
+put_away prefabs\useable\bbq_new_nocenter.x SPECIAL_BBQ_NEW
+weight 51
+outdoors_only
+
+
+// toilet stara epoka - do homewares
+item toilet0
+title AT852
+icon icon_toilet_bowl_old_2.dds
+description AA238
+price 420
+dont_stack
+put_away prefabs\useable\toilet_bowl_old_2_nocenter.x SPECIAL_TOILET_OLD
+weight 32
+indoors_only
+
+// toilet nowa epoka - do homewares
+item toilet1
+title AT852
+icon icon_toilet_bowl_old_1.dds
+description AA238
+price 540
+dont_stack
+put_away prefabs\useable\toilet_bowl_old_1_nocenter.x SPECIAL_TOILET_NEW
+weight 27
+indoors_only
+
+
+
+// pralka stara epoka - do homewares
+item wmachine0
+title AT854
+icon icon_washingmachine_60s.dds
+description AA241
+price 520
+dont_stack
+put_away prefabs\useable\washing_machine_60s_nocenter.x SPECIAL_WMACHINE_OLD
+weight 50
+indoors_only
+
+// pralka nowa epoka - do homewares
+item wmachine1
+title AT854
+icon icon_washingmachine.dds
+description AA241
+price 850
+dont_stack
+put_away prefabs\useable\washing_machine_nocenter.x SPECIAL_WMACHINE_NEW
+weight 60
+indoors_only
+
+
+// zlew - do homewares - obie epoki
+item sink
+title AA272
+icon icon_sink_old_1.dds
+description AA273
+price 250
+dont_stack
+put_away prefabs\useable\bathroom_sink_old_1_nocenter.x SPECIAL_SINK
+weight 24
+indoors_only
+
+
+
+
+
+
+
+
+item oldclothing
+title AT893
+icon item_icon_clothes01.dds
+description AT894
+price 120
+clothing 0
+dont_stack
+weight 1
+
+item oldclothing1
+title AT927
+icon item_icon_clothes03.dds
+description AT928
+price 210
+winter_clothing
+clothing 1
+dont_stack
+weight 2
+
+item newclothing
+title AT895
+icon item_icon_clothes02.dds
+description AT896
+price 120
+clothing 2
+dont_stack
+weight 1
+
+
+item backpack
+title AT897
+icon item_icon_clothes02.dds
+description AT898
+price 120
+dont_stack
+weight 1
+
+
+//
+// food ingredients
+//
+
+
+// ryba1
+item fish1
+title IT05
+description IT01n
+icon item_icon_fish1.dds
+price 5
+ingredient FISH
+nutrition 15
+cook_time 10
+weight 0.3
+
+// ryba2
+item fish2
+title IT06
+description IT01n
+icon item_icon_fish2.dds
+price 5.60
+ingredient FISH
+nutrition 18
+cook_time 10
+weight 0.35
+
+
+// mleko
+item milk
+title IT07
+description IT01n
+icon item_icon_milk.dds
+price 1.00
+food 6
+drink
+ingredient FLUID
+cook_time 5
+weight 1
+
+
+// jajko
+item egg
+title AT01
+description AT01n
+icon item_icon_egg.dds
+price 0.5
+food 5
+ingredient EGG
+cook_time 10
+weight 0.05
+
+
+// kacze jajko
+item duckegg
+title AA475
+description AT01n
+icon item_icon_duck_egg.dds
+price 4.99
+food 9
+ingredient EGG
+cook_time 10
+weight 0.07
+
+
+// kola
+item coke
+title AA157
+icon item_icon_coke.dds
+description AA158
+price 4
+food 15
+coffee 15
+drink
+ingredient FLUID
+cook_time 5
+weight 0.25
+
+// monke
+item flour
+title AA402A
+icon item_icon_flourbag.dds
+description AA164
+price 20
+ingredient FLOUR
+cook_time 20
+weight 10
+large_flour
+
+// monke
+item flourbag
+title AA402
+icon item_icon_flour.dds
+description AA403
+price 2
+ingredient FLOUR
+cook_time 20
+weight 1
+
+
+// grzyby
+item mushroom
+title AT56
+icon item_icon_mushrooms.dds
+description IT01n
+price 0.75
+food 5
+ingredient MUSHROOM
+cook_time 10
+weight 0.05
+
+// poziomki
+item strawberry
+title AT123
+icon item_icon_strawberry.dds
+description IT01n
+price 0.88
+food 4
+ingredient FRUIT
+cook_time 5
+weight 0.02
+
+// kielbasa smazona lub grillowana
+item sausage
+title AT166
+icon item_icon_sausage.dds
+//icon item_icon_bbq_dish04.dds
+description AT167
+price 8.19
+food 35
+ingredient MEAT
+cook_time 10
+weight 0.1
+
+// japko
+item apple
+title IT01
+description IT01n
+icon item_icon_apple.dds
+price 0.75
+food 6
+festival
+ingredient FRUIT
+cook_time 5
+weight 0.1
+
+// cukinia (takze zbierana w szklarni)
+item zucchini
+title IT02
+description IT01n
+icon item_icon_zucchini.dds
+price 2.0
+food 6
+festival
+ingredient VEGETABLE
+cook_time 10
+weight 0.2
+
+// pomidor
+item tomato
+title IT03
+description IT01n
+icon item_icon_tomato.dds
+price 0.75
+food 4
+festival
+ingredient VEGETABLE
+cook_time 5
+weight 0.1
+
+
+
+// dynia
+item pumpkin
+title IT04
+description IT01n
+icon item_icon_pumpkin.dds
+price 4.20
+food 10
+festival
+ingredient VEGETABLE
+cook_time 20
+weight 0.4
+
+item paprika
+title AT417
+description IT01n
+icon item_icon_paprika.dds
+price 1.45
+food 7
+festival
+ingredient VEGETABLE
+cook_time 10
+weight 0.15
+
+// melon
+item melon
+title AT419
+description IT01n
+icon item_icon_melon.dds
+price 2.80
+food 8
+festival
+ingredient VEGETABLE
+cook_time 10
+weight 0.5
+
+// ogórek
+item cucumber
+title AT421
+description IT01n
+icon item_icon_cucumber.dds
+price 1.40
+food 5
+festival
+ingredient VEGETABLE
+cook_time 5
+weight 0.2
+
+item chili
+title AT423
+description IT01n
+icon item_icon_chili.dds
+price 1.05
+food 4
+festival
+ingredient VEGETABLE
+cook_time 5
+warmth 12
+weight 0.05
+
+item basil
+title AT903
+description AT903N
+icon item_icon_basil.dds
+price 2.0
+food 3
+festival
+ingredient HERB
+cook_time 4
+weight 0.1
+
+// salata
+item lettuce
+title AT905
+description AT905N
+icon item_icon_lettuce.dds
+price 1.55
+food 5
+festival
+ingredient VEGETABLE
+cook_time 10
+weight 0.2
+
+item parsley
+title AT907
+description AT907n
+icon item_icon_parsley.dds
+price 1.75
+food 4
+festival
+ingredient herb
+cook_time 5
+weight 0.1
+
+
+// meat
+
+// kiełbasa
+item uncookedsausage
+title AA267
+description AA266
+icon item_icon_meat02.dds
+price 2.99
+food 15
+ingredient MEAT
+cook_time 10
+weight 0.2
+
+// szynka
+item ham
+title AB12
+description AB15
+icon item_icon_meat01.dds
+price 5.09
+food 11
+ingredient MEAT
+cook_time 13
+weight 0.4
+
+// boczek
+item bacon
+title AB13
+description AB15
+icon item_icon_meat03.dds
+price 5.29
+food 25
+ingredient MEAT
+cook_time 17
+weight 0.6
+
+// karczek
+item smokedporkneck
+title AB14
+description AB15
+icon item_icon_meat05.dds
+price 6.19
+food 29
+ingredient MEAT
+cook_time 7
+weight 0.45
+
+// udko
+item chickenleg
+title AB16
+description AB17
+icon item_icon_meat04.dds
+price 1.19
+food 11
+ingredient MEAT
+cook_time 12
+weight 0.2
+
+// mieso
+item meat
+title AT443
+description AT444
+icon item_icon_rawmeat01.dds
+price 3.99
+nutrition 25
+ingredient meat
+cook_time 20
+weight 0.25
+
+// nowe 2026 05 05
+item cheese
+title AA416
+description AA417
+icon item_icon_cottagecheese.dds
+price 2.99
+food 10
+ingredient meat
+cook_time 20
+weight 0.5
+
+item pastatomato
+title AA404
+description AA405
+icon item_icon_pastatomato.dds
+price 9.99
+food 45
+cook_time 20
+weight 0.5
+
+item pastamushroom
+title AA406
+description AA407
+icon item_icon_pastashrooms.dds
+price 7.99
+food 42
+cook_time 20
+weight 0.5
+
+item chickencola
+title AA408
+description AA409
+icon item_icon_chickencola.dds
+price 11.99
+food 54
+cook_time 20
+weight 0.5
+
+item chickenbbq
+title AA410
+description AA411
+icon item_icon_grilledchicken.dds
+price 8.99
+food 35
+cook_time 20
+weight 0.5
+
+// smazone
+item chicken01
+title AA412
+description AA413
+icon item_icon_friedchickenleg.dds
+price 10.99
+food 50
+cook_time 20
+weight 0.5
+
+item muffin01
+title AA414
+description AA415
+icon item_icon_muffins.dds
+price 6.99
+food 15
+cook_time 20
+weight 0.5
+
+// sernik
+item cake01
+title AA418
+description AA419
+icon item_icon_cheesecake.dds
+price 23.99
+food 52
+cook_time 20
+weight 0.5
+
+item lasagna
+title AA420
+description AA421
+icon item_icon_lasagna.dds
+price 20.99
+food 60
+cook_time 20
+weight 0.5
+
+
+item pierogi01
+title AA422
+description AA423
+icon item_icon_pierogi.dds
+price 10.49
+food 30
+cook_time 20
+weight 1.0
+
+
+// jajecznica z kaczych jaj z papryka
+item duckeggdish01
+title AA476
+description AA477
+icon item_icon_duck_egg_dish1.dds
+price 22.99
+food 60
+cook_time 20
+weight 1.0
+
+
+// zurek z kaczych jaj z kielbasa i grzybami
+item duckeggdish02
+title AA478
+description AA479
+icon item_icon_duck_egg_dish2.dds
+price 24.99
+food 68
+cook_time 20
+weight 1.0
+
+
+
+
+
+
+// bbq recipes - grill
+// stek
+item steak
+title AA262
+description AA263
+icon item_icon_bbq_dish05.dds
+price 10.19
+food 50
+ingredient MEAT
+cook_time 7
+weight 0.45
+
+item shashlik
+title AA260
+description AA261
+icon item_icon_bbq_dish02.dds
+price 9.69
+food 40
+ingredient MEAT
+cook_time 7
+weight 0.35
+
+item grilledvegetables
+title AA264
+description AA265
+icon item_icon_bbq_dish01.dds
+price 7.19
+food 30
+ingredient MEAT
+cook_time 7
+weight 0.40
+
+
+//fishes
+
+// karaś
+item cricuan
+title AB24
+description AB23
+icon icon_fish_crucian.dds
+price 4
+ingredient FISH
+food 6
+cook_time 11
+weight 0.9
+
+// wzdręga
+item rudd
+title AB19
+description AB18
+icon icon_fish_rudd.dds
+price 4
+ingredient FISH
+food 7
+cook_time 9
+weight 1.1
+
+// głowacz
+item bullhead
+title AB20
+description AB18
+icon icon_fish_bullhead.dds
+price 6
+ingredient FISH
+food 7
+cook_time 8
+weight 0.7
+
+// pstrąg tęczowy
+item trout_rainbow
+title AB25
+description AB23
+icon icon_fish_trout_rainbow.dds
+price 7
+ingredient FISH
+food 8
+cook_time 7
+weight 1.2
+
+// pstrąg 
+item trout 
+title AB26
+description AB23
+icon icon_fish_trout.dds
+price 8
+ingredient FISH
+food 8
+cook_time 12
+weight 3.3
+
+// płoć
+item roach
+title AB21
+description AB18
+icon icon_fish_roach.dds
+price 4
+ingredient FISH
+food 8
+cook_time 8
+weight 1.1
+
+// płoć rzeczna
+item roach_river
+title AB27
+description AB23
+icon icon_fish_roach_river.dds
+price 6
+ingredient FISH
+food 6
+cook_time 10
+weight 1.7
+
+// okoń
+item perch
+title AB28
+description AB23
+icon icon_fish_perch.dds
+price 3
+ingredient FISH
+food 6
+cook_time 7
+weight 2.6
+
+// bass słoneczny
+item perch_sunfish
+title AB22
+description AB18
+icon icon_fish_perch_sunfish.dds
+price 3
+ingredient FISH
+food 8
+cook_time 10
+weight 0.3
+
+// karp
+item carp
+title AB29
+description AB23
+icon icon_fish_carp.dds
+price 4
+ingredient FISH
+food 8
+cook_time 12
+weight 3.5
+
+// karp pomarańczowy
+item carp_orange
+title AB37
+description AB36
+icon icon_fish_carp_orange.dds
+price 12
+ingredient FISH
+food 8
+cook_time 14
+weight 18
+
+// lin
+item tench
+title AB30
+description AB23
+icon icon_fish_tench.dds
+price 8
+ingredient FISH
+food 8
+cook_time 14
+weight 3.3
+
+// lin złoty
+item tench_golden
+title AB31
+description AB23
+icon icon_fish_tench_golden.dds
+price 9
+ingredient FISH
+food 8
+cook_time 12
+weight 1.3
+
+// golec zwyczajny
+item char
+title AB32
+description AB23
+icon icon_fish_char.dds
+price 5
+ingredient FISH
+food 9
+cook_time 7
+weight 1.6
+
+// węgorz
+item eel
+title AB33
+description AB23
+icon icon_fish_eel.dds
+price 9
+ingredient FISH
+food 8
+cook_time 13
+weight 3.6
+
+// szczupak
+item pike
+title AB34
+description AB23
+icon icon_fish_pike.dds
+price 5
+ingredient FISH
+food 8
+cook_time 10
+weight 1.4
+
+// szczupak czarny
+item pike_black
+title AB41
+description AB40
+icon icon_fish_pike_black.dds
+price 9
+ingredient FISH
+food 8
+cook_time 10
+weight 0.8
+
+// okoń
+item labraks
+title AB35
+description AB23
+icon icon_fish_labraks.dds
+price 4
+ingredient FISH
+food 7
+cook_time 6
+weight 2.6
+
+// jesiotr
+item sturgeon
+title AB38
+description AB36
+icon icon_fish_sturgeon.dds
+price 17
+ingredient FISH
+food 8
+cook_time 15
+weight 21
+
+// sum
+item catfish
+title AB39
+description AB36
+icon icon_fish_catfish.dds
+price 19
+ingredient FISH
+food 9
+cook_time 17
+weight 28
+
+
+
+// bread
+
+// paczek
+item donut
+title AB42
+description AB43
+icon item_icon_bread04.dds
+price 0.09
+food 18
+//ingredient BREAD
+cook_time 10
+weight 0.17
+
+// rogalik
+item croissant
+title AB44
+description AB45
+icon item_icon_bread03.dds
+price 0.09
+food 12
+//ingredient BREAD
+cook_time 12
+weight 0.12
+
+// chleb pszenny
+item wheatbread
+title AB46
+description AB47
+icon item_icon_bread02.dds
+price 2.49
+food 11
+//ingredient BREAD
+cook_time 20
+weight 0.45
+
+// chleb żytni
+item ryebread
+title AB48
+description AB49
+icon item_icon_bread01.dds
+price 3.09
+food 18
+//ingredient BREAD
+cook_time 21
+weight 0.6
+
+// bułka żytnia
+item ryeroll
+title AB50
+description AB51
+icon item_icon_bread05.dds
+price 1.15
+food 6
+//ingredient BREAD
+cook_time 14
+weight 0.25
+
+// bułka pszenna
+item wheatroll
+title AB52
+description AB53
+icon item_icon_bread06.dds
+price 1.95
+food 8
+//ingredient BREAD
+cook_time 16
+weight 0.35
+
+// bagietka
+item baguette
+title AB54
+description AB55
+icon item_icon_bread07.dds
+price 2.25
+food 10
+//ingredient BREAD
+cook_time 14
+weight 0.35
+
+
+
+
+
+
+
+//
+// itemy z przepisow
+//
+
+// zupa pomidorowa
+item tomato2
+title AT447
+description AT448
+icon item_icon_soup02.dds
+price 8.50
+food 30
+warmth 25
+weight 0.2
+
+// jajka na kielbasie
+item eggs2
+title AT449
+description AT450
+icon item_icon_egg_casserole3.dds
+price 12.50
+food 60
+warmth 20
+weight 0.2
+
+
+// kielbasa w koli
+item sausage2
+title AA159
+description AA160
+icon item_icon_sausage_dish01.dds
+price 11.50
+food 40
+warmth 25
+weight 0.2
+
+
+// leczo
+item sausage3 
+title AT453
+description AT454
+icon item_icon_sausage_dish02.dds
+price 14.50
+food 62
+warmth 35
+weight 0.2
+
+// szakszuka
+item eggs3 
+title AT455
+description AT458
+icon item_icon_egg_casserole1.dds
+price 13.00
+food 65
+warmth 30
+weight 0.2
+
+// stew grzybowy
+item stew1
+title AT459
+description AT460
+icon item_icon_mushroom_dish03.dds
+price 17
+food 72
+warmth 25
+weight 0.2
+
+
+
+
+// ziola
+
+//moonberry
+item herb0
+title AT409
+description AT426
+icon item_icon_herb01.dds
+price 1.0
+festival
+weight 0.1
+
+//suntail
+item herb1
+title AT410
+description AT426
+icon item_icon_herb02.dds
+price 1.0
+festival
+weight 0.1
+
+//beaver tail
+item herb2
+title AA473
+description AT425
+icon item_icon_herb03.dds
+price 1.0
+festival
+weight 0.1
+
+//piccatillia
+item herb3
+title AT412
+description AT425
+icon item_icon_herb04.dds
+price 1.0
+festival
+weight 0.1
+
+//berrynale
+item herb4
+title AT413
+description AT425
+icon item_icon_herb05.dds
+price 1.0
+festival
+weight 0.1
+
+//coternix
+item herb5
+title AT414
+description AT425
+icon item_icon_herb06.dds
+price 1.0
+festival
+weight 0.1
+
+//nightleaf
+item herb6
+title AT415
+description AT425
+icon item_icon_herb07.dds
+price 1.0
+festival
+weight 0.1
+
+//builis
+item herb7
+title AT416
+description AT425
+icon item_icon_herb08.dds
+price 1.0
+festival
+weight 0.1
+
+//owl potion - night vision
+item potion0
+title AT427
+description AA467
+icon item_icon_potion0.dds
+price 100.0
+food 5
+drink
+potion0
+weight 0.25
+
+//sun potion - no need for food or sleep
+item potion1
+title AT429
+description AA468
+icon item_icon_potion1.dds
+price 100.0
+food 5
+drink
+potion1
+weight 0.25
+
+//fox potion - faster repairs, building and chainsaw cutting
+item potion2
+title AA472
+description AA469
+icon item_icon_potion2.dds
+price 100.0
+food 5
+drink
+potion2
+weight 0.25
+
+//mountain potion - inventory weight capacity increased by 200
+item potion3
+title AT433
+description AA470
+icon item_icon_potion3.dds
+price 100.0
+food 5
+drink
+potion3
+weight 0.25
+
+//shampoo for sale
+item potion4
+title AT435
+description AT436
+icon item_icon_potion4.dds
+price 200.0
+weight 0.25
+
+//skin lotion for sale
+item potion5
+title AT437
+description AT436
+icon item_icon_potion5.dds
+price 200.0
+weight 0.25
+
+
+// kawa
+item coffee
+title AT278
+icon item_icon_coffee_cup02.dds
+description AT279
+price 5
+food 5
+coffee 25
+drink
+
+
+// miod
+item honey
+title AT233
+icon item_icon_honey.dds
+description AT234
+price 10
+food 20
+honey
+festival
+//ingredient SWEET
+cook_time 20
+weight 0.25
+
+//fasolka
+item questfood01
+title AT322
+icon item_icon_questfood01.dds
+description AT326
+price 20
+food 55
+weight 0.25
+
+//puszka mielonki
+item questfood02
+title AT323
+icon item_icon_questfood02.dds
+description AT326
+price 15
+food 50
+weight 0.25
+
+//suszone miesko
+item questfood03
+title AT324
+icon item_icon_questfood03.dds
+description AT326
+price 25
+food 60
+weight 0.25
+
+//pasztet z jelenia
+item questfood04
+title AT325
+icon item_icon_questfood04.dds
+description AT326
+price 20
+food 55
+weight 0.25
+
+
+
+
+
+
+
+
+
+// narzedzia ogrodnicze
+
+// lopata
+item shovel
+title AT243
+icon item_icon_shovel.dds
+description AT244
+price 15
+shovel
+dont_stack
+weight 2
+
+// grabie
+item rake
+title AT245
+icon item_icon_rake.dds
+description AT246
+price 4
+rake
+dont_stack
+weight 2
+
+// konewka
+item wateringcan
+title AT247
+icon item_icon_wateringCan.dds
+description AT248
+price 10
+wateringcan
+dont_stack
+weight 6
+
+item flowsmoker
+title AA196
+icon item_honey_smoker.dds
+description AA199
+price 25
+flow_smoker
+dont_stack
+weight 1
+
+item scythe
+title AA200
+icon item_icon_scythe.dds
+description AA199
+price 45
+scythe
+dont_stack
+weight 3
+
+// nasiona
+
+
+item seedsdahlia
+title AT235
+icon item_icon_seeds_dahlia.dds
+description AT236
+price 0.25
+seeds 0
+weight 0.1
+
+item seedsrose
+title AT237
+icon item_icon_seeds_rose.dds
+description AT238
+price 0.32
+seeds 1
+weight 0.1
+
+item seedstulip
+title AT239
+icon item_icon_seeds_tulip.dds
+description AT240
+price 0.21
+seeds 2
+weight 0.1
+
+item seedszinnia
+title AT241
+icon item_icon_seeds_zinnia.dds
+description AT242
+price 0.17
+seeds 3
+weight 0.1
+
+
+
+
+
+
+
+
+// właściwe kwiaty
+item dahlia
+title AT249
+icon item_icon_dahlia.dds
+description AT253
+price 0.59
+fondness 60
+festival
+weight 0.1
+
+item rose
+title AT250
+icon item_icon_rose.dds
+description AT253
+price 0.79
+fondness 80
+festival
+weight 0.1
+
+item tulip
+title AT251
+icon item_icon_tulip.dds
+description AT253
+price 0.69
+fondness 70
+festival
+weight 0.1
+
+item zinnia
+title AT252
+icon item_icon_zinnia.dds
+description AT521
+price 5.50
+fondness 25
+festival
+weight 0.1
+
+
+// sadzonki drzew
+item seedlingPine
+title AT534
+icon item_icon_seedling_pine.dds
+description AT538
+price 7.07
+tree_seedling 0
+weight 0.1
+
+item seedlingOak
+title AT535
+icon item_icon_seedling_oak.dds
+description AT538
+price 12.27
+tree_seedling 1
+weight 0.1
+
+item seedlingBirch
+title AT536
+icon item_icon_seedling_Birch.dds
+description AT538
+price 6.87
+tree_seedling 2
+weight 0.1
+
+item seedlingSpruce
+title AT537
+icon item_icon_seedling_spruce.dds
+description AT538
+price 10.17
+tree_seedling 3
+weight 0.1
+
+item seedlingPoplar
+title AA445
+icon item_icon_seedling_poplar.dds
+description AT538
+price 11.49
+tree_seedling 4
+weight 0.1
+
+
+
+
+// lampka czolowa
+item headlamp
+title AT168
+icon item_icon_headlamp.dds
+description AT169
+price 99.49
+headlamp
+dont_stack
+weight 0.3
+
+// dron
+item drone
+title AT270
+icon item_icon_drone.dds
+description AT271
+price 1199.49
+drone
+dont_stack
+weight 0.5
+
+// dron do opryskow
+item drone1
+title AA01
+icon item_icon_drone01.dds
+description AA02
+price 1399.49
+drone
+fertilizer_drone
+dont_stack
+weight 2
+
+// fertilizer dla drona
+item dronefertilizer
+title AA03
+icon item_icon_tank01.dds
+description AA04
+price 19.49
+fertilizer_for_drone
+weight 1
+
+
+
+// metal parts dla craftingu
+item metalparts
+title AA05
+icon item_icon_metalscrap01.dds
+description AA06
+price 0.59
+weight 0.1
+other_crafting_stuff
+
+// fabric parts dla craftingu
+item fabric
+title AA175
+icon icon_fabric001.dds
+description AA06
+price 20.0
+weight 0.15
+other_crafting_stuff
+
+// leather parts dla craftingu
+item leather
+title AA176
+icon icon_leather001.dds
+description AA06
+price 40.0
+weight 0.35
+other_crafting_stuff
+
+// glass parts dla craftingu
+item glass
+title AA279
+icon icon_glass001.dds
+description AA06
+price 4.0
+weight 0.2
+other_crafting_stuff
+
+// welna
+item wool
+title AT687
+description AT688
+icon item_icon_shaved_wool.dds
+price 30.0
+weight 0.2
+other_crafting_stuff
+
+
+// kupka trawy
+item cutgrass
+//title AT689
+title GR70
+description AT690
+icon item_icon_cutgrass.dds
+price 0.5
+cutgrass
+weight 1
+
+// obrazek do teleportacji
+item timepicture
+title AA54
+description AA55
+icon item_icon_timepicture01.dds
+price 0
+time_picture
+dont_stack
+weight 0.25
+dont_sell
+
+item tincture01
+title AA67
+description AA68
+icon item_icon_bottle02.dds
+price 0
+dont_stack
+weight 0.25
+
+item orchardfertilizer
+title AA69
+description AA70
+icon item_icon_fertilizer01.dds
+price 0
+weight 0.5
+
+
+item specialDamsel
+title OC56
+description OC57
+icon icon_cat_mother.dds
+price 0
+weight 5
+dont_sell
+
+item specialLucky
+title OC58
+description OC59
+icon icon_cat_son.dds
+price 0
+weight 3
+dont_sell
+
+
+
+
+
+
+//
+// podarunki
+//
+
+// tulipan
+item flower1
+title AT29
+description AT31
+icon item_icon_tulips.dds
+price 30
+fondness 20
+weight 0.25
+
+// bukier roz
+item flower2
+title AT30
+description AT31
+icon item_icon_roses.dds
+price 100
+fondness 50
+weight 0.8
+
+// czekoladki
+item chocolates
+title IT46
+description AT31
+icon item_icon_chocolates.dds
+price 70
+fondness 40
+weight 0.4
+
+// pachniuch
+item perfume
+title AT33
+description AT666
+icon item_icon_perfume.dds
+price 400
+fondness 65
+weight 0.5
+
+// srebrny pierscionek
+item jewel1
+title AT667
+description AT666
+icon item_icon_silver_ring.dds
+price 900
+fondness 70
+weight 0.3
+
+// zloty pierscionek
+item jewel2
+title AT665
+description AT666
+icon item_icon_golden_ring.dds
+price 2400
+fondness 80
+weight 0.75
+
+
+
+//
+//pluszaki zwierzaki
+//
+
+//pluszowy lisek
+item plushfox
+title AT663
+description AT664
+icon item_icon_plush_fox.dds
+price 50
+fondness 100
+dont_stack
+weight 0.2
+sound_when_picked_up sfx\hero\arimtimtim.wav
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

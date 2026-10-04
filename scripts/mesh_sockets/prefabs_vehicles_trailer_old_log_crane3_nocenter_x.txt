@@ -1,0 +1,3 @@
+mesh_filename prefabs\vehicles\trailer_old_log\crane3_nocenter.x
+socket crane4 0.000000 -1.680000 -0.000000
+socket p2a 0.000000 -0.700000 0.100000

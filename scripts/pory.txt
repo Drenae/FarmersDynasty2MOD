@@ -1,0 +1,317 @@
+pora 0
+texture system_white.tga
+bloom_power 0.15
+ambient 25 25 35
+bloom_cone 2
+desaturate 0.200000
+fog_cone 0.8
+fog 41 44 80
+fog_max_overlay 0.700000
+fog_near 25
+fog_far 900
+skylight_pitch 40.000000
+skylight_power 0.06
+skylight_rotation 0.000000
+sky_fog_height 0.0500000
+skylight 40 62 81
+sun_flare_multiplier 0.45
+lens_flare scripts\lensflares\lensflare_noc.txt
+// domyslnie 1
+ao_power 0.7
+// 1- na maksa ze slonca, 0- jak normalne meshe, domyslnie 0.38
+tree_normal_adjustment 0
+hdr_add 0.05
+
+pora 3
+texture system_white.tga
+bloom_power 0.15
+bloom_cone 2
+ambient 25 25 35
+desaturate 0.200000
+fog_cone 0.7
+fog_max_overlay 0.700000
+fog 41 44 80
+fog_near 25
+fog_far 900
+skylight_pitch 20.000000
+skylight_power 0.06
+skylight_rotation 80.000000
+sky_fog_height 0.0500000
+skylight 40 62 81
+sun_flare_multiplier 0.45
+lens_flare scripts\lensflares\lensflare_noc.txt
+ao_power 0.7
+tree_normal_adjustment 0
+hdr_add 
+
+pora 4
+texture system_white.tga
+bloom_power 0.15
+bloom_cone 2
+ambient 25 25 35
+desaturate 0.3500000
+fog_cone 0.8
+fog_max_overlay 0.600000
+fog 41 44 80
+fog_near 0
+fog_far 900
+skylight_pitch -40.000000
+skylight_power 0.5
+skylight_rotation 120.000000
+sky_fog_height 0.0500000
+skylight 40 62 81
+sun_flare_multiplier 0.45
+lens_flare scripts\lensflares\lensflare_noc.txt
+ao_power 0.7
+tree_normal_adjustment 0.05
+hdr_add -1
+
+pora 6
+texture system_white.tga
+bloom_cone 2
+bloom_power 0.65
+ambient 65 65 85
+desaturate 0.12
+fog_cone 0.98
+fog_max_overlay 0.6500000
+fog 180 180 190
+fog_near 20
+fog_far 1600
+skylight_pitch 7.500000
+skylight_power 0.80000
+skylight_rotation 278.000000
+sky_fog_height 0.800000
+sky_fog_coef 0.10000
+skylight 140 120 90
+sun_flare_multiplier 0.65
+lens_flare scripts\lensflares\lensflare_dzien.txt
+ao_power 1
+tree_normal_adjustment 0.05
+hdr_add 0.11
+
+pora 7
+texture system_white.tga
+bloom_cone 2
+bloom_power 0.65
+ambient 65 65 89
+fog 180 180 180
+desaturate 0.1
+fog_cone 1.15
+fog_max_overlay 0.500000
+fog_near 80
+fog_far 1200
+skylight_pitch 21.500000
+skylight_power 0.86000
+skylight_rotation 286.000000
+sky_fog_coef 0.10000
+sky_fog_height 0.800000
+skylight 125 110 105
+sun_flare_multiplier 0.63
+lens_flare scripts\lensflares\lensflare_dzien.txt
+ao_power 1
+tree_normal_adjustment 0.05
+hdr_add 0.11
+
+pora 9
+texture system_white.tga
+bloom_cone 2
+bloom_power 0.65
+ambient 70 70 125
+desaturate 0.1
+fog_cone 1.2
+fog_max_overlay 0.500000
+fog 160 160 170
+fog_near 60
+fog_far 1800
+skylight_pitch 30.575249
+skylight_power 1
+skylight_rotation 293.096985
+sky_fog_height 0.040000
+sky_fog_coef 0.10000
+skylight 140 138 135
+sun_flare_multiplier 0.36
+lens_flare scripts\lensflares\lensflare_dzien.txt
+ao_power 1
+tree_normal_adjustment 0.05
+hdr_add 0.115
+
+pora 10
+texture system_white.tga
+bloom_power 0.65
+bloom_cone 2
+ambient 120 120 125
+desaturate 0.1
+fog_cone 1.2
+fog_max_overlay 0.4500000
+fog 206 206 225
+fog_near 60
+fog_far 1660
+skylight_pitch 36
+skylight_power 2
+skylight_rotation 315.4935
+sky_fog_height 0.30000
+sky_fog_coef 0.10000
+skylight 140 138 135
+sun_flare_multiplier 0.8
+lens_flare scripts\lensflares\lensflare_dzien.txt
+ao_power 1
+tree_normal_adjustment 0.05
+hdr_add 0.1
+
+pora 12
+texture system_white.tga
+bloom_power 0.65
+bloom_cone 2
+ambient 70 70 125
+desaturate 0.1
+fog_cone 1.2
+fog_max_overlay 0.40000
+fog 200 210 240
+fog_near 60
+fog_far 2000
+skylight_pitch 45.000000
+skylight_power 2
+skylight_rotation 0.000000
+sky_fog_height 0.30000
+sky_fog_coef 0.10000
+skylight 140 138 135
+sun_flare_multiplier 0.8
+lens_flare scripts\lensflares\lensflare_dzien.txt
+ao_power 1
+tree_normal_adjustment 0.05
+hdr_add 0.054
+
+pora 15
+texture system_white.tga
+bloom_power 0.65
+bloom_cone 2
+ambient 60 60 115
+desaturate 0.1
+fog_cone 1.2
+fog_max_overlay 0.550000
+fog 200 200 200
+fog_near 50
+fog_far 2000
+skylight_pitch 40.000000
+skylight_power 2
+skylight_rotation 42.000000
+sky_fog_height 0.30000
+sky_fog_coef 0.10000
+skylight 140 138 135
+sun_flare_multiplier 0.8
+lens_flare scripts\lensflares\lensflare_dzien.txt
+ao_power 1
+tree_normal_adjustment 0.05
+hdr_add 0.0
+
+pora 17
+texture system_white.tga
+bloom_cone 2
+bloom_power 0.65
+ambient 100 100 125
+desaturate 0.1
+fog_cone 1.1
+fog_max_overlay 0.600000
+fog 200 200 220
+fog_near 40
+fog_far 1400
+skylight_pitch 30.000000
+skylight_power 0.980000
+skylight_rotation 63.000000
+sky_fog_height 0.40000
+sky_fog_coef 0.40000
+skylight 115 110 105
+sun_flare_multiplier 0.8
+lens_flare scripts\lensflares\lensflare_dzien.txt
+ao_power 1
+tree_normal_adjustment 0.05
+hdr_add 0.1
+
+pora 18
+texture system_white.tga
+bloom_cone 2
+bloom_power 0.1
+ambient 70 70 125
+desaturate 0.1
+fog_cone 1.0
+fog_max_overlay 0.6500000
+fog 181 180 200
+fog_near 45
+fog_far 1030
+skylight_pitch 11.000000
+skylight_power 0.8	
+skylight_rotation 72.000000
+sky_fog_height 0.40000
+sky_fog_coef 0.50000
+skylight 135 110 95
+sun_flare_multiplier 0.8
+lens_flare scripts\lensflares\lensflare_dzien.txt
+ao_power 1
+tree_normal_adjustment 0.05
+hdr_add 0.1
+
+pora 19
+texture system_white.tga
+bloom_cone 2
+bloom_power 0.1
+ambient 70 70 125
+desaturate 0.1
+fog_cone 0.8
+fog_max_overlay 0.700000
+fog 161 160 180
+fog_near 40
+fog_far 1300
+skylight_pitch 5.000000
+skylight_power 0.70000
+skylight_rotation 80.000000
+sky_fog_height 0.40000
+sky_fog_coef 0.50000
+skylight 130 90 80
+sun_flare_multiplier 0.8
+lens_flare scripts\lensflares\lensflare_dzien.txt
+ao_power 1
+tree_normal_adjustment 0.05
+hdr_add 0.1
+
+pora 20
+texture system_white.tga
+bloom_power 0.65
+bloom_cone 2
+ambient 70 70 70
+desaturate 0.50000
+fog_cone 0.9
+fog_max_overlay 0.400000
+fog 51 54 76
+fog_near 40
+fog_far 1250
+skylight_pitch -50.000000
+skylight_power 0.40000
+skylight_rotation 90.000000
+sky_fog_height 2.000000
+skylight 0.192157 0.211765 0.274510
+sun_flare_multiplier 0.1
+ao_power 1
+tree_normal_adjustment 0
+hdr_add -0.05
+
+pora 21
+texture system_white.tga
+bloom_power 0.15
+bloom_cone 2
+ambient 60 60 60
+desaturate 0.250000
+fog_cone 0.85
+fog_max_overlay 0.500000
+fog 41 44 80
+fog_near 40
+fog_far 900
+skylight_pitch 3.000000
+skylight_power 0.060000
+skylight_rotation 270.000000
+sky_fog_height 0.400000
+skylight 40 62 81
+sun_flare_multiplier 0.05
+lens_flare scripts\lensflares\lensflare_noc.txt
+ao_power 1
+tree_normal_adjustment 0
+hdr_add -0.05

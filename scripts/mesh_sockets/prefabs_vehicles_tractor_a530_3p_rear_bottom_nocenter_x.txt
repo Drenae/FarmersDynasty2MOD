@@ -1,0 +1,3 @@
+mesh_filename prefabs\vehicles\tractor_a530\3p_rear_bottom_nocenter.x
+socket z3p3 0.000000 0.480000 -0.010000
+socket zaczep3p 0.000000 1.270000 0.040000

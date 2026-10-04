@@ -1,0 +1,109 @@
+Vehicle >mower_sidecutter_old
+prefab prefabs\vehicles\mower_sidecutter_old\mower_sidecutter_old_nocenter.x
+Mass 1100.0
+Stiffness 10
+
+spawn_id 78
+
+tag >MT20
+
+renew_and_paint
+repairable mower_sidecutter_old.dds mower_sidecutter_old_repaired.dds
+color 0.63 0.30 0.29
+
+kosiarka
+price 8000
+przyczepa
+working_width 4.1
+old_tractors_can_attach
+zaczep_tylko_do_traktora
+
+force_fold
+
+
+// COLLISION MESH
+
+// pScaleZ
+mnoznik_fizyki_z 0.65
+// pScaleY
+mnoznik_fizyki_y 0.4
+// pScaleX
+mnoznik_fizyki_x 0.9
+
+// pTransZ
+przesuniecie_fizyki_przod -0.25
+// pTransY
+przesuniecie_fizyki_gora 0.7
+// pTransX
+przesuniecie_fizyki_prawo 0.2
+
+
+
+
+// HOOKS
+zaczep3p zaczep3p
+zaczep3pgora zaczep3pgora
+zaczep3pshaft zaczep3pshaft
+
+
+additional_lift_3p_when_up 0.49
+additional_lift_3p_when_down 0.46
+mnoznik_kata 0.5
+
+add_when_loose 0.40
+
+
+
+// MOWER
+
+// SUPPORT LEG (1)
+attachment_stopka prefabs\vehicles\mower_sidecutter_old\support_leg_nocenter.x support_leg 0.02 0.22
+
+
+// side (2)
+// attachment_physics_size <prefab> <socket> <szerokosc> <wysokosc> <dlugosc> [<przesX>] [<przesY>] [<przesZ>]
+// minimalny size w kazdej z osi to 0.1
+// attachment_physics zawsze do glownego, nie mozna do innego attachmentu.
+// przesXYZ jest od punktu socketa w lokalnej przestrzeni, czyli prawy trzeba w prawo, lewy trzeba w lewo 
+//   - bo inaczej fizyka attachmentu bedzie srodkiem w sockecie attachmentu, a przewaznie chcemy zeby byla bokiem.
+
+rotate_cmd4 1.28 0.23
+attachment_physics_size prefabs\vehicles\mower_sidecutter_old\side_nocenter.x side 1.2 0.24 0.25 1.4 0.3 0.0
+
+
+
+
+
+// ROTOR (3)
+rotate_cmd3 -55 Y
+attachment prefabs\vehicles\mower_sidecutter_old\rotor_nocenter.x rotor 2
+
+// knives (4)
+rotate_cmd3 55 Y
+attachment prefabs\vehicles\mower_sidecutter_old\knives_nocenter.x knives 3
+
+
+
+
+// PISTONS
+// piston <prefab> <nr_attachmentu> <socket> <nr_attachmentu_docelowego> <socket_docelowy>
+
+piston prefabs\vehicles\mower_sidecutter_old\p1_nocenter.x 0 p1 2 p2
+piston prefabs\vehicles\mower_sidecutter_old\p2_nocenter.x 2 p2 0 p1
+
+
+
+
+// WORKING FX
+working_fx afx_mower fx0
+working_fx afx_mower fx1
+working_fx afx_mower fx2
+
+
+
+// SOUNDS
+working_sound sfx\vehicles\mower_work_old.wav
+// sound_cmd3_on sfx\vehicles\disc_mower_stop1.wav
+// sound_cmd4_on sfx\vehicles\fold2.wav
+// sound_cmd4_off sfx\vehicles\fold2.wav
+

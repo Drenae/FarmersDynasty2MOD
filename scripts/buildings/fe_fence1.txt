@@ -1,0 +1,48 @@
+// definiuje kolejne prefaby (stopnie przebudowy), w grze moze byc wlozony dowolny, ale musza byc unikalne dla danego setu
+// part <id_warstwy> <id_materialu> <klucz_text_keys_z_opisem> <sciezka\prefab>
+// -1 jako indeks materialu oznacza ten sam material, ale nie budowe tylko naprawe, czyli przejscie z polamanych na naprostowane deski BEZ kupowania desek.
+
+
+part 0 0  MAT00 prefabs\objects\fences\pl_wood_old_fence_2_1_nocenter.x
+part 1 -1  MAT00 prefabs\objects\fences\pl_wood_fixed_fence_2_1_nocenter.x
+
+part 2 0  MAT00 prefabs\objects\fences\pl_wood_old_fence_3_1_nocenter.x
+part 3 -1  MAT00 prefabs\objects\fences\pl_wood_fixed_fence_3_1_nocenter.x
+
+part 4 0  MAT00 prefabs\objects\fences\pl_wood_old_fence_4_1_nocenter.x
+part 5 -1  MAT00 prefabs\objects\fences\pl_wood_fixed_fence_4_1_nocenter.x
+
+part 6 0  MAT00 prefabs\objects\fences\pl_wood_old_fence_5_1_nocenter.x
+part 7 -1  MAT00 prefabs\objects\fences\pl_wood_fixed_fence_5_1_nocenter.x
+
+part 8 0  MAT00 prefabs\objects\fences\pl_wood_old_fence_6_1_nocenter.x
+part 9 -1  MAT00 prefabs\objects\fences\pl_wood_fixed_fence_6_1_nocenter.x
+
+
+part 10 0  MAT00 prefabs\objects\fences\pl_wood_fixed_fence_1_1_nocenter.x
+
+// new
+part 11 1  MAT01 prefabs\objects\fences\pl_wood_new_fence_1_1_nocenter.x
+part 12 27  MAT27 prefabs\objects\fences\pl_wood_new_fence_1_1_nocenter.x
+
+
+
+
+
+// i teraz dla danego elementu definiujemy w ktory moze przejsc
+// pierwszy parametr to ktorego tyczy sie definicja, nastepne - w ktore moze byc zmieniony
+
+path 0   1 11
+path 1   11
+path 2   3 11
+path 3   11
+path 4   5 11
+path 5   11
+path 6   7 11
+path 7   11
+path 8   9 11
+path 9   11
+path 10   11
+path 11   12
+path 12   12
+

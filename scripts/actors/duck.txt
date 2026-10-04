@@ -1,0 +1,73 @@
+actor duck
+
+default_phase idle
+model prefabs\models\animals\duck\duck.X
+
+socket_eyes oczy
+
+contact_distance 8
+contact_angle 50
+
+ignore_physics
+animal
+
+
+phase idle
+animation duck_idle
+on_end idle
+on_end lies_down
+on_end eat
+on_end sleep
+
+
+phase lies_down
+animation duck_lies_down
+on_end sit
+
+phase sit
+animation duck_sit
+on_end sit
+on_end sit
+on_end sleep
+on_end gets_up
+
+phase gets_up
+animation duck_gets_up
+on_end idle
+
+phase sleep
+animation duck_sleep
+on_end sleep
+on_end sleep
+on_end sleep
+on_end sit
+
+
+
+
+
+phase eat
+animation duck_eat
+on_end eat
+on_end idle
+
+
+
+
+phase walk
+animation duck_walk
+on_end walk
+
+phase swim
+animation duck_swim
+on_end swim
+
+phase run
+animation duck_run
+on_end run
+
+
+
+
+
+

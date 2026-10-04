@@ -1,0 +1,18 @@
+mesh_filename prefabs\vehicles\trailer_rt_10t\trailer_rt_10t_nocenter.x
+socket zaczep 0.000000 3.290000 0.700000
+socket trolley 0.000000 -3.130000 1.350000
+socket wheel_front_left -0.730000 -0.770000 0.600000
+socket wheel_front_right 0.730000 -0.770000 0.600000
+socket wheel_rear_left -0.730000 -2.120000 0.600000
+socket wheel_rear_right 0.730000 -2.070000 0.600000
+socket lt1 -0.880000 -3.180000 1.030000
+socket lt2 0.890000 -3.170000 1.030000
+socket lc1 -0.800000 -3.180000 1.060000
+socket anim_dump 0.000000 -3.450000 1.540000
+socket spill_grain 0.000000 -3.320000 1.500000
+socket piston 0.000000 -0.720000 1.230000
+socket wheel_fake 0.000000 2.400000 0.400000
+socket light1 -0.855000 -3.160000 1.038000
+socket light2 0.855000 -3.160000 1.038000
+socket light3 -0.855000 -3.160000 1.038000
+socket zaczep_tyl 0.000000 -3.190000 0.780000

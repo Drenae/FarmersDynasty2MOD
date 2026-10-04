@@ -1,0 +1,40 @@
+// definiuje kolejne prefaby (stopnie przebudowy), w grze moze byc wlozony dowolny, ale musza byc unikalne dla danego setu
+// part <id_warstwy> <id_materialu> <klucz_text_keys_z_opisem> <sciezka\prefab>
+// -1 jako indeks materialu oznacza ten sam material, ale nie budowe tylko naprawe, czyli przejscie z polamanych na naprostowane deski BEZ kupowania desek.
+
+// old wood
+part 0 0  MAT00 prefabs\buildings\cowshed\cs_wood_old_floor_1_1_nocenter.x
+part 1 -1  MAT00 prefabs\buildings\cowshed\cs_wood_fixed_floor_1_1_nocenter.x
+
+part 2 0  MAT00 prefabs\buildings\cowshed\cs_wood_old_floor_1_2_nocenter.x
+part 3 -1  MAT00 prefabs\buildings\cowshed\cs_wood_fixed_floor_1_2_nocenter.x
+
+part 4 0  MAT00 prefabs\buildings\cowshed\cs_wood_old_floor_1_3_nocenter.x
+part 5 -1  MAT00 prefabs\buildings\cowshed\cs_wood_fixed_floor_1_3_nocenter.x
+
+part 6 0  MAT00 prefabs\buildings\cowshed\cs_wood_old_floor_1_4_nocenter.x
+part 7 -1  MAT00 prefabs\buildings\cowshed\cs_wood_fixed_floor_1_4_nocenter.x
+
+part 8 0  MAT00 prefabs\buildings\cowshed\cs_wood_fixed_floor_1_0_nocenter.x
+
+
+//new wood
+part 9 1  MAT01 prefabs\buildings\cowshed\cs_wood_new_floor_1_0_nocenter.x
+
+part 10 27  MAT27 prefabs\buildings\cowshed\cs_wood_new_floor_1_0_nocenter.x
+
+
+// i teraz dla danego elementu definiujemy w ktory moze przejsc
+// pierwszy parametr to ktorego tyczy sie definicja, nastepne - w ktore moze byc zmieniony
+
+path 0   1 9
+path 1   9
+path 2   3 9
+path 3   9
+path 4   5 9
+path 5   9
+path 6   7 9
+path 7   9
+path 8   9
+path 9   10
+path 10   10

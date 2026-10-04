@@ -1,0 +1,10 @@
+texture stone_rock02.dds
+animation_speed 1.000000
+appear_distance 0.000000
+normal_density 1.000000
+detail stone_rock02_normal.dds
+detail_density 3.000000
+detail_as_normal
+metalness 0.000000
+reflection_for_nonmetals 0.140000
+move_along_v 0.000000

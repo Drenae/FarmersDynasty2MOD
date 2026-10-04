@@ -1,0 +1,4 @@
+mesh_filename prefabs\vehicles\harvester_old_MF41\header_lift_nocenter.X
+socket p1b -0.370000 1.095000 -1.025000
+socket header 0.000000 0.200000 -1.500000
+socket p2b 0.370000 1.095000 -1.025000

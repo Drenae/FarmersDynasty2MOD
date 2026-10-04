@@ -1,0 +1,20 @@
+//
+// Dialog z emily
+//
+
+// dzien dobry, napraw stodole to dostaniesz traktor
+hero_dialog emily1_dialog1
+hero DLQ01L01
+actor DLQ01L02
+hero DLQ01L03
+actor DLQ01L04
+hero DLQ01L05
+actor DLQ01L05A
+hero DLQ01L05B
+actor DLQ01L06
+
+
+// naprawione, dzieki mordo, masz traktor
+hero_dialog emily1_dialog2
+hero DLQ01L07
+actor DLQ01L08

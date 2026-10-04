@@ -1,0 +1,870 @@
+//
+// plik opisuje wszystkich aktorow w obu erach, zarowno NPC z podwórek, jak i konkretnych NPC pod questy i interakcje.
+// takze sklepikarzy, coffee shop etc - gra sama nie tworzy nikogo!
+// id aktora (ponizej) musi byc unikalny w skali gry, nie moze byc dwoch molly1
+// polecenie world_name ze skryptu aktora przestaje dzialac
+//
+
+// old_era, new_era - rozpoczyna blok postaci dla danej ery
+
+// spawnujemy albo z podwórka poprzez:
+// actor_yard <nazwa_markera_yardu> <nazwa_aktora_ze_skryptu_aktorow>
+// tutaj nazwa_aktora to to co jest po actor w skrypcie, np. m2
+// unique_id <id> - każdy NPC musi mieć własny unikalny id nadany manualnie w tym skrypcie
+
+// albo z konkretnego markera poprzez:
+// actor_marker <nazwa_markera_spawn_w_swiecie> <nazwa_aktora_ze_skryptu_aktorow>
+// nazwa tego markera staje się domyślnie id aktora (którym się posługujemy w questach, dialogach etc)
+// ale to może powodować błędy więc zastosuj punkt następny
+// unique_id <id> - każdy NPC musi mieć własny unikalny id nadany manualnie w tym skrypcie
+
+// dodatkowo (opcjonalnie)
+// name <klucz_imienia>  - podajemy sam klucz bez >, np. NameM20
+// on_start_faza <nazwa_fazy>
+
+old_era
+
+//molly
+actor_marker s_molly1 w3_molly1
+unique_id molly1
+
+
+//farma 0 chatka za sklepem Jacka na zachod od farmy gracza
+//clara
+actor_yard neighbor_yard_000 w7_clara1
+unique_id clara1
+
+actor_yard neighbor_yard_000 m4
+unique_id f000n1
+
+
+//farma 1 na polnoc od farmy gracza, tu mieszka Mia
+//mia
+actor_yard neighbor_yard_001 w1_mia1
+unique_id mia1
+
+//actor_yard neighbor_yard_001 m3
+//unique_id f001n1
+
+
+//farma 2 na wzgorzu na wschod od farmy gracza, tu mieszka Emily, pozniej bedzie tez jej maz Stan
+//emily
+actor_yard neighbor_yard_002 w2_emily1
+unique_id emily1
+
+
+//farma 3 przy polach na wschod od farmy gracza, to tam gdzie mieszka Molly z dziadkiem
+// dziadek jeremy
+actor_yard neighbor_yard_003 m1_old
+unique_id jeremy1
+
+
+//farma 4 na zachod od farmy gracza, za sklepem w lewo
+//nathan
+actor_yard neighbor_yard_004 m1_nathan1
+unique_id nathan1
+
+//nelly
+actor_yard neighbor_yard_004 w4_nelly1
+unique_id nelly1
+
+
+//farma 5 NW od farmy 4, do kupienia
+actor_yard neighbor_yard_005 w5
+unique_id f005n1
+
+actor_yard neighbor_yard_005 m5
+unique_id f005n2
+
+actor_yard neighbor_yard_005 m6
+unique_id f005n3
+
+
+//farma 6 za jeziorem i lasem NW od farmy gracza
+actor_yard neighbor_yard_006 m2
+unique_id f006n1
+
+actor_yard neighbor_yard_006 w2
+unique_id f006n2
+
+actor_yard neighbor_yard_006 w3
+unique_id f006n3
+
+//farma 7 przy polnocnych wielkich polach, zachodnia, do kupienia
+actor_yard neighbor_yard_007 m3
+unique_id f007n1
+
+actor_yard neighbor_yard_007 w5
+unique_id f007n2
+
+
+//farma 8 przy polnocnych wielkich polach, wschodnia
+actor_yard neighbor_yard_008 m4
+unique_id f008n1
+
+actor_yard neighbor_yard_008 m5
+unique_id f008n2
+
+actor_yard neighbor_yard_008 w1
+unique_id f008n3
+
+
+//farma 9 od farmy 6 na polnoc, do kupienia, zniszczona, niezamieszkana
+
+
+//farma 10 po drugiej stronie ulicy od farm 9 i 28
+//mateo
+actor_yard neighbor_yard_010 m8_mateo1
+unique_id mateo1
+
+
+//farma 11 nad poludniowym brzegiem jeziora serduszko w NW rogu swiata, do kupienia
+actor_yard neighbor_yard_011 m3
+unique_id f011n1
+
+actor_yard neighbor_yard_011 m4
+unique_id f011n2
+
+actor_yard neighbor_yard_011 w4
+unique_id f011n3
+
+actor_yard neighbor_yard_011 w6
+unique_id f011n4
+
+
+//farma 12 na poludnie od farmy gracza
+actor_yard neighbor_yard_012 m5
+unique_id f012n1
+
+actor_yard neighbor_yard_012 w1
+unique_id f012n2
+
+
+//farma 13 od poludniowych silosow na poludnie polną drogą
+//luke
+actor_yard neighbor_yard_013 m6_luke1
+unique_id luke1
+
+//violet
+actor_yard neighbor_yard_013 w5_violet1
+unique_id violet1
+
+
+//farma 14 na wschod od farmy 13, po polnocnej stronie ulicy, do kupienia, zniszczona, niezamieszkana
+
+//farma 15 na wschod od farmy 13, po poludniowej stronie ulicy
+//mike
+actor_yard neighbor_yard_015 m3_mike1
+unique_id mike1
+
+//grace
+actor_yard neighbor_yard_015 w2_grace1
+unique_id grace1
+
+
+//farma 16 po wschodniej stronie poludniowego mostu, do kupienia
+actor_yard neighbor_yard_016 m4
+unique_id f016n1
+
+actor_yard neighbor_yard_016 w3
+unique_id f016n2
+
+actor_yard neighbor_yard_016 w5
+unique_id f016n3
+
+
+//farma 17 przy wjezdzie na wzgorze z kofi szopem
+actor_yard neighbor_yard_017 m2
+unique_id f017n1
+
+actor_yard neighbor_yard_017 w4
+unique_id f017n2
+
+actor_yard neighbor_yard_017 w2
+unique_id f017n3
+
+
+//farma 18 na zachod od farmy 13, po polnocnej stronie ulicy, ma 2 yardy,  do kupienia
+
+//yard gospodarczy
+actor_yard neighbor_yard_018m m5
+unique_id f018n1
+
+actor_yard neighbor_yard_018m m6
+unique_id f018n2
+
+//yard domowy
+actor_yard neighbor_yard_018w w1
+unique_id f018n3
+
+actor_yard neighbor_yard_018w w6
+unique_id f018n4
+
+//farma 19 na zachod od farmy 13, po poludniowej stronie ulicy, do kupienia
+actor_yard neighbor_yard_019 m1
+unique_id f019n1
+
+actor_yard neighbor_yard_019 m4
+unique_id f019n2
+
+actor_yard neighbor_yard_019 w2
+unique_id f019n3
+
+actor_yard neighbor_yard_019 w5
+unique_id f019n4
+
+
+//farma 20 od NW silosow i stacji benzynowej na zachod kamienną drogą
+//zielarka anavri
+actor_yard neighbor_yard_020 w1_old_anavri1
+unique_id anavri1
+
+actor_yard neighbor_yard_020 m5
+unique_id f020n1
+
+actor_yard neighbor_yard_020 w3
+unique_id f020n2
+
+//farma 21 od zachodniego car shopu na zachod kamienną drogą, do kupienia, zniszczona, niezamieszkana
+
+//farma 22 na polnoc od NE silosow, tu są dżemiary
+//claire
+actor_yard neighbor_yard_022 w5_claire1
+unique_id claire1
+
+//audrey
+actor_yard neighbor_yard_022 w6_audrey1
+unique_id audrey1
+
+
+//farma 23 na cyplu, na wschod od NE silosow, do kupienia
+actor_yard neighbor_yard_023 m2
+unique_id f023n1
+
+actor_yard neighbor_yard_023 w2
+unique_id f023n2
+
+
+//farma 24 blisko zawalonej drogi w SE rogu swiata, wędzarczyki
+//ricardo
+actor_yard neighbor_yard_024 m4_ricardo1
+unique_id ricardo1
+
+//ernesto
+actor_yard neighbor_yard_024 m1_ernesto1
+unique_id ernesto1
+
+
+//farma 25 przy polnocnym brzegu jeziora serduszko w NW rogu swiata, do kupienia
+actor_yard neighbor_yard_025 m1
+unique_id f025n1
+
+actor_yard neighbor_yard_025 m2
+unique_id f025n2
+
+actor_yard neighbor_yard_025 m5
+unique_id f025n3
+
+actor_yard neighbor_yard_025 w1
+unique_id f025n4
+
+actor_yard neighbor_yard_025 w5
+unique_id f025n5
+
+
+//farma 26 chatka z sadem, przy NE car shopie polną drogą, do kupienia
+actor_yard neighbor_yard_026 w1
+unique_id f026n1
+
+actor_yard neighbor_yard_026 w6
+unique_id f026n2
+
+
+//farma 27 szklarnie przy piaskowych klifach w NE rogu swiata, do kupienia
+actor_yard neighbor_yard_027 m2
+unique_id f027n1
+
+
+//farma 28 miedzy farmami 10 i 11, do kupienia
+actor_yard neighbor_yard_028 m5
+unique_id f028n1
+
+actor_yard neighbor_yard_028 m6
+unique_id f028n2
+
+actor_yard neighbor_yard_028 w1
+unique_id f028n3
+
+actor_yard neighbor_yard_028 w3
+unique_id f028n4
+
+
+//farma 1220 od farmy 27 na poludnie asfaltową drogą, do kupienia
+actor_yard neighbor_yard_1220 m3
+unique_id f1220n1
+
+actor_yard neighbor_yard_1220 w3
+unique_id f1220n2
+
+actor_yard neighbor_yard_1220 w4
+unique_id f1220n3
+
+
+//farma 1302 za wzgorzem po wschodniej stronie polnocnego mostu
+//nicholas
+actor_yard neighbor_yard_1302 m4_nicholas1
+unique_id nicholas1
+
+//camila
+actor_yard neighbor_yard_1302 w6_camila1
+unique_id camila1
+
+
+//farma 1303 miedzy farmami 1302 i 16, do kupienia
+actor_yard neighbor_yard_1303 m6
+unique_id f1303n1
+
+actor_yard neighbor_yard_1303 w4
+unique_id f1303n2
+
+actor_yard neighbor_yard_1303 w2
+unique_id f1303n3
+
+
+//lesna chatka 1 na wysepce na srodku jeziora serduszko w NW rogu swiata, do kupienia
+actor_marker s_connor1 m2_connor1
+unique_id connor1
+
+//stary mlyn
+actor_marker s_abigail1 w4_abigail1
+unique_id abigail1
+
+//sklepy
+
+//na zachod od farmy gracza
+actor_marker shop_001_old_kasjer m6_jack1
+unique_id jack1
+
+//na poludniu, miedzy farmami 13 i 14
+actor_marker shop_002_old_kasjer m4_pablo1
+unique_id pablo1
+
+//nad jeziorem w SE rogu swiata
+actor_marker shop_003_old_kasjer m2_frank1
+unique_id frank1
+
+//przy NW silosach
+actor_marker shop_004_old_kasjer m5_weston1
+unique_id weston1
+
+//przy polnocnym bricomarche, ma maly sad
+actor_marker shop_005_old_kasjer w6_ruby1
+unique_id ruby1
+
+//na wschod od tamy po polnocnej stronie
+actor_marker shop_006_old_kasjer m3_roche1
+unique_id roche1
+
+
+
+
+//kofi szopy
+
+//miedzy wzgorzem a jeziorem po wschodniej stronie polnocnego mostu
+actor_marker coffee_shop_001_old_barista w5_lucy1
+unique_id lucy1
+
+//przy polnocnym bricomarche
+actor_marker coffee_shop_002_old_barista w2_gwen1
+unique_id gwen1
+
+//na duzym wzgorzu w SW czesci swiata
+actor_marker coffee_shop_003_old_barista w1_ariana1
+unique_id ariana1
+
+//nad jeziorem, na poludnie od poludniowego mostu
+actor_marker coffee_shop_004_old_barista w4_sally1
+unique_id sally1
+
+
+
+//agro szopy
+
+//przy NW stacji benzynowej i silosach
+actor_marker agro_shop_001_old_kasjer w3_becky1
+unique_id becky1
+
+//na poludnie od farmy gracza i farmy 12
+actor_marker agro_shop_002_old_kasjer m3_joseph1
+unique_id joseph1
+
+
+
+//sklepy w mieście
+
+//piekarnia
+actor_marker town_baker_old m7_ian1
+unique_id ian1
+
+//mięsny
+actor_marker town_butcher_old w5_charlotte1
+unique_id charlotte1
+
+//warzywniak
+actor_marker town_greengrocer_old w7_paisley1
+unique_id paisley1
+
+//rybny
+actor_marker town_fishmonger_old m4_nolan1
+unique_id nolan1
+
+
+
+
+
+
+
+
+
+new_era
+
+//william
+actor_marker s_william1 m1_william1
+unique_id william1
+
+
+//farma 0 chatka za sklepem na zachod od farmy gracza
+actor_yard neighbor_yard_000 m3
+unique_id nf000n1
+
+actor_yard neighbor_yard_000 w1
+unique_id nf000n2
+
+
+//farma 1 na polnoc od farmy gracza, tam byla kiedys Mia, teraz mieszka starsza pani - jej córka
+actor_yard neighbor_yard_001 w6
+unique_id nf001n1
+
+actor_yard neighbor_yard_001 m5
+unique_id nf001n2
+
+actor_yard neighbor_yard_001 m4
+unique_id nf001n3
+
+
+//farma 2 na wzgorzu na wschod od farmy gracza, tam mieszkali Emily i Stan, teraz mieszka William - ich wnuk
+actor_yard neighbor_yard_002 w5
+unique_id nf002n1
+
+
+//farma 3 przy polach na wschod od farmy gracza, tam mieszkała Molly z dziadkiem, teraz mieszka James - wnuk Molly
+//james
+actor_yard neighbor_yard_003 m6_james1
+unique_id james1
+
+
+//farma 4 na zachod od farmy gracza, za sklepem w lewo
+actor_yard neighbor_yard_004 m6
+unique_id nf004n1
+
+actor_yard neighbor_yard_004 w3
+unique_id nf004n2
+
+actor_yard neighbor_yard_004 w1
+unique_id nf004n3
+
+actor_yard neighbor_yard_004 w6
+unique_id nf004n4
+
+
+//farma 5 NW od farmy 4, do kupienia
+actor_yard neighbor_yard_005 w2
+unique_id nf005n1
+
+actor_yard neighbor_yard_005 m2
+unique_id nf005n2
+
+actor_yard neighbor_yard_005 m1
+unique_id nf005n3
+
+actor_yard neighbor_yard_005 w6
+unique_id nf005n4
+
+//farma 6 za jeziorem i lasem NW od farmy gracza
+actor_yard neighbor_yard_006 m5
+unique_id nf006n1
+
+actor_yard neighbor_yard_006 m6
+unique_id nf006n2
+
+actor_yard neighbor_yard_006 w4
+unique_id nf006n3
+
+actor_yard neighbor_yard_006 w2
+unique_id nf006n4
+
+
+//farma 7 przy polnocnych wielkich polach, zachodnia, do kupienia
+actor_yard neighbor_yard_007 m4
+unique_id nf007n1
+
+actor_yard neighbor_yard_007 w2
+unique_id nf007n2
+
+actor_yard neighbor_yard_007 m1
+unique_id nf007n3
+
+
+//farma 8 przy polnocnych wielkich polach, wschodnia
+actor_yard neighbor_yard_008 m3
+unique_id nf008n1
+
+actor_yard neighbor_yard_008 w5
+unique_id nf008n2
+
+actor_yard neighbor_yard_008 w6
+unique_id nf008n3
+
+actor_yard neighbor_yard_008 w3
+unique_id nf008n4
+
+
+//farma 9 od farmy 6 na polnoc, do kupienia, zniszczona, niezamieszkana
+
+//farma 10 po drugiej stronie ulicy od farm 9 i 28
+actor_yard neighbor_yard_010 m3
+unique_id nf010n1
+
+actor_yard neighbor_yard_010 m4
+unique_id nf010n2
+
+actor_yard neighbor_yard_010 w2
+unique_id nf010n3
+
+//farma 11 nad poludniowym brzegiem jeziora serduszko w NW rogu swiata, do kupienia
+actor_yard neighbor_yard_011 m6
+unique_id nf011n1
+
+actor_yard neighbor_yard_011 m5
+unique_id nf011n2
+
+actor_yard neighbor_yard_011 m1
+unique_id nf011n3
+
+actor_yard neighbor_yard_011 w1
+unique_id nf011n4
+
+actor_yard neighbor_yard_011 m2
+unique_id nf011n5
+
+
+//farma 12 na poludnie od farmy gracza
+actor_yard neighbor_yard_012 m2
+unique_id nf012n1
+
+actor_yard neighbor_yard_012 w6
+unique_id nf012n3
+
+
+//farma 13 od poludniowych silosow na poludnie polną drogą
+actor_yard neighbor_yard_013 m1
+unique_id nf013n1
+
+actor_yard neighbor_yard_013 w4
+unique_id nf013n2
+
+
+//farma 14 na wschod od farmy 13, po polnocnej stronie ulicy, do kupienia, zniszczona, niezamieszkana
+
+//farma 15 na wschod od farmy 13, po poludniowej stronie ulicy
+//eric
+actor_yard neighbor_yard_015 m7_eric1
+unique_id eric1
+
+actor_yard neighbor_yard_015 m4
+unique_id nf015n2
+
+actor_yard neighbor_yard_015 w5
+unique_id nf015n3
+
+
+//farma 16 po wschodniej stronie poludniowego mostu, do kupienia
+actor_yard neighbor_yard_016 m3
+unique_id nf016n1
+
+actor_yard neighbor_yard_016 w4
+unique_id nf016n2
+
+actor_yard neighbor_yard_016 w2
+unique_id nf016n3
+
+
+//farma 17 przy wjezdzie na wzgorze z kofi szopem
+actor_yard neighbor_yard_017 m5
+unique_id nf017n1
+
+actor_yard neighbor_yard_017 w3
+unique_id nf017n2
+
+actor_yard neighbor_yard_017 w1
+unique_id nf017n3
+
+actor_yard neighbor_yard_017 m6
+unique_id nf017n4
+
+
+//farma 18 na zachod od farmy 13, po polnocnej stronie ulicy, do kupienia
+//yard domowy
+actor_yard neighbor_yard_018w w5
+unique_id nf018n1
+
+actor_yard neighbor_yard_018w w2
+unique_id nf018n2
+
+//yard gospodarczy
+actor_yard neighbor_yard_018m m1
+unique_id nf018n3
+
+actor_yard neighbor_yard_018m m2
+unique_id nf018n4
+
+actor_yard neighbor_yard_018m m4
+unique_id nf018n5
+
+
+//farma 19 na zachod od farmy 13, po poludniowej stronie ulicy, do kupienia
+actor_yard neighbor_yard_019 m6
+unique_id nf019n1
+
+actor_yard neighbor_yard_019 m3
+unique_id nf019n2
+
+actor_yard neighbor_yard_019 w6
+unique_id nf019n3
+
+actor_yard neighbor_yard_019 w5
+unique_id nf019n4
+
+
+//farma 20 od NW silosow i stacji benzynowej na zachod kamienną drogą, tu mieszkala Anavri, teraz mieszka jej prawnuczka, hipnoterapeutka Luna
+//luna
+actor_yard neighbor_yard_020 w4_luna1
+unique_id luna1
+
+//actor_yard neighbor_yard_020 m6
+//unique_id nf020n2
+
+actor_yard neighbor_yard_020 w3
+unique_id nf020n3
+
+//actor_yard neighbor_yard_020 m3
+//unique_id nf020n4
+
+
+//farma 21 od zachodniego car shopu na zachod kamienną drogą, do kupienia, zniszczona, niezamieszkana
+
+//farma 22 na polnoc od NE silosow, tu mieszkaly dzemiary Audrey i Claire, teraz mieszka Hannah ktora tez robi dzemy i grumpy Leo
+//leo
+actor_yard neighbor_yard_022 m5_leo1
+unique_id leo1
+
+actor_yard neighbor_yard_022 w1
+unique_id nf022n2
+//hannah
+actor_yard neighbor_yard_022 w2_hannah1
+unique_id hannah1
+
+
+//farma 23 na cyplu, na wschod od NE silosow, do kupienia
+actor_yard neighbor_yard_023 m4
+unique_id nf023n1
+
+actor_yard neighbor_yard_023 w5
+unique_id nf023n2
+
+actor_yard neighbor_yard_023 w6
+unique_id nf023n3
+
+
+//farma 24 blisko zawalonej drogi w SE rogu swiata
+actor_yard neighbor_yard_024 m1
+unique_id nf024n1
+
+actor_yard neighbor_yard_024 w1
+unique_id nf024n2
+
+actor_yard neighbor_yard_024 w3
+unique_id nf024n3
+
+
+//farma 25 przy polnocnym brzegu jeziora serduszko w NW rogu swiata, do kupienia
+actor_yard neighbor_yard_025 m6
+unique_id nf025n1
+
+actor_yard neighbor_yard_025 w6
+unique_id nf025n2
+
+actor_yard neighbor_yard_025 w2
+unique_id nf025n3
+
+actor_yard neighbor_yard_025 w3
+unique_id nf025n4
+
+actor_yard neighbor_yard_025 w4
+unique_id nf025n5
+
+
+//farma 26 chatka z sadem, przy NE car shopie polną drogą, do kupienia
+actor_yard neighbor_yard_026 w4
+unique_id nf026n1
+
+actor_yard neighbor_yard_026 w3
+unique_id nf026n2
+
+
+//farma 27 szklarnie przy piaskowych klifach w NE rogu swiata, do kupienia
+actor_yard neighbor_yard_027 m5
+unique_id nf027n1
+
+
+//farma 28 miedzy farmami 10 i 11, do kupienia
+actor_yard neighbor_yard_028 m1
+unique_id nf028n1
+
+actor_yard neighbor_yard_028 m2
+unique_id nf028n2
+
+actor_yard neighbor_yard_028 w6
+unique_id nf028n3
+
+actor_yard neighbor_yard_028 w4
+unique_id nf028n4
+
+actor_yard neighbor_yard_028 w2
+unique_id nf028n5
+
+
+//farma 1220 od farmy 27 na poludnie asfaltową drogą, do kupienia
+actor_yard neighbor_yard_1220 m3
+unique_id nf1220n1
+
+actor_yard neighbor_yard_1220 m5
+unique_id nf1220n2
+
+actor_yard neighbor_yard_1220 m2
+unique_id nf1220n3
+
+
+//farma 1302 za wzgorzem po wschodniej stronie polnocnego mostu
+actor_yard neighbor_yard_1302 m4
+unique_id nf1302n1
+
+actor_yard neighbor_yard_1302 w1
+unique_id nf1302n2
+
+actor_yard neighbor_yard_1302 w2
+unique_id nf1302n3
+
+
+//farma 1303 miedzy farmami 1302 i 16, do kupienia
+actor_yard neighbor_yard_1303 m2
+unique_id nf1303n1
+
+actor_yard neighbor_yard_1303 m5
+unique_id nf1303n2
+
+actor_yard neighbor_yard_1303 w5
+unique_id nf1303n3
+
+actor_yard neighbor_yard_1303 w1
+unique_id nf1303n4
+
+
+//stary mlyn
+actor_marker s_brian1 m6_brian1
+unique_id brian1
+
+
+//sklepy
+
+//na zachod od farmy gracza
+actor_marker shop_001_new_kasjer m4_tony1
+unique_id tony1
+
+//na poludniu, miedzy farmami 13 i 14
+actor_marker shop_002_new_kasjer m5_jason1
+unique_id jason1
+
+//nad jeziorem w SE rogu swiata
+actor_marker shop_003_new_kasjer m3_bruce1
+unique_id bruce1
+
+//przy NW silosach
+actor_marker shop_004_new_kasjer w4_alexa1
+unique_id alexa1
+
+//przy polnocnym bricomarche
+actor_marker shop_005_new_kasjer w1_kylie1
+unique_id kylie1
+
+//na wschod od tamy po polnocnej stronie
+actor_marker shop_006_new_kasjer m1_dylan1
+unique_id dylan1
+
+
+
+//kofi szopy
+
+//miedzy wzgorzem a jeziorem po wschodniej stronie polnocnego mostu
+actor_marker coffee_shop_001_new_barista w2_anna1
+unique_id anna1
+
+//przy polnocnym bricomarche
+actor_marker coffee_shop_002_new_barista m2_samuel1
+unique_id samuel1
+
+//na duzym wzgorzu w SW czesci swiata
+actor_marker coffee_shop_003_new_barista w6_samantha1
+unique_id samantha1
+
+//nad jeziorem, na poludnie od poludniowego mostu
+actor_marker coffee_shop_004_new_barista w3_maggie1
+unique_id maggie1
+
+
+
+
+//agro szopy
+
+//przy NW stacji benzynowej i silosach
+actor_marker agro_shop_001_new_kasjer m6_sam1
+unique_id sam1
+
+//na poludnie od farmy gracza i farmy 12
+actor_marker agro_shop_002_new_kasjer w2_jessica1
+unique_id jessica1
+
+
+
+//sklepy w mieście
+
+//piekarnia
+actor_marker town_baker_new m9_bennett1
+unique_id bennett1
+
+//mięsny
+actor_marker town_butcher_new m8_ashton1
+unique_id ashton1
+
+//warzywniak
+actor_marker town_greengrocer_new w2_melanie1
+unique_id melanie1
+
+//rybny
+actor_marker town_fishmonger_new w3_madison1
+unique_id madison1
+
+
+
+
+

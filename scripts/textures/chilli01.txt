@@ -1,0 +1,9 @@
+texture chilli01.dds
+animation_speed 1.000000
+appear_distance 0.000000
+normal det_concrete001_normal.dds
+normal_density 12.000000
+metalness 0.000000
+glossiness 0.850000
+reflection_for_nonmetals 0.200000
+move_along_v 0.000000

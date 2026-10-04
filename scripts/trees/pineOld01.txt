@@ -1,0 +1,111 @@
+//
+// plik opisuje konstrukcje scinanego drzewa w swiecie
+// struktura wymaga podania drzewa w swiecie (jeden ca³y mesh) jaki jest rozk³adany w edytorze.
+// do niego opisujemy drzewo od do³u - dó³ pnia z korzeniami, socket do przypiêcia nastêpnej czêsci pnia.
+// do ka¿dej wy¿szej czêsci pnia podajemy jej prefab, socket do przyczepienia kolejnej oraz ew. grupy ga³êzi do niej doczepiane
+
+// tree_in_world <prefab_drzewa_w_swiecie> - jest to ca³e drzewo bêd¹ce jednym prefabem wk³adane w edytorze
+// ta definicja jest niezbedna i rozpoczyna wlasciwa definicje drzewa.
+// tree_in_world prefabs\trees\beech01.x
+
+// teraz czêœci sk³adowe - na co siê podmienia
+// opis pnia - najnizszej czesci stojacej w ziemi
+// stump prefabs\trees\beechW01_stump_nocenter.x
+
+// trunk prefabs\trees\beechW01_corona_nocenter.x
+
+// branch <branch_prefab_ze_sciezka_x>
+
+// A-dolne elementy
+// B-górne
+// pierwsza liczba - strona œwiata
+// druga liczba - element zewnetrzny (1) / wewnetrzny (2)
+
+tree_id PINE
+tree_in_world prefabs\trees\tree_pineOld01_nocenter.x
+
+name pineOld01
+
+//
+// pien
+//
+stump prefabs\trees\parts\tree_pineOld01_stump_nocenter.x
+
+// wewnetrzne dolne elementy odrabywalne pnia = A, druga liczba = 2
+stump_lower_part_in prefabs\trees\parts\tree_pineOld01_stumpcut_a_1_2_nocenter.x
+stump_lower_part_in prefabs\trees\parts\tree_pineOld01_stumpcut_a_2_2_nocenter.x
+stump_lower_part_in prefabs\trees\parts\tree_pineOld01_stumpcut_a_3_2_nocenter.x
+
+// zewnetrzne dolne elementy odrabywalne pnia (kora) = A, druga liczba = 1
+stump_lower_part_out prefabs\trees\parts\tree_pineOld01_stumpcut_a_1_1_nocenter.x
+stump_lower_part_out prefabs\trees\parts\tree_pineOld01_stumpcut_a_2_1_nocenter.x
+stump_lower_part_out prefabs\trees\parts\tree_pineOld01_stumpcut_a_3_1_nocenter.x
+
+// wewnetrzne gorne elementy odrabywalne pnia = B, druga liczba = 2
+stump_upper_part_in prefabs\trees\parts\tree_pineOld01_stumpcut_b_1_2_nocenter.x
+stump_upper_part_in prefabs\trees\parts\tree_pineOld01_stumpcut_b_2_2_nocenter.x
+stump_upper_part_in prefabs\trees\parts\tree_pineOld01_stumpcut_b_3_2_nocenter.x
+
+// zewnetrzne gorne elementy odrabywalne pnia = B, druga liczba = 1
+stump_upper_part_out prefabs\trees\parts\tree_pineOld01_stumpcut_b_1_1_nocenter.x
+stump_upper_part_out prefabs\trees\parts\tree_pineOld01_stumpcut_b_2_1_nocenter.x
+stump_upper_part_out prefabs\trees\parts\tree_pineOld01_stumpcut_b_3_1_nocenter.x
+
+//
+// pierwszy trunk (od dolu)
+//
+trunk prefabs\trees\parts\tree_pineOld01_trunk01_nocenter.x
+
+// gorna czesc tego trunka = A. to juz sa pierscienie zewnetrzny i wewnetrzny, bez podzialy na strony swiata.
+// pierscienie sa dwa, nizszy i wyzszy, oba na gorze kazdego trunka!
+
+// pierscien nizszy wewnetrzny
+trunk_lower_part_in prefabs\trees\parts\tree_pineOld01_trunk01cut_a_1_2_nocenter.x
+// pierscien nizszy zewnetrzny
+trunk_lower_part_out prefabs\trees\parts\tree_pineOld01_trunk01cut_a_1_1_nocenter.x
+
+// pierscien wyzszy wewnetrzny
+trunk_upper_part_in prefabs\trees\parts\tree_pineOld01_trunk01cut_b_1_2_nocenter.x
+// pierscien wyzszy zewnetrzny
+trunk_upper_part_out prefabs\trees\parts\tree_pineOld01_trunk01cut_b_1_1_nocenter.x
+
+// galezi przywiazane do tego trunka - brak
+
+
+//
+// drugi trunk (od dolu)
+//
+trunk prefabs\trees\parts\tree_pineOld01_trunk02_nocenter.x
+
+// gorna czesc tego trunka = A. to juz sa pierscienie zewnetrzny i wewnetrzny, bez podzialy na strony swiata.
+// pierscienie sa dwa, nizszy i wyzszy, oba na gorze kazdego trunka!
+
+// pierscien nizszy wewnetrzny
+trunk_lower_part_in prefabs\trees\parts\tree_pineOld01_trunk02cut_a_1_2_nocenter.x
+// pierscien nizszy zewnetrzny
+trunk_lower_part_out prefabs\trees\parts\tree_pineOld01_trunk02cut_a_1_1_nocenter.x
+
+// pierscien wyzszy wewnetrzny
+trunk_upper_part_in prefabs\trees\parts\tree_pineOld01_trunk02cut_b_1_2_nocenter.x
+// pierscien wyzszy zewnetrzny
+trunk_upper_part_out prefabs\trees\parts\tree_pineOld01_trunk02cut_b_1_1_nocenter.x
+
+// galezie przywiazane do tego trunka
+branch prefabs\trees\parts\tree_pineOld01_branch01_nocenter.x
+
+branch prefabs\trees\parts\tree_pineOld01_branch02_nocenter.x
+
+
+
+
+
+
+//
+// piaty trunk (od dolu)
+//
+trunk prefabs\trees\parts\tree_pineOld01_trunk_end_nocenter.x
+branch prefabs\trees\parts\tree_pineOld01_branch03_nocenter.x
+
+// galezie przywiazane do tego trunka
+
+

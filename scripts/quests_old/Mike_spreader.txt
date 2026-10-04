@@ -1,0 +1,47 @@
+
+// nazwa questa, unikalna i wymagana
+name Mike_spreader
+icon hud_map_social.dds
+given_by_icon actor_unknown_man.dds
+
+title OC33
+initial_waypoint mike1
+initial_objective OC34
+given_by mike1
+
+// gdy startuje ten quest, niech bedzie sledzony
+focus_on_start
+
+social_award 1
+award manure_spreader_old
+
+wait 0.1 -waypoint * -checkpoint 10
+
+//idziemy na farme 15, dialog z mike
+goto mike1 -distance 5 -waypoint mike1 -checkpoint 20
+wait 0.1 -waypoint *
+hero_dialog mike1_dialog2 mike1
+wait_end_hero_dialog
+wait 1 -checkpoint 30
+
+//naprawiamy garasz
+wait 1 -waypoint neighbor_garage_015 -objective OC35 -checkpoint 40
+wait_repair_building neighbor_garage_015 -checkpoint 50
+
+//dialog z mike
+goto mike1 -distance 5 -waypoint mike1 -objective OC36 -checkpoint 60
+wait 0.1 -waypoint *
+hero_dialog mike1_dialog3 mike1
+likes_player mike1 0.25
+wait_end_hero_dialog
+wait 1 -checkpoint 70
+
+//odbieramy cysterne na gumnwno
+give_vehicle_to_player mike_manure_spreader
+goto mike_manure_spreader -distance 8 -waypoint mike_manure_spreader -objective OC37 -checkpoint 80
+wait 1 -waypoint * -checkpoint 90
+print koniec_questa_mike_spreader
+wait 1
+
+
+

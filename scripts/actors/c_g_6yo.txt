@@ -1,0 +1,282 @@
+actor c_g_6yo
+name >NameF8
+
+model prefabs\models\c_g_6yo\c_g_6yo.X
+
+socket_eyes oczy
+
+contact_distance 8
+contact_angle 50
+
+rotate_180 
+
+woman
+voice 6
+
+default_phase choice_pg
+
+
+scale 1.34
+
+
+
+// Dialog anims
+
+// animacje idle calego ciala do dialogow (NPC z NPC, NPC z graczem), max 8
+dialog_anim_idle c_g_6yo_listen
+
+// animacje mowi do dialogow (NPC z NPC, NPC z graczem), max 8
+dialog_anim_talk c_g_6yo_speak
+
+// animacje (tylko glowa) gada do dialogow (NPC z NPC, NPC z graczem), max 8
+dialog_anim_talk_head c_g_6yo_talking_head
+
+
+
+
+
+// clothes
+// max attachments 16
+
+// HAIR
+random_hair prefabs\attachments\c_g_12yo_hair_001_nocenter.x hair6yo
+
+
+// HAIR
+
+random_hair prefabs\attachments\c_g_12yo_hair_001_nocenter.x hair6yo
+random_hair_winter prefabs\attachments\c_g_6yo_hat_3_nocenter.x hair
+random_hair_modern prefabs\attachments\c_g_12yo_hair_001_nocenter.x hair6yo
+random_hair_modern_winter prefabs\attachments\c_g_6yo_hat_3_nocenter.x hair
+
+
+// GLASSES
+// random_attachment prefabs\attachments\eyewear_001_nocenter.X eyewear
+
+
+
+
+// class 0 - boots
+clothes 0 prefabs\models\clothes\Kids\Girl\class0_boots\c_g_6_shoes.X
+clothes_winter 0 prefabs\models\clothes\Kids\Girl\class0_boots\c_g_6_boots_winter.X
+clothes_modern 0 prefabs\models\clothes\Kids\Girl\class0_boots\c_g_6_shoes.X
+clothes_modern_winter 0 prefabs\models\clothes\Kids\Girl\class0_boots\c_g_6_boots_winter.X
+
+
+
+
+// class 1 - pants
+clothes 1 prefabs\models\clothes\Kids\Girl\class1_pants\c_g_6_jeans_old.X
+clothes_winter 1 prefabs\models\clothes\Kids\Girl\class1_pants\c_g_6_pants_winter.X
+clothes_modern 1 prefabs\models\clothes\Kids\Girl\class1_pants\c_g_6_jeans.X
+clothes_modern_winter 1 prefabs\models\clothes\Kids\Girl\class1_pants\c_g_6_pants_winter.X
+
+
+
+
+// class 2 - shirts
+clothes 2 prefabs\models\clothes\Kids\Girl\class2_shirts\c_g_6_shirt_old.X
+clothes_winter 2 prefabs\models\clothes\Kids\Girl\class2_shirts\c_g_6_jacket_winter_60s.X
+clothes_modern 2 prefabs\models\clothes\Kids\Girl\class2_shirts\c_g_6_shirt.X
+clothes_modern_winter 2 prefabs\models\clothes\Kids\Girl\class2_shirts\c_g_6_jacket_winter.X
+
+
+
+// class 3 - addons
+// skinmesh_attachment 3 prefabs\models\clothes\Kids\Girl\class3_addons\
+// skinmesh_attachment 3 prefabs\models\clothes\Kids\Girl\class3_addons\
+
+
+
+
+
+
+// animations
+
+
+phase sleep
+animation c_g_6yo_sleep
+on_end sleep
+
+
+phase idle
+animation c_g_6yo_idle2
+on_end idle
+
+
+
+//choice
+
+phase choice_pg
+animation c_g_6yo_idle2
+on_end pg1_walk
+on_end pg1_run
+on_end pg2_walk
+on_end pg2_run
+on_end pg3_walk
+on_end pg3_run
+on_end pg4_walk
+on_end pg4_run
+
+
+//playground1
+
+phase pg1_walk
+estimate_do_mesha pg1
+speed 0.85
+animation c_g_6yo_walk
+on_end idle_pg1
+on_end crouch_pg1
+
+phase pg1_run
+estimate_do_mesha pg1
+speed 1.5
+animation c_g_6yo_run
+on_end idle_pg1
+on_end crouch_pg1
+
+phase idle_pg1
+animation c_g_6yo_idle2
+on_end idle_pg1
+on_end idle_pg1
+on_end idle_pg1
+on_end crouch_pg1
+on_end crouch_pg1
+on_end crouch_pg1
+on_end choice_pg
+
+phase crouch_pg1
+animation c_g_6yo_jump1
+animation c_g_6yo_jump2
+animation c_g_6yo_jump3
+on_end idle_pg1
+on_end idle_pg1
+on_end idle_pg1
+on_end crouch_pg1
+on_end crouch_pg1
+on_end crouch_pg1
+on_end choice_pg
+
+
+//playground2
+
+phase pg2_walk
+estimate_do_mesha pg2
+speed 0.85
+animation c_g_6yo_walk
+on_end idle_pg2
+on_end crouch_pg2
+
+phase pg2_run
+estimate_do_mesha pg2
+speed 1.5
+animation c_g_6yo_run
+on_end idle_pg2
+on_end crouch_pg2
+
+phase idle_pg2
+animation c_g_6yo_idle2
+on_end idle_pg2
+on_end idle_pg2
+on_end idle_pg2
+on_end crouch_pg2
+on_end crouch_pg2
+on_end crouch_pg2
+on_end choice_pg
+
+phase crouch_pg2
+animation c_g_6yo_jump1
+animation c_g_6yo_jump2
+animation c_g_6yo_jump3
+on_end idle_pg2
+on_end idle_pg2
+on_end idle_pg2
+on_end crouch_pg2
+on_end crouch_pg2
+on_end crouch_pg2
+on_end choice_pg
+
+
+//playground3
+
+phase pg3_walk
+estimate_do_mesha pg3
+speed 0.85
+animation c_g_6yo_walk
+on_end idle_pg3
+on_end crouch_pg3
+
+phase pg3_run
+estimate_do_mesha pg3
+speed 1.5
+animation c_g_6yo_run
+on_end idle_pg3
+on_end crouch_pg3
+
+phase idle_pg3
+animation c_g_6yo_idle2
+on_end idle_pg3
+on_end idle_pg3
+on_end idle_pg3
+on_end crouch_pg3
+on_end crouch_pg3
+on_end crouch_pg3
+on_end choice_pg
+
+phase crouch_pg3
+animation c_g_6yo_jump1
+animation c_g_6yo_jump2
+animation c_g_6yo_jump3
+on_end idle_pg3
+on_end idle_pg3
+on_end idle_pg3
+on_end crouch_pg3
+on_end crouch_pg3
+on_end crouch_pg3
+on_end choice_pg
+
+
+
+
+//playground4
+
+phase pg4_walk
+estimate_do_mesha pg4
+speed 0.85
+animation c_g_6yo_walk
+on_end idle_pg4
+on_end crouch_pg4
+
+phase pg4_run
+estimate_do_mesha pg4
+speed 1.5
+animation c_g_6yo_run
+on_end idle_pg4
+on_end crouch_pg4
+
+phase idle_pg4
+animation c_g_6yo_idle2
+on_end idle_pg4
+on_end idle_pg4
+on_end idle_pg4
+on_end crouch_pg4
+on_end crouch_pg4
+on_end crouch_pg4
+on_end choice_pg
+
+phase crouch_pg4
+animation c_g_6yo_jump1
+animation c_g_6yo_jump2
+animation c_g_6yo_jump3
+on_end idle_pg4
+on_end idle_pg4
+on_end idle_pg4
+on_end crouch_pg4
+on_end crouch_pg4
+on_end crouch_pg4
+on_end choice_pg
+
+
+
+
+

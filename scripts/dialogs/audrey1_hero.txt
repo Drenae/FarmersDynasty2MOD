@@ -1,0 +1,56 @@
+//
+// Dialog z audrey
+//
+
+
+//dzien dobry, jeszcze nie robimy dzemoruw, nasz sad nie dziala, idz do Jacka, niech przekona brata zeby nam opylil nawoz na zeszyt
+hero_dialog audrey1_dialog1
+actor DLQ12L01
+hero DLQ12L02
+actor DLQ12L03
+actor DLQ12L04
+hero DLQ12L05
+hero DLQ12L06
+actor DLQ12L07
+hero DLQ12L08
+actor DLQ12L09
+hero DLQ12L10
+actor DLQ12L11
+actor DLQ12L12
+actor DLQ12L13
+actor DLQ12L14
+hero DLQ12L15
+actor DLQ12L16
+hero DLQ12L17
+actor DLQ12L18
+hero DLQ12L18A
+actor DLQ12L18B
+actor DLQ12L19
+hero DLQ12L20
+actor DLQ12L20A
+hero DLQ12L20B
+
+
+//macie tu nawoz, supcio dzieki masz siewnik, btw Claire jest niesmiala a chlopa by jej trzeba znalezc, btw przywiez owoce, miody i inne takie to dobry hajs natrzepiesz
+hero_dialog audrey1_dialog2
+hero DLQ12L21
+actor DLQ12L22
+hero DLQ12L23
+actor DLQ12L24
+actor DLQ12L25
+hero DLQ12L26
+actor DLQ12L27
+hero DLQ12L28
+
+
+
+
+
+
+
+
+
+
+
+
+

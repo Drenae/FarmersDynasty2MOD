@@ -1,0 +1,3 @@
+mesh_filename prefabs\vehicles\tractor_F69\axle_nocenter.X
+socket wheel_front_right 0.620000 -0.000000 0.000000
+socket wheel_front_left -0.620000 -0.000000 0.000000

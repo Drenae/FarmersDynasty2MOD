@@ -1,0 +1,141 @@
+Vehicle >car_008_old
+prefab prefabs\vehicles\car_008_old\car_008_old_nocenter.x
+Mass 4000.0
+Stiffness 10
+
+
+spawn_ID 56
+
+tag >MT13
+
+// color 0.50 0.79 0.90
+
+car
+price 0
+automatic
+max_vel 60
+bhp 150
+// no_back_beep
+tank 82
+
+
+// DRIVER
+skala_kierowcy 1.0
+driver_anim_drive_left h_drive_old_pickup_left
+driver_anim_drive_right h_drive_old_pickup_right
+driver_anim_drive h_drive_old_pickup
+
+
+// COLLISION MESH
+
+// pScaleY
+mnoznik_fizyki_y 0.4
+// pScaleZ
+mnoznik_fizyki_z 1.0
+// pScaleX
+mnoznik_fizyki_x 0.92
+
+// pTransY
+przesuniecie_fizyki_gora 0.8
+// pTransZ
+przesuniecie_fizyki_przod -0.2
+// pTransX
+przesuniecie_fizyki_prawo 0.0
+
+
+
+//PANEL
+
+// panel car008_BS_1.tga
+
+// wskazowka_predkosc 498 163 0.45 2.35
+// wskazowka_obrotow 633 163 0.45 0.7
+// wskazowka_paliwo 524 124
+
+
+
+// DOOR
+attachment_door prefabs\vehicles\car_008_old\door_left_nocenter.x door_left -80
+attachment prefabs\vehicles\car_008_old\door_right_nocenter.x door_right
+
+
+
+
+// WHEELS & MUDGUARDS
+
+front_wheel prefabs\vehicles\car_008_old\wheel_front_right_nocenter.X wheel_front_right
+front_wheel prefabs\vehicles\car_008_old\wheel_front_left_nocenter.X wheel_front_left
+
+wheel prefabs\vehicles\car_008_old\wheel_rear_right_nocenter.X wheel_rear_right
+wheel prefabs\vehicles\car_008_old\wheel_rear_left_nocenter.X wheel_rear_left
+
+
+
+// STEERING WHEEL
+
+steering_wheel prefabs\vehicles\car_008_old\steering_wheel_nocenter.x steering_wheel
+korekcja_kierownicy 51
+mnoznik_obrotu_kierownicy 3.6
+
+
+
+
+// LIGHTS
+
+swiatlo_przod lp1 1
+swiatlo_przod lp2 1
+swiatlo_przod lp3
+swiatlo_przod lp4
+swiatlo_tyl lt1
+swiatlo_tyl lt2
+swiatlo_cofania lc1
+// swiatlo_stop ls1
+
+
+// INTERIOR LIGHTS
+vehicle_light vehicle_light1 0.5 1.5 209 224 225
+
+
+
+
+// SOUNDS
+
+engine_start_sound sfx\vehicles\van_start1.wav
+
+engine_stop_sound sfx\vehicles\van_stop1.wav
+
+engine_sound sfx\vehicles\van_work1.wav
+engine_frequency_base 44000
+engine_frequency_change 120
+
+engine_sound2 sfx\vehicles\van_idle1.wav
+engine_frequency_base2 44100
+engine_frequency_change2 100
+
+
+engine_frequency_add_during_wheel_spin 10
+
+Wheel_Spin_Splash_Sound_Water sfx\vehicles\water_spin1.wav 3.3
+Wheel_Spin_Splash_Sound_Water sfx\vehicles\water_spin2.wav 2.8
+Wheel_Spin_Splash_Sound_Water sfx\vehicles\water_spin3.wav 4.2
+Wheel_Spin_Splash_Sound_Water sfx\vehicles\water_spin4.wav 3.8
+Wheel_Spin_Splash_Sound_Water sfx\vehicles\water_spin5.wav 3.3
+Wheel_Spin_Splash_Sound_Water sfx\vehicles\water_spin6.wav 2.2
+Wheel_Spin_Splash_Sound_Water sfx\vehicles\water_spin7.wav 3.8
+Wheel_Spin_Splash_Sound_Water sfx\vehicles\water_spin8.wav 4.2
+
+Wheel_Spin_Splash_Sound_Mud sfx\vehicles\mud_spin1.wav 1.9
+Wheel_Spin_Splash_Sound_Mud sfx\vehicles\mud_spin2.wav 2.5
+Wheel_Spin_Splash_Sound_Mud sfx\vehicles\mud_spin3.wav 1.8
+Wheel_Spin_Splash_Sound_Mud sfx\vehicles\mud_spin4.wav 2.5
+Wheel_Spin_Splash_Sound_Mud sfx\vehicles\mud_spin5.wav 1.9
+Wheel_Spin_Splash_Sound_Mud sfx\vehicles\mud_spin6.wav 2.5
+Wheel_Spin_Splash_Sound_Mud sfx\vehicles\mud_spin7.wav 1.8
+Wheel_Spin_Splash_Sound_Mud sfx\vehicles\mud_spin8.wav 2.5
+
+Wheel_Splash_Sound_Enter_Water sfx\vehicles\water_splash1.wav 4.1
+Wheel_Splash_Sound_Enter_Water sfx\vehicles\water_splash2.wav 4.5
+Wheel_Splash_Sound_Enter_Water sfx\vehicles\water_splash3.wav 3.6
+
+
+

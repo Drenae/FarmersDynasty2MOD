@@ -1,0 +1,126 @@
+Vehicle >trailer_RT_10T
+prefab prefabs\vehicles\trailer_rt_10t\trailer_rt_10t_nocenter.x
+Mass 1600.0
+Stiffness 10
+
+spawn_id 17
+
+tag >MT08
+
+renew_and_paint
+color 0.93 0.47 0.01
+
+trolley_classic
+// trolley_side
+przyczepa
+grain
+grain_capacity 10000
+price 38000
+
+
+
+// to definiuje jak szybko rosnie gorka od ziarna
+mnoznik_wzrostu_ladunku 1
+
+// to ustala wysokosc globalna ladunku
+mnoznik_skali_ladunku 8
+
+
+
+// COLLISION MESH
+
+
+// pScaleY
+mnoznik_fizyki_y 1.1
+// pScaleZ
+mnoznik_fizyki_z 0.85
+// pScaleX
+mnoznik_fizyki_x 1.0
+
+// pTransY
+przesuniecie_fizyki_gora 1.8
+// pTransZ
+przesuniecie_fizyki_przod -0.6
+// pTransX
+przesuniecie_fizyki_prawo 0.0
+
+
+// HOOKS
+hak zaczep
+hak_tyl zaczep_tyl
+
+
+// to jest glowna wywrotka (1)
+attachment_trolley prefabs\vehicles\trailer_rt_10t\trolley_nocenter.x trolley
+// przypinane do attachment_trolley
+trolley_gate prefabs\vehicles\trailer_rt_10t\gate_nocenter.x gate 1
+
+attachment_zboze prefabs\vehicles\trailer_rt_10t\loading_nocenter.x loading 1
+
+
+
+// PISTONS
+
+trolley_piston1 prefabs\vehicles\trailer_rt_10t\piston1_nocenter.x piston
+trolley_piston2 prefabs\vehicles\trailer_rt_10t\piston2_nocenter.x piston
+trolley_piston3 prefabs\vehicles\trailer_rt_10t\piston3_nocenter.x piston
+trolley_piston4 prefabs\vehicles\trailer_rt_10t\piston4_nocenter.x piston
+
+
+
+// SUPPORT LEG
+attachment_stopka prefabs\vehicles\trailer_rt_10t\support_leg_nocenter.x support_leg 0.00 0.45
+
+
+
+// WHEELS
+
+wheel_invisible prefabs\vehicles\trailer_rt_10t\wheel_left_nocenter.x wheel_fake
+wheel prefabs\vehicles\trailer_rt_10t\wheel_left_nocenter.x wheel_front_left
+wheel prefabs\vehicles\trailer_rt_10t\wheel_right_nocenter.x wheel_front_right
+wheel prefabs\vehicles\trailer_rt_10t\wheel_left_nocenter.x wheel_rear_left
+wheel prefabs\vehicles\trailer_rt_10t\wheel_right_nocenter.x wheel_rear_right
+
+
+
+
+
+// ANIM FX
+// attachment_anim_fx <prefab> <socket> [<attachment do przyczepienia lub 0>] [<mnoznik predkosci przesuwu gibania - 1 domyslnie>] [<mnoznik gibania animacji - 1 domyslnie>] [<mnoznik predkosci przesuwu tekstury - 1 domyslnie>]
+attachment_anim_fx prefabs\vehicles\trailer_rt_10t\anim_dump_nocenter.x anim_dump 0 0.5 0.5
+
+// fx do wysypywania zboza z przyczepy
+// spill_grain_fx <nazwa_fx> <nazwa_socketa> [<numer attachmentu>]
+spill_grain_fx afx_spill_grain spill_grain 0
+
+
+
+
+
+// LIGHTS
+
+attachment_light prefabs\vehicles\trailer_rt_10t\lamp1_nocenter.x light1
+// nazwa attachmentu *po* definicji attachmentu, powinna byc unikalna dla danego pojazdu
+attachment_name swiatlo_lt1
+swiatlo_tyl lt1
+// do jakiego attachmentu (z fully bright in alpha mask)
+swiatlo_z swiatlo_lt1
+
+attachment_light prefabs\vehicles\trailer_rt_10t\lamp2_nocenter.X light2
+attachment_name swiatlo_lt2
+swiatlo_tyl lt1
+swiatlo_z swiatlo_lt2
+
+attachment_light prefabs\vehicles\trailer_rt_10t\lamp3_nocenter.X light3
+attachment_name swiatlo_lc1
+swiatlo_cofania lc1
+swiatlo_z swiatlo_lc1
+
+
+
+attachment_light prefabs\vehicles\tractor_old_fnd\lamp2_nocenter.X light2
+attachment_name swiatlo_lp
+swiatlo_przod lp2 1
+swiatlo_z swiatlo_lp
+
+

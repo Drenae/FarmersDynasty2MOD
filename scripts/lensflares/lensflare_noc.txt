@@ -1,0 +1,4 @@
+flare lf_d_moon.tga
+distance 0.00
+scale 2.5
+additive

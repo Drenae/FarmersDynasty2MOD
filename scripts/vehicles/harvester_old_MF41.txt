@@ -1,0 +1,331 @@
+Vehicle >harvester_old_FM41
+prefab prefabs\vehicles\harvester_old_MF41\harvester_old_MF41_nocenter.X
+Mass 6800.0
+Stiffness 10
+player_can_drive
+
+spawn_id 14
+
+tag >MT25
+
+
+
+kombajn
+Kombajn_id 1
+price 9000
+CVT
+BHP 110
+tank 400
+reverse_wheels
+grain_capacity 1200
+max_vel 24.5
+no_back_beep
+
+
+renew_and_paint
+repairable harvester_old_MF41.dds harvester_old_MF41_repaired.dds
+color 0.8 0.39 0.32
+
+
+
+
+// DRIVER
+skala_kierowcy 0.0
+driver_anim_drive_left h_drive_harvester_old_left
+driver_anim_drive_right h_drive_harvester_old_right
+driver_anim_drive h_drive_harvester_old
+
+
+
+
+// COLLISION MESH
+
+// pScaleY
+mnoznik_fizyki_y 1.0
+// pScaleZ
+mnoznik_fizyki_z 1.0
+// pScaleX
+mnoznik_fizyki_x 0.72
+
+// pTransY
+przesuniecie_fizyki_gora 1.6
+// pTransZ
+przesuniecie_fizyki_przod 0.2
+// pTransX
+przesuniecie_fizyki_prawo -0.32
+
+
+// HOOKS
+hak zaczep_dolny
+hak_gorny zaczep
+
+
+
+
+// PANEL
+// wskazowka_obrotow pos_x pos_y skala kat_min kat_max
+// wskazowka_temp pos_x pos_y skala kat_min kat_max
+// wskazowka_paliwo pos_x pos_y skala kat_min kat_max
+
+// wskazowka_predkosc ma dodatkowy parametr - maks prędkość do jakiej jest wyskalowany licznik.
+// wskazowka_predkosc pos_x pos_y skala kat_min kat_max max_predkosc
+// Wskazówka prędkości jest zablokowana dla maksymalnej prędkości = maksymalnego dozwolonego kąta.
+
+
+panel harvester_old_MF41_panel.dds
+
+
+wskazowka_predkosc 520 292 1.4 200 230 25
+wskazowka_obrotow 1086 581 1.7 42 310
+
+wskazowka_temp 538 818 1.5 135 225
+wskazowka_paliwo 1596 350 1.7 135 225
+
+wskazowka_akumulator 1598 773 1.0 100 170
+
+
+
+//wskazowka_temp
+//wskazowka_paliwo
+//napis_czas
+//wskazowka_obrotow
+//napis_obroty
+//napis_predkosc
+//napis_bieg0
+//napis_bieg1
+//napis_tempomat
+//napis_przebieg0
+//napis_roboczogodzin 107 85 1
+//ikona_swiatla  9 39
+//ikona_max_temp 11 234
+//ikona_3P 77 157
+//ikona_WOM 149 40
+//graf_pole 90 80
+//graf_wypelnienie 191 80
+
+
+
+
+
+// PIPE (1)
+rotate_cmd1 1.6 0.15
+attachment prefabs\vehicles\harvester_old_MF41\unloading_pipe_nocenter.X pipe
+
+
+
+
+// HEADER LIFT (2)
+rotate_cmd0 0.3
+attachment prefabs\vehicles\harvester_old_MF41\header_lift_nocenter.X header_lift
+
+
+
+
+
+// PEDALS
+
+// komenda obracajaca attachment podczas pracy. Podawana bezposrednio PRZED attachmentem ktorego dotyczy
+// rotate <os_obrotu> <warunek> <mnoznik> [<dodatkowy_skret_os> <dodatkowy_skret_rotacja>]
+// <os_obrotu> to: right - wokol osi X
+//                 forward - wokol osi Z
+//                 up - wokol osi Y
+// <warunek> to: enable - wlaczony silnik, predkosc to mnoznik (stopnie/sek)
+//               rpm    - predkosc zalezy od obrotow silnika * mnoznik (w stpniach)
+//               speed  - predkosc to predkosc pojazdu (kph) * mnoznik (w stpniach)
+//               turn   - ustala sie kat: wspolczynnik obrotu kierownicy * mnoznik (w stpniach)
+//               gas    - ustala sie kat: wcianiety gaz (maks wcisniety to 1) * mnoznik (w stpniach)
+//               brake  - ustala sie kat: wcianiety hamulec (maks wcisniety to 1) * mnoznik (w stpniach)
+//               direction - ustala sie kat: (jazda przod to 1, jazda tyl to 0) * mnoznik (w stpniach)
+//               clutch - ustala sie kat: (wysprzeglony to 1, sprzeglo puszczone to 0) * mnoznik (w stpniach)
+// dodatkowy skret pozwala na stale skrzywic obrot wokol dodatkowej osi, np. wygiac wiatrak chlodnizy obracajacy sie wokol osi Z, o staly kat wokol osi X
+// <dodatkowy_skret_os> to: add_rot_right dodaje staly obrot wokol osi X
+//                          add_rot_forward dodaje staly obrot wokol osi Z
+//                          add_rot_up dodaje staly obrot wokol osi Y
+// <dodatkowy_skret_rotacja> to stala wartosc (w stopniach) dodatkowego obrotu
+//
+// dodatkowe (stale) skrety mozna stosowac wiecej niz jeden, na przyklad na koncu linijki moze byc add_rot_right 15 add_rot_up 45 (w dowolnej kolejnosci), a moze nie byc zadnego
+//
+// przykladowo:
+// rotate right rpm 90 add_rot_up 45 - obraca attachment wokol osi X o 90 stopni/sek razy RPM (gdzie 1000 to 1), z dodatkowym stalym skrzywieniem wokol osi Y wynoszacym 45 stopni
+// albo
+// rotate forward turn 1 add_rot_right 15 - obraca pretem sterujacym kierownicy dokladnie o kat kierownicy, i przekrzywia go w osi X o 15 stopni
+
+
+
+
+rotate right rpm 20
+attachment prefabs\vehicles\harvester_old_MF41\rotating_drum_nocenter.X drum
+
+rotate right rpm -12
+attachment prefabs\vehicles\harvester_old_MF41\reel_1_nocenter.X reel1
+
+rotate right rpm 20
+attachment prefabs\vehicles\harvester_old_MF41\reel_2_nocenter.X reel2
+
+
+// dwa kola laczace belt1
+rotate right rpm 20
+attachment prefabs\vehicles\harvester_old_MF41\reel_3_nocenter.X reel3
+
+rotate right rpm 20
+attachment prefabs\vehicles\harvester_old_MF41\reel_4_nocenter.X reel4
+
+attachment prefabs\vehicles\harvester_old_MF41\belt_1_nocenter.X reel4
+
+
+
+// dwa kola laczace belt2
+rotate right rpm 30
+attachment prefabs\vehicles\harvester_old_MF41\reel_5_nocenter.X reel5
+
+rotate right rpm 30
+attachment prefabs\vehicles\harvester_old_MF41\reel_6_nocenter.X reel6
+
+attachment prefabs\vehicles\harvester_old_MF41\belt_2_nocenter.X reel5
+
+
+// dwa kola laczace belt3
+rotate right rpm 20
+attachment prefabs\vehicles\harvester_old_MF41\reel_7_nocenter.X reel7
+
+rotate right rpm 20
+attachment prefabs\vehicles\harvester_old_MF41\reel_8_nocenter.X reel8
+
+attachment prefabs\vehicles\harvester_old_MF41\belt_3_nocenter.X reel8
+
+
+
+
+
+// STEERING WHEEL
+steering_wheel prefabs\vehicles\harvester_old_MF41\steering_wheel_nocenter.X steering_wheel
+korekcja_kierownicy 20
+mnoznik_obrotu_kierownicy 3.1
+
+
+
+
+
+
+
+
+// WHEELS & MUDGUARDS
+front_wheel prefabs\vehicles\harvester_old_MF41\wheel_rear_left_nocenter.x wheel_rear_left
+front_wheel prefabs\vehicles\harvester_old_MF41\wheel_rear_right_nocenter.x wheel_rear_right
+wheel prefabs\vehicles\harvester_old_MF41\wheel_front_left_nocenter.x wheel_front_left
+wheel prefabs\vehicles\harvester_old_MF41\wheel_front_right_nocenter.x wheel_front_right
+
+
+
+// PISTONS
+piston prefabs\vehicles\harvester_old_MF41\piston1a_nocenter.X 0 p1a 2 p1b
+piston prefabs\vehicles\harvester_old_MF41\piston1b_nocenter.X 2 p1b 0 p1a
+
+piston prefabs\vehicles\harvester_old_MF41\piston2a_nocenter.X 0 p2a 2 p2b
+piston prefabs\vehicles\harvester_old_MF41\piston2b_nocenter.X 2 p2b 0 p2a
+
+
+
+
+// REAR ANIM FX
+// attachment_anim_fx <prefab> <socket> [<attachment do przyczepienia lub 0>] [<mnoznik predkosci przesuwu gibania - 1 domyslnie>] [<mnoznik gibania animacji - 1 domyslnie>] [<mnoznik predkosci przesuwu tekstury - 1 domyslnie>]
+attachment_anim_fx prefabs\vehicles\harvester_old_MF41\anim_dump_nocenter.X wysyp 0 1 0.5 4
+
+// PIPE ANIM FX
+// attachment_anim_grain_fx jest ekskluzywnie do wysypywania zboza z rur kombajnow
+attachment_anim_grain_fx prefabs\vehicles\harvester_old_MF41\anim_dump_pipe_nocenter.X anim_dump 1 0.2 1 0.4
+
+
+
+// LIGHTS
+
+attachment_light prefabs\vehicles\harvester_old_MF41\lamp1_nocenter.X light1
+attachment_name swiatlo_lp1
+swiatlo_przod lp1 1
+swiatlo_z swiatlo_lp1
+
+attachment_light prefabs\vehicles\harvester_old_MF41\lamp2_nocenter.X light2
+attachment_name swiatlo_lp2
+swiatlo_przod lp2 1
+swiatlo_z swiatlo_lp2
+
+attachment_light prefabs\vehicles\harvester_old_MF41\lamp3_nocenter.X light3
+attachment_name swiatlo_lp3
+swiatlo_przod lp3 1
+swiatlo_z swiatlo_lp3
+
+
+attachment_light prefabs\vehicles\harvester_old_MF41\lamp4_nocenter.X light4
+attachment_name swiatlo_lt1
+swiatlo_tyl lt1
+swiatlo_z swiatlo_lt1
+
+attachment_light prefabs\vehicles\harvester_old_MF41\lamp5_nocenter.X light5
+attachment_name swiatlo_lt2
+swiatlo_tyl lt2
+swiatlo_z swiatlo_lt2
+
+
+swiatlo_cofania lc1
+
+swiatlo_cofania lc2
+
+
+
+attachment_alarm_lamp prefabs\vehicles\harvester_old_MF41\signal_lamp_mirror_nocenter.X signal_lamp1
+
+
+
+
+
+
+
+// SOUNDS
+
+Sound_Gear_Up sfx\vehicles\gear_up.wav
+Sound_Gear_Down sfx\vehicles\gear_down.wav
+Sound_Speed_Up sfx\vehicles\speed_up.wav
+Sound_Speed_Down sfx\vehicles\speed_down.wav
+Sound_Direction_Forward sfx\vehicles\direction_forward.wav
+Sound_Direction_Back sfx\vehicles\direction_back.wav
+
+engine_start_sound sfx\vehicles\old_harvester_engine_start1.wav
+engine_stop_sound sfx\vehicles\old_harvester_engine_stop1.wav
+
+engine_frequency_add_during_wheel_spin 4000 
+
+engine_sound sfx\vehicles\old_harvester_engine_work1.wav
+engine_frequency_base 44100
+engine_frequency_change 10
+
+
+engine_sound2 sfx\vehicles\old_harvester_engine_idle1.wav
+engine_frequency_base2 45100
+engine_frequency_change2 100
+
+Wheel_Spin_Splash_Sound_Water sfx\vehicles\water_spin1.wav 3.3
+Wheel_Spin_Splash_Sound_Water sfx\vehicles\water_spin2.wav 2.8
+Wheel_Spin_Splash_Sound_Water sfx\vehicles\water_spin3.wav 4.2
+Wheel_Spin_Splash_Sound_Water sfx\vehicles\water_spin4.wav 3.8
+Wheel_Spin_Splash_Sound_Water sfx\vehicles\water_spin5.wav 3.3
+Wheel_Spin_Splash_Sound_Water sfx\vehicles\water_spin6.wav 2.2
+Wheel_Spin_Splash_Sound_Water sfx\vehicles\water_spin7.wav 3.8
+Wheel_Spin_Splash_Sound_Water sfx\vehicles\water_spin8.wav 4.2
+
+Wheel_Spin_Splash_Sound_Mud sfx\vehicles\mud_spin1.wav 1.9
+Wheel_Spin_Splash_Sound_Mud sfx\vehicles\mud_spin2.wav 2.5
+Wheel_Spin_Splash_Sound_Mud sfx\vehicles\mud_spin3.wav 1.8
+Wheel_Spin_Splash_Sound_Mud sfx\vehicles\mud_spin4.wav 2.5
+Wheel_Spin_Splash_Sound_Mud sfx\vehicles\mud_spin5.wav 1.9
+Wheel_Spin_Splash_Sound_Mud sfx\vehicles\mud_spin6.wav 2.5
+Wheel_Spin_Splash_Sound_Mud sfx\vehicles\mud_spin7.wav 1.8
+Wheel_Spin_Splash_Sound_Mud sfx\vehicles\mud_spin8.wav 2.5
+
+Wheel_Splash_Sound_Enter_Water sfx\vehicles\water_splash1.wav 4.1
+Wheel_Splash_Sound_Enter_Water sfx\vehicles\water_splash2.wav 4.5
+Wheel_Splash_Sound_Enter_Water sfx\vehicles\water_splash3.wav 3.6
+
+// sound_cmd1_on sfx\vehicles\combine_pipe1.wav
+// sound_cmd1_off sfx\vehicles\combine_pipe1.wav
+// sound_cmd2_on sfx\vehicles\combine_unloading.wav
+

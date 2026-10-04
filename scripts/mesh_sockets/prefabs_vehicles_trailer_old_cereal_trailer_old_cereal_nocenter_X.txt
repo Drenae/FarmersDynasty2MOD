@@ -1,0 +1,15 @@
+mesh_filename prefabs\vehicles\trailer_old_cereal\trailer_old_cereal_nocenter.x
+socket zaczep 0.000000 1.500000 0.850000
+socket trolley 0.000000 -2.130000 1.140000
+socket wheel_front_left -1.000000 1.500000 0.650000
+socket wheel_front_right 1.000000 1.500000 0.650000
+socket wheel_rear_left -1.000000 -1.700000 0.700000
+socket wheel_rear_right 1.000000 -1.700000 0.700000
+socket lt1 -0.510000 -2.150000 0.930000
+socket lt2 0.510000 -2.150000 0.930000
+socket lc1 0.400000 -2.150000 0.930000
+socket anim_dump 0.000000 -2.450000 1.540000
+socket spill_grain 0.000000 -2.700000 1.500000
+socket piston 0.000000 -0.200000 1.130000
+socket wheel_fake 0.000000 1.600000 0.100000
+socket zaczep_tyl 0.000000 -1.930000 0.900000

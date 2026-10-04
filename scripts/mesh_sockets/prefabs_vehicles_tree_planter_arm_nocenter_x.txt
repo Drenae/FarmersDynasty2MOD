@@ -1,0 +1,4 @@
+mesh_filename prefabs\vehicles\tree_planter\arm_nocenter.x
+socket digger -0.050000 1.180000 -0.680000
+socket needle 0.000000 0.600000 -0.100000
+socket rotor 0.040000 0.750000 0.100000

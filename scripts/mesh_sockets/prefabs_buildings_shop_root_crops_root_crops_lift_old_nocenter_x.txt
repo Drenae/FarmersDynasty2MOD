@@ -1,0 +1,2 @@
+mesh_filename prefabs\buildings\shop_root_crops\root_crops_lift_old_nocenter.x
+socket fx -1.000000 -1.500000 4.400000

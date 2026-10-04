@@ -1,0 +1,164 @@
+// Im wyzszy nr owocow tym ich wiecej (3 najwiecej)
+
+
+// cukinia
+tree >OR16
+price 1
+
+seedling_name >OR16a
+seedling greenhouse_zucchini_Seedling01_nocenter.X
+
+small_tree greenhouse_zucchini_middle01_nocenter.X
+
+przes_up -0.04
+
+grown_tree greenhouse_zucchini01_nocenter.X
+fruits_green greenhouse_zucchini01_veggies_green01_nocenter.X
+fruits_green greenhouse_zucchini01_veggies_green02_nocenter.X
+fruits_green greenhouse_zucchini01_veggies_green03_nocenter.X
+
+fruits greenhouse_zucchini01_veggies01_nocenter.X
+fruits greenhouse_zucchini01_veggies02_nocenter.X
+fruits greenhouse_zucchini01_veggies03_nocenter.X
+
+
+// pomidor
+tree >OR17
+price 1
+
+przes_up -0.1
+
+seedling_name >OR17a
+seedling greenhouse_tomato_seedling01_nocenter.X
+
+small_tree greenhouse_tomato_middle01_nocenter.X
+
+grown_tree greenhouse_tomato01_nocenter.X
+fruits_green greenhouse_tomato01_veggies_green01_nocenter.X
+fruits_green greenhouse_tomato01_veggies_green02_nocenter.X
+fruits_green greenhouse_tomato01_veggies_green03_nocenter.X
+
+fruits greenhouse_tomato01_veggies01_nocenter.X
+fruits greenhouse_tomato01_veggies02_nocenter.X
+fruits greenhouse_tomato01_veggies03_nocenter.X
+
+
+// dynia
+tree >OR18
+price 1
+
+seedling_name >OR18a
+seedling greenhouse_pumpkin_Seedling01_nocenter.X
+
+small_tree greenhouse_pumpkin_middle01_nocenter.X
+
+grown_tree greenhouse_pumpkin01_nocenter.X
+fruits_green greenhouse_pumpkin01_veggies_green01_nocenter.X
+fruits_green greenhouse_pumpkin01_veggies_green02_nocenter.X
+fruits_green greenhouse_pumpkin01_veggies_green03_nocenter.X
+
+fruits greenhouse_pumpkin01_veggies01_nocenter.X
+fruits greenhouse_pumpkin01_veggies02_nocenter.X
+fruits greenhouse_pumpkin01_veggies03_nocenter.X
+
+
+//paprika
+tree >AT417
+price 1
+
+przes_up -0.2
+
+seedling_name >AT418
+seedling greenhouse_paprika_Seedling01_nocenter.X
+
+small_tree greenhouse_paprika_middle01_nocenter.X
+
+grown_tree greenhouse_paprika01_nocenter.X
+fruits_green greenhouse_paprika01_veggies_green01_nocenter.X
+fruits_green greenhouse_paprika01_veggies_green02_nocenter.X
+fruits_green greenhouse_paprika01_veggies_green03_nocenter.X
+
+fruits greenhouse_paprika01_veggies01_nocenter.X
+fruits greenhouse_paprika01_veggies02_nocenter.X
+fruits greenhouse_paprika01_veggies03_nocenter.X
+
+
+//cucumber
+tree >AT421
+price 1
+
+przes_up -0.2
+
+
+seedling_name >AT422
+seedling greenhouse_cucumber_Seedling01_nocenter.X
+
+small_tree greenhouse_cucumber_middle01_nocenter.X
+
+grown_tree greenhouse_cucumber01_nocenter.X
+fruits_green greenhouse_cucumber01_veggies_green01_nocenter.X
+fruits_green greenhouse_cucumber01_veggies_green02_nocenter.X
+fruits_green greenhouse_cucumber01_veggies_green03_nocenter.X
+
+fruits greenhouse_cucumber01_veggies01_nocenter.X
+fruits greenhouse_cucumber01_veggies02_nocenter.X
+fruits greenhouse_cucumber01_veggies03_nocenter.X
+
+
+// bazylia
+tree >AT903
+price 1
+fruitless
+
+seedling_name >AT904
+seedling basil01_nocenter.X
+small_tree basil02_nocenter.X
+grown_tree basil03g_nocenter.X
+grown_tree_red basil04r_nocenter.X
+
+
+// salata
+tree >AT905
+price 1
+fruitless
+
+przes_up 0.1
+
+seedling_name >AT906
+seedling lettuce01_nocenter.X
+small_tree lettuce02_nocenter.X
+grown_tree lettuce03g_nocenter.X
+grown_tree_red lettuce04r_nocenter.X
+
+
+// pietruszka
+tree >AT907
+price 1
+fruitless
+
+seedling_name >AT908
+seedling parsley01_nocenter.X
+small_tree parsley02_nocenter.X
+grown_tree parsley03g_nocenter.X
+grown_tree_red parsley04r_nocenter.X
+
+
+//chili
+tree >AT423
+price 1
+
+przes_up -0.2
+
+seedling_name >AT424
+seedling greenhouse_chilli_Seedling01_nocenter.X
+
+small_tree greenhouse_chilli_middle01_nocenter.X
+
+grown_tree greenhouse_chilli01_nocenter.X
+fruits_green greenhouse_chilli01_veggies_green01_nocenter.X
+fruits_green greenhouse_chilli01_veggies_green02_nocenter.X
+fruits_green greenhouse_chilli01_veggies_green03_nocenter.X
+
+fruits greenhouse_chilli01_veggies01_nocenter.X
+fruits greenhouse_chilli01_veggies02_nocenter.X
+fruits greenhouse_chilli01_veggies03_nocenter.X

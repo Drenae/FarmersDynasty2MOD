@@ -1,0 +1,327 @@
+Reading lockit from GameText.dat
+Farmer's Dynasty 2. ver. 0.51.05, 2026 09 22
+ 
+ETextMgr::LoadLockit inside
+Language #0: English
+Language #1: German
+Language #2: Polish
+Language #3: French
+Language #4: Spanish
+Language #5: Simplified Chinese
+Language #6: Japanese
+Language #7: Italian
+Language #8: Brazilian Portuguese
+Language #9: Russian
+Language #10: Turkish
+Language #11: Korean
+...
+exit ETextMgr::LoadLockit, allocated: 2615578
+ 
+SetLanguage to 3 == French
+After GenericPreSetup
+HOBJECT data size == 56 409 600 
+CreateWindow 1920 x 1080
+STORE_STEAM compilation
+STORE_STEAM init ok, client game language is english
+ClientRect == 1920 x 1080
+FULL SCREEN
+DesktopX == 1920, DesktopY == 1080
+MonitorX == 1920, MonitorY == 1080
+Scanning adapters.
+DedicatedVideoMemory read: 5966
+  Available adapter: NVIDIA GeForce GTX 1660 SUPER, dedicated memory: 5966 MB.
+  EnumOutputs OK
+  * Setting as a candidate!
+DedicatedVideoMemory read: 0
+  Available adapter: Microsoft Basic Render Driver, dedicated memory: 0 MB.
+Selected adapter #0: NVIDIA GeForce GTX 1660 SUPER
+  Available modes: 47
+Adding resolution 1024x768
+Adding resolution 1152x864
+Adding resolution 1280x720
+Adding resolution 1280x768
+Adding resolution 1280x800
+Adding resolution 1280x960
+Adding resolution 1280x1024
+Adding resolution 1360x768
+Adding resolution 1366x768
+Adding resolution 1440x900
+Adding resolution 1440x1080
+Adding resolution 1600x900
+Adding resolution 1600x1024
+Adding resolution 1680x1050
+Adding resolution 1920x1080
+Video settings loaded, looking for remembered resolution.
+Selected adapter #0: NVIDIA GeForce GTX 1660 SUPER
+Creating screen 1920 x 1080
+B4 D3D11CreateDeviceAndSwapChain
+D3D11CreateDeviceAndSwapChain OK.
+  GetDesc OK, VRAM == 5966 MB
+Device created OK
+D3DMain Init Device time == 0.000000
+DirectInput detected XInput device, ignoring!
+MpvPlayer created OK
+MpvPlayer init OK
+Internet radio stations read: 6
+Radio station #0 name: Truck Stop Radio
+Radio station #1 name: Simulator Radio
+Radio station #2 name: Radio Truckers FM
+Radio station #3 name: Big Rig FM
+Radio station #4 name: Radio Hyperion
+Radio station #5 name: UpBeat Radio
+FixBuildingParts read: 9
+Greenhouse tables read: 7
+ProjShadows resources init OK
+Vehicle spawners read: 84
+Scaffold defs read: 7
+m_dwActorsCreation read: 200
+SkillMgr skills read: 87
+SkillMgr classes read: 9
+  indexed skills: 87
+CSaveMgr::Load() not auto save
+C:\Users\fande\AppData\Roaming\Farm2\save\save0.sav
+Loading C:\Users\fande\AppData\Roaming\Farm2\save\save0.sav
+Item descriptions read: 177
+Clearing Action.m_bBuildingsFixed
+****
+maps\map1.map - world read OK
+Czytam dane terenu
+C:\Users\fande\AppData\Roaming\Farm2\save\save0.fld
+EEnv::CreateRenderTargets exit OK
+Dni w roku == 365
+Food recipes read: 29, classes 5
+Registered treasure chests: 44
+Treasure chests found: 44
+Furniture defs read: 153
+Total item defs: 330
+World fires registered: 14
+Registering sawmill heated dryer shelf_dryer4, sockets: 12
+Registering sawmill heated dryer shelf_dryer2, sockets: 12
+Registering sawmill heated dryer shelf_dryer3, sockets: 12
+Registering sawmill heated dryer shelf_dryer1, sockets: 12
+Registering sawmill open air dryer shelf1, sockets: 18
+Registering sawmill heated dryer shelf_dryer8, sockets: 12
+Registering sawmill heated dryer shelf_dryer6, sockets: 12
+Registering sawmill heated dryer shelf_dryer7, sockets: 12
+Registering sawmill heated dryer shelf_dryer5, sockets: 12
+Registering sawmill open air dryer shelf3, sockets: 18
+Registering sawmill open air dryer shelf5, sockets: 18
+Registering sawmill open air dryer shelf6, sockets: 18
+Registering sawmill open air dryer shelf8, sockets: 18
+Registering sawmill open air dryer shelf7, sockets: 18
+Registering sawmill open air dryer shelf2, sockets: 18
+Registering sawmill open air dryer shelf4, sockets: 18
+Sawmill dryers registered: 16
+CBuildingMgr::CreateMarkers m_dwM == 265
+Reading material_defs
+Material_defs read ok
+m_dwRepairSources == 123
+CSunRays::CreateResources exit OK
+Created actors: 200
+CHeroObjects::OnEnterWorld()
+Registered keep_warm: 46
+sizeof(m_Inventory) == 16 096 
+Worker markers found: 204
+Created wild plants: 2795
+NO texture path for wood_e.dds
+Debarked defs read: 6
+  MainGame OnEnterWorld exit
+ERenderMesh::CreateRenderTargets() OK
+***
+EPhysics::Load()
+TworzDaneLogow for TrailStar Tronc10 found log storages: 16
+EPGroundMgr::Load0
+exit EPGroundMgr::Load0
+CGreenhouse::Load m_dwPlanterLoad == 1124
+CQuestSystem::Load
+exit CQuestSystem::Load
+Global Time Speed read as 1.000000
+exit CMaterials::Load
+CTreesMgr::Load
+Read m_dwCutTrees: 0
+CTreesMgr::Load ok
+C:\Users\fande\AppData\Roaming\Farm2\save\save0.trn
+exiting ETerrain::Load OK
+C:\Users\fande\AppData\Roaming\Farm2\save\save0.grd
+ETerrain::LoadGardening C:\Users\fande\AppData\Roaming\Farm2\save\save0.grd
+C:\Users\fande\AppData\Roaming\Farm2\save\save0.gr1
+Gardening loaded ok
+C:\Users\fande\AppData\Roaming\Farm2\save\save0.ske
+C:\Users\fande\AppData\Roaming\Farm2\save\save0.mts
+LoadMaterialSources C:\Users\fande\AppData\Roaming\Farm2\save\save0.mts
+Fireplace load: 14, synced 14
+NOT loading treasure chest data, no data in file.
+Loading WildPlants data
+Loading Furniture data
+Loading scarecrows and apples
+After loading scarecrows
+CWildApple::LoadOld
+After loading old apples
+Loading bee hives
+After loading beehives
+Loading events
+After loading events
+NOT Loading m_bIngameDirectionPointer - no data in file
+Loading moving meshes
+Loading GameAI
+Loading MoveTo
+Loading Planted Trees
+Loading awaiting planks
+Loading furniture factory current production
+Loading single furniture pieces
+Old era furniture loaded: 1086
+Modern era furniture loaded: 1086
+Blueprints read: 10
+Loading ChestMgr treasure data
+Loading cat love
+Loading non building mesh colors
+Loading randki
+Loading achievements
+Loading Custom Color Table
+Loading OM Remember Deleted
+LoadRememberDeleted read 16, synced 16
+Loading PAutoMap question marks
+CPautoMap::Load m_dwDiscovered == 4
+Resort discovered
+Po przesortowaniu m_dwDiscovered == 4
+Loading skills
+Loading new apples
+CWildApple::LoadNew
+After loading new apples
+exit EPGroundMgr::Load1
+Loading QChapters
+After loading QChapters
+Loading remaining action objects
+CAction::LoadRemainingActionObjects
+After loading remaining action objects
+Loading players fridges and wardrobes
+After loading remaining fridges and wardrobes
+Loading players washing machines
+After loading remaining washing mashines
+Loading player cooked dishes
+After loading player cooked dishes
+Loading hired workers
+CWorkers::Load
+After loading workers
+Loading internet radio data
+After loading internet radio data
+C:\Users\fande\AppData\Roaming\Farm2\save\save0.lgs
+CTreesMgr::LoadAllLogs
+TreesMgr logs read: 0
+CTreesMgr::LoadAllLogs ok
+Saved game loaded.
+Loading time: 0.000000
+exit CSaveMgr::Load()
+ETerrain::CreateHeightRenderTexture() exit OK
+C:\Users\fande\AppData\Roaming\Farm2\save\save0.blk
+Czytam plik C:\Users\fande\AppData\Roaming\Farm2\save\save0.blk dlugosc wyglada ok: 21641103
+CBuildingMgr::LoadWorldBlk C:\Users\fande\AppData\Roaming\Farm2\save\save0.blk
+Debug CuildingMgr krok petli, czytam dane dla markera neighbor_greenhouse_027d
+PostprocessWielokrotneMeshe deleted 0 repeated meshes
+CGreenhouse::RegisterAllTables()
+CGreenhouse::RegisterAllTables m_dwTables == 281 m_dwPlanter == 1124
+Dodaje attachment physics dla prefabs\vehicles\mower_sidecutter_old\mower_sidecutter_old_nocenter.x w side
+CGreenhouse::SynchronizePlanterLoad
+Planters to synchronize: 1124
+Setting era to 0
+Planters synchronised properly: 1124
+CPastwiska created markers: 28
+FAILED to LoadGrowSnow from maps\map1.map.snw
+Allocated m_pGrowSnow: 16 008 001  bytes
+CreateGrowSnow time == 0.000000
+Food recipes flawless, no errors.
+CBuyableFarmMgr::CreateFarmsFromBeziers()
+ETerrain::CzytajTAFromFiles
+*** CFurniture::DeleteWorldFurnitureObjects() deleted world objects: 7
+PostLoadUpdate, m_dwTrucks == 39
+CQuestSystem::First update po load game
+Dodaje attachment physics dla prefabs\vehicles\mower_sidecutter_old\mower_sidecutter_old_nocenter.x w side
+CreateDog
+Dog found in the world
+*** PMgr num characters: 201
+*** total num skinmeshes: 825
+m_hGraczDoRenderu stworzony, wychodze w klatce: 1437
+Mam dwuklik na Manteau d'hiver
+SetLastUsedIdxTo 3
+  dwLastUsedIdx set to oldclothing1
+SetLastUsedIdxTo 11
+  dwLastUsedIdx set to repair
+Ambient track: music\ambient_day1_60s.ogg
+CMusic::Play() music\ambient_day1_60s.ogg
+SetLastUsedIdxTo 7
+  dwLastUsedIdx set to cookpot
+SetLastUsedIdxTo 11
+  dwLastUsedIdx set to repair
+Ambient track: music\ambient_day2_60s.ogg
+CMusic::Play() music\ambient_day2_60s.ogg
+Ambient track: music\ambient_day4_60s.ogg
+CMusic::Play() music\ambient_day4_60s.ogg
+Ambient track: music\ambient_day1_60s.ogg
+CMusic::Play() music\ambient_day1_60s.ogg
+UpdateFootstepSound Not hit 29408
+Ambient track: music\ambient_day4_60s.ogg
+CMusic::Play() music\ambient_day4_60s.ogg
+Ambient track: music\ambient_day3_60s.ogg
+CMusic::Play() music\ambient_day3_60s.ogg
+SetLastUsedIdxTo 11
+  dwLastUsedIdx set to repair
+UpdateFootstepSound Not hit 48757
+CPautoMap::CreateRT width == 1024, height == 1024
+exiting pad menu - M detected!
+Action.CreateHeroModel
+Create hero model ok
+Ambient track: music\ambient_day1_60s.ogg
+CMusic::Play() music\ambient_day1_60s.ogg
+Delete hero model ok
+SetLastUsedIdxTo 11
+  dwLastUsedIdx set to repair
+SetLastUsedIdxTo 5
+  dwLastUsedIdx set to axe
+SetLastUsedIdxTo 5
+  dwLastUsedIdx set to axe
+SetLastUsedIdxTo 7
+  dwLastUsedIdx set to cookpot
+SetLastUsedIdxTo 11
+  dwLastUsedIdx set to repair
+Ambient track: music\ambient_day3_60s.ogg
+CMusic::Play() music\ambient_day3_60s.ogg
+SetLastUsedIdxTo 7
+  dwLastUsedIdx set to cookpot
+Action.CreateHeroModel
+Create hero model ok
+Delete hero model ok
+CSaveMgr::Save() 69673
+Ok, jest DoSave()
+CSaveMgr::DoSave m_bDuringAutoSave == FALSE
+C:\Users\fande\AppData\Roaming\Farm2\save\save0.sav
+C:\Users\fande\AppData\Roaming\Farm2\save\save0.fld
+CGreenhouse::Save planters 1124
+C:\Users\fande\AppData\Roaming\Farm2\save\save0.trn
+C:\Users\fande\AppData\Roaming\Farm2\save\save0.grd
+ETerrain::SaveGardening OLD ERA C:\Users\fande\AppData\Roaming\Farm2\save\save0.grd
+C:\Users\fande\AppData\Roaming\Farm2\save\save0.gr1
+ETerrain::SaveGardening MODERN ERA C:\Users\fande\AppData\Roaming\Farm2\save\save0.gr1
+C:\Users\fande\AppData\Roaming\Farm2\save\save0.ske
+C:\Users\fande\AppData\Roaming\Farm2\save\save0.fld
+C:\Users\fande\AppData\Roaming\Farm2\save\save0.blk
+plik C:\Users\fande\AppData\Roaming\Farm2\save\save_tmp.blk wyglada na prawidlowy, dlugosc == 21641297
+C:\Users\fande\AppData\Roaming\Farm2\save\save0.mts
+SaveMaterialSources C:\Users\fande\AppData\Roaming\Farm2\save\save0.mts
+Fireplace saved: 14, world: 14
+CTreesMgr::SavePlantedTrees ok
+SaveRememberDeleted zapisal 198
+C:\Users\fande\AppData\Roaming\Farm2\save\save0.lgs
+TreesMgr logs saved: 0
+before SoundMgr.ReleaseCache()
+*** EEngine::OnExitWorld
+EObjectMgr::DeleteVB
+Deleted PGroundMgr m_pVB 0
+Deleted PGroundMgr m_pVB 1
+EEnv::DeleteRenderTargets exit OK
+before Renderer.OnExitWorld()
+before SoundMgr.DeleteAllSounds()
+before PAutoMap.OnExitWorld()
+*** EEngine::OnExitWorld ok
+MpvPlayer destroyed OK
+ 
+Farmer's Dynasty 2 exit clean.

@@ -1,0 +1,46 @@
+
+//
+// Dialog z ariana
+//
+
+// dzien dobry, fagas mnie zaczepia, pszczola mi zdechla, dzieki za mjut, masz kawe, idz do nathana, 
+// jak masz wincyj miodu to kupie od cb za fajne pienionszki
+hero_dialog ariana1_dialog1
+actor DLQ05L01
+hero DLQ05L02
+actor DLQ05L03
+hero DLQ05L04
+actor DLQ05L05
+hero DLQ05L06
+actor DLQ05L07
+actor DLQ05L08
+hero DLQ05L09
+actor DLQ05L10
+hero DLQ05L11
+actor DLQ05L12
+hero DLQ05L13
+actor DLQ05L14
+hero DLQ05L15
+actor DLQ05L16
+hero DLQ05L17
+actor DLQ05L18
+hero DLQ05L19
+actor DLQ05L20
+hero DLQ05L21
+actor DLQ05L22
+hero DLQ05L23
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

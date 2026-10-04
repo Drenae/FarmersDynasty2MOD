@@ -1,0 +1,32 @@
+actor deer02
+
+default_phase lezy
+model prefabs\models\animals\deer02\deer02.X
+animal
+
+skinmesh_attachment 0 prefabs\models\clothes\empty_layer.X
+skinmesh_attachment 1 prefabs\models\clothes\empty_layer.X
+skinmesh_attachment 2 prefabs\models\clothes\empty_layer.X
+skinmesh_attachment 3 prefabs\models\clothes\empty_layer.X
+
+
+// anim
+
+phase lezy
+animation deer02_lezy
+on_end lezy
+
+
+phase idle
+animation deer02_idle1
+animation deer02_idle2
+animation deer02_idle3
+on_end idle
+
+phase walk
+animation deer02_walk
+on_end walk
+
+phase run
+animation deer02_run
+on_end run

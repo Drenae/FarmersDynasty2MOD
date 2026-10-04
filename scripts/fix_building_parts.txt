@@ -1,0 +1,18 @@
+//
+// skrypt opisuje czesci budynkow ktore automatycznie sie naprawia
+// chodzi na przyklad o podlogi z socketami poza zasiegiem gracza w konkretnych markerach building
+//
+// skladnia:
+// <nazwa_markera_building> <path\mesh_do_podmiany.x>, <path\mesh_na_ktory_podmienic.x>
+//
+
+
+neighbor_house_007 prefabs\buildings\playerhouse_old\hs_wood_old_stairs_handrail_1_9_nocenter.x prefabs\buildings\playerhouse_old\hs_wood_fixed_stairs_handrail_1_9_nocenter.x
+neighbor_house_016 prefabs\buildings\playerhouse_old\hs_wood_old_stairs_handrail_1_9_nocenter.x prefabs\buildings\playerhouse_old\hs_wood_fixed_stairs_handrail_1_9_nocenter.x
+neighbor_garage_1303 prefabs\objects\fences\pl_wood_fixed_fence2_1_1_nocenter.x prefabs\buildings\furniture\stove_decal_nocenter.x
+neighbor_garage_1303 prefabs\buildings\garages\ga_concrete_old_innerwall_front_1_2_nocenter.x prefabs\buildings\garages\ga_concrete_fixed_innerwall_front_1_2_nocenter.x
+neighbor_garage_1303 prefabs\buildings\garages\ga_concrete_old_innerwall_front_2_2_nocenter.x prefabs\buildings\garages\ga_concrete_fixed_innerwall_front_2_2_nocenter.x
+neighbor_barn_023 prefabs\buildings\barns\bn_brick_old_wall_down_corner_1_2_nocenter.x prefabs\buildings\barns\bn_brick_old_wall_down_corner_inner_1_2_nocenter.x
+neighbor_barn_023 prefabs\Buildings\barns\bn_wood_old_pylon_1_2_nocenter.X prefabs\Buildings\barns\bn_wood_old_pylon_1_3_nocenter.X
+neighbor_garage_023 prefabs\buildings\garages\ga_concrete_old_innerwall_front_1_2_nocenter.x prefabs\buildings\garages\ga_concrete_fixed_innerwall_front_1_2_nocenter.x
+neighbor_garage_023 prefabs\buildings\garages\ga_concrete_old_innerwall_front_2_2_nocenter.x prefabs\buildings\garages\ga_concrete_fixed_innerwall_front_2_2_nocenter.x

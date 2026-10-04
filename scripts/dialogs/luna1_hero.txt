@@ -1,0 +1,65 @@
+//
+//Dialog z luna
+//
+
+//A touch of time
+//elo co tam, człowiek pomóż zbierz zboże i sprzedaj w młynie
+hero_dialog luna1_dialog1
+hero DLQ17L01
+actor DLQ17L02
+hero DLQ17L03
+actor DLQ17L04
+hero DLQ17L05
+actor DLQ17L06
+hero DLQ17L07
+actor DLQ17L08
+hero DLQ17L09
+actor DLQ17L10
+hero DLQ17L11
+actor DLQ17L12
+actor DLQ17L13
+hero DLQ17L14
+actor DLQ17L15
+actor DLQ17L16
+hero DLQ17L17
+actor DLQ17L18
+
+
+
+//ogarnięte masz tu mąkę i haj$y, dzieki ziomuś teraz cyk i umiesz w spanko
+hero_dialog luna1_dialog2
+hero DLQ17L19
+actor DLQ17L20
+actor DLQ17L21
+hero DLQ17L22
+actor DLQ17L23
+hero DLQ17L24
+actor DLQ17L25
+hero DLQ17L26
+actor DLQ17L27
+hero DLQ17L28
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

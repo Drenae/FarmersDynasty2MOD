@@ -1,0 +1,5 @@
+// plik opisuje substytuty dla nodesow dla animacji
+// przydatne, gdy mieszamy animacje z roznych szkieletow
+// i na przyklad nodesy oczu maja inna nazwe dla meskich a inna dla zenskich
+
+// eyes eyelashes

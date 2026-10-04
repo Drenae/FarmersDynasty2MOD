@@ -1,0 +1,193 @@
+Vehicle >beets_harvester
+prefab prefabs\vehicles\beets_harvester\beets_harvester_nocenter.x
+Mass 800.0
+Stiffness 10
+
+spawn_id 73
+
+tag >MT51
+
+
+renew_and_paint
+color 0.46 0.46 0.50
+
+
+przyczepa
+potatoes_harvester
+beets_only
+price 65000
+grain_capacity 7000
+
+
+// stosowac gdy kolka sie kreca i dziala zlozona zamiast rozlozonej
+reverse_fold_panel_info
+reverse_fold
+
+
+
+
+// COLLISION MESH
+
+// pScaleY
+mnoznik_fizyki_y 1.3
+// pScaleZ
+mnoznik_fizyki_z 0.78
+// pScaleX
+mnoznik_fizyki_x 0.8
+
+// pTransY
+przesuniecie_fizyki_gora 1.7
+// pTransZ
+przesuniecie_fizyki_przod -0.43
+// pTransX
+przesuniecie_fizyki_prawo 0.15
+
+
+// HOOKS
+hak zaczep
+pto pto
+
+
+
+// ANIMATIONS
+// animacja tekstury w osi v podczas koszenia (cmd0)
+// move_on_operate <nr_attachmentu_lub_0> <nr_subsetu_liczac_od_0> <Mnoznik_Predkosci_default_1.0>
+move_on_operate 0 3 -80
+move_on_operate 0 4 4
+move_on_operate 9 0 -5
+move_on_operate 11 0 -1
+move_on_operate 12 0 -1
+move_on_operate 14 1 -5
+
+
+
+
+
+
+
+// animacja tekstury w osi v podczas wysypywania (cmd0)
+// move_on_unload <nr_attachmentu_lub_0> <nr_subsetu_liczac_od_0> <Mnoznik_Predkosci_default_1.0>
+move_on_unload 1 2 -80
+move_on_unload 10 0 -1
+move_on_unload 13 0 -1
+move_on_unload 15 0 -80
+
+
+// LIFT/TRANSPORTER (1)
+rotate_cmd4 1.9 0.12 Z
+attachment prefabs\vehicles\beets_harvester\transporter_nocenter.x transporter
+
+
+
+
+// REELS
+
+// reel1 (2)
+rotate_cmd3 6
+attachment prefabs\vehicles\beets_harvester\reel1_nocenter.x reel1
+
+// reel2 (3)
+rotate_cmd3 6
+attachment prefabs\vehicles\beets_harvester\reel2_nocenter.x reel2
+
+// reel2a (4)
+rotate_cmd3 6
+attachment prefabs\vehicles\beets_harvester\reel2_nocenter.x reel2a
+
+// reel2b (5)
+rotate_cmd3 6
+attachment prefabs\vehicles\beets_harvester\reel2_nocenter.x reel2b
+
+// reel2c (6)
+rotate_cmd3 6
+attachment prefabs\vehicles\beets_harvester\reel2_nocenter.x reel2c
+
+// reel3 (7)
+rotate_cmd3 6
+attachment prefabs\vehicles\beets_harvester\reel3_nocenter.x reel3
+
+// reel4 (8)
+rotate_cmd3 6
+attachment prefabs\vehicles\beets_harvester\reel4_nocenter.x reel4
+
+
+
+
+
+// BEETS
+// (9)
+hide_if_empty
+attachment prefabs\vehicles\beets_harvester\beets1_nocenter.x beets1
+
+// (10)
+hide_if_empty
+attachment prefabs\vehicles\beets_harvester\beets2_nocenter.x beets2 1
+
+// (11)
+hide_if_empty
+attachment prefabs\vehicles\beets_harvester\beets3_nocenter.x beets3
+
+// (12)
+hide_if_empty
+attachment prefabs\vehicles\beets_harvester\beets4_nocenter.x beets4
+
+// (13)
+hide_if_empty
+attachment prefabs\vehicles\beets_harvester\beets5_nocenter.x beets5
+
+
+
+// beets bin (14)
+mnoznik_skali_ladunku 1.0
+// mnoznik_skali_ladunku_x 18000
+// mnoznik_skali_ladunku_z 18000
+attachment_zboze prefabs\vehicles\beets_harvester\beets_nocenter.x beets
+
+
+// conveyor (15)
+attachment prefabs\vehicles\beets_harvester\conveyor_nocenter.x conv
+
+
+
+
+// WHEELS
+// prefab_kola socket_kola promien_kola podniesienie_osi_kola
+
+wheel_invisible prefabs\vehicles\beets_harvester\wheel_left_nocenter.x wheel_front
+wheel prefabs\vehicles\beets_harvester\wheel_left_nocenter.x wheel_left
+wheel prefabs\vehicles\beets_harvester\wheel_right_nocenter.x wheel_right
+
+
+
+
+// PISTONS
+// piston <prefab> <nr_attachmentu> <socket> <nr_attachmentu_docelowego> <socket_docelowy>
+piston prefabs\vehicles\beets_harvester\p2_nocenter.x 0 p1 1 p2
+piston prefabs\vehicles\beets_harvester\p1_nocenter.x 1 p2 0 p1
+piston prefabs\vehicles\beets_harvester\p2_nocenter.x 0 p3 1 p4
+piston prefabs\vehicles\beets_harvester\p1_nocenter.x 1 p4 0 p3
+
+
+
+
+// LIGHTS
+
+attachment_light prefabs\vehicles\beets_harvester\lamp1_nocenter.x light1
+attachment_name swiatlo_lt1
+swiatlo_tyl lt1
+swiatlo_z swiatlo_lt1
+
+attachment_light prefabs\vehicles\beets_harvester\lamp2_nocenter.x light2
+attachment_name swiatlo_lt2
+swiatlo_cofania lt2
+swiatlo_z swiatlo_lt2
+
+attachment_light prefabs\vehicles\beets_harvester\lamp3_nocenter.x light3
+attachment_name swiatlo_lc1
+swiatlo_cofania lc1
+swiatlo_z swiatlo_lc1
+
+
+
+// SOUNDS
+working_sound sfx\vehicles\haybaler2.wav

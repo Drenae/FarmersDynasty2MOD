@@ -1,0 +1,236 @@
+// date4
+//w kawiarni za mostem
+
+// actors
+
+// 0 - hero
+actor 0 prefabs\models\hero2\hero2.X actor_hero
+clothing 0 prefabs\models\clothes\Man\class0_boots\m_slips_on_001.X
+clothing 1 prefabs\models\clothes\Man\class1_pants\m_slacks_001.X
+clothing 2 prefabs\models\clothes\Man\class2_shirts\m_sweater_layered_001.X
+
+// 1 - woman
+actor 1 prefabs\models\w1\w1.X actor_woman
+clothing 0 prefabs\models\clothes\Woman\class0_boots\w_short_cowboy_boots.X
+// clothing 1 prefabs\models\clothes\Woman\class1_pants\w_jeans_001.X
+clothing 2 prefabs\models\clothes\Woman\class2_shirts\w_long_dress_red.X
+
+hair prefabs\attachments\w_hair_001_nocenter.X hair
+
+
+
+// environmental items
+
+// 2 - table
+actor 2 prefabs\buildings\shop_coffee_bar\bar_table2_nocenter.x actor_date6_table1
+
+// 3 - chair1
+actor 3 prefabs\buildings\shop_coffee_bar\bar_chair_nocenter.x actor_date6_chair1
+
+// 4 - chair2
+actor 4 prefabs\buildings\shop_coffee_bar\bar_chair_nocenter.x actor_date6_chair2
+
+
+
+
+
+// ------------------- intro
+
+cut 0
+
+hour 17
+black
+time 0.9
+
+actor_pos 2 date6_table1
+actor_look_at 2 date6_chair1_look_at
+
+actor_pos 3 date6_chair1
+actor_look_at 3 date6_chair1_look_at
+
+actor_pos 4 date6_chair2
+actor_look_at 4 date6_chair2_look_at
+
+
+
+cut 1
+// They meet on site.
+// My old friend is the chef here, he will prepare us something special, regional.
+
+
+fade_in 0.7
+time 9
+
+hero DLD06L01
+text DLD06L01
+
+
+camera_pos date6_cam00
+camera_move_to date6_cam00_target 0.17
+camera_look_at date6_cam00_look_at
+
+actor_pos 0 date6_h_pos01
+animation 0 h_date6_sit1
+actor_look_at 0 date6_h_pos00_look_at
+
+actor_pos 1 date6_w_pos01
+animation 1 w_date6_sit2
+actor_look_at 1 date6_w_pos01_look_at
+
+
+
+
+cut 2
+// talking together
+// I'm open to new experiences, I hope it will be delicious.
+
+
+fade_in 0.9
+time 7
+
+actor DLD06L02
+text DLD06L02
+
+
+camera_pos date6_cam01
+camera_move_to date6_cam01_target 0.05
+camera_look_at date6_cam01_look_at
+
+actor_pos 0 date6_h_pos01
+animation 0 h_date6_sit2
+actor_look_at 0 date6_h_pos00_look_at
+
+actor_pos 1 date6_w_pos01
+animation 1 w_date6_sit1
+actor_look_at 1 date6_w_pos01_look_at
+
+
+
+
+
+
+
+cut 3
+// later 
+black
+time 1.0
+
+
+
+
+
+
+// ------------------- dialogues
+
+
+cut 4
+// both
+// shots of both
+
+fade_in 0.7
+time 4
+fov 0.5
+
+camera_pos date6_cam02
+camera_look_at date6_cam02_look_at
+
+actor_pos 0 date6_h_pos01
+animation 0 h_date6_speak_listen
+actor_look_at 0 date6_h_pos00_look_at
+
+actor_pos 1 date6_w_pos01
+animation 1 w_date6_speak_listen
+actor_look_at 1 date6_w_pos01_look_at
+
+
+
+cut 6
+// both
+// shot from behind the woman
+
+fade_in 0.7
+time 4
+
+camera_pos date6_cam03
+camera_look_at date6_cam03_look_at
+
+actor_pos 0 date6_h_pos01
+animation 0 h_date6_speak_listen
+actor_look_at 0 date6_h_pos00_look_at
+
+actor_pos 1 date6_w_pos01
+animation 1 w_date6_speak_listen
+actor_look_at 1 date6_w_pos01_look_at
+
+
+
+
+cut 7
+// both
+// shot from behind the hero
+
+fade_in 0.7
+time 4
+
+camera_pos date6_cam04
+camera_look_at date6_cam04_look_at
+
+actor_pos 0 date6_h_pos01
+animation 0 h_date6_speak_listen
+actor_look_at 0 date6_h_pos00_look_at
+
+actor_pos 1 date6_w_pos01
+animation 1 w_date6_speak_listen
+actor_look_at 1 date6_w_pos01_look_at
+
+
+
+
+
+// ------------------- end
+
+
+cut 8
+black
+time 0.75
+
+
+
+cut 9
+// they leave the date
+// It was an excellent dish, thank you for a great evening.
+
+fade_in 0.7
+time 8.0
+
+actor DLD06L03
+text DLD06L03
+
+camera_pos date6_cam05
+camera_move_to date6_cam05_target 0.3
+camera_look_at date6_cam05_look_at
+
+actor_pos 0 date6_h_pos01
+animation 0 h_date6_sit1
+actor_look_at 0 date6_h_pos00_look_at
+
+actor_pos 1 date6_w_pos01
+animation 1 w_date6_sit1
+actor_look_at 1 date6_w_pos01_look_at
+
+
+
+
+
+cut end
+fade_out 0.2
+time 0.2
+
+
+cut end_black
+black
+time 2.2
+
+
+
+

@@ -1,0 +1,102 @@
+Vehicle >trailer_S18k
+prefab prefabs\vehicles\trailer_S18k\trailer_S18k_nocenter.X
+Mass 1600.0
+Stiffness 10
+
+spawn_id 18
+
+tag >MT08
+
+renew_and_paint
+color 0.37 0.462 0.37
+
+trolley_classic
+// trolley_side
+przyczepa
+grain
+grain_capacity 18000
+price 48000
+
+
+
+// to definiuje jak szybko rosnie gorka od ziarna
+mnoznik_wzrostu_ladunku 1
+
+// to ustala wysokosc globalna ladunku
+mnoznik_skali_ladunku 8
+
+
+
+// COLLISION MESH
+
+
+// pScaleY
+mnoznik_fizyki_y 0.8
+// pScaleZ
+mnoznik_fizyki_z 1.15
+// pScaleX
+mnoznik_fizyki_x 0.95
+
+// pTransY
+przesuniecie_fizyki_gora 2.1
+// pTransZ
+przesuniecie_fizyki_przod 0.1
+// pTransX
+przesuniecie_fizyki_prawo 0.0
+
+
+// HOOKS
+hak zaczep
+hak_tyl zaczep_tyl
+
+
+/ TRAILER
+
+// definiuje obiekt zaczepu, socket w przyczepie na ktorym bedzie przyczepiony, jego socket ktory zlapie przyczepe i jego socket ktorym zlapie traktor
+zaczep prefabs\vehicles\trailer_s18k\trailer_s18k_attachment_nocenter.x attachment przyczepa traktor
+
+// dyszel socket_w_zaczepie socket_w_traktorze
+thill prefabs\vehicles\trailer_s18k\trailer_s18k_thill_nocenter.x thill zaczep
+
+// to jest glowna wywrotka (1)
+attachment_trolley prefabs\vehicles\trailer_s18k\trailer_s18k_trolley_nocenter.x trolley
+// przypinane do attachment_trolley
+trolley_gate prefabs\vehicles\trailer_s18k\trailer_s18k_gate_nocenter.x gate 1
+
+attachment_zboze prefabs\vehicles\trailer_s18k\loading_nocenter.x loading 1
+
+
+
+// WHEELS
+front_wheel prefabs\vehicles\trailer_s18k\wheel_left_nocenter.x wheel_front_left
+front_wheel prefabs\vehicles\trailer_s18k\wheel_right_nocenter.x wheel_front_right
+wheel prefabs\vehicles\trailer_s18k\wheel_left_nocenter.x wheel_left
+wheel prefabs\vehicles\trailer_s18k\wheel_right_nocenter.x wheel_right
+
+
+// PISTONS
+trolley_piston1 prefabs\vehicles\trailer_s18k\piston1_nocenter.x piston
+trolley_piston2 prefabs\vehicles\trailer_s18k\piston2_nocenter.x piston
+// trolley_piston3 prefabs\vehicles\trailer_s18k\piston3_nocenter.x piston
+trolley_piston4 prefabs\vehicles\trailer_s18k\piston4_nocenter.x piston
+
+
+
+
+// LIGHTS
+swiatlo_tyl lt1
+swiatlo_tyl lt2
+swiatlo_cofania lc1
+swiatlo_cofania lc2
+
+
+// ANIM FX
+// attachment_anim_fx <prefab> <socket> [<attachment do przyczepienia lub 0>] [<mnoznik predkosci przesuwu gibania - 1 domyslnie>] [<mnoznik gibania animacji - 1 domyslnie>] [<mnoznik predkosci przesuwu tekstury - 1 domyslnie>]
+attachment_anim_fx prefabs\vehicles\trailer_s18k\anim_dump_nocenter.x anim_dump 0 0.5 0.5
+
+// fx do wysypywania zboza z przyczepy
+// spill_grain_fx <nazwa_fx> <nazwa_socketa> [<numer attachmentu>]
+spill_grain_fx afx_spill_grain spill_grain 0
+
+
+

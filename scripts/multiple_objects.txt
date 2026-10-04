@@ -1,0 +1,521 @@
+// plik okresla obiekty automatycznie KASOWANE Z ODLEGLOSCIA
+// wystarczy podac fragment nazwy lub sciezki pliku zeby pliki z takim fragmentem w nazwie zostaly rozpoznane.
+
+// wildcart_pliku <dystans_znikania> <1 - zmieniac_na_sprajta> [<sprite_texture>]
+
+
+
+// TREES
+
+\trees\bush_birch01 100 1 om_bush_birch01.dds
+\trees\bush_forest01 100 1 om_bush_forest01.dds
+\trees\bush_forest02 100 1 om_bush_forest02.dds
+\trees\bush_forest03 100 1 om_bush_forest01.dds
+\trees\bush_forest04 100 1 om_bush_forest04.dds
+\trees\bush_forest05 100 1 om_bush_forest05.dds
+\trees\bush_forest06 100 1 om_bush_forest05.dds
+\trees\bush_forest07 100 1 om_bush_forest07.dds
+\trees\bush_spruce01 100 1 om_bush_spruce01.dds
+\trees\bush_spruce02 100 1 om_bush_spruce01.dds
+
+\trees\tree_birch01 150 1 om_birch01.dds
+\trees\tree_birch02 150 1 om_birch01.dds
+\trees\tree_birch03 150 1 om_birch01.dds
+\trees\tree_pine01 180 1 om_pine01.dds
+\trees\tree_pine02 180 1 om_pine02.dds
+\trees\tree_pine03 180 1 om_pine02.dds
+\trees\tree_spruce01 180 1 om_spruce01.dds
+\trees\tree_spruce02 180 1 om_spruce01.dds
+\trees\tree_spruce03 180 1 om_spruce03.dds
+\trees\tree_oak01 180 1 om_oak01.dds
+\trees\tree_oak02 180 1 om_oak01.dds
+\trees\tree_oak03 160 1 om_oak03.dds
+\trees\tree_poplar01_nocenter 150 1 om_poplar01.dds
+\trees\tree_poplar02_nocenter 150 1 om_poplar01.dds
+
+
+
+// FENCES
+
+objects\fences\pl_wood_new_fence7_pole_1_1_nocenter.x 150 0
+objects\fences\pl_wood_fixed_fence7_pole_1_1_nocenter.x 150 0
+objects\fences\pl_wood_new_fence7_3_1_nocenter.x 150 0
+objects\fences\pl_wood_fixed_fence7_3_1_nocenter.x 150 0
+objects\fences\pl_wood_new_fence7_2_1_nocenter.x 150 0
+\objects\fences\pl_wood_fixed_fence7_2_1_nocenter.x 150 0
+\objects\fences\pl_wood_new_fence7_1_1_nocenter.x 150 0
+\objects\fences\pl_wood_fixed_fence7_1_1_nocenter.x 150 0
+\objects\fences\pl_wood_new_fence7_corner_1_1_nocenter.x 150 0
+\objects\fences\pl_wood_fixed_fence7_corner_1_1_nocenter.x 150 0
+
+\objects\fences\modern\pl_wood_new_fence7_pole_1_1_modern_nocenter.x 150 0
+\objects\fences\modern\pl_wood_fixed_fence7_pole_1_1_modern_nocenter.x 150 0
+\objects\fences\modern\pl_wood_new_fence7_3_1_modern_nocenter.x 150 0
+\objects\fences\modern\pl_wood_fixed_fence7_3_1_modern_nocenter.x 150 0
+\objects\fences\modern\pl_wood_new_fence7_2_1_modern_nocenter.x 150 0
+\objects\fences\modern\pl_wood_fixed_fence7_2_1_modern_nocenter.x 150 0
+\objects\fences\modern\pl_wood_new_fence7_1_1_modern_nocenter.x 150 0
+\objects\fences\modern\pl_wood_fixed_fence7_1_1_modern_nocenter.x 150 0
+\objects\fences\modern\pl_wood_new_fence7_corner_1_1_modern_nocenter.x 150 0
+\objects\fences\modern\pl_wood_fixed_fence7_corner_1_1_modern_nocenter.x 150 0
+
+\objects\fences\pl_wood_old_fence6_1_3_nocenter.x 150 0
+\objects\fences\pl_wood_fixed_fence6_1_3_nocenter.x 150 0
+\objects\fences\pl_wood_old_fence6_1_2_nocenter.x 150 0
+\objects\fences\pl_wood_fixed_fence6_1_2_nocenter.x 150 0
+\objects\fences\pl_wood_fixed_fence6_1_1_nocenter.x 150 0
+\objects\fences\pl_wood_new_fence6_1_1_nocenter.x 150 0
+\objects\fences\pl_stone_fixed_fence6_pole_1_1_nocenter.x 150 0
+\objects\fences\pl_stone_fixed_fence6_pole_2_1_nocenter.x 150 0
+\objects\fences\pl_concrete_fixed_fence6_pole_1_1_nocenter.x 150 0
+\objects\fences\pl_concrete_fixed_fence6_1_1_nocenter.x 150 0
+\objects\fences\pl_stone_fixed_fence6_1_1_nocenter.x 150 0
+
+\objects\fences\modern\pl_metal_old_fence6_1_3_modern_nocenter.x 150 0
+\objects\fences\modern\pl_metal_fixed_fence6_1_3_modern_nocenter.x 150 0
+\objects\fences\modern\pl_metal_old_fence6_1_2_modern_nocenter.x 150 0
+\objects\fences\modern\pl_metal_fixed_fence6_1_2_modern_nocenter.x 150 0
+\objects\fences\modern\pl_metal_fixed_fence6_1_1_modern_nocenter.x 150 0
+\objects\fences\modern\pl_metal_new_fence6_1_1_modern_nocenter.x 150 0
+\objects\fences\modern\pl_stone_fixed_fence6_pole_1_1_modern_nocenter.x 150 0
+\objects\fences\modern\pl_stone_fixed_fence6_pole_2_1_modern_nocenter.x 150 0
+\objects\fences\modern\pl_concrete_fixed_fence6_1_1_modern_nocenter.x 150 0
+\objects\fences\modern\pl_concrete_fixed_fence6_pole_1_1_modern_nocenter.x 150 0
+\objects\fences\modern\pl_stone_fixed_fence6_1_1_modern_nocenter.x 150 0
+
+\objects\fences\pl_wood_fixed_fence5_1_5_nocenter.x 150 0
+\objects\fences\pl_wood_old_fence5_1_5_nocenter.x 150 0
+\objects\fences\pl_wood_fixed_fence5_1_4_nocenter.x 150 0
+\objects\fences\pl_wood_old_fence5_1_4_nocenter.x 150 0
+\objects\fences\pl_wood_fixed_fence5_1_3_nocenter.x 150 0
+\objects\fences\pl_wood_old_fence5_1_3_nocenter.x 150 0
+\objects\fences\pl_wood_fixed_fence5_1_2_nocenter.x 150 0
+\objects\fences\pl_wood_old_fence5_1_2_nocenter.x 150 0
+\objects\fences\pl_wood_fixed_fence5_1_1_nocenter.x 150 0
+\objects\fences\pl_wood_new_fence5_1_1_nocenter.x 150 0
+\objects\fences\pl_wood_fixed_fence5_pole_1_1_nocenter.x 150 0
+\objects\fences\pl_wood_new_fence5_pole_1_1_nocenter.x 150 0
+
+\objects\fences\pl_wood_fixed_fence4_1_4_nocenter.x 150 0
+\objects\fences\pl_wood_old_fence4_1_4_nocenter.x 150 0
+\objects\fences\pl_wood_fixed_fence4_1_3_nocenter.x 150 0
+\objects\fences\pl_wood_old_fence4_1_3_nocenter.x 150 0
+\objects\fences\pl_wood_fixed_fence4_1_2_nocenter.x 150 0
+\objects\fences\pl_wood_old_fence4_1_2_nocenter.x 150 0
+\objects\fences\pl_wood_fixed_fence4_1_1_nocenter.x 150 0
+\objects\fences\pl_wood_new_fence4_1_1_nocenter.x 150 0
+\objects\fences\pl_wood_fixed_fence4_pole_2_1_nocenter.x 150 0
+\objects\fences\pl_wood_fixed_fence4_pole_1_1_nocenter.x 150 0
+\objects\fences\pl_wood_new_fence4_pole_2_1_nocenter.x 150 0
+\objects\fences\pl_wood_new_fence4_pole_1_1_nocenter.x 150 0
+
+\objects\fences\pl_wood_fixed_fence3_1_4_nocenter.x 150 0
+\objects\fences\pl_wood_old_fence3_1_4_nocenter.x 150 0
+\objects\fences\pl_wood_fixed_fence3_1_3_nocenter.x 150 0
+\objects\fences\pl_wood_old_fence3_1_3_nocenter.x 150 0
+\objects\fences\pl_wood_old_fence3_1_2_nocenter.x 150 0
+\objects\fences\pl_wood_fixed_fence3_1_2_nocenter.x 150 0
+\objects\fences\pl_wood_fixed_fence3_1_1_nocenter.x 150 0
+\objects\fences\pl_wood_new_fence3_1_1_nocenter.x 150 0
+\objects\fences\pl_wood_fixed_fence3_pole_1_1_nocenter.x 150 0
+\objects\fences\pl_wood_new_fence3_pole_1_1_nocenter.x 150 0
+\objects\fences\pl_wood_fixed_fence3_pole_2_1_nocenter.x 150 0
+\objects\fences\pl_wood_new_fence3_pole_2_1_nocenter.x 150 0
+
+\objects\fences\modern\pl_metal_fixed_fence3_1_4_modern_nocenter.x 150 0
+\objects\fences\modern\pl_metal_old_fence3_1_4_modern_nocenter.x 150 0
+\objects\fences\modern\pl_metal_fixed_fence3_1_3_modern_nocenter.x 150 0
+\objects\fences\modern\pl_metal_old_fence3_1_3_modern_nocenter.x 150 0
+\objects\fences\modern\pl_metal_fixed_fence3_1_2_modern_nocenter.x 150 0
+\objects\fences\modern\pl_metal_old_fence3_1_2_modern_nocenter.x 150 0
+\objects\fences\modern\pl_metal_fixed_fence3_1_1_modern_nocenter.x 150 0
+\objects\fences\modern\pl_metal_new_fence3_1_1_modern_nocenter.x 150 0
+\objects\fences\modern\pl_metal_fixed_fence3_pole_1_1_modern_nocenter.x 150 0
+\objects\fences\modern\pl_metal_new_fence3_pole_1_1_modern_nocenter.x 150 0
+\objects\fences\modern\pl_metal_fixed_fence3_pole_2_1_modern_nocenter.x 150 0
+\objects\fences\modern\pl_metal_new_fence3_pole_2_1_modern_nocenter.x 150 0
+
+\objects\fences_chainlink\fence_chainlink_001_new_nocenter.x 150 0
+\objects\fences_chainlink\fence_chainlink_002_new_nocenter.x 150 0
+\objects\fences_chainlink\fence_chainlink_pole_new_nocenter.x 150 0
+\objects\fences_chainlink\fence_chainlink_001_nocenter.x 150 0
+\objects\fences_chainlink\fence_chainlink_002_nocenter.x 150 0
+
+
+
+
+
+
+// STONES
+
+\objects\stones\rock_001 420 0
+\objects\stones\rock_002 420 0
+\objects\stones\rock_003 350 0
+\objects\stones\rock_004 350 0
+\objects\stones\stone_001 250 0
+\objects\stones\stone_002 250 0
+\objects\stones\stone_003 200 0
+\objects\stones\stone_004 200 0
+\Objects\stones\small\small_rock 120 0
+
+
+
+// WORLD OBJECTS
+
+\buildings\shop_silo\shop_bale_nocenter 557 0
+
+\garbage_rubble\pallet 160 0
+\garbage_rubble\board 120 0
+\garbage_rubble\roof_piece 95 0
+\garbage_rubble\rubble 105 0
+
+\Objects\lillyLeaves01 100 0
+\Objects\lillyLeaves02 120 0
+
+\Objects\fruit_boxes\fruit_box 90 0
+\Objects\cardboards\cardboard_005 120 0
+\Objects\cardboards\cardboard_006 120 0
+\Objects\cardboards\cardboard_001 105 0
+\Objects\cardboards\cardboard_002 105 0
+\Objects\cardboards\cardboard_003 105 0
+\Objects\cardboards\cardboard_004 105 0
+
+\Objects\spider_web\spider_web 90 0
+
+\Objects\tools\axe 100 0
+\Objects\tools\broom 100 0
+\Objects\tools\brush 100 0
+\Objects\tools\fishing_rod 100 0
+\Objects\tools\flashlight 90 0
+\Objects\tools\fork 100 0
+\Objects\tools\grains_bag 90 0
+\Objects\tools\hoe 100 0
+\Objects\tools\rake 100 0
+\Objects\tools\saw 100 0
+\Objects\tools\scythe 100 0
+\Objects\tools\shovel 100 0
+\Objects\tools\watering_can 100 0
+
+
+\Buildings\henhouse_stuff\basket 105 0
+\Buildings\henhouse_stuff\bucket_metal 105 0
+\Buildings\henhouse_stuff\bucket_wood 105 0
+\Buildings\henhouse_stuff\feeder 100 0
+\Buildings\henhouse_stuff\feeder_wood 100 0
+\Buildings\henhouse_stuff\feeder_rubber 100 0
+\Buildings\henhouse_stuff\feeder_wood_small 100 0
+\Buildings\henhouse_stuff\sack_big 105 0
+
+
+\Buildings\Garages_stuff\saw_table 120 0
+\Buildings\Garages_stuff\heater 105 0
+\Buildings\Garages_stuff\anvil 105 0
+\Buildings\Garages_stuff\metal_barrel 140 0
+\Buildings\Garages_stuff\grinder 100 0
+\Buildings\Garages_stuff\dispenser_pump 130 0
+\Buildings\Garages_stuff\old_engine 100 0
+\Buildings\Garages_stuff\vise 100 0
+\Buildings\Garages_stuff\fuel_dispenser 130 0
+\Buildings\Garages_stuff\can 100 0
+\Buildings\Garages_stuff\oil_can_small 80 0
+\Buildings\Garages_stuff\oil_lamp 100 0
+\Buildings\Garages_stuff\spray 100 0
+\Buildings\Garages_stuff\bottle 100 0
+
+
+\Buildings\shelters_stuff\metal_cabinet 120 0
+\Buildings\shelters_stuff\metal_locker 125 0
+\Buildings\shelters_stuff\metal_locker_door 125 0
+\Buildings\shelters_stuff\Muscle_rack 140 0
+\Buildings\shelters_stuff\working_table 100 0 
+\Buildings\shelters_stuff\working_board 100 0
+\Buildings\shelters_stuff\wall_cabinet 100 0
+\Buildings\shelters_stuff\workbench 100 0
+\Buildings\shelters_stuff\chair 100 0
+
+
+\Buildings\barns_stuff\wood_bench 100 0
+\Buildings\barns_stuff\wood_barrel 140 0
+\Buildings\barns_stuff\thresher 100 0
+\Buildings\barns_stuff\scales 100 0
+\Buildings\barns_stuff\wood_wheel 100 0
+\Buildings\barns_stuff\wood_harnes 100 0
+\Buildings\barns_stuff\hay_bale 100 0
+\Buildings\barns_stuff\wood_trough 100 0
+\Buildings\barns_stuff\crusher 100 0
+\Buildings\barns_stuff\grain_dressing_machine 100 0
+\Buildings\barns_stuff\wood_harrow 100 0
+\Buildings\barns_stuff\ladder 100 0
+\Buildings\barns_stuff\grappling_hook 100 0
+\Buildings\barns_stuff\wood_frame 100 0
+\Buildings\barns_stuff\rope 100 0
+\buildings\barns_stuff\mound_001_nocenter.x 200 0
+\buildings\barns_stuff\mound_002_nocenter.x 200 0
+\buildings\barns_stuff\mound_003_nocenter.x 200 0
+\buildings\barns_stuff\mound_004_nocenter.x 200 0
+\buildings\barns_stuff\mound_005_nocenter.x 200 0
+
+\buildings\cowshed_stuff\grinder_cowshed_nocenter.x 160 0
+\buildings\cowshed_stuff\crusher_cowshed_nocenter.x 140 0
+\buildings\cowshed_stuff\wheelbarrow_nocenter.x 100 0
+
+\Objects\Lamps\lamp_switch 100 0
+\Objects\Lamps\ceiling_lamp 120 0
+\Objects\Lamps\hanging_lamp 120 0
+\Objects\Lamps\neon_lamp 120 0
+\Objects\Lamps\wall_lamp 120 0
+
+\Objects\Poles\pole_wood 440 0
+\Objects\Poles\pole_concrete 440 0
+\Objects\Poles\pole_metal 440 0
+\Objects\Poles\pole_transformator 440 0
+\Objects\Poles\pole_cable 420 0
+\Objects\Poles\street_lamp 440 0
+\Objects\Poles\street_lamp_top 440 0
+\Objects\Poles\pole_lamp 440 0
+\Objects\Poles\street_pole 440 0
+
+\Objects\parking_pad\parking_plates 300 0
+\Objects\parking_pad\parking_entrance 250 0
+\Objects\parking_pad\parking_curb 200 0
+\Objects\parking_pad\parking_pot 200 0
+
+
+
+// Castle
+
+\Buildings\castle\hallway_nocenter.X 75 0
+\Buildings\castle\ca_tower_stairs_2_0_nocenter.X 25 0
+\Buildings\castle\ca_wall_door_tower_2_0_nocenter.X 2137 0
+\Buildings\castle\ca_wall_door_tower_1_0_nocenter.X 2137 0
+\Buildings\castle\ca_wall_stairs_handrail_2_0_nocenter.X 25 0
+\Buildings\castle\ca_tower_stairs_1_0_nocenter.X 25 0
+\Buildings\castle\ca_floor_tower_2_0_nocenter.X 25 0
+\Buildings\castle\ca_balcony_1_0_nocenter.X 120 0
+\Buildings\castle\ca_door_1_0_nocenter.X 75 0
+\Buildings\castle\ca_wood_gate_1_0_nocenter.X 75 0
+\Buildings\castle\ca_wall_gate_1_0_nocenter.X 2137 0
+\Buildings\castle\ca_wall_tower_window_1_0_nocenter.X 2137 0
+\Buildings\castle\ca_floor_1_0_nocenter.X 200 0
+\Buildings\castle\ca_wall_ruin_2_3_nocenter.X 2137 0
+\Buildings\castle\ca_wall_ruin_2_2_nocenter.X 2137 0
+\Buildings\castle\ca_wall_ruin_2_1_nocenter.X 2137 0
+\Buildings\castle\ca_wall_stairs_1_0_nocenter.X 120 0
+\Buildings\castle\ca_wall_ruin_1_3_nocenter.X 2137 0
+\Buildings\castle\ca_wall_ruin_1_2_nocenter.X 2137 0
+\Buildings\castle\ca_wall_ruin_1_1_nocenter.X 2137 0
+\Buildings\castle\ca_wall_stairs_handrail_1_0_nocenter.X 120 0
+\Buildings\castle\ca_wood_element_1_0_nocenter.X 75 0
+\Buildings\castle\ca_wood_platform_1_0_nocenter.X 350 0
+\Buildings\castle\ca_wall_crown_1_0_nocenter.X 510 0
+\Buildings\castle\ca_wall_corner_1_0_nocenter.X 2137 0
+\Buildings\castle\ca_wall_window_1_0_nocenter.X 2137 0
+\Buildings\castle\ca_wall_1_0_nocenter.X 2137 0
+\Buildings\castle\ca_wall_platform_1_0_nocenter.X 510 0
+\Buildings\castle\ca_wall_pylon_1_0_nocenter.X 300 0
+\Buildings\castle\ca_wall_pylon_2_0_nocenter.X 300 0
+\Buildings\castle\ca_floor_1_1_nocenter.X 200 0
+\Buildings\castle\ca_wall_tower_crown_1_0_nocenter.X 2137 0
+\Buildings\castle\ca_wall_tower_ruin_1_0_nocenter.X 2137 0
+\Buildings\castle\ca_wall_tower_ruin_2_0_nocenter.X 2137 0
+\Buildings\castle\ca_wall_tower_1_0_nocenter.X 2137 0
+\Buildings\castle\ca_wall_tower_base_door_1_0_nocenter.X 2137 0
+\Buildings\castle\ca_wall_tower_base_1_0_nocenter.X 2137 0
+\Buildings\castle\ca_floor_tower_1_0_nocenter.X 50 0
+\buildings\castle\ca_wall_tower_1_1_nocenter.x 2137 0
+
+
+// TOWN
+\buildings\shop_mini\commodity_freestanding_shelf_2_nocenter.x 40 0
+\buildings\shop_coffee_bar\commodity_coffee_2_nocenter.x 40 0
+\buildings\shop_coffee_bar\coffee_stand_002_nocenter.x 80 0
+\buildings\shop_coffee_bar\commodity_coffee_1_nocenter.x 80 0
+\buildings\kitchen_stuff\spoon_nocenter.x 40 0
+\buildings\kitchen_stuff\knife_nocenter.x 40 0
+\buildings\kitchen_stuff\fork_nocenter.x 40 0
+\buildings\kitchen_stuff\mug_nocenter.x 40 0
+\buildings\furniture\deck_chair_nocenter.x 140 0
+\buildings\kitchen_stuff\plate_soup_nocenter.x 40 0
+\buildings\kitchen_stuff\plate_dinner_nocenter.x 80 0
+\buildings\kitchen_stuff\flagon_nocenter.x 80 0
+\buildings\shop_coffee_bar\bar_table_nocenter.x 150 0
+\buildings\shop_coffee_bar\bar_chair_nocenter.x 150 0
+\buildings\shop_coffee_bar\bar_chair_NEW_nocenter.x 150 0
+
+\buildings\shop_agro\cash_register_nocenter.x 40 0
+
+\buildings\shop_mini\shop_mini_counter_nocenter.x 80 0
+\buildings\shop_mini\shop_mini_counter2_nocenter.x 80 0
+
+\buildings\shop_mini\shop_mini_shelf2_nocenter.x 80 0
+\buildings\shop_mini\shop_mini_shelf_nocenter.x 80 0
+
+\buildings\shop_mini\shop_mini_freestanding_shelf_1_nocenter.x 80 0
+\buildings\shop_mini\shop_mini_freestanding_shelf_2_nocenter.x 80 0
+\buildings\shop_mini\commodity_freestanding_shelf_1_nocenter.x 50 0
+\buildings\shop_mini\commodity_shelf_2_nocenter.x 50 0
+\buildings\shop_mini\commodity_counter_nocenter.x 50 0
+\buildings\shop_mini\commodity_shelf_1_nocenter.x 50 0
+
+\buildings\town_houses\town_shop_001_nocenter.x 450 0
+\buildings\town_houses\town_shop_001_NEW_nocenter.x 450 0
+\buildings\town_houses\town_shop_002_nocenter.x 450 0
+\buildings\town_houses\town_shop_002_NEW_nocenter.x 450 0
+
+\buildings\town_houses\pavement_001_nocenter.x 550 0
+\buildings\town_houses\pavement_002_nocenter.x 550 0
+\buildings\town_houses\street_stairs_nocenter.x 400 0
+\buildings\town_houses\awening_002_nocenter.x 130 0
+\buildings\town_houses\awening_001_nocenter.x 130 0
+\buildings\town_houses\town_bricks_fence_001_nocenter.x 420 0
+\buildings\town_houses\town_bricks_fence_002_nocenter.x 450 0
+\buildings\shop_coffee_bar\bar_umbrella_new_nocenter.x 150 0
+\buildings\shop_coffee_bar\bar_umbrella_nocenter.x 150 0
+\buildings\town_houses\cloakroom_nocenter.x 120 0
+\buildings\furniture\beach_screen_nocenter.x 120 0
+
+\buildings\town_houses\town_hall_wood_nocenter.x 1200 0
+\buildings\town_houses\town_hall_nocenter.x 1200 0
+\buildings\town_houses\town_building_wood_001_nocenter.x 500 0
+\buildings\town_houses\town_building_001_nocenter.x 800 0
+\buildings\town_houses\town_building_wood_002_nocenter.x 500 0
+\buildings\town_houses\town_building_002_nocenter.x 800 0
+\buildings\town_houses\town_building_005_nocenter.x 800 0
+\buildings\town_houses\town_building_009_nocenter.x 800 0
+\buildings\town_houses\town_building_010_nocenter.x 800 0
+\buildings\town_houses\town_building_wood_006_nocenter.x 500 0
+\buildings\town_houses\town_building_006_nocenter.x 800 0
+\buildings\town_houses\town_building_007_nocenter.x 800 0
+\buildings\town_houses\town_building_003_nocenter.x 800 0
+\buildings\town_houses\town_building_004_nocenter.x 800 0
+\buildings\town_houses\town_building_008_nocenter.x 800 0
+\buildings\town_houses\town_building_wood_004_nocenter.x 500 0
+
+\buildings\town_houses\town_building_001_new_nocenter.x 800 0
+\buildings\town_houses\town_building_002_new_nocenter.x 800 0
+\buildings\town_houses\town_building_003_new_nocenter.x 800 0
+\buildings\town_houses\town_building_004_new_nocenter.x 800 0
+\buildings\town_houses\town_building_005_new_nocenter.x 800 0
+\buildings\town_houses\town_building_006_new_nocenter.x 800 0
+\buildings\town_houses\town_building_007_new_nocenter.x 800 0
+\buildings\town_houses\town_building_008_new_nocenter.x 800 0
+\buildings\town_houses\town_building_009_new_nocenter.x 800 0
+\buildings\town_houses\town_building_010_new_nocenter.x 800 0
+\buildings\town_houses\town_building_wood_002_new_nocenter.x 500 0
+\buildings\town_houses\town_building_wood_006_new_nocenter.x 500 0 
+
+\buildings\town_houses\fountain_001_nocenter.x 170 0
+\buildings\town_houses\street_stairs_002_nocenter.x 120 0
+\buildings\town_houses\town_building_shutters_005_nocenter.x 150 0
+\buildings\town_houses\town_building_shutters_002_nocenter.x 150 0
+\buildings\town_houses\town_building_shutters_006_nocenter.x 150 0
+\buildings\town_houses\town_building_shutters_001_nocenter.x 150 0
+\buildings\town_houses\town_building_shutters_004_nocenter.x 150 0
+\buildings\town_houses\lifeguard_tower_nocenter.x 150 0
+
+\buildings\shop_coffee_bar\bar_new_fence_nocenter.x 120 0
+\buildings\shop_coffee_bar\coffee_stand_001_nocenter.x 120 0
+\buildings\shop_coffee_bar\bar_logo_nocenter.x 120 0
+
+\objects\potted_flowers\flowerpot_001_nocenter.x 80 0
+\objects\potted_flowers\potted_flower_003_nocenter.x 60 0
+\objects\potted_flowers\potted_flower_002_nocenter.x 60 0
+\objects\potted_flowers\potted_flower_001_nocenter.x 60 0
+\objects\potted_flowers\potted_flower_004_nocenter.x 60 0
+
+\buildings\greenhouses_stuff\ceramic_pot_001_nocenter.x 75 0
+\buildings\greenhouses_stuff\ceramic_pot_002_nocenter.x 75 0
+\buildings\greenhouses_stuff\ceramic_pot_003_nocenter.x 75 0
+\buildings\greenhouses_stuff\ceramic_pot_004_nocenter.x 75 0
+\buildings\greenhouses_stuff\ceramic_pot_005_nocenter.x 75 0
+\buildings\greenhouses_stuff\ceramic_pot_006_nocenter.x 75 0
+
+\buildings\town_houses\city_wall_ruined_left_001_nocenter.x 480 0
+\buildings\town_houses\city_wall_001_nocenter.x 280 0
+\buildings\town_houses\city_wall_ruined_right_001_nocenter.x 480 0
+
+\buildings\town_houses\city_wall_ruined_left_002_nocenter.x 480 0
+\buildings\town_houses\city_wall_002_nocenter.x 480 0
+\buildings\town_houses\city_wall_ruined_right_002_nocenter.x 480 0
+
+\buildings\town_houses\city_wall_003_nocenter.x 280 0
+\buildings\town_houses\city_wall_ruined_left_003_nocenter.x 480 0
+\buildings\town_houses\city_wall_ruined_right_003_nocenter.x 480 0
+\buildings\town_houses\city_wall_ruined_stairs_001_nocenter.x 480 0
+
+\buildings\town_houses\city_wall_ruined_pylon_001_nocenter.x 480 0
+\buildings\town_houses\city_wall_ruined_pylon_002_nocenter.x 440 0
+
+
+
+// TOWN SHOPS
+
+\buildings\shop_assortment\logo_butcher_nocenter.x 70 0
+\buildings\shop_assortment\shop_fridge_001_nocenter.x 40 0
+\buildings\shop_assortment\shop_fridge_meat_001_nocenter.x 40 0
+\buildings\shop_assortment\shop_wardobe_003_nocenter.x 40 0
+\buildings\shop_assortment\shop_wardobe_meat_002_nocenter.x 40 0
+\buildings\shop_assortment\shop_wardobe_002_nocenter.x 40 0
+\buildings\shop_assortment\shop_wardobe_001_nocenter.x 40 0
+\buildings\shop_assortment\shop_wardobe_meat_001_nocenter.x 40 0
+\buildings\shop_assortment\shop_hooks_meat_001_nocenter.x 40 0
+\buildings\shop_assortment\shop_hooks_001_nocenter.x 40 0
+\buildings\shop_assortment\logo_butcher_002_nocenter.x 40 0
+
+\buildings\shop_assortment\logo_bakery_nocenter.x 40 0
+\buildings\shop_assortment\shop_bakery_wardobe_001_nocenter.x 40 0
+\buildings\shop_assortment\shop_bakery_wardobe_cake_001_nocenter.x 40 0
+\buildings\shop_assortment\shop_bakery_rack_bread_002_nocenter.x 40 0
+\buildings\shop_assortment\shop_bakery_rack_bread_001_nocenter.x 40 0
+\buildings\shop_assortment\shop_bakery_rack_001_nocenter.x 40 0
+\buildings\shop_assortment\shop_bakery_rack_002_nocenter.x 40 0
+\buildings\shop_assortment\shop_bakery_wardobe_cake_002_nocenter.x 40 0
+\buildings\shop_assortment\shop_bakery_wardobe_002_nocenter.x 40 0
+\buildings\shop_assortment\logo_bakery_002_nocenter.x 40 0
+\buildings\shop_assortment\shop_bakery_owen_nocenter.x 40 0
+
+\buildings\shop_assortment\logo_fisherman_nocenter.x 60 0
+\buildings\shop_assortment\shop_fridge_003_nocenter.x 40 0
+\buildings\shop_assortment\shop_fridge_fishes_003_nocenter.x 40 0
+\buildings\shop_assortment\shop_fridge_002_nocenter.x 40 0
+\buildings\shop_assortment\shop_fridge_fishes_002_nocenter.x 40 0
+\buildings\shop_assortment\shop_wardobe_004_nocenter.x 40 0
+\buildings\shop_assortment\shop_fridge_004_nocenter.x 40 0
+\buildings\shop_assortment\shop_fridge_fishes_004_nocenter.x 40 0
+\buildings\shop_assortment\shop_wardobe_005_nocenter.x 40 0
+\buildings\shop_assortment\shop_wardobe_lures_005_nocenter.x 40 0
+
+\buildings\shop_assortment\logo_grocery_nocenter.x 60 0
+
+\objects\brick_decal01.x 80 0
+\objects\brick_decal02.x 80 0
+\objects\brick_decal03.x 80 0
+\objects\brick_decal04.x 80 0
+\objects\brick_decal05.x 80 0
+
+\objects\vine01.x 120 0
+\objects\vine02.x 120 0
+\objects\vine03.x 120 0
+\objects\vine04.x 120 0
+
+//PICKABLE TOOLS
+
+\pickable\axe_nocenter.x 200 0
+\pickable\brush_nocenter.x 200 0
+\pickable\canister_nocenter.x 200 0
+\pickable\spare_wheel_front_right_nocenter.x 200 0
+\pickable\wire_brush_nocenter.x 200 0
+\pickable\tool_scaffold_nocenter.x 200 0 
+\pickable\pickup_fishing_rod_nocenter.x 200 0
+
+
+
+
+
+
+
+
+
+
+
+

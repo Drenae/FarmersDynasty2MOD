@@ -1,0 +1,2 @@
+mesh_filename prefabs\vehicles\tractor_tt1600\3p_rear_middle_nocenter.x
+socket z3p2 0.000000 0.735000 -0.020000

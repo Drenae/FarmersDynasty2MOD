@@ -1,0 +1,21 @@
+//
+// podajemy texture <nazwa_stara> <nazwa_nowa>
+// normali nie ma potrzeby podawac
+//
+
+texture billboard_dlc_old.dds billboard_dlc_new.dds
+
+texture road_001.DDS road_001_new.DDS
+
+texture roof_asbest_001.dds roof_metal_blue_old.dds
+texture roof_plates_old_001.dds roof_plates_old_modern_001.dds
+texture roof_red_tile.dds roof_red_tile_old_modern.dds
+texture roof_red_tile_2.dds roof_metal_old_modern_001.dds
+
+
+// clothes
+
+texture m_collar_shirt_short_sleevesA.dds m_collar_shirt_short_sleevesF.dds
+texture m_necktie_A.dds m_necktie_B.dds
+
+texture w_collar_shirt_002.dds w_collar_shirt_003.dds

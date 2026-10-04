@@ -1,0 +1,66 @@
+// definiuje kolejne prefaby (stopnie przebudowy), w grze moze byc wlozony dowolny, ale musza byc unikalne dla danego setu
+// part <id_warstwy> <id_materialu> <klucz_text_keys_z_opisem> <sciezka\prefab>
+// -1 jako indeks materialu oznacza ten sam material, ale nie budowe tylko naprawe, czyli przejscie z polamanych na naprostowane deski BEZ kupowania desek.
+
+// old
+part 0 0  MAT00 prefabs\buildings\playerhouse_old\hs_wood_fixed_tudor_1_0_nocenter.x
+
+// new
+part 1 1  MAT01 prefabs\buildings\playerhouse_old\hs_wood_new_tudor_1_0_nocenter.x
+part 2 27  MAT27 prefabs\buildings\playerhouse_old\hs_wood_new_tudor_1_0_nocenter.x
+
+
+
+
+// old
+part 3 0  MAT00 prefabs\buildings\playerhouse_old\hs_wood_fixed_tudor_1_1_nocenter.x
+
+// new
+part 4 1  MAT01 prefabs\buildings\playerhouse_old\hs_wood_new_tudor_1_1_nocenter.x
+part 5 27  MAT27 prefabs\buildings\playerhouse_old\hs_wood_new_tudor_1_1_nocenter.x
+
+
+
+
+// old
+part 6 0  MAT00 prefabs\buildings\playerhouse_old\hs_wood_fixed_tudor_1_2_nocenter.x
+
+// new
+part 7 1  MAT01 prefabs\buildings\playerhouse_old\hs_wood_new_tudor_1_2_nocenter.x
+part 8 27  MAT27 prefabs\buildings\playerhouse_old\hs_wood_new_tudor_1_2_nocenter.x
+
+
+
+
+// old
+part 9 0  MAT00 prefabs\buildings\playerhouse_old\hs_wood_fixed_tudor_1_3_nocenter.x
+
+// new
+part 10 1  MAT01 prefabs\buildings\playerhouse_old\hs_wood_new_tudor_1_3_nocenter.x
+part 11 27  MAT27 prefabs\buildings\playerhouse_old\hs_wood_new_tudor_1_3_nocenter.x
+
+
+
+
+// i teraz dla danego elementu definiujemy w ktory moze przejsc
+// pierwszy parametr to ktorego tyczy sie definicja, nastepne - w ktore moze byc zmieniony
+
+path 0   1
+path 1   2
+path 2   2
+
+path 3   4
+path 4   5
+path 5   5
+
+path 6   7
+path 7   8
+path 8   8
+
+path 9   10
+path 10   11
+path 11   11
+
+
+
+

@@ -1,0 +1,1822 @@
+// craftable furniture description
+
+
+// klasa krzesla
+// nazwa klasy unikalna, nie wyswietlana (moze byc cokolwiek)
+
+class chairs
+class_name AT585
+class_icon ico_furniture_chairs.dds
+
+// same meble wewnatrz klasy
+// opisy sie moga powtarzac, tzn rozne krzesla moga miec ten sam opis, w sumie nazwy chyba tez moga miec te same jak sa podobne.
+// czyli furniture_name oraz furniture_description dla podobnych mebli moga byc takie same
+// nazwa samego furniture musi być unikalna (czyli furniture chair01, dla nastepnego furniture chair02 etc).
+// waga jest orientacyjna w kilogramach, ale tak mniej wiecej, unikalbym 100kg szaf.
+
+furniture chair01
+furniture_name AA110
+furniture_description AA111
+furniture_icon icon_chair_new_001.dds
+furniture_prefab prefabs\buildings\furniture\chair_new_001_nocenter.x
+furniture_price 120
+furniture_weight 5
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 6
+furniture_crafting metalparts 1
+
+
+furniture chair02
+furniture_name AA110
+furniture_description AA111
+furniture_icon icon_chair_new_002.dds
+furniture_prefab prefabs\buildings\furniture\chair_new_002_nocenter.x
+furniture_price 120
+furniture_weight 4
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 5
+furniture_crafting metalparts 1
+
+
+furniture chair03
+furniture_name AA110
+furniture_description AA111
+furniture_icon icon_chair_new_003.dds
+furniture_prefab prefabs\buildings\furniture\chair_new_003_nocenter.x
+furniture_price 120
+furniture_weight 6
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 6
+furniture_crafting metalparts 1
+
+furniture stool01
+furniture_name AA112
+furniture_description AA111
+furniture_icon icon_stool_new_001.dds
+furniture_prefab prefabs\buildings\furniture\stool_new_001_nocenter.x
+furniture_price 70
+furniture_weight 3
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 4
+furniture_crafting metalparts 1
+
+furniture stool02
+furniture_name AA112
+furniture_description AA111
+furniture_icon icon_stool_new_002.dds
+furniture_prefab prefabs\buildings\furniture\stool_new_002_nocenter.x
+furniture_price 70
+furniture_weight 3
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 4
+furniture_crafting metalparts 1
+
+
+furniture lu_chair01
+furniture_name AA110
+furniture_description AA111
+furniture_icon icon_lu_chair01.dds
+furniture_prefab prefabs\buildings\furniture\lu_chair_nocenter.x
+furniture_price 230
+furniture_weight 8
+// co potrzebuje zeby zrobic
+furniture_crafting rebuild_wood 18
+furniture_crafting metalparts 3
+furniture_crafting fabric 8
+
+
+// --------------------------------------------------
+class cupboards
+class_name AT591
+class_icon ico_furniture_cupboards.dds
+
+
+
+furniture cupboard01
+furniture_name AT592
+furniture_description AA111
+furniture_icon icon_cupboard_new_001.dds
+furniture_prefab prefabs\buildings\furniture\cupboard_new_001_nocenter.x
+furniture_price 300
+furniture_weight 30
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 30
+furniture_crafting metalparts 4
+furniture_crafting glass 4
+
+
+furniture cupboard02
+furniture_name AT592
+furniture_description AA111
+furniture_icon icon_cabinet_new_003.dds
+furniture_prefab prefabs\buildings\furniture\cabinet_new_003_nocenter.x
+furniture_price 260
+furniture_weight 24
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 24
+furniture_crafting metalparts 3
+
+
+
+furniture cupboard03
+furniture_name AT592
+furniture_description AA111
+furniture_icon icon_cabinet_new_004.dds
+furniture_prefab prefabs\buildings\furniture\cabinet_new_004_nocenter.x
+furniture_price 210
+furniture_weight 18
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 22
+furniture_crafting metalparts 2
+
+
+furniture cupboard04
+furniture_name AT592
+furniture_description AA111
+furniture_icon icon_dresser_new_001.dds
+furniture_prefab prefabs\buildings\furniture\dresser_new_001_nocenter.x
+furniture_price 180
+furniture_weight 15
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 22
+furniture_crafting metalparts 2
+
+
+furniture cupboard05
+furniture_name AT592
+furniture_description AA111
+furniture_icon icon_cabinet_new_006.dds
+furniture_prefab prefabs\buildings\furniture\cabinet_new_006_nocenter.x
+furniture_price 170
+furniture_weight 14
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 23
+furniture_crafting metalparts 2
+
+
+furniture cupboard06
+furniture_name AT592
+furniture_description AA111
+furniture_icon icon_cabinet_new_007.dds
+furniture_prefab prefabs\buildings\furniture\cabinet_new_007_nocenter.x
+furniture_price 130
+furniture_weight 11
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 19
+furniture_crafting metalparts 2
+
+
+
+furniture cupboard07
+furniture_name AT592
+furniture_description AA111
+furniture_icon icon_dresser_new_002.dds
+furniture_prefab prefabs\buildings\furniture\dresser_new_002_nocenter.x
+furniture_price 130
+furniture_weight 11
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 20
+furniture_crafting metalparts 2
+
+
+
+furniture cupboard08
+furniture_name AT592
+furniture_description AA111
+furniture_icon icon_cabinet_new_005.dds
+furniture_prefab prefabs\buildings\furniture\cabinet_new_005_nocenter.x
+furniture_price 100
+furniture_weight 9
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 18
+furniture_crafting metalparts 1
+
+
+furniture small_bedside02
+furniture_name AT592
+furniture_description AA111
+furniture_icon icon_bedside_new_001.dds
+furniture_prefab prefabs\buildings\furniture\bedside_new_001_nocenter.x
+furniture_price 120
+furniture_weight 6
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 16
+furniture_crafting metalparts 2
+
+furniture lu_wardobe01
+furniture_name AT592
+furniture_description AA111
+furniture_icon icon_lu_wardobe01.dds
+furniture_prefab prefabs\buildings\furniture\lu_small_wardobe_nocenter.x
+furniture_price 140
+furniture_weight 24
+furniture_crafting rebuild_wood 45
+furniture_crafting metalparts 8
+
+furniture lu_glass_case01
+furniture_name AT592
+furniture_description AA111
+furniture_icon icon_lu_glass_case01.dds
+furniture_prefab prefabs\buildings\furniture\lu_glass_case_nocenter.x
+furniture_price 400
+furniture_weight 38
+// co potrzebuje zeby zrobic
+furniture_crafting rebuild_wood 80
+furniture_crafting metalparts 12
+furniture_crafting glass 6
+
+furniture lu_dresser_drawers01
+furniture_name AT592
+furniture_description AA111
+furniture_icon icon_lu_dresser_drawers01.dds
+furniture_prefab prefabs\buildings\furniture\lu_dresser_drawers_nocenter.x
+furniture_price 250
+furniture_weight 25
+// co potrzebuje zeby zrobic
+furniture_crafting rebuild_wood 54
+furniture_crafting metalparts 8
+
+furniture lu_small_dresser01
+furniture_name AT592
+furniture_description AA111
+furniture_icon icon_lu_small_dresser01.dds
+furniture_prefab prefabs\buildings\furniture\lu_dresser_nocenter.x
+furniture_price 210
+furniture_weight 8
+// co potrzebuje zeby zrobic
+furniture_crafting rebuild_wood 36
+furniture_crafting metalparts 4
+
+
+
+
+
+// --------------------------------------------------
+class tables
+class_name AT587
+class_icon ico_furniture_tables.dds
+
+
+furniture table01
+furniture_name AT588
+furniture_description AA111
+furniture_icon icon_table_new_001.dds
+furniture_prefab prefabs\buildings\furniture\table_new_001_nocenter.x
+furniture_price 180
+furniture_weight 8
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 14
+furniture_crafting metalparts 2
+
+furniture table02
+furniture_name AT588
+furniture_description AA111
+furniture_icon icon_table_new_003.dds
+furniture_prefab prefabs\buildings\furniture\table_new_003_nocenter.x
+furniture_price 130
+furniture_weight 5
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 12
+furniture_crafting metalparts 1
+
+furniture table04
+furniture_name AT588
+furniture_description AA111
+furniture_icon icon_table_new_004.dds
+furniture_prefab prefabs\buildings\furniture\table_new_004_nocenter.x
+furniture_price 270
+furniture_weight 16
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 22
+furniture_crafting metalparts 4
+
+furniture desk01
+furniture_name AA118
+furniture_description AA111
+furniture_icon icon_desk_new_001.dds
+furniture_prefab prefabs\buildings\furniture\desk_new_001_nocenter.x
+furniture_price 240
+furniture_weight 14
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 24
+furniture_crafting metalparts 3
+
+furniture desk02
+furniture_name AA118
+furniture_description AA111
+furniture_icon icon_desk_new_002.dds
+furniture_prefab prefabs\buildings\furniture\desk_new_002_nocenter.x
+furniture_price 200
+furniture_weight 10
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 20
+furniture_crafting metalparts 3
+
+furniture kitchen_desk01
+furniture_name AA118
+furniture_description AA111
+furniture_icon icon_kitchen_table_1_1.dds
+furniture_prefab prefabs\buildings\furniture\kitchen_table_1_1_nocenter.x
+furniture_price 290
+furniture_weight 18
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 28
+furniture_crafting metalparts 4
+
+furniture kitchen_desk02
+furniture_name AA118
+furniture_description AA111
+furniture_icon icon_kitchen_table_2_1.dds
+furniture_prefab prefabs\buildings\furniture\kitchen_table_2_1_nocenter.x
+furniture_price 320
+furniture_weight 22
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 32
+furniture_crafting metalparts 6
+
+furniture family_table
+furniture_name AA231
+furniture_description AA111
+furniture_icon icon_family_table.dds
+furniture_prefab prefabs\buildings\furniture\family_table_nocenter.x
+furniture_price 330
+furniture_weight 12
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 36
+furniture_crafting metalparts 10
+
+furniture lu_desk01
+furniture_name AA118
+furniture_description AA111
+furniture_icon icon_lu_desk01.dds
+furniture_prefab prefabs\buildings\furniture\lu_desk_nocenter.x
+furniture_price 320
+furniture_weight 20
+// co potrzebuje zeby zrobic
+furniture_crafting rebuild_wood 70
+furniture_crafting metalparts 16
+
+furniture lu_table01
+furniture_name AT588
+furniture_description AA111
+furniture_icon icon_lu_table01.dds
+furniture_prefab prefabs\buildings\furniture\lu_table_nocenter.x
+furniture_price 340
+furniture_weight 22
+// co potrzebuje zeby zrobic
+furniture_crafting rebuild_wood 65
+furniture_crafting metalparts 8
+
+
+// --------------------------------------------------
+class wardobes
+class_name AT589
+class_icon ico_furniture_wardrobes.dds
+
+
+furniture wardobe01
+furniture_name AT590
+furniture_description AA111
+furniture_icon icon_wardobe_new_001.dds
+furniture_prefab prefabs\buildings\furniture\wardobe_new_001_nocenter.x
+furniture_price 350
+furniture_weight 35
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 36
+furniture_crafting metalparts 4
+
+furniture wardobe02
+furniture_name AT590
+furniture_description AA111
+furniture_icon icon_wardobe_new_002.dds
+furniture_prefab prefabs\buildings\furniture\wardobe_new_002_nocenter.x
+furniture_price 430
+furniture_weight 42
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 48
+furniture_crafting metalparts 6
+
+furniture lu_wardobe03
+furniture_name AT590
+furniture_description AA111
+furniture_icon icon_lu_wardobe03.dds
+furniture_prefab prefabs\buildings\furniture\lu_wardobe_nocenter.x
+furniture_price 560
+furniture_weight 52
+// co potrzebuje zeby zrobic
+furniture_crafting rebuild_wood 100
+furniture_crafting metalparts 12
+
+
+
+
+
+// --------------------------------------------------
+class stands
+class_name AA114
+class_icon ico_furniture_stands.dds
+
+
+furniture stand01
+furniture_name AA113
+furniture_description AA111
+furniture_icon hanger_new_001.dds
+furniture_prefab prefabs\buildings\furniture\hanger_new_001_nocenter.x
+furniture_price 110
+furniture_weight 3
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 5
+furniture_crafting metalparts 1
+
+
+furniture clothes_hanger01
+furniture_name AA116
+furniture_description AA111
+furniture_icon icon_hanger_new_002.dds
+furniture_prefab prefabs\buildings\furniture\hanger_new_002_nocenter.x
+furniture_price 130
+furniture_weight 6
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 10
+furniture_crafting metalparts 2
+
+
+furniture clothes_hanger02
+furniture_name AA116
+furniture_description AA111
+furniture_icon icon_hanger_new_003.dds
+furniture_prefab prefabs\buildings\furniture\hanger_new_003_nocenter.x
+furniture_price 130
+furniture_weight 4
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 7
+furniture_crafting metalparts 2
+
+
+furniture shoes_rack01
+furniture_name AA117
+furniture_description AA111
+furniture_icon icon_shoes_stand_new_001.dds
+furniture_prefab prefabs\buildings\furniture\shoes_stand_new_001_nocenter.x
+furniture_price 130
+furniture_weight 4
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 8
+furniture_crafting metalparts 2
+
+
+furniture shoes_rack02
+furniture_name AA117
+furniture_description AA111
+furniture_icon icon_cabinet_new_002.dds
+furniture_prefab prefabs\buildings\furniture\cabinet_new_002_nocenter.x
+furniture_price 120
+furniture_weight 6
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 12
+furniture_crafting metalparts 2
+
+
+
+furniture small_stand01
+furniture_name AA119
+furniture_description AA111
+furniture_icon cabinet_new_001.dds
+furniture_prefab prefabs\buildings\furniture\cabinet_new_001_nocenter.x
+furniture_price 120
+furniture_weight 6
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 13
+furniture_crafting metalparts 2
+
+
+
+
+furniture shelf_wall_1_new
+furniture_name AT594
+furniture_description AA111
+furniture_icon icon_shelf_wall_1_new.dds
+furniture_prefab prefabs\buildings\furniture\shelf_wall_1_new_nocenter.x
+furniture_price 45
+furniture_weight 3
+furniture_crafting firewood 9
+furniture_crafting metalparts 12
+
+furniture shelf_wall_2_new
+furniture_name AT594
+furniture_description AA111
+furniture_icon icon_shelf_wall_2_new.dds
+furniture_prefab prefabs\buildings\furniture\shelf_wall_2_new_nocenter.x
+furniture_price 38
+furniture_weight 2
+furniture_crafting firewood 15
+furniture_crafting metalparts 4
+
+furniture shelf_wall_3_new
+furniture_name AT594
+furniture_description AA111
+furniture_icon icon_shelf_wall_3_new.dds
+furniture_prefab prefabs\buildings\furniture\shelf_wall_3_new_nocenter.x
+furniture_price 50
+furniture_weight 3
+furniture_crafting firewood 18
+furniture_crafting metalparts 3
+
+furniture shelf_wall_4_new
+furniture_name AT594
+furniture_description AA111
+furniture_icon icon_shelf_wall_4_new.dds
+furniture_prefab prefabs\buildings\furniture\shelf_wall_4_new_nocenter.x
+furniture_price 32
+furniture_weight 2
+furniture_crafting firewood 20
+furniture_crafting metalparts 8
+
+furniture shelf_wall_5_new
+furniture_name AT594
+furniture_description AA111
+furniture_icon icon_shelf_wall_5_new.dds
+furniture_prefab prefabs\buildings\furniture\shelf_wall_5_new_nocenter.x
+furniture_price 52
+furniture_weight 3
+furniture_crafting firewood 14
+furniture_crafting metalparts 2
+
+furniture shelf_wall_6_new
+furniture_name AT594
+furniture_description AA111
+furniture_icon icon_shelf_wall_6_new.dds
+furniture_prefab prefabs\buildings\furniture\shelf_wall_6_new_nocenter.x
+furniture_price 36
+furniture_weight 2
+furniture_crafting firewood 16
+furniture_crafting metalparts 4
+
+
+
+
+
+
+
+// --------------------------------------------------
+class useful
+class_name AA115
+class_icon ico_furniture_useful.dds
+
+furniture mirror_led
+furniture_name AA204
+furniture_description AA245
+furniture_icon icon_mirror.dds
+furniture_prefab prefabs\buildings\furniture\decorations\mirror_modern_nocenter.x
+furniture_price 75
+furniture_weight 4
+// co potrzebuje zeby zrobic
+furniture_crafting metalparts 8
+furniture_crafting glass 4
+furniture_crafting firewood 24
+
+furniture mirror_old
+furniture_name AA204
+furniture_description AA245
+furniture_icon icon_mirror_old.dds
+furniture_prefab prefabs\buildings\furniture\decorations\mirror_old_nocenter.x
+furniture_price 50
+furniture_weight 3
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 22
+furniture_crafting glass 4
+furniture_crafting metalparts 4
+
+furniture flowerpot01
+furniture_name AA120
+furniture_description AA111
+furniture_icon icon_wooden_flowerpot_001.dds
+furniture_prefab prefabs\buildings\furniture\decorations\wooden_flowerpot_001_nocenter.x
+furniture_price 40
+furniture_weight 2
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 8
+
+
+furniture flowerpot02
+furniture_name AA120
+furniture_description AA111
+furniture_icon icon_wooden_flowerpot_002.dds
+furniture_prefab prefabs\buildings\furniture\decorations\wooden_flowerpot_002_nocenter.x
+furniture_price 45
+furniture_weight 3
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 10
+
+
+furniture candlestick01
+furniture_name AA121
+furniture_description AA111
+furniture_icon icon_candlestick_001.dds
+furniture_prefab prefabs\buildings\furniture\decorations\candlestick_001_nocenter.x
+furniture_price 35
+furniture_weight 1
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 3
+
+
+furniture candlestick02
+furniture_name AA121
+furniture_description AA111
+furniture_icon icon_candlestick_002.dds
+furniture_prefab prefabs\buildings\furniture\decorations\candlestick_002_nocenter.x
+furniture_price 40
+furniture_weight 3
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 5
+
+
+// furniture wallpicture01
+// furniture_name AA122
+// furniture_description AA111
+// furniture_icon icon_painting_001.dds
+// furniture_prefab prefabs\buildings\furniture\decorations\painting_001_nocenter.x
+// furniture_price 5
+// furniture_weight 1
+// co potrzebuje zeby zrobic
+// furniture_crafting firewood 5
+// furniture_crafting fabric 1
+
+// furniture wallpicture02
+// furniture_name AA122
+// furniture_description AA111
+// furniture_icon icon_painting_002.dds
+// furniture_prefab prefabs\buildings\furniture\decorations\painting_002_nocenter.x
+// furniture_price 5
+// furniture_weight 1
+// co potrzebuje zeby zrobic
+// furniture_crafting firewood 5
+// furniture_crafting fabric 1
+
+// furniture wallpicture03
+// furniture_name AA122
+// furniture_description AA111
+// furniture_icon icon_painting_003.dds
+// furniture_prefab prefabs\buildings\furniture\decorations\painting_003_nocenter.x
+// furniture_price 5
+// furniture_weight 1
+// co potrzebuje zeby zrobic
+// furniture_crafting firewood 5
+// furniture_crafting fabric 1
+
+// furniture wallpicture04
+// furniture_name AA122
+// furniture_description AA111
+// furniture_icon icon_painting_004.dds
+// furniture_prefab prefabs\buildings\furniture\decorations\painting_004_nocenter.x
+// furniture_price 5
+// furniture_weight 1
+// co potrzebuje zeby zrobic
+// furniture_crafting firewood 5
+// furniture_crafting fabric 1
+
+
+
+furniture scarecrow
+furniture_name AA188
+furniture_description AA189
+furniture_icon icon_scarecrow.dds
+furniture_prefab prefabs\Objects\scarecrow\scarecrow_nocenter.X
+furniture_price 9
+furniture_weight 3
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 4
+furniture_crafting fabric 1
+furniture_crafting pumpkin 1
+furniture_is_scarecrow
+
+
+furniture teetertotter
+furniture_name AA190
+furniture_description AA201
+furniture_icon icon_pg_titter.dds
+furniture_prefab prefabs\Buildings\furniture\playground\teeter_totter_1_nocenter.X
+furniture_price 160
+furniture_weight 20
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 16
+furniture_crafting metalparts 3
+
+furniture swing
+furniture_name AA191
+furniture_description AA201
+furniture_icon icon_pg_swing.dds
+furniture_prefab prefabs\Buildings\furniture\playground\swing_1_nocenter.X
+furniture_price 280
+furniture_weight 70
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 36
+furniture_crafting metalparts 6
+
+furniture sandbox
+furniture_name AA192
+furniture_description AA201
+furniture_icon icon_pg_sandbox.dds
+furniture_prefab prefabs\Buildings\furniture\playground\sandbox_1_nocenter.X
+furniture_price 120
+furniture_weight 30
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 18
+furniture_crafting metalparts 4
+
+furniture carousel
+furniture_name AA193
+furniture_description AA201
+furniture_icon icon_pg_carousel.dds
+furniture_prefab prefabs\Buildings\furniture\playground\carousel_1_nocenter.X
+furniture_price 320
+furniture_weight 22
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 26
+furniture_crafting metalparts 12
+
+
+
+
+furniture beehive
+furniture_name AA194
+furniture_description AA202
+furniture_icon item_honey_beehive.dds
+furniture_prefab prefabs\objects\beehives\beehive_nocenter.x
+furniture_price 125
+furniture_weight 35
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 26
+furniture_crafting metalparts 6
+furniture_is_beehive
+
+furniture beehive2
+furniture_name AA194
+furniture_description AA202
+furniture_icon item_honey_beehive2.dds
+furniture_prefab prefabs\objects\beehives\beehive_002_nocenter.x
+furniture_price 90
+furniture_weight 24
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 16
+furniture_crafting metalparts 4
+furniture_is_beehive
+
+
+furniture christmass_tree
+furniture_name AA232
+furniture_description AA201
+furniture_icon icon_christmas_tree.dds
+furniture_prefab prefabs\Objects\events_stuff\christmas_tree_nocenter.X
+furniture_price 180
+furniture_weight 80
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 75
+furniture_crafting metalparts 12
+furniture_crafting fabric 12
+furniture_crafting glass 20
+
+furniture deckchair01
+furniture_name AA248
+furniture_description AA249
+furniture_icon icon_deckchair_60s.dds
+furniture_prefab prefabs\Buildings\furniture\deck_chair_nocenter.X
+furniture_price 110
+furniture_weight 9
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 10
+furniture_crafting metalparts 2
+furniture_crafting fabric 8
+outdoors_only
+
+furniture deckchair02
+furniture_name AA248
+furniture_description AA249
+furniture_icon icon_deckchair.dds
+furniture_prefab prefabs\buildings\furniture\deck_chair_new_nocenter.x
+furniture_price 150
+furniture_weight 7
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 2
+furniture_crafting metalparts 12
+furniture_crafting fabric 8
+outdoors_only
+
+
+furniture pumpkin_hw1
+furniture_name OR18
+furniture_description AA201
+furniture_icon item_icon_pumpkin_hw1.dds
+furniture_prefab prefabs\objects\events_stuff\pumpkin_hw1_nocenter.x
+furniture_price 9
+furniture_weight 3
+// co potrzebuje zeby zrobic
+furniture_crafting pumpkin 1
+
+furniture pumpkin_hw2
+furniture_name OR18
+furniture_description AA201
+furniture_icon item_icon_pumpkin_hw2.dds
+furniture_prefab prefabs\objects\events_stuff\pumpkin_hw2_nocenter.x
+furniture_price 9
+furniture_weight 3
+// co potrzebuje zeby zrobic
+furniture_crafting pumpkin 1
+
+furniture pumpkin_hw3
+furniture_name OR18
+furniture_description AA201
+furniture_icon item_icon_pumpkin_hw3.dds
+furniture_prefab prefabs\objects\events_stuff\pumpkin_hw3_nocenter.x
+furniture_price 9
+furniture_weight 3
+// co potrzebuje zeby zrobic
+furniture_crafting pumpkin 1
+
+furniture pumpkin_hw4
+furniture_name OR18
+furniture_description AA201
+furniture_icon item_icon_pumpkin_hw4.dds
+furniture_prefab prefabs\objects\events_stuff\pumpkin_hw4_nocenter.x
+furniture_price 9
+furniture_weight 3
+// co potrzebuje zeby zrobic
+furniture_crafting pumpkin 1
+
+furniture lu_mirror01
+furniture_name AA204
+furniture_description AA245
+furniture_icon icon_lu_mirror01.dds
+furniture_prefab prefabs\buildings\furniture\lu_vanity_table_nocenter.x
+furniture_price 120
+furniture_weight 16
+// co potrzebuje zeby zrobic
+furniture_crafting rebuild_wood 36
+furniture_crafting glass 8
+furniture_crafting metalparts 8
+
+
+
+
+
+// --------------------------------------------------
+class beds
+class_name AT583
+class_icon ico_furniture_beds.dds
+
+
+furniture sofa1
+furniture_name AA173
+furniture_description AA111
+furniture_icon icon_sofa_wood_new_001.dds
+furniture_prefab prefabs\buildings\furniture\sofa_wood_new_001_nocenter.x
+furniture_price 90
+furniture_weight 24
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 28
+furniture_crafting metalparts 6
+furniture_crafting fabric 18
+
+furniture sofa2
+furniture_name AA173
+furniture_description AA111
+furniture_icon icon_sofa_metal_fabric_new_002.dds
+furniture_prefab prefabs\buildings\furniture\sofa_metal_fabric_new_002_nocenter.x
+furniture_price 120
+furniture_weight 18
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 5
+furniture_crafting metalparts 28
+furniture_crafting fabric 9
+
+furniture sofa3
+furniture_name AA173
+furniture_description AA111
+furniture_icon icon_sofa_metal_leather_new_002.dds
+furniture_prefab prefabs\buildings\furniture\sofa_metal_leathe_new_002_nocenter.x
+furniture_price 140
+furniture_weight 22
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 5
+furniture_crafting metalparts 28
+furniture_crafting leather 9
+
+furniture sofa4
+furniture_name AA173
+furniture_description AA111
+furniture_icon icon_sofa_fabric_new_003.dds
+furniture_prefab prefabs\buildings\furniture\sofa_fabric_new_003_nocenter.x
+furniture_price 160
+furniture_weight 25
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 20
+furniture_crafting metalparts 8
+furniture_crafting fabric 24
+
+furniture sofa5
+furniture_name AA173
+furniture_description AA111
+furniture_icon icon_sofa_leather_new_003.dds
+furniture_prefab prefabs\buildings\furniture\sofa_leathe_new_003_nocenter.x
+furniture_price 190
+furniture_weight 29
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 20
+furniture_crafting metalparts 8
+furniture_crafting leather 24
+
+furniture sofa6
+furniture_name AA173
+furniture_description AA111
+furniture_icon icon_sofa_wood_new_002.dds
+furniture_prefab prefabs\buildings\furniture\sofa_wood_new_002_nocenter.x
+furniture_price 100
+furniture_weight 28
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 32
+furniture_crafting metalparts 6
+furniture_crafting fabric 18
+
+
+
+furniture doublebed1
+furniture_name AA167
+furniture_description AA111
+furniture_icon icon_bed_double_wood_new_001.dds
+furniture_prefab prefabs\buildings\furniture\bed_double_wood_new_001_nocenter.x
+furniture_price 150
+furniture_weight 35
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 40
+furniture_crafting metalparts 12
+furniture_crafting fabric 32
+
+furniture doublebed2
+furniture_name AA167
+furniture_description AA111
+furniture_icon icon_bed_double_metal_new_002.dds
+furniture_prefab prefabs\buildings\furniture\bed_double_metal_new_002_nocenter.x
+furniture_price 150
+furniture_weight 30
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 5
+furniture_crafting metalparts 38
+furniture_crafting fabric 22
+
+furniture doublebed3
+furniture_name AA167
+furniture_description AA111
+furniture_icon icon_bed_double_leather_new_003.dds
+furniture_prefab prefabs\buildings\furniture\bed_double_leathe_new_003_nocenter.x
+furniture_price 240
+furniture_weight 42
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 28
+furniture_crafting metalparts 10
+furniture_crafting leather 38
+
+furniture doublebed4
+furniture_name AA167
+furniture_description AA111
+furniture_icon icon_bed_double_wood_new_002.dds
+furniture_prefab prefabs\buildings\furniture\bed_double_wood_new_002_nocenter.x
+furniture_price 160
+furniture_weight 42
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 45
+furniture_crafting metalparts 12
+furniture_crafting fabric 32
+
+
+
+furniture childbed1
+furniture_name AA169
+furniture_description AA111
+furniture_icon icon_bed_kid_wood_new_001.dds
+furniture_prefab prefabs\buildings\furniture\bed_kid_wood_new_001_nocenter.x
+furniture_price 100
+furniture_weight 20
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 28
+furniture_crafting metalparts 6
+furniture_crafting fabric 18
+
+furniture childbed2
+furniture_name AA169
+furniture_description AA111
+furniture_icon icon_bed_kid_metal_new_002.dds
+furniture_prefab prefabs\buildings\furniture\bed_kid_metal_new_002_nocenter.x
+furniture_price 100
+furniture_weight 18
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 5
+furniture_crafting metalparts 28
+furniture_crafting fabric 9
+
+furniture childbed3
+furniture_name AA169
+furniture_description AA111
+furniture_icon icon_bed_kid_leather_new_003.dds
+furniture_prefab prefabs\buildings\furniture\bed_kid_leathe_new_003_nocenter.x
+furniture_price 170
+furniture_weight 25
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 16
+furniture_crafting metalparts 8
+furniture_crafting leather 16
+
+furniture childbed4
+furniture_name AA169
+furniture_description AA111
+furniture_icon icon_bed_kid_wood_new_002.dds
+furniture_prefab prefabs\buildings\furniture\bed_kid_wood_new_002_nocenter.x
+furniture_price 120
+furniture_weight 27
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 20
+furniture_crafting metalparts 8
+furniture_crafting leather 16
+
+
+furniture crib1
+furniture_name AA171
+furniture_description AA111
+furniture_icon icon_crib_wood_new_001.dds
+furniture_prefab prefabs\buildings\furniture\crib_wood_new_001_nocenter.x
+furniture_price 40
+furniture_weight 8
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 12
+furniture_crafting metalparts 2
+furniture_crafting fabric 4
+
+furniture crib2
+furniture_name AA171
+furniture_description AA111
+furniture_icon icon_crib_wood_new_002.dds
+furniture_prefab prefabs\buildings\furniture\crib_wood_new_002_nocenter.x
+furniture_price 50
+furniture_weight 10
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 16
+furniture_crafting metalparts 4
+furniture_crafting fabric 4
+
+furniture crib3
+furniture_name AA171
+furniture_description AA111
+furniture_icon icon_crib_wood_new_003.dds
+furniture_prefab prefabs\buildings\furniture\crib_wood_new_003_nocenter.x
+furniture_price 60
+furniture_weight 8
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 15
+furniture_crafting metalparts 4
+furniture_crafting fabric 6
+
+furniture crib4
+furniture_name AA171
+furniture_description AA111
+furniture_icon icon_crib_wood_new_004.dds
+furniture_prefab prefabs\buildings\furniture\crib_wood_new_004_nocenter.x
+furniture_price 60
+furniture_weight 10
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 14
+furniture_crafting metalparts 4
+furniture_crafting fabric 6
+
+
+furniture lu_doublebed1
+furniture_name AA167
+furniture_description AA111
+furniture_icon icon_lu_doublebed1.dds
+furniture_prefab prefabs\buildings\furniture\lu_bed_double_nocenter.x
+furniture_price 390
+furniture_weight 75
+// co potrzebuje zeby zrobic
+furniture_crafting rebuild_wood 120
+furniture_crafting metalparts 22
+furniture_crafting fabric 48
+
+
+
+// --------------------------------------------------
+class Kitchen & Sanitary facilities
+class_name AA174
+class_icon ico_furniture_Kitchen_Sanitary.dds
+
+
+furniture kitchen_fridge1
+furniture_name AA246
+furniture_description AA247
+furniture_icon icon_kitchen_fridge_1_0.dds
+furniture_prefab prefabs\buildings\furniture\kitchen_fridge_1_0_nocenter.x
+furniture_price 600
+furniture_weight 55
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 40
+furniture_crafting metalparts 20
+
+furniture kitchen_old_fridge
+furniture_name AA246
+furniture_description AA247
+furniture_icon icon_kitchen_cabinet_fridge_old.dds
+furniture_prefab prefabs\buildings\furniture\kitchen_cabinet_fridge_old_nocenter.x
+furniture_price 75
+furniture_weight 25
+furniture_crafting firewood 14
+furniture_crafting metalparts 26
+
+furniture kitchen_cabinet_corner0
+furniture_name AA177
+furniture_description AA111
+furniture_icon icon_kitchen_cabinet_corner_1_0.dds
+furniture_prefab prefabs\buildings\furniture\kitchen_cabinet_corner_1_0_nocenter.x
+furniture_price 200
+furniture_weight 24
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 28
+furniture_crafting metalparts 10
+
+furniture kitchen_cabinet_drowers1_0
+furniture_name AA177
+furniture_description AA111
+furniture_icon icon_kitchen_cabinet_drawers_1_0.dds
+furniture_prefab prefabs\buildings\furniture\kitchen_cabinet_drawers_1_0_nocenter.x
+furniture_price 140
+furniture_weight 10
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 22
+furniture_crafting metalparts 10
+
+furniture kitchen_cabinet_drowers2_0
+furniture_name AA177
+furniture_description AA111
+furniture_icon icon_kitchen_cabinet_drawers_2_0.dds
+furniture_prefab prefabs\buildings\furniture\kitchen_cabinet_drawers_2_0_nocenter.x
+furniture_price 80
+furniture_weight 7
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 12
+furniture_crafting metalparts 8
+
+furniture kitchen_cabinet1_0
+furniture_name AA177
+furniture_description AA111
+furniture_icon icon_kitchen_cabinet_1_0.dds
+furniture_prefab prefabs\buildings\furniture\kitchen_cabinet_1_0_nocenter.x
+furniture_price 150
+furniture_weight 12
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 24
+furniture_crafting metalparts 14
+
+furniture kitchen_stove1_0
+furniture_name AA180
+furniture_description AA111
+furniture_icon icon_kitchen_cabinet_stove_1_0.dds
+furniture_prefab prefabs\buildings\furniture\kitchen_cabinet_stove_1_0_nocenter.x
+furniture_price 450
+furniture_weight 42
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 10
+furniture_crafting metalparts 40
+
+furniture kitchen_stove2_0
+furniture_name AA180
+furniture_description AA111
+furniture_icon icon_kitchen_cabinet_stove_2_0.dds
+furniture_prefab prefabs\buildings\furniture\kitchen_cabinet_stove_2_0_nocenter.x
+furniture_price 400
+furniture_weight 18
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 24
+furniture_crafting metalparts 14
+
+furniture kitchen_sink0
+furniture_name AA179
+furniture_description AA111
+furniture_icon icon_kitchen_cabinet_sink_1_0.dds
+furniture_prefab prefabs\buildings\furniture\kitchen_cabinet_sink_1_0_nocenter.x
+furniture_price 280
+furniture_weight 16
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 24
+furniture_crafting metalparts 16
+
+furniture kitchen_cabinet_shelves1_0
+furniture_name AA177
+furniture_description AA111
+furniture_icon icon_kitchen_cabinet_shelves_1_0.dds
+furniture_prefab prefabs\buildings\furniture\kitchen_cabinet_shelves_1_0_nocenter.x
+furniture_price 110
+furniture_weight 11
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 18
+furniture_crafting metalparts 10
+
+furniture kitchen_cabinet_shelves2_0
+furniture_name AA177
+furniture_description AA111
+furniture_icon icon_kitchen_cabinet_shelves_2_0.dds
+furniture_prefab prefabs\buildings\furniture\kitchen_cabinet_shelves_2_0_nocenter.x
+furniture_price 60
+furniture_weight 5
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 9
+furniture_crafting metalparts 4
+
+furniture kitchen_cabinet_corner1
+furniture_name AA178
+furniture_description AA111
+furniture_icon icon_kitchen_cabinet_corner_1_1.dds
+furniture_prefab prefabs\buildings\furniture\kitchen_cabinet_corner_1_1_nocenter.x
+furniture_price 380
+furniture_weight 45
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 50
+furniture_crafting metalparts 24
+
+furniture kitchen_cabinet_drowers1_1
+furniture_name AA178
+furniture_description AA111
+furniture_icon icon_kitchen_cabinet_drawers_1_1.dds
+furniture_prefab prefabs\buildings\furniture\kitchen_cabinet_drawers_1_1_nocenter.x
+furniture_price 300
+furniture_weight 25
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 40
+furniture_crafting metalparts 20
+
+furniture kitchen_cabinet_drowers2_1
+furniture_name AA178
+furniture_description AA111
+furniture_icon icon_kitchen_cabinet_drawers_2_1.dds
+furniture_prefab prefabs\buildings\furniture\kitchen_cabinet_drawers_2_1_nocenter.x
+furniture_price 140
+furniture_weight 13
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 24
+furniture_crafting metalparts 10
+
+furniture kitchen_cabinet1_1
+furniture_name AA178
+furniture_description AA111
+furniture_icon icon_kitchen_cabinet_1_1.dds
+furniture_prefab prefabs\buildings\furniture\kitchen_cabinet_1_1_nocenter.x
+furniture_price 280
+furniture_weight 26
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 40
+furniture_crafting metalparts 24
+
+furniture kitchen_stove1_1
+furniture_name AA180
+furniture_description AA111
+furniture_icon icon_kitchen_cabinet_stove_1_1.dds
+furniture_prefab prefabs\buildings\furniture\kitchen_cabinet_stove_1_1_nocenter.x
+furniture_price 500
+furniture_weight 52
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 30
+furniture_crafting metalparts 52
+
+furniture kitchen_stove2_1
+furniture_name AA180
+furniture_description AA111
+furniture_icon icon_kitchen_cabinet_stove_2_1.dds
+furniture_prefab prefabs\buildings\furniture\kitchen_cabinet_stove_2_1_nocenter.x
+furniture_price 450
+furniture_weight 30
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 40
+furniture_crafting metalparts 24
+
+furniture kitchen_sink1
+furniture_name AA179
+furniture_description AA111
+furniture_icon icon_kitchen_cabinet_sink_1_1.dds
+furniture_prefab prefabs\buildings\furniture\kitchen_cabinet_sink_1_1_nocenter.x
+furniture_price 330
+furniture_weight 26
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 40
+furniture_crafting metalparts 24
+
+furniture kitchen_cabinet_shelves1_1
+furniture_name AA178
+furniture_description AA111
+furniture_icon icon_kitchen_cabinet_shelves_1_1.dds
+furniture_prefab prefabs\buildings\furniture\kitchen_cabinet_shelves_1_1_nocenter.x
+furniture_price 220
+furniture_weight 20
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 34
+furniture_crafting metalparts 16
+
+furniture kitchen_cabinet_shelves2_1
+furniture_name AA178
+furniture_description AA111
+furniture_icon icon_kitchen_cabinet_shelves_2_1.dds
+furniture_prefab prefabs\buildings\furniture\kitchen_cabinet_shelves_2_1_nocenter.x
+furniture_price 100
+furniture_weight 10
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 16
+furniture_crafting metalparts 8
+
+
+
+// --------------------------------------------------
+class old
+class_name AA123
+class_hidden 
+
+
+furniture old_chair01
+furniture_name AA110
+furniture_description AA111
+furniture_icon icon_chair_001.dds
+furniture_prefab prefabs\buildings\furniture\chair_001_nocenter.x
+furniture_price 40
+furniture_weight 6
+furniture_crafting firewood 2
+
+furniture old_chair02
+furniture_name AA110
+furniture_description AA111
+furniture_icon icon_chair_002.dds
+furniture_prefab prefabs\buildings\furniture\chair_002_nocenter.x
+furniture_price 40
+furniture_weight 4
+furniture_crafting firewood 2
+
+furniture old_chair03
+furniture_name AA110
+furniture_description AA111
+furniture_icon icon_chair_003.dds
+furniture_prefab prefabs\buildings\furniture\chair_003_nocenter.x
+furniture_price 40
+furniture_crafting firewood 2
+
+furniture old_stool01
+furniture_name AA112
+furniture_description AA111
+furniture_icon icon_stool_001.dds
+furniture_prefab prefabs\buildings\furniture\stool_001_nocenter.x
+furniture_price 70
+furniture_weight 3
+furniture_crafting firewood 1
+
+furniture old_stool02
+furniture_name AA112
+furniture_description AA111
+furniture_icon icon_stool_002.dds
+furniture_prefab prefabs\buildings\furniture\stool_002_nocenter.x
+furniture_price 70
+furniture_weight 3
+furniture_crafting firewood 1
+
+furniture old_cupboard01
+furniture_name AT592
+furniture_description AA111
+furniture_icon icon_cupboard_001.dds
+furniture_prefab prefabs\buildings\furniture\cupboard_001_nocenter.x
+furniture_price 80
+furniture_weight 30
+furniture_crafting firewood 15
+furniture_crafting glass 6
+
+furniture old_cupboard02
+furniture_name AT592
+furniture_description AA111
+furniture_icon icon_cabinet_003.dds
+furniture_prefab prefabs\buildings\furniture\cabinet_003_nocenter.x
+furniture_price 70
+furniture_weight 24
+furniture_crafting firewood 12
+
+furniture old_cupboard03
+furniture_name AT592
+furniture_description AA111
+furniture_icon icon_cabinet_004.dds
+furniture_prefab prefabs\buildings\furniture\cabinet_004_nocenter.x
+furniture_price 55
+furniture_weight 18
+furniture_crafting firewood 11
+
+furniture old_cupboard04
+furniture_name AT592
+furniture_description AA111
+furniture_icon icon_dresser_001.dds
+furniture_prefab prefabs\buildings\furniture\dresser_001_nocenter.x
+furniture_price 70
+furniture_weight 15
+furniture_crafting firewood 10
+
+furniture old_small_stand02
+furniture_name AT592
+furniture_description AA111
+furniture_icon icon_bedside_001.dds
+furniture_prefab prefabs\buildings\furniture\bedside_001_nocenter.x
+furniture_price 30
+furniture_weight 6
+furniture_crafting firewood 7
+
+furniture old_table01
+furniture_name AT588
+furniture_description AA111
+furniture_icon icon_table_001.dds
+furniture_prefab prefabs\buildings\furniture\table_001_nocenter.x
+furniture_price 45
+furniture_weight 8
+furniture_crafting firewood 6
+
+furniture old_table02
+furniture_name AT588
+furniture_description AA111
+furniture_icon icon_table_003.dds
+furniture_prefab prefabs\buildings\furniture\table_003_nocenter.x
+furniture_price 35
+furniture_weight 5
+furniture_crafting firewood 5
+
+furniture old_table04
+furniture_name AT588
+furniture_description AA111
+furniture_icon icon_table_004.dds
+furniture_prefab prefabs\buildings\furniture\table_004_nocenter.x
+furniture_price 52
+furniture_weight 16
+furniture_crafting firewood 12
+
+furniture old_desk01
+furniture_name AA118
+furniture_description AA111
+furniture_icon icon_desk_001.dds
+furniture_prefab prefabs\buildings\furniture\desk_001_nocenter.x
+furniture_price 60
+furniture_weight 14
+furniture_crafting firewood 11
+
+furniture old_wardobe01
+furniture_name AT590
+furniture_description AA111
+furniture_icon icon_wardobe_001.dds
+furniture_prefab prefabs\buildings\furniture\wardobe_001_nocenter.x
+furniture_price 110
+furniture_weight 35
+furniture_crafting firewood 17
+
+furniture old_stand01
+furniture_name AA113
+furniture_description AA111
+furniture_icon icon_hanger_001.dds
+furniture_prefab prefabs\buildings\furniture\hanger_001_nocenter.x
+furniture_price 25
+furniture_weight 3
+furniture_crafting firewood 2
+
+furniture old_clothes_hanger01
+furniture_name AA116
+furniture_description AA111
+furniture_icon icon_hanger_002.dds
+furniture_prefab prefabs\buildings\furniture\hanger_002_nocenter.x
+furniture_price 40
+furniture_weight 6
+furniture_crafting firewood 4
+
+furniture old_clothes_hanger02
+furniture_name AA116
+furniture_description AA111
+furniture_icon icon_hanger_003.dds
+furniture_prefab prefabs\buildings\furniture\hanger_003_nocenter.x
+furniture_price 35
+furniture_weight 4
+furniture_crafting firewood 2
+
+furniture old_shoes_rack01
+furniture_name AA117
+furniture_description AA111
+furniture_icon icon_shoes_stand_001.dds
+furniture_prefab prefabs\buildings\furniture\shoes_stand_001_nocenter.x
+furniture_price 40
+furniture_weight 4
+furniture_crafting firewood 3
+
+furniture old_shoes_rack02
+furniture_name AA117
+furniture_description AA111
+furniture_icon icon_cabinet_002.dds
+furniture_prefab prefabs\buildings\furniture\cabinet_002_nocenter.x
+furniture_price 30
+furniture_weight 6
+furniture_crafting firewood 3
+
+furniture old_small_stand01
+furniture_name AA119
+furniture_description AA111
+furniture_icon icon_cabinet_001.dds
+furniture_prefab prefabs\buildings\furniture\cabinet_001_nocenter.x
+furniture_price 35
+furniture_weight 6
+furniture_crafting firewood 6
+
+furniture old_umbrella_stand
+furniture_name AA119
+furniture_description AA111
+furniture_icon icon_umbrella_stand_001.dds
+furniture_prefab prefabs\buildings\furniture\umbrella_stand_001_nocenter.x
+furniture_price 20
+furniture_weight 2
+furniture_crafting firewood 2
+
+furniture old_table_drawer
+furniture_name AA115
+furniture_description AA111
+furniture_icon icon_dresser_001.dds
+furniture_prefab prefabs\buildings\furniture\table_001_drawer_nocenter.x
+furniture_price 10
+furniture_weight 1
+furniture_crafting firewood 2
+
+
+
+
+
+
+
+// beds
+
+furniture old_sofa01
+furniture_name AA172
+furniture_description AA111
+furniture_icon icon_sofa_wood_002.dds
+furniture_prefab prefabs\buildings\furniture\sofa_wood_002_nocenter.x
+furniture_price 60
+furniture_weight 28
+furniture_crafting firewood 12
+furniture_crafting metalparts 4
+furniture_crafting fabric 8
+
+furniture old_doublebed4
+furniture_name AA166
+furniture_description AA111
+furniture_icon icon_bed_double_wood_002.dds
+furniture_prefab prefabs\buildings\furniture\bed_double_wood_002_nocenter.x
+furniture_price 90
+furniture_weight 42
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 35
+furniture_crafting metalparts 6
+furniture_crafting fabric 20
+
+furniture old_childbed4
+furniture_name AA168
+furniture_description AA111
+furniture_icon icon_bed_kid_wood_002.dds
+furniture_prefab prefabs\buildings\furniture\bed_kid_wood_002_nocenter.x
+furniture_price 50
+furniture_weight 27
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 20
+furniture_crafting metalparts 3
+furniture_crafting leather 7
+
+
+
+// kitchen
+
+furniture kitchen_old_corner
+furniture_name AA183
+furniture_description AA111
+furniture_icon icon_kitchen_cabinet_corner_old.dds
+furniture_prefab prefabs\buildings\furniture\kitchen_cabinet_corner_old_nocenter.x
+furniture_price 110
+furniture_weight 35
+furniture_crafting firewood 17
+furniture_crafting metalparts 6
+
+furniture kitchen_old_drawers
+furniture_name AA183
+furniture_description AA111
+furniture_icon icon_kitchen_cabinet_drawers_old.dds
+furniture_prefab prefabs\buildings\furniture\kitchen_cabinet_drawers_old_nocenter.x
+furniture_price 95
+furniture_weight 28
+furniture_crafting firewood 15
+furniture_crafting metalparts 4
+
+furniture kitchen_old_doors
+furniture_name AA183
+furniture_description AA111
+furniture_icon icon_kitchen_cabinet_doors_old.dds
+furniture_prefab prefabs\buildings\furniture\kitchen_cabinet_doors_old_nocenter.x
+furniture_price 80
+furniture_weight 22
+furniture_crafting firewood 12
+furniture_crafting metalparts 4
+
+furniture kitchen_old_shelves
+furniture_name AA183
+furniture_description AA111
+furniture_icon icon_kitchen_cabinet_shelves_old.dds
+furniture_prefab prefabs\buildings\furniture\kitchen_cabinet_shelves_old_nocenter.x
+furniture_price 80
+furniture_weight 22
+furniture_crafting firewood 12
+furniture_crafting metalparts 4
+
+furniture kitchen_old_base
+furniture_name AA182
+furniture_description AA111
+furniture_icon icon_kitchen_cabinet_base_old.dds
+furniture_prefab prefabs\buildings\furniture\kitchen_cabinet_base_old_nocenter.x
+furniture_price 40
+furniture_weight 12
+furniture_crafting firewood 10
+furniture_crafting metalparts 2
+
+furniture kitchen_old_stove
+furniture_name AA182
+furniture_description AA111
+furniture_icon icon_kitchen_cabinet_base_stove.dds
+furniture_prefab prefabs\buildings\furniture\kitchen_cabinet_stove_old_nocenter.x
+furniture_price 60
+furniture_weight 18
+furniture_crafting firewood 8
+furniture_crafting metalparts 12
+
+furniture kitchen_old_sink
+furniture_name AA182
+furniture_description AA111
+furniture_icon icon_kitchen_cabinet_sink_old.dds
+furniture_prefab prefabs\buildings\furniture\kitchen_cabinet_sink_old_nocenter.x
+furniture_price 55
+furniture_weight 16
+furniture_crafting firewood 8
+furniture_crafting metalparts 16
+
+
+
+// shelves
+
+furniture shelf_wall_1
+furniture_name AT594
+furniture_description AA111
+furniture_icon icon_shelf_wall_1.dds
+furniture_prefab prefabs\buildings\furniture\shelf_wall_1_nocenter.x
+furniture_price 20
+furniture_weight 3
+furniture_crafting firewood 6
+
+furniture shelf_wall_2
+furniture_name AT594
+furniture_description AA111
+furniture_icon icon_shelf_wall_2.dds
+furniture_prefab prefabs\buildings\furniture\shelf_wall_2_nocenter.x
+furniture_price 18
+furniture_weight 2
+furniture_crafting firewood 5
+furniture_crafting metalparts 2
+
+furniture shelf_wall_3
+furniture_name AT594
+furniture_description AA111
+furniture_icon icon_shelf_wall_3.dds
+furniture_prefab prefabs\buildings\furniture\shelf_wall_3_nocenter.x
+furniture_price 24
+furniture_weight 3
+furniture_crafting firewood 8
+furniture_crafting metalparts 3
+
+furniture shelf_wall_4
+furniture_name AT594
+furniture_description AA111
+furniture_icon icon_shelf_wall_4.dds
+furniture_prefab prefabs\buildings\furniture\shelf_wall_4_nocenter.x
+furniture_price 14
+furniture_weight 2
+furniture_crafting firewood 5
+furniture_crafting metalparts 2
+
+furniture shelf_wall_5
+furniture_name AT594
+furniture_description AA111
+furniture_icon icon_shelf_wall_5.dds
+furniture_prefab prefabs\buildings\furniture\shelf_wall_5_nocenter.x
+furniture_price 22
+furniture_weight 3
+furniture_crafting firewood 7
+furniture_crafting metalparts 2
+
+furniture shelf_wall_6
+furniture_name AT594
+furniture_description AA111
+furniture_icon icon_shelf_wall_6.dds
+furniture_prefab prefabs\buildings\furniture\shelf_wall_6_nocenter.x
+furniture_price 18
+furniture_weight 2
+furniture_crafting firewood 6
+furniture_crafting metalparts 2
+
+furniture bathtub_old_1
+furniture_name AA123A
+furniture_description AA111A
+furniture_icon icon_bathtub_very_old_1.dds
+furniture_prefab prefabs\buildings\furniture\bathtub_old_1_nocenter.x
+furniture_price 45
+furniture_weight 30
+furniture_crafting metalparts 45
+
+furniture bathtub_old_2
+furniture_name AA123A
+furniture_description AA111A
+furniture_icon icon_bathtub_very_old_2.dds
+furniture_prefab prefabs\buildings\furniture\bathtub_old_2_nocenter.x
+furniture_price 20
+furniture_weight 30
+furniture_crafting metalparts 22
+furniture_crafting fabric 6
+
+furniture bathroom_sink_old_1
+furniture_name AA123A
+furniture_description AA111a
+furniture_icon icon_sink_very_old_1.dds
+furniture_prefab prefabs\buildings\furniture\bathroom_sink_old_1_nocenter.x
+furniture_price 15
+furniture_weight 9
+furniture_crafting firewood 8
+
+furniture toilet_bowl_old_1
+furniture_name AA123A
+furniture_description AA111a
+furniture_icon icon_toilet_bowl_very_old_1.dds
+furniture_prefab prefabs\buildings\furniture\toilet_bowl_old_1_nocenter.x
+furniture_price 10
+furniture_weight 8
+
+furniture toilet_bowl_old_2
+furniture_name AA123A
+furniture_description AA111a
+furniture_icon icon_toilet_bowl_very_old_2.dds
+furniture_prefab prefabs\buildings\furniture\toilet_bowl_old_2_nocenter.x
+furniture_price 12
+furniture_weight 9
+
+furniture damage_wardobe01
+furniture_name AT590
+furniture_description AA111
+furniture_icon icon_wardobe_damage_001.dds
+furniture_prefab prefabs\buildings\furniture\wardobe_damage_001_nocenter.x
+furniture_price 25
+furniture_weight 30
+furniture_crafting firewood 13
+
+furniture damage_cupboard01
+furniture_name AT592
+furniture_description AA111
+furniture_icon icon_cupboard_damage_001.dds
+furniture_prefab prefabs\buildings\furniture\cupboard_damage_001_nocenter.x
+furniture_price 20
+furniture_weight 27
+furniture_crafting firewood 15
+
+furniture damage_door_wardobe01
+furniture_name AT592
+furniture_description AA111
+furniture_icon icon_wardobe_door_damage_001.dds
+furniture_prefab prefabs\buildings\furniture\wardobe_door_damage_001_nocenter.x
+furniture_price 2
+furniture_weight 4
+furniture_crafting firewood 3
+
+furniture damage_doublebed4
+furniture_name AA166
+furniture_description AA111
+furniture_icon icon_bed_double_wood_damage_002.dds
+furniture_prefab prefabs\buildings\furniture\bed_double_wood_damage_002_nocenter.x
+furniture_price 20
+furniture_weight 22
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 28
+furniture_crafting metalparts 4
+
+
+furniture damage_childbed4
+furniture_name AA168
+furniture_description AA111
+furniture_icon icon_bed_kid_wood_damage_002.dds
+furniture_prefab prefabs\buildings\furniture\bed_kid_wood_damage_002_nocenter.x
+furniture_price 15
+furniture_weight 14
+// co potrzebuje zeby zrobic
+furniture_crafting firewood 14
+furniture_crafting metalparts 2
+
+
+
+
+
+

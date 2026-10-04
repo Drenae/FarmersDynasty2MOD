@@ -1,0 +1,102 @@
+actor cow
+
+default_phase idle
+model prefabs\models\animals\cow\cow_001.X
+
+socket_eyes oczy
+
+contact_distance 8
+contact_angle 50
+
+ignore_physics
+animal
+
+
+phase idle
+animation cow_idle1
+animation cow_idle2
+animation cow_idle3
+animation cow_idle4
+on_end idle
+on_end lies_down
+on_end eat
+on_end drink
+// on_end walk
+
+phase lies_down
+animation cow_lies_down
+on_end sit
+
+phase sit
+animation cow_sit
+on_end sit
+on_end sit
+on_end sit
+on_end sleep
+on_end gets_up
+
+
+phase gets_up
+animation cow_gets_up
+on_end idle
+
+
+phase sleep
+animation cow_sleep
+on_end sleep
+on_end sleep
+on_end gets_up
+
+
+
+phase eat
+animation cow_eat
+on_end eat
+on_end eat
+on_end eat
+on_end idle
+
+phase drink
+animation cow_drink
+on_end drink
+on_end idle
+
+
+
+
+phase walk
+animation cow_walk
+on_end walk
+on_end walk
+on_end walk
+on_end walk2
+on_end trot
+on_end trot
+
+phase trot
+animation cow_trot
+on_end trot
+on_end trot
+on_end trot2
+on_end run
+
+phase run
+animation cow_run
+on_end run
+on_end run
+on_end run
+on_end trot2
+
+phase trot2
+animation cow_trot
+on_end trot2
+on_end trot2
+on_end walk2
+
+phase walk2
+animation cow_walk
+on_end walk2
+on_end walk2
+on_end idle
+
+

@@ -1,0 +1,977 @@
+
+world maps\map1.map
+// linie 1, 1a, 1b... to linia z malym slupem
+// linie 2, 2a,2b....to linia ze srednim slupem
+// linie 3, 3a, 3b... to linia z duzym slupem
+// linie hv... to linie wysokiego napiecia
+
+
+// powerplant/dam
+
+// pwrplnt 1
+linia
+grubosc_kabla 0.05
+socket s3
+socket s2
+socket s1
+
+slup hv050
+slup hv054
+slup hv062
+slup hv064
+
+
+
+// pwrplnt 2
+linia
+grubosc_kabla 0.05
+socket s4
+socket s5
+socket s6
+
+slup hv050
+slup hv051
+
+
+linia
+grubosc_kabla 0.05
+socket s1
+socket s2
+socket s3
+
+slup hv051
+slup hv052
+
+
+linia
+grubosc_kabla 0.05
+socket s4
+socket s5
+socket s6
+
+slup hv052
+slup hv054
+
+
+linia
+grubosc_kabla 0.05
+socket s4
+socket s5
+socket s6
+
+slup hv054
+slup hv057
+
+
+linia
+grubosc_kabla 0.05
+socket s1
+socket s2
+socket s3
+
+slup hv057
+slup hv060
+
+
+linia
+grubosc_kabla 0.05
+socket s4
+socket s5
+socket s6
+
+slup hv060
+slup hv062
+slup hv065
+
+
+
+
+// pwrplnt 3
+linia
+grubosc_kabla 0.05
+socket s1
+socket s2
+socket s3
+
+slup hv068
+slup hv069
+
+linia
+grubosc_kabla 0.05
+socket s4
+socket s5
+socket s6
+
+slup hv069
+slup hv053
+
+linia
+grubosc_kabla 0.05
+socket s1
+socket s2
+socket s3
+
+slup hv053
+slup hv055
+
+linia
+grubosc_kabla 0.05
+socket s1
+socket s2
+socket s3
+
+slup hv055
+slup hv058
+
+linia
+grubosc_kabla 0.05
+socket s4
+socket s5
+socket s6
+
+slup hv058
+slup hv070
+
+linia
+grubosc_kabla 0.05
+socket s1
+socket s2
+socket s3
+
+slup hv070
+slup hv061
+
+
+linia
+grubosc_kabla 0.05
+socket s1
+socket s2
+socket s3
+
+slup hv070
+slup hv063
+
+linia
+grubosc_kabla 0.05
+socket s1
+socket s2
+socket s3
+
+slup hv063
+slup hv066
+
+
+
+// pwrplnt 4
+linia
+grubosc_kabla 0.05
+socket s4
+socket s5
+socket s6
+
+slup hv068
+slup hv055
+slup hv063
+slup hv067
+
+
+
+// pwrplnt 5
+linia
+grubosc_kabla 0.05
+socket s1
+socket s2
+socket s3
+
+slup hv079
+slup hv077
+slup hv076
+slup hv075
+slup hv074
+slup hv073
+slup hv071
+
+
+// pwrplnt 6
+linia
+grubosc_kabla 0.05
+socket s4
+socket s5
+socket s6
+
+slup hv078
+slup hv076
+slup hv075
+slup hv074
+slup hv073
+slup hv072
+
+
+
+
+
+
+
+
+// hv1
+linia
+grubosc_kabla 0.09
+socket s1
+socket s2
+socket s3
+socket s4
+socket s5
+socket s6
+socket s7
+socket s8
+socket s9
+socket s10
+
+slup hv001
+slup hv002
+slup hv003
+slup hv004
+slup hv005
+slup hv006
+slup hv007
+slup hv080
+
+
+// hv2
+linia
+grubosc_kabla 0.09
+socket s3
+socket s5
+socket s6
+socket s8
+
+slup hv010
+slup hv011
+slup hv012
+slup hv013
+slup hv014
+slup hv015
+slup hv016
+slup hv017
+slup hv018
+slup hv019
+slup hv020
+slup hv021
+slup hv022
+slup hv081
+
+
+// hv3
+linia
+grubosc_kabla 0.09
+socket s1
+socket s2
+socket s3
+socket s8
+socket s9
+socket s10
+
+slup hv030
+slup hv031
+slup hv032
+slup hv033
+slup hv034
+slup hv035
+slup hv036
+slup hv037
+slup hv038
+slup hv039
+slup hv040
+slup hv041
+slup hv042
+slup hv043
+slup hv044
+slup hv045
+slup hv046
+slup hv047
+
+
+
+
+// przez podwórko do domu gracza
+linia
+grubosc_kabla 0.02
+socket s1
+socket s2
+
+//slup slup_001
+slup slup_002
+slup slup_003
+
+
+//  do cowsheda gracza
+//linia
+//grubosc_kabla 0.02
+//socket s3
+//socket s4
+
+//slup slup_004
+//slup slup_001
+
+
+// przy domu
+linia
+grubosc_kabla 0.02
+socket s3
+socket s4
+
+slup slup_005
+slup slup_003
+
+
+// od ulicy do gracza
+//linia
+//grubosc_kabla 0.02
+//socket s1
+//socket s2
+
+//slup slup_001
+//slup slup_0010
+//slup slup_0011
+//slup slup_013
+
+
+// od tamy, między farmami Mii i gracza, przy sklepie, na północ, na zachód przez las i pola, na północ wzdłuż drogi
+linia
+grubosc_kabla 0.02
+socket s3
+socket s4
+
+slup slup_006v
+slup slup_006w
+slup slup_006x
+slup slup_006y
+slup slup_006z
+slup slup_006
+slup slup_007
+slup slup_008
+slup slup_009
+slup slup_010
+slup slup_011
+slup slup_012
+slup slup_013
+slup slup_014
+slup slup_015
+slup slup_016
+slup slup_017
+slup slup_018
+slup slup_019
+slup slup_020
+slup slup_021
+slup slup_022
+slup slup_022a
+slup slup_022b
+slup slup_022c
+slup slup_022d
+slup slup_022e
+slup slup_022f
+slup slup_022g
+slup slup_022h
+slup slup_022i
+slup slup_022j
+slup slup_022k
+slup slup_022l
+slup slup_022m
+slup slup_022n
+slup slup_022o
+slup slup_022p
+slup slup_022q
+slup slup_022r
+slup slup_022s
+slup slup_022t
+slup slup_022u
+slup slup_022v
+slup slup_022w
+slup slup_022x
+slup slup_022y
+slup slup_022z
+slup slup_022z01
+slup slup_022z02
+slup slup_022z03
+slup slup_022z04
+slup slup_022z05
+slup slup_022z06
+//slup slup_022z07
+//slup slup_022z08
+//slup slup_022z09
+//slup slup_022z10
+
+
+// na farme Mii
+linia
+grubosc_kabla 0.02
+socket s3
+socket s4
+
+slup slup_012
+slup slup_012a
+slup slup_012b
+
+
+// od dirtowej drogi do farmy 6
+linia
+grubosc_kabla 0.02
+socket s3
+
+slup slup_022e
+slup slup_022e1
+slup slup_022e2
+slup slup_022e3
+
+
+// na farmę 5
+linia
+grubosc_kabla 0.02
+socket s1
+
+slup slup_022l
+slup slup_022l1
+slup slup_022l2
+slup slup_022l3
+
+
+// przez podwórko farmy 5
+linia
+grubosc_kabla 0.02
+socket s1
+
+slup slup_022l2
+slup slup_022l4
+
+
+// na farmę 11
+linia
+grubosc_kabla 0.02
+socket s1
+socket s4
+
+slup slup_022y
+slup slup_022y1
+slup slup_022y2
+slup slup_022y3
+slup slup_022y4
+slup slup_022y5
+slup slup_022y6
+
+
+// na farmę 25
+linia
+grubosc_kabla 0.02
+socket s1
+socket s2
+
+slup slup_022z01
+slup slup_022z01a
+slup slup_022z01b
+slup slup_022z01c
+slup slup_022z01d
+slup slup_022z01e
+slup slup_022z01f
+slup slup_022z01g
+slup slup_022z01h
+slup slup_022z01i
+slup slup_022z01j
+slup slup_022z01k
+slup slup_022z01l
+slup slup_022z01m
+slup slup_022z01n
+slup slup_022z01o
+
+
+// na farmę 10
+linia
+grubosc_kabla 0.02
+socket s4
+
+slup slup_022z02
+slup slup_022z02a
+slup slup_022z02b
+
+
+// na farmę 9
+linia
+grubosc_kabla 0.02
+socket s3
+
+slup slup_022z06
+slup slup_022z06a
+slup slup_022z06b
+
+
+// od tamy na wschód, przy NE car shopie, przy NE silosach
+linia
+grubosc_kabla 0.02
+socket s1
+socket s2
+socket s3
+socket s4
+
+slup slup_tama_001
+slup slup_tama_002
+slup slup_tama_003
+slup slup_tama_004
+slup slup_tama_005
+slup slup_tama_006
+slup slup_tama_007
+slup slup_tama_008
+slup slup_tama_009
+slup slup_tama_010
+slup slup_tama_011
+slup slup_tama_012
+slup slup_tama_013
+slup slup_tama_014
+slup slup_tama_015
+slup slup_tama_016
+slup slup_tama_017
+slup slup_tama_018
+slup slup_tama_019
+slup slup_tama_020
+slup slup_061
+
+
+// do farmy 23
+linia
+grubosc_kabla 0.02
+socket s3
+socket s4
+
+slup slup_tama_014
+slup slup_tama_014a
+slup slup_tama_014b
+slup slup_tama_014c
+slup slup_tama_014d
+slup slup_tama_014e
+slup slup_tama_014f
+slup slup_tama_014g
+slup slup_tama_014h
+slup slup_tama_014i
+
+
+// na farmie 1302
+linia
+grubosc_kabla 0.02
+socket s1
+
+slup pole1302e
+slup pole1302f
+slup pole1302g
+slup pole1302b
+
+
+// wzdłuż wschodniej drogi, przy północnych polach, do północnego Bricomarche
+linia
+grubosc_kabla 0.02
+socket s2
+socket s3
+
+slup slup_078
+slup slup_077
+slup slup_076
+slup slup_075
+slup slup_074
+slup slup_073
+slup slup_072
+slup slup_071
+slup slup_070
+slup slup_069
+slup slup_068
+slup slup_067
+slup slup_066
+slup slup_065
+slup slup_064
+slup slup_063
+slup slup_062
+slup slup_061
+slup slup_060
+slup slup_059
+slup slup_058
+slup slup_057
+slup slup_056
+slup slup_055
+slup slup_054
+slup slup_053
+slup slup_052
+slup slup_051
+slup slup_050
+slup slup_049
+slup slup_048
+slup slup_047
+slup slup_046
+slup slup_045
+slup slup_044
+slup slup_043
+slup slup_042
+slup slup_041
+slup slup_040
+slup slup_039
+slup slup_038
+slup slup_037
+slup slup_036
+slup slup_035
+slup slup_034
+slup slup_033
+slup slup_032
+slup slup_031
+slup slup_030
+slup slup_029
+slup slup_028
+slup slup_027
+slup slup_026
+slup slup_025
+slup slup_024
+slup slup_023
+slup pole1302a
+slup pole1302b
+slup pole1302c
+slup pole1302d
+slup pole031
+slup pole032
+slup pole033
+slup pole034
+slup pole035
+slup pole036
+slup pole037
+slup pole038
+slup pole039
+slup pole040
+slup pole041
+slup pole042
+slup pole043
+slup pole044
+slup pole045
+slup pole024
+//slup pole046
+//slup pole047
+//slup pole048
+//slup pole049
+
+
+// na farmę 1220
+linia
+grubosc_kabla 0.02
+socket s2
+socket s3
+
+slup slup_038
+slup slup_038a
+slup slup_038b
+
+
+// na farmę 27
+linia
+grubosc_kabla 0.02
+socket s3
+
+slup slup_046
+slup slup_046a
+
+
+// na farmę 27
+linia
+grubosc_kabla 0.02
+socket s2
+socket s3
+
+slup slup_046
+slup slup_046b
+slup slup_046c
+
+
+// na farmę 22
+linia
+grubosc_kabla 0.02
+socket s2
+socket s3
+
+slup slup_059
+slup slup_059a
+slup slup_059b
+slup slup_059c
+
+
+// na farmę 8
+linia
+grubosc_kabla 0.02
+socket s3
+
+slup slup_066
+slup slup_066a
+slup slup_066b
+slup slup_066c
+
+
+// na farmę 7
+linia
+grubosc_kabla 0.02
+socket s4
+
+slup slup_069
+slup slup_069a
+slup slup_069b
+slup slup_069c
+
+
+// do garażu 1303
+linia
+grubosc_kabla 0.02
+socket s1
+socket s2
+
+slup pole1303d
+slup pole1303a
+
+
+// do kurnika 1303
+linia
+grubosc_kabla 0.02
+socket s3
+socket s4
+
+slup pole1303e
+slup pole1303b
+slup pole1303a
+
+
+// do domu 1303
+linia
+grubosc_kabla 0.02
+socket s1
+
+slup pole1303f
+slup pole1303a
+
+
+// na farmę 1303
+linia
+grubosc_kabla 0.02
+socket s2
+socket s3
+
+slup pole035
+slup pole1303a
+
+
+// od farmy 16 przez południowy most, przy farmie Emily, do farmy dziadka Jeremiego i na południe do farmy 12
+linia
+grubosc_kabla 0.02
+socket s1
+socket s2
+socket s3
+
+slup pole000q
+slup pole000r
+slup pole000s
+slup pole000t
+slup pole000u
+slup pole000v
+slup pole000w
+slup pole000x
+slup pole000y
+slup pole000z
+slup pole000
+slup pole001
+slup pole002
+slup pole003
+slup pole004
+slup pole005
+slup pole006
+slup pole007
+slup pole008
+slup pole009
+slup pole010
+slup pole011
+slup pole012
+slup pole013
+slup pole014
+slup pole015
+slup pole015a
+slup pole016
+slup pole016a
+slup pole017
+slup pole018
+slup pole019
+slup pole020
+slup pole021
+slup pole022
+slup pole023
+slup pole024
+slup pole025
+slup pole025a
+slup pole025b
+
+
+// na farmie Emily
+linia
+grubosc_kabla 0.02
+socket s1
+socket s4
+
+slup pole028
+slup pole027
+slup pole026
+slup pole013
+
+
+// od zawalonej drogi w SE rogu na zachód do farmy 17
+linia
+grubosc_kabla 0.02
+socket s1
+socket s2
+socket s4
+
+slup slup_079
+slup slup_080
+slup slup_081
+slup slup_082
+slup slup_083
+slup slup_084
+slup slup_085
+slup slup_086
+slup slup_087
+slup slup_088
+slup slup_089
+slup slup_090
+slup slup_091
+slup slup_092
+slup slup_093
+slup slup_094
+slup slup_095
+slup slup_096
+slup slup_097
+slup slup_098
+slup slup_099
+slup slup_100
+slup slup_101
+slup slup_102
+slup slup_103
+slup slup_104
+slup slup_105
+slup slup_106
+slup slup_107
+slup slup_108
+slup slup_109
+slup slup_110
+slup slup_111
+slup slup_112
+slup slup_113
+slup slup_114
+slup slup_115
+slup slup_116
+slup slup_117
+slup slup_118
+slup slup_119
+slup slup_120
+slup slup_121
+slup slup_122
+slup slup_123
+slup slup_124
+slup slup_125
+slup slup_126
+slup slup_127
+slup slup_128
+slup slup_129
+slup slup_130
+slup slup_131
+
+
+// na farmę 15
+linia
+grubosc_kabla 0.02
+socket s4
+
+slup slup_108
+slup slup_108a
+slup slup_108b
+
+
+// na farmę 14
+linia
+grubosc_kabla 0.02
+socket s1
+socket s2
+
+slup slup_109
+slup slup_109a
+
+
+// na farmę 13 do domu
+linia
+grubosc_kabla 0.02
+socket s1
+
+slup slup_114
+slup slup_114a
+slup slup_114b
+slup slup_114c
+
+// na farmę 13 do lampy
+linia
+grubosc_kabla 0.02
+socket s2
+
+slup slup_114b
+slup slup_114d
+
+
+// na farmę 19
+linia
+grubosc_kabla 0.02
+socket s1
+socket s3
+
+slup slup_117
+slup slup_117a
+slup slup_117b
+
+
+// na farmę 18
+linia
+grubosc_kabla 0.02
+socket s1
+socket s2
+
+slup slup_119
+slup slup_119a
+slup slup_119b
+
+
+// od farmy 17 na zachód i na północ między wzgórzami
+linia
+grubosc_kabla 0.02
+socket s3
+socket s4
+
+slup slup_131
+slup slup_132
+slup slup_133
+slup slup_134
+slup slup_135
+slup slup_136
+slup slup_137
+slup slup_138
+slup slup_139
+slup slup_140
+slup slup_141
+slup slup_142
+slup slup_143
+slup slup_144
+slup slup_145
+slup slup_146
+slup slup_147
+slup slup_148
+slup slup_149
+slup slup_150
+slup slup_151
+slup slup_152
+slup slup_153
+slup slup_154
+slup slup_155
+slup slup_156
+slup slup_022m
+
+

@@ -1,0 +1,7 @@
+mesh_filename prefabs\buildings\furniture\sofa_wood_new_001_nocenter.x
+socket sit -0.800000 -0.670000 0.070000
+socket camera -1.300000 -2.300000 1.680000
+socket wife 0.750000 -0.760000 0.040000
+socket child -0.300000 -0.170000 0.140000
+socket child2 0.220000 -0.170000 0.140000
+socket camera_look_at 0.000000 0.000000 1.000000

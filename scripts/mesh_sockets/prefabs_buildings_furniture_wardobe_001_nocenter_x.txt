@@ -1,0 +1,2 @@
+mesh_filename prefabs\buildings\furniture\wardobe_001_nocenter.x
+socket hero 0.000000 -1.000000 1.700000

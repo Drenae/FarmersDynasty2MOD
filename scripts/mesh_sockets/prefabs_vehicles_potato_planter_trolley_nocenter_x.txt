@@ -1,0 +1,7 @@
+mesh_filename prefabs\vehicles\potato_planter\trolley_nocenter.x
+socket light1 -1.253000 -1.032000 -0.092000
+socket light2 1.258000 -1.032000 -0.110000
+socket light3 1.258000 -1.032000 -0.072000
+socket lt1 -1.253000 -1.042000 -0.092000
+socket lt2 1.258000 -1.042000 -0.110000
+socket lc1 1.258000 -1.042000 -0.072000

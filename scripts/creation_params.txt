@@ -1,0 +1,372 @@
+//
+// file describes params that will be automatically assigned by editor while the mesh is created
+// caution! if set, these will overwrite editor settings!
+// created 2012 08 25
+//
+// list of params:
+// physics <1-box, 2-cyllinder, 3 - sphere> <mass>
+//         <4-mesh shape> <mass> <prefabs\path\physics_simple_mesh.x>
+//         <0-mesh physics (from the same mesh - mesh collide)>
+
+
+
+// WORLD OBJECTS
+
+// wildcart prefabs\Objects\Poles\street_pole_003.X
+// physics 1 5000
+
+
+wildcart prefabs\buildings\town_houses\fountain_001_nocenter.x
+physics 4 0 prefabs\buildings\town_houses\physics_fountain_001_nocenter.x
+
+wildcart prefabs\buildings\shop_machinery\shop_machinery_1_nocenter.x
+physics 4 0 prefabs\buildings\shop_machinery\PHYSICS_shop_machinery_1_nocenter.x
+
+wildcart prefabs\buildings\shop_machinery\shop_machinery_1_new_nocenter.x
+physics 4 0 prefabs\buildings\shop_machinery\physics_shop_machinery_1_new_nocenter.x
+
+wildcart prefabs\buildings\shelters_stuff\workbench_002_nocenter.x
+physics 4 0 prefabs\buildings\shelters_stuff\physics_workbench_002_nocenter.x
+
+wildcart prefabs\buildings\shelters_stuff\workbench_001_nocenter.x
+physics 4 0 prefabs\buildings\shelters_stuff\physics_workbench_002_nocenter.x
+
+wildcart prefabs\Objects\old_tree_limb01_nocenter.X
+physics 4 0 prefabs\Objects\PHYSICS_old_tree_limb01_nocenter.X
+
+wildcart prefabs\Objects\old_tree_limb02_nocenter.X
+physics 4 0 prefabs\Objects\Physics_old_tree_limb02_nocenter.X
+
+wildcart prefabs\Buildings\dam\dam_nocenter.X
+physics 4 0 prefabs\Buildings\dam\PHYSICS_dam_nocenter.X
+
+wildcart prefabs\Buildings\bridges\bridge_metal_001_nocenter.X
+physics 4 0 prefabs\Buildings\bridges\PHYSICS_bridge_metal_001_nocenter.X
+
+wildcart prefabs\Buildings\bridges\bridge_metal_002_nocenter.X
+physics 4 0 prefabs\Buildings\bridges\PHYSICS_bridge_metal_002_nocenter.X
+
+wildcart prefabs\Objects\fireplace_nocenter.X
+physics 4 0 prefabs\Objects\PHYSICS_fireplace_nocenter.X
+
+wildcart prefabs\Objects\stones\rock_001.X
+physics 4 0 prefabs\Objects\stones\PHYSICS_rock_001.X
+
+wildcart prefabs\Objects\stones\rock_002.X
+physics 4 0 prefabs\Objects\stones\PHYSICS_rock_002.X
+
+wildcart prefabs\Objects\stones\rock_003.X
+physics 4 0 prefabs\Objects\stones\PHYSICS_rock_003.X
+
+wildcart prefabs\Objects\stones\rock_004.X
+physics 4 0 prefabs\Objects\stones\PHYSICS_rock_004.X
+
+wildcart prefabs\Objects\stones\stone_001.X
+physics 4 0 prefabs\Objects\stones\PHYSICS_stone_001.X
+
+wildcart prefabs\Objects\stones\stone_002.X
+physics 4 0 prefabs\Objects\stones\PHYSICS_stone_002.X
+
+wildcart prefabs\Objects\stones\stone_003.X
+physics 4 0 prefabs\Objects\stones\PHYSICS_stone_003.X
+
+wildcart prefabs\Objects\stones\stone_004.X
+physics 4 0 prefabs\Objects\stones\PHYSICS_stone_004.X
+
+wildcart prefabs\Objects\stones\small\small_rock01_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\stones\small\small_rock02_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\stones\small\small_rock03_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\stones\small\small_rock04_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\stones\small\small_rock05_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\stones\small\small_rock06_nocenter.X
+physics 1 
+
+
+
+// SCAFFOLDING
+
+wildcart prefabs\Buildings\scaffold\scaffold2_nocenter.X
+physics 4 0 prefabs\Buildings\scaffold\scaffold2_PHYSICS_nocenter.X
+
+wildcart prefabs\Buildings\scaffold\scaffold1_nocenter.X
+physics 4 0 prefabs\Buildings\scaffold\scaffold1_PHYSICS_nocenter.X
+
+wildcart prefabs\Buildings\scaffold\scaffold3_nocenter.X
+physics 4 0 prefabs\Buildings\scaffold\scaffold3_PHYSICS_nocenter.X
+
+wildcart prefabs\Buildings\scaffold\scaffold4_nocenter.X
+physics 4 0 prefabs\Buildings\scaffold\scaffold4_PHYSICS_nocenter.X
+
+wildcart prefabs\Buildings\scaffold\scaffold5_nocenter.X
+physics 4 0 prefabs\Buildings\scaffold\scaffold5_PHYSICS_nocenter.X
+
+wildcart prefabs\Buildings\scaffold\scaffold6_nocenter.X
+physics 4 0 prefabs\Buildings\scaffold\scaffold6_PHYSICS_nocenter.X
+
+wildcart prefabs\Buildings\scaffold\scaffold7_nocenter.X
+physics 4 0 prefabs\Buildings\scaffold\scaffold7_PHYSICS_nocenter.X
+
+
+// FENCES
+
+wildcart prefabs\Objects\fences\pl_wood_fixed_fence_1_1_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_fixed_fence_2_1_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_fixed_fence_gate_1_1_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_fixed_fence_gate_1_2_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_fixed_fence_gate_2_1_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_fixed_fence_gate_2_2_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_fixed_fence_wicket_1_1_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_fixed_fence2_1_1_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_fixed_fence2_1_2_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_fixed_fence2_1_3_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_fixed_fence2_1_4_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_fixed_fence2_1_5_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_fixed_fence2_gate_1_1_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_fixed_fence2_gate_1_2_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_fixed_fence2_gate_2_1_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_fixed_fence2_gate_2_2_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_fixed_fence2_wicket_1_1_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_fixed_fence4_1_1_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_fixed_fence4_1_2_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_fixed_fence4_1_3_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_fixed_fence4_1_4_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_fixed_fence4_gate_1_1_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_fixed_fence4_gate_1_2_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_fixed_fence4_gate_2_1_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_fixed_fence4_gate_2_2_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_fixed_fence5_1_1_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_fixed_fence5_1_2_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_fixed_fence5_1_3_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_fixed_fence5_1_4_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_fixed_fence5_1_5_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_fixed_fence5_gate_1_1_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_fixed_fence5_gate_2_1_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_fixed_fence6_1_1_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_fixed_fence6_1_2_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_fixed_fence6_1_3_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_fixed_fence6_wicket_1_1_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_fixed_fence_3_1_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_fixed_fence_4_1_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_fixed_fence_5_1_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_fixed_fence_6_1_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_new_fence_1_1_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_new_fence_gate_1_1_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_new_fence_gate_2_1_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_new_fence_wicket_1_1_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_new_fence2_1_1_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_new_fence2_gate_1_1_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_new_fence2_gate_2_1_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_new_fence2_wicket_1_1_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_new_fence4_1_1_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_new_fence4_gate_1_1_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_new_fence4_gate_2_1_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_new_fence5_1_1_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_new_fence5_gate_1_1_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_new_fence5_gate_2_1_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_new_fence6_1_1_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_new_fence6_wicket_1_1_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_old_fence_2_1_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_old_fence_3_1_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_old_fence_4_1_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_old_fence_5_1_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_old_fence_6_1_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_old_fence_gate_1_2_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_old_fence_gate_2_2_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_old_fence2_1_3_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_old_fence2_1_4_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_old_fence2_gate_1_2_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_old_fence2_gate_2_2_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_old_fence3_1_2_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_old_fence3_1_3_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_old_fence3_1_4_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_old_fence3_gate_1_2_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_old_fence3_gate_2_2_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_old_fence4_1_2_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_old_fence4_1_3_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_old_fence4_1_4_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_old_fence4_gate_1_2_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_old_fence4_gate_2_2_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_old_fence5_1_2_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_old_fence5_1_3_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_old_fence5_1_4_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_old_fence5_1_5_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_old_fence6_1_2_nocenter.X
+physics 1
+
+wildcart prefabs\Objects\fences\pl_wood_old_fence6_1_3_nocenter.X
+physics 1
+
+
+

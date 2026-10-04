@@ -1,0 +1,4 @@
+mesh_filename prefabs\vehicles\harvester_l770\harvester_l770_lift_nocenter.x
+socket header 0.000000 1.710000 -1.110000
+socket p1_left -0.640000 1.570000 -1.200000
+socket p1_right 0.840000 1.570000 -1.200000

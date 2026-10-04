@@ -1,0 +1,2 @@
+mesh_filename prefabs\vehicles\tractor_f69\3p_rear_top_nocenter.x
+socket z3p3 0.000000 0.260000 0.030000

@@ -1,0 +1,1 @@
+mesh_filename prefabs\objects\poles\pole_hv_002_nocenter.x

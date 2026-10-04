@@ -1,0 +1,11 @@
+mesh_filename prefabs\vehicles\mower_sidecutter\side_nocenter.x
+socket reel 1.610000 -0.200000 -0.400000
+socket rotor1 0.400000 0.190000 -0.670000
+socket rotor2 0.790000 0.190000 -0.670000
+socket rotor3 1.190000 0.190000 -0.670000
+socket rotor4 1.610000 0.190000 -0.670000
+socket rotor5 2.010000 0.190000 -0.670000
+socket rotor6 2.420000 0.190000 -0.670000
+socket rotor7 2.830000 0.190000 -0.670000
+socket p2 -0.220000 0.500000 -0.215000
+socket p4 0.130000 0.210000 -0.170000

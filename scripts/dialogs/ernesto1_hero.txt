@@ -1,0 +1,68 @@
+//
+// Dialog z ernesto
+//
+
+
+//dzien dobry robicie biznes? tak, pomozesz nam w zamian za kombajn? (btw ricardo by sie jakas panienka przydala) 
+//ok, czego wam trzeba? wytnij las i zeskladuj logi w tamtym tentegesu, pokaze ci jak je nosic, oprocz kombajnu dostaniesz heder
+hero_dialog ernesto1_dialog1
+hero DLQ13L07
+actor DLQ13L08
+hero DLQ13L09
+actor DLQ13L10
+hero DLQ13L11
+actor DLQ13L12
+hero DLQ13L13
+actor DLQ13L14
+actor DLQ13L15
+hero DLQ13L16
+actor DLQ13L17
+actor DLQ13L18
+hero DLQ13L19
+actor DLQ13L20
+actor DLQ13L21
+hero DLQ13L22
+actor DLQ13L23
+actor DLQ13L24
+hero DLQ13L25
+actor DLQ13L26
+hero DLQ13L27
+actor DLQ13L28
+hero DLQ13L29
+actor DLQ13L30
+
+
+//las wyciety a logi zeskladowane, dzieki mordo kombajn i heder twoje a my bedziemy wedzic, przywiez miensko to dobrze zaplacimy
+hero_dialog ernesto1_dialog2
+hero DLQ13L31
+actor DLQ13L32
+actor DLQ13L33
+hero DLQ13L34
+actor DLQ13L35
+actor DLQ13L36
+hero DLQ13L37
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,2 @@
+mesh_filename prefabs\buildings\furniture\decorations\mirror_modern_nocenter.x
+socket hero 0.000000 0.600000 1.600000

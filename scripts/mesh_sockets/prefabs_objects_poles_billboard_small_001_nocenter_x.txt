@@ -1,0 +1,2 @@
+mesh_filename prefabs\objects\poles\billboard_small_001_nocenter.x
+socket light 0.000000 -2.400000 5.900000

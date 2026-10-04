@@ -1,0 +1,110 @@
+Vehicle >trailer_old_log
+prefab prefabs\vehicles\trailer_old_log\trailer_old_log_nocenter.x
+Mass 2500.0
+Stiffness 10
+
+spawn_id 23
+
+tag >MT37
+
+
+
+przyczepa
+na_logi
+timber_lift
+working_width 4
+old_tractors_can_attach
+price 3000
+
+renew_and_paint
+repairable trailer_old_wood_hds.dds trailer_old_wood_hds_repaired.dds
+color 0.24 0.47 0.56
+
+
+
+// COLLISION MESH
+
+collision_mesh prefabs\vehicles\trailer_old_log\PHYSICS_tariler_old_log_nocenter.X
+
+// pScaleY
+mnoznik_fizyki_y 0.2
+// pScaleZ
+mnoznik_fizyki_z 0.68
+// pScaleX
+mnoznik_fizyki_x 0.6
+
+// pTransY
+przesuniecie_fizyki_gora 0.75
+// pTransZ
+przesuniecie_fizyki_przod -0.8
+// pTransX
+przesuniecie_fizyki_prawo 0.0
+
+
+// HOOKS
+hak zaczep
+zaczep_do_hak_gorny
+
+
+// CRANE
+
+// crane1 (1)
+// obrot w osi y (lokalnej): <mnoznik_predkosci_obrotu> <zakres_min_obrotu> <zakres_max_obrotu>
+crane_rotate_y 0.25 -2.3 2.3
+attachment prefabs\vehicles\trailer_old_log\crane1_nocenter.x crane1
+
+// crane2 (2)
+crane_rotate_x 0.5 -0.6 0.1
+attachment prefabs\vehicles\trailer_old_log\crane2_nocenter.x crane2 1
+
+// crane3 (3)
+crane_rotate2_x 2.0 -2.0 0.0
+attachment prefabs\vehicles\trailer_old_log\crane3_nocenter.x crane3 2
+
+// crane4 (4)
+crane_hook_lift
+attachment prefabs\vehicles\trailer_old_log\crane4_nocenter.x crane4 3
+
+// hook1 (5)
+crane_hook1
+attachment prefabs\vehicles\trailer_old_log\hook_1_nocenter.x hook1 4
+
+// hook2 (6)
+crane_hook2
+attachment prefabs\vehicles\trailer_old_log\hook_2_nocenter.x hook2 4
+
+
+
+// PISTONS
+piston prefabs\vehicles\trailer_old_log\piston1_nocenter.x 1 p1 2 p1a
+piston prefabs\vehicles\trailer_old_log\piston1a_nocenter.x 2 p1a 1 p1
+
+piston prefabs\vehicles\trailer_old_log\piston2_nocenter.x 2 p2 3 p2a
+piston prefabs\vehicles\trailer_old_log\piston2a_nocenter.x 3 p2a 2 p2
+
+piston prefabs\vehicles\trailer_old_log\piston3_nocenter.x 5 p3 6 p3a
+piston prefabs\vehicles\trailer_old_log\piston3a_nocenter.x 6 p3a 5 p3
+
+
+
+
+
+
+
+// WHEELS & MUDGUARDS
+
+// wheel_invisible prefabs\vehicles\trailer_old_log\wheel_right_3_nocenter.X wheel_fake
+wheel prefabs\vehicles\trailer_old_log\wheel_right_3_nocenter.X wheel_front_right
+wheel prefabs\vehicles\trailer_old_log\wheel_left_3_nocenter.X wheel_front_left
+wheel prefabs\vehicles\trailer_old_log\wheel_right_3_nocenter.X wheel_rear_right
+wheel prefabs\vehicles\trailer_old_log\wheel_left_3_nocenter.X wheel_rear_left
+
+
+
+
+
+
+
+
+
+

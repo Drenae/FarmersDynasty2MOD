@@ -1,0 +1,58 @@
+//
+// Dialog z ericem
+//
+
+// elo ucz mnie mistrzu stolarski, dobra twoj dziadek byl spoko to daj drewno i metal to cie naucze kraftingu
+hero_dialog eric1_dialog1
+hero DLQ23L01
+actor DLQ23L02
+hero DLQ23L03
+actor DLQ23L04
+hero DLQ23L05
+actor DLQ23L09
+hero DLQ23L11
+actor DLQ23L12
+actor DLQ23L13
+hero DLQ23L14
+actor DLQ23L15
+hero DLQ23L16
+actor DLQ23L17
+
+// elo ucz mnie mistrzu stolarski, idz sobie nie lubie cie bo twuj dziadek nam nie pomugl
+hero_dialog eric1_dialog31
+hero DLQ23L01
+actor DLQ23L02
+hero DLQ23L03
+actor DLQ23L04
+hero DLQ23L05
+actor DLQ23L06
+actor DLQ23L07
+
+// elo twoj dziadek byl jednak wporzo, daj drewno i metal to cie naucze kraftingu
+hero_dialog eric1_dialog32
+actor DLQ23L10
+hero DLQ23L11
+actor DLQ23L12
+actor DLQ23L13
+hero DLQ23L14
+actor DLQ23L15
+hero DLQ23L16
+actor DLQ23L17
+
+// masz tu drewno i metal, supcio to paczaj tak sie montuje krzeselko...
+hero_dialog eric1_dialog2
+hero DLQ23L18
+actor DLQ23L19
+actor DLQ23L20
+actor DLQ23L21
+hero DLQ23L22
+actor DLQ23L23
+hero DLQ23L24
+actor DLQ23L25
+
+
+
+
+
+
+

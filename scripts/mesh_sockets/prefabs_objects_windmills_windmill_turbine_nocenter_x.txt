@@ -1,0 +1,3 @@
+mesh_filename prefabs\objects\windmills\windmill_turbine_nocenter.x
+socket motor 0.000000 0.000000 55.299995
+socket fx 0.800000 4.800000 63.299980

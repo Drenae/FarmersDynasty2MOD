@@ -1,0 +1,2 @@
+mesh_filename prefabs\useable\shovel2_nocenter.x
+socket fx 0.000000 1.320000 0.030000

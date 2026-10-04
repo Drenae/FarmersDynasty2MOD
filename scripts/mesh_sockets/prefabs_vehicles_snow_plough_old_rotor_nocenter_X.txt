@@ -1,0 +1,4 @@
+mesh_filename prefabs\vehicles\snow_plough_old\rotor_nocenter.X
+socket plough 0.000000 0.130000 0.240000
+socket support_leg 0.010000 0.050000 -0.210000
+socket fx0 0.700000 0.600000 -0.300000

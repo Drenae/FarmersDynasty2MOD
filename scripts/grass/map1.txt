@@ -1,0 +1,176 @@
+world maps\map1.map
+
+
+texture grass_ground01.tga
+prefab prefabs\grass\grass_01_nocenter.X
+prefab prefabs\grass\grass_01_nocenter.X
+prefab prefabs\grass\grass_01_nocenter.X
+prefab prefabs\grass\grass_01_nocenter.X
+prefab prefabs\grass\grass_01_nocenter.X
+prefab prefabs\grass\grass_01_nocenter.X
+prefab prefabs\grass\grass_01_nocenter.X
+prefab prefabs\grass\grass_01_nocenter.X
+prefab prefabs\grass\grass_01_nocenter.X
+prefab prefabs\grass\grass_01_nocenter.X
+prefab prefabs\grass\grass_meadow01_nocenter.X
+prefab prefabs\grass\grass_meadow02_nocenter.X
+prefab prefabs\grass\grass_meadow01_nocenter.X
+prefab prefabs\grass\grass_meadow01_nocenter.X
+prefab prefabs\grass\grass_meadow02_nocenter.X
+prefab prefabs\grass\grass_high_nocenter.X
+prefab prefabs\grass\grass_high_nocenter.X
+prefab prefabs\grass\grass_01_nocenter.X
+prefab prefabs\grass\grass_01_nocenter.X
+prefab prefabs\grass\grass_01_nocenter.X
+prefab prefabs\grass\grass_bush01_nocenter.X
+prefab prefabs\grass\grass_bush01_nocenter.X
+prefab prefabs\grass\grass_flower01_nocenter.X
+prefab prefabs\grass\grass_flower01_nocenter.X
+prefab prefabs\grass\grass_flower01_nocenter.X
+prefab prefabs\grass\grass_flower01_nocenter.X
+prefab prefabs\grass\grass_flower02_nocenter.X
+prefab prefabs\grass\grass_flower01_nocenter.X
+prefab prefabs\grass\grass_flower02_nocenter.X
+prefab prefabs\grass\grass_flower01_nocenter.X
+prefab prefabs\grass\grass_flower01_nocenter.X
+prefab prefabs\grass\grass_flower02_nocenter.X
+prefab prefabs\grass\grass_flower01_nocenter.X
+prefab prefabs\grass\grass_flower01_nocenter.X
+prefab prefabs\grass\grass_flower01_nocenter.X
+prefab prefabs\grass\grass_flower01_nocenter.X
+prefab prefabs\grass\grass_flower01_nocenter.X
+prefab prefabs\grass\grass_flower02_nocenter.X
+prefab prefabs\grass\grass_flower01_nocenter.X
+prefab prefabs\grass\grass_flower02_nocenter.X
+prefab prefabs\grass\grass_flower01_nocenter.X
+prefab prefabs\grass\grass_flower01_nocenter.X
+prefab prefabs\grass\grass_flower02_nocenter.X
+prefab prefabs\grass\grass_flower01_nocenter.X
+
+
+
+
+texture forest_ground01.tga
+prefab prefabs\grass\grass_01_nocenter.X
+prefab prefabs\grass\grass_01_nocenter.X
+prefab prefabs\grass\grass_01_nocenter.X
+prefab prefabs\grass\grass_01_nocenter.X
+prefab prefabs\grass\grass_01_nocenter.X
+prefab prefabs\grass\grass_01_nocenter.X
+prefab prefabs\grass\grass_01_nocenter.X
+prefab prefabs\grass\grass_01_nocenter.X
+prefab prefabs\grass\grass_01_nocenter.X
+prefab prefabs\grass\grass_01_nocenter.X
+prefab prefabs\grass\grass_meadow01_nocenter.X
+prefab prefabs\grass\grass_meadow02_nocenter.X
+prefab prefabs\grass\grass_meadow01_nocenter.X
+prefab prefabs\grass\grass_meadow01_nocenter.X
+prefab prefabs\grass\grass_meadow02_nocenter.X
+prefab prefabs\grass\grass_high_nocenter.X
+prefab prefabs\grass\grass_high_nocenter.X
+prefab prefabs\grass\grass_01_nocenter.X
+prefab prefabs\grass\grass_01_nocenter.X
+prefab prefabs\grass\grass_01_nocenter.X
+prefab prefabs\grass\grass_bush01_nocenter.X
+prefab prefabs\grass\grass_bush01_nocenter.X
+prefab prefabs\grass\grass_flower01_nocenter.X
+prefab prefabs\grass\grass_flower02_nocenter.X
+prefab prefabs\grass\grass_flower01_nocenter.X
+prefab prefabs\grass\grass_flower01_nocenter.X
+prefab prefabs\grass\grass_flower02_nocenter.X
+prefab prefabs\grass\grass_flower01_nocenter.X
+prefab prefabs\grass\grass_fern01_nocenter.X
+prefab prefabs\grass\grass_fern01_nocenter.X
+prefab prefabs\grass\grass_fern01_nocenter.X
+prefab prefabs\grass\grass_fern01_nocenter.X
+prefab prefabs\grass\grass_fern01_nocenter.X
+prefab prefabs\grass\grass_fern01_nocenter.X
+prefab prefabs\grass\grass_fern01_nocenter.X
+prefab prefabs\grass\grass_fern01_nocenter.X
+prefab prefabs\grass\grass_fern01_nocenter.X
+prefab prefabs\grass\grass_fern01_nocenter.X
+prefab prefabs\grass\grass_fern01_nocenter.X
+prefab prefabs\grass\grass_fern01_nocenter.X
+prefab prefabs\grass\grass_fern01_nocenter.X
+prefab prefabs\grass\grass_fern01_nocenter.X
+prefab prefabs\grass\grass_fern01_nocenter.X
+prefab prefabs\grass\grass_fern01_nocenter.X
+prefab prefabs\grass\grass_fern01_nocenter.X
+prefab prefabs\grass\grass_fern01_nocenter.X
+
+
+
+prefab prefabs\grass\bush_grass_01_nocenter.X
+prefab prefabs\grass\fern_01_nocenter.X
+prefab prefabs\grass\fern_02_nocenter.X
+prefab prefabs\grass\grass_01_nocenter.X
+prefab prefabs\grass\grass_bush01_nocenter.X
+prefab prefabs\grass\grass_fern01_nocenter.X
+prefab prefabs\grass\grass_flower01_nocenter.X
+prefab prefabs\grass\grass_flower02_nocenter.X
+prefab prefabs\grass\grass_flowers_01_nocenter.X
+prefab prefabs\grass\grass_flowers_02_nocenter.X
+prefab prefabs\grass\grass_high_nocenter.X
+prefab prefabs\grass\grass_meadow01_nocenter.X
+prefab prefabs\grass\grass_meadow02_nocenter.X
+prefab prefabs\grass\high_01_nocenter.X
+prefab prefabs\grass\high_02_nocenter.X
+prefab prefabs\grass\high_03_nocenter.X
+prefab prefabs\grass\high_04_nocenter.X
+prefab prefabs\grass\grass_typha01_nocenter.X
+prefab prefabs\grass\grass_watergrass01_nocenter.X
+prefab prefabs\grass\grass_SINGLE_high01_nocenter.X
+
+prefab prefabs\grass\crops\crops_wheat03_nocenter.X
+prefab prefabs\grass\crops\crops_beets03_nocenter.X
+
+
+
+
+prefab prefabs\grass\grass_SINGLE01_nocenter.X
+
+texture girder_001.tga
+prefab prefabs\grass\grass_bush_forest01_nocenter.X
+prefab prefabs\grass\grass_bush_forest02_nocenter.X
+prefab prefabs\grass\grass_bush_forest03_nocenter.X
+prefab prefabs\grass\grass_bush_forest04_nocenter.X 
+prefab prefabs\grass\grass_yellow01_nocenter.X 
+prefab prefabs\grass\grass_meadow03_nocenter.X
+prefab prefabs\grass\grass_fern02_nocenter.X 
+prefab prefabs\grass\crops\crops_oat03_nocenter.X
+prefab prefabs\grass\crops\crops_corn02_nocenter.X
+prefab prefabs\grass\crops\crops_rye03_nocenter.X
+prefab prefabs\grass\crops\crops_sunflower03_nocenter.X
+prefab prefabs\grass\grass_weed01_nocenter.X 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

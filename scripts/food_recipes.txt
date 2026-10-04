@@ -1,0 +1,232 @@
+class basic
+class_name AA134
+class_icon ico_cooking_basic.dds
+
+
+// lekka zupa pomidorowa
+// 4 pomidory
+recipe tomatosoup1
+ingredient tomato 4
+outcome tomato2 2
+
+// czysta (biala) kielbasa
+recipe uncookedsausage
+ingredient meat
+outcome uncookedsausage 4
+
+// ser
+recipe cheese1
+ingredient milk 1
+outcome cheese 1
+
+
+
+
+
+
+class traditional
+class_name AA135
+class_icon ico_cooking_traditional.dds
+
+// smazone jajka
+// 3 jajka plus kielbasa
+recipe friedeggs1
+ingredient sausage
+ingredient egg 3
+outcome eggs2 2
+
+// kielbasa w piwie
+// kola, 2 kielbasy, chili
+recipe sausagecoke1
+ingredient coke
+ingredient uncookedsausage 2
+ingredient chili
+outcome sausage2 2
+
+// leczo
+// 4 pomidory, 1 paprika, 1 chili, 1 kielbasa
+recipe leczo
+ingredient tomato 4
+ingredient paprika
+ingredient chili
+ingredient uncookedsausage
+outcome sausage3 1
+
+// szakszuka
+// 2 pomidory, papryka, chili, 4 jajka
+recipe szakszuka
+ingredient tomato 2
+ingredient paprika
+ingredient chili
+ingredient egg 4
+outcome eggs3 1
+
+// stew grzybowy
+// 5 grzyby, 2 miesa, 4 pomidory, 2 papryki
+recipe stewmushroom
+ingredient mushroom 5
+ingredient meat 2
+ingredient tomato 4
+ingredient paprika 2
+outcome stew1 3
+
+recipe pasta1
+ingredient flourbag 1
+ingredient tomato 4
+ingredient basil 1
+outcome pastatomato 1
+
+recipe pasta2
+ingredient flourbag 1
+ingredient mushroom 2
+ingredient parsley 1
+outcome pastamushroom 1
+
+recipe colachicken1
+ingredient coke 1
+ingredient chickenleg 2
+ingredient chili 1
+outcome chickencola 1
+
+recipe friedchicken1
+ingredient chickenleg 2
+ingredient tomato 2
+ingredient zucchini 1
+outcome chicken01 1
+
+recipe lasagna1
+ingredient flourbag 1
+ingredient meat 1
+ingredient tomato 4
+ingredient basil 2
+outcome lasagna 1
+
+recipe pierogi1
+ingredient flourbag 2
+ingredient cheese 2
+outcome pierogi01 2
+
+recipe duckeggdish1
+ingredient duckegg 3
+ingredient paprika 1
+outcome duckeggdish01 1
+
+recipe duckeggdish2
+ingredient duckegg 3
+ingredient uncookedsausage 1
+ingredient mushroom 2
+outcome duckeggdish02 1
+
+
+
+class sweets
+class_name AA136
+class_icon ico_cooking_sweets.dds
+
+recipe muffin1
+ingredient flourbag 1
+ingredient strawberry 2
+ingredient honey 1
+outcome muffin01 3
+
+recipe cake1
+ingredient flourbag 1
+ingredient cheese 2
+ingredient honey 1
+outcome cake01 1
+
+
+class potions
+class_name AT442
+class_icon ico_cooking_potion.dds
+
+//night vision
+recipe owlpotion1
+ingredient honey 1
+ingredient herb0 1
+ingredient herb3 1
+ingredient parsley 4
+outcome potion0
+
+//no need for food or sleep
+recipe sunpotion1
+ingredient honey 1
+ingredient herb1 1
+ingredient herb6 1
+ingredient chili 3
+outcome potion1
+
+//faster repairs, building and chainsaw cutting
+recipe beaverpotion1
+ingredient honey 1
+ingredient herb2 1
+ingredient herb3 1
+ingredient coke 2
+outcome potion2
+
+//inventory weight capacity increased by 200
+recipe mountainpotion1
+ingredient honey 1
+ingredient herb5 1
+ingredient herb6 1
+ingredient mushroom 5
+outcome potion3
+
+//shampoo for sale
+recipe shampoopotion1
+ingredient honey 1
+ingredient herb4 1
+ingredient herb6 1
+ingredient cutgrass 5
+outcome potion4
+
+//skin lotion for sale
+recipe lotionpotion1
+ingredient honey 1
+ingredient herb7 1
+ingredient herb3 1
+ingredient melon 2
+outcome potion5
+
+
+
+class BBQ
+class_name AA239
+class_icon icon_bbq.dds
+class_bbq
+
+// stejk
+recipe steak
+ingredient meat 2
+outcome steak 2
+
+// szaszlyk
+recipe shashlik
+ingredient meat 2
+ingredient paprika 2
+ingredient zucchini 1
+outcome shashlik 4
+
+// grillowane warzywa
+recipe grilledvegetables
+ingredient mushroom 2
+ingredient tomato 2
+ingredient paprika 2
+ingredient zucchini 1
+outcome grilledvegetables 2
+
+recipe sausage
+ingredient uncookedsausage 4
+ingredient chili 1
+outcome sausage 4
+
+recipe chickenbbq1
+ingredient chickenleg 2
+ingredient chili 1
+outcome chickenbbq 2
+
+
+//class manual
+//class_name AA140
+//class_icon ico_cooking_norecipe.dds
+

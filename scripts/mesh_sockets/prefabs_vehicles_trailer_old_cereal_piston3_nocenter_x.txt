@@ -1,0 +1,2 @@
+mesh_filename prefabs\vehicles\trailer_old_cereal\piston3_nocenter.x
+socket piston 0.000000 0.000000 0.000000

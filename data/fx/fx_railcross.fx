@@ -1,0 +1,75 @@
+Type Sprite
+Filename spr_red_light_short.TGA
+
+Scale 1.500000 1.500000 1.500000
+Scale_Rand 0.000000 0.000000 0.000000
+
+Pos 0.000000 0.000000 0.000000
+Pos_Rand 0.000000 0.000000 0.000000
+
+Vel 0.000000 0.000000 0.000000
+Vel_Rand 0.000000 0.000000 0.000000
+
+dwColor 7
+dwAlpha 2
+dwAlphaT 2
+Color 0 0.000000 0.000000 0.000000
+Color_Time 0 0.000000
+Color 1 64.000000 55.000000 55.000000
+Color_Time 1 0.089974
+Color 2 251.000000 215.000000 215.000000
+Color_Time 2 0.203085
+Color 3 245.000000 35.000000 35.000000
+Color_Time 3 0.460154
+Color 4 253.000000 238.000000 238.000000
+Color_Time 4 0.771208
+Color 5 67.000000 50.000000 50.000000
+Color_Time 5 0.868895
+Color 6 0.000000 0.000000 0.000000
+Color_Time 6 1.000000
+Alpha 0 255.000000
+Alpha_Time 0 0.000000
+Alpha 1 255.000000
+Alpha_Time 1 1.000000
+AlphaT 0 0.000000
+Alpha_TimeT 0 0.000000
+AlphaT 1 255.000000
+Alpha_TimeT 1 1.000000
+
+Hurt_Player 0.000000
+Explosion_Power 0.000000
+Life_Time 0.300000
+Life_Time_Rand 0.000000
+Gravity 0.000000
+Gravity_Rand 0.000000
+Grow 0.000000
+Grow_Rand 0.000000
+Disappear_Distance 0.000000
+Spinning_Sprite false
+Spinning_Speed 1.000000
+Spinning_Speed_Rand 20.000000
+Spin_Left false
+Spin_Random false
+Rotation_From_Parent false
+Accelerate_After 0.000000
+Accelerate_Coef 0.000000
+Accelerate_For 0.000000
+
+Move false
+Water_Normal false
+Distortion_Normal false
+Transparent_As_Treshold false
+Mesh_Is_Water false
+Additive true
+Light_Sprite false
+Use_Rotation false
+Flat_Rotation false
+Random_Rotation_On_Start false
+Apply_Physics_To_Mesh false
+Animated_Sprite_Texture false
+Animated_Sprite_FPS 25.000000
+Animated_Sprite_First_Frame 0
+Random_Animated_Frame false
+Animated_Sprite_Num_Frames 0
+
+

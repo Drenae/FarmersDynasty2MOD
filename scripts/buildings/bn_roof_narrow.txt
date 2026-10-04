@@ -1,0 +1,64 @@
+// definiuje kolejne prefaby (stopnie przebudowy), w grze moze byc wlozony dowolny, ale musza byc unikalne dla danego setu
+// part <id_warstwy> <id_materialu> <klucz_text_keys_z_opisem> <sciezka\prefab>
+// -1 jako indeks materialu oznacza ten sam material, ale nie budowe tylko naprawe, czyli przejscie z polamanych na naprostowane deski BEZ kupowania desek.
+
+
+// eternit
+
+part 0 14 MAT14 prefabs\Buildings\barns\bn_bitumen_old_roof_3_5_nocenter.X
+part 1 -1  MAT13 prefabs\Buildings\barns\bn_bitumen_fixed_roof_4_5_nocenter.X
+
+
+// niewidzoczne i papa
+
+part 2 26  MAT26 prefabs\Buildings\barns\bn_bitumen_fixed_roof_8_1_nocenter.X
+part 8 -1  MAT26 prefabs\buildings\barns\bn_stretch_fixed_roof_8_1_nocenter.x
+
+
+// nowe
+// bitumen
+part 3 13  MAT13 prefabs\Buildings\barns\bn_bitumen_new_roof_4_1_nocenter.X
+
+// red shingle
+part 4 14  MAT14 prefabs\buildings\barns\bn_shingle_new_roof_1a_nocenter.x
+
+// green metal
+part 5 15  MAT15 prefabs\buildings\barns\bn_metal_new_roof_2a_nocenter.x
+
+// red ceramic
+part 6 16 MAT16 prefabs\buildings\barns\bn_ceramic_new_roof_3a_nocenter.x
+
+// tin roof
+part 7 17 MAT17 prefabs\buildings\barns\bn_tin_new_roof_4a_nocenter.x
+
+
+
+part 9 14  MAT14 prefabs\Buildings\barns\bn_bitumen_fixed_roof_3_5_nocenter.X
+part 10 15  MAT15 prefabs\Buildings\barns\bn_bitumen_new_roof_3_1_nocenter.X
+part 11 16 MAT16 prefabs\Buildings\barns\bn_bitumen_new_roof_5_1_nocenter.X
+part 12 17 MAT17 prefabs\Buildings\barns\bn_bitumen_new_roof_6_1_nocenter.X
+
+
+
+
+
+
+
+// i teraz dla danego elementu definiujemy w ktory moze przejsc
+// pierwszy parametr to ktorego tyczy sie definicja, nastepne - w ktore moze byc zmieniony
+
+path 0   1 3 4 5 6 7
+path 1   3 4 5 6 7
+path 2   3 4 5 6 7 8
+
+path 3   4 5 6 7
+path 4   3 5 6 7
+path 5   3 4 6 7
+path 6   3 4 5 7
+path 7   3 4 5 6
+path 8   3 4 5 6 7
+
+path 9   3 4 5 6 7
+path 10   3 4 5 6 7
+path 11   3 4 5 6 7
+path 12   3 4 5 6 7

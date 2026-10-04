@@ -1,0 +1,7 @@
+mesh_filename prefabs\objects\poles\pole_hv_003_nocenter.x
+socket s1 2.060000 -1.360000 2.880000
+socket s2 0.000000 -1.360000 2.880000
+socket s3 -2.060000 -1.360000 2.880000
+socket s4 2.060000 1.360000 2.880000
+socket s5 0.000000 1.360000 2.880000
+socket s6 -2.060000 1.360000 2.880000

@@ -1,0 +1,2 @@
+mesh_filename prefabs\vehicles\beets_harvester_old\transporter_nocenter.x
+socket beets2 0.000000 0.000000 0.030000

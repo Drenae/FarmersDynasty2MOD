@@ -1,0 +1,3 @@
+mesh_filename prefabs\buildings\furniture\chair_002_nocenter.x
+socket sit 0.000000 0.000000 0.110000
+socket camera 0.000000 1.000000 1.000000

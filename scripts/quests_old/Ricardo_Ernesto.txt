@@ -1,0 +1,69 @@
+
+// nazwa questa, unikalna i wymagana
+name Ricardo_Ernesto
+icon hud_map_social.dds
+given_by_icon actor_unknown_man.dds
+
+title OB75
+initial_waypoint ricardo1
+initial_objective OB76
+given_by ricardo1
+
+social_award 1
+award harvester_old_FM41
+
+wait 0.1 -waypoint * -checkpoint 10
+
+//Vamos a la granja número 24, dialogo con Ricardo
+goto ricardo1 -distance 5 -waypoint ricardo1 -checkpoint 20
+wait 0.1 -waypoint *
+hero_dialog ricardo1_dialog1 ricardo1
+wait_end_hero_dialog
+wait 1 -checkpoint 30
+
+//Dialogo con Ernesto
+goto ernesto1 -distance 5 -waypoint ernesto1 -objective OB77 -checkpoint 40
+wait 0.1 -waypoint *
+hero_dialog ernesto1_dialog1 ernesto1
+wait_end_hero_dialog
+//Ernesto enseña a llevar troncos
+unlock_perk forester20
+wait 1 -checkpoint 50
+
+//Mira alrededor del bosque
+allow_field_work field_105
+goto ricardo_ernesto_forest -distance 30 -waypoint ricardo_ernesto_forest -objective OB78 -checkpoint 60
+wait 1 -waypoint * -checkpoint 70
+
+
+//Talar árboles y transportar troncos a un lugar designado
+wait 1 -waypoint ricardo_ernesto_log_storage -objective OB79 -checkpoint 80
+wait_store_logs ricardo_ernesto_log_storage 18 -checkpoint 90
+
+
+//Volver a Ernesto
+goto ernesto1 -distance 5 -waypoint ernesto1 -objective OB80 -checkpoint 100
+wait 0.1 -waypoint *
+hero_dialog ernesto1_dialog2 ernesto1
+forbid_field_work field_105
+likes_player ernesto1 0.25
+wait_end_hero_dialog
+wait 1 -checkpoint 110
+
+
+//¡Recoge la cosechadora!
+give_vehicle_to_player harvesting_machine
+give_vehicle_to_player big_whirly_cutter
+enter harvesting_machine -waypoint harvesting_machine -objective OB81 -checkpoint 120
+wait 1 -waypoint * -checkpoint 130
+print koniec_questa_ricardo_ernesto
+wait 1
+
+//start_quest
+
+
+
+
+
+
+

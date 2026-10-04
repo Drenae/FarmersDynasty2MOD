@@ -1,0 +1,58 @@
+
+// nazwa questa, unikalna i wymagana
+name Hen_owner
+icon hud_map_social.dds
+given_by_icon actor_unknown_man.dds
+
+title OB33a
+initial_waypoint farm_henhouse
+initial_objective OB34
+given_by jeremy1
+
+// gdy startuje ten quest, niech bedzie sledzony
+focus_on_start
+
+tutorial
+
+social_award 1
+
+wait 0.1 -waypoint * -checkpoint 10
+
+//napraw se kurnik
+wait 0.1 -waypoint farm_henhouse -checkpoint 20
+wait_repair_building farm_henhouse -checkpoint 30
+wait 1 -checkpoint 40
+set_chapter_var 12
+
+//zmenczonny, idz do spiulkolotu w chatce w lesie
+wait 1 -checkpoint 50
+unlock_time
+allow_sleep
+wait_sleep -waypoint forest_cabin_bed -objective OB34A -checkpoint 60
+wait 0.5 -waypoint *
+
+//rano, wiosna, idziemy do dziadka po kury
+unlock_perk farmer20
+goto jeremy1 -distance 5 -waypoint jeremy1 -objective OB35 -checkpoint 70
+wait 0.1 -waypoint *
+hero_dialog jeremy1_dialog4 jeremy1
+wait_end_hero_dialog
+give_hens 4
+set_chapter_var 13
+//masz tu jaje, daj Jackowi
+give_player egg 30
+set_phase jeremy1 bot
+wait 1 -checkpoint 80
+
+print koniec_questa_hen_owner
+wait 1
+
+allow_auto_activate_quests
+
+start_quest Jack_shopkeeper
+start_quest Mia_field
+
+
+
+
+

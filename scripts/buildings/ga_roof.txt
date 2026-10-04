@@ -1,0 +1,237 @@
+// definiuje kolejne prefaby (stopnie przebudowy), w grze moze byc wlozony dowolny, ale musza byc unikalne dla danego setu
+// part <id_warstwy> <id_materialu> <klucz_text_keys_z_opisem> <sciezka\prefab>
+// -1 jako indeks materialu oznacza ten sam material, ale nie budowe tylko naprawe, czyli przejscie z polamanych na naprostowane deski BEZ kupowania desek.
+
+
+// eternit
+part 0 14 MAT14 prefabs\buildings\garages\ga_ceramic_old_roof3_1_1_nocenter.x
+part 1 -1  MAT14 prefabs\buildings\garages\ga_ceramic_fixed_roof3_1_1_nocenter.x
+
+part 2 14 MAT14 prefabs\buildings\garages\ga_ceramic_old_roof3_2_1_nocenter.x
+part 3 -1  MAT14 prefabs\buildings\garages\ga_ceramic_fixed_roof3_2_1_nocenter.x
+
+part 4 14 MAT14 prefabs\buildings\garages\ga_ceramic_old_roof3_3_1_nocenter.x
+part 5 -1  MAT14 prefabs\buildings\garages\ga_ceramic_fixed_roof3_3_1_nocenter.x
+
+part 6 14 MAT14 prefabs\buildings\garages\ga_ceramic_old_roof3_4_1_nocenter.x
+part 7 -1  MAT14 prefabs\buildings\garages\ga_ceramic_fixed_roof3_4_1_nocenter.x
+
+
+// niebieski bitumen
+part 8 15 MAT15 prefabs\buildings\garages\ga_ceramic_old_roof2_1_1_nocenter.x
+part 9 -1  MAT15 prefabs\buildings\garages\ga_ceramic_fixed_roof2_1_1_nocenter.x
+
+part 10 15 MAT15 prefabs\buildings\garages\ga_ceramic_old_roof2_2_1_nocenter.x
+part 11 -1  MAT15 prefabs\buildings\garages\ga_ceramic_fixed_roof2_2_1_nocenter.x
+
+part 12 15 MAT15 prefabs\buildings\garages\ga_ceramic_old_roof2_3_1_nocenter.x
+part 13 -1  MAT15 prefabs\buildings\garages\ga_ceramic_fixed_roof2_3_1_nocenter.x
+
+part 14 15 MAT15 prefabs\buildings\garages\ga_ceramic_old_roof2_4_1_nocenter.x
+part 15 -1  MAT15 prefabs\buildings\garages\ga_ceramic_fixed_roof2_4_1_nocenter.x
+
+part 16 15 MAT15 prefabs\buildings\garages\ga_ceramic_old_roof2_5_1_nocenter.x
+part 17 -1  MAT15 prefabs\buildings\garages\ga_ceramic_fixed_roof2_5_1_nocenter.x
+
+part 18 15 MAT15 prefabs\buildings\garages\ga_ceramic_old_roof2_6_1_nocenter.x
+part 19 -1  MAT15 prefabs\buildings\garages\ga_ceramic_fixed_roof2_6_1_nocenter.x
+
+
+// czerwny ceramika
+part 20 17 MAT17 prefabs\buildings\garages\ga_ceramic_old_roof_top_1_1_nocenter.x
+part 21 -1 MAT17 prefabs\buildings\garages\ga_ceramic_fixed_roof_top_1_1_nocenter.x
+
+part 22 17 MAT17 prefabs\buildings\garages\ga_ceramic_old_roof_top_1_2_nocenter.x
+part 23 -1  MAT17 prefabs\buildings\garages\ga_ceramic_fixed_roof_top_1_2_nocenter.x
+
+part 24 17 MAT17 prefabs\buildings\garages\ga_ceramic_old_roof_top_1_3_nocenter.x
+part 25 -1  MAT17 prefabs\buildings\garages\ga_ceramic_fixed_roof_top_1_3_nocenter.x
+
+part 26 17 MAT17 prefabs\buildings\garages\ga_ceramic_old_roof_top_1_4_nocenter.x
+part 27 -1  MAT17 prefabs\buildings\garages\ga_ceramic_fixed_roof_top_1_4_nocenter.x
+
+
+
+part 28 17 MAT17 prefabs\buildings\garages\ga_ceramic_old_roof_middle_1_1_nocenter.x
+part 29 -1  MAT17 prefabs\buildings\garages\ga_ceramic_fixed_roof_middle_1_1_nocenter.x
+
+part 30 17 MAT17 prefabs\buildings\garages\ga_ceramic_old_roof_middle_1_2_nocenter.x
+part 31 -1  MAT17 prefabs\buildings\garages\ga_ceramic_fixed_roof_middle_1_2_nocenter.x
+
+part 32 17 MAT17 prefabs\buildings\garages\ga_ceramic_old_roof_middle_1_3_nocenter.x
+part 33 -1  MAT17 prefabs\buildings\garages\ga_ceramic_fixed_roof_middle_1_3_nocenter.x
+
+part 34 17 MAT17 prefabs\buildings\garages\ga_ceramic_old_roof_middle_1_4_nocenter.x
+part 35 -1  MAT17 prefabs\buildings\garages\ga_ceramic_fixed_roof_middle_1_4_nocenter.x
+
+
+
+part 36 17 MAT17 prefabs\buildings\garages\ga_ceramic_old_roof_bottom_1_1_nocenter.x
+part 37 -1  MAT17 prefabs\buildings\garages\ga_ceramic_fixed_roof_bottom_1_1_nocenter.x
+
+part 38 17 MAT17 prefabs\buildings\garages\ga_ceramic_old_roof_bottom_1_2_nocenter.x
+part 39 -1  MAT17 prefabs\buildings\garages\ga_ceramic_fixed_roof_bottom_1_2_nocenter.x
+
+part 40 17 MAT17 prefabs\buildings\garages\ga_ceramic_old_roof_bottom_1_3_nocenter.x
+part 41 -1  MAT17 prefabs\buildings\garages\ga_ceramic_fixed_roof_bottom_1_3_nocenter.x
+
+part 42 17 MAT17 prefabs\buildings\garages\ga_ceramic_old_roof_bottom_1_4_nocenter.x
+part 43 -1  MAT17 prefabs\buildings\garages\ga_ceramic_fixed_roof_bottom_1_4_nocenter.x
+
+
+//boki
+
+part 44 17 MAT17 prefabs\buildings\garages\ga_ceramic_old_roof_edge_1_1_nocenter.x
+part 45 -1  MAT17 prefabs\buildings\garages\ga_ceramic_fixed_roof_edge_1_1_nocenter.x
+
+part 46 17 MAT17 prefabs\buildings\garages\ga_ceramic_old_roof_edge_1_2_nocenter.x
+part 47 -1  MAT17 prefabs\buildings\garages\ga_ceramic_fixed_roof_edge_1_2_nocenter.x
+
+part 48 17 MAT17 prefabs\buildings\garages\ga_ceramic_old_roof_edge_1_3_nocenter.x
+part 49 -1  MAT17 prefabs\buildings\garages\ga_ceramic_fixed_roof_edge_1_3_nocenter.x
+
+part 50 17 MAT17 prefabs\buildings\garages\ga_ceramic_old_roof_edge_1_4_nocenter.x
+part 51 -1  MAT17 prefabs\buildings\garages\ga_ceramic_fixed_roof_edge_1_4_nocenter.x
+
+
+// niewidoczne
+
+part 52 26 MAT26 prefabs\Buildings\garages\ga_ceramic_new_roof4_1_1_nocenter.X
+part 61 -1 MAT26 prefabs\buildings\garages\ga_stretch_fixed_roof4_1_1_nocenter.x
+
+part 62 26 MAT26 prefabs\buildings\garages\ga_ceramic_new_roof4_1_2_nocenter.x
+part 63 -1 MAT26 prefabs\buildings\garages\ga_stretch_fixed_roof4_1_2_nocenter.x
+
+part 64 26 MAT26 prefabs\buildings\garages\ga_ceramic_new_roof4_1_3_nocenter.x
+part 65 -1 MAT26 prefabs\buildings\garages\ga_stretch_fixed_roof4_1_3_nocenter.x
+
+
+
+
+
+// NEW
+// bitumen
+part 53 13 MAT13 prefabs\Buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.X
+
+// red shingle
+part 54 14 MAT14 prefabs\buildings\garages\ga_shingle_new_roof_1b_nocenter.x
+part 55 14 MAT14 prefabs\buildings\garages\ga_shingle_new_roof_1b_nocenter.x
+part 56 14 MAT14 prefabs\buildings\garages\ga_shingle_new_roof_1b_nocenter.x
+part 57 14 MAT14 prefabs\buildings\garages\ga_shingle_new_roof_1b_nocenter.x
+
+// green metal
+part 58 15 MAT15 prefabs\buildings\garages\ga_metal_new_roof_2b_nocenter.x
+
+// red ceramic
+part 59 16 MAT16 prefabs\buildings\garages\ga_ceramic_new_roof_3b_nocenter.x
+
+// tin roof
+part 60 17 MAT17 prefabs\buildings\garages\ga_tin_new_roof_4b_nocenter.x
+
+
+
+
+part 66 14 MAT14 prefabs\Buildings\garages\ga_ceramic_fixed_roof1_1_1_nocenter.X
+part 67 14 MAT14 prefabs\Buildings\garages\ga_ceramic_fixed_roof1_1_2_nocenter.X
+part 68 14 MAT14 prefabs\Buildings\garages\ga_ceramic_fixed_roof1_1_3_nocenter.X
+part 69 14 MAT14 prefabs\Buildings\garages\ga_ceramic_fixed_roof1_1_4_nocenter.X
+
+part 70 15 MAT15 prefabs\Buildings\garages\ga_ceramic_new_roof2_1_1_nocenter.X
+
+part 71 16 MAT16 prefabs\Buildings\garages\ga_ceramic_new_roof3_1_1_nocenter.X
+
+part 72 17 MAT17 prefabs\Buildings\garages\ga_ceramic_new_roof_1_1_nocenter.X
+
+
+
+
+
+
+
+// i teraz dla danego elementu definiujemy w ktory moze przejsc
+// pierwszy parametr to ktorego tyczy sie definicja, nastepne - w ktore moze byc zmieniony
+
+path 0   1 53 54 58 59 60
+path 1   53 55 58 59 60
+path 2   3 53 56 58 59 60
+path 3   53 57 58 59 60
+path 4   5 53 54 58 59 60
+path 5   53 55 58 59 60
+path 6   7 53 56 58 59 60
+path 7   60 53 57 58 59 60
+
+path 8   9 53 54 58 59 60
+path 9   53 55 58 59 60
+path 10   11 53 56 58 59 60
+path 11   53 57 58 59 60
+path 12   13 53 54 58 59 60
+path 13   53 55 58 59 60
+path 14   15 53 56 58 59 60
+path 15   53 57 58 59 60
+path 16   17 53 54 58 59 60
+path 17   53 55 58 59 60
+path 18   19 53 56 58 59 60
+path 19   53 57 58 59 60
+
+path 20   21 53 54 58 59 60
+path 21   53 55 58 59 60
+path 22   23 53 56 58 59 60
+path 23   53 57 58 59 60
+path 24   25 53 54 58 59 60
+path 25   53 55 58 59 60
+path 26   27 53 56 58 59 60
+path 27   53 57 58 59 60
+path 28   29 53 54 58 59 60
+path 29   53 55 58 59 60
+path 30   31 53 56 58 59 60
+path 31   53 57 58 59 60
+
+path 32   33 53 54 58 59 60
+path 33   53 55 58 59 60
+path 34   35 53 56 58 59 60
+path 35   53 57 58 59 60
+path 36   37 53 54 58 59 60
+path 37   53 55 58 59 60
+path 38   39 53 56 58 59 60
+path 39   53 57 58 59 60
+path 40   41 53 54 58 59 60
+path 41   53 55 58 59 60
+path 42   43 53 56 58 59 60
+path 43   53 57 58 59 60
+
+path 44   45 53 54 58 59 60
+path 45   53 55 58 59 60
+path 46   47 53 56 58 59 60
+path 47   53 57 58 59 60
+path 48   49 53 54 58 59 60
+path 49   53 55 58 59 60
+path 50   51 53 56 58 59 60
+path 51   53 57 58 59 60
+
+
+path 52  53 54 58 59 60 61
+path 53  55 58 59 60
+
+path 54  53 58 59 60
+path 55  53 58 59 60
+path 56  53 58 59 60
+path 57  53 58 59 60
+
+path 58  53 54 59 60
+path 59  53 55 58 60
+path 60  53 56 58 59
+
+
+path 61  53 54 58 59 60
+path 62  53 54 58 59 60 63
+path 63  53 54 58 59 60
+path 64  53 54 58 59 60 65
+path 65  53 54 58 59 60
+
+path 66  53 54 58 59 60
+path 67  53 54 58 59 60
+path 68  53 54 58 59 60
+path 69  53 54 58 59 60
+path 70  53 54 58 59 60
+path 71  53 54 58 59 60
+path 72  53 54 58 59 60

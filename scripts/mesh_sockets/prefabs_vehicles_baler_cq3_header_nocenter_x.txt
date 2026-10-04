@@ -1,0 +1,7 @@
+mesh_filename prefabs\vehicles\baler_cq3\header_nocenter.x
+socket reel1 0.000000 0.710000 0.120000
+socket reel2 0.055000 0.520000 0.220000
+socket reel3 0.000000 0.540000 -0.140000
+socket reel4 0.000000 0.240000 0.200000
+socket wheel_small_left -1.100000 0.660000 -0.230000
+socket wheel_small_right 1.100000 0.660000 -0.230000

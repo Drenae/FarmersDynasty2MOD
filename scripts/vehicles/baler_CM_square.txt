@@ -1,0 +1,116 @@
+Vehicle >square_baler
+prefab prefabs\vehicles\baler_CM\baler_CM_nocenter.X
+Mass 3500.0
+Stiffness 10
+
+spawn_id 27
+
+tag >MT09
+
+
+renew_and_paint
+color 0.12 0.41 0.54
+
+prasa
+przyczepa
+price 6000
+kostkujaca prefabs\attachments\hay\hay_bale_cuboid.X
+working_width 2.2
+old_tractors_can_attach
+zaczep_tylko_do_traktora
+
+// COLLISION MESH
+
+collision_mesh prefabs\vehicles\baler_cm\physics_baler_cm_nocenter.x
+
+
+// pScaleZ
+mnoznik_fizyki_z 0.6
+// pScaleY
+mnoznik_fizyki_y 0.5
+// pScaleX
+mnoznik_fizyki_x 0.42
+
+// pTransZ
+przesuniecie_fizyki_przod -0.45
+// pTransY
+przesuniecie_fizyki_gora 0.8
+// pTransX
+przesuniecie_fizyki_prawo 0.0
+
+
+
+
+// HOOKS
+hak zaczep
+pto pto
+hak_tyl zaczep_tyl
+
+
+//BALER
+
+// rotor (1)
+rotate_cmd0 -3
+attachment prefabs\vehicles\baler_CM\rotor_nocenter.x rotor 6
+
+// helix (2)
+rotate_cmd0 7
+attachment prefabs\vehicles\baler_CM\helix_nocenter.x helix
+
+// circual (3)
+rotate_cmd0 -7 Z
+attachment prefabs\vehicles\baler_CM\circular_nocenter.x circular
+
+
+// gear (4)
+rotate_cmd0 1
+attachment prefabs\vehicles\baler_CM\gear_nocenter.x gear
+
+// knives (5)
+rotate_cmd0 7 Z
+attachment prefabs\vehicles\baler_CM\knives_nocenter.x knives 3
+
+// header (6)
+// rotate_cmd0 0.4
+attachment prefabs\vehicles\baler_CM\header_nocenter.x header
+
+// SUPPORT LEG (7)
+attachment_stopka prefabs\vehicles\baler_CM\support_leg_nocenter.x support_leg -0.01 0.2
+
+// GATE (8)
+rotate_cmd0 3
+attachment prefabs\vehicles\baler_cm\gate_rotor_nocenter.x gate
+
+
+
+// WHEELS & MUDGUARDS
+wheel_invisible prefabs\vehicles\baler_CM\wheel_fake_nocenter.x wheel_front
+
+wheel  prefabs\vehicles\baler_CM\wheel_left_nocenter.x wheel_left
+wheel  prefabs\vehicles\baler_CM\wheel_right_nocenter.x wheel_right
+// attachment_wheel  prefabs\vehicles\baler_CM\support_wheel_nocenter.x support_wheel 6
+
+
+// PISTONS
+// piston <prefab> <nr_attachmentu> <socket> <nr_attachmentu_docelowego> <socket_docelowy> <rotacja po osi R F U>
+piston  prefabs\vehicles\baler_CM\piston1_nocenter.X 5 piston 0 piston
+piston  prefabs\vehicles\baler_cm\gate_nocenter.x 8 gate 0 gate_target
+
+
+
+
+// ANIM FX
+// attachment_anim_fx <prefab> <socket> [<attachment do przyczepienia lub 0>] [<mnoznik predkosci przesuwu gibania - 1 domyslnie>] [<mnoznik gibania animacji - 1 domyslnie>] [<mnoznik predkosci przesuwu tekstury - 1 domyslnie>]
+attachment_anim_fx  prefabs\vehicles\baler_CM\anim_dump_nocenter.x anim_dump 0 0.7 0.7 -0.4
+
+
+// LIGHTS
+swiatlo_tyl lt1
+swiatlo_tyl lt2
+swiatlo_cofania lc1
+swiatlo_cofania lc2
+
+
+// SOUNDS
+working_sound sfx\vehicles\haybaler.wav
+

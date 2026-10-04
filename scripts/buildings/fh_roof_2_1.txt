@@ -1,0 +1,63 @@
+// definiuje kolejne prefaby (stopnie przebudowy), w grze moze byc wlozony dowolny, ale musza byc unikalne dla danego setu
+// part <id_warstwy> <id_materialu> <klucz_text_keys_z_opisem> <sciezka\prefab>
+// -1 jako indeks materialu oznacza ten sam material, ale nie budowe tylko naprawe, czyli przejscie z polamanych na naprostowane deski BEZ kupowania desek.
+
+// old
+part 0 14  MAT14 prefabs\buildings\forest_houses\hs_ceramic_old_roof_1_1_nocenter.x
+part 1 -1  MAT14 prefabs\buildings\forest_houses\hs_ceramic_fixed_roof_1_1_nocenter.x
+
+part 2 14  MAT14 prefabs\buildings\forest_houses\hs_ceramic_fixed_roof_1_0_nocenter.x
+
+
+// NEW
+
+// bitumen
+part 3 13  MAT13 prefabs\buildings\forest_houses\hs_bitumen_new_roof_1_2_nocenter.x
+
+// red shingle
+part 4 14  MAT14 prefabs\buildings\forest_houses\hs_shingle_new_roof_1b_nocenter.x
+
+// green metal
+part 5 15  MAT15 prefabs\buildings\forest_houses\hs_metal_new_roof_2b_nocenter.x
+
+// red ceramic
+part 6 16  MAT16 prefabs\buildings\forest_houses\hs_ceramic_new_roof_3b_nocenter.x
+
+// tin roof
+part 7 17  MAT17 prefabs\buildings\forest_houses\hs_tin_new_roof_4b_nocenter.x
+
+
+
+
+// old
+part 8 14  MAT14 prefabs\buildings\forest_houses\hs_ceramic_old_roof_3_1_nocenter.x
+part 9 -1  MAT14 prefabs\buildings\forest_houses\hs_ceramic_fixed_roof_3_1_nocenter.x
+
+
+part 10 14  MAT14 prefabs\buildings\forest_houses\hs_bitumen_new_roof_1_6_nocenter.x
+part 11 15  MAT15 prefabs\buildings\forest_houses\hs_bitumen_new_roof_1_5_nocenter.x
+part 12 16  MAT16 prefabs\buildings\forest_houses\hs_bitumen_new_roof_1_3_nocenter.x
+part 13 17  MAT17 prefabs\buildings\forest_houses\hs_bitumen_new_roof_1_4_nocenter.x
+
+
+
+
+// i teraz dla danego elementu definiujemy w ktory moze przejsc
+// pierwszy parametr to ktorego tyczy sie definicja, nastepne - w ktore moze byc zmieniony
+
+path 0   1 3 4 5 6 7
+path 1   3 4 5 6 7
+path 2   3 4 5 6 7
+path 3   4 5 6 7
+path 4   3 5 6 7
+path 5   3 4 6 7
+path 6   3 4 5 7
+path 7   3 4 5 6
+
+path 8   9 3 4 5 6 7
+path 9   3 4 5 6 7
+
+path 10   3 4 5 6 7
+path 11   3 4 5 6 7
+path 12   3 4 5 6 7
+path 13   3 4 5 6 7

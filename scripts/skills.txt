@@ -1,0 +1,695 @@
+// hero
+class hero
+class_title SK01
+class_icon hud_UI_ico_hero.dds
+
+
+// sprinter /run swim faster
+skill0 hero00
+title SK16
+description SK17
+cost 10
+
+// jump higher
+skill1 hero10
+title SK18
+description SK19
+cost 15
+
+// morfeusz / sleep longer
+skill2 hero20
+title SK08
+description SK09
+description2 AA506
+cost 25
+quest
+
+
+// craft furniture 
+skill3 hero30
+title SK20
+description SK21
+cost 40
+//quest
+
+
+// strong heart / less fatigue
+skill0 hero01
+title SK02
+description SK03
+cost 5
+
+// flat belly / less hunger
+skill1 hero11
+title SK04
+description SK05
+cost 15
+
+// Icarus / less fall damage
+skill2 hero21
+title SK06
+description SK07
+cost 25
+
+
+
+// strenght 1 / +50 weight carry
+skill0 hero02
+title SK10
+description SK11
+cost 10
+
+// strenght 2 / +75 weight carry
+
+skill1 hero12
+title SK12
+description SK13
+cost 20
+
+// skrzynie
+skill2 hero22
+title SK14
+description SK15
+cost 25
+//quest
+
+
+
+
+
+
+//
+// team player
+//
+
+class TeamPlayer
+class_title SK22
+class_icon hud_UI_ico_teamplayer.dds
+
+// sell your items & stuff
+skill0 TP00
+title SK35
+description SK36
+quest
+
+// haggler 1 better buy prices
+skill1 TP10
+title SK31
+description SK32
+cost 10
+
+// haggler 2 better sale prices
+skill2 TP20
+title SK33
+description SK34
+cost 15
+
+// trader buy sell farms
+skill3 TP30
+title SK29
+description SK30
+cost 50
+
+
+// workman #1 unlock basic quests
+skill0 TP01
+title SK23
+description SK24
+cost 5
+
+// workman #2 unlock specific quests
+skill1 TP11
+title SK25
+description SK26
+cost 15
+
+// workman #3 unlock rare quests
+skill2 TP21
+title SK27
+description SK28
+cost 25
+
+
+// romantic 1 - flirt
+skill0 TP02
+title SK37
+description SK38
+cost 10
+
+// romantic 2 - randki
+skill1 TP12 
+title SK39
+description SK40
+cost 25
+
+// marry
+skill2 TP22
+title SK41
+description SK42
+cost 50
+
+
+//
+// cook
+//
+
+class Chef
+class_title SK43
+class_icon hud_UI_ico_chef.dds
+
+// cook #1
+skill0 Chef00
+title SK44
+description SK45
+quest
+//default
+
+// cook #2 - use BBQ
+skill1 Chef10
+title SK46
+description SK47
+cost 10
+
+// versatile cook
+skill2 Chef20
+title SK48
+description SK49
+cost 25
+unavailable
+
+// gourmet
+skill3 Chef30
+title SK50
+description SK51
+cost 50
+unavailable
+
+// education 1 fishing recipes
+skill0 Chef01
+title SK52
+description SK53
+cost 10
+depends_on Fisherman00
+unavailable
+
+// education 2 mushroom recipes
+skill1 Chef11
+title SK54
+description SK55
+cost 15
+depends_on Forester02
+unavailable
+
+// education 3 herbal recipes
+skill2 Chef21
+title SK56
+description SK57
+cost 20
+depends_on Forester22
+unavailable
+
+// heat longer
+skill0 Chef02
+title SK58
+description SK59
+cost 25
+unavailable
+
+// less waste
+skill1 Chef12
+title SK60
+description SK61
+cost 30
+unavailable
+
+// composition - better nutrition
+skill2 Chef22
+title SK62
+description SK63
+cost 35
+unavailable
+
+
+//
+// builder
+//
+
+class Builder
+class_title SK64
+class_icon hud_UI_ico_builder.dds
+
+// longer reach
+skill0 Builder00
+title SK67
+description SK68
+cost 5
+
+// less clicks
+skill1 Builder10
+title SK65
+description SK66
+cost 15
+
+// see through walls
+skill2 Builder20
+title SK69
+description SK70
+cost 35
+
+// mason
+skill3 Builder30
+title SK71
+description SK72
+cost 50
+unavailable
+
+// reduce fatigue
+skill0 Builder01
+title SK73
+description SK74
+cost 10
+
+// faster repair
+// zmiana numeracji - to jest w 2 rzedzie, ale nazwa perka sie nie zmienia!
+// przepiete OK
+//skill0 Builder02
+skill1 Builder11
+title SK79
+description SK80
+cost 15
+
+// count parts left
+//skill1 Builder11
+skill2 Builder21
+title SK75
+description SK76
+cost 20
+unavailable
+
+
+// constructor - rebuilding
+// przepiete OK
+//skill2 Builder21
+skill0 Builder02
+title SK77
+description SK78
+cost 15
+
+// podniesc wiecej materialow budowlanych
+//skill1 Builder12
+skill1 Builder12
+title SK81
+description SK82
+cost 20
+
+// stairman - more scaffolds
+skill2 Builder22
+title SK83
+description SK84
+cost 30
+unavailable
+
+
+
+//
+// farmer
+//
+
+class Farmer
+class_title SK85
+class_icon hud_UI_ico_farmer.dds
+
+// operate machines
+skill0 Farmer00
+title SK86
+description SK87
+quest
+
+// more effective harvesting
+skill1 Farmer10
+title SK90
+description SK91
+cost 20
+
+// gardener
+skill2 Farmer20
+title SK88
+description SK89
+cost 25
+quest
+
+
+// better prices for crops
+skill3 Farmer30
+title SK92
+description SK93
+cost 50
+unavailable
+
+
+// greenhouse faster
+skill0 Farmer01
+title SK94
+description SK95
+cost 10
+
+// more crops from greenhouse
+skill1 Farmer11
+title SK96
+description SK97
+cost 20
+
+// more milk eggs wool
+skill2 Farmer21
+title SK98
+description SK99
+cost 30
+//unavailable
+
+// more manure
+skill0 Farmer02
+title SK100
+description SK101
+cost 10
+unavailable
+
+// more meat
+skill1 Farmer12
+title SK102
+description SK103
+cost 20
+
+// diagnose/heal
+skill2 Farmer22
+title SK104
+description SK105
+cost 35
+unavailable
+
+
+
+//
+// forester
+//
+
+class Forester
+class_title SK106
+class_icon hud_UI_ico_forester.dds
+
+// axe for trees
+skill0 Forester00
+title SK107
+description SK108
+quest
+
+// better axe
+skill1 Forester10
+title SK109
+description SK110
+cost 10
+
+// carry logs
+skill2 Forester20
+title SK111
+description SK112
+cost 30
+
+// lumbermill
+// woodworker
+skill3 Forester30
+title SK119
+description SK120
+cost 50
+depends_on TP30
+//unavailable
+
+// more firewood
+skill0 Forester01
+title SK115
+description SK116
+cost 10
+
+// more efficient crafting materials
+skill1 Forester11
+title SK117
+description SK118
+cost 20
+depends_on hero30
+
+// woodworker - better furniture prices
+skill2 Forester21
+title SK113
+description SK114
+cost 40
+depends_on hero30
+unavailable
+
+// pick up mushrooms
+skill0 Forester02
+title SK121
+description SK122
+cost 10
+quest
+
+// pick up berries
+skill1 Forester12
+title SK123
+description SK124
+cost 15
+quest
+
+// pick up herbs
+skill2 Forester22
+title SK125
+description SK126
+cost 20
+quest
+
+
+
+//
+// mechanic
+//
+
+class Mechanic
+class_title SK127
+class_icon hud_UI_ico_mechanic.dds
+
+// restore vehicles
+skill0 Mechanic00
+title SK128
+description SK129
+//default
+quest
+
+// upgrade brakes
+skill1 Mechanic10
+title SK130
+description SK131
+cost 10
+
+// upgrade engines
+skill2 Mechanic20
+title SK132
+description SK133
+cost 30
+
+// garage
+skill3 Mechanic30
+title SK134
+description SK135
+cost 50
+depends_on Mechanic21
+
+// painter
+skill0 Mechanic01
+title SK136
+description SK137
+cost 10
+
+// upgrade suspension
+skill1 Mechanic11
+title SK138
+description SK139
+cost 30
+
+// sell vehicles
+skill2 Mechanic21
+title SK140
+description SK141
+cost 40
+
+// fix hand tools
+skill0 Mechanic02
+title SK142
+description SK143
+quest
+unavailable
+
+// fix electric tools
+skill1 Mechanic12
+title SK144
+description SK145
+cost 15
+unavailable
+
+// upgrade electric tools
+skill2 Mechanic22
+title SK146
+description SK147
+cost 20
+unavailable
+
+
+
+
+//
+// fisherman
+//
+
+class Fisherman
+class_title SK148
+class_icon hud_UI_ico_fisherman.dds
+
+// catch common fish
+skill0 Fisherman00
+title SK149
+description SK150
+quest
+
+// spinning rods
+skill1 Fisherman10
+title SK151
+description SK152
+cost 10
+
+// trophy book
+skill2 Fisherman20
+title SK153
+description SK154
+cost 20
+unavailable
+
+// own fish ponds
+skill3 Fisherman30
+title SK155
+description SK156
+cost 50
+depends_on TP30
+unavailable
+
+// specialised rods
+skill0 Fisherman01
+title SK157
+description SK158
+cost 10
+unavailable
+
+// ice fishing
+skill1 Fisherman11
+title SK159
+description SK160
+cost 30
+unavailable
+
+// ice shanty
+skill2 Fisherman21
+title SK161
+description SK162
+cost 40
+unavailable
+
+// rare fish
+skill0 Fisherman02
+title SK163
+description SK164
+cost 15
+unavailable
+
+// lucky man
+skill1 Fisherman12
+title SK165
+description SK166
+cost 20
+unavailable
+
+// boat fishing
+skill2 Fisherman22
+title SK167
+description SK168
+cost 45
+depends_on hero30
+unavailable
+
+
+
+
+//
+// manager
+//
+
+class Manager
+class_title SK169
+class_icon hud_UI_ico_manager.dds
+
+// worker1
+skill0 Manager00
+title SK170
+description SK171
+quest
+
+// worker2
+skill1 Manager10
+title SK172
+description SK173
+cost 20
+
+// worker3
+skill2 Manager20
+title SK174
+description SK175
+cost 40
+
+// pro worker
+skill3 Manager30
+title SK176
+description SK177
+cost 50
+depends_on TP30
+unavailable
+
+// drone
+skill0 Manager01
+title SK178
+description SK179
+cost 10
+
+// fertilize drone
+skill1 Manager11
+title SK180
+description SK181
+cost 30
+
+// order plane
+skill2 Manager21
+title SK182
+description SK183
+cost 40
+
+
+
+
+//
+// engineer
+//
+
+// class Engineer
+// class_title SK190
+// class_icon hud_UI_ico_enginer.dds
+
+
+
+
+
+
+

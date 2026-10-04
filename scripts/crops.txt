@@ -1,0 +1,156 @@
+//
+// skrypt opisuje po kolei wszystkie uprawy w grze - renderowane meshami.
+// to jak sie zachowuje kazdy mesh (losowosc, rotacje, przesuniecia, LODy etc) definiuje skrypt plants.txt
+// tutaj pokazujemy tylko jaki plant jest dla jakiej uprawy w jakiej fazie wzrostu.
+//
+// rozne rosliny w roznych fazach wzrostu moga dzielic te same prefaby - np. dla malych (niewyrosnietych) albo dla rzyska.
+//
+// dla danej rosliny i danego wzrostu mozna stosowac kilka roznych prefabow (max 8 dla danego wzrostu i rosliny), wpisujac je linijka pod linijka, np.
+// prefab0 sciezka\prefab01_nocenter.x
+// prefab0 sciezka\prefab02_nocenter.x
+// prefab0 sciezka\prefab03_nocenter.x
+
+// calosc okreslamy tak:
+// Crop <rodzaj> - to rozpoczyna blok dla danej rosliny
+
+// zielone (malutkie):
+// prefab0 sciezka\prefab_nocenter.x
+// i tak dalej - do maks 8 sztuk dla prefab0
+
+// srednie (nie do zbierania):
+// prefab1 sciezka\prefab_nocenter.x
+// i tak dalej - do maks 8 sztuk dla prefab1
+
+// wyrosniete (do zbierania):
+// prefab2 sciezka\prefab_nocenter.x
+// i tak dalej - do maks 8 sztuk dla prefab2
+
+// przerosniete (nie do zbierania):
+// prefab3 sciezka\prefab_nocenter.x
+// i tak dalej - do maks 8 sztuk dla prefab3
+
+// sciete (sciernisko):
+// prefab_cut sciezka\prefab_nocenter.x
+// i tak dalej - do maks 8 sztuk dla prefab_cut
+
+// rodzaj rosliny po kolei to:
+// 0 Pszenica
+// 1 Kukurydza
+// 2 Owies
+// 3 zyto
+// 4 Slonecznik
+// 5 Burak
+// 6 Ziemniak
+// 7 Trawa
+
+
+
+// pszen
+crop 0
+prefab0 prefabs\grass\crops\crops_wheat01_nocenter.x
+prefab1 prefabs\grass\crops\crops_wheat02_nocenter.x
+prefab2 prefabs\grass\crops\crops_wheat03_nocenter.x
+prefab3 prefabs\grass\crops\crops_wheat04_nocenter.x
+prefab_cut prefabs\grass\crops\crops_wheat_cut_nocenter.x
+
+// qqrdza
+crop 1
+prefab0 prefabs\grass\crops\crops_corn01_nocenter.x
+prefab1 prefabs\grass\crops\crops_corn02_nocenter.x
+prefab2 prefabs\grass\crops\crops_corn03_nocenter.x
+prefab3 prefabs\grass\crops\crops_corn04_nocenter.x
+prefab_cut prefabs\grass\crops\crops_corn_cut_nocenter.x
+
+// owies
+crop 2
+prefab0 prefabs\grass\crops\crops_wheat01_nocenter.x
+prefab1 prefabs\grass\crops\crops_oat02_nocenter.x
+prefab2 prefabs\grass\crops\crops_oat03_nocenter.x
+prefab3 prefabs\grass\crops\crops_oat04_nocenter.x
+prefab_cut prefabs\grass\crops\crops_wheat_cut_nocenter.x
+
+// zyto
+crop 3
+prefab0 prefabs\grass\crops\crops_wheat01_nocenter.x
+prefab1 prefabs\grass\crops\crops_rye02_nocenter.x
+prefab2 prefabs\grass\crops\crops_rye03_nocenter.x
+prefab3 prefabs\grass\crops\crops_rye04_nocenter.x
+prefab_cut prefabs\grass\crops\crops_wheat_cut_nocenter.x
+
+// slonecznik
+crop 4
+prefab0 prefabs\grass\crops\crops_sunflower01_nocenter.x
+prefab1 prefabs\grass\crops\crops_sunflower02_nocenter.x
+prefab2 prefabs\grass\crops\crops_sunflower03_nocenter.x
+prefab3 prefabs\grass\crops\crops_sunflower04_nocenter.x
+prefab_cut prefabs\grass\crops\crops_wheat_cut_nocenter.x
+
+// jeczmien
+crop 5
+prefab0 prefabs\grass\crops\crops_wheat01_nocenter.x
+prefab1 prefabs\grass\crops\crops_barley02_nocenter.x
+prefab2 prefabs\grass\crops\crops_barley03_nocenter.x
+prefab3 prefabs\grass\crops\crops_wheat04_nocenter.x
+prefab_cut prefabs\grass\crops\crops_wheat_cut_nocenter.x
+
+// lubin
+crop 6
+prefab0 prefabs\grass\crops\crops_wheat01_nocenter.x
+prefab1 prefabs\grass\crops\crops_lupine02_nocenter.x
+prefab2 prefabs\grass\crops\crops_lupine03_nocenter.x
+prefab3 prefabs\grass\crops\crops_lupine04_nocenter.x
+prefab_cut prefabs\grass\crops\crops_lupine_cut_nocenter.x
+
+// groch
+crop 7
+prefab0 prefabs\grass\crops\crops_wheat01_nocenter.x
+prefab1 prefabs\grass\crops\crops_pea02_nocenter.x
+prefab2 prefabs\grass\crops\crops_pea03_nocenter.x
+prefab3 prefabs\grass\crops\crops_pea04_nocenter.x
+prefab_cut prefabs\grass\crops\crops_lupine_cut_nocenter.x
+
+
+
+// ziemniaki
+crop 8
+prefab0 prefabs\grass\crops\crops_potato01_nocenter.x
+prefab1 prefabs\grass\crops\crops_potato02_nocenter.x
+prefab2 prefabs\grass\crops\crops_potato03_nocenter.x
+prefab3 prefabs\grass\crops\crops_potato04_nocenter.x
+prefab_cut prefabs\grass\crops\crops_wheat_cut_nocenter.x
+
+
+// buraki
+crop 9
+prefab0 prefabs\grass\crops\crops_beets01_nocenter.x
+prefab1 prefabs\grass\crops\crops_beets02_nocenter.x
+prefab2 prefabs\grass\crops\crops_beets03_nocenter.x
+prefab3 prefabs\grass\crops\crops_beets04_nocenter.x
+prefab_cut prefabs\grass\crops\crops_wheat_cut_nocenter.x
+
+
+// trawa
+crop 10
+prefab0 prefabs\grass\crops\crops_grass01_nocenter.x
+prefab1 prefabs\grass\crops\crops_grass02_nocenter.x
+prefab2 prefabs\grass\crops\crops_grass03_nocenter.x
+prefab3 prefabs\grass\crops\crops_grass04_nocenter.x
+prefab_cut prefabs\grass\crops\crops_grass_cut_nocenter.x
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

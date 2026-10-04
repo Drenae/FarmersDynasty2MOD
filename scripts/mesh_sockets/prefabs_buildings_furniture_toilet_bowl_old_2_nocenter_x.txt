@@ -1,0 +1,2 @@
+mesh_filename prefabs\buildings\furniture\toilet_bowl_old_2_nocenter.x
+socket sit 0.000000 -0.280000 1.380000

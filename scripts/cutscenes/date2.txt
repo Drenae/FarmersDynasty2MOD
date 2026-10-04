@@ -1,0 +1,274 @@
+// date2
+// na wiezy ruinki
+
+
+// actors
+
+// 0 - hero
+actor 0 prefabs\models\hero1\hero1.X actor_hero
+clothing 0 prefabs\models\clothes\hero1_shoes.X
+clothing 1 prefabs\models\clothes\hero1_pants.X
+clothing 2 prefabs\models\clothes\hero\class2_shirts\h_wedding_suit_jacket_60s.X
+
+// 1 - woman
+actor 1 prefabs\models\w1\w1.X actor_woman
+clothing 0 prefabs\models\clothes\Woman\class0_boots\w_short_cowboy_boots.X
+// clothing 1 prefabs\models\clothes\Woman\class1_pants\w_no_pants.X
+clothing 2 prefabs\models\clothes\Woman\class2_shirts\w_long_dress_1_60s.X
+
+hair prefabs\attachments\w_hair_001_nocenter.X hair
+
+
+
+// environmental items
+
+// 2 - deco1
+// actor 2 prefabs\buildings\wedding_decorations\daco_flowers_001_nocenter.x actor_date3_deco1
+
+
+
+
+
+// ------------------- intro
+
+cut 0
+
+hour 18
+black
+time 1
+
+// actor_pos 2 date1_deco01
+// actor_color 204 208 130
+
+
+
+
+cut 1
+//hero looking around
+
+
+fade_in 0.9
+
+time 6
+fov 0.7
+
+camera_pos date0_cam02
+camera_move_to date0_cam02_target 0.7
+camera_look_at date0_cam02_look_at
+
+actor_pos 0 date0_h_pos00
+animation 0 h_date0_idle1
+actor_look_at 0 date0_h_pos00_look_at
+
+
+
+
+
+
+
+cut 2
+// woman approaches
+// There you go, beautiful views, but I'm afraid of heights.
+
+actor DLD00L01
+text DLD00L01
+
+
+fade_in 0.9
+
+time 6.1
+fov 0.7
+
+camera_pos date0_cam00
+camera_move_to date0_cam00_target 0.4
+camera_look_at date0_cam00_look_at
+
+actor_pos 0 date0_h_pos00
+animation 0 h_date0_idle2
+actor_look_at 0 date0_h_pos00_look_at
+
+actor_pos 1 date0_w_pos00
+animation 1 w_date0_walk1
+actor_look_at 1 date0_w_pos00_look_at
+
+
+
+
+
+cut 3
+// shot on both
+// No stress, trust me, sunsets from this place are beautiful. 
+
+hero DLD00L02
+text DLD00L02
+
+
+fade_in 0.9
+
+time 6.0
+fov 0.7
+
+camera_pos date0_cam01
+camera_move_to date0_cam01_target 0.08
+camera_look_at date0_cam01_look_at
+
+actor_pos 0 date0_h_pos00
+animation 0 h_date0_idle3
+actor_look_at 0 date0_h_pos01_look_at
+
+actor_pos 1 date0_w_pos00
+animation 1 w_idle2
+actor_look_at 1 date0_w_pos01_look_at
+
+
+
+cut 4
+// later 
+hour 18
+black
+time 1.5
+
+
+
+
+
+
+// ------------------- dialogues
+
+
+cut 5
+// They both stand
+// shots of both
+
+fade_in 0.7
+time 4
+fov 0.5
+
+camera_pos date0_cam05
+camera_look_at date0_cam05_look_at
+
+actor_pos 0 date0_h_pos00
+animation 0 h_idle1
+actor_look_at 0 date0_h_pos01_look_at
+
+actor_pos 1 date0_w_pos00
+animation 1 w_idle1
+actor_look_at 1 date0_w_pos01_look_at
+
+
+
+cut 6
+// They both stand
+// shot from behind the woman
+
+fade_in 0.7
+time 4
+fov 0.5
+
+camera_pos date0_cam03
+camera_look_at date0_cam03_look_at
+
+actor_pos 0 date0_h_pos00
+animation 0 h_idle1
+actor_look_at 0 date0_h_pos01_look_at
+
+actor_pos 1 date0_w_pos00
+animation 1 w_idle1
+actor_look_at 1 date0_w_pos01_look_at
+
+
+
+
+
+cut 7
+// They both stand
+// shot from behind the hero
+
+fade_in 0.7
+time 4
+fov 0.5
+
+camera_pos date0_cam04
+camera_look_at date0_cam04_look_at
+
+actor_pos 0 date0_h_pos00
+animation 0 h_idle1
+actor_look_at 0 date0_h_pos01_look_at
+
+actor_pos 1 date0_w_pos00
+animation 1 w_idle1
+actor_look_at 1 date0_w_pos01_look_at
+
+
+
+
+
+// ------------------- end
+
+
+cut 8
+black
+time 0.75
+
+
+
+
+cut 9
+// they leave the date
+// Wonderful place, wonderful evening.
+
+fade_in 0.9
+time 6.0
+
+actor DLD00L03
+text DLD00L03
+
+actor_pos 0 date0_h_pos01
+animation 0 h_date0_walk1
+actor_look_at 0 date0_h_pos02_look_at
+
+actor_pos 1 date0_w_pos01
+animation 1 w_date0_walk2
+actor_look_at 1 date0_w_pos02_look_at
+
+camera_pos date0_cam07
+camera_move_to date0_cam07_target 0.4
+camera_look_at date0_cam07_look_at
+
+
+
+
+
+
+cut 10
+// they leave the date
+// I'll be happy to show you other charming places.
+
+
+fade_in 0.7
+time 5.0
+
+
+hero DLD00L04
+text DLD00L04
+
+camera_pos date0_cam08
+camera_move_to date0_cam08_target 0.4
+camera_look_at date0_cam08_look_at
+
+
+
+
+
+cut end
+fade_out 0.7
+time 0.2
+
+
+cut end_black
+black
+time 2.2
+
+
+
+

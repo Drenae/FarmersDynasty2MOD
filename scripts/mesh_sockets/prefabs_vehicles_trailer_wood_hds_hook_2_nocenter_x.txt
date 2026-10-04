@@ -1,0 +1,2 @@
+mesh_filename prefabs\vehicles\trailer_wood_hds\hook_2_nocenter.x
+socket p3a 0.000000 -0.040000 0.060000

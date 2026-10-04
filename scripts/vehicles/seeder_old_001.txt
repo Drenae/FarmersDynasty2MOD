@@ -1,0 +1,137 @@
+Vehicle >seeder_old_001 
+prefab prefabs\vehicles\seeder_old_001\seeder_old_001_nocenter.X
+Mass 740.0
+Stiffness 10
+
+spawn_id 42
+
+tag >MT31
+
+
+
+price 3000
+
+przyczepa
+siewnik
+grain_capacity 360
+//plant_on_unfold
+//reverse_fold
+//reverse_fold_panel_info
+zaczep_tylko_do_traktora
+old_tractors_can_attach
+
+
+// HOOKS
+hak zaczep
+zaczep_do_hak_gorny
+// hak_tyl zaczep_tyl
+
+
+
+suitable_for 0 1 2 3 4 5 6 7 10
+
+
+renew_and_paint
+repairable seeder_old_001.dds seeder_old_001_repaired.dds
+color 0.48 0.29 0.28
+
+
+
+
+// COLLISION MESH
+
+// pScaleZ
+mnoznik_fizyki_z 0.45
+// pScaleY
+mnoznik_fizyki_y 0.6
+// pScaleX
+mnoznik_fizyki_x 0.9
+
+// pTransZ
+przesuniecie_fizyki_przod 0.1
+// pTransY
+przesuniecie_fizyki_gora 0.9
+// pTransX
+przesuniecie_fizyki_prawo 0.0
+
+
+// drill 1 (1)
+wobbly
+3p_lift_angle 0.1 0.0
+attachment prefabs\vehicles\seeder_old_001\drill_1_nocenter.x drills
+
+// drill 2 (2)
+wobbly
+3p_lift_angle 0.1 0.0
+attachment prefabs\vehicles\seeder_old_001\drill_2_nocenter.x drills
+
+// drill 3 (3)
+wobbly
+3p_lift_angle 0.1 0.0
+attachment prefabs\vehicles\seeder_old_001\drill_3_nocenter.x drills
+
+// drill 4 (4)
+wobbly
+3p_lift_angle 0.1 0.0
+attachment prefabs\vehicles\seeder_old_001\drill_4_nocenter.x drills
+
+
+
+
+
+// SUPPORT DISKS
+// support disk 1
+reverse
+attachment_wheel prefabs\vehicles\seeder_old_001\disk_1_nocenter.x disk 1 1 1.7
+
+// support disk 2
+reverse
+attachment_wheel prefabs\vehicles\seeder_old_001\disk_2_nocenter.x disk 2 1 1.8
+
+// support disk 3
+reverse
+attachment_wheel prefabs\vehicles\seeder_old_001\disk_3_nocenter.x disk 3 1 1.5
+
+// support disk 4
+reverse
+attachment_wheel prefabs\vehicles\seeder_old_001\disk_4_nocenter.x disk 4 1 1.9
+
+// support axle
+reverse
+attachment_wheel prefabs\vehicles\seeder_old_001\axle_nocenter.x axle 0 1 1.8
+
+
+
+
+
+// PISTONS
+
+piston prefabs\vehicles\seeder_old_001\piston_1_nocenter.X 0 p1 1 p1
+piston prefabs\vehicles\seeder_old_001\piston_2_nocenter.X 0 p5 1 p5
+piston prefabs\vehicles\seeder_old_001\piston_3_nocenter.X 0 p8 1 p8
+piston prefabs\vehicles\seeder_old_001\piston_4_nocenter.X 0 p2 2 p2
+piston prefabs\vehicles\seeder_old_001\piston_1_nocenter.X 0 p9 2 p9
+piston prefabs\vehicles\seeder_old_001\piston_2_nocenter.X 0 p12 2 p12
+piston prefabs\vehicles\seeder_old_001\piston_3_nocenter.X 0 p3 3 p3
+piston prefabs\vehicles\seeder_old_001\piston_4_nocenter.X 0 p6 3 p6
+piston prefabs\vehicles\seeder_old_001\piston_1_nocenter.X 0 p11 3 p11
+piston prefabs\vehicles\seeder_old_001\piston_2_nocenter.X 0 p4 4 p4
+piston prefabs\vehicles\seeder_old_001\piston_3_nocenter.X 0 p7 4 p7
+piston prefabs\vehicles\seeder_old_001\piston_4_nocenter.X 0 p10 4 p10
+
+
+
+
+// prefab_kola socket_kola promien_kola podniesienie_osi_kola
+
+// wheel_invisible prefabs\vehicles\seeder_old_001\wheel_fake_nocenter.x wheel_fake1
+// wheel_invisible prefabs\vehicles\seeder_old_001\wheel_fake_nocenter.x wheel_fake2
+wheel prefabs\vehicles\seeder_old_001\wheel_left_nocenter.x wheel_left
+wheel prefabs\vehicles\seeder_old_001\wheel_right_nocenter.x wheel_right
+
+
+working_fx afx_sianie fx0
+working_fx afx_sianie fx1
+working_fx afx_sianie fx2
+working_fx afx_sianie fx3
+

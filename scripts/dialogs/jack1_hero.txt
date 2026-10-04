@@ -1,0 +1,49 @@
+//
+// Dialog z jackiem
+//
+
+//Jack the shopkeeper
+// dzien dobry, dzieki za jaje, zanies miod do ariany
+hero_dialog jack1_dialog1
+actor DLQ04L01
+hero DLQ04L04
+actor DLQ04L05
+hero DLQ04L06
+actor DLQ04L07
+hero DLQ04L08
+actor DLQ04L09
+hero DLQ04L10
+actor DLQ04L11
+hero DLQ04L12
+actor DLQ04L13
+hero DLQ04L14
+actor DLQ04L15
+actor DLQ04L16
+actor DLQ04L17
+hero DLQ04L18
+actor DLQ04L19
+
+
+//Audrey & Claire
+//elo, masz tu nalewke od dzemiar bo nawozu potrzebujo, to wez ta nalewke zanies mojemu bratu to on nawoz im opyli na zeszyt
+hero_dialog jack1_dialog2
+hero DLQ12L29
+actor DLQ12L30
+hero DLQ12L31
+actor DLQ12L32
+hero DLQ12L33
+actor DLQ12L34
+hero DLQ12L35
+actor DLQ12L36
+actor DLQ12L37
+hero DLQ12L38
+actor DLQ12L39
+
+
+
+
+
+
+
+
+

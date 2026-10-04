@@ -1,0 +1,37 @@
+
+// nazwa questa, unikalna i wymagana
+name Ariana_meet
+icon hud_map_social.dds
+given_by_icon actor_unknown_woman.dds
+
+title OB38
+initial_waypoint ariana1
+initial_objective OB39
+given_by ariana1
+
+// gdy startuje ten quest, niech bedzie sledzony
+focus_on_start
+
+social_award 1
+
+wait 0.1 -waypoint * -checkpoint 10
+
+//idziemy do kofi szopa 3, miej mjut od Jacka, dialog z Ariana
+goto ariana1 -distance 5 -waypoint ariana1 -checkpoint 20 -playerhas honey 10
+wait 0.1 -waypoint *
+player_teleport ariana_dialog_teleport
+hero_dialog ariana1_dialog1 ariana1
+take_from_player honey 10
+wait_end_hero_dialog
+give_player coffee 1
+wait 1 -checkpoint 30
+
+likes_player ariana1 0.25
+wait 1
+skill_advance TeamPlayer 5
+wait 1 -waypoint * -checkpoint 60
+print koniec_questa_ariana_meet
+wait 1
+
+start_quest Nathan_Nelly
+

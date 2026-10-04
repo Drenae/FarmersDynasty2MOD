@@ -1,0 +1,51 @@
+//
+// Dialog z mia
+//
+
+// dzien dobry, zaoram ci pole na traktore i kulturalnie zakultywuje a ty mie dej ten tego pługa
+hero_dialog mia1_dialog1
+hero DLQ07L01
+actor DLQ07L02
+hero DLQ07L03
+actor DLQ07L04
+hero DLQ07L05
+actor DLQ07L06
+hero DLQ07L07
+hero DLQ07L08
+actor DLQ07L09
+hero DLQ07L10
+actor DLQ07L11
+hero DLQ07L12
+actor DLQ07L13
+
+
+
+// zaorane ale nie mam kultywatora, ok to bierz pług ale jak zdobędziesz kultywator to wróć i zakultywatoruj
+hero_dialog mia1_dialog2
+hero DLQ07L14
+actor DLQ07L15
+actor DLQ07L16
+hero DLQ07L17
+
+// zaorane i mam kultywator, supcio to zakultywatoruj a ja ci robie obiad
+hero_dialog mia1_dialog4
+hero DLQ07L23
+actor DLQ07L24
+hero DLQ07L25
+actor DLQ07L26
+
+
+
+// zaorane i zakultywowane, essa dobra morda jesteś
+hero_dialog mia1_dialog3
+hero DLQ07L18
+actor DLQ07L19
+hero DLQ07L20
+actor DLQ07L21
+hero DLQ07L22
+
+
+
+
+
+

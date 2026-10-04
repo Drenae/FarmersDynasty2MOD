@@ -1,0 +1,2 @@
+mesh_filename prefabs\pickable\fishing_rod_ice_old_nocenter.x
+socket tip -0.005000 0.808000 -0.013000

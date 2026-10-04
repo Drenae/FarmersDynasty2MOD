@@ -1,0 +1,28 @@
+
+// nazwa questa, unikalna i wymagana
+name Repair_windmill
+icon hud_map_job.dds
+given_by_icon actor_unknown_man.dds
+
+title OB29
+initial_waypoint farm_windmill
+initial_objective OB30
+given_by jeremy1
+
+// gdy startuje ten quest, niech bedzie sledzony
+//focus_on_start
+
+social_award 1
+
+wait 0.5 -waypoint * -checkpoint 10
+
+//napraw se wiatrak
+wait 0.5 -waypoint farm_windmill -checkpoint 20
+wait_repair_building farm_windmill -checkpoint 30
+wait 0.5 -waypoint * -checkpoint 40
+
+set_chapter_var 11
+set_achievment FD2_ACH_22
+print koniec_questa_repair_windmill
+wait 0.5 -waypoint * -checkpoint 50
+wait 1

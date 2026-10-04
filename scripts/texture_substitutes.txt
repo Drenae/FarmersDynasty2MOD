@@ -1,0 +1,258 @@
+// description for random texture substitutes
+//
+
+// syntax:
+//
+// texture <texture_name.dds>
+// substitute <subst1.dds>
+// substitute <subst_other.dds>
+// ... etc
+
+
+
+// OBJECTS
+
+
+texture sheets_material01a.dds
+substitute sheets_material01b.dds
+substitute sheets_material01c.dds
+substitute sheets_material01d.dds
+substitute sheets_material01e.dds
+substitute sheets_material01f.dds
+substitute sheets_material01g.dds
+substitute sheets_material01h.dds
+
+// ANIMALS
+
+texture animal_cow.dds
+substitute animal_cow2.dds
+
+
+texture animal_pig.dds
+substitute animal_pig2.dds
+substitute animal_pig3.dds
+substitute animal_pig4.dds
+
+
+// texture animal_cat.dds
+// substitute animal_cat1.dds
+// substitute animal_cat2.dds
+// substitute animal_cat3.dds
+// substitute animal_cat4.dds
+// substitute animal_cat5.dds
+
+
+
+
+// NPC
+
+// texture eyes_brown.dds
+// substitute eyes_blue.dds
+// substitute eyes_black.dds
+// substitute eyes_green.dds
+// substitute eyes_gray.dds
+
+// texture w_hair_001.dds
+// substitute w_hair_001_black.dds
+// substitute w_hair_001_dark.dds
+// substitute w_hair_001_brown.dds
+// substitute w_hair_001_blond.dds
+// substitute w_hair_001_red.dds
+// substitute w_hair_001_hot_red.dds
+
+// texture w_hair_001_blond.dds
+// substitute w_hair_001_black.dds
+// substitute w_hair_001_red.dds
+// substitute w_hair_001_hot_red.dds
+
+// texture w_hair_001_black.dds
+// substitute w_hair_001.dds
+// substitute w_hair_001_brown.dds
+
+// texture w_hair_001_hot_red.dds
+// substitute w_hair_001_red.dds
+// substitute w_hair_001_dark.dds
+
+
+// texture w_hair_001_gray.dds
+// substitute w_hair_001_black.dds
+// substitute w_hair_001_dark.dds
+// substitute w_hair_001_blond.dds
+// substitute w_hair_001_gray.dds
+// substitute w_hair_001_gray.dds
+
+// texture m_hair_001.dds
+// substitute m_hair_001_black.dds
+// substitute m_hair_001_blond.dds
+// substitute m_hair_001_brown.dds
+// substitute m_hair_001_dark.dds
+// substitute m_hair_001_red.dds
+
+// texture m_hair_001_gray.dds
+// substitute m_hair_001_blond.dds
+// substitute m_hair_001_dark.dds
+// substitute m_hair_001_gray.dds
+// substitute m_hair_001_gray.dds
+
+// texture teeth_white.dds
+// substitute teeth_dirty.dds
+// substitute teeth_dark.dds
+
+
+
+// CLOTHES
+
+texture w_jeans_belt_light.dds
+substitute w_jeans_belta.dds
+substitute w_jeans_beltc.dds
+substitute w_jeans_beltd.dds
+substitute w_jeans_belte.dds
+
+texture w_jeans_belt.dds
+substitute w_jeans_belta.dds
+substitute w_jeans_beltb.dds
+substitute w_jeans_beltc.dds
+substitute w_jeans_beltd.dds
+substitute w_jeans_belte.dds
+
+texture w_jeans_beltold.dds
+substitute w_jeans_beltoldA.dds
+substitute w_jeans_beltoldB.dds
+substitute w_jeans_beltoldC.dds
+
+texture c_g_shirt_34sleeves_001.dds
+substitute c_g_shirt_34sleeves_001a.dds
+substitute c_g_shirt_34sleeves_001b.dds
+substitute c_g_shirt_34sleeves_001c.dds
+substitute c_g_shirt_34sleeves_001d.dds
+
+texture c_g_shirt_34sleeves_001old.dds
+substitute c_g_shirt_34sleeves_001oldA.dds
+substitute c_g_shirt_34sleeves_001oldB.dds
+substitute c_g_shirt_34sleeves_001oldC.dds
+substitute c_g_shirt_34sleeves_001oldD.dds
+
+texture c_g_tshirt_001.dds
+substitute c_g_tshirt_001a.dds
+substitute c_g_tshirt_001b.dds
+substitute c_g_tshirt_001c.dds
+substitute c_g_tshirt_001d.dds
+
+texture c_g_tshirt_001old.dds
+substitute c_g_tshirt_001a.dds
+substitute c_g_tshirt_001b.dds
+substitute c_g_tshirt_001c.dds
+substitute c_g_tshirt_001d.dds
+
+texture c_g_skinny_pants_001.dds
+substitute c_g_skinny_pants_001a.dds
+substitute c_g_skinny_pants_001b.dds
+substitute c_g_skinny_pants_001c.dds
+substitute c_g_skinny_pants_001d.dds
+
+texture c_g_skinny_pants_001old.dds
+substitute c_g_skinny_pants_001oldA.dds
+substitute c_g_skinny_pants_001oldC.dds
+substitute c_g_skinny_pants_001oldD.dds
+
+
+
+
+texture m_leather_shoes_black_60s.dds
+substitute m_leather_shoes_blue_60s.dds
+substitute m_leather_shoes_brown_60s.dds
+substitute m_leather_shoes_red_60s.dds
+
+texture m_leather_shoes_black.dds
+substitute m_leather_shoes_black_white.dds
+substitute m_leather_shoes_brown.dds
+substitute m_leather_shoes_red.dds
+
+texture m_cowboy_shoes_black.dds
+substitute m_cowboy_shoes_blue.dds
+substitute m_cowboy_shoes_red.dds
+substitute m_cowboy_shoes_green.dds
+
+texture m_cowboy_shoes_black_60s.dds
+substitute m_cowboy_shoes_blue_60s.dds
+substitute m_cowboy_shoes_brown_60s.dds
+substitute m_cowboy_shoes_red_60s.dds
+
+
+
+texture w_shirt_rolled_sleeves_001.dds
+substitute w_shirt_rolled_sleeves_001a.dds
+substitute w_shirt_rolled_sleeves_001b.dds
+substitute w_shirt_rolled_sleeves_001c.dds
+
+texture w_long_coat_001.dds
+substitute w_long_coat_001a.dds
+substitute w_long_coat_001b.dds
+substitute w_long_coat_001c.dds
+
+texture w_coat_2_001.dds
+substitute w_coat_2_001a.dds
+substitute w_coat_2_001b.dds
+
+texture m_jacket_1_001.dds
+substitute m_jacket_1_001a.dds
+substitute m_jacket_1_001b.dds
+
+texture m_jacket_2_001.dds
+substitute m_jacket_2_001a.dds
+substitute m_jacket_2_001b.dds
+
+texture m_sweater_wool_001.dds
+substitute m_sweater_wool_001a.dds
+substitute m_sweater_wool_001b.dds
+substitute m_sweater_wool_001c.dds
+
+texture m_sweater_wool_002.dds
+substitute m_sweater_wool_002a.dds
+substitute m_sweater_wool_002b.dds
+substitute m_sweater_wool_002c.dds
+
+texture m_collar_shirt_001.dds
+substitute m_collar_shirt_001b.dds
+substitute m_collar_shirt_001c.dds
+
+texture m_collar_shirt_short_sleeves.dds
+substitute m_collar_shirt_short_sleevesB.dds
+substitute m_collar_shirt_short_sleevesC.dds
+substitute m_collar_shirt_short_sleevesD.dds
+substitute m_collar_shirt_short_sleevesE.dds
+
+texture m_basket_shoes_001.dds
+substitute m_basket_shoes_002.dds
+
+texture w_slacks_001.dds
+substitute w_slacks_002.dds
+
+
+
+
+texture w_palto_002_lather.dds
+substitute w_palto_002_lathera.dds
+substitute w_palto_002_latherb.dds
+substitute w_palto_002_latherc.dds
+substitute w_palto_002_latherd.dds
+substitute w_palto_002_lathere.dds
+
+texture w_coat_old01.dds
+substitute w_coat_old01a.dds
+substitute w_coat_old01b.dds
+substitute w_coat_old01c.dds
+
+texture w_pants_old01.dds
+substitute w_pants_old01a.dds
+substitute w_pants_old01b.dds
+substitute w_pants_old01c.dds
+substitute w_pants_old01d.dds
+
+texture w_shirt_old01.dds
+substitute w_shirt_old01a.dds
+substitute w_shirt_old01b.dds
+substitute w_shirt_old01c.dds
+substitute w_shirt_old01d.dds
+substitute w_shirt_old01e.dds
+substitute w_shirt_old01f.dds

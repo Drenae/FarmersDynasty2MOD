@@ -1,0 +1,86 @@
+//
+// Dialog z anavri
+//
+
+// dzien dobry czy to tu zlot czarownic?, nie ja tu tylko radio maryja se slucham, btw ogarnij mi zarcie za darmo
+hero_dialog anavri1_dialog1
+actor DLQ10L01
+hero DLQ10L02
+actor DLQ10L03
+hero DLQ10L04
+actor DLQ10L05
+hero DLQ10L06
+actor DLQ10L07
+hero DLQ10L08
+actor DLQ10L09
+actor DLQ10L10
+
+label wybor1anavri
+choice 
+
+// label definiuje odnosnik do skoku, powinien byc unikalny dla dialogu
+// choice definiuje blok wyboru gracza - do nastepnego polecenia "actor" albo "hero". Poszczegolne linijki wyboru definiuje sie slowami kluczowymi "answer"
+
+// dobra, czego chcesz
+answer DLQ10L11
+on_answer_set anavri1_agreed
+on_answer_goto_label ok1anavri
+
+// nie jestem frajerem, za darmo nie robie
+answer DLQ10L12
+on_answer_set_default_dialog anavri1 anavri1_dialog2
+on_answer_end
+
+//supcio, idz do Connora po ryby
+label ok1anavri
+actor DLQ10L13A
+
+// jestes z powrotem kawalerze, pomozesz babci?
+hero_dialog anavri1_dialog2
+label zmieniamzdanie1anavri
+actor DLQ10L13
+
+label wybor1anavri
+choice
+
+// dobra, czego chcesz
+answer DLQ10L11
+on_answer_set anavri1_agreed
+on_answer_goto_label ok1anavri
+
+// nie jestem frajerem, za darmo nie robie
+answer DLQ10L12
+on_answer_set_default_dialog anavri1 anavri1_dialog2
+on_answer_end
+
+//supcio, idz do Connora po ryby
+label ok1anavri
+actor DLQ10L13A
+
+
+// popatrz babciu zlowilem ryby, dzieki fajny z ciebie kawaler mily ladny, masz tu fajne nasionka do szklarni, a tera idz do lasu na grzyby, pokaze ci jak zbierac
+hero_dialog anavri1_dialog3
+hero DLQ10L14
+actor DLQ10L15
+actor DLQ10L16
+actor DLQ10L17
+hero DLQ10L18
+actor DLQ10L19
+hero DLQ10L20
+actor DLQ10L21
+
+
+// masz grzyby babciu, dzieki mordo, naura
+hero_dialog anavri1_dialog4
+hero DLQ10L22
+actor DLQ10L23
+hero DLQ10L24
+actor DLQ10L25
+hero DLQ10L26
+
+
+
+
+
+
+

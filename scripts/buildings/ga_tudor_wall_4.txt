@@ -1,0 +1,17 @@
+// definiuje kolejne prefaby (stopnie przebudowy), w grze moze byc wlozony dowolny, ale musza byc unikalne dla danego setu
+// part <id_warstwy> <id_materialu> <klucz_text_keys_z_opisem> <sciezka\prefab>
+// -1 jako indeks materialu oznacza ten sam material, ale nie budowe tylko naprawe, czyli przejscie z polamanych na naprostowane deski BEZ kupowania desek.
+
+
+part 0 0  MAT00 prefabs\Buildings\garages\ga_wood_fixed_tudor_wall_4_1_nocenter.X
+
+part 1 1  MAT01 prefabs\Buildings\garages\ga_wood_new_tudor_wall_4_1_nocenter.X
+
+part 2 27  MAT27 prefabs\Buildings\garages\ga_wood_new_tudor_wall_4_1_nocenter.X
+
+// i teraz dla danego elementu definiujemy w ktory moze przejsc
+// pierwszy parametr to ktorego tyczy sie definicja, nastepne - w ktore moze byc zmieniony
+
+path 0   1
+path 1   2
+path 2   2

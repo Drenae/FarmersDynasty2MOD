@@ -1,0 +1,123 @@
+
+// nazwa questa, unikalna i wymagana
+name Emily_barn
+icon hud_map_social.dds
+given_by_icon actor_unknown_woman.dds
+
+title OB01
+initial_waypoint emily1
+initial_objective OB02
+given_by emily1
+
+// gdy startuje ten quest, niech bedzie sledzony
+focus_on_start
+
+tutorial
+
+social_award 1
+award tractor_old_fnd
+
+wait 0.1 -waypoint * -checkpoint 10
+
+forbid_canister
+forbid_sparewheel
+forbid_wirebrush
+
+
+//idziemy na farme 2, dialog z emily
+goto emily1 -distance 5 -waypoint emily1 -checkpoint 30
+wait 0.1 -waypoint *
+hero_dialog emily1_dialog1 emily1
+wait_end_hero_dialog
+give_player sausage 2
+give_player questfood01 2
+give_player questfood03 2
+give_player coke 4
+wait 1 -checkpoint 40
+
+
+
+//naprawiamy stodole
+wait 1 -waypoint neighbor_barn_002 -objective OB03 -checkpoint 50
+wait_repair_building neighbor_barn_002 -checkpoint 60
+
+demo_task_delete 5
+demo_task_check 6
+demo_task_add 9
+
+//naprawiamy silos
+wait 1 -waypoint neighbor_silo_002 -objective OB03A -checkpoint 70
+wait_repair_building neighbor_silo_002 -checkpoint 80
+
+demo_task_delete 6
+demo_task_check 7
+demo_task_add 10
+
+//dialog z emily
+goto emily1 -distance 5 -waypoint emily1 -objective OB04 -checkpoint 90
+wait 0.1 -waypoint *
+hero_dialog emily1_dialog2 emily1
+wait_end_hero_dialog
+likes_player emily1 0.25
+set_phase emily1 bot
+set_chapter_var 5
+
+//idziemy po traktor
+wait 1 -objective OB05 -waypoint emily_tractor -checkpoint 100
+//give_vehicle_to_player emily_tractor
+goto emily_tractor -distance 6 -checkpoint 110
+
+demo_task_delete 7
+demo_task_check 8
+demo_task_add 11
+
+//traktor nie ma kola, trzeba naprawic
+//uczymy sie naprawiania pojazdow
+unlock_perk mechanic00
+allow_sparewheel
+wait 0.5
+info OB05A -waypoint * -checkpoint 120
+wait 0.5 -playerhas sparewheel 1 -objective OB05B -waypoint tractor_wheel -checkpoint 130
+wait_sparewheel_mounted emily_tractor -waypoint emily_tractor -checkpoint 140
+wait 0.2 
+give_vehicle_to_player emily_tractor
+wait 0.2 -checkpoint 150
+set_achievment FD2_ACH_19
+set_chapter_var 6
+
+
+//kolo jest, jedziemy do siebie
+//uczymy sie jezdzic traktorem
+unlock_perk farmer00
+wait 0.5
+info OB05C -checkpoint 160
+enter emily_tractor -objective OB05D -checkpoint 170
+wait 1 -waypoint tractor_garage -checkpoint 180
+goto tractor_garage -distance 5 -checkpoint 200
+wait 0.2 
+info OB05E -checkpoint 210
+
+//odrdzewianie traktora
+allow_wirebrush
+allow_canister
+wait 1 -waypoint wire_brush -objective OB05F -checkpoint 220
+wait 0.5 -playerhas wirebrush 1 -checkpoint 230
+wait_vehicle_fixed emily_tractor -waypoint emily_tractor -checkpoint 240
+wait 0.2
+set_chapter_var 7
+info OB05G -waypoint * -checkpoint 250
+
+demo_task_delete 8
+demo_task_check 9
+demo_task_add 12
+
+
+wait 1 -checkpoint 260
+set_achievment FD2_ACH_03
+print koniec_questa_emily_barn
+wait 1
+
+//allow_auto_activate_quests
+start_quest Jeremy_meet
+
+

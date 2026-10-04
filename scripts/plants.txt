@@ -1,0 +1,657 @@
+//
+// skrypt definiuje zachowanie prefabow uzywanych jako roslinki
+// zarowno jako niescinalne trawy, jak tez uprawy.
+// zmiennoprzecinkowe z kropka, np. 0.5
+//
+// podajemy tak:
+// plant <sciezka\prefab.x> - rozpoczyna definicje wlasciwosci planta
+// move <X> - poruszanie na wietrze gdzie X jest zmiennoprzecinkowa od 0 do 1, domyslnie 1
+// lod <sciezka\prefab.x> // domyslnie brak
+// random_rotation <X> gdzie X to stala 0 dla braku rotacji, 1 dla domyslnej rotacji, -1 dla rotacji losowo prostopadlej, czyli o +-90 st. Domyslnie 1
+// random_position <X> gdzie X jest zmiennoprzecinkowa od 0 do 1 (max) - losowe przesuniecie (domyslnie 1).
+// random_height <X> gdzie X jest zmiennoprzecinkowa od 0 do 1 (max) - losowa wysokosc (domyslnie 0).
+//
+
+***
+plant prefabs\grass\grass_meadow03_nocenter.X
+move 0
+lod2_dist 62
+lod2 prefabs\grass\lod\grass_01_lod2_nocenter.X
+rotate_lod2_to_camera
+random_rotation 1
+random_position 1
+random_height 0.4
+
+plant prefabs\grass\grass_weed01_nocenter.X
+move 0
+lod2_dist 62
+lod2 prefabs\grass\lod\grass_01_lod2_nocenter.X
+rotate_lod2_to_camera
+random_rotation 1
+random_position 1
+random_height 0.4
+
+plant prefabs\grass\grass_yellow01_nocenter.X
+move 0
+random_rotation 1
+random_position 1
+random_height 0.4
+
+plant prefabs\grass\grass_bush_forest01_nocenter.X
+move 0
+lod2_dist 42
+lod2 prefabs\grass\lod\grass_01_lod2_nocenter.X
+rotate_lod2_to_camera
+random_rotation 1
+random_position 1
+random_height 0.6
+
+plant prefabs\grass\grass_bush_forest03_nocenter.X
+move 0
+lod2_dist 62
+lod2 prefabs\grass\lod\grass_01_lod2_nocenter.X
+rotate_lod2_to_camera
+random_rotation 1
+random_position 1
+random_height 0.5
+
+plant prefabs\grass\grass_bush_forest04_nocenter.X
+move 0
+lod2_dist 62
+lod2 prefabs\grass\lod\grass_01_lod2_nocenter.X
+rotate_lod2_to_camera
+random_rotation 1
+random_position 1
+random_height 0.5
+
+plant prefabs\grass\grass_bush_forest02_nocenter.X
+move 0
+lod2_dist 62
+lod2 prefabs\grass\lod\grass_01_lod2_nocenter.X
+rotate_lod2_to_camera
+random_rotation 1
+random_position 1
+random_height 0.5
+
+plant prefabs\grass\grass_SINGLE_high01_nocenter.X
+move 0
+lod2_dist 62
+lod2 prefabs\grass\lod\grass_01_lod2_nocenter.X
+rotate_lod2_to_camera
+random_rotation 1
+random_position 1
+random_height 0.4
+
+plant prefabs\grass\grass_SINGLE01_nocenter.X
+move 0
+lod2_dist 62
+lod2 prefabs\grass\lod\grass_01_lod2_nocenter.X
+rotate_lod2_to_camera
+random_rotation 1
+random_position 1
+random_height 0.33
+
+//////CROPS
+plant prefabs\grass\crops\crops_beets01_nocenter.X
+move 0
+random_rotation -1
+random_position 0
+random_height 0.3
+
+plant prefabs\grass\crops\crops_beets02_nocenter.X
+move 0
+random_rotation -1
+random_position 0
+random_height 0.2
+
+plant prefabs\grass\crops\crops_beets03_nocenter.X
+move 0
+random_rotation -1
+random_position 0
+random_height 0.2
+
+plant prefabs\grass\crops\crops_beets04_nocenter.X
+move 0
+random_rotation 1
+random_position 1
+random_height 0.2
+
+
+plant prefabs\grass\crops\crops_wheat01_nocenter.X
+move 0
+random_rotation -1
+random_position 0
+random_height 0.1
+
+plant prefabs\grass\crops\crops_wheat02_nocenter.X
+move 0
+lod prefabs\grass\crops\lod\crops_wheat02_lod1_nocenter.X
+lod1_dist 10
+rotate_lod1_to_camera
+lod2 prefabs\grass\crops\lod\crops_wheat02_lod2_nocenter.X
+lod2_dist 30
+rotate_lod2_to_camera
+random_rotation 1
+random_position 1
+random_height 0.2
+
+plant prefabs\grass\crops\crops_wheat03_nocenter.X
+move 0
+lod prefabs\grass\crops\lod\crops_wheat03_lod1_nocenter.X
+lod1_dist 10
+rotate_lod1_to_camera
+lod2 prefabs\grass\crops\lod\crops_wheat03_lod2_nocenter.X
+lod2_dist 30
+rotate_lod2_to_camera
+random_rotation 1
+random_position 1
+random_height 0.21
+
+plant prefabs\grass\crops\crops_wheat04_nocenter.X
+move 0
+lod prefabs\grass\crops\lod\crops_wheat04_lod1_nocenter.X
+lod1_dist 10
+rotate_lod1_to_camera
+lod2 prefabs\grass\crops\lod\crops_wheat04_lod2_nocenter.X
+lod2_dist 30
+random_rotation 1
+random_position 1
+random_height 0.35
+
+plant prefabs\grass\crops\crops_oat02_nocenter.X
+move 0
+lod prefabs\grass\crops\lod\crops_oat02_lod1_nocenter.X
+lod1_dist 10
+rotate_lod1_to_camera
+lod2 prefabs\grass\crops\lod\crops_oat02_lod2_nocenter.X
+lod2_dist 20
+rotate_lod2_to_camera
+random_rotation 1
+random_position 1
+random_height 0.2
+
+plant prefabs\grass\crops\crops_oat03_nocenter.X
+move 0
+lod prefabs\grass\crops\lod\crops_oat03_lod1_nocenter.X
+lod1_dist 10
+rotate_lod1_to_camera
+lod2 prefabs\grass\crops\lod\crops_oat03_lod2_nocenter.X
+lod2_dist 20
+rotate_lod2_to_camera
+random_rotation 1
+random_position 1
+random_height 0.3
+
+plant prefabs\grass\crops\crops_oat04_nocenter.X
+move 0
+lod prefabs\grass\crops\lod\crops_oat04_lod1_nocenter.X
+lod1_dist 10
+rotate_lod1_to_camera
+lod2 prefabs\grass\crops\lod\crops_oat04_lod2_nocenter.X
+lod2_dist 20
+rotate_lod2_to_camera
+random_rotation 1
+random_position 1
+random_height 0.35
+
+plant prefabs\grass\crops\crops_rye02_nocenter.X
+move 0
+lod prefabs\grass\crops\lod\crops_rye02_lod1_nocenter.X
+lod1_dist 10
+rotate_lod1_to_camera
+lod2 prefabs\grass\crops\lod\crops_rye02_lod2_nocenter.X
+lod2_dist 20
+rotate_lod2_to_camera
+random_rotation 1
+random_position 1
+random_height 0.2
+
+plant prefabs\grass\crops\crops_rye03_nocenter.X
+move 0
+lod prefabs\grass\crops\lod\crops_rye03_lod1_nocenter.X
+lod1_dist 10
+rotate_lod1_to_camera
+lod2 prefabs\grass\crops\lod\crops_rye03_lod2_nocenter.X
+lod2_dist 20
+rotate_lod2_to_camera
+random_rotation 1
+random_position 1
+random_height 0.3
+
+plant prefabs\grass\crops\crops_rye04_nocenter.X
+move 0
+random_rotation 1
+random_position 1
+random_height 0.35
+
+plant prefabs\grass\crops\crops_corn04_nocenter.X
+move 0
+lod prefabs\grass\crops\lod\crops_corn04_lod1_nocenter.X
+lod1_dist 1
+rotate_lod1_to_camera
+random_rotation 1
+random_position 1
+random_height 0.2
+
+plant prefabs\grass\crops\crops_corn03_nocenter.X
+move 0
+lod prefabs\grass\crops\lod\crops_corn03_lod1_nocenter.X
+lod1_dist 1
+rotate_lod1_to_camera
+random_rotation 0
+random_position 1
+random_height 0.22
+
+plant prefabs\grass\crops\crops_corn02_nocenter.X
+move 0
+lod prefabs\grass\crops\lod\crops_corn02_lod1_nocenter.X
+lod1_dist 1
+rotate_lod1_to_camera
+random_rotation 0
+random_position 1
+random_height 0.2
+
+plant prefabs\grass\crops\crops_corn01_nocenter.X
+move 0
+lod prefabs\grass\crops\lod\crops_corn01_lod1_nocenter.X
+lod1_dist 40 
+rotate_lod1_to_camera
+random_rotation 0
+random_position 0
+random_height 0.3
+
+plant prefabs\grass\crops\crops_sunflower01_nocenter.X
+move 0
+lod prefabs\grass\crops\lod\crops_sunflower01_lod1_nocenter.X
+lod1_dist 40 
+rotate_lod1_to_camera
+random_rotation 1
+random_position 1
+random_height 0.2
+
+plant prefabs\grass\crops\crops_sunflower04_nocenter.X
+move 0
+lod prefabs\grass\crops\lod\crops_sunflower04_lod1_nocenter.X
+lod1_dist 40 
+rotate_lod1_to_camera
+random_rotation 1
+random_position 1
+random_height 0.25
+
+plant prefabs\grass\crops\crops_sunflower03_nocenter.X
+move 0
+lod prefabs\grass\crops\lod\crops_sunflower03_lod1_nocenter.X
+lod1_dist 40
+rotate_lod1_to_camera
+random_rotation 1
+random_position 1
+random_height 0.2
+
+plant prefabs\grass\crops\crops_sunflower02_nocenter.X
+move 0
+lod prefabs\grass\crops\lod\crops_sunflower02_lod1_nocenter.X
+lod1_dist 40
+rotate_lod1_to_camera
+random_rotation 1
+random_position 1
+random_height 0.2
+
+plant prefabs\grass\crops\crops_potato02_nocenter.X
+move 0
+random_rotation -1
+random_position 0
+random_height 0.3
+
+plant prefabs\grass\crops\crops_potato03_nocenter.X
+move 0
+random_rotation -1
+random_position 0
+random_height 0.3
+
+plant prefabs\grass\crops\crops_potato01_nocenter.X
+move 0
+random_rotation -1
+random_position 0
+random_height 0.3
+
+
+plant prefabs\grass\crops\crops_potato04_nocenter.X
+move 0
+random_rotation 1
+random_position 1
+random_height 0.7
+
+//
+// nowe
+//
+
+plant prefabs\grass\crops\crops_barley03_nocenter.X
+move 0
+lod prefabs\grass\crops\lod\crops_barley03_lod1_nocenter.X
+lod1_dist 10
+rotate_lod1_to_camera
+lod2 prefabs\grass\crops\lod\crops_barley03_lod2_nocenter.X
+lod2_dist 20
+rotate_lod2_to_camera
+random_rotation 1
+random_position 1
+random_height 0.3
+
+
+plant prefabs\grass\crops\crops_barley02_nocenter.X
+move 0
+lod prefabs\grass\crops\lod\crops_barley02_lod1_nocenter.X
+lod1_dist 10
+rotate_lod1_to_camera
+lod2 prefabs\grass\crops\lod\crops_barley02_lod2_nocenter.X
+lod2_dist 20
+rotate_lod2_to_camera
+random_rotation 1
+random_position 1
+random_height 0.3
+
+plant prefabs\grass\crops\crops_pea02_nocenter.X
+move 0
+lod prefabs\grass\crops\lod\crops_pea02_lod1_nocenter.X
+lod1_dist 10
+rotate_lod1_to_camera
+lod2 prefabs\grass\crops\lod\crops_pea02_lod2_nocenter.X
+lod2_dist 20
+rotate_lod2_to_camera
+random_rotation 1
+random_position 1
+random_height 0.3
+
+plant prefabs\grass\crops\crops_pea03_nocenter.X
+move 0
+lod prefabs\grass\crops\lod\crops_pea03_lod1_nocenter.X
+lod1_dist 10
+rotate_lod1_to_camera
+lod2 prefabs\grass\crops\lod\crops_pea03_lod2_nocenter.X
+lod2_dist 20
+rotate_lod2_to_camera
+random_rotation 1
+random_position 1
+random_height 0.3
+
+plant prefabs\grass\crops\crops_pea04_nocenter.X
+move 0
+random_rotation 1
+random_position 1
+random_height 0.3
+
+
+plant prefabs\grass\crops\crops_lupine02_nocenter.X
+move 0
+lod prefabs\grass\crops\lod\crops_lupin02_lod1_nocenter.X
+lod1_dist 10
+rotate_lod1_to_camera
+lod2 prefabs\grass\crops\lod\crops_lupin02_lod2_nocenter.X
+lod2_dist 20
+rotate_lod2_to_camera
+random_rotation 1
+random_position 1
+random_height 0.3
+
+plant prefabs\grass\crops\crops_lupine03_nocenter.X
+move 0
+lod prefabs\grass\crops\lod\crops_lupin03_lod1_nocenter.X
+lod1_dist 15
+rotate_lod1_to_camera
+random_rotation 1
+random_position 1
+random_height 0.3
+
+
+plant prefabs\grass\crops\crops_lupine04_nocenter.X
+move 0
+random_rotation 1
+random_position 1
+random_height 0.3
+
+
+////
+
+
+////
+
+
+plant prefabs\grass\grass_watergrass01_nocenter.X
+move 0
+random_rotation 1
+random_position 1
+random_height 0.45
+
+plant prefabs\grass\grass_typha01_nocenter.X
+move 0
+random_rotation 1
+random_position 1
+random_height 0.45
+
+plant prefabs\grass\grass_flower01_nocenter.X
+move 0
+lod2_dist 62
+lod2 prefabs\grass\lod\grass_01_lod2_nocenter.X
+rotate_lod2_to_camera
+random_rotation 1
+random_position 1
+random_height 0.33
+
+plant prefabs\grass\grass_flower02_nocenter.X
+move 0
+lod prefabs\grass\lod\grass_flower02_lod1_nocenter.X
+lod1_dist 18
+lod2_dist 38
+lod2  prefabs\grass\lod\grass_flower02_lod2_nocenter.X
+rotate_lod1_to_camera
+rotate_lod2_to_camera
+random_rotation 1
+random_position 1
+random_height 0.33
+
+plant prefabs\grass\grass_meadow01_nocenter.X
+move 0
+lod prefabs\grass\lod\grass_meadow01_lod1_nocenter.X
+lod1_dist 18
+rotate_lod1_to_camera
+lod2_dist 62
+lod2 prefabs\grass\lod\grass_01_lod2_nocenter.X
+rotate_lod2_to_camera
+random_rotation 1
+random_position 1
+random_height 0.4
+
+plant prefabs\grass\grass_meadow02_nocenter.X
+move 0
+lod prefabs\grass\lod\grass_meadow02_lod1_nocenter.X
+lod1_dist 18
+rotate_lod1_to_camera
+lod2_dist 62
+lod2 prefabs\grass\lod\grass_01_lod2_nocenter.X
+rotate_lod2_to_camera
+random_rotation 1
+random_position 1
+random_height 0.4
+
+plant prefabs\grass\grass_high_nocenter.X
+move 0
+lod1 prefabs\grass\lod\grass_high_lod1_nocenter.x
+lod1_dist 40
+rotate_lod1_to_camera
+lod2_dist 92
+lod2 prefabs\grass\lod\grass_01_lod2_nocenter.X
+rotate_lod2_to_camera
+random_rotation 1
+random_position 1
+random_height 0.4
+
+plant prefabs\grass\grass_bush01_nocenter.X
+move 0
+lod2_dist 62
+lod2 prefabs\grass\lod\grass_01_lod2_nocenter.X
+rotate_lod2_to_camera
+random_rotation 1
+random_position 1
+random_height 0.4
+
+plant prefabs\grass\grass_01_nocenter.X
+move 0
+lod1 prefabs\grass\lod\grass_01_lod1_nocenter.X
+lod1_dist 22
+lod2_dist 42
+lod2 prefabs\grass\lod\grass_01_lod2_nocenter.X
+rotate_lod1_to_camera
+rotate_lod2_to_camera
+random_rotation 1
+random_position 1
+random_height 0.4
+
+plant prefabs\grass\grass_fern01_nocenter.X
+move 0
+random_rotation 1
+random_position 1
+random_height 0.5
+
+
+plant prefabs\grass\grass_fern02_nocenter.X
+move 0
+random_rotation 1
+random_position 1
+random_height 0.5
+
+
+***
+//GARDEN
+// tulip
+// sadzonka
+plant prefabs\Garden_plants\tulip_seedling01_nocenter.X
+
+// zielony
+plant prefabs\Garden_plants\tulip_middle01_nocenter.X
+
+
+// slabo urosl
+plant prefabs\Garden_plants\tulip_weak01_nocenter.X
+
+
+// dobrze urosl
+plant prefabs\Garden_plants\tulip01_nocenter.X
+
+
+// wysechl
+plant prefabs\Garden_plants\tulip_dry01_nocenter.X
+
+//
+// rose
+// sadzonka
+plant prefabs\Garden_plants\rose_seedling01_nocenter.X
+
+// zielony
+plant prefabs\Garden_plants\rose_middle01_nocenter.X
+
+
+// slabo urosl
+plant prefabs\Garden_plants\rose_weak01_nocenter.X
+
+
+// dobrze urosl
+plant prefabs\Garden_plants\rose01_nocenter.X
+
+
+// wysechl
+plant prefabs\Garden_plants\rose_dry01_nocenter.X
+
+// dahlia
+// sadzonka
+plant prefabs\Garden_plants\dahlia_seedling01_nocenter.X
+
+// zielony
+plant prefabs\Garden_plants\dahlia_middle01_nocenter.X
+
+
+// slabo urosl
+plant prefabs\Garden_plants\dahlia_weak01_nocenter.X
+
+
+// dobrze urosl
+plant prefabs\Garden_plants\dahlia01_nocenter.X
+
+
+// wysechl
+plant prefabs\Garden_plants\dahlia_dry01_nocenter.X
+
+//
+// zinnia
+// sadzonka
+plant prefabs\Garden_plants\zinnia_seedling01_nocenter.X
+
+// zielony
+plant prefabs\Garden_plants\zinnia_middle01_nocenter.X
+
+
+// slabo urosl
+plant prefabs\Garden_plants\zinnia_weak01_nocenter.X
+
+
+// dobrze urosl
+plant prefabs\Garden_plants\zinnia01_nocenter.X
+
+
+// wysechl
+plant prefabs\Garden_plants\zinnia_dry01_nocenter.X
+
+
+
+plant prefabs\grass\crops\crops_grass_cut_nocenter.X
+move 0
+random_rotation 1
+random_position 0
+random_height 0.2
+
+plant prefabs\grass\crops\crops_grass01_nocenter.X
+move 0
+lod prefabs\grass\crops\lod\crops_grass01_lod1_nocenter.X
+lod1_dist 10
+rotate_lod1_to_camera
+lod2 prefabs\grass\crops\lod\crops_grass01_lod2_nocenter.X
+lod2_dist 30
+rotate_lod2_to_camera
+random_rotation 1
+random_position 0
+random_height 0.2
+
+plant prefabs\grass\crops\crops_grass02_nocenter.X
+move 0
+lod prefabs\grass\crops\lod\crops_grass02_lod1_nocenter.X
+lod1_dist 10
+rotate_lod1_to_camera
+lod2 prefabs\grass\crops\lod\crops_grass02_lod2_nocenter.X
+lod2_dist 30
+rotate_lod2_to_camera
+random_rotation 1
+random_position 1
+random_height 0.22
+
+plant prefabs\grass\crops\crops_grass03_nocenter.X
+move 0
+lod prefabs\grass\crops\lod\crops_grass03_lod1_nocenter.X
+lod1_dist 10
+rotate_lod1_to_camera
+lod2 prefabs\grass\crops\lod\crops_grass03_lod2_nocenter.X
+lod2_dist 30
+rotate_lod2_to_camera
+random_rotation 1
+random_position 1
+random_height 0.25
+
+plant prefabs\grass\crops\crops_grass04_nocenter.X
+move 0
+lod prefabs\grass\crops\lod\crops_grass04_lod1_nocenter.X
+lod1_dist 10
+rotate_lod1_to_camera
+lod2 prefabs\grass\crops\lod\crops_grass04_lod2_nocenter.X
+lod2_dist 30
+rotate_lod2_to_camera
+random_rotation 1
+random_position 1
+random_height 0.35

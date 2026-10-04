@@ -1,0 +1,42 @@
+// definiuje kolejne prefaby (stopnie przebudowy), w grze moze byc wlozony dowolny, ale musza byc unikalne dla danego setu
+// part <id_warstwy> <id_materialu> <klucz_text_keys_z_opisem> <sciezka\prefab>
+// -1 jako indeks materialu oznacza ten sam material, ale nie budowe tylko naprawe, czyli przejscie z polamanych na naprostowane deski BEZ kupowania desek.
+
+// old wallpapers
+
+part 0 11  MAT11 prefabs\buildings\playerhouse_old\hs_wallpaper_old_wall_window_1_1_nocenter.x
+part 1 -1 MAT11 prefabs\buildings\playerhouse_old\hs_wallpaper_fixed_wall_window_1_1_nocenter.x
+
+part 2 11  MAT11 prefabs\buildings\playerhouse_old\hs_wallpaper_fixed_wall_window_1_0_nocenter.x
+
+
+
+part 3 11  MAT11 prefabs\buildings\playerhouse_old\hs_wallpaper_old_wall_window_1_11_nocenter.x
+part 4 -1 MAT11 prefabs\buildings\playerhouse_old\hs_wallpaper_fixed_wall_window_1_11_nocenter.x
+
+part 5 11  MAT11 prefabs\buildings\playerhouse_old\hs_wallpaper_fixed_wall_window_1_10_nocenter.x
+
+
+//new plaster
+part 6 6  MAT06 prefabs\buildings\playerhouse_old\hs_plaster_new_innerwall_window_1_0_nocenter.x
+part 7 27  MAT27 prefabs\buildings\playerhouse_old\hs_plaster_new_innerwall_window_1_0_nocenter.x
+
+
+
+//new wallpapers
+part 8 10  MAT10 prefabs\buildings\playerhouse_old\hs_wallpaper_new_wall_window_1_0_nocenter.x
+
+
+
+// i teraz dla danego elementu definiujemy w ktory moze przejsc
+// pierwszy parametr to ktorego tyczy sie definicja, nastepne - w ktore moze byc zmieniony
+
+path 0   1
+path 1   6 8
+path 2   6 8
+path 3   4
+path 4   6 8
+path 5   6 8
+path 6   7 8
+path 7   7 8
+path 8   6

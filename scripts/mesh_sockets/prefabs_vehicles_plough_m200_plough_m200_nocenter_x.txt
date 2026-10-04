@@ -1,0 +1,9 @@
+mesh_filename prefabs\vehicles\plough_m200\plough_m200_nocenter.x
+socket support_leg 0.000000 0.000000 0.000000
+socket fx0 0.940000 -0.200000 0.000000
+socket fx1 0.000000 -0.200000 0.000000
+socket fx2 -0.950000 -0.200000 0.000000
+socket zaczep3p 0.000000 0.660000 0.810000
+socket zaczep3pgora 0.000000 0.780000 1.410000
+socket plow0 -1.200000 0.000000 0.000000
+socket plow1 1.200000 0.000000 0.000000

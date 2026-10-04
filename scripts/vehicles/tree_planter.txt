@@ -1,0 +1,118 @@
+Vehicle >tree_planter
+prefab prefabs\vehicles\tree_planter\tree_planter_nocenter.X
+Mass 220.0
+Stiffness 10
+
+spawn_id 66
+
+tag >MT43
+
+tree_planter
+price 4500
+przyczepa
+working_width 2
+slippery_vehicle
+// old_tractors_can_attach
+
+
+renew_and_paint
+color 0.21 0.27 0.21
+
+
+
+
+
+// COLLISION MESH
+
+// pScaleZ
+mnoznik_fizyki_z 0.9
+// pScaleY
+mnoznik_fizyki_y 0.55
+// pScaleX
+mnoznik_fizyki_x 0.85
+
+// pTransZ
+przesuniecie_fizyki_przod 0.0
+// pTransY
+przesuniecie_fizyki_gora 0.79
+// pTransX
+przesuniecie_fizyki_prawo 0.0
+
+
+
+additional_lift_3p_when_up 0.80
+additional_lift_3p_when_down 0.60
+mnoznik_kata 1.7
+
+add_when_loose 0.18
+
+
+// HOOKS
+zaczep3p zaczep3p
+zaczep3pgora zaczep3pgora
+pto pto
+
+
+// ARM (1)
+rotate_cmd0 -4
+attachment prefabs\vehicles\tree_planter\arm_nocenter.x arm
+
+
+// DRUM (2)
+seedling_container
+seedling_drum
+attachment prefabs\vehicles\tree_planter\seedling_drum_nocenter.x drum
+
+
+// DIGGER (3)
+seedling_digger
+attachment prefabs\vehicles\tree_planter\digger_nocenter.x digger 1
+
+
+// PISTONS (4)
+seedling_needle
+attachment prefabs\vehicles\tree_planter\needle_nocenter.x needle 1
+
+// ROTOR (5)
+attachment prefabs\vehicles\tree_planter\rotor_nocenter.x rotor 1
+
+
+// SUPPORT LEG (6)
+attachment_stopka prefabs\vehicles\tree_planter\support_legs_nocenter.x support_legs 0.0 0.45
+
+
+// WHEELS
+reverse
+attachment_wheel prefabs\vehicles\tree_planter\wheel_left_nocenter.x wheel_left
+reverse
+attachment_wheel prefabs\vehicles\tree_planter\wheel_right_nocenter.x wheel_right
+
+
+
+
+// SEEDLING BOXES
+seedling_container
+attachment prefabs\vehicles\tree_planter\seedling_box_nocenter.x w1
+seedling_container
+attachment prefabs\vehicles\tree_planter\seedling_box_nocenter.x w2
+
+
+
+// LIGHTS
+
+attachment_light prefabs\vehicles\tree_planter\lamp1_nocenter.X light1
+attachment_name swiatlo_lt1
+swiatlo_tyl lt1
+swiatlo_z swiatlo_lt1
+
+attachment_light prefabs\vehicles\tree_planter\lamp2_nocenter.X light2
+attachment_name swiatlo_lt2
+swiatlo_tyl lt2
+swiatlo_z swiatlo_lt2
+
+
+// SOUNDS
+working_sound sfx\vehicles\haybaler.wav
+
+
+

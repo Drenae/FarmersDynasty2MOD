@@ -1,0 +1,3 @@
+mesh_filename prefabs\objects\tools\tool_greenhouse_bowl_nocenter.x
+socket x1 0.180000 0.160000 0.210000
+socket x2 -0.160000 -0.180000 0.200000

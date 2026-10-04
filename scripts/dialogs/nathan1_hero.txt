@@ -1,0 +1,69 @@
+//
+// Dialog z nathanem
+//
+
+// Nathan & Nelly
+// dzien dobry, napraw mi farme, panie za duzo roboty, no dobra to tylko stodole
+hero_dialog nathan1_dialog1
+hero DLQ06L01
+actor DLQ06L02
+hero DLQ06L03
+actor DLQ06L04
+hero DLQ06L05
+actor DLQ06L06
+hero DLQ06L07
+actor DLQ06L08
+hero DLQ06L09
+actor DLQ06L10
+hero DLQ06L11
+actor DLQ06L12
+hero DLQ06L13
+actor DLQ06L14
+hero DLQ06L15
+
+// stodola naprawiona, dzieki mordo, masz tu kultywator
+hero_dialog nathan1_dialog2
+hero DLQ06L16
+actor DLQ06L17
+hero DLQ06L18
+actor DLQ06L19
+hero DLQ06L20
+actor DLQ06L21
+hero DLQ06L22
+
+// Nelly & Nathan
+// witam z powrotem, idz do nelly dogadac sie o zaplate za remont farmy
+hero_dialog nathan1_dialog3
+hero DLQ08L01
+actor DLQ08L02
+hero DLQ08L03
+actor DLQ08L04
+hero DLQ08L05
+actor DLQ08L06
+
+// elo jak kupiliscie farme, tak po prostu bo tu duzo farm jest na sprzedaz sobie popatrz
+hero_dialog nathan1_dialog4
+hero DLQ08L21
+actor DLQ08L22
+hero DLQ08L23
+actor DLQ08L24
+hero DLQ08L25
+actor DLQ08L26
+actor DLQ08L27
+hero DLQ08L28
+actor DLQ08L29
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

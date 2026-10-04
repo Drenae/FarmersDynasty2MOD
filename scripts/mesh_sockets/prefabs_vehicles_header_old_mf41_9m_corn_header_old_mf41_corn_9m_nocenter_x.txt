@@ -1,0 +1,7 @@
+mesh_filename prefabs\vehicles\header_old_mf41_9m_corn\header_old_mf41_corn_9m_nocenter.x
+socket helix 0.000000 -0.670000 0.400000
+socket knives 0.000000 -0.030000 -1.250000
+socket s0 4.100000 0.500000 -0.800000
+socket s1 -4.100000 0.500000 -0.800000
+socket reel 0.000000 0.110000 -0.110000
+socket header 0.000000 -2.210000 0.030000

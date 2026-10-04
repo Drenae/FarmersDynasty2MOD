@@ -1,0 +1,4 @@
+mesh_filename prefabs\vehicles\beets_harvester\transporter_nocenter.x
+socket beets2 0.010000 -0.000000 0.000000
+socket p2 -0.130000 0.560000 -0.350000
+socket p4 -0.130000 -0.540000 -0.350000

@@ -1,0 +1,142 @@
+actor Joyka
+
+dog
+
+default_phase demo_idle
+model prefabs\models\animals\dog\dog.X
+scale 1
+
+name >OC60
+
+phase idle
+animation dog_idle1
+animation dog_idle2
+animation dog_idle3
+animation dog_idle4
+on_gracz_blizej_niz 8 idle_do_gracza
+on_night sleep
+on_end idle
+on_end idle
+on_end idle
+on_end idle
+on_end idle
+on_end sleep
+on_end_special_dog do_budy
+
+phase sleep
+animation dog_sleep
+on_night sleep
+on_end sleep
+on_end sleep
+on_end sleep
+on_end sleep
+on_end sleep
+on_end sleep
+on_end idle
+on_gracz_blizej_niz 8 idle_do_gracza
+
+phase idle_do_gracza
+obrot_do_gracza
+animation dog_idle1
+animation dog_idle2
+animation dog_idle3
+animation dog_idle4
+on_end idle_do_gracza
+on_gracz_dalej_niz 8 idle
+
+
+phase eat
+animation dog_eat
+on_end do_budy
+
+phase do_budy
+dog_estimate
+animation dog_walk
+//speed 0.7
+loop
+on_end idle
+
+
+
+
+phase dog_walk
+animation dog_walk
+on_end dog_walk
+
+
+phase dog_run_fast
+animation dog_run
+on_end dog_run_fast   
+
+
+
+
+
+
+
+// DEMO
+
+phase demo_idle
+animation dog_idle1
+animation dog_idle2
+animation dog_idle3
+animation dog_idle4
+on_end demo_lies_down
+on_end demo_idle
+on_end demo_idle
+on_end demo_idle
+on_end demo_idle
+on_end demo_eat
+on_end demo_drink
+
+phase demo_lies_down
+animation dog_lies_down
+on_end demo_lies_idle
+
+phase demo_lies_idle
+animation dog_sit
+on_end demo_lies_idle
+on_end demo_lies_idle
+on_end demo_sleep
+on_end demo_gets_up
+on_end demo_gets_up
+
+phase demo_sleep
+animation dog_sleep
+on_end demo_sleep
+on_end demo_sleep
+on_end demo_sleep
+on_end demo_lies_idle
+
+phase demo_gets_up
+animation dog_gets_up
+on_end demo_idle
+
+phase demo_eat
+animation dog_eat
+on_end demo_eat
+on_end demo_idle
+on_end demo_idle
+on_end demo_idle
+
+phase demo_drink
+animation dog_drink
+on_end demo_drink
+on_end demo_idle
+on_end demo_idle
+on_end demo_idle
+
+phase demo_walk
+animation dog_walk
+on_end demo_walk
+
+ phase demo_trot
+animation dog_trot
+on_end demo_trot
+
+phase demo_run
+animation dog_run
+on_end demo_run
+
+
+

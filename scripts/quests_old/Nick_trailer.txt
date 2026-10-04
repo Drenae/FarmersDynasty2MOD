@@ -1,0 +1,52 @@
+
+// nazwa questa, unikalna i wymagana
+name Nick_trailer
+icon hud_map_social.dds
+given_by_icon actor_unknown_man.dds
+
+title OC38
+initial_waypoint nicholas1
+initial_objective OC39
+given_by nicholas1
+
+// gdy startuje ten quest, niech bedzie sledzony
+focus_on_start
+
+social_award 1
+award trailer_old_cereal
+
+wait 0.1 -waypoint * -checkpoint 10
+
+//idziemy na farme 1302, dialog z nicholasem
+goto nicholas1 -distance 5 -waypoint nicholas1 -checkpoint 20
+wait 0.1 -waypoint *
+hero_dialog nicholas1_dialog1 nicholas1
+wait_end_hero_dialog
+give_player wheatroll 4
+give_player sausage 4
+give_player donut 2
+give_player questfood01 2
+wait 1 -checkpoint 30
+
+//wycinamy lasek nad jeziorem (field_195)
+allow_field_work field_195
+wait_cut_forest field_195 -waypoint nicholas_forest -objective OC40 -checkpoint 50
+
+//dialog z nicholasem
+goto nicholas1 -distance 5 -waypoint nicholas1 -objective OC41 -checkpoint 80
+wait 0.1 -waypoint *
+hero_dialog nicholas1_dialog2 nicholas1
+forbid_field_work field_195
+likes_player nicholas1 0.25
+wait_end_hero_dialog
+wait 1 -checkpoint 90
+
+//odbieramy przyczepe na zbosze
+give_vehicle_to_player nicholas_trailer
+goto nicholas_trailer -distance 8 -waypoint nicholas_trailer -objective OC42 -checkpoint 100
+wait 1 -waypoint * -checkpoint 110
+print koniec_questa_nick_trailer
+wait 1
+
+
+

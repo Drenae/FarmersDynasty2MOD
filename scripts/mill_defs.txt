@@ -1,0 +1,89 @@
+//
+// definicje budynkow tartaku
+// numery po "building" sa wazne, nie zmieniac, korzystam w kodzie. Reszta jak wygodnie.
+// to co jest w name (np. MillBarkRemoval) jest po odbudowie ustawiane jako zmienna w œwiecie, mo¿na od tego uzale¿niaæ akcje (if set).
+//
+
+
+building 0
+name MillBarkRemoval
+prefab_base prefabs\Buildings\sawmill\bark_removal\building_bark_removal_1_nocenter.x
+
+prefab_work1 prefabs\Buildings\sawmill\bark_removal\building_bark_removal_2_nocenter.x
+work1_days 3
+
+prefab_work2 prefabs\Buildings\sawmill\bark_removal\building_bark_removal_3_nocenter.x
+work2_days 2
+
+prefab_final prefabs\Buildings\sawmill\bark_removal\building_bark_removal_4_nocenter.x
+
+
+// co sie wyswietla jak niezrobiony
+title_base AT129
+info_base AT130
+
+price 10000
+
+
+
+
+building 1
+name MillSaw
+prefab_base prefabs\Buildings\sawmill\saw\building_saw_1_nocenter.X
+
+prefab_work1 prefabs\Buildings\sawmill\saw\building_saw_2_nocenter.X
+work1_days 3
+
+prefab_work2 prefabs\Buildings\sawmill\saw\building_saw_3_nocenter.X
+work2_days 2
+
+prefab_final prefabs\Buildings\sawmill\saw\building_saw_4_nocenter.X
+
+// co sie wyswietla jak niezrobiony
+title_base AT131
+info_base AT132
+
+price 8000
+
+
+
+building 2
+name MillDryer
+prefab_base prefabs\Buildings\sawmill\dryer\building_dryer_1_nocenter.X
+
+prefab_work1 prefabs\Buildings\sawmill\dryer\building_dryer_2_nocenter.X
+work1_days 3
+
+prefab_work2 prefabs\Buildings\sawmill\dryer\building_dryer_3_nocenter.X
+work2_days 2
+
+prefab_final prefabs\Buildings\sawmill\dryer\building_dryer_4_nocenter.X
+
+// co sie wyswietla jak niezrobiony
+title_base AT133
+info_base AT134
+
+price 8000
+
+
+
+building 3
+name MillOSB
+prefab_base prefabs\Buildings\sawmill\osb\building_osb_1_nocenter.X
+
+prefab_work1 prefabs\Buildings\sawmill\osb\building_osb_2_nocenter.X
+work1_days 3
+
+prefab_work2 prefabs\Buildings\sawmill\osb\building_osb_3_nocenter.X
+work2_days 2
+
+prefab_final prefabs\Buildings\sawmill\osb\building_osb_4_nocenter.X
+
+// co sie wyswietla jak niezrobiony
+title_base AT135
+info_base AT136
+
+price 8000
+
+
+

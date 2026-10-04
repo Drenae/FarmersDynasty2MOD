@@ -1,0 +1,125 @@
+Vehicle >trailer_wood_hds
+prefab prefabs\vehicles\trailer_wood_hds\trailer_wood_hds_nocenter.x
+Mass 2500.0
+Stiffness 10
+
+spawn_id 19
+
+tag >MT36
+
+renew_and_paint
+color 0.73 0.69 0.16
+
+
+przyczepa
+na_logi
+timber_lift
+price 21000
+working_width 4
+old_tractors_can_attach
+do_not_sell
+
+// COLLISION MESH
+collision_mesh prefabs\vehicles\trailer_wood_hds\physics_trailer_nocenter.x
+
+
+
+// pScaleY
+mnoznik_fizyki_y 0.3
+// pScaleZ
+mnoznik_fizyki_z 0.8
+// pScaleX
+mnoznik_fizyki_x 0.65
+
+// pTransY
+przesuniecie_fizyki_gora 0.95
+// pTransZ
+przesuniecie_fizyki_przod -0.47
+// pTransX
+przesuniecie_fizyki_prawo 0.0
+
+
+// HOOKS
+hak zaczep
+zaczep_do_hak_gorny
+
+
+
+// CRANE
+
+// crane1 (1)
+// obrot w osi y (lokalnej): <mnoznik_predkosci_obrotu> <zakres_min_obrotu> <zakres_max_obrotu>
+crane_rotate_y 0.25 -2.3 2.3
+attachment prefabs\vehicles\trailer_wood_hds\crane1_nocenter.x crane1
+
+// crane2 (2)
+crane_rotate_x 0.5 -0.6 0.1
+attachment prefabs\vehicles\trailer_wood_hds\crane2_nocenter.x crane2 1
+
+// crane3 (3)
+crane_rotate2_x 2.0 -2.0 0.0
+attachment prefabs\vehicles\trailer_wood_hds\crane3_nocenter.x crane3 2
+
+// crane4 (4)
+crane_hook_lift
+attachment prefabs\vehicles\trailer_wood_hds\crane4_nocenter.x crane4 3
+
+// hook1 (5)
+crane_hook1
+attachment prefabs\vehicles\trailer_wood_hds\hook_1_nocenter.x hook1 4
+
+// hook2 (6)
+crane_hook2
+attachment prefabs\vehicles\trailer_wood_hds\hook_2_nocenter.x hook2 4
+
+
+
+
+
+// WHEELS & MUDGUARDS
+wheel_invisible prefabs\vehicles\trailer_wood_hds\wheel_fake_nocenter.X wheel_fake
+wheel prefabs\vehicles\trailer_wood_hds\wheel_right_nocenter.x wheel_right1
+wheel prefabs\vehicles\trailer_wood_hds\wheel_left_nocenter.x wheel_left1
+wheel prefabs\vehicles\trailer_wood_hds\wheel_right_nocenter.x wheel_right2
+wheel prefabs\vehicles\trailer_wood_hds\wheel_left_nocenter.x wheel_left2
+
+
+// PISTONS
+piston prefabs\vehicles\trailer_wood_hds\piston1_nocenter.x 1 p1 2 p1a
+piston prefabs\vehicles\trailer_wood_hds\piston1a_nocenter.x 2 p1a 1 p1
+
+piston prefabs\vehicles\trailer_wood_hds\piston2_nocenter.x 2 p2 3 p2a
+piston prefabs\vehicles\trailer_wood_hds\piston2a_nocenter.x 3 p2a 2 p2
+
+piston prefabs\vehicles\trailer_wood_hds\piston3_nocenter.x 5 p3 6 p3a
+piston prefabs\vehicles\trailer_wood_hds\piston3a_nocenter.x 6 p3a 5 p3
+
+
+
+
+// LIGHTS
+
+attachment_light prefabs\vehicles\trailer_wood_hds\lamp1_nocenter.x light1
+attachment_name swiatlo_lt1
+swiatlo_tyl lt1
+swiatlo_z swiatlo_lt1
+
+attachment_light prefabs\vehicles\trailer_wood_hds\lamp2_nocenter.x light2
+attachment_name swiatlo_lc1
+swiatlo_cofania lc1
+swiatlo_z swiatlo_lc1
+
+attachment_light prefabs\vehicles\trailer_wood_hds\lamp3_nocenter.x light3
+attachment_name swiatlo_lc2
+swiatlo_tyl lc2
+swiatlo_z swiatlo_lc2
+
+attachment_light prefabs\vehicles\trailer_wood_hds\lamp4_nocenter.x light4
+attachment_name swiatlo_lt2
+swiatlo_tyl lt2
+swiatlo_z swiatlo_lt2
+
+
+
+
+

@@ -1,0 +1,121 @@
+// definiuje kolejne prefaby (stopnie przebudowy), w grze moze byc wlozony dowolny, ale musza byc unikalne dla danego setu
+// part <id_warstwy> <id_materialu> <klucz_text_keys_z_opisem> <sciezka\prefab>
+// -1 jako indeks materialu oznacza ten sam material, ale nie budowe tylko naprawe, czyli przejscie z polamanych na naprostowane deski BEZ kupowania desek.
+
+// old
+part 0 16  MAT16 prefabs\buildings\playerhouse_old\hs_wood_old_roof_1_21_nocenter.x
+part 1 -1  MAT16 prefabs\buildings\playerhouse_old\hs_wood_fixed_roof_1_21_nocenter.x
+
+part 2 16  MAT16 prefabs\buildings\playerhouse_old\hs_wood_old_roof_1_31_nocenter.x
+part 3 -1  MAT16 prefabs\buildings\playerhouse_old\hs_wood_fixed_roof_1_31_nocenter.x
+
+part 4 16  MAT16 prefabs\buildings\playerhouse_old\hs_wood_old_roof_1_41_nocenter.x
+part 5 -1  MAT16 prefabs\buildings\playerhouse_old\hs_wood_fixed_roof_1_41_nocenter.x
+
+
+
+// NEW
+
+// bitumen
+part 6 13  MAT13 prefabs\buildings\playerhouse_old\hs_wood_fixed_roof4_1_0_nocenter.x
+
+
+// red shingle
+part 7 14  MAT14 prefabs\buildings\playerhouse_old\hs_shingle_new_roof_1_nocenter.x
+
+// green metal
+part 8 15  MAT15 prefabs\buildings\playerhouse_old\hs_metal_new_roof_2_nocenter.x
+
+// red ceramic
+part 9 16  MAT16 prefabs\buildings\playerhouse_old\hs_ceramic_new_roof_3_nocenter.x
+
+// tin roof
+part 10 17  MAT17 prefabs\buildings\playerhouse_old\hs_tin_new_roof_4_nocenter.x
+
+
+
+
+
+
+
+// old 2
+part 12 16  MAT16 prefabs\buildings\playerhouse_old\hs_wood_old_roof_1_22_nocenter.x
+part 13 -1  MAT16 prefabs\buildings\playerhouse_old\hs_wood_fixed_roof_1_22_nocenter.x
+
+part 14 16  MAT16 prefabs\buildings\playerhouse_old\hs_wood_old_roof_1_32_nocenter.x
+part 15 -1  MAT16 prefabs\buildings\playerhouse_old\hs_wood_fixed_roof_1_32_nocenter.x
+
+part 16 16  MAT16 prefabs\buildings\playerhouse_old\hs_wood_old_roof_1_42_nocenter.x
+part 17 -1  MAT16 prefabs\buildings\playerhouse_old\hs_wood_fixed_roof_1_42_nocenter.x
+
+
+
+// transparent to stretch
+part 11 26  MAT26 prefabs\buildings\playerhouse_old\hs_transparent_new_roof_2_0_nocenter.x
+part 18 -1  MAT26 prefabs\buildings\playerhouse_old\hs_stretch_fixed_roof_2_0_nocenter.x
+
+part 19 26  MAT26 prefabs\buildings\playerhouse_old\hs_transparent_new_roof_2_2_nocenter.x
+part 20 -1  MAT26 prefabs\buildings\playerhouse_old\hs_stretch_fixed_roof_2_2_nocenter.x
+
+part 21 26  MAT26 prefabs\buildings\playerhouse_old\hs_transparent_new_roof_2_3_nocenter.x
+part 22 -1  MAT26 prefabs\buildings\playerhouse_old\hs_stretch_fixed_roof_2_3_nocenter.x
+
+
+
+
+
+
+part 23 14  MAT14 prefabs\buildings\playerhouse_old\hs_wood_fixed_roof5_1_0_nocenter.x
+part 24 15  MAT15 prefabs\buildings\playerhouse_old\hs_wood_fixed_roof3_1_0_nocenter.x
+part 25 16  MAT16 prefabs\buildings\playerhouse_old\hs_wood_fixed_roof_1_0_nocenter.x
+part 26 17  MAT17 prefabs\buildings\playerhouse_old\hs_wood_fixed_roof2_1_0_nocenter.x
+
+// solar
+part 27 28  MAT28 prefabs\buildings\playerhouse_old\hs_solar_fixed_roof_1_0_nocenter.x
+
+
+
+
+// i teraz dla danego elementu definiujemy w ktory moze przejsc
+// pierwszy parametr to ktorego tyczy sie definicja, nastepne - w ktore moze byc zmieniony
+
+path 0   1 6 7 8 9 10 27
+path 1   6 7 8 9 10 27
+path 2   3 6 7 8 9 10 27
+path 3   6 7 8 9 10 27
+path 4   5 6 7 8 9 10 27
+path 5   6 7 8 9 10 27
+
+path 6   7 8 9 10 27
+path 7   6 8 9 10 27
+path 8   6 7 9 10 27
+path 9   6 7 8 10 27
+path 10   6 7 8 9 27
+
+path 11   6 7 8 9 10 18 27
+
+path 12   13 6 7 8 9 10 27
+path 13   6 7 8 9 10 27
+path 14   15 6 7 8 9 10 27
+path 15   6 7 8 9 10 27
+path 16   17 6 7 8 9 10 27
+path 17   6 7 8 9 10 27
+
+path 18   6 7 8 9 10 27
+
+path 19   6 7 8 9 10 20 27
+path 20   6 7 8 9 10 27
+
+path 21   6 7 8 9 10 22 27
+path 22   6 7 8 9 10 27
+
+
+path 23   6 7 8 9 10 27
+path 24   6 7 8 9 10 27
+path 25   6 7 8 9 10 27
+path 26   6 7 8 9 10 27
+path 27   6 7 8 9 10
+
+
+
+

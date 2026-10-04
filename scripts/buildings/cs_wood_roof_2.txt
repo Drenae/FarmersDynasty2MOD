@@ -1,0 +1,208 @@
+// definiuje kolejne prefaby (stopnie przebudowy), w grze moze byc wlozony dowolny, ale musza byc unikalne dla danego setu
+// part <id_warstwy> <id_materialu> <klucz_text_keys_z_opisem> <sciezka\prefab>
+// -1 jako indeks materialu oznacza ten sam material, ale nie budowe tylko naprawe, czyli przejscie z polamanych na naprostowane deski BEZ kupowania desek.
+
+// red bitumen
+part 0 16  MAT16 prefabs\buildings\cowshed\cs_bitumen_old_roof2_top_1_1_nocenter.x
+part 1 -1  MAT16 prefabs\buildings\cowshed\cs_bitumen_fixed_roof2_top_1_1_nocenter.x
+
+part 2 16  MAT16 prefabs\buildings\cowshed\cs_bitumen_old_roof2_top_2_1_nocenter.x
+part 3 -1  MAT16 prefabs\buildings\cowshed\cs_bitumen_fixed_roof2_top_2_1_nocenter.x
+
+part 4 16  MAT16 prefabs\buildings\cowshed\cs_bitumen_old_roof2_top_3_1_nocenter.x
+part 5 -1  MAT16 prefabs\buildings\cowshed\cs_bitumen_fixed_roof2_top_3_1_nocenter.x
+
+
+
+part 6 16  MAT16 prefabs\buildings\cowshed\cs_bitumen_old_roof2_bottom_1_1_nocenter.x
+part 7 -1  MAT16 prefabs\buildings\cowshed\cs_bitumen_fixed_roof2_bottom_1_1_nocenter.x
+
+part 8 16  MAT16 prefabs\buildings\cowshed\cs_bitumen_old_roof2_bottom_2_1_nocenter.x
+part 9 -1  MAT16 prefabs\buildings\cowshed\cs_bitumen_fixed_roof2_bottom_2_1_nocenter.x
+
+part 10 16  MAT16 prefabs\buildings\cowshed\cs_bitumen_old_roof2_bottom_3_1_nocenter.x
+part 11 -1  MAT16 prefabs\buildings\cowshed\cs_bitumen_fixed_roof2_bottom_3_1_nocenter.x
+
+
+
+part 12 16  MAT16 prefabs\buildings\cowshed\cs_bitumen_old_roof_edge2_1_1_nocenter.x
+part 13 -1  MAT16 prefabs\buildings\cowshed\cs_bitumen_fixed_roof_edge2_1_1_nocenter.x
+
+part 14 16  MAT16 prefabs\buildings\cowshed\cs_bitumen_old_roof_edge2_2_1_nocenter.x
+part 15 -1  MAT16 prefabs\buildings\cowshed\cs_bitumen_fixed_roof_edge2_2_1_nocenter.x
+
+part 16 16  MAT16 prefabs\buildings\cowshed\cs_bitumen_old_roof2_edge_3_1_nocenter.x
+part 17 -1  MAT16 prefabs\buildings\cowshed\cs_bitumen_fixed_roof2_edge_3_1_nocenter.x
+
+part 18 16  MAT16 prefabs\buildings\cowshed\cs_bitumen_old_roof2_edge_4_1_nocenter.x
+part 19 -1  MAT16 prefabs\buildings\cowshed\cs_bitumen_fixed_roof2_edge_4_1_nocenter.x
+
+
+
+// blue bitumen
+part 20 15  MAT15 prefabs\buildings\cowshed\cs_bitumen_old_roof4_top_1_1_nocenter.x
+part 21 -1  MAT15 prefabs\buildings\cowshed\cs_bitumen_fixed_roof4_top_1_1_nocenter.x
+
+part 22 15  MAT15 prefabs\buildings\cowshed\cs_bitumen_old_roof4_top_2_1_nocenter.x
+part 23 -1  MAT15 prefabs\buildings\cowshed\cs_bitumen_fixed_roof4_top_2_1_nocenter.x
+
+part 24 15  MAT15 prefabs\buildings\cowshed\cs_bitumen_old_roof4_top_3_1_nocenter.x
+part 25 -1  MAT15 prefabs\buildings\cowshed\cs_bitumen_fixed_roof4_top_3_1_nocenter.x
+
+
+
+part 26 15  MAT15 prefabs\buildings\cowshed\cs_bitumen_old_roof4_bottom_1_1_nocenter.x
+part 27 -1  MAT15 prefabs\buildings\cowshed\cs_bitumen_fixed_roof4_bottom_1_1_nocenter.x
+
+part 28 15  MAT15 prefabs\buildings\cowshed\cs_bitumen_old_roof4_bottom_2_1_nocenter.x
+part 29 -1  MAT15 prefabs\buildings\cowshed\cs_bitumen_fixed_roof4_bottom_2_1_nocenter.x
+
+part 30 15  MAT15 prefabs\buildings\cowshed\cs_bitumen_old_roof4_bottom_3_1_nocenter.x
+part 31 -1  MAT15 prefabs\buildings\cowshed\cs_bitumen_fixed_roof4_bottom_3_1_nocenter.x
+
+
+
+
+// eternit
+part 32 13  MAT13 prefabs\buildings\cowshed\cs_bitumen_old_roof3_1_1_nocenter.x
+part 33 -1  MAT13 prefabs\buildings\cowshed\cs_bitumen_fixed_roof3_1_1_nocenter.x
+
+part 34 13  MAT13 prefabs\buildings\cowshed\cs_bitumen_old_roof3_2_1_nocenter.x
+part 35 -1  MAT13 prefabs\buildings\cowshed\cs_bitumen_fixed_roof3_2_1_nocenter.x
+
+part 36 13  MAT13 prefabs\buildings\cowshed\cs_bitumen_old_roof3_3_1_nocenter.x
+part 37 -1  MAT13 prefabs\buildings\cowshed\cs_bitumen_fixed_roof3_3_1_nocenter.x
+
+part 38 13  MAT13 prefabs\buildings\cowshed\cs_bitumen_old_roof3_4_1_nocenter.x
+part 39 -1  MAT13 prefabs\buildings\cowshed\cs_bitumen_fixed_roof3_4_1_nocenter.x
+
+
+
+
+
+
+// red shingle new
+part 40 16  MAT16 prefabs\buildings\cowshed\cs_ceramic_new_roof_3a_nocenter.x
+
+// eternit new
+part 41 14  MAT14 prefabs\buildings\cowshed\cs_shingle_new_roof_1a_nocenter.x
+part 42 14  MAT14 prefabs\buildings\cowshed\cs_shingle_new_roof_1a_nocenter.x
+part 43 14  MAT14 prefabs\buildings\cowshed\cs_shingle_new_roof_1a_nocenter.x
+part 44 14  MAT14 prefabs\buildings\cowshed\cs_shingle_new_roof_1a_nocenter.x
+
+
+// green metal new
+part 45 15  MAT15 prefabs\buildings\cowshed\cs_metal_new_roof_2a_nocenter.x
+
+// tin new
+part 46 17  MAT17 prefabs\buildings\cowshed\cs_tin_new_roof_4a_nocenter.x
+
+// bitumen
+part 47 13  MAT13 prefabs\buildings\cowshed\cs_bitumen_new_roof5_1_1_nocenter.x
+
+//do not render
+part 48 26  MAT26 prefabs\buildings\cowshed\cs_bitumen_new_roof7_1_1_nocenter.x
+part 49 -1  MAT26 prefabs\buildings\cowshed\cs_stretch_fixed_roof7_1_1_nocenter.x
+
+part 50 26  MAT26 prefabs\buildings\cowshed\cs_bitumen_new_roof7_1_2_nocenter.x
+part 51 -1  MAT26 prefabs\buildings\cowshed\cs_stretch_fixed_roof7_1_2_nocenter.x
+
+part 52 26  MAT26 prefabs\buildings\cowshed\cs_bitumen_new_roof7_1_3_nocenter.x
+part 53 -1  MAT26 prefabs\buildings\cowshed\cs_stretch_fixed_roof7_1_3_nocenter.x
+
+
+
+
+// red bitumen new
+part 54 16  MAT16 prefabs\buildings\cowshed\cs_bitumen_new_roof2_1_1_nocenter.x
+
+// eternit new
+part 55 13  MAT13 prefabs\buildings\cowshed\cs_bitumen_new_roof3_1_0_nocenter.x
+part 56 13  MAT13 prefabs\buildings\cowshed\cs_bitumen_new_roof3_2_0_nocenter.x
+part 57 13  MAT13 prefabs\buildings\cowshed\cs_bitumen_new_roof3_3_0_nocenter.x
+part 58 13  MAT13 prefabs\buildings\cowshed\cs_bitumen_new_roof3_4_0_nocenter.x
+
+
+// blue bitumen new
+part 59 15  MAT15 prefabs\buildings\cowshed\cs_bitumen_new_roof4_1_1_nocenter.x
+
+// red ceramic new
+part 60 17  MAT17 prefabs\buildings\cowshed\cs_bitumen_new_roof5_1_1_nocenter.x
+
+
+
+
+
+// i teraz dla danego elementu definiujemy w ktory moze przejsc
+// pierwszy parametr to ktorego tyczy sie definicja, nastepne - w ktore moze byc zmieniony
+
+path 0   1 40 41 45 46 47
+path 1   40 41 45 46 47
+path 2   3 40 42 45 46 47
+path 3   40 42 45 46 47
+path 4   5 40 43 45 46 47
+path 5   40 43 45 46 47
+
+path 6   7 40 44 45 46 47
+path 7   40 44 45 46 47
+path 8   9 40 41 45 46 47
+path 9   40 41 45 46 47
+path 10   11 40 42 45 46 47
+path 11   40 42 45 46 47
+
+path 12   13 40 43 45 46 47
+path 13   40 43 45 46 47
+path 14   15 40 44 45 46 47
+path 15   40 44 45 46 47
+path 16   17 40 41 45 46 47
+path 17   40 41 45 46 47
+path 18   19 40 42 45 46 47
+path 19   40 42 45 46 47
+
+path 20   21 40 43 45 46 47
+path 21   40 43 45 46 47
+path 22   23 40 44 45 46 47
+path 23   40 44 45 46 47
+path 24   25 40 41 45 46 47
+path 25   40 41 45 46 47
+path 26   27 40 42 45 46 47
+path 27   40 42 45 46 47
+path 28   29 40 43 45 46 47
+path 29   40 43 45 46 47
+path 30   31 40 44 45 46 47
+path 31   40 44 45 46 47
+
+path 32   33 40 41 45 46 47
+path 33   40 41 45 46 47
+path 34   35 40 42 45 46 47
+path 35   40 42 45 46 47
+path 36   37 40 43 45 46 47
+path 37   40 43 45 46 47
+path 38   39 40 44 45 46 47
+path 39   40 44 45 46 47
+
+path 40   41 45 46 47
+path 41   40 45 46 47
+path 42   40 45 46 47
+path 43   40 45 46 47
+path 44   40 45 46 47
+path 45   40 42 46 47
+path 46   40 43 45 47
+path 47   40 44 45 46
+path 48   40 41 45 46 47 49
+path 49   40 41 45 46 47
+
+path 50   40 41 45 46 47 51
+path 51   40 41 45 46 47
+
+path 52   40 41 45 46 47 53
+path 53   40 41 45 46 47
+
+
+path 54   40 44 45 46 47
+path 55   40 44 45 46 47
+path 56   40 44 45 46 47
+path 57   40 44 45 46 47
+path 58   40 44 45 46 47
+path 59   40 44 45 46 47
+path 60   40 44 45 46 47

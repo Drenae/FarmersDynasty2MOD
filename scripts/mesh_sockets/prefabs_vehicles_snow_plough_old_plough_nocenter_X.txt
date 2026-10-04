@@ -1,0 +1,5 @@
+mesh_filename prefabs\vehicles\snow_plough_old\plough_nocenter.X
+socket s0 1.700000 0.500000 -0.400000
+socket s1 -1.700000 0.500000 -0.500000
+socket lp1 -1.630000 0.760000 0.900000
+socket light1 -1.700000 0.660000 0.895000

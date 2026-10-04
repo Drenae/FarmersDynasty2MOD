@@ -1,0 +1,145 @@
+//
+// spawnuje pojazdy inne niz z quest systemu i wlozone do swiata.
+// sprawdza czy pojazd istnieje w swiecie i jesli tak to nie spawnuje go
+// 
+// old_era
+// new_era
+// spawner <id_pojazdu> <nazwa_markera> [<nazwa_id_pojazdu>] [<1 lub zero - dac graczowi domyslnie 0>]
+//
+// <id_pojazdu> to nazwa skryptu pojazdu bez .txt, na przyklad baler_CM_square
+
+
+
+old_era
+
+//car_shop_001 za poludniowym mostem, na poludnie od farmy 16, przy stacji benzynowej i brico marche
+spawner old_fertilizer s_fertilizer_001_1 fertilizer_old_001
+spawner trailer_old_cereal  s_snow_plough trailer_old_60s_cereal
+spawner tractor_F69 s_tractor_001_1 tractor_big_60s_001
+spawner tractor_F69 s_tractor_001_3 tractor_big_60s_001_2
+spawner tractor_old_db s_tractor_001_2 tractor_old_60s_red
+spawner trailer_old_log s_trailer_001_1 trailer_wood_old_60s
+spawner stamp_remover_old s_stump_remover stump_remover_old_60s
+
+
+
+//car_shop_002 na zachod od farmy Nathana i Nelly, przy lasach do kupienia
+spawner baler_CM_square s_baler baler_new_60s
+spawner tractor_old_gen s_tractor_002_1 tractor_old_60s_blue
+spawner tractor_snow s_tractor_002_2 tractor_old_60s_snow
+spawner tractor_F69 s_tractor_002_3 tractor_big_60s_002
+spawner trailer_old_transporter s_trailer_002_1 trailer_old_60s_flatbed
+spawner rake_old s_rake_002 rake_old_60s
+spawner mower_sidecutter_old s_mower_002 mower_side_old_60s
+
+
+//car_shop_003 NE od tamy, SE od NE silosów, przy farmie 26
+spawner header_old_MF40_corn s_header_corn
+spawner old_fertilizer s_fertilizer_003_1 fertilizer_old_003
+spawner tractor_F69 s_tractor_003_1 tractor_big_60s_003
+spawner tractor_F69 s_tractor_003_2 tractor_big_60s_003_2
+//spawner trailer_old_hay s_trailer_003_1 trailer_old_60s_hay
+
+
+//dlc_vehicle_store przy poludniowym moscie
+spawner tractor_old_mah dlc0 tractor_old_60s_racing
+spawner manure_spreader2_old dlc1 manure_spreader2_old
+spawner seeder_old_ED dlc2 seeder_old_ED
+spawner header_old_MF40_9m_cereal dlc5 header_cereal_60s_yellow
+spawner header_old_MF40_9m_corn dlc6 header_corn_60s_yellow
+spawner trailer_headers_old dlc7 trailer_headers_old_60s
+spawner beets_harvester_old dlc4 harvester_beets_old_60s
+spawner beets_planter_old dlc9 planter_beets_old_60s
+spawner potato_harvester_old dlc10 harvester_potato_old_60s
+spawner potato_planter_old dlc8 planter_potato_old_60s
+
+
+
+
+
+new_era
+
+//za stodołą gracza
+spawner plough_old_FB125 s_inherited_plough inherited_plough 1
+spawner cultivator_old s_inherited_cultivator inherited_cultivator 1
+spawner trailer_old_hay s_inherited_haytrailer inherited_haytrailer 1
+
+//car_shop_001 za poludniowym mostem, na poludnie od farmy 16, przy stacji benzynowej i brico marche
+spawner cultivator_MC6 s_cultivator_001_1 cultivator_new_modern_001
+spawner fertilizer_FA300  s_fertilizer_001_1 fertilizer_new_modern_001
+spawner harrow_new s_cultivator_001_2 harrow_new_001
+spawner manure_spreader_13k s_fertilizer_001_2 manure_new_modern_001
+spawner mower_mf1340 s_mower_001_1 mower_old_modern_back
+spawner mower_mf1340_front s_mower_001_2 mower_old_modern_front
+spawner plough_LJ86 s_plough_001_1 plough_lj_new_modern_001
+spawner seeder_MG7 s_seeder_001_1 seeder_new_modern_001
+spawner tractor_L7_2 s_tractor_001_1 tractor_l7_new_modern_001
+spawner tractor_L7_2 s_tractor_001_3 tractor_l7_new_modern_001_2
+spawner tractor_TT1600 s_tractor_001_4 tractor_tt_new_modern_001
+spawner trailer_RT_10T s_trailer_001_1 trailer_grain_rt_new_modern_001
+spawner trailer_ZTC100 s_trailer_001_2 trailer_flatbed_new_modern
+spawner tractor_old_mah s_tractor_001_2 tractor_old_modern_racing
+spawner tree_planter s_tree_planter tree_planter_modern
+spawner stamp_remover s_stump_remover stump_remover_new_modern
+
+
+//car_shop_002 na zachod od farmy Nathana i Nelly, przy lasach do kupienia
+spawner baler_CQ3 s_baler baler_new_modern
+spawner harrow_new s_cultivator_002_1 harrow_new_002
+spawner manure_spreader_13k s_fertilizer_002_1 manure_new_modern_002
+spawner plough_LJ86 s_plough_002_1 plough_lj_new_modern_002
+spawner plough_MA3 s_plough_002_2 plough_ma_new_modern_002
+spawner seeder_MG7 s_seeder_002_1 seeder_new_modern_002
+spawner tractor_L7_2 s_tractor_002_1 tractor_l7_new_modern_002
+spawner tractor_L7_2 s_tractor_002_3 tractor_l7_new_modern_002_2
+spawner tractor_TT1600 s_tractor_002_2 tractor_tt_new_modern_002
+spawner trailer_S18k s_trailer_002_1 trailer_grain_s_new_modern_002
+spawner trailer_wood_hds s_trailer_002_2 trailer_wood_new_modern_002
+spawner seeder_old_ED s_seeder_002_2 seeder_old_ED_modern
+spawner manure_spreader2_old s_manure_spreader_002_1 manure_spreader2_old_modern
+spawner rake_double s_rake_002 rake_double_new_modern
+spawner mower_sidecutter s_mower_002 mower_side_new_modern
+
+
+//car_shop_003 NE od tamy, SE od NE silosów, przy farmie 26
+spawner cultivator_FS30 s_cultivator_003_1 cultivator_003
+spawner fertilizer_FA300  s_fertilizer_003_1 fertilizer_new_modern_003
+spawner harvester_L770 s_harvester harvester_new_modern
+spawner header_corn_crn3 s_header_corn header_corn_new_modern
+spawner header_e10 s_header_grain header_grain_new_modern
+spawner plough_MA3 s_plough_003_1 plough_ma_new_modern_003
+spawner tractor_TT1600 s_tractor_003_1 tractor_tt_new_modern_003
+spawner tractor_TT1600 s_tractor_003_2 tractor_tt_new_modern_003_2
+spawner trailer_RT_10T s_trailer_003_1 trailer_grain_rt_new_modern_003
+spawner trailer_S18k s_trailer_003_2 trailer_grain_s_new_modern_003
+spawner trailer_wood_hds s_trailer_003_3 trailer_wood_new_modern_003
+spawner header_old_MF40_9m_cereal s_header_cereal_dlc header_cereal_old_modern_yellow
+spawner header_old_MF40_9m_corn s_header_corn_dlc header_corn_old_modern_yellow
+spawner harvester_old_MF41 s_harvester_old harvester_old_modern
+spawner trailer_headers_old s_header_trailer_old trailer_headers_old_modern
+spawner trailer_headers s_header_trailer_new trailer_headers_new_modern
+
+//farma 22
+spawner trailer_old_transporter s_hannah_flatbed hannah_flatbed
+
+
+//dlc_vehicle_store przy poludniowym moscie
+spawner beets_harvester dlc4 harvester_beets_new_modern
+spawner beets_planter dlc9 planter_beets_new_modern
+spawner potato_harvester dlc10 harvester_potato_new_modern
+spawner potato_planter dlc8 planter_potato_new_modern
+spawner lawn_mower dlc0 mower_stihl
+
+
+
+
+
+
+
+
+
+
+
+
+
+

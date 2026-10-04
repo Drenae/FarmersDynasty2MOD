@@ -1,0 +1,145 @@
+Vehicle >baler_CQ3
+prefab prefabs\vehicles\baler_CQ3\baler_CQ3_nocenter.X
+Mass 1200.0
+Stiffness 10
+
+spawn_id 26
+
+tag >MT09
+
+renew_and_paint
+color 0.99 0.99 0.01
+
+
+
+prasa
+przyczepa
+price 32000
+kostkujaca prefabs\attachments\hay\hay_bale_cuboid.X
+working_width 2.2
+zaczep_tylko_do_traktora
+
+// COLLISION MESH
+
+collision_mesh prefabs\vehicles\baler_cq3\physics_baler_cq3_nocenter.x
+
+// pScaleZ
+mnoznik_fizyki_z 0.85
+// pScaleY
+mnoznik_fizyki_y 0.6
+// pScaleX
+mnoznik_fizyki_x 0.8
+
+// pTransZ
+przesuniecie_fizyki_przod -0.2
+// pTransY
+przesuniecie_fizyki_gora 1.3
+// pTransX
+przesuniecie_fizyki_prawo 0.0
+
+
+// HOOKS
+hak zaczep
+pto pto
+hak_tyl zaczep_tyl
+
+
+
+//HEADER
+front lift (1)
+rotate_cmd4 0.8 0.8 X
+attachment prefabs\vehicles\baler_cq3\header_nocenter.x header
+
+
+// reel1 (2)
+rotate_cmd0 7
+attachment prefabs\vehicles\baler_cq3\reel1_nocenter.x reel1 1
+
+// reel2 (3)
+rotate_cmd0 7
+attachment prefabs\vehicles\baler_cq3\reel2_nocenter.x reel2 1
+
+// reel3 (4)
+rotate_cmd0 -4
+attachment prefabs\vehicles\baler_cq3\reel3_nocenter.x reel3 1
+
+// reel4 (5)
+rotate_cmd0 6
+attachment prefabs\vehicles\baler_cq3\reel4_nocenter.x reel4 1
+
+
+
+
+
+
+// reel5 (6)
+rotate_cmd0 2.5
+attachment prefabs\vehicles\baler_cq3\reel5_nocenter.x reel5
+
+// PRESS
+
+// press3 (7)
+rotate_cmd0 -4
+attachment prefabs\vehicles\baler_cq3\press3_nocenter.x press3
+
+
+// press2 (8)
+rotate_cmd0 7
+attachment prefabs\vehicles\baler_cq3\press_rotor_nocenter.x press_rotor
+
+
+// GATE (9)
+// attachment prefabs\vehicles\baler_cq3\gate_nocenter.x gate
+
+
+
+
+// PISTON
+// piston <prefab> <nr_attachmentu> <socket> <nr_attachmentu_docelowego> <socket_docelowy> <rotacja po osi R F U>
+piston prefabs\vehicles\baler_cq3\press1_nocenter.x 0 press1 8 rotor
+piston prefabs\vehicles\baler_cq3\press2_nocenter.x 7 press 0 press0
+
+piston prefabs\vehicles\baler_cq3\piston2a_nocenter.x 7 p2 0 p2
+piston prefabs\vehicles\baler_cq3\piston2_nocenter.x 0 p2 7 p2
+
+// piston prefabs\vehicles\baler_cq3\piston1_nocenter.x 0 p1 9 p1
+// piston prefabs\vehicles\baler_cq3\piston1a_nocenter.x 9 p1 0 p1
+
+
+
+
+// SUPPORT LEG
+attachment_stopka prefabs\vehicles\baler_cq3\support_leg_nocenter.x support_leg 0.05 0.2
+
+
+
+
+// WHEELS & MUDGUARDS
+wheel prefabs\vehicles\baler_cq3\wheel_right_nocenter.x wheel_front_right
+wheel prefabs\vehicles\baler_cq3\wheel_left_nocenter.x wheel_front_left
+wheel prefabs\vehicles\baler_cq3\wheel_right_nocenter.x wheel_rear_right
+wheel prefabs\vehicles\baler_cq3\wheel_left_nocenter.x wheel_rear_left
+
+attachment_wheel prefabs\vehicles\baler_cq3\wheel_small_nocenter.x wheel_small_left 1
+attachment_wheel prefabs\vehicles\baler_cq3\wheel_small_nocenter.x wheel_small_right 1
+
+wheel_invisible prefabs\vehicles\baler_cq3\wheel_fake_nocenter.x wheel_fake
+
+
+// ANIM FX
+// attachment_anim_fx <prefab> <socket> [<attachment do przyczepienia lub 0>] [<mnoznik predkosci przesuwu gibania - 1 domyslnie>] [<mnoznik gibania animacji - 1 domyslnie>] [<mnoznik predkosci przesuwu tekstury - 1 domyslnie>]
+// attachment_anim_fx prefabs\vehicles\baler_cq3\anim_dump_nocenter.x anim_dump 0 0.7 0.7 -0.4
+
+
+
+// LIGHTS
+swiatlo_tyl lt1
+swiatlo_tyl lt2
+swiatlo_cofania lc1
+
+
+// SOUNDS
+working_sound sfx\vehicles\haybaler.wav
+
+
+

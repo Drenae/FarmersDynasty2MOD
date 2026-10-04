@@ -1,0 +1,94 @@
+Vehicle >rake_old
+prefab prefabs\vehicles\rake_old\rake_old_nocenter.x
+Mass 140.0
+Stiffness 10
+
+spawn_id 76
+
+tag >MT52
+
+
+
+renew_and_paint
+repairable rake_old.dds rake_old_repaired.dds
+color 0.64 0.31 0.32
+
+
+przyczepa
+rake
+price 10000
+old_tractors_can_attach
+zaczep_tylko_do_traktora
+
+
+
+// COLLISION MESH
+
+// pScaleY
+mnoznik_fizyki_y 0.6
+// pScaleZ
+mnoznik_fizyki_z 0.99
+// pScaleX
+mnoznik_fizyki_x 0.9
+
+// pTransY
+przesuniecie_fizyki_gora 0.64
+// pTransZ
+przesuniecie_fizyki_przod -0.07
+// pTransX
+przesuniecie_fizyki_prawo 0.0
+
+
+
+additional_lift_3p_when_up 0.3
+additional_lift_3p_when_down 0.1
+mnoznik_kata 1.2
+add_when_loose 0.03
+
+
+
+// HOOKS
+zaczep3p zaczep3p
+zaczep3pgora zaczep3pgora
+// pto pto
+
+
+
+
+
+// ROTOR (1)
+rake_rotor -3 trawa1
+attachment prefabs\vehicles\rake_old\rotor_nocenter.x rotor
+
+
+// SUPPORT LEG (2)
+attachment_stopka prefabs\vehicles\rake_old\support_leg_nocenter.x 0.02 0.35
+
+
+
+// WHEELS & MUDGUARDS
+// prefab_kola socket_kola promien_kola podniesienie_osi_kola
+reverse
+attachment_wheel prefabs\vehicles\rake_old\wheel_front_nocenter.x wheel_front 0 1 2.4
+reverse
+attachment_wheel prefabs\vehicles\rake_old\wheel_left_nocenter.x wheel_left 0 1 2.4
+reverse
+attachment_wheel prefabs\vehicles\rake_old\wheel_right_nocenter.x wheel_right 0 1 2.4
+
+
+
+// FX
+// working_fx <nazwa_afx> <nazwa_socketa> [nr_attachmentu_jesli_socket_attachmentu] [1_jesli_odwrocony_plug]
+// jak w kazdym sockecie, jesli attachment to skinmesh, to jego numer zwiekszyc o 16
+
+working_fx afx_mower fx0
+working_fx afx_mower fx1
+working_fx afx_mower fx2
+working_fx afx_mower fx3
+
+
+// SOUNDS
+working_sound sfx\vehicles\rake_rotor.wav
+// sound_cmd3_on sfx\vehicles\rake_rotor.wav
+
+

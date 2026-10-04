@@ -1,0 +1,5 @@
+mesh_filename prefabs\vehicles\beets_planter\left_side_nocenter.x
+socket wheel_small1 0.383000 -2.250000 -0.480000
+socket wheel_left -0.170000 -1.470000 -0.380000
+socket p1_left 0.480000 -0.020000 0.260000
+socket p2_left 0.600000 -0.030000 0.390000

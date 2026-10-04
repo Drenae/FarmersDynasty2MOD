@@ -1,0 +1,15 @@
+mesh_filename prefabs\vehicles\trailer_s18k\trailer_s18k_nocenter.x
+socket wheel_right 0.790000 -1.580000 0.530000
+socket wheel_left -0.790000 -1.580000 0.530000
+socket wheel_front_right 0.790000 1.970000 0.530000
+socket wheel_front_left -0.790000 1.970000 0.530000
+socket trolley 0.000000 -2.318000 1.250000
+socket attachment 0.000000 1.910000 -0.000000
+socket lt1 -0.930000 -2.410000 0.730000
+socket lt2 0.940000 -2.410000 0.730000
+socket lc1 -1.000000 -2.420000 0.730000
+socket lc2 1.000000 -2.420000 0.730000
+socket piston 0.000000 0.040000 0.990000
+socket zaczep_tyl 0.000000 -2.400000 0.980000
+socket anim_dump 0.000000 -2.640000 1.350000
+socket spill_grain 0.000000 -2.560000 1.410000

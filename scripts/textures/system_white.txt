@@ -1,0 +1,8 @@
+texture system_white.dds
+animation_speed 1.000000
+appear_distance 0.000000
+normal flat_normal.dds
+normal_density 1.000000
+detail_density 16.000000
+detail_as_normal
+metalness 0.000000

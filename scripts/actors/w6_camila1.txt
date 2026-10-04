@@ -1,0 +1,159 @@
+actor w6_camila1
+
+default_phase bot
+model prefabs\models\w6\w6.X
+name >NameF43
+belongs_to_yard neighbor_yard_1302
+
+eye prefabs\attachments\eye_left_nocenter.X eye_left
+eye prefabs\attachments\eye_right_nocenter.X eye_right
+
+contact_distance 8
+contact_angle 50
+
+rotate_180 
+
+woman
+voice 1
+//no_flirting
+
+
+// Dialog anims
+
+// animacje idle calego ciala do dialogow (NPC z NPC, NPC z graczem), max 8
+dialog_anim_idle w_listen1
+dialog_anim_idle w_listen2
+dialog_anim_idle w_listen3
+dialog_anim_idle w_listen4
+dialog_anim_idle w_listen5
+dialog_anim_idle w_listen6
+dialog_anim_idle w_listen7
+
+// animacje mowi do dialogow (NPC z NPC, NPC z graczem), max 8
+dialog_anim_talk w_speak1
+dialog_anim_talk w_speak2
+dialog_anim_talk w_speak3
+dialog_anim_talk w_speak4
+dialog_anim_talk w_speak5
+dialog_anim_talk w_speak6
+dialog_anim_talk w_speak7
+
+// animacje (tylko glowa) gada do dialogow (NPC z NPC, NPC z graczem), max 8
+dialog_anim_talk_head w_talking_head1
+dialog_anim_talk_head w_talking_head2
+dialog_anim_talk_head w_talking_head3
+dialog_anim_talk_head w_talking_head4
+
+
+
+
+// clothes
+// max attachments 16
+
+// HAIR
+
+random_hair prefabs\attachments\w_hair_001_nocenter.X hair
+random_hair prefabs\attachments\w_hair_002_nocenter.X hair
+random_hair prefabs\attachments\w_hair_003_nocenter.X hair
+random_hair prefabs\attachments\w_hair_004_nocenter.X hair
+random_hair prefabs\attachments\w_hair_005_nocenter.X hair
+random_hair prefabs\attachments\w_hair_001_nocenter.X hair
+random_hair prefabs\attachments\w_hair_002_nocenter.X hair
+random_hair prefabs\attachments\w_hair_003_nocenter.X hair
+random_hair prefabs\attachments\w_hair_004_nocenter.X hair
+random_hair prefabs\attachments\w_hair_005_nocenter.X hair
+random_hair prefabs\attachments\w_hat_002_nocenter.X hair
+random_hair prefabs\attachments\w_hat_002_nocenter.X hair
+random_hair prefabs\attachments\w_hat_002_nocenter.X hair
+random_hair prefabs\attachments\w_hat_002_nocenter.X hair
+random_hair prefabs\attachments\w_hat_002_nocenter.X hair
+random_hair prefabs\attachments\w_hat_002_nocenter.X hair
+
+
+
+// GLASSES
+// random_attachment prefabs\attachments\eyewear_001_nocenter.X eyewear
+
+
+
+
+// class 0 - boots
+clothes 0 prefabs\models\clothes\Woman\class0_boots\w_garden_shoes_001.X
+clothes_winter 0 prefabs\models\clothes\Woman\class0_boots\w_short_cowboy_boots.X
+clothes_modern 0 prefabs\models\clothes\Woman\class0_boots\w_sneakers_001.X
+clothes_modern_winter 0 prefabs\models\clothes\Woman\class0_boots\w_short_cowboy_boots.X
+
+
+
+
+// class 1 - pants
+clothes 1 prefabs\models\clothes\Woman\class1_pants\w_jeans_001.X
+clothes_winter 1 prefabs\models\clothes\Woman\class1_pants\w_jeans_001.X
+clothes_modern 1 prefabs\models\clothes\Woman\class1_pants\w_slacks_001.X
+clothes_modern_winter 1 prefabs\models\clothes\Woman\class1_pants\w_jeans_001.X
+
+
+
+
+// class 2 - shirts
+clothes 2 prefabs\models\clothes\Woman\class2_shirts\w_collar_shirt_001.X
+clothes_winter 2 prefabs\models\clothes\Woman\class2_shirts\w_long_coat_60s.X 
+clothes_modern 2 prefabs\models\clothes\Woman\class2_shirts\w_top_camisole_001.X
+clothes_modern_winter 2 prefabs\models\clothes\Woman\class2_shirts\w_coat_2_001.X
+
+
+
+// class 3 - addons
+// skinmesh_attachment 3 prefabs\models\clothes\Woman\class3_addons\w_garden_belt_001.X
+// skinmesh_attachment 3 prefabs\models\clothes\Woman\class3_addons\w_shawl_001.X
+
+
+
+
+
+
+
+
+
+// animations
+
+phase catwalk
+animation w_catwalk
+on_end catwalk
+
+phase walk
+animation w_walk
+on_end walk
+
+phase walk_slow
+animation w_walk_slow
+on_end walk_slow
+
+phase walk_fast
+animation w_walk_fast
+on_end walk_fast
+
+phase run
+animation w_run
+on_end run
+
+
+
+phase idle
+animation w_idle1
+animation w_idle2
+on_end idle
+
+
+
+phase talk
+animation w_talk0
+on_end talk
+
+
+
+phase talking_head
+animation w_talking_head
+on_end talking_head
+
+

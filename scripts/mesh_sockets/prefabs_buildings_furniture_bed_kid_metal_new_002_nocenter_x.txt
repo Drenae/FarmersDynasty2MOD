@@ -1,0 +1,2 @@
+mesh_filename prefabs\buildings\furniture\bed_kid_metal_new_002_nocenter.x
+socket kid -0.030000 0.100000 0.450000

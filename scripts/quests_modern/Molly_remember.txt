@@ -1,0 +1,61 @@
+
+// nazwa questa, unikalna i wymagana
+name Molly_remember
+icon hud_map_social.dds
+given_by_icon actor_unknown_man.dds
+
+title OC07
+initial_waypoint james1
+initial_objective OC08
+given_by james1
+
+// gdy startuje ten quest, niech bedzie sledzony
+focus_on_start
+
+social_award 1
+award baler_old_square
+
+wait 0.1 -waypoint * -checkpoint 10
+
+// idziemy na farme 3, dialog z Jamesem
+goto james1 -distance 5 -waypoint james1 -checkpoint 20
+wait 0.1 -waypoint *
+hero_dialog james1_dialog1 james1
+wait_end_hero_dialog
+wait 1 -checkpoint 30
+
+// James daje baleron
+give_vehicle_to_player james_baler
+allow_field_work field_009
+wait 1 -checkpoint 40
+
+// przyczep balownice
+attach james_baler -waypoint james_baler -objective OC09 -checkpoint 50
+wait 1 -waypoint * -checkpoint 60
+
+// za hajs Jamesa baluj
+wait_bale_field field_009 -waypoint james_field -objective OC10 -checkpoint 70
+wait 1 -waypoint * -checkpoint 80
+
+// po baletach, dialog z Jamesem, James uczy zamawiania workeruf
+goto james1 -distance 5 -waypoint james1 -objective OC11 -checkpoint 90
+wait 0.1 -waypoint *
+hero_dialog james1_dialog2 james1
+forbid_field_work field_009
+likes_player james1 0.25
+wait_end_hero_dialog 
+wait 0.5 -checkpoint 100
+unlock_perk Manager00
+wait 0.5 -checkpoint 110
+
+print koniec_questa_molly_remember
+wait 1
+
+start_quest Eric_learning_craft
+
+
+
+
+
+
+

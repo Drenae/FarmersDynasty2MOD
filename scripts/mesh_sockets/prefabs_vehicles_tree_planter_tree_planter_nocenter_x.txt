@@ -1,0 +1,17 @@
+mesh_filename prefabs\vehicles\tree_planter\tree_planter_nocenter.x
+socket wheel_left -0.660000 -1.080000 0.500000
+socket wheel_right 0.660000 -1.080000 0.500000
+socket w1 0.550000 -1.220000 1.180000
+socket w2 -0.560000 -1.220000 1.180000
+socket drum 0.000000 -0.100000 1.410000
+socket lt1 -0.610000 -1.780000 1.100000
+socket lt2 0.610000 -1.780000 1.100000
+socket digger -0.050000 0.700000 0.300000
+socket zaczep3p 0.000000 1.660000 0.730000
+socket zaczep3pgora 0.000000 1.780000 1.550000
+socket pto 0.000000 1.200000 1.070000
+socket needle 0.000000 -0.230000 1.180000
+socket arm 0.000000 -0.530000 1.080000
+socket support_legs 0.000000 1.410000 0.000000
+socket light1 -0.655000 -1.748000 1.094500
+socket light2 0.638000 -1.748000 1.094500

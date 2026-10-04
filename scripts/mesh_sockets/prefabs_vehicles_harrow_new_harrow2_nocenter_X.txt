@@ -1,0 +1,5 @@
+mesh_filename prefabs\vehicles\harrow_new\harrow2_nocenter.X
+socket chain3 -0.310000 -0.010000 0.000000
+socket chain4 0.540000 -0.010000 0.000000
+socket chain7 -0.540000 -1.350000 -0.040000
+socket chain8 0.300000 -1.350000 -0.040000

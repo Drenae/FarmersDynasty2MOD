@@ -1,0 +1,2 @@
+mesh_filename prefabs\buildings\furniture\bed_double_wood_new_002_nocenter.x
+socket wife 0.440000 0.200000 0.500000

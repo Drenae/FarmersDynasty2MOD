@@ -1,0 +1,47 @@
+// id_materialu
+
+// 0- old wood (stare drewno)
+// 1- new wood (nowe drewno)
+// 2- painted wood (malowanie po drewnie)
+
+// 3- old brick (stara cegla)
+// 4- new brick (nowa cegla)
+
+// 5- old plaster (stary tynk)
+// 6- new plaster (nowy tynk)
+// 7- painted plaster (malowanie po tynku)
+
+// 8- new drywall (regips)
+// 9- finishing coat (gladz)
+// 10- wallpaper2 (tapeta)
+// 11- wallpaper (tapeta)
+
+// 12- glass (szkło/karton)
+
+// 13- new roof 1 (bitumen)
+// 14- old roof 2 (eternit)
+// 15- new roof 3 (niebieski bitumen)
+// 16- new roof 4 (czerwony bitumen)
+// 17- new roof 5 (ceramika czerwona)
+
+// 18- old metal (stary metal)
+// 19- scratches metal (zeszlifowany metal) 
+// 20- painted metal (malowanie po metalu)
+
+// 21- old ceramic (stare plytki ceramiczne)
+// 22- new ceramic (nowe płytki ceramiczne)
+
+// 23- new parquet 1 (nowe parkiet drewniany)
+// 24- new parquet 2 (nowe parkiet drewniany)
+
+// 25- painted brick (malowanie po ceglach, najlepiej tylko bialy - wapnowanie) 
+
+// 26- do not render (niewidzialne dachowki)
+
+// 27- painting (malowanie po wszystkich materialach)
+
+// 28- solar roof
+
+// 29- new glass
+
+

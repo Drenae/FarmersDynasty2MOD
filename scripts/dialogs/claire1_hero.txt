@@ -1,0 +1,7 @@
+//
+// Dialog z claire
+//
+
+
+//dzien dobry
+hero_dialog claire1_dialog1

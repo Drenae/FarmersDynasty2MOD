@@ -1,0 +1,11 @@
+texture mattress_material01.dds
+animation_speed 1.000000
+appear_distance 0.000000
+normal_density 1.000000
+detail det_fabric001.dds
+detail_density 9.000000
+detail_as_normal
+glossiness 0.2
+metalness 0.000000
+reflection_for_nonmetals 0.240000
+move_along_v 0.000000

@@ -1,0 +1,311 @@
+// date3
+// w altance
+
+
+// actors
+
+// 0 - hero
+actor 0 prefabs\models\hero1\hero1.X actor_hero
+clothing 0 prefabs\models\clothes\hero1_shoes.X
+clothing 1 prefabs\models\clothes\hero1_pants.X
+clothing 2 prefabs\models\clothes\hero\class2_shirts\h_wedding_suit_jacket_60s.X
+
+// 1 - woman
+actor 1 prefabs\models\w1\w1.X actor_woman
+clothing 0 prefabs\models\clothes\Woman\class0_boots\w_short_cowboy_boots.X
+// clothing 1 prefabs\models\clothes\Woman\class1_pants\w_jeans_001.X
+clothing 2 prefabs\models\clothes\Woman\class2_shirts\w_long_dress_red.X
+
+hair prefabs\attachments\w_hair_001_nocenter.X hair
+
+
+
+// environmental items
+
+// 2 - deco1
+actor 2 prefabs\buildings\wedding_decorations\daco_flowers_001_nocenter.x actor_date3_deco1
+
+// 3 - deco2
+actor 3 prefabs\buildings\wedding_decorations\daco_flowers_002_nocenter.x actor_date3_deco2
+
+// 4 - deco3
+actor 4 prefabs\buildings\wedding_decorations\daco_flowers_003_nocenter.x actor_date3_deco3
+
+// 5 - bench
+actor 5 prefabs\buildings\barns_stuff\wood_bench_nocenter.x actor_date3_bench
+
+
+
+
+// ------------------- intro
+
+cut 0
+
+hour 18
+black
+time 1
+music music\date2.ogg
+
+actor_pos 2 date3_deco01
+// actor_color 204 208 130
+actor_pos 3 date3_deco01
+// actor_color 255 0 128
+actor_pos 4 date3_deco01
+// actor_color 128 128 256
+
+actor_pos 5 date3_bench
+actor_look_at 5 date3_bench_look_at
+
+cut 1
+// woman approaches
+// hello, oh my god, it looks amazing.
+
+actor DLD03L01
+text DLD03L01
+
+
+fade_in 0.9
+
+time 7.2
+fov 0.7
+
+camera_pos date3_cam00
+camera_move_to date3_cam00_target 0.5
+camera_look_at date3_cam00_look_at
+
+actor_pos 0 date3_h_pos00
+animation 0 h_date3_idle1
+actor_look_at 0 date3_h_pos00_look_at
+
+actor_pos 1 date3_w_pos00
+animation 1 w_date3_walk1
+actor_look_at 1 date3_w_pos00_look_at
+
+
+
+
+
+cut 2
+// heroes sit on a bench
+// You prepared all this yourself, what's the occasion?
+
+actor DLD03L02
+text DLD03L02
+
+
+fade_in 0.6
+
+time 9
+fov 0.3
+
+camera_pos date3_cam01
+camera_move_to date3_cam01_target 0.4
+camera_look_at date3_cam01_look_at
+
+actor_pos 0 date3_h_w_pos01
+animation 0 h_date3_walk_sit
+actor_look_at 0 date3_w_pos01_look_at
+
+actor_pos 1 date3_h_w_pos01
+animation 1 w_date3_walk_sit
+actor_look_at 1 date3_w_pos01_look_at
+
+
+
+
+cut 2a
+// black
+
+black
+time 0.5
+
+
+
+
+cut 3
+// shot on siting characters
+// I thought a lot about life, the future, happiness...
+
+hero DLD03L03
+text DLD03L03
+
+
+fade_in 0.9
+time 6
+fov 0.5
+
+camera_pos date3_cam02
+camera_look_at date3_cam02_look_at
+
+actor_pos 0 date3_h_w_pos01
+animation 0 h_date3_sit_talk
+actor_look_at 0 date3_w_pos01_look_at
+
+actor_pos 1 date3_h_w_pos01
+animation 1 w_date3_sit_talk
+actor_look_at 1 date3_w_pos01_look_at
+
+
+
+
+cut 4
+// shot on siting characters
+// Any interesting thoughts?
+
+actor DLD03L04
+text DLD03L04
+
+time 5
+fov 0.3
+
+camera_pos date3_cam03
+camera_look_at date3_cam03_look_at
+
+
+
+
+cut 5
+// later, shot on couple
+hour 19
+black
+time 4
+
+text DLD03SUB01
+
+
+
+
+
+// ------------------- dialogues
+
+
+cut 7
+// They are sitting on a bench
+// shots of both
+
+fade_in 0.7
+time 4
+fov 0.5
+
+camera_pos date3_cam04
+camera_look_at date3_cam04_look_at
+
+actor_pos 0 date3_h_w_pos01
+animation 0 h_date3_dialog
+actor_look_at 0 date3_w_pos01_look_at
+
+actor_pos 1 date3_h_w_pos01
+animation 1 w_date3_dialog
+actor_look_at 1 date3_w_pos01_look_at
+
+
+
+cut 8
+// They are sitting on a bench
+// shot from behind the woman
+
+fade_in 0.7
+time 4
+fov 0.5
+
+camera_pos date3_cam05
+camera_look_at date3_cam05_look_at
+
+actor_pos 0 date3_h_w_pos01
+animation 0 h_date3_dialog
+actor_look_at 0 date3_w_pos01_look_at
+
+actor_pos 1 date3_h_w_pos01
+animation 1 w_date3_dialog
+actor_look_at 1 date3_w_pos01_look_at
+
+
+
+
+cut 9
+// They are sitting on a bench
+// shot from behind the hero
+
+fade_in 0.7
+time 4
+fov 0.5
+
+camera_pos date3_cam06
+camera_look_at date3_cam06_look_at
+
+actor_pos 0 date3_h_w_pos01
+animation 0 h_date3_dialog
+actor_look_at 0 date3_w_pos01_look_at
+
+actor_pos 1 date3_h_w_pos01
+animation 1 w_date3_dialog
+actor_look_at 1 date3_w_pos01_look_at
+
+
+
+
+
+// ------------------- end
+
+
+cut 10
+black
+time 1
+
+
+
+cut 11
+// Kiss
+// You are everything to me.
+
+fade_in 0.7
+time 10
+fov 0.5
+
+actor DLD03L05
+text DLD03L05
+
+camera_pos date3_cam07
+camera_move_to date3_cam07_target 0.08
+camera_look_at date3_cam07_look_at
+
+actor_pos 0 date3_h_w_pos02
+animation 0 h_date3_kiss
+actor_look_at 0 date3_w_pos01_look_at
+
+actor_pos 1 date3_h_w_pos02
+animation 1 w_date3_kiss
+actor_look_at 1 date3_w_pos01_look_at
+
+
+
+cut 11
+// Cuddle
+// It will be a beautiful life.
+
+hero DLD03L06
+text DLD03L06
+
+fade_in 0.7
+time 8
+fov 0.5
+
+camera_pos date3_cam08
+camera_move_to date3_cam08_target 0.06
+camera_look_at date3_cam08_look_at
+
+
+
+
+cut end
+fade_out 0.7
+time 0.2
+
+
+cut end_black
+black
+time 2.2
+
+
+
+

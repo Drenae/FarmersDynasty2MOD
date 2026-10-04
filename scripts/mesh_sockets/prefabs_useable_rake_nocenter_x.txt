@@ -1,0 +1,2 @@
+mesh_filename prefabs\useable\rake_nocenter.x
+socket fx 0.000000 1.300000 -0.030000

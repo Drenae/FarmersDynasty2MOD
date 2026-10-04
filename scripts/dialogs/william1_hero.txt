@@ -1,0 +1,79 @@
+//
+//Dialog z williamem
+//
+
+//Happy landing
+//elo tu jestes, gdzie ja jestem co sie odjaniepawla? 
+//czlowieku nic nie pamietasz? jestes w przyszlosci i chyba wczoraj za duzo bimbru wytankowales 
+//btw jutro pada wiec dzisiaj musisz pole skosic, aaa ok nara
+hero_dialog william1_dialog1
+actor DLQ14L01
+hero DLQ14L02
+actor DLQ14L03
+actor DLQ14L04
+hero DLQ14L05
+actor DLQ14L06
+actor DLQ14L07
+hero DLQ14L08
+actor DLQ14L09
+hero DLQ14L10
+actor DLQ14L11
+
+//Helping William
+//twoj dziadek byl spoko gosc, jak skonczyles zniwa to cho mi pomoz, masz tu pile i zetnij mi drzewo
+hero_dialog william1_dialog2
+hero DLQ14L12
+actor DLQ14L13
+hero DLQ14L14
+actor DLQ14L15
+actor DLQ14L16
+actor DLQ14L17
+actor DLQ14L18
+hero DLQ14L19
+actor DLQ14L20
+hero DLQ14L21
+actor DLQ14L22
+hero DLQ14L23
+actor DLQ14L24
+
+//masz to drzewo sciete, dzieki mordo, zatrzymaj pile, 
+//supcio a kto tu moze mojego dziadka pamietac? 
+//idz do wnuka Molly i do starej dzemiarni Leo
+hero_dialog william1_dialog3
+hero DLQ14L25
+actor DLQ14L26
+hero DLQ14L27
+actor DLQ14L28
+hero DLQ14L29
+actor DLQ14L30
+actor DLQ14L31
+actor DLQ14L32
+hero DLQ14L33
+actor DLQ14L34
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

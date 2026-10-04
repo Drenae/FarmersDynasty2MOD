@@ -1,0 +1,188 @@
+// definiuje kolejne prefaby (stopnie przebudowy), w grze moze byc wlozony dowolny, ale musza byc unikalne dla danego setu
+// part <id_warstwy> <id_materialu> <klucz_text_keys_z_opisem> <sciezka\prefab>
+// -1 jako indeks materialu oznacza ten sam material, ale nie budowe tylko naprawe, czyli przejscie z polamanych na naprostowane deski BEZ kupowania desek.
+
+// old
+part 0 15  MAT15 prefabs\buildings\playerhouse_old\hs_ceramic_old_roof2_top_1_1_nocenter.x
+part 1 -1  MAT15 prefabs\buildings\playerhouse_old\hs_ceramic_fixed_roof2_top_1_1_nocenter.x
+
+part 2 15  MAT15 prefabs\buildings\playerhouse_old\hs_ceramic_old_roof2_top_1_2_nocenter.x
+part 3 -1  MAT15 prefabs\buildings\playerhouse_old\hs_ceramic_fixed_roof2_top_1_2_nocenter.x
+
+part 4 15  MAT15 prefabs\buildings\playerhouse_old\hs_ceramic_old_roof2_top_1_3_nocenter.x
+part 5 -1  MAT15 prefabs\buildings\playerhouse_old\hs_ceramic_fixed_roof2_top_1_3_nocenter.x
+
+part 6 15  MAT15 prefabs\buildings\playerhouse_old\hs_ceramic_old_roof2_top_1_4_nocenter.x
+part 7 -1  MAT15 prefabs\buildings\playerhouse_old\hs_ceramic_fixed_roof2_top_1_4_nocenter.x
+
+
+
+part 8 15  MAT15 prefabs\buildings\playerhouse_old\hs_ceramic_old_roof2_middle_1_1_nocenter.x
+part 9 -1  MAT15 prefabs\buildings\playerhouse_old\hs_ceramic_fixed_roof2_middle_1_1_nocenter.x
+
+part 10 15  MAT15 prefabs\buildings\playerhouse_old\hs_ceramic_old_roof2_middle_1_2_nocenter.x
+part 11 -1  MAT15 prefabs\buildings\playerhouse_old\hs_ceramic_fixed_roof2_middle_1_2_nocenter.x
+
+part 12 15  MAT15 prefabs\buildings\playerhouse_old\hs_ceramic_old_roof2_middle_1_3_nocenter.x
+part 13 -1  MAT15 prefabs\buildings\playerhouse_old\hs_ceramic_fixed_roof2_middle_1_3_nocenter.x
+
+part 14 15  MAT15 prefabs\buildings\playerhouse_old\hs_ceramic_old_roof2_middle_1_4_nocenter.x
+part 15 -1  MAT15 prefabs\buildings\playerhouse_old\hs_ceramic_fixed_roof2_middle_1_4_nocenter.x
+
+
+
+part 16 15  MAT15 prefabs\buildings\playerhouse_old\hs_ceramic_old_roof2_bottom_1_1_nocenter.x
+part 17 -1  MAT15 prefabs\buildings\playerhouse_old\hs_ceramic_fixed_roof2_bottom_1_1_nocenter.x
+
+part 18 15  MAT15 prefabs\buildings\playerhouse_old\hs_ceramic_old_roof2_bottom_1_2_nocenter.x
+part 19 -1  MAT15 prefabs\buildings\playerhouse_old\hs_ceramic_fixed_roof2_bottom_1_2_nocenter.x
+
+part 20 15  MAT15 prefabs\buildings\playerhouse_old\hs_ceramic_old_roof2_bottom_1_3_nocenter.x
+part 21 -1  MAT15 prefabs\buildings\playerhouse_old\hs_ceramic_fixed_roof2_bottom_1_3_nocenter.x
+
+part 22 15  MAT15 prefabs\buildings\playerhouse_old\hs_ceramic_old_roof2_bottom_1_4_nocenter.x
+part 23 -1  MAT15 prefabs\buildings\playerhouse_old\hs_ceramic_fixed_roof2_bottom_1_4_nocenter.x
+
+
+
+
+// old2
+part 24 16  MAT16 prefabs\buildings\playerhouse_old\hs_ceramic_old_roof_top_1_1_nocenter.x
+part 25 -1  MAT16 prefabs\buildings\playerhouse_old\hs_ceramic_fixed_roof_top_1_1_nocenter.x
+
+part 26 16  MAT16 prefabs\buildings\playerhouse_old\hs_ceramic_old_roof_top_1_2_nocenter.x
+part 27 -1  MAT16 prefabs\buildings\playerhouse_old\hs_ceramic_fixed_roof_top_1_2_nocenter.x
+
+part 28 16  MAT16 prefabs\buildings\playerhouse_old\hs_ceramic_old_roof_top_1_3_nocenter.x
+part 29 -1  MAT16 prefabs\buildings\playerhouse_old\hs_ceramic_fixed_roof_top_1_3_nocenter.x
+
+part 30 16  MAT16 prefabs\buildings\playerhouse_old\hs_ceramic_old_roof_top_1_4_nocenter.x
+part 31 -1  MAT16 prefabs\buildings\playerhouse_old\hs_ceramic_fixed_roof_top_1_4_nocenter.x
+
+
+
+part 32 16  MAT16 prefabs\buildings\playerhouse_old\hs_ceramic_old_roof_middle_1_1_nocenter.x
+part 33 -1  MAT16 prefabs\buildings\playerhouse_old\hs_ceramic_fixed_roof_middle_1_1_nocenter.x
+
+part 34 16  MAT16 prefabs\buildings\playerhouse_old\hs_ceramic_old_roof_middle_1_2_nocenter.x
+part 35 -1  MAT16 prefabs\buildings\playerhouse_old\hs_ceramic_fixed_roof_middle_1_2_nocenter.x
+
+part 36 16  MAT16 prefabs\buildings\playerhouse_old\hs_ceramic_old_roof_middle_1_3_nocenter.x
+part 37 -1  MAT16 prefabs\buildings\playerhouse_old\hs_ceramic_fixed_roof_middle_1_3_nocenter.x
+
+part 38 16  MAT16 prefabs\buildings\playerhouse_old\hs_ceramic_old_roof_middle_1_4_nocenter.x
+part 39 -1  MAT16 prefabs\buildings\playerhouse_old\hs_ceramic_fixed_roof_middle_1_4_nocenter.x
+
+
+
+part 40 16  MAT16 prefabs\buildings\playerhouse_old\hs_ceramic_old_roof_bottom_1_1_nocenter.x
+part 41 -1  MAT16 prefabs\buildings\playerhouse_old\hs_ceramic_fixed_roof_bottom_1_1_nocenter.x
+
+part 42 16  MAT16 prefabs\buildings\playerhouse_old\hs_ceramic_old_roof_bottom_1_2_nocenter.x
+part 43 -1  MAT16 prefabs\buildings\playerhouse_old\hs_ceramic_fixed_roof_bottom_1_2_nocenter.x
+
+part 44 16  MAT16 prefabs\buildings\playerhouse_old\hs_ceramic_old_roof_bottom_1_3_nocenter.x
+part 45 -1  MAT16 prefabs\buildings\playerhouse_old\hs_ceramic_fixed_roof_bottom_1_3_nocenter.x
+
+part 46 16  MAT16 prefabs\buildings\playerhouse_old\hs_ceramic_old_roof_bottom_1_4_nocenter.x
+part 47 -1  MAT16 prefabs\buildings\playerhouse_old\hs_ceramic_fixed_roof_bottom_1_4_nocenter.x
+
+
+
+
+
+// NEW
+
+// bitumen
+part 48 13  MAT13 prefabs\buildings\playerhouse_old\hs_wood_fixed_roof_6_0_nocenter.x
+
+// red shingle
+part 49 14  MAT14 prefabs\buildings\playerhouse_old\hs_shingle_new_roof_1f_nocenter.x
+
+// green metal
+part 50 15  MAT15 prefabs\buildings\playerhouse_old\hs_metal_new_roof_2f_nocenter.x
+
+// red ceramic
+part 51 16  MAT16 prefabs\buildings\playerhouse_old\hs_ceramic_new_roof_3f_nocenter.x
+
+// tin roof
+part 52 17  MAT17 prefabs\buildings\playerhouse_old\hs_tin_new_roof_4f_nocenter.x
+
+
+
+part 53 14  MAT14 prefabs\buildings\playerhouse_old\hs_wood_fixed_roof_7_0_nocenter.x
+part 54 15  MAT15 prefabs\buildings\playerhouse_old\hs_wood_fixed_roof_4_0_nocenter.x
+part 55 16  MAT16 prefabs\buildings\playerhouse_old\hs_wood_fixed_roof_2_0_nocenter.x
+part 56 17  MAT17 prefabs\buildings\playerhouse_old\hs_wood_fixed_roof_3_0_nocenter.x
+
+
+// solar
+part 57 28  MAT28 prefabs\buildings\playerhouse_old\hs_solar_fixed_roof_2_0_nocenter.x
+
+
+
+
+// i teraz dla danego elementu definiujemy w ktory moze przejsc
+// pierwszy parametr to ktorego tyczy sie definicja, nastepne - w ktore moze byc zmieniony
+
+path 0   1 48 49 50 51 52 57
+path 1   48 49 50 51 52 57
+path 2   3 48 49 50 51 52 57
+path 3   48 49 50 51 52 57
+path 4   5 48 49 50 51 52 57
+path 5   48 49 50 51 52 57
+path 6   7 48 49 50 51 52 57
+path 7   48 49 50 51 52 57
+path 8   9 48 49 50 51 52 57
+path 9   48 49 50 51 52 57
+path 10   11 48 49 50 51 52 57
+path 11   48 49 50 51 52 57
+path 12   13 48 49 50 51 52 57
+path 13   48 49 50 51 52 57
+path 14   15 48 49 50 51 52 57
+path 15   48 49 50 51 52 57
+path 16   17 48 49 50 51 52 57
+path 17   48 49 50 51 52 57
+path 18   19 48 49 50 51 52 57
+path 19   48 49 50 51 52 57
+path 20   21 48 49 50 51 52 57
+path 21   48 49 50 51 52 57
+path 22   23 48 49 50 51 52 57
+path 23   48 49 50 51 52 57
+path 24   25 48 49 50 51 52 57
+path 25   48 49 50 51 52 57
+path 26   27 48 49 50 51 52 57
+path 27   48 49 50 51 52 57
+path 28   29 48 49 50 51 52 57
+path 29   48 49 50 51 52 57
+path 30   31 48 49 50 51 52 57
+path 31   48 49 50 51 52 57
+path 32   33 48 49 50 51 52 57
+path 33   48 49 50 51 52 57
+path 34   35 48 49 50 51 52 57
+path 35   48 49 50 51 52 57
+path 36   37 48 49 50 51 52 57
+path 37   48 49 50 51 52 57
+path 38   39 48 49 50 51 52 57
+path 39   48 49 50 51 52 57
+path 40   41 48 49 50 51 52 57
+path 41   48 49 50 51 52 57
+path 42   43 48 49 50 51 52 57
+path 43   48 49 50 51 52 57
+path 44   45 48 49 50 51 52 57
+path 45   48 49 50 51 52 57
+path 46   47 48 49 50 51 52 57
+path 47   48 49 50 51 52 57
+
+path 48   49 50 51 52 57
+path 49   48 50 51 52 57
+path 50   48 49 51 52 57
+path 51   48 49 50 52 57
+path 52   48 49 50 51 57
+
+path 53   48 49 50 51 52 57
+path 54   48 49 50 51 52 57
+path 55   48 49 50 51 52 57
+path 56   48 49 50 51 52 57
+
+path 57   48 49 50 51 52

@@ -1,0 +1,10 @@
+texture animal_dog.dds
+animation_speed 1.000000
+appear_distance 0.000000
+normal_density 1.000000
+detail_density 2.000000
+detail_as_normal
+metalness 0.000000
+glossiness 0.4
+reflection_for_nonmetals 0.10000
+move_along_v 0.000000

@@ -1,0 +1,4 @@
+mesh_filename prefabs\vehicles\trailer_old_cereal\trolley_nocenter.x
+socket gate 0.000000 -0.330000 0.870000
+socket loading 0.000000 2.200000 0.300000
+socket piston 0.000000 1.950000 0.140000

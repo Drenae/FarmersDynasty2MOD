@@ -1,0 +1,101 @@
+Vehicle >cultivator_FS30
+prefab prefabs\vehicles\cultivator_fs30\cultivator_fs30_nocenter.x
+Mass 140.0
+Stiffness 10
+
+spawn_id 29
+
+tag >MT15
+
+przyczepa
+kultywator
+price 12000
+working_width 3.2
+
+plant_on_unfold
+
+renew_and_paint
+color 0.46 0.28 0.28
+
+
+
+// COLLISION MESH
+
+// pScaleZ
+mnoznik_fizyki_z 0.95
+// pScaleY
+mnoznik_fizyki_y 0.4
+// pScaleX
+mnoznik_fizyki_x 0.9
+
+// pTransZ
+przesuniecie_fizyki_przod 0.0
+// pTransY
+przesuniecie_fizyki_gora 0.2
+// pTransX
+przesuniecie_fizyki_prawo 0.0
+
+
+
+// HOOKS
+zaczep3p zaczep3p
+zaczep3pgora zaczep3pgora
+
+additional_lift_3p_when_up 0.25
+additional_lift_3p_when_down 0.01
+mnoznik_kata 1.7
+
+add_when_loose 0.2
+
+
+
+
+
+// ROLLERS
+// prefab_kola socket_kola promien_kola podniesienie_osi_kola
+
+
+reverse
+attachment_wheel prefabs\vehicles\cultivator_fs30\disks1_nocenter.x roller1 0 1 1.1
+
+reverse
+attachment_wheel prefabs\vehicles\cultivator_fs30\disks2_nocenter.x roller2 0 1 1.1
+
+reverse
+attachment_wheel prefabs\vehicles\cultivator_fs30\disks3_nocenter.x roller3 0 1 1.1
+
+reverse
+attachment_wheel prefabs\vehicles\cultivator_fs30\disks4_nocenter.x roller4 0 1 1.1
+
+
+
+
+
+
+
+
+// LIGHTS
+
+attachment_light prefabs\vehicles\cultivator_fs30\lamp1_nocenter.x light1
+attachment_name swiatlo_lt1
+swiatlo_tyl lt1
+swiatlo_z swiatlo_lt1
+
+attachment_light prefabs\vehicles\cultivator_fs30\lamp2_nocenter.x light2
+attachment_name swiatlo_lt2
+swiatlo_tyl lt2
+swiatlo_z swiatlo_lt2
+
+
+
+
+// WORKING FX
+
+working_fx fx_plow_dust01 fx0
+working_fx afx_sianie fx1
+working_fx fx_plow_dust01 fx2
+working_fx afx_sianie fx3
+working_fx fx_plow_dust01 fx4
+
+
+

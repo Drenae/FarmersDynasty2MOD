@@ -1,0 +1,2 @@
+mesh_filename prefabs\objects\tools\motorsense_nocenter.x
+socket rotor 0.000000 0.730000 -0.780000

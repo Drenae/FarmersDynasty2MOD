@@ -1,0 +1,586 @@
+//
+// zawartosc skrzyn w swiecie.
+//
+// chest <nazwa_skrzyni>
+// <class X> - opcjonalnie X = 0 (common chest), 1 (Locked chest), 2 (special chest) = oznacza tylko nazwe
+// item <nazwa_itema> [<ile>]
+// item <nazwa_itema> [<ile>]
+// ..
+//
+
+
+//skały za amboną na wzgórzu na południowy zachód od farmy gracza
+chest secret_chest_000
+class 0
+item firewood 14
+item leather 3
+item questfood04 2
+item mushroom 5
+item flour 3
+//item plushdog 1
+
+
+//na północno-zachodnich silosach (po schodach na górę)
+chest secret_chest_001
+class 0
+item coffee 2
+item questfood02 2
+item coke 6
+item flour 4
+item metalparts 10
+//item postcard0 1
+//item tractorpart 1
+
+
+//wyspa pod tamą (wyspa skarbów)
+chest secret_chest_002
+class 0
+item honey 2
+item fabric 6
+item leather 4
+item questfood01 3
+//item goldcoin 20
+
+
+//pod kartonami na plaży na północny zachód od farmy Mii
+chest secret_chest_003
+class 0
+item honey 4
+item milk 2
+item firewood 10
+item metalparts 8
+item coke 12
+item jewel1 1
+//item tractorpart 1
+
+
+//pod południowym mostem
+chest secret_chest_004
+class 0
+item metalparts 10
+item questfood02 3
+item coffee 3
+item lettuce 5
+item paprika 7
+item perfume 1
+//item rubberduck 1
+//item tractorpart 1
+
+
+//mała jaskinia pod górą na południowy wschód od farmy gracza
+chest secret_chest_005
+class 0
+item questfood03 3
+item milk 5
+item leather 5
+item metalparts 9
+item firewood 11
+item headlamp 1
+//item goldnugget 4
+
+
+//w krzakach nad stawem przy gospodarstwie 25 po północnej stronie jeziora serduszko
+chest secret_chest_006
+class 0
+item fabric 10
+item leather 8
+item coke 6
+item melon 6
+item perfume 1
+//item brasskey 1
+//item sunglasses 1
+//item knife 1
+
+
+//pod małą choinką na zachód od kamienia przy ścieżce w północno-zachodnim lesie
+chest secret_chest_007
+class 0
+item firewood 20
+item mushroom 7
+item parsley 4
+item questfood03 2
+item questfood04 2
+//item plushboar 1
+//item goldcoin 8
+
+
+//w trzcinach na wschodnim końcu wody przy północnym lesie
+chest secret_chest_008
+class 0
+item metalparts 6
+item firewood 7
+item questfood02 3
+item fish1 6
+item fish2 5
+item fishingrod 1
+//item fishmagazine 1
+
+
+//w krzakach między dwiema kupami skał na południe od gospodarstwa 1302
+chest secret_chest_009
+class 0
+item coke 6
+item strawberry 7
+item egg 2
+item meat 5
+item fabric 8
+item jewel2 1
+item flower2 1
+//item socks 1
+
+
+//za krzakiem przy gospodarstwie 23 na cyplu na północnym wschodzie
+chest secret_chest_010
+class 0
+item flour 6
+item meat 5
+item milk 4
+item apple 14
+item fishingrod 1
+//item goldcoin 5
+//item tractorpart 1
+//item plushdeer 1
+
+
+//w krzakach w zagrodzie z krowami w gospodarstwie 19 daleko na południe od farmy gracza
+chest secret_chest_011
+class 0
+item fabric 8
+item leather 4
+item wool 20
+item chocolates 1
+item flower1 1
+//item plushcow 1
+//item goldcoin 1
+//item tractorpart 1
+
+
+//na południowych silosach (trzeba postawić rusztowanie)
+chest secret_chest_012
+class 0
+item coffee 3
+item sausage 4
+item chili 7
+item firewood 8
+item metalparts 11
+item chocolates 1
+//item tractorpart 1
+//item cushion 1
+
+
+//za południowo-wschodnim brico-marche
+chest secret_chest_013
+class 0
+item coffee 2
+item questfood01 3
+item paprika 6
+item firewood 7
+item metalparts 32
+item perfume 1
+//item tractorpart 1
+//item postcard1 1
+
+
+//za polanką we wschodnim lesie
+chest secret_chest_014
+class 0
+item questfood03 3
+item questfood04 4
+item stew1 1
+item honey 4
+item firewood 11
+//item goldcoin 7
+//item plushbison 1
+
+
+//pod sosną na klifie po południowej stronie tamy
+chest secret_chest_015
+class 0
+item firewood 15
+item leather 5
+item sausage 5
+item tomato2 3
+item questfood03 2
+//item goldcoin 3
+//item plushsheep 1
+//item rubberboots 1
+
+
+//na maszcie radiowym (trzeba postawić rusztowanie)
+chest secret_chest_016
+class 0
+item metalparts 18
+item questfood01 2
+item questfood02 2
+item strawberry 7
+item coffee 3
+item eggs3 1
+//item plusheagle 1
+//item foam 1
+
+
+//w krzakach na końcu małego strumyka we wschodnim lesie
+chest secret_chest_017
+class 0
+item strawberry 15
+item cucumber 6
+item fabric 5
+item leather 7
+item wool 4
+item jewel1 2
+item jewel2 1
+//item tractorpart 1
+
+
+//za schodami na tamie
+chest secret_chest_018
+class 0
+item metalparts 20
+item flour 6
+item tomato2 2
+item eggs2 1
+item strawberry 7
+//item tractorpart 1
+//item buspass 1
+//item repairkit 1
+
+
+//w krzakach pod sosną na zboczu na przeciwko car shopu na północny wschód od tamy
+chest secret_chest_019
+class 0
+item coffee 4
+item coke 6
+item fish1 4
+item metalparts 12
+item firewood 16
+//item postcard2 1
+//item plushsquirrel 1
+//item travelguide 1
+
+
+//pod sosną za strzelnicą na piaskowych klifach na północnym wschodzie
+//WYMAGA MOSIĘŻNEGO KLUCZA ZE SKRZYNI 6
+chest secret_chest_020
+class 0
+item sausage 2
+item questfood02 1
+item questfood04 3
+item coffee 3
+item fabric 5
+//item ironkey 1
+//item tractorpart 1
+//item flowerfertilizer 1
+
+
+//mała jaskinia na wzgórzu na północ od północno-zachodnich silosów
+chest secret_chest_021
+class 0
+item wool 5
+item questfood03 2
+item honey 3
+item fish2 4
+item jewel1 1
+//item goldwatch 1
+//item goldcoin 4
+
+
+//w krzakach w sadziku przy chatce na wzgórzu na północy
+chest secret_chest_022
+class 0
+item apple 15
+item coffee 2
+item firewood 10
+item fabric 6
+item leather 6
+//item plushcat 1
+//item beesmoker 1
+
+
+//w wodzie przy drodze pod wzgórzem na północy
+chest secret_chest_023
+class 0
+item metalparts 14
+item coke 4
+item basil 8
+item parsley 8
+item perfume 1
+//item tractorpart 1
+//item luckycoin 1
+
+
+//na strychu gracza
+//WYMAGA ZARDZEWIAŁEGO ŻELIWNEGO KLUCZA ZE SKRZYNI 32
+chest secret_chest_024
+class 0
+item leather 5
+item firewood 10
+item metalparts 10
+item honey 2
+item questfood02 2
+item plushfox 1
+//item pockethenry 1
+
+
+//w magazynie przy starym młynie
+chest secret_chest_025
+class 0
+item flour 16
+item egg 12
+item metalparts 9
+item pumpkin 4
+item zucchini 7
+//item tractorpart 1
+//item nuclearfeed 1
+
+
+//w miasteczku, w ślepym zaułku
+chest secret_chest_026
+class 0
+item fish1 3
+item fish2 2
+item strawberry 6
+item milk 8
+item firewood 10
+item wool 6
+//item tractorpart 1
+//item thermos 1
+
+
+//w dużej jaskini na północ od kawiarni Ariany, na półce skalnej
+chest secret_chest_027
+class 0
+item coffee 6
+item honey 2
+item questfood02 6
+item parsley 7
+item fabric 5
+item jewel1 1
+//item tractorpart 1
+
+
+//w dużej jaskini na północ od kawiarni Ariany, na dnie
+chest secret_chest_028
+class 0
+item flour 5
+item tomato2 3
+item metalparts 13
+item firewood 14
+item leather 6
+item basil 4
+//item goldnugget 5
+//item fakebeard 1
+
+
+//w dużej jaskini na północ od kawiarni Ariany, na dnie
+chest secret_chest_029
+class 0
+item coffee 4
+item honey 4
+item wool 8
+item fabric 12
+item firewood 11
+item questfood03 2
+//item goldnugget 4
+//item plushbear 1
+
+
+//w dużej jaskini na północ od kawiarni Ariany, w zakamarku
+chest secret_chest_030
+class 0
+item sausage3 1
+item firewood 14
+item metalparts 5
+item leather 14
+item wool 8
+item jewel2 1
+//item goldcoin 12
+//item drinkinghorn 1
+
+
+//na półce skalnej na wzgórzu nad jaskinią na północ od kawiarni Ariany
+chest secret_chest_031
+class 0
+item questfood01 8
+item questfood02 6
+item fabric 5
+item wool 7
+item coke 4
+item tomato 3
+//item plushgoat 1
+item backpack 1
+
+
+//w choinkach na małym wzniesieniu przy brzegu jeziora w SW rogu świata, w SW rogu jeziora
+//WYMAGA ŻELIWNEGO KLUCZA ZE SKRZYNI 20
+chest secret_chest_032
+class 0
+item fish2 5
+item mushroom 13
+item coffee 3
+item questfood03 2
+item fishingrod 1
+//item rustykey 1
+//item plushorangutan 1
+//item axesharpener 1
+
+
+//w krzakach na brzozowej wysepce na bagnie w SW rogu świata
+chest secret_chest_033
+class 0
+item questfood04 2
+item fish1 6
+item coffee 3
+item jewel1 1
+item jewel2 1
+//item tractorpart 1
+//item magnet 1
+
+
+//za kamiennym kręgiem, SW od kawiarni Ariany
+chest secret_chest_034
+class 0
+item eggs3 1
+item mushroom 9
+item wool 5
+item metalparts 6
+item jewel1 1
+//item goldcoin 4
+//item postcard3 1
+//item tractorpart 1
+
+
+//w małej ruince, na dole wieży
+chest secret_chest_035
+class 0
+item lettuce 4
+item cucumber 5
+item basil 4
+item chili 4
+item flower1 1
+item jewel2 1
+//item goldcoin 5
+//item plushcapybara 1
+
+
+//na półce skalnej na wzgórzu zamkowym
+chest secret_chest_036
+class 0
+item questfood02 6
+item questfood03 4
+item coke 6
+item metalparts 10
+item fabric 8
+item leather 6
+item jewel1 1
+//item goldcoin 8
+
+
+//w średnim zamku, na wieży ze schodami
+chest secret_chest_037
+class 0
+item meat 8
+item fish1 5
+item paprika 6
+item firewood 10
+item metalparts 8
+//item goldcoin 11
+
+
+//w średnim zamku, na wieży po scaffoldach
+chest secret_chest_038
+class 0
+item questfood01 2
+item fabric 9
+item leather 9
+item mushroom 10
+item parsley 3
+item sausage2 1
+item jewel2 1
+
+
+//w średnim zamku, wewnątrz
+chest secret_chest_039
+class 0
+item questfood04 3
+item questfood03 2
+item sausage 4
+item melon 5
+item chili 5
+item egg 6
+//item tractorpart 1
+
+
+//w dużym zamku, na niższej wieży ze schodami
+chest secret_chest_040
+class 0
+item fabric 8
+item leather 6
+item sausage 5
+item honey 4
+item mushroom 5
+item fish2 5
+item chocolates
+
+
+//w dużym zamku, na wyższej wieży ze schodami
+chest secret_chest_041
+class 0
+item firewood 10
+item metalparts 12
+item wool 9
+item flour 12
+item tomato 11
+item zucchini 7
+//item tractorpart 1
+
+
+//w dużym zamku, wewnątrz
+chest secret_chest_042
+class 0
+item strawberry 12
+item melon 5
+item pumpkin 6
+item cucumber 8
+item fish1 3
+item meat 5
+item jewel1 1
+//item goldcoin 16
+
+
+//w dużym zamku, na balkoniku
+chest secret_chest_043
+class 0
+item coffee 6
+item coke 6
+item questfood02 4
+item eggs2 1
+item flower2 1
+item perfume 1
+item jewel1 1
+item jewel2 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

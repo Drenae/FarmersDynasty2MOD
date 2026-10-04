@@ -1,0 +1,70 @@
+Vehicle >grinder_old
+prefab prefabs\vehicles\stamp_remover_old\stamp_remover_old_nocenter.x
+Mass 400.0
+Stiffness 10
+
+spawn_id 64
+
+tag >MT41
+
+
+
+stump_grinder
+// saw
+price 2500
+przyczepa
+working_width 2
+
+old_tractors_can_attach
+
+
+renew_and_paint
+repairable stamp_remover_old.dds stamp_remover_old_repaired.dds
+color 0.35 0.47 0.25
+
+
+// COLLISION MESH
+
+// pScaleZ
+mnoznik_fizyki_z 0.99
+// pScaleY
+mnoznik_fizyki_y 0.3
+// pScaleX
+mnoznik_fizyki_x 1.0
+
+// pTransZ
+przesuniecie_fizyki_przod -0.3
+// pTransY
+przesuniecie_fizyki_gora 0.12
+// pTransX
+przesuniecie_fizyki_prawo 0.0
+
+
+additional_lift_3p_when_up 0.58
+additional_lift_3p_when_down 0.48
+mnoznik_kata 1.7
+
+add_when_loose 0.15
+
+
+// HOOKS
+zaczep3p zaczep3p
+zaczep3pgora zaczep3pgora
+pto pto
+
+
+// ROTOR (1)
+attachment_stump_grinder prefabs\vehicles\stamp_remover_old\rotor_nocenter.x rotor
+
+
+
+// SUPPORT LEG (2)
+attachment_stopka prefabs\vehicles\stamp_remover_old\support_legs_nocenter.x support_leg 0.0 0.45
+
+
+// SOUNDS
+working_sound sfx\vehicles\stump_grinder.wav
+
+
+
+

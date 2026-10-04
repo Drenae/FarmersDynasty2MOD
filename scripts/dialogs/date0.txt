@@ -1,0 +1,630 @@
+// date2
+// w mieście na rynku
+hero_dialog date0
+
+//0 stolik
+add_mesh prefabs\buildings\shop_coffee_bar\bar_table2_nocenter.x date2_table1
+
+//1 krzeslo 1
+add_mesh prefabs\buildings\shop_coffee_bar\bar_chair_nocenter.x date2_chair1
+
+//2 krzeslo 2
+add_mesh prefabs\buildings\shop_coffee_bar\bar_chair_nocenter.x date2_chair2
+
+//3 kubek bohatera
+add_mesh prefabs\buildings\shop_coffee_bar\bar_glass_nocenter.x date2_glass1
+
+//4 kubek laski
+add_mesh prefabs\buildings\shop_coffee_bar\bar_glass_nocenter.x date2_glass2
+
+
+//intro
+actor_silent 1.5
+black
+//pora 9
+movie_camera
+camera_pos date2_cam00
+camera_look_at date2_cam00_look_at
+print dialog_intro
+music music\date2.ogg
+
+
+//bohater siedzi
+actor_silent 4
+movie_camera
+fade_in
+rotate_180
+fov 0.8
+
+camera_pos date2_cam00
+camera_move_to date2_cam00_target 0.05
+camera_look_at date2_cam00_look_at
+
+hero_pos date2_h_pos01
+hero_anim h_date2_sit_wait_drink
+hero_look_at date2_h_pos01_look_at
+
+// ktorego mesha, na jaki socket
+attach_hero 3 glass
+
+
+//laska przychodzi
+// Sorry, I'm late, I hope you're not waiting too long.
+actor DLD00L02
+movie_camera
+fade_in
+rotate_180
+fov 1
+
+teleport_to_prefab 3 date2_glass1 
+
+camera_pos date2_cam01
+camera_move_to date2_cam01_target 0.11
+camera_look_at date2_cam01_look_at
+
+hero_pos date2_h_pos01
+hero_anim h_date2_sit_wait
+hero_look_at date2_h_pos01_look_at
+
+actor_pos date2_w_pos01
+actor_anim w_date2_comes
+actor_look_at date2_w_pos01_look_at
+
+
+//laska sie teleportuje na krzeslo
+actor_silent 0.5
+black
+movie_camera
+
+actor_pos date2_w_pos01
+actor_anim w_date2_sit_listen1
+actor_look_at date2_w_pos02_look_at
+
+
+
+
+//widok na bohatera
+hero DLD00L03
+movie_camera
+fade_in
+rotate_180
+fov 0.8
+
+camera_pos date2_cam02
+camera_look_at date2_cam02_look_at
+
+hero_pos date2_h_pos01
+hero_anim h_date2_sit_listen1
+hero_look_at date2_h_pos02_look_at
+
+actor_pos date2_w_pos01
+actor_anim w_date2_sit_listen1
+actor_look_at date2_w_pos02_look_at
+
+
+// widok na laske
+actor DLD00L04
+movie_camera
+fade_in
+rotate_180
+fov 0.9
+
+camera_pos date2_cam03
+camera_look_at date2_cam03_look_at
+
+actor_pos date2_w_pos01
+actor_anim w_date2_sit_speak2
+actor_look_at date2_w_pos02_look_at
+
+
+//pozniej
+//actor_silent 1.3
+//black
+//text DLD02SUB01
+
+
+
+// widok na bohatera, kamera ruchoma!
+
+//actor DLD00L04
+//movie_camera
+//fade_in
+//rotate_180
+//fov 0.8
+
+//camera_pos date2_cam04
+//camera_move_to date2_cam04_target 0.2
+//camera_look_at date2_cam04_look_at
+//dof_distance 3
+
+//hero_pos date2_h_pos01
+//hero_anim h_date2_sit_toast
+//hero_look_at date2_h_pos01_look_at
+
+//actor_pos date2_w_pos01
+//actor_anim w_date2_sit_toast
+//actor_look_at date2_w_pos02_look_at
+
+// ktorego mesha, na jaki socket
+//attach_hero 3 glass
+
+// ktorego mesha, na jaki socket
+//attach_actor 4 glass
+
+
+//siedzo przy stoliku, widok zza laski
+label wybor1
+choice
+movie_camera
+fade_in
+rotate_180
+fov 0.7
+
+camera_pos date2_cam06
+camera_look_at date2_cam06_look_at
+dof_distance 2
+
+hero_pos date2_h_pos01
+hero_anim h_date2_sit_listen1
+hero_look_at date2_h_pos02_look_at
+
+actor_pos date2_w_pos01
+actor_anim w_date2_sit_listen1
+actor_look_at date2_w_pos02_look_at
+
+answer DLD00L05
+on_answer_goto_label dalej1
+
+answer DLD00L06
+on_answer_goto_label dalej1
+
+answer DLD00L07
+on_answer_goto_label dalej1
+
+//actor_silent 1
+//black
+
+label dalej1
+//siedzo przy stoliku, widok na oboje
+actor DLD00L08
+movie_camera
+fade_in
+rotate_180
+fov 0.8
+
+camera_pos date2_cam05
+camera_look_at date2_cam05_look_at
+//dof_distance 3
+
+hero_pos date2_h_pos01
+hero_anim h_date2_sit_listen1
+hero_look_at date2_h_pos02_look_at
+
+actor_pos date2_w_pos01
+actor_anim w_date2_sit_listen1
+actor_look_at date2_w_pos02_look_at
+
+teleport_to_prefab 3 date2_glass1 
+teleport_to_prefab 4 date2_glass2 
+
+
+//siedzo przy stoliku, widok zza laski
+label wybor2
+choice
+movie_camera
+fade_in
+rotate_180
+fov 0.7
+
+camera_pos date2_cam06
+camera_look_at date2_cam06_look_at
+dof_distance 2
+
+hero_pos date2_h_pos01
+hero_anim h_date2_sit_listen1
+hero_look_at date2_h_pos02_look_at
+
+actor_pos date2_w_pos01
+actor_anim w_date2_sit_listen1
+actor_look_at date2_w_pos02_look_at
+
+answer DLD00L09
+on_answer_goto_label dalej2
+
+answer DLD00L10
+on_answer_goto_label dalej2
+
+
+
+// tu po prostu przelot kamery
+label dalej2
+//actor_silent 4
+hero DLD00L11
+movie_camera
+fade_in
+rotate_180
+fov 0.8
+
+camera_pos date2_cam04
+camera_move_to date2_cam04_target 0.12
+camera_look_at date2_cam04_look_at
+//dof_distance 3
+
+hero_pos date2_h_pos01
+hero_anim h_date2_sit_toast
+hero_look_at date2_h_pos01_look_at
+
+actor_pos date2_w_pos01
+actor_anim w_date2_sit_toast
+actor_look_at date2_w_pos02_look_at
+
+// ktorego mesha, na jaki socket
+attach_hero 3 glass
+
+// ktorego mesha, na jaki socket
+attach_actor 4 glass
+
+
+// kamera kontynuuje ruch
+actor DLD00L12
+movie_camera
+//fade_in
+rotate_180
+fov 0.8
+
+camera_move_to date2_cam04_target 0.12
+camera_look_at date2_cam04_look_at
+//dof_distance 3
+
+hero_pos date2_h_pos01
+//hero_anim h_date2_sit_toast
+hero_look_at date2_h_pos01_look_at
+
+actor_pos date2_w_pos01
+//actor_anim w_date2_sit_toast
+actor_look_at date2_w_pos02_look_at
+
+// ktorego mesha, na jaki socket
+attach_hero 3 glass
+
+// ktorego mesha, na jaki socket
+attach_actor 4 glass
+
+
+
+
+
+//siedzo przy stoliku, widok na oboje
+
+hero DLD00L13
+movie_camera
+fade_in
+rotate_180
+fov 0.8
+
+camera_pos date2_cam05
+camera_look_at date2_cam05_look_at
+//dof_distance 3
+
+hero_pos date2_h_pos01
+hero_anim h_date2_sit_listen1
+hero_look_at date2_h_pos02_look_at
+
+actor_pos date2_w_pos01
+actor_anim w_date2_sit_listen1
+actor_look_at date2_w_pos02_look_at
+
+teleport_to_prefab 3 date2_glass1 
+teleport_to_prefab 4 date2_glass2 
+
+
+//siedzo przy stoliku, widok zza bohatera
+actor DLD00L14
+movie_camera
+fade_in
+rotate_180
+fov 0.7
+
+camera_pos date2_cam07
+camera_look_at date2_cam07_look_at
+
+hero_pos date2_h_pos01
+hero_anim h_date2_sit_listen1
+hero_look_at date2_h_pos02_look_at
+
+actor_pos date2_w_pos01
+actor_anim w_date2_sit_speak1
+actor_look_at date2_w_pos02_look_at
+dof_distance 2
+
+
+
+
+
+//siedzo przy stoliku, widok zza laski
+label wybor3
+choice
+movie_camera
+fade_in
+rotate_180
+fov 0.7
+
+camera_pos date2_cam06
+camera_look_at date2_cam06_look_at
+dof_distance 2
+
+hero_pos date2_h_pos01
+hero_anim h_date2_sit_listen1
+hero_look_at date2_h_pos02_look_at
+
+actor_pos date2_w_pos01
+actor_anim w_date2_sit_listen1
+actor_look_at date2_w_pos02_look_at
+
+teleport_to_prefab 3 date2_glass1 
+teleport_to_prefab 4 date2_glass2 
+
+answer DLD00L15
+on_answer_goto_label dalej4a
+
+answer DLD00L16
+on_answer_goto_label dalej4b
+
+
+//siedzo przy stoliku, widok zza bohatera
+label dalej4a
+actor DLD00L17
+movie_camera
+fade_in
+rotate_180
+fov 0.7
+
+camera_pos date2_cam07
+camera_look_at date2_cam07_look_at
+
+hero_pos date2_h_pos01
+hero_anim h_date2_sit_listen1
+hero_look_at date2_h_pos02_look_at
+
+actor_pos date2_w_pos01
+actor_anim w_date2_sit_speak1
+actor_look_at date2_w_pos02_look_at
+//dof_distance 2
+goto_label dalej4
+
+
+//siedzo przy stoliku, widok zza bohatera
+label dalej4b
+actor DLD00L18
+movie_camera
+fade_in
+rotate_180
+fov 0.7
+
+like_player 0.1
+
+camera_pos date2_cam07
+camera_look_at date2_cam07_look_at
+
+hero_pos date2_h_pos01
+hero_anim h_date2_sit_listen1
+hero_look_at date2_h_pos02_look_at
+
+actor_pos date2_w_pos01
+actor_anim w_date2_sit_speak1
+actor_look_at date2_w_pos02_look_at
+//dof_distance 2
+goto_label dalej4
+
+
+label dalej4
+//siedzo przy stoliku, widok na oboje
+actor DLD00L19
+movie_camera
+fade_in
+rotate_180
+fov 0.8
+
+camera_pos date2_cam05
+camera_look_at date2_cam05_look_at
+//dof_distance 3
+
+hero_pos date2_h_pos01
+hero_anim h_date2_sit_listen1
+hero_look_at date2_h_pos02_look_at
+
+actor_pos date2_w_pos01
+actor_anim w_date2_sit_listen1
+actor_look_at date2_w_pos02_look_at
+
+teleport_to_prefab 3 date2_glass1 
+teleport_to_prefab 4 date2_glass2 
+
+
+
+//siedzo przy stoliku, widok zza laski
+label wybor4
+choice
+movie_camera
+fade_in
+rotate_180
+fov 0.7
+
+camera_pos date2_cam06
+camera_look_at date2_cam06_look_at
+dof_distance 2
+
+hero_pos date2_h_pos01
+hero_anim h_date2_sit_listen1
+hero_look_at date2_h_pos02_look_at
+
+actor_pos date2_w_pos01
+actor_anim w_date2_sit_listen1
+actor_look_at date2_w_pos02_look_at
+
+teleport_to_prefab 3 date2_glass1 
+teleport_to_prefab 4 date2_glass2 
+
+answer DLD00L20
+on_answer_goto_label dalej5a
+
+answer DLD00L21
+on_answer_goto_label dalej5b
+
+answer DLD00L22
+on_answer_goto_label dalej5c
+
+
+
+
+
+//siedzo przy stoliku, widok zza bohatera
+label dalej5a
+actor DLD00L23
+movie_camera
+fade_in
+rotate_180
+fov 0.7
+
+camera_pos date2_cam07
+camera_look_at date2_cam07_look_at
+
+hero_pos date2_h_pos01
+hero_anim h_date2_sit_listen1
+hero_look_at date2_h_pos02_look_at
+
+actor_pos date2_w_pos01
+actor_anim w_date2_sit_speak1
+actor_look_at date2_w_pos02_look_at
+//dof_distance 2
+goto_label dalej5
+
+
+//siedzo przy stoliku, widok zza bohatera
+label dalej5b
+actor DLD00L24
+movie_camera
+fade_in
+rotate_180
+fov 0.7
+
+like_player 0.1
+
+camera_pos date2_cam07
+camera_look_at date2_cam07_look_at
+
+hero_pos date2_h_pos01
+hero_anim h_date2_sit_listen1
+hero_look_at date2_h_pos02_look_at
+
+actor_pos date2_w_pos01
+actor_anim w_date2_sit_speak1
+actor_look_at date2_w_pos02_look_at
+//dof_distance 2
+goto_label dalej5
+
+
+//siedzo przy stoliku, widok zza bohatera
+label dalej5c
+actor DLD00L25
+movie_camera
+fade_in
+rotate_180
+fov 0.7
+
+camera_pos date2_cam07
+camera_look_at date2_cam07_look_at
+
+hero_pos date2_h_pos01
+hero_anim h_date2_sit_listen1
+hero_look_at date2_h_pos02_look_at
+
+actor_pos date2_w_pos01
+actor_anim w_date2_sit_speak1
+actor_look_at date2_w_pos02_look_at
+//dof_distance 2
+goto_label dalej5
+
+
+
+
+label dalej5
+//siedzo przy stoliku, widok na oboje
+actor DLD00L26
+movie_camera
+fade_in
+rotate_180
+fov 0.8
+
+camera_pos date2_cam05
+camera_look_at date2_cam05_look_at
+//dof_distance 3
+
+hero_pos date2_h_pos01
+hero_anim h_date2_sit_listen1
+hero_look_at date2_h_pos02_look_at
+
+actor_pos date2_w_pos01
+actor_anim w_date2_sit_listen1
+actor_look_at date2_w_pos02_look_at
+
+teleport_to_prefab 3 date2_glass1 
+teleport_to_prefab 4 date2_glass2 
+
+
+
+
+
+
+//stojo, widok zza laski
+//It was a great evening, I would love to do it again.
+hero DLD00L27
+movie_camera
+fade_in
+rotate_180
+fov 0.6
+
+camera_pos date2_cam09
+camera_look_at date2_cam09_look_at
+
+hero_pos date2_h_pos02
+hero_anim h_date2_speak1
+hero_look_at date2_h_pos03_look_at
+
+actor_pos date2_w_pos02
+actor_anim w_date2_listen
+actor_look_at date2_w_pos03_look_at
+
+
+//stojo, widok zza bohatera
+//I agree. See you in the future then.
+actor DLD00L28
+movie_camera
+fade_in
+rotate_180
+fov 0.6
+
+camera_pos date2_cam08
+camera_look_at date2_cam08_look_at
+
+hero_pos date2_h_pos02
+hero_anim h_date2_speak1
+hero_look_at date2_h_pos03_look_at
+
+actor_pos date2_w_pos02
+actor_anim w_date2_listen
+actor_look_at date2_w_pos03_look_at
+
+
+//koniec
+actor_silent 1
+black
+movie_camera
+
+end_dialog
+
+
+
+
+
+

@@ -1,0 +1,6 @@
+mesh_filename prefabs\vehicles\trailer_ztc100\trailer_ztc100_attachment_nocenter.x
+socket wheel_front_left -0.903038 -0.180000 0.511966
+socket wheel_front_right 0.910538 -0.180000 0.481966
+socket thill 0.000000 0.660000 0.750000
+socket przyczepa 0.000000 0.000000 0.000000
+socket traktor 0.000000 3.200000 0.750000

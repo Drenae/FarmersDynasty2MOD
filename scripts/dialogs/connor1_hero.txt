@@ -1,0 +1,33 @@
+//
+// Dialog z connorem
+//
+
+// dzien dobry, dla kogo dobry dla tego dobry, znowu mi tu halasujo, najpierw jakies ryszard i mortimer od wedzarni a teraz ty, ale ja znam babe ziolowom, a to spoko, przynies mi miensko to cie naucze lowic ryby
+hero_dialog connor1_dialog1
+hero DLQ11L01
+actor DLQ11L02
+actor DLQ11L03
+hero DLQ11L04
+actor DLQ11L05
+hero DLQ11L06
+actor DLQ11L07
+actor DLQ11L08
+hero DLQ11L09
+actor DLQ11L10
+hero DLQ11L11
+actor DLQ11L12
+hero DLQ11L13
+actor DLQ11L14
+hero DLQ11L15
+
+// masz tu miensko, dzieki mordo wez wedke i pokaze ci jak sie lowi ryby, dobra juz umiesz a teraz wypad mie z osiedla
+hero_dialog connor1_dialog2
+hero DLQ11L16
+actor DLQ11L17
+actor DLQ11L18
+actor DLQ11L19
+actor DLQ11L20
+
+
+
+

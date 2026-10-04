@@ -1,0 +1,11 @@
+mesh_filename prefabs\vehicles\beets_planter_old\beets_planter_old_nocenter.x
+socket zaczep3p 0.000000 0.450000 0.340000
+socket zaczep3pgora 0.000000 0.450000 1.000000
+socket s0 -2.100000 1.000000 0.000000
+socket s1 2.100000 1.000000 0.000000
+socket fx0 -0.600000 -0.300000 0.000000
+socket fx1 0.600000 -0.300000 0.000000
+socket wheel1 0.000000 0.550000 0.190000
+socket wheel2 0.020000 -0.080000 0.190000
+socket wheel3 0.015000 -0.590000 0.190000
+socket wheel4 0.000000 -0.220000 0.202000

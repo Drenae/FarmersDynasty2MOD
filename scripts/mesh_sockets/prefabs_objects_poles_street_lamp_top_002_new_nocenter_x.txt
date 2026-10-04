@@ -1,0 +1,2 @@
+mesh_filename prefabs\objects\poles\street_lamp_top_002_new_nocenter.x
+socket light 0.000000 0.000000 6.500000

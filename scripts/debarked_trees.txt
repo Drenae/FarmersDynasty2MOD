@@ -1,0 +1,65 @@
+debarked prefabs\trees\tree_debarked_nocenter.X
+made_of prefabs\trees\Parts\spruce01_trunk01_nocenter.X
+made_of prefabs\trees\Parts\spruce01_trunk02_nocenter.X
+made_of prefabs\trees\Parts\tree_birch03_trunk02_nocenter.X
+made_of prefabs\trees\Parts\tree_oak03_trunk02_nocenter.X
+made_of prefabs\trees\Parts\tree_pine01_trunk01_nocenter.X
+made_of prefabs\trees\Parts\tree_pine02_trunk01_nocenter.X
+made_of prefabs\trees\Parts\tree_pine02_trunk02_nocenter.X
+made_of prefabs\trees\Parts\tree_oak01_trunk_end_nocenter.X
+
+
+debarked prefabs\trees\tree_debarked01_nocenter.X
+made_of prefabs\trees\Parts\tree_birch02_trunk01_nocenter.X
+made_of prefabs\trees\Parts\tree_birch03_trunk01_nocenter.X
+made_of prefabs\trees\Parts\tree_oak01_trunk01_nocenter.X
+made_of prefabs\trees\Parts\tree_oak01_trunk02_nocenter.X
+made_of prefabs\trees\Parts\tree_oak02_trunk01_nocenter.X
+made_of prefabs\trees\Parts\tree_oak03_trunk01_nocenter.X
+made_of prefabs\trees\Parts\tree_pine02_trunk03_nocenter.X
+made_of prefabs\trees\Parts\tree_pine03_trunk01_nocenter.X
+made_of prefabs\trees\Parts\tree_pine03_trunk02_nocenter.X
+
+
+debarked prefabs\trees\tree_debarked02_nocenter.X
+made_of prefabs\trees\Parts\spruce01_trunk03_nocenter.X
+made_of prefabs\trees\Parts\spruce02_trunk01_nocenter.X
+made_of prefabs\trees\Parts\tree_birch02_trunk02_nocenter.X
+made_of prefabs\trees\Parts\tree_oak02_trunk02_nocenter.X
+made_of prefabs\trees\Parts\tree_oak03_trunk02_nocenter.X
+made_of prefabs\trees\Parts\tree_pine01_trunk02_nocenter.X
+made_of prefabs\trees\Parts\tree_pine02_trunk03_nocenter.X
+made_of prefabs\trees\Parts\tree_pine03_trunk03_nocenter.X
+made_of prefabs\trees\Parts\tree_poplar01_trunk01_nocenter.X
+made_of prefabs\trees\Parts\tree_pine02_trunk_end_nocenter.x
+
+debarked prefabs\trees\tree_debarked03_nocenter.X
+made_of prefabs\trees\Parts\spruce01_trunk04_nocenter.X
+made_of prefabs\trees\Parts\spruce02_trunk02_nocenter.X
+made_of prefabs\trees\Parts\spruce03_trunk01_nocenter.X
+made_of prefabs\trees\Parts\spruce03_trunk02_nocenter.X
+made_of prefabs\trees\Parts\tree_birch01_trunk01_nocenter.X
+made_of prefabs\trees\Parts\tree_pine01_trunk03_nocenter.X
+made_of prefabs\trees\Parts\tree_pine01_trunk04_nocenter.X
+made_of prefabs\trees\Parts\tree_pineOld01_trunk01_nocenter.X
+made_of prefabs\trees\Parts\tree_poplar01_trunk02_nocenter.X
+made_of prefabs\trees\Parts\tree_birch02_trunk_end_nocenter.X
+
+
+debarked prefabs\trees\tree_debarked04_nocenter.X
+made_of prefabs\trees\Parts\spruce02_trunk03_nocenter.X
+made_of prefabs\trees\Parts\spruce03_trunk03_nocenter.X
+made_of prefabs\trees\Parts\tree_pine03_trunk04_nocenter.X
+made_of prefabs\trees\Parts\tree_pineOld01_trunk02_nocenter.X
+made_of prefabs\trees\Parts\tree_spruceOld01_trunk01_nocenter.X
+made_of prefabs\trees\Parts\spruce01_trunk_end_nocenter.X
+made_of prefabs\trees\Parts\tree_poplar01_trunk_end_nocenter.X
+
+debarked prefabs\trees\tree_debarked05_nocenter.X
+made_of prefabs\trees\Parts\tree_birch01_trunk02_nocenter.X
+made_of prefabs\trees\Parts\tree_spruceOld01_trunk02_nocenter.X
+made_of prefabs\trees\Parts\spruce02_trunk_end_nocenter
+made_of prefabs\trees\Parts\tree_pineOld01_trunk_end_nocenter.X
+made_of prefabs\trees\Parts\spruce03_trunk_end_nocenter.X
+
+

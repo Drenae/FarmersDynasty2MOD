@@ -1,0 +1,87 @@
+
+// nazwa questa, unikalna i wymagana
+name Nelly_Nathan
+icon hud_map_job.dds
+given_by_icon actor_unknown_woman.dds
+
+title OB52
+initial_waypoint nathan1
+initial_objective OB53
+given_by nathan1
+
+// gdy startuje ten quest, niech bedzie sledzony
+focus_on_start
+
+social_award 2
+
+wait 0.1 -waypoint * -checkpoint 10
+
+//idziemy na farme 4, dialog z natanem
+goto nathan1 -distance 5 -waypoint nathan1 -checkpoint 20
+wait 0.1 -waypoint *
+hero_dialog nathan1_dialog3 nathan1
+wait_end_hero_dialog
+wait 1 -checkpoint 30
+
+//dialog z nelly
+goto nelly1 -distance 5 -waypoint nelly1 -objective OB54 -checkpoint 40
+wait 0.1 -waypoint *
+hero_dialog nelly1_dialog1 nelly1
+wait_end_hero_dialog
+wait 1 -waypoint nelly_field -objective OB55 -checkpoint 50
+
+//naprawiamy reszte farmy 4
+//garasz
+//wait 1 
+//wait_repair_building neighbor_garage_004 -waypoint neighbor_garage_004 -objective OB55 -checkpoint 60
+//hacjenda
+//wait 1 
+//wait_repair_building neighbor_house_004 -waypoint neighbor_house_004 -checkpoint 80
+//obora
+//wait 1 
+//wait_repair_building neighbor_cowshed_004 -waypoint neighbor_cowshed_004 -checkpoint 100
+//kurnik
+//wait 1
+//wait_repair_building neighbor_henhouse_004 -waypoint neighbor_henhouse_004 -checkpoint 120
+//silosy
+//wait 1 
+//wait_repair_building neighbor_silo_004 -waypoint neighbor_silo_004 -checkpoint 140
+
+//oraj pole na traktore
+allow_field_work field_014
+wait_plow field_014 -checkpoint 80
+wait 1 -checkpoint 90
+
+//kulturalnie kultywuj pole kultowym kultywatorem
+wait_cultivate field_014 -objective OB55A -checkpoint 100
+wait 1 -waypoint * -checkpoint 110
+
+//wracamy po nagrode, dialog z nelly
+goto nelly1 -distance 5 -waypoint nelly1 -objective OB56 -checkpoint 160
+wait 0.1 -waypoint *
+hero_dialog nelly1_dialog2 nelly1
+forbid_field_work field_014
+wait_end_hero_dialog
+likes_player nelly1 0.25
+give_cows 2
+give_pigs 5
+wait 0.5 -checkpoint 170
+
+//dialog z nathanem, nathan uczy kupowania nieruchomosci
+goto nathan1 -distance 5 -waypoint nathan1 -objective OB50 -checkpoint 180
+wait 0.1 -waypoint *
+hero_dialog nathan1_dialog4 nathan1
+wait_end_hero_dialog
+wait 0.5 -checkpoint 190
+unlock_perk TP30
+wait 0.5 -checkpoint 200
+
+wait 0.5
+print koniec_questa_nelly_nathan
+wait 1
+
+start_quest Expansion
+
+
+
+

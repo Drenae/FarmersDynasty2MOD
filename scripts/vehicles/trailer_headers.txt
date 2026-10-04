@@ -1,0 +1,90 @@
+Vehicle >trailer_headers
+prefab prefabs\vehicles\trailer_header\trailer_header_nocenter.x
+Mass 600.0
+Stiffness 10
+
+spawn_id 62
+
+tag >MT39
+
+
+
+price 3400
+Kombajn_id 2
+przyczepa
+header_trolley
+
+
+
+renew_and_paint
+color 0.335 0.453 0.320
+
+
+
+
+// COLLISION MESH
+
+// pScaleY
+mnoznik_fizyki_y 0.3
+// pScaleZ
+mnoznik_fizyki_z 0.92
+// pScaleX
+mnoznik_fizyki_x 0.73
+
+// pTransY
+przesuniecie_fizyki_gora 0.9
+// pTransZ
+przesuniecie_fizyki_przod -0.2
+// pTransX
+przesuniecie_fizyki_prawo 0.0
+
+
+
+// HOOKS
+// hak_tyl zaczep_tyl
+
+
+
+// THILL
+// definiuje obiekt zaczepu, socket w przyczepie na ktorym bedzie przyczepiony, jego socket ktory zlapie przyczepe i jego socket ktorym zlapie traktor
+zaczep prefabs\vehicles\trailer_header\attachment_nocenter.x attachment przyczepa kombajn
+// dyszel socket_w_zaczepie socket_w_traktorze
+thill prefabs\vehicles\trailer_header\thill_nocenter.x thill zaczep_dolny
+
+
+
+// WHEELS
+front_wheel prefabs\vehicles\trailer_header\wheel_right_nocenter.x wheel_front_right
+front_wheel prefabs\vehicles\trailer_header\wheel_left_nocenter.x wheel_front_left
+
+wheel prefabs\vehicles\trailer_header\wheel_right_nocenter.x wheel_right
+wheel prefabs\vehicles\trailer_header\wheel_left_nocenter.x wheel_left
+
+wheel_invisible prefabs\vehicles\trailer_header\wheel_right_nocenter.x wheel_fake
+
+
+
+
+
+// LIGHTS
+
+
+attachment_light prefabs\vehicles\trailer_header\lamp2_nocenter.x light2
+attachment_name swiatlo_lt1
+swiatlo_tyl lt1
+swiatlo_z swiatlo_lt1
+
+attachment_light prefabs\vehicles\trailer_header\lamp3_nocenter.x light3
+attachment_name swiatlo_lt2
+swiatlo_tyl lt2
+swiatlo_z swiatlo_lt2
+
+attachment_light prefabs\vehicles\trailer_header\lamp1_nocenter.x light1
+attachment_name swiatlo_lc1
+swiatlo_cofania lc1
+swiatlo_z swiatlo_lc1
+
+attachment_light prefabs\vehicles\trailer_header\lamp4_nocenter.x light4
+attachment_name swiatlo_lt3
+// swiatlo_tyl lt3
+// swiatlo_z swiatlo_lt3

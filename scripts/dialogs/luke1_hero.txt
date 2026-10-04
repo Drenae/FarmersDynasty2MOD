@@ -1,0 +1,58 @@
+//
+// Dialog z luke
+//
+
+// Family Business
+// elo, oddawaj hajs bratu
+hero_dialog luke1_dialog1
+hero DLQ18L36
+actor DLQ18L37
+hero DLQ18L38
+actor DLQ18L39
+hero DLQ18L40
+actor DLQ18L41
+hero DLQ18L42
+actor DLQ18L43
+hero DLQ18L44
+actor DLQ18L45
+actor DLQ18L46
+actor DLQ18L47
+hero DLQ18L48
+actor DLQ18L49
+hero DLQ18L50
+actor DLQ18L51
+actor DLQ18L52
+hero DLQ18L53
+actor DLQ18L54
+hero DLQ18L55
+
+
+// Luke's baler
+// elo, naprawie ci stodole a ty mie dej tego balerona
+hero_dialog luke1_dialog2
+hero DLQ19L01
+actor DLQ19L02
+hero DLQ19L03
+actor DLQ19L04
+actor DLQ19L05
+actor DLQ19L06
+hero DLQ19L07
+actor DLQ19L08
+hero DLQ19L09
+
+
+// stodola naprawiona, dawaj balerona
+hero_dialog luke1_dialog3
+hero DLQ19L10
+actor DLQ19L11
+hero DLQ19L12
+actor DLQ19L13
+hero DLQ19L14
+
+
+
+
+
+
+
+

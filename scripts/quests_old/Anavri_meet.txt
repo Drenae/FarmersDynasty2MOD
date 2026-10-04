@@ -1,0 +1,84 @@
+
+// nazwa questa, unikalna i wymagana
+name Anavri_meet
+icon hud_map_social.dds
+given_by_icon actor_unknown_woman.dds
+
+title OB59
+initial_waypoint anavri1
+initial_objective OB60
+given_by anavri1
+
+// gdy startuje ten quest, niech bedzie sledzony
+focus_on_start
+
+social_award 2
+
+wait 0.1 -waypoint * -checkpoint 10
+wait 0.1 -waypoint anavri1 -checkpoint 20
+wait 1
+allow_talk_to_npc
+
+//idziemy na farme 20, dialog z anavri
+goto anavri1 -distance 5 -waypoint anavri1 -checkpoint 30
+wait 0.1 -waypoint *
+hero_dialog anavri1_dialog1 anavri1
+wait_end_hero_dialog
+wait 1 -waypoint anavri1 -checkpoint 40
+
+//czekamy az sie zgodzi
+wait_set anavri1_agreed -checkpoint 50
+wait 1 -waypoint * -checkpoint 60
+unset_actor_dialog anavri1
+
+//naprawiamy obore anavri
+//set_phase anavri1 bot
+//wait 1 -waypoint neighbor_cowshed_020 -objective OB61 -checkpoint 70
+//wait_repair_building neighbor_cowshed_020 -checkpoint 80
+
+//idziemy do connora po ryby
+start_quest Connor_fisherman
+set_phase anavri1 bot
+goto connor1 -distance 5 -waypoint connor1 -objective OB61 -checkpoint 70
+wait 1 -waypoint * -checkpoint 80
+wait 1 -playerhas fish 12 -checkpoint 90
+
+//ryby zlowione, wracamy po takiego wala jak Polska cala a nie nagrode, dialog z anavri
+goto anavri1 -distance 5 -waypoint anavri1 -objective OB62 -checkpoint 110 -playerhas fish 12
+wait 0.1 -waypoint *
+hero_dialog anavri1_dialog3 anavri1
+take_from_player fish 12
+likes_player anavri1 0.25
+wait_end_hero_dialog
+set_phase anavri1 bot
+//jednak jest nagroda hihi
+add_seedlings 100
+add_seedlings 100
+add_seedlings 100
+//anavri uczy zbierania GZIBUW
+unlock_perk forester02
+wait 1 -checkpoint 120
+
+//idziemy do lasu zbierac GZIBY
+wait 1 -playerhas mushroom 50 -objective OB63 -checkpoint 130
+
+//GZIBY nazbierane, wracamy, dialog z anavri
+goto anavri1 -distance 5 -waypoint anavri1 -objective OB62 -checkpoint 140 -playerhas mushroom 50
+wait 0.1 -waypoint *
+hero_dialog anavri1_dialog4 anavri1
+take_from_player mushroom 50
+wait_end_hero_dialog
+wait 1 -checkpoint 150
+
+print koniec_questa_anavri_meet
+wait 1
+
+
+
+
+
+
+
+
+
+

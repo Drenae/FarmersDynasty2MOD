@@ -1,0 +1,156 @@
+Vehicle >cultivator_MC6
+prefab prefabs\vehicles\cultivator_mc6\cultivator_mc6_nocenter.x
+Mass 340.0
+Stiffness 10
+
+spawn_id 30
+
+tag >MT15
+
+przyczepa
+kultywator
+price 22000
+working_width 6.2
+force_fold
+plant_on_unfold
+
+renew_and_paint
+color 0.86 0.28 0.28
+
+
+
+// COLLISION MESH
+
+// pScaleZ
+mnoznik_fizyki_z 0.95
+// pScaleY
+mnoznik_fizyki_y 0.4
+// pScaleX
+mnoznik_fizyki_x 0.9
+
+// pTransZ
+przesuniecie_fizyki_przod 0.0
+// pTransY
+przesuniecie_fizyki_gora 0.45
+// pTransX
+przesuniecie_fizyki_prawo 0.0
+
+
+
+// HOOKS
+zaczep3p zaczep3p
+zaczep3pgora zaczep3pgora
+
+additional_lift_3p_when_up 0.65
+additional_lift_3p_when_down 0.55
+mnoznik_kata 1.7
+
+add_when_loose 0.25
+
+
+
+
+
+
+// lewa strona przod (1)
+// attachment_physics_size <prefab> <socket> <szerokosc> <wysokosc> <dlugosc> [<przesX>] [<przesY>] [<przesZ>]
+// minimalny size w kazdej z osi to 0.1
+// attachment_physics zawsze do glownego, nie mozna do innego attachmentu.
+// przesXYZ jest od punktu socketa w lokalnej przestrzeni, czyli prawy trzeba w prawo, lewy trzeba w lewo 
+//   - bo inaczej fizyka attachmentu bedzie srodkiem w sockecie attachmentu, a przewaznie chcemy zeby byla bokiem.
+rotate_cmd4 -1.48 0.16 Z
+attachment_physics_size prefabs\vehicles\cultivator_mc6\leftside_nocenter.x leftside 0.5 0.2 1.4 -1.22 -0.25 -1.6
+
+
+
+
+// prawa strona przod (2)
+rotate_cmd4 1.48 0.16 Z
+attachment_physics_size prefabs\vehicles\cultivator_mc6\rightside_nocenter.x rightside 0.5 0.2 1.4 1.22 -0.25 -1.6
+
+
+
+
+
+
+// SUPPORT LEG (3)
+attachment_stopka prefabs\vehicles\cultivator_mc6\support_leg_nocenter.x support_leg 0.0 0.35
+
+
+
+
+
+// ROLLERS
+// prefab_kola socket_kola promien_kola podniesienie_osi_kola
+
+
+reverse
+attachment_wheel prefabs\vehicles\cultivator_mc6\reel1_nocenter.x roller1 0 1 1.1
+
+reverse
+attachment_wheel prefabs\vehicles\cultivator_mc6\reel1_nocenter.x roller2 0 1 1.1
+
+reverse
+attachment_wheel prefabs\vehicles\cultivator_mc6\reel2_nocenter.x roller3 0 1 1.1
+
+reverse
+attachment_wheel prefabs\vehicles\cultivator_mc6\reel2_nocenter.x roller4 0 1 1.1
+
+
+
+reverse
+attachment_wheel prefabs\vehicles\cultivator_mc6\reel1_nocenter.x roller1 1 1 1.1
+reverse
+attachment_wheel prefabs\vehicles\cultivator_mc6\reel2_nocenter.x roller2 1 1 1.1
+
+reverse
+attachment_wheel prefabs\vehicles\cultivator_mc6\reel1_nocenter.x roller1 2 1 1.1
+reverse
+attachment_wheel prefabs\vehicles\cultivator_mc6\reel2_nocenter.x roller2 2 1 1.1
+
+
+
+
+
+// PISTONS
+
+// piston <prefab> <nr_attachmentu> <socket> <nr_attachmentu_docelowego> <socket_docelowy>
+
+piston prefabs\vehicles\cultivator_mc6\p1_nocenter.x 0 p1 1 p1
+piston prefabs\vehicles\cultivator_mc6\p2_nocenter.x 1 p1 0 p1
+
+piston prefabs\vehicles\cultivator_mc6\p1_nocenter.x 0 p2 2 p2
+piston prefabs\vehicles\cultivator_mc6\p2_nocenter.x 2 p2 0 p2
+
+
+
+
+
+// LIGHTS
+
+attachment_light prefabs\vehicles\cultivator_mc6\lamp1_nocenter.X light1
+attachment_name swiatlo_lt1
+swiatlo_tyl lt1
+swiatlo_z swiatlo_lt1
+
+attachment_light prefabs\vehicles\cultivator_mc6\lamp2_nocenter.X light2
+attachment_name swiatlo_lt2
+swiatlo_tyl lt2
+swiatlo_z swiatlo_lt2
+
+
+
+
+// WORKING FX
+
+working_fx fx_plow_dust01 fx0
+working_fx afx_sianie fx1
+working_fx fx_plow_dust01 fx2
+working_fx afx_sianie fx3
+working_fx fx_plow_dust01 fx4
+working_fx afx_sianie fx5
+working_fx fx_plow_dust01 fx6
+working_fx afx_sianie fx7
+working_fx fx_plow_dust01 fx8
+
+

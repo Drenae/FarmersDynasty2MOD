@@ -1,0 +1,2 @@
+mesh_filename prefabs\useable\watering_can_nocenter.x
+socket fx 0.000000 0.640000 -0.050000

@@ -1,0 +1,50 @@
+
+// nazwa questa, unikalna i wymagana
+name Connor_fisherman
+icon hud_map_social.dds
+given_by_icon actor_unknown_man.dds
+
+title OB64
+initial_waypoint connor1
+initial_objective OB65
+given_by connor1
+
+// gdy startuje ten quest, niech bedzie sledzony
+focus_on_start
+
+social_award 1
+
+wait 0.1 -waypoint * -checkpoint 10
+
+//idziemy na wysepke na jeziorze serduszko, tam przy chatce 1 connor lowi ryby, dialog z connorem
+goto connor1 -distance 5 -waypoint connor1 -checkpoint 20
+wait 0.1 -waypoint *
+hero_dialog connor1_dialog1 connor1
+wait 1
+wait_end_hero_dialog
+wait 1 -checkpoint 30
+
+//ogarniamy miensko dla connora
+wait 1 -playerhas meat 40 -objective OB66 -checkpoint 40
+
+//miensko sie zgadza, dialog z connorem
+goto connor1 -distance 5 -waypoint connor1 -objective OB67 -checkpoint 50 -playerhas meat 40
+wait 0.1 -waypoint *
+hero_dialog connor1_dialog2 connor1
+take_from_player meat 40
+likes_player connor1 0.25
+wait_end_hero_dialog
+//connor uczy wedkowania
+unlock_perk fisherman00
+wait 1 -checkpoint 60
+
+
+print koniec_questa_connor_fisherman
+wait 1
+
+start_quest Ricardo_Ernesto
+
+
+
+
+

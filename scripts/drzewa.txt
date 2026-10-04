@@ -1,0 +1,73 @@
+seedling_name spruce03
+seedling0 spruce01_seedling_nocenter.X
+seedling1 tree_spruce01_young_nocenter.X
+seedling2 tree_spruce02_young_nocenter.X
+
+seedling_name spruce02
+seedling0 spruce01_seedling_nocenter.X
+seedling1 tree_spruce01_young_nocenter.X
+seedling2 tree_spruce02_young_nocenter.X
+
+seedling_name spruce01
+seedling0 spruce01_seedling_nocenter.X
+seedling1 tree_spruce01_young_nocenter.X
+seedling2 tree_spruce02_young_nocenter.X
+
+seedling_name birch01
+seedling0 oak_seedling01_nocenter.X
+seedling1 tree_birch01_young_nocenter.X
+seedling2 tree_birch02_young_nocenter.X
+
+seedling_name birch02
+seedling0 oak_seedling01_nocenter.X
+seedling1 tree_birch01_young_nocenter.X
+seedling2 tree_birch02_young_nocenter.X
+
+seedling_name birch03
+seedling0 oak_seedling01_nocenter.X
+seedling1 tree_birch01_young_nocenter.X
+seedling2 tree_birch02_young_nocenter.X
+
+
+seedling_name oak01
+seedling0 oak01_seedling_nocenter.X
+seedling1 tree_oak01_young_nocenter.X
+seedling2 tree_oak02_young_nocenter.X
+
+seedling_name oak02
+seedling0 oak01_seedling_nocenter.X
+seedling1 tree_oak01_young_nocenter.X
+seedling2 tree_oak02_young_nocenter.X
+
+seedling_name oak03
+seedling0 oak01_seedling_nocenter.X
+seedling1 tree_oak01_young_nocenter.X
+seedling2 tree_oak02_young_nocenter.X
+
+
+seedling_name poplar01
+seedling0 birch01_seedling_nocenter.X
+seedling1 tree_poplar01_young_nocenter.X
+seedling2 tree_poplar02_young_nocenter.X
+
+seedling_name poplar02
+seedling0 birch01_seedling_nocenter.X
+seedling1 tree_poplar01_young_nocenter.X
+seedling2 tree_poplar02_young_nocenter.X
+
+
+
+seedling_name pine01
+seedling0 pine01_seedling_nocenter.X
+seedling1 tree_pine01_young_nocenter.X
+seedling2 tree_pine02_young_nocenter.X
+
+seedling_name pine02
+seedling0 pine01_seedling_nocenter.X
+seedling1 tree_pine01_young_nocenter.X
+seedling2 tree_pine02_young_nocenter.X
+
+seedling_name pine03
+seedling0 pine01_seedling_nocenter.X
+seedling1 tree_pine01_young_nocenter.X
+seedling2 tree_pine02_young_nocenter.X

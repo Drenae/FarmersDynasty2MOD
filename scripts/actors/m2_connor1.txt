@@ -1,0 +1,114 @@
+actor m2_connor1
+
+default_phase idle
+model prefabs\models\m2_old\m2_old.X
+name >NameM73
+
+eye prefabs\attachments\eye_left_nocenter.X eye_left
+eye prefabs\attachments\eye_right_nocenter.X eye_right
+
+contact_distance 8
+contact_angle 50
+rotate_180 
+immovable
+voice 2
+
+
+// Dialog anims
+
+// animacje idle calego ciala do dialogow (NPC z NPC, NPC z graczem), max 8
+dialog_anim_idle m_listen1
+dialog_anim_idle m_listen2
+dialog_anim_idle m_listen3
+dialog_anim_idle m_listen4
+
+// animacje mowi do dialogow (NPC z NPC, NPC z graczem), max 8
+dialog_anim_talk m_speak1
+dialog_anim_talk m_speak2
+dialog_anim_talk m_speak3
+dialog_anim_talk m_speak4
+
+// animacje (tylko glowa) gada do dialogow (NPC z NPC, NPC z graczem), max 8
+dialog_anim_talk_head m_talking_head1
+dialog_anim_talk_head m_talking_head2
+dialog_anim_talk_head m_talking_head3
+dialog_anim_talk_head m_talking_head4
+
+
+
+// clothes
+// max attachments 16
+
+
+random_hair prefabs\attachments\m_hat_9_nocenter.x hair
+random_hair prefabs\attachments\m_hat_9_nocenter.x hair
+random_hair prefabs\attachments\m_hat_9_nocenter.x hair
+random_hair prefabs\attachments\m_hat_9_nocenter.x hair
+random_hair prefabs\attachments\m_hat_9_nocenter.x hair
+random_hair prefabs\attachments\m_hat_9_nocenter.x hair
+random_hair prefabs\attachments\m_hat_9_nocenter.x hair
+random_hair prefabs\attachments\m_hat_9_nocenter.x hair
+random_hair prefabs\attachments\m_hat_9_nocenter.x hair
+random_hair prefabs\attachments\m_hat_9_nocenter.x hair
+random_hair prefabs\attachments\m_hat_9_nocenter.x hair
+random_hair prefabs\attachments\m_hat_9_nocenter.x hair
+random_hair prefabs\attachments\m_hat_9_nocenter.x hair
+random_hair prefabs\attachments\m_hat_9_nocenter.x hair
+random_hair prefabs\attachments\m_hat_9_nocenter.x hair
+random_hair prefabs\attachments\m_hat_9_nocenter.x hair
+
+
+
+
+
+// class 0 - boots
+clothes 0 prefabs\models\clothes\man\class0_boots\m_cowboy_shoes.X
+clothes_winter 0 prefabs\models\clothes\man\class0_boots\m_cowboy_shoes.X
+clothes_modern 0 prefabs\models\clothes\man\class0_boots\m_cowboy_shoes.X
+clothes_modern_winter 0 prefabs\models\clothes\man\class0_boots\m_cowboy_shoes.X
+
+
+// class 1 - pants
+clothes 1 prefabs\models\clothes\man\class1_pants\m_slim_jeans_001.X
+clothes_winter 1 prefabs\models\clothes\man\class1_pants\m_slim_jeans_001.X
+clothes_modern 1 prefabs\models\clothes\man\class1_pants\m_slim_jeans_001.X
+clothes_modern_winter 1 prefabs\models\clothes\man\class1_pants\m_pants_pockets_001.X
+
+
+// class 2 - shirts
+clothes 2 prefabs\models\clothes\man\class2_shirts\m_fishing_vest.X
+clothes_winter 2 prefabs\models\clothes\man\class2_shirts\m_jacket_2_60s.X
+clothes_modern 2 prefabs\models\clothes\man\class2_shirts\m_fishing_vest.X
+clothes_modern_winter 2 prefabs\models\clothes\man\class2_shirts\m_jacket_4.X
+
+
+// class 3 - beard
+
+
+
+
+
+
+// animations
+
+
+
+
+phase idle
+animation m_idle1
+on_end idle
+
+
+phase walk
+animation m_walk
+on_end walk
+
+
+phase talk
+animation m_talk1
+on_end talk
+
+
+
+
+

@@ -1,0 +1,16 @@
+windmill prefabs\buildings\windmill_old\windmill_old_001_nocenter.x
+rotor prefabs\buildings\windmill_old\windmill_old_rotor_nocenter.x rotor
+motor_random_angle 0.2
+rotor_max_vel 1
+
+
+
+
+
+// windmill prefabs\objects\windmills\windmill_turbine_nocenter.x
+// motor prefabs\objects\windmills\windmill_motor_nocenter.x motor
+// rotor prefabs\objects\windmills\windmill_rotor_nocenter.x rotor
+// motor_random_angle 0.8
+// rotor_max_vel 2
+// nazwa fxa, socket (podstawy albo motoru), jak czesto emitowac
+// night_fx fx_windmill fx 3

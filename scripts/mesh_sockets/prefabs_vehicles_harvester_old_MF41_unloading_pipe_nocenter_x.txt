@@ -1,0 +1,3 @@
+mesh_filename prefabs\vehicles\harvester_old_MF41\unloading_pipe_nocenter.X
+socket dump 0.000000 -2.880000 -0.400000
+socket anim_dump -0.010000 -2.890000 -0.260000

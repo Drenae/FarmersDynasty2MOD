@@ -1,0 +1,36 @@
+//
+// Dialog z nicholasem
+//
+
+// elo, wytne ci te drzewa i krzaki nad jeziorem a ty mie dej tom przyczepe na zbosze
+hero_dialog nicholas1_dialog1
+actor DLQ21L01
+hero DLQ21L02
+actor DLQ21L03
+actor DLQ21L04
+hero DLQ21L05
+actor DLQ21L06
+actor DLQ21L07
+actor DLQ21L08
+hero DLQ21L09
+actor DLQ21L10
+actor DLQ21L11
+hero DLQ21L12
+actor DLQ21L13
+hero DLQ21L14
+actor DLQ21L15
+hero DLQ21L16
+actor DLQ21L17
+
+
+// wyciete, dawaj przyczepe
+hero_dialog nicholas1_dialog2
+hero DLQ21L18
+actor DLQ21L19
+hero DLQ21L20
+
+
+
+
+
+

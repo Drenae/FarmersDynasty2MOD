@@ -1,0 +1,17 @@
+mesh_filename prefabs\vehicles\tractor_a530\tractor_new_demo_nocenter.x
+socket wheel_front_left -0.550000 1.555000 0.656000
+socket wheel_front_right 0.650000 1.555000 0.656000
+socket wheel_rear_right 0.500000 -0.990000 0.890000
+socket wheel_rear_left -0.500000 -0.990000 0.890000
+socket mudguard_left -0.550000 1.555000 0.666000
+socket mudguard_right 0.580000 1.555000 0.666000
+socket steering_wheel 0.010000 0.059000 2.125000
+socket kamera 0.003000 -0.440000 2.550000
+socket kierowca 0.030000 -0.420000 1.370000
+socket rura 1.050000 0.670000 2.890000
+socket piston 0.000000 -1.416000 1.080000
+socket zaczep -0.000000 -1.625000 0.946000
+socket zaczep_dolny 0.000000 -1.660000 0.590000
+socket vehicle_light1 0.000000 -0.040000 2.200000
+socket vehicle_light2 0.400000 -0.300000 2.300000
+socket passenger -0.600000 -0.360000 1.530000

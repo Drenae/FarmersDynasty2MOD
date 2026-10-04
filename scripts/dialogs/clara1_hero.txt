@@ -1,0 +1,62 @@
+//
+// Dialog z clara
+//
+
+// elo co tam, kotka mi zaginela pomusz bo jej dzieciaczki kiciaczki zdechno bez mleczka
+hero_dialog clara1_dialog1
+hero DLQ22L01
+actor DLQ22L02
+hero DLQ22L03
+actor DLQ22L04
+hero DLQ22L05
+actor DLQ22L06
+hero DLQ22L07
+actor DLQ22L08
+actor DLQ22L09
+hero DLQ22L10
+actor DLQ22L11
+hero DLQ22L12
+actor DLQ22L13
+hero DLQ22L14
+
+
+// znalazlem kitku, supcio to jak maly podrosnie to ci dam zebys mial swojego kitku
+hero_dialog clara1_dialog2
+hero DLQ22L15
+actor DLQ22L16
+hero DLQ22L17
+actor DLQ22L18
+actor DLQ22L19
+hero DLQ22L20
+actor DLQ22L21
+hero DLQ22L22
+actor DLQ22L23
+
+
+//elo dej kitku, dobra masz tu malego kitku
+hero_dialog clara1_dialog3
+hero DLQ22L24
+actor DLQ22L25
+hero DLQ22L26
+actor DLQ22L27
+hero DLQ22L28
+hero DLQ22L29
+actor DLQ22L30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

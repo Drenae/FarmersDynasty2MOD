@@ -1,0 +1,2 @@
+mesh_filename prefabs\vehicles\trailer_old_log\hook_2_nocenter.x
+socket p3a -0.020000 -0.020000 0.040000

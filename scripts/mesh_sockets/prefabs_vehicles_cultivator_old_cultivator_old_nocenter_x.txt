@@ -1,0 +1,12 @@
+mesh_filename prefabs\vehicles\cultivator_old\cultivator_old_nocenter.x
+socket zaczep3p 0.000000 1.000000 0.240000
+socket zaczep3pgora 0.000000 0.790000 0.950000
+socket s0 -1.500000 0.860000 0.100000
+socket s1 1.500000 0.860000 0.100000
+socket fx0 -1.000000 0.660000 0.100000
+socket fx1 -0.500000 -0.240000 0.100000
+socket fx2 0.600000 -0.240000 0.100000
+socket fx3 1.000000 0.560000 0.100000
+socket wheel_left -0.795000 0.255000 0.200000
+socket wheel_right 0.813000 0.255000 0.200000
+socket repair 0.000000 0.000000 0.000000

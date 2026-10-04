@@ -1,0 +1,4 @@
+mesh_filename prefabs\useable\bathtub_old_1_nocenter.x
+socket water 0.000000 0.000000 0.000000
+socket sit -0.600000 -0.000000 0.900000
+socket fx 0.000000 0.000000 0.000000

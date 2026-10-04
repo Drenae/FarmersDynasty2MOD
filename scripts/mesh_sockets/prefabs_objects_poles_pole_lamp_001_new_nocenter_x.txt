@@ -1,0 +1,2 @@
+mesh_filename prefabs\objects\poles\pole_lamp_001_new_nocenter.x
+socket light 0.000000 -1.400000 10.600000

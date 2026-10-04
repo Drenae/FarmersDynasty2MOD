@@ -1,0 +1,34 @@
+// definiuje kolejne prefaby (stopnie przebudowy), w grze moze byc wlozony dowolny, ale musza byc unikalne dla danego setu
+// part <id_warstwy> <id_materialu> <klucz_text_keys_z_opisem> <sciezka\prefab>
+// -1 jako indeks materialu oznacza ten sam material, ale nie budowe tylko naprawe, czyli przejscie z polamanych na naprostowane deski BEZ kupowania desek.
+
+// old
+part 0 0  MAT00 prefabs\buildings\windmill\wm_wood_old_tower_3_1_nocenter.x
+part 1 -1  MAT00 prefabs\buildings\windmill\wm_wood_fixed_tower_3_1_nocenter.x
+
+part 2 0  MAT00 prefabs\buildings\windmill\wm_wood_old_tower_3_2_nocenter.x
+part 3 -1  MAT00 prefabs\buildings\windmill\wm_wood_fixed_tower_3_2_nocenter.x
+
+
+part 4 0  MAT00 prefabs\buildings\windmill\wm_wood_fixed_tower_3_0_nocenter.x
+
+
+// new
+part 5 1  MAT01 prefabs\buildings\windmill\wm_wood_new_tower_3_0_nocenter.x
+part 6 27  MAT27 prefabs\buildings\windmill\wm_wood_new_tower_3_0_nocenter.x
+
+
+
+// i teraz dla danego elementu definiujemy w ktory moze przejsc
+// pierwszy parametr to ktorego tyczy sie definicja, nastepne - w ktore moze byc zmieniony
+
+path 0   1 5
+path 1   5
+
+path 2   3 5
+path 3   5
+
+path 4   5
+
+path 5   6
+path 6   6

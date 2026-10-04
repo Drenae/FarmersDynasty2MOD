@@ -1,0 +1,37 @@
+// definiuje kolejne prefaby (stopnie przebudowy), w grze moze byc wlozony dowolny, ale musza byc unikalne dla danego setu
+// part <id_warstwy> <id_materialu> <klucz_text_keys_z_opisem> <sciezka\prefab>
+// -1 jako indeks materialu oznacza ten sam material, ale nie budowe tylko naprawe, czyli przejscie z polamanych na naprostowane deski BEZ kupowania desek.
+
+
+part 0 5 MAT05 prefabs\Buildings\garages\ga_concrete_old_gate_bottom_3_2_nocenter.X
+part 1 -1  MAT05 prefabs\Buildings\garages\ga_concrete_fixed_gate_bottom_3_2_nocenter.X
+
+part 2 5 MAT05 prefabs\Buildings\garages\ga_concrete_fixed_gate_bottom_3_1_nocenter.X
+
+
+// very old plaster
+part 3 3  MAT03 prefabs\buildings\garages\ga_concrete_old_gate_bottom_5_2_nocenter.x
+part 4 -1  MAT03 prefabs\buildings\garages\ga_concrete_fixed_gate_bottom_5_2_nocenter.x
+
+
+// new plaster
+part 5 6 MAT06 prefabs\Buildings\garages\ga_concrete_new_gate_bottom_3_1_nocenter.X
+part 6 27  MAT27 prefabs\Buildings\garages\ga_concrete_new_gate_bottom_3_1_nocenter.X
+
+
+// new brick
+part 7 4 MAT04 prefabs\buildings\garages\ga_brick_new_gate_bottom_3_1_nocenter.x
+
+
+
+// i teraz dla danego elementu definiujemy w ktory moze przejsc
+// pierwszy parametr to ktorego tyczy sie definicja, nastepne - w ktore moze byc zmieniony
+
+path 0   1 7
+path 1   5 7
+path 2   5 7
+path 3   4 7
+path 4   5 7
+path 5   6 7
+path 6   6 7
+path 7   5

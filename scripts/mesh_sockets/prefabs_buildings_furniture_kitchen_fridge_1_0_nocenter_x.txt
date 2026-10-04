@@ -1,0 +1,3 @@
+mesh_filename prefabs\buildings\furniture\kitchen_fridge_1_0_nocenter.x
+socket door 0.402000 -0.283500 0.000000
+socket hero 0.000000 -0.800000 1.700000

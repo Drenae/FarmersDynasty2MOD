@@ -1,0 +1,1183 @@
+// 2017 09 05
+// plik opisuje akcje zarowno przypisywane w edytorze (lozko gracza), jak i przynalezne domyslnie prefabom (lawki).
+// przypisuje sie ikonke, podpis, socket akcji (gdzie postac siada), socket kamery etc.
+// klucze (slowa kluczowe po action, na przyklad FOOD_STORAGE) s¹ wazne, unikalne, identyfikuja akcje w grze.
+// podanie nieistniejacego klucza dorzuci akcje do edytora, spowoduje jej ikonke(i) i opis (ale nie stworzy nieoprogramowanego dzialania)
+// - moze wiec byc uzywane do oznaczania obiektow i nic nie zepsuje.
+//
+
+// UWAGA! WAZNE! UWAGA!
+// nazwy akcji (action) nie moga byc zmieniane po przypisaniu ich do obiektow, bo zostana zgubione i beda musialy byc przypisywane w swiecie od nowa.
+
+// konwencja zakladana: 
+// nazwa obiektu to labelka OBJX (na przyklad OBJ10)
+// opis obiektu, jesli istnieje to OBJXn (na przyklad OBJ10n)
+// nazwa akcji obiektu (usiadz na) jeœli nie defaultowa to OBJXa (OBJ10a)
+// map_social odnosi sie do icon_map - jesli jest, to ikonka przynalezy do socjalnych (kosciol), jesli nie - to do mechanicznych (sklepy)
+
+
+// domyœlne ³awki w œwiecie (siadaj¹ NPC/model gracza na sockecie sit, kamera dla gracza patrzy na socket camera)
+// bez ikonek w ogole
+action SIT_BENCH
+name AT362
+socket_NPC sit
+socket_camera camera
+prefab prefabs\Buildings\barns_stuff\wood_bench_nocenter.X
+prefab prefabs\Buildings\shelters_stuff\chair_001_nocenter.X
+prefab prefabs\Buildings\shelters_stuff\chair_002_nocenter.X 
+prefab prefabs\buildings\furniture\lu_chair_nocenter.x
+// prefab prefabs\buildings\furniture\chair_new_001_nocenter.x
+// prefab prefabs\buildings\furniture\chair_new_002_nocenter.x
+// prefab prefabs\buildings\furniture\chair_new_003_nocenter.x
+// prefab prefabs\buildings\furniture\stool_new_001_nocenter.x
+// prefab prefabs\buildings\furniture\stool_new_002_nocenter.x
+// prefab prefabs\buildings\furniture\chair_001_nocenter.x
+// prefab prefabs\buildings\furniture\chair_002_nocenter.x
+// prefab prefabs\buildings\furniture\chair_003_nocenter.x
+// prefab prefabs\buildings\furniture\stool_001_nocenter.x
+// prefab prefabs\buildings\furniture\stool_002_nocenter.x
+
+
+// uzywany jesli jest potrzebny inny ni¿ domyœlny "use" (G09). Tu OBJ03a = "sit on"
+action_label AT361
+description 
+description_distance 0
+
+// ³ó¿ko gracza, tylko pod PPM
+action PLAYER_BED
+icon icon_player_bed.dds
+icon_distance 25
+name AT311
+action_label AT313
+description AT312
+description_distance 10
+prefab prefabs\objects\tools\bed_mattress_nocenter.X
+prefab prefabs\buildings\furniture\bed_double_wood_new_001_nocenter.x
+prefab prefabs\buildings\furniture\bed_double_metal_new_002_nocenter.x
+prefab prefabs\buildings\furniture\bed_double_leathe_new_003_nocenter.x
+prefab prefabs\buildings\furniture\bed_double_wood_new_002_nocenter.x
+prefab prefabs\buildings\furniture\lu_bed_double_nocenter.x
+
+
+// ikona domu, tylko na mapie
+action HOME_FARM_ON_MAP
+icon_map icon_home_farm_map.dds
+icon_map_social
+name AT360
+
+// ikona pierwszego schronienia
+action HOME_WOOD_CABIN
+icon icon_home_forest_map.dds
+icon_distance 50
+icon_map icon_home_forest_map.dds
+name AA51
+description AA52
+description_distance 30
+
+
+
+
+
+// spi¿arnia gracza, tylko pod PPM
+action PLAYER_STORAGE_CHEST
+icon icon_bankchest.dds
+icon_distance 30
+name AT930
+description AT931
+description_distance 10
+prefab prefabs\Objects\tools\chest_bank_nocenter.X
+
+
+
+// zsyp ziemniakow (z przyczepy do silosu)
+action HOME_POTATOES_CHUTE
+icon icon_potatoes_chute.dds
+icon_distance 50
+name AA483
+description AA484
+description_distance 20
+
+// wysyp ziemniakow (z silosu do przyczepy)
+action HOME_POTATOES_DISPOSAL
+icon icon_potatoes_disposal.dds
+icon_distance 50
+name AA487
+description AA488
+description_distance 32
+
+// zsyp burakow (z przyczepy do silosu)
+action HOME_BEETS_CHUTE
+icon icon_potatoes_chute.dds
+icon_distance 50
+name AA485
+description AA486
+description_distance 20
+
+// wysyp ziemniakow (z silosu do przyczepy)
+action HOME_BEETS_DISPOSAL
+icon icon_beets_disposal.dds
+icon_distance 50
+name AA489
+description AA490
+description_distance 32
+
+
+
+
+// zsyp ziarna (z przyczepy do silosu)
+action HOME_SILO_CHUTE
+icon icon_silo_chute.dds
+icon_distance 50
+name AT113
+description AT114
+description_distance 20
+
+// wysyp ziarna (z silosu do przyczepy)
+action HOME_SILO_DISPOSAL
+icon icon_silo_disposal.dds
+icon_distance 50
+name AT121
+description AT122
+description_distance 32
+
+// alternatywny zsyp ziarna (z przyczepy do magazynu)
+action HOME_GRAIN_STORAGE
+icon icon_silo_chute.dds
+icon_distance 50
+name AT115
+description AT116
+description_distance 20
+
+// alternatywny wysyp ziarna (z magazynu do przyczepy)
+action HOME_GRAIN_DISPOSAL
+icon icon_silo_disposal.dds
+icon_distance 50
+name AT129
+description AT130
+description_distance 22
+
+// sklad beli siana (tylko ikonka/opis PPM)
+action HOME_HAY_STORAGE
+icon icon_hay_storage.dds
+icon_distance 50
+name OBJ09
+description OBJ09n
+description_distance 20
+
+// sadzonki do szklarni
+action HOME_SEEDLING_STORAGE
+icon icon_seedling_storage.dds
+icon_distance 50
+name AT358
+description AT359
+description_distance 20
+prefab prefabs\buildings\shelters_stuff\muscle_rack_greenhouse_nocenter.x
+
+
+// magazyn nasion i nawozów (gdzies w stodole chyba)
+action HOME_AGRO_MAGAZINE
+icon icon_agro_magazine.dds
+icon_distance 50
+name AA94
+description AA95
+description_distance 20
+
+// garaz
+action HOME_GARAGE
+icon icon_garage.dds
+icon_distance 50
+name AT356
+description AT357
+description_distance 20
+
+// kurnik
+action HOME_HENHOUSE
+icon icon_henhouse.dds
+icon_distance 50
+name AA96
+description AA97
+description_distance 20
+
+// obora
+action HOME_BARN
+icon icon_barn.dds
+icon_distance 50
+name AT354
+description AT355
+description_distance 20
+
+action HOME_COWSHED
+icon icon_cowshed.dds
+icon_distance 50
+name AA90
+description AA91
+description_distance 20
+
+
+
+action COFFEE_SHOP
+name AT276
+description AT277
+icon_map icon_coffee.dds
+
+
+action FURNITURE_SALE
+icon icon_furniture_mag.dds
+icon_distance 80
+name AT602
+description AT603
+description_distance 60
+
+
+action FURNITURE_STORE
+icon icon_furniture_store.dds
+icon_map icon_furniture_store.dds
+icon_distance 250
+name AT605
+description AT606
+description_distance 120
+
+
+
+
+
+// pojedynczy handlarze (chyba do social?)
+action GENERAL_STORE
+icon icon_general_store_map.dds
+icon_distance 150
+icon_map icon_general_store_map.dds
+icon_map_social
+name AT363
+description AT364
+description_distance 40
+
+// pojedynczy handlarze (chyba do social?)
+action GENERAL_HOMEWARES
+icon icon_general_store_map.dds
+icon_distance 150
+icon_map icon_general_store_map.dds
+icon_map_social
+name AA254
+description AA255
+description_distance 40
+
+// sklep rolniczy
+action AGRO_STORE
+icon icon_agro_store.dds
+icon_distance 250
+icon_map icon_agro_store.dds
+name AT352
+description AT353
+description_distance 40
+
+action FOR_SALE_SIGN
+icon hud_map_job.dds
+icon_distance 20
+name AT402
+description AT403
+description_distance 15
+action_label AT404
+
+// stacja paliw w swiecie
+action GAS_STATION
+icon icon_gas_station.dds
+icon_distance 250
+icon_map icon_gas_station.dds
+name AT350
+description AT351
+description_distance 40
+
+// zbiornik paliwa na farmie
+action HOME_FUEL_TANK
+icon icon_fuel_tank.dds
+icon_distance 50
+name AT348
+description AT349
+description_distance 20
+
+// zbiornik gnojowki na farmie
+action HOME_SLURRY_TANK
+icon icon_slurry_tank.dds
+icon_distance 50
+name AT924
+description AT925
+description_distance 20
+
+// sklep budowlany
+action BUILDING_STORE
+icon icon_building_store.dds
+icon_distance 250
+icon_map icon_building_store.dds
+name AT344
+description AT345
+description_distance 40
+
+// rampa w sklepie budowlanym do wyladowania towarow (nie ma ikonki na mapie, tylko w 3d pod PPM)
+action BUILDING_MATERIAL_STORAGE
+icon icon_building_material_storage.dds
+icon_distance 50
+name AT346
+description AT347
+description_distance 20
+
+// skup ziarna. tylko w PPM!
+action GRAIN_MARKET
+icon icon_grain_market.dds
+icon_distance 250
+name AT340
+description AT341
+description_distance 40
+
+// skup bali. tylko w PPM!
+action BALE_MARKET
+icon icon_bale_market.dds
+icon_distance 250
+name AA387
+description AA388
+description_distance 40
+
+// zbiorczo GRAIN_MARKET i BALE MARKET na mape - oba w obrebie tego samego kompleksu
+action AGRO_SALE_MARKET
+icon_map icon_agro_sale_market.dds
+name AT342
+description AT343
+
+// skup bark/sawdust/woodchips. tylko w PPM!
+action WOOD_MARKET
+icon icon_silo_chute.dds
+icon_distance 250
+name AA437
+description AA438
+description_distance 40
+
+// zsyp do Ricardo&Ernesto wood chute.
+action RE_WOOD_MARKET
+icon icon_silo_chute.dds
+icon_map icon_silo_chute.dds
+icon_distance 250
+name AA442
+description AA443
+description_distance 40
+
+// skup buraków i ziemniaków. tylko w PPM!
+action POTATOES_MARKET
+icon icon_potatoes_chute.dds
+icon_distance 250
+name AA491
+description AA492
+description_distance 40
+
+// stary mlyn na mapie
+action OLD_MILL
+icon_map icon_old_mill.dds
+name AA102
+description AA103
+
+// zsyp do starego mlyna. tylko w PPM!
+action OLD_MILL_CHUTE
+icon icon_silo_chute.dds
+icon_distance 250
+name OBJ31
+description OBJ31n
+description_distance 40
+
+
+// gotowanie przez gracza
+action PLAYER_COOK
+name AT407
+icon_distance 10
+icon icon_cooking.dds
+description_distance 5
+description AT408
+
+
+
+
+action MARKER_FAMILY_TABLE
+icon ico_furniture_tables.dds
+name AA281
+description AA282
+icon_distance 20
+description_distance 10
+
+
+action MARKER_FAMILY_SOFA
+icon ico_furniture_beds.dds
+name AA287
+description AA288
+icon_distance 20
+description_distance 10
+
+action MARKER_KITCHEN_OVEN
+icon ico_furniture_oven.dds
+name AA292
+description AA293
+icon_distance 20
+description_distance 10
+
+action MARKER_KITCHEN_SINK
+icon ico_furniture_sink.dds
+name AA295
+description AA296
+icon_distance 20
+description_distance 10
+
+
+
+
+// radia
+action SPECIAL_RADIO_OLD
+action_label NT105
+name AA233
+icon_distance 10
+icon icon_radio.dds
+description_distance 5
+description AA234
+
+
+action SPECIAL_RADIO_NEW
+action_label NT105
+name AA235
+icon_distance 10
+icon icon_radio.dds
+description_distance 5
+description AA236
+
+
+
+action SPECIAL_BATHTUB
+icon icon_bathtub.dds
+//action_label NT105
+name AT850
+description AA256
+icon_distance 10
+description_distance 5
+
+action SPECIAL_SHOWER
+icon icon_bathtub.dds
+//action_label NT105
+name AT848
+description AA257
+icon_distance 10
+description_distance 5
+
+action SPECIAL_BBQ_OLD
+icon icon_bbq.dds
+action_label NT105
+name AA239
+description AA240
+icon_distance 10
+description_distance 5
+
+action SPECIAL_BBQ_NEW
+icon icon_bbq.dds
+action_label NT105
+name AA239
+description AA240
+icon_distance 10
+description_distance 5
+
+// kible
+action SPECIAL_TOILET_OLD
+action_label NT105
+name AT852
+icon_distance 10
+icon icon_toilet_bowl.dds
+description_distance 5
+description AA238
+
+
+action SPECIAL_TOILET_NEW
+action_label NT105
+name AT852
+icon_distance 10
+icon icon_toilet_bowl.dds
+description_distance 5
+description AA238
+
+
+
+// pralki
+action SPECIAL_WMACHINE_OLD
+action_label NT105
+name AT854
+icon_distance 10
+icon icon_washing_machine.dds
+description_distance 5
+description AA241
+
+
+action SPECIAL_WMACHINE_NEW
+action_label NT105
+name AT854
+icon_distance 10
+icon icon_washing_machine.dds
+description_distance 5
+description AA241
+
+
+action SPECIAL_SINK
+// tu opisuje tylko akcje na kraftowalne, nie na item kupowalny
+prefab prefabs\buildings\furniture\kitchen_cabinet_sink_old_nocenter.x
+prefab prefabs\buildings\furniture\kitchen_cabinet_sink_1_0_nocenter.x
+prefab prefabs\buildings\furniture\kitchen_cabinet_sink_1_1_nocenter.x
+icon icon_bathroom_sink.dds
+//action_label NT105
+name AA272
+description AA273
+icon_distance 10
+description_distance 5
+
+
+
+
+//
+// kraftowalne
+//
+
+action SPECIAL_SOFA
+prefab prefabs\buildings\furniture\sofa_metal_fabric_new_002_nocenter.x
+prefab prefabs\buildings\furniture\sofa_fabric_new_003_nocenter.x
+prefab prefabs\buildings\furniture\sofa_wood_new_001_nocenter.x
+prefab prefabs\buildings\furniture\sofa_metal_leathe_new_002_nocenter.x
+prefab prefabs\buildings\furniture\sofa_leathe_new_003_nocenter.x
+prefab prefabs\buildings\furniture\sofa_wood_new_002_nocenter.x
+icon ico_furniture_beds.dds
+action_label NT105
+name AA290
+description AA291
+icon_distance 10
+description_distance 5
+
+
+action SPECIAL_FAMILY_TABLE
+prefab prefabs\buildings\furniture\family_table_nocenter.x
+icon ico_furniture_tables.dds
+action_label NT105
+name AA285
+description AA286
+icon_distance 10
+description_distance 5
+
+
+
+
+action SPECIAL_MIRROR
+prefab prefabs\buildings\furniture\decorations\mirror_old_nocenter.x
+prefab prefabs\buildings\furniture\decorations\mirror_modern_nocenter.x
+prefab prefabs\buildings\furniture\lu_vanity_table_nocenter.x
+icon icon_mirror_bw.dds
+action_label NT105
+name AA204
+description AA245
+icon_distance 10
+description_distance 5
+
+// NT105 to jest USE:
+action SPECIAL_WARDROBE
+prefab prefabs\buildings\furniture\wardobe_001_nocenter.x
+prefab prefabs\buildings\furniture\wardobe_new_002_nocenter.x
+prefab prefabs\buildings\furniture\wardobe_new_001_nocenter.x
+prefab prefabs\buildings\furniture\lu_wardobe_nocenter.x
+icon icon_wardrobe.dds
+action_label NT105
+name AT590
+description AA253
+icon_distance 10
+description_distance 5
+
+action SPECIAL_SUNBED
+prefab prefabs\buildings\furniture\deck_chair_nocenter.x
+prefab prefabs\buildings\furniture\deck_chair_new_nocenter.x
+icon icon_sunbed.dds
+action_label NT105
+name AA248
+description AA249
+icon_distance 10
+description_distance 5
+
+// NT105 to jest USE:
+action SPECIAL_FRIDGE
+prefab prefabs\buildings\furniture\kitchen_cabinet_fridge_old_nocenter.x
+prefab prefabs\buildings\furniture\kitchen_fridge_1_0_nocenter.x
+icon icon_fridge.dds
+action_label NT105
+name AA246
+description AA247
+icon_distance 10
+description_distance 5
+
+action SPECIAL_KITCHEN_STOVE
+prefab prefabs\buildings\furniture\kitchen_cabinet_stove_old_nocenter.x
+prefab prefabs\buildings\furniture\kitchen_cabinet_stove_1_0_nocenter.x
+prefab prefabs\buildings\furniture\kitchen_cabinet_stove_1_1_nocenter.x
+prefab prefabs\buildings\furniture\kitchen_cabinet_stove_2_0_nocenter.x
+prefab prefabs\buildings\furniture\kitchen_cabinet_stove_2_1_nocenter.x
+icon icon_cooking.dds
+action_label NT105
+name AA180
+description AA280
+icon_distance 10
+description_distance 5
+
+
+
+
+
+
+
+
+
+
+
+
+
+// dla zwierzakow na ³¹ce
+action ANIMAL_MEADOW
+icon icon_debug_farmers_garden.dds
+icon_distance 0
+
+
+
+// sklep z maszynami
+action VEHICLE_STORE
+icon icon_vehicle_store.dds
+icon_distance 250
+icon_map icon_vehicle_store.dds
+name AT365
+description AA93
+description_distance 40
+
+// sklep z maszynami
+action DLC_VEHICLE_STORE
+icon icon_vehicle_store.dds
+icon_distance 250
+icon_map icon_vehicle_store.dds
+name AA384
+description AA379
+description_distance 40
+
+
+// sklep z maszynami
+action DLC_LUMBERMILL
+icon icon_lumbermill.dds
+icon_distance 250
+icon_map icon_lumbermill.dds
+name AT296
+description AA382
+description_distance 40
+
+
+
+
+
+// kosciol (tylko na mapie) - social
+action CHURCH
+icon_map icon_church_map.dds
+icon_map_social
+name OBJ22
+description OBJ22n
+
+// rynek miejski (tylko na mapie) - social
+action TOWN_SQUARE
+icon_map icon_town_square_map.dds
+icon_map_social
+name OBJ23
+description OBJ23n
+
+// miejsce spotkan (tylko na mapie) - social. Plaza, plac zabaw etc.
+action PLACE_TO_RELAX
+icon_map icon_relax_map.dds
+icon_map_social
+name OBJ24
+description OBJ24n
+
+// stacja kolejowa? (tylko na mapie) - social. Plaza, plac zabaw etc.
+action TRAIN_STATION
+icon_map icon_train_station_map.dds
+icon_map_social
+name OBJ25
+description OBJ25n
+
+// okresla miejsce gdzie npc maja podworka (zamiataja). zero ikonek, zero opisu - to wewnetrzne dla gry. rozmiar markera sie liczy
+action FARMERS_YARD
+icon icon_debug_farmers_yard.dds
+icon_distance 0
+
+// okresla miejsce gdzie npc piela grzadki, wyrywaja chwasty lub kopia. zero ikonek, zero opisu - to wewnetrzne dla gry. rozmiar markera sie liczy
+action FARMERS_GARDEN
+icon icon_debug_farmers_garden.dds
+icon_distance 0
+
+// okresla miejsce gdzie npc karmia kury (wybieg). zero ikonek, zero opisu - to wewnetrzne dla gry. rozmiar markera sie liczy
+action FARMERS_HENHOUSE
+icon icon_henhouse.dds
+icon_distance 0
+
+// okresla miejsce gdzie npc lowia ryby. zero ikonek, zero opisu - to wewnetrzne dla gry. rozmiar markera sie liczy
+action FARMERS_FISHING
+icon icon_debug_farmers_fishing.dds
+icon_distance 0
+
+// tu npc piluje - konkretny obiekt musi byc
+action FARMERS_SAWING
+prefab prefabs\objects\tools\tool_wood_log_holder.x
+socket_NPC work
+socket_camera camera
+
+// to sa drzwi do ktorych postacie wchodza na noc i wychodza z nich rano
+action FARMERS_HOME_DOOR
+icon icon_debug_farmers_home_door.dds
+icon_distance 0
+
+// tu sie chowaja przed deszczem (zadaszenia)
+action FARMERS_RAIN_SHELTER
+icon icon_debug_farmers_rain_shelter.dds
+icon_distance 0
+
+// wewnetrzny id, do kupowania pol - bez ikonek whatsoever.
+action NEIGHBOURS_FIELD
+name MS93
+
+// dla zony - do kladzenia sie przez nia, a nie przez gracza
+action WIFE_BED
+icon icon_player_bed.dds
+icon_distance 0
+socket_NPC bed
+
+// dla dzieci - do kladzenia sie przez nie, a nie przez gracza
+action KID1_BED
+icon icon_player_bed.dds
+icon_distance 0
+socket_NPC bed
+
+// dla dzieci - do kladzenia sie przez nie, a nie przez gracza
+action KID2_BED
+icon icon_player_bed.dds
+icon_distance 0
+socket_NPC bed
+
+// dla kur, zeby sie chowaly na noc
+action PLAYER_HENHOUSE_INSIDE
+icon icon_player_bed.dds
+icon_distance 0
+
+// kotka do questu
+action SPECIAL_QUEST_DAMSEL
+name OC56
+description OC57
+action_label GP25
+icon hud_map_exclamation.dds
+icon_distance 21
+description_distance 21
+
+
+// krowa do wydojenia
+action SPECIAL_MILK_COW
+name 
+action_label GP35
+icon icon_player_bed.dds
+icon_distance 0
+
+// owca do ostrzyzenia
+action SPECIAL_SHAVE_SHEEP
+name 
+action_label GP35
+icon icon_player_bed.dds
+icon_distance 0
+
+// stary pieñ do rozwalenia
+action SPECIAL_OLD_TRUNK
+prefab prefabs\objects\old_tree_limb01_nocenter.X
+prefab prefabs\objects\old_tree_limb02_nocenter.X
+name TR04
+description AA507
+icon hud_cut_firewood.dds
+icon_distance 15
+description_distance 10
+
+
+// akcja do oznaczenia kosiarki do podniesienia
+action SPECIAL_PICKUP_MOTORSENSE
+name TABM13
+icon hud_tab_mower.dds
+icon_distance 25
+description_distance 10
+
+// akcja do oznaczenia wedki do podniesienia
+action SPECIAL_PICKUP_FISHINGROD
+name AT320
+prefab prefabs\pickable\pickup_fishing_rod_nocenter.x
+icon hud_tab_fishing.dds
+icon_distance 20
+description_distance 10
+
+// akcja do oznaczenia kosiarki do podniesienia
+action OLD_REPAIR_MATERIAL
+name AA313
+icon icon_hud_pallet_rubble.dds
+icon_distance 15
+description_distance 5
+description AA314
+
+action SPECIAL_PICKUP_SCAFFOLD
+name AT40
+prefab prefabs\pickable\tool_scaffold_nocenter.x
+icon hud_tab_scaffold.dds
+icon_distance 25
+description_distance 10
+description AT42
+
+action SPECIAL_PICKUP_CHAINSAW
+name AT73
+icon icon_chainsaw.dds
+icon_distance 25
+description_distance 10
+description AT74
+
+
+
+action SPECIAL_PICKUP_AXE
+name AT873
+prefab prefabs\pickable\axe_nocenter.x
+icon icon_chainsaw.dds
+icon_distance 25
+description_distance 10
+description AT874
+
+
+
+// akcja do oznaczenia szczotki
+action SPECIAL_PICKUP_WIRE_BRUSH
+prefab prefabs\pickable\wire_brush_nocenter.x
+name IT48
+action_label GP25
+icon hud_tab_wirebrush.dds
+icon_distance 25
+description_distance 10
+description IT48n
+
+// akcja do oznaczenia kola
+action SPECIAL_PICKUP_SPARE_WHEEL
+prefab prefabs\pickable\spare_wheel_front_right_nocenter.x
+name IT47
+action_label GP25
+icon hud_tab_wheel.dds
+icon_distance 25
+description_distance 10
+description IT47n
+
+// akcja do oznaczenia kanistra
+action SPECIAL_PICKUP_CANISTER
+prefab prefabs\pickable\canister_nocenter.x
+name IT49
+action_label GP25
+icon hud_tab_fuel.dds
+icon_distance 25
+description_distance 10
+description IT49n
+
+// akcja do naprawy kola
+action SPECIAL_REPAIR_WHEEL
+name IT50
+icon hud_tab_wheelrepair.dds
+icon_distance 25
+description_distance 10
+description IT50n
+
+// akcja do wlewu paliwa
+action SPECIAL_FUEL_FILL
+name IT51
+icon hud_tab_fuelfill.dds
+icon_distance 25
+description_distance 10
+description IT51n
+
+action SPECIAL_LOST_SHEEP
+name AT368
+icon icon_lost_sheep.dds
+icon_distance 35
+description_distance 20
+description AT369
+action_label GP25
+
+// elektryczna ostrzalka
+action SPECIAL_ELECTRIC_GRINDER
+prefab prefabs\Buildings\Garages_stuff\grinder_nocenter.X
+name AT475
+icon icon_grinder.dds
+icon_distance 25
+description_distance 10
+description AT476
+
+
+// crafting table
+action SPECIAL_CRAFTING_TABLE
+prefab prefabs\buildings\shelters_stuff\workbench_002_nocenter.x
+prefab prefabs\buildings\shelters_stuff\workbench_001_nocenter.x
+name AA108
+icon_distance 25
+icon hud_tab_crafttable.dds
+description_distance 10
+description AA109
+
+
+action SPECIAL_TREE_PLANTER
+prefab prefabs\vehicles\tree_planter\tree_planter_nocenter.X
+name AT523
+icon icon_lost_sheep.dds
+icon_distance 0
+description_distance 00
+description AT523
+action_label AT527
+
+
+
+action SPECIAL_BUYABLE_FARM
+name AT465
+icon icon_farm_buy.dds
+icon_distance 140
+description_distance 40
+description AT466
+icon_map icon_farm_buy.dds
+
+
+// okresla miejsce gdzie jest nasze podworko (dla ¿ony i dzieci). zero ikonek, zero opisu - to wewnetrzne dla gry. rozmiar markera sie liczy
+action PLAYERS_YARD
+icon icon_debug_farmers_yard.dds
+icon_distance 0
+
+// okresla miejsce gdzie npc piela grzadki, wyrywaja chwasty lub kopia. zero ikonek, zero opisu - to wewnetrzne dla gry. rozmiar markera sie liczy
+action PLAYERS_GARDEN
+icon icon_debug_farmers_garden.dds
+icon_distance 0
+
+// okresla miejsce gdzie npc karmia kury (wybieg). zero ikonek, zero opisu - to wewnetrzne dla gry. rozmiar markera sie liczy
+action PLAYERS_HENHOUSE
+icon icon_henhouse.dds
+icon_distance 0
+
+// wewnetrzny id, do odpalenia slubu
+action WEDDING_CEREMONY
+name GP16
+
+// okresla miejsce gdzie rosna grzyby (marker). zero ikonek, zero opisu - to wewnetrzne dla gry. rozmiar markera sie liczy
+action WILD_MUSHROOMS
+icon icon_debug_farmers_mushroom.dds
+icon_distance 0
+
+action FIREPLACE
+icon icon_campfire.dds
+icon_distance 50
+name AT75
+action_label AT75a
+description AT76
+description_distance 20
+
+action DROP_WOOD
+icon icon_wood_chute.dds
+icon_distance 250
+icon_map icon_wood_chute.dds
+name AT111
+description AT112
+description_distance 80
+
+
+action MILL_DROP_BARK
+//if_set MillBarkRemoval
+icon icon_silo_disposal.dds
+icon_distance 50
+name AA428
+description AA429
+description_distance 30
+
+action MILL_DROP_WOODCHIPS
+//if_set MillSaw
+icon icon_silo_disposal.dds
+icon_distance 50
+name AA431
+description AA432
+description_distance 30
+
+action MILL_DROP_SAWDUST
+//if_set MillSaw
+icon icon_silo_disposal.dds
+icon_distance 50
+name AA434
+description AA435
+description_distance 30
+
+action MILL_DROP_LOGS
+//if_set MillBarkRemoval
+icon icon_silo_debarked.dds
+icon_distance 50
+name AT117
+description AT118
+description_distance 30
+
+action MILL_DROP_WOOD_BOARDS
+//if_set MillSaw
+icon icon_silo_pallet.dds
+icon_distance 50
+name AT119
+description AT120
+description_distance 30
+
+action MILL_DROP_CHIPBOARDS
+//if_set MillOSB
+icon icon_silo_pallet.dds
+icon_distance 50
+name AT121
+description AT122
+description_distance 30
+
+
+action MILL_WOOD_DRYER
+//if_set MillDryer
+prefab prefabs\buildings\sawmill\dryer_shelf_nocenter.x
+icon icon_silo_dryer.dds
+icon_distance 50
+name AT125
+description AT126
+description_distance 30
+
+action MILL_WOOD_DRYER_PASSIVE
+//if_set MillDryer
+prefab prefabs\buildings\sawmill\dryer_shelf_2_nocenter.x
+icon icon_silo_dryer.dds
+icon_distance 30
+name AA457
+description AA458
+description_distance 30
+
+
+action MILL_SAW_SWITCH
+//if_set MillSaw
+action_label AA463
+icon icon_saw_switch.dds
+icon_distance 30
+name AT144
+description AT145
+description_distance 20
+
+action MILL_BUILDING1
+icon icon_lumbermill1.dds
+icon_distance 80
+//icon_map icon_lumbermill1.dds
+name AT288
+description AT289
+description_distance 50
+
+action MILL_BUILDING2
+icon icon_lumbermill2.dds
+icon_distance 80
+//icon_map icon_lumbermill2.dds
+name AT290
+description AT291
+description_distance 50
+
+action MILL_BUILDING3
+icon icon_lumbermill3.dds
+icon_distance 80
+//icon_map icon_lumbermill3.dds
+name AT292
+description AT293
+description_distance 50
+
+action MILL_BUILDING4
+icon icon_lumbermill4.dds
+icon_distance 80
+//icon_map icon_lumbermill4.dds
+name AT294
+description AT295
+description_distance 50
+
+action MILL_ALL_MAP
+//icon icon_lumbermill1.dds
+icon_distance 0
+icon_map icon_lumbermill.dds
+name AT296
+description AT297
+description_distance 0
+
+action SPECIAL_REBUILD_PALLET
+icon icon_silo_pallet.dds
+name AT152
+description AT932
+icon_distance 20
+description_distance 8
+
+action SPECIAL_CHIPBOARD_PALETTE
+icon icon_silo_pallet.dds
+name AT155
+description AT156
+icon_distance 10
+description_distance 8
+
+action SPECIAL_FURNITURE_PALETTE
+icon icon_silo_pallet.dds
+name AT600
+description AT601
+icon_distance 10
+description_distance 8
+
+
+action TREASURE_CHEST
+prefab prefabs\objects\chest_nocenter.x
+icon icon_question_circle.dds
+name AA206
+description AA207
+icon_distance 8
+description_distance 8
+
+
+
+action BUS_STOP
+name AT81
+description AT84
+prefab prefabs\Buildings\world\bus_stop_nocenter.x
+icon_map icon_bus_station.dds
+
+// okresla konkretnego grzyba do podniesienia
+action WILD_MUSHROOM
+icon_distance 0
+description_distance 0
+action_label GP25
+name AT57
+
+
+// okresla konkretny krzaczek poziomek do podniesienia
+action WILD_STRAWBERRY
+icon_distance 0
+description_distance 0
+action_label GP25
+name AT123
+
+// okresla konkretne ziolo do podniesienia
+action WILD_HERB
+icon_distance 0
+description_distance 0
+action_label GP25
+name AT438
+
+
+action SPECIAL_PICKUP_FURNITURE
+icon_distance 0
+description_distance 0
+action_label GP25
+name AT596
+
+action SPECIAL_REMOVE_FURNITURE
+icon_distance 0
+description_distance 0
+action_label AT404
+name AT596
+
+
+action SPECIAL_HANG_TIMEPICTURE
+icon hud_tab_timepicture.dds
+icon_distance 40
+description_distance 10
+name AA60
+description AA61
+

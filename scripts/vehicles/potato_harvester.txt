@@ -1,0 +1,166 @@
+Vehicle >potato_harvester
+prefab prefabs\vehicles\potato_harvester\potato_harvester_nocenter.x
+Mass 1600.0
+Stiffness 10
+
+spawn_id 70
+
+tag >MT47
+
+
+renew_and_paint
+color 0.53 0.71 0.82
+
+
+
+price 78000
+przyczepa
+potatoes_harvester
+potatoes_only
+grain_capacity 4500
+
+// stosowac gdy kolka sie kreca i dziala zlozona zamiast rozlozonej
+reverse_fold_panel_info
+reverse_fold
+
+
+
+// COLLISION MESH
+
+// pScaleY
+mnoznik_fizyki_y 1.3
+// pScaleZ
+mnoznik_fizyki_z 0.72
+// pScaleX
+mnoznik_fizyki_x 0.8
+
+// pTransY
+przesuniecie_fizyki_gora 1.7
+// pTransZ
+przesuniecie_fizyki_przod -0.3
+// pTransX
+przesuniecie_fizyki_prawo 0.15
+
+
+
+// HOOKS
+hak zaczep
+pto pto
+
+
+
+
+// ANIMATIONS
+// animacja tekstury w osi v podczas koszenia (cmd0)
+// move_on_operate <nr_attachmentu_lub_0> <nr_subsetu_liczac_od_0> <Mnoznik_Predkosci_default_1.0>
+move_on_operate 0 1 -90
+move_on_operate 5 0 -3
+move_on_operate 6 0 3
+move_on_operate 7 0 -3
+move_on_operate 8 0 -3
+move_on_operate 9 0 4
+
+// animacja tekstury w osi v podczas wysypywania (cmd0)
+// move_on_unload <nr_attachmentu_lub_0> <nr_subsetu_liczac_od_0> <Mnoznik_Predkosci_default_1.0>
+
+move_on_unload 10 0 -3
+move_on_unload 0 3 -90
+move_on_unload 1 2 -90
+
+
+
+// lift/transporter (1)
+rotate_cmd4 -0.65 0.7 Z
+attachment prefabs\vehicles\potato_harvester\transporter_nocenter.x transporter
+
+// digger (2)
+rotate_cmd3 0.25 X 0.25
+attachment prefabs\vehicles\potato_harvester\digger_nocenter.x digger
+
+// reel1 (3)
+rotate_cmd3 6
+attachment prefabs\vehicles\potato_harvester\reel1_nocenter.x reel1
+
+// reel2 (4)
+rotate_cmd3 6
+attachment prefabs\vehicles\potato_harvester\reel2_nocenter.x reel2
+
+
+
+
+// CONVEYORS
+// potato1 with soil (5)
+hide_if_empty
+attachment prefabs\vehicles\potato_harvester\potato1_nocenter.x potato1 2
+
+// potato2 with soil (6)
+hide_if_empty
+attachment prefabs\vehicles\potato_harvester\potato2_nocenter.x potato2
+
+// potato3 (7)
+hide_if_empty
+attachment prefabs\vehicles\potato_harvester\potato3_nocenter.x potato3
+
+// potato4 (8)
+hide_if_empty
+attachment prefabs\vehicles\potato_harvester\potato4_nocenter.x potato4
+
+
+
+// potato bin (9)
+mnoznik_skali_ladunku 2.8
+// mnoznik_skali_ladunku_x 1.3
+attachment_zboze prefabs\vehicles\potato_harvester\potatoes_nocenter.x potatoes
+
+
+
+// potato5 (10)
+hide_if_empty
+attachment prefabs\vehicles\potato_harvester\potato5_nocenter.x potato5 1
+
+
+
+// PISTONS
+piston prefabs\vehicles\potato_harvester\p1_nocenter.x 0 p1 1 p1a
+piston prefabs\vehicles\potato_harvester\p1a_nocenter.x 1 p1a 0 p1
+
+piston prefabs\vehicles\potato_harvester\p1_nocenter.x 0 p2 1 p2a
+piston prefabs\vehicles\potato_harvester\p1a_nocenter.x 1 p2a 0 p2
+
+
+
+// WHEELS
+// prefab_kola socket_kola promien_kola podniesienie_osi_kola
+
+wheel_invisible prefabs\vehicles\potato_harvester\wheel_nocenter.x wheel_front
+wheel prefabs\vehicles\potato_harvester\wheel_nocenter.x wheel_left
+wheel prefabs\vehicles\potato_harvester\wheel_nocenter.x wheel_right
+
+
+
+// FX
+working_fx afx_kultywacja fx0
+working_fx afx_kultywacja fx1
+
+
+
+// LIGHTS
+
+attachment_light prefabs\vehicles\potato_harvester\lamp1_nocenter.x light1
+attachment_name swiatlo_lt1
+swiatlo_tyl lt1
+swiatlo_z swiatlo_lt1
+
+attachment_light prefabs\vehicles\potato_harvester\lamp2_nocenter.x light2
+attachment_name swiatlo_lt2
+swiatlo_cofania lt2
+swiatlo_z swiatlo_lt2
+
+attachment_light prefabs\vehicles\potato_harvester\lamp3_nocenter.x light3
+attachment_name swiatlo_lc1
+swiatlo_cofania lc1
+swiatlo_z swiatlo_lc1
+
+
+// SOUNDS
+working_sound sfx\vehicles\haybaler2.wav

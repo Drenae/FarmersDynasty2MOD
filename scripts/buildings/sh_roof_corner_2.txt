@@ -1,0 +1,50 @@
+// definiuje kolejne prefaby (stopnie przebudowy), w grze moze byc wlozony dowolny, ale musza byc unikalne dla danego setu
+// part <id_warstwy> <id_materialu> <klucz_text_keys_z_opisem> <sciezka\prefab>
+// -1 jako indeks materialu oznacza ten sam material, ale nie budowe tylko naprawe, czyli przejscie z polamanych na naprostowane deski BEZ kupowania desek.
+
+
+// eternit
+
+part 0 26 MAT26 prefabs\Buildings\shelters\sh_bitumen_new_corner_roof6_1_2_nocenter.X
+
+// bitumen
+part 1 13 MAT13 prefabs\Buildings\shelters\sh_bitumen_new_corner_roof5_1_2_nocenter.X
+
+// red shingle
+part 2 14 MAT14 prefabs\buildings\shelters\sh_shingle_new_roof_1b_nocenter.x
+
+// green metal
+part 3 15 MAT15 prefabs\buildings\shelters\sh_metal_new_roof_2b_nocenter.x
+
+// red ceramic
+part 4 16 MAT16 prefabs\buildings\shelters\sh_ceramic_new_roof_3b_nocenter.x
+
+// tin roof
+part 5 17 MAT17 prefabs\buildings\shelters\sh_tin_new_roof_4b_nocenter.x
+
+
+part 6 14 MAT14 prefabs\Buildings\shelters\sh_bitumen_new_corner_roof4_1_2_nocenter.X
+
+part 7 15 MAT15 prefabs\Buildings\shelters\sh_bitumen_new_corner_roof_1_2_nocenter.X
+
+part 8 16 MAT16 prefabs\Buildings\shelters\sh_bitumen_new_corner_roof3_1_2_nocenter.X
+
+part 9 17 MAT17 prefabs\Buildings\shelters\sh_bitumen_new_corner_roof2_1_2_nocenter.X
+
+
+
+// i teraz dla danego elementu definiujemy w ktory moze przejsc
+// pierwszy parametr to ktorego tyczy sie definicja, nastepne - w ktore moze byc zmieniony
+
+path 0   1 2 3 4 5
+path 1   2 3 4 5
+path 2   1 3 4 5
+path 3   1 2 4 5
+path 4   1 2 3 5
+path 5   1 2 3 4
+
+path 6   1 2 3 4 5
+path 7   1 2 3 4 5
+path 8   1 2 3 4 5
+path 9   1 2 3 4 5
+

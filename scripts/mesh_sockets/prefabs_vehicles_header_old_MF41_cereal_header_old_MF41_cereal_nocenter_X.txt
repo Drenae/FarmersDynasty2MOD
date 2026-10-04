@@ -1,0 +1,15 @@
+mesh_filename prefabs\vehicles\header_old_MF41_cereal\header_old_MF41_cereal_nocenter.X
+socket helix 0.000000 -0.770000 0.480000
+socket knives 0.000000 0.480000 0.030000
+socket s0 2.700000 0.847000 -0.745000
+socket s1 -2.700000 0.847000 -0.745000
+socket reel -0.040000 0.317000 0.945000
+socket header 0.000000 -2.210000 0.030000
+socket reel1 -2.670000 -1.130000 0.360000
+socket reel2 -2.670000 -0.890000 0.300000
+socket reel3 -2.670000 -0.210000 0.150000
+socket reel4 -2.610000 -0.810000 0.900000
+socket reel5 -2.610000 -0.527000 0.270000
+socket reel6 -2.600000 -0.810000 0.540000
+socket reel7 -2.665000 -0.510000 1.080000
+socket reel8 -2.660000 -0.300000 1.280000

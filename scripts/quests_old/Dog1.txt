@@ -1,0 +1,58 @@
+
+// nazwa questa, unikalna i wymagana
+name dog1
+icon hud_map_social.dds
+given_by_icon actor_unknown_woman.dds
+
+title OC61
+initial_waypoint Joyka
+initial_objective OC62
+given_by dog1
+
+auto_activate_distance 120
+
+social_award 1
+
+wait 0.1 -waypoint * -checkpoint 10
+
+//idziemy do pieska
+allow_feed_dog
+goto Joyka -distance 10 -waypoint Joyka -checkpoint 20
+wait 0.1
+wait_feed_dog -objective OC63 -checkpoint 30
+wait 1
+set_dog_phase 1
+forbid_feed_dog -waypoint *
+
+wait_days 1 -objective OC64 -checkpoint 40
+allow_feed_dog
+goto Joyka -distance 10 -objective OC65 -waypoint Joyka -checkpoint 50
+wait 0.1
+wait_feed_dog -objective OC66 -checkpoint 60
+wait 1
+set_dog_phase 2
+forbid_feed_dog  -waypoint *
+
+wait_days 1 -objective OC67 -checkpoint 70
+allow_feed_dog
+goto Joyka -distance 10 -objective OC70 -waypoint Joyka -checkpoint 80
+wait 0.1
+wait_feed_dog -objective OC66 -checkpoint 90
+wait 1
+set_dog_phase 3
+forbid_feed_dog -waypoint *
+
+wait_days 1 -objective OC69 -checkpoint 100
+allow_feed_dog
+goto Joyka -distance 10 -objective OC71 -waypoint Joyka -checkpoint 110
+wait 0.1
+wait_feed_dog -objective OC66 -checkpoint 120
+wait 1
+set_dog_phase 4 -waypoint *
+
+wait 5
+wait 5 -objective OC68 -checkpoint 130
+set_achievment FD2_ACH_16
+wait 1
+
+print dog1_quest_end

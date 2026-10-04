@@ -1,0 +1,65 @@
+// skrypt opisuje wlasciwosci animacji dla skinmeshy.
+// w przypadku gdy kilka skinmeshy dzieli jedna animacje, nalezy podac skinmesha ktory ma animacje zrodlowe
+
+// uzycie:
+// model <sciezka\model_zrodlowy.x>
+// animation <nazwa_animacji> <mnoznik_predkosci>
+// mnoznik predkosci domyslny jest 1, zeby przyspieszyc trzeba podac liczby wieksze od 1, zeby spowolnic - mniejsze. minimalny mnoznik to 0.001, maksymalny to 100.
+
+
+model prefabs\models\animations\hero.x
+animation drive_left_van 3
+animation drive_right_van 3
+
+
+
+model prefabs\models\animal_dog\dog.x
+animation dog_idle1 6
+animation dog_idle2 6
+animation dog_idle3 6
+animation dog_eat 4
+animation dog_walk 4
+animation dog_walk_back 3
+animation dog_run_fast 3
+animation dog_turn_right 3
+animation dog_turn_left 3
+animation dog_attack1 3
+animation dog_attack2 3
+animation dog_butting_heads 3
+animation dog_roar 3
+animation dog_injured 3
+animation dog_surprised 3
+animation dog_sleep 3
+animation dog_walk_rootm 3
+animation dog_walk_back_rootm 3
+animation dog_run_fast_rootm 3
+animation dog_turn_right_rootm 3
+animation dog_turn_left_rootm 3
+animation dog_sniffing_rootm 3
+animation dog_sniffing_idle 3
+
+model prefabs\models\animals\deer02\deer02.X
+animation deer02_idle3.X 0.5
+animation deer02_idle2.X 0.5
+animation deer02_idle1.X 0.5
+animation deer02_lezy.X 0.5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

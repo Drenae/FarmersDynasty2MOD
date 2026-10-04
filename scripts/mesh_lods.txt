@@ -1,0 +1,1710 @@
+prefab prefabs\trees\tree_birchOld01_nocenter.X
+LOD1 prefabs\trees\LOD\tree_birchOld01_LOD1_nocenter.X 30
+LOD2 * 100
+prefab prefabs\trees\tree_pineOld01_nocenter.X
+LOD1 prefabs\trees\LOD\tree_pineOld01_LOD1_nocenter.X 40
+LOD2 * 100
+prefab prefabs\trees\tree_spruceOld01_nocenter.X
+LOD1 prefabs\trees\LOD\tree_spruceOld01_LOD1_nocenter.X 40
+LOD2 * 100
+prefab prefabs\Objects\oak_stump01_nocenter.X
+LOD1 prefabs\Objects\LOD\oak_stump01_LOD1_nocenter.X 40
+LOD2 * 100
+prefab prefabs\objects\stones\stone_big_001.X
+LOD1 prefabs\objects\stones\LOD1_stone_big_001.X 50
+LOD2 * 0
+prefab prefabs\objects\stones\stone_big_002.X
+LOD1 prefabs\objects\stones\LOD1_stone_big_002.X 50
+LOD2 * 0
+prefab prefabs\objects\stones\stone_big_003.X
+LOD1 prefabs\objects\stones\LOD1_stone_big_003.X 50
+LOD2 * 0
+prefab prefabs\objects\stones\stone_small_001.X
+LOD1 prefabs\objects\stones\LOD1_stone_small_001.X 30
+LOD2 * 0
+prefab prefabs\objects\stones\stone_small_002.X
+LOD1 prefabs\objects\stones\LOD1_stone_small_002.X 30
+LOD2 * 0
+prefab prefabs\objects\stones\stone_small_003.X
+LOD1 prefabs\objects\stones\LOD1_stone_small_003.X 30
+LOD2 * 0
+prefab prefabs\objects\stones\stone_very_big_001.X
+LOD1 prefabs\objects\stones\LOD1_stone_very_big_001.X 90
+LOD2 * 0
+prefab prefabs\objects\stones\stone_very_big_002.X
+LOD1 prefabs\objects\stones\LOD1_stone_very_big_002.X 90
+LOD2 * 0
+prefab prefabs\objects\stones\stone_very_big_003.X
+LOD1 prefabs\objects\stones\LOD1_stone_very_big_003.X 90
+LOD2 * 0
+prefab prefabs\trees\apple01_nocenter.X
+LOD1 prefabs\trees\LOD\apple01_lod1_nocenter.X 30
+LOD2 * 0
+prefab prefabs\trees\apple02_nocenter.X
+LOD1 prefabs\trees\LOD\apple02_lod1_nocenter.X 30
+LOD2 * 100
+prefab prefabs\trees\tree_pine01_nocenter.X
+LOD1 prefabs\trees\LOD\tree_pine01_LOD1_nocenter.X 80
+LOD2 * 100
+prefab prefabs\trees\tree_pine03_nocenter.X
+LOD1 prefabs\trees\LOD\tree_pine03_LOD1_nocenter.X 50
+LOD2 * 100
+prefab prefabs\trees\tree_pine02_nocenter.X
+LOD1 prefabs\trees\LOD\tree_pine02_LOD1_nocenter.X 50
+LOD2 * 100
+prefab prefabs\Objects\stones\rock_001.X
+LOD1 prefabs\Objects\stones\lod\rock_001_LOD1.X 60
+LOD2 prefabs\Objects\stones\lod\rock_001_LOD2.X 120
+prefab prefabs\objects\stones\rock_002.x
+LOD1 prefabs\Objects\stones\lod\rock_002_LOD1.X 45
+LOD2 prefabs\Objects\stones\lod\rock_002_LOD2.X 100
+prefab prefabs\Objects\stones\rock_003.X
+LOD1 prefabs\Objects\stones\lod\rock_003_LOD1.X 40
+LOD2 prefabs\Objects\stones\lod\rock_003_LOD2.X 80
+prefab prefabs\Objects\stones\rock_004.X
+LOD1 prefabs\Objects\stones\lod\rock_004_lod1.X 55
+LOD2 prefabs\Objects\stones\lod\rock_004_lod2.X 110
+prefab prefabs\Objects\stones\stone_001.X
+LOD1 prefabs\Objects\stones\lod\stone_001_LOD1.X 40
+LOD2 prefabs\Objects\stones\lod\stone_001_LOD2.X 80
+prefab prefabs\Objects\stones\stone_002.X
+LOD1 prefabs\Objects\stones\lod\stone_002_LOD1.X 40
+LOD2 prefabs\Objects\stones\lod\stone_002_LOD2.X 80
+prefab prefabs\Objects\stones\stone_003.X
+LOD1 prefabs\Objects\stones\lod\stone_003_LOD1.X 40
+LOD2 prefabs\Objects\stones\lod\stone_003_LOD2.X 80
+prefab prefabs\objects\stones\stone_004.x
+LOD1 prefabs\Objects\stones\lod\stone_004_LOD1.X 20
+LOD2 prefabs\Objects\stones\lod\stone_004_LOD2.X 50
+prefab prefabs\objects\fireplace_nocenter.x
+LOD1 prefabs\Objects\lod\fireplace_LOD1_nocenter.X 18
+LOD2 prefabs\Objects\lod\fireplace_LOD2_nocenter.X 30
+prefab prefabs\trees\tree_oak01_nocenter.X
+LOD1 prefabs\trees\LOD\tree_oak01_lod1_nocenter.X 40
+LOD2 * 100
+prefab prefabs\trees\tree_oak02_nocenter.X
+LOD1 prefabs\trees\LOD\tree_oak02_LOD1_nocenter.X 50
+LOD2 * 100
+prefab prefabs\trees\tree_oak03_nocenter.X
+LOD1 prefabs\trees\LOD\tree_oak03_LOD1_nocenter.X 40
+LOD2 * 100
+prefab prefabs\trees\tree_spruce01_nocenter.X
+LOD1 prefabs\trees\LOD\tree_spruce01_LOD1_nocenter.X 50
+LOD2 * 100
+prefab prefabs\trees\tree_spruce02_nocenter.X
+LOD1 prefabs\trees\LOD\tree_spruce02_LOD1_nocenter.X 50
+LOD2 * 100
+prefab prefabs\trees\tree_spruce03_nocenter.X
+LOD1 prefabs\trees\LOD\tree_spruce03_LOD1_nocenter.X 30
+LOD2 * 100
+prefab prefabs\Buildings\Garages_stuff\metal_barrel_001_nocenter.X
+LOD1 prefabs\Buildings\Garages_stuff\LOD\metal_barrel_001_LOD1_nocenter.X 40
+LOD2 * 100
+prefab prefabs\Buildings\Garages_stuff\metal_barrel_002_nocenter.X
+LOD1 prefabs\Buildings\Garages_stuff\LOD\metal_barrel_002_LOD1_nocenter.X 40
+LOD2 * 100
+prefab prefabs\Buildings\Garages_stuff\metal_barrel_003_nocenter.X
+LOD1 prefabs\Buildings\Garages_stuff\LOD\metal_barrel_003_LOD1_nocenter.X 40
+LOD2 * 100
+prefab prefabs\objects\old_tree_limb02_nocenter.x
+LOD1 prefabs\Objects\lod\old_tree_limb02_lod1_nocenter.X 65
+LOD2 * 100
+prefab prefabs\objects\old_tree_limb01_nocenter.x
+LOD1 prefabs\Objects\lod\old_tree_limb01_lod1_nocenter.X 65
+LOD2 * 100
+prefab prefabs\buildings\barns_stuff\wood_harnes_nocenter.x
+LOD1 prefabs\Buildings\lod\wood_harnes_LOD1_nocenter.X 33
+LOD2 * 100
+prefab prefabs\garbage_rubble\rubble_005_nocenter.x
+LOD1 prefabs\Buildings\lod\rubble_005_lod1_nocenter.X 33
+LOD2 * 100
+prefab prefabs\buildings\garages_stuff\oil_lamp_nocenter.x
+LOD1 prefabs\Buildings\lod\oil_lamp_lod1_nocenter.X 30
+LOD2 * 100
+prefab prefabs\buildings\garages_stuff\oil_can_small_nocenter.x
+LOD1 prefabs\Buildings\lod\oil_can_small_lod1_nocenter.X 28
+LOD2 * 100
+prefab prefabs\buildings\garages_stuff\fuel_dispenser_nocenter.x
+LOD1 prefabs\Buildings\lod\fuel_dispenser_LOD1_nocenter.X 43
+LOD2 * 100
+prefab prefabs\buildings\barns_stuff\crusher_nocenter.x
+LOD1 prefabs\Buildings\lod\crusher_lod1_nocenter.X 43
+LOD2 * 100
+prefab prefabs\buildings\henhouse_stuff\basket_nocenter.x
+LOD1 prefabs\Buildings\lod\basket_LOD1_nocenter.X 30
+LOD2 * 100
+prefab prefabs\buildings\henhouse_stuff\bucket_wood_nocenter.x
+LOD1 prefabs\Buildings\lod\bucket_wood_LOD1_nocenter.X 30
+LOD2 * 100
+prefab prefabs\buildings\henhouse_stuff\sack_big_nocenter.x
+LOD1 prefabs\Buildings\lod\sack_big_LOD1_nocenter.X 30
+LOD2 * 100
+prefab prefabs\buildings\henhouse_stuff\feeder_rubber_nocenter.x
+LOD1 prefabs\Buildings\lod\feeder_rubber_LOD1_nocenter.X 33
+LOD2 * 100
+prefab prefabs\buildings\henhouse_stuff\feeder_nocenter.x
+LOD1 prefabs\Buildings\lod\feeder_LOD1_nocenter.X 30
+LOD2 * 100
+prefab prefabs\buildings\barns_stuff\scales_nocenter.x
+LOD1 prefabs\Buildings\lod\scales_LOD1_nocenter.X 40
+LOD2 * 100
+prefab prefabs\buildings\garages_stuff\heater_nocenter.x
+LOD1 prefabs\Buildings\lod\heater_LOD1_nocenter.X 40
+LOD2 * 100
+prefab prefabs\buildings\garages_stuff\anvil_nocenter.x
+LOD1 prefabs\Buildings\lod\anvil_LOD1_nocenter.X 40
+LOD2 * 100
+prefab prefabs\buildings\garages_stuff\dispenser_pump_nocenter.x
+LOD1 prefabs\Buildings\lod\dispenser_pump_lod1_nocenter.X 40
+LOD2 * 100
+prefab prefabs\buildings\garages_stuff\grinder_nocenter.x
+LOD1 prefabs\Buildings\lod\grinder_lod1_nocenter.X 40
+LOD2 * 100
+prefab prefabs\buildings\garages_stuff\vise_nocenter.x
+LOD1 prefabs\Buildings\lod\vise_lod1_nocenter.X 37
+LOD2 * 100
+prefab prefabs\buildings\garages_stuff\saw_table_nocenter.x
+LOD1 prefabs\Buildings\lod\saw_table_LOD1_nocenter.X 40
+LOD2 * 100
+prefab prefabs\buildings\cowshed_stuff\steamer_cowshed_nocenter.x
+LOD1 prefabs\Buildings\lod\steamer_cowshed_LOD1_nocenter.X 45
+LOD2 * 100
+prefab prefabs\buildings\cowshed_stuff\wheelbarrow_nocenter.x
+LOD1 prefabs\Buildings\lod\wheelbarrow_LOD1_nocenter.X 36
+LOD2 * 100
+prefab prefabs\buildings\cowshed_stuff\grinder_cowshed_nocenter.x
+LOD1 prefabs\Buildings\lod\grinder_cowshed_LOD1_nocenter.X 40
+LOD2 * 100
+prefab prefabs\buildings\cowshed_stuff\crusher_cowshed_nocenter.x
+LOD1 prefabs\Buildings\lod\crusher_cowshed_LOD1_nocenter.X 40
+LOD2 * 100
+prefab prefabs\buildings\barns_stuff\thresher_nocenter.x
+LOD1 prefabs\Buildings\lod\thresher_lod1_nocenter.X 38
+LOD2 * 100
+prefab prefabs\objects\lamps\neon_lamp_003_nocenter.x
+LOD1 prefabs\Buildings\lod\neon_lamp_003_lod1_nocenter.X 30
+LOD2 * 100
+prefab prefabs\objects\lamps\neon_lamp_002_nocenter.x
+LOD1 prefabs\Buildings\lod\neon_lamp_002_lod1_nocenter.X 27
+LOD2 * 100
+prefab prefabs\objects\lamps\neon_lamp_001_nocenter.x
+LOD1 prefabs\Buildings\lod\neon_lamp_001_lod1_nocenter.X 27
+LOD2 * 100
+prefab prefabs\objects\lamps\ceiling_lamp_001_nocenter.x
+LOD1 prefabs\Buildings\lod\ceiling_lamp_001_lod1_nocenter.X 30
+LOD2 * 100
+prefab prefabs\objects\lamps\ceiling_lamp_002_nocenter.x
+LOD1 prefabs\Buildings\lod\ceiling_lamp_002_lod1_nocenter.X 30
+LOD2 * 100
+prefab prefabs\objects\lamps\wall_lamp_002_nocenter.x
+LOD1 prefabs\Buildings\lod\wall_lamp_002_lod1_nocenter.X 27
+LOD2 * 100
+prefab prefabs\objects\lamps\wall_lamp_001_nocenter.x
+LOD1 prefabs\Buildings\lod\wall_lamp_001_lod1_nocenter.X 27
+LOD2 * 100
+prefab prefabs\objects\lamps\hanging_lamp_001_nocenter.x
+LOD1 prefabs\Buildings\lod\hanging_lamp_001_lod1_nocenter.X 27
+LOD2 * 100
+prefab prefabs\objects\lamps\hanging_lamp_002_nocenter.x
+LOD1 prefabs\Buildings\lod\hanging_lamp_002_LOD1_nocenter.X 27
+LOD2 * 100
+prefab prefabs\objects\lamps\hanging_lamp_003_nocenter.x
+LOD1 prefabs\Buildings\lod\hanging_lamp_003_LOD1_nocenter.X 27
+LOD2 * 100
+prefab prefabs\objects\lamps\hanging_lamp_004_nocenter.x
+LOD1 prefabs\Buildings\lod\hanging_lamp_004_LOD1_nocenter.X 27
+LOD2 * 100
+prefab prefabs\objects\lamps\lamp_switch_001_nocenter.x
+LOD1 prefabs\Buildings\lod\lamp_switch_001_LOD1_nocenter.X 27
+LOD2 * 100
+prefab prefabs\buildings\hunting_pulpit\hunting_pulpit_nocenter.x
+LOD1 prefabs\Buildings\lod\hunting_pulpit_lod1_nocenter.X 60
+LOD2 * 100
+prefab prefabs\buildings\hunting_pulpit\hunting_pulpit_2_nocenter.x
+LOD1 prefabs\Buildings\lod\hunting_pulpit_2_LOD1_nocenter.X 50
+LOD2 * 100
+prefab prefabs\buildings\barns_stuff\wood_barrel_nocenter.x
+LOD1 prefabs\Buildings\lod\wood_barrel_lod1_nocenter.X 35
+LOD2 * 100
+prefab prefabs\buildings\barns_stuff\wood_wheel_nocenter.x
+LOD1 prefabs\Buildings\lod\wood_wheel_LOD1_nocenter.X 35
+LOD2 * 100
+prefab prefabs\buildings\barns_stuff\wood_harrow_nocenter.x
+LOD1 prefabs\Buildings\lod\wood_harrow_LOD1_nocenter.X 35
+LOD2 * 100
+prefab prefabs\garbage_rubble\rubble_004_nocenter.x
+LOD1 prefabs\Buildings\lod\rubble_004_LOD1_nocenter.X 35
+LOD2 * 100
+prefab prefabs\garbage_rubble\rubble_003_nocenter.x
+LOD1 prefabs\Buildings\lod\rubble_003_LOD1_nocenter.X 35
+LOD2 * 100
+prefab prefabs\garbage_rubble\rubble_002_nocenter.x
+LOD1 prefabs\Buildings\lod\rubble_002_LOD1_nocenter.X 35
+LOD2 * 100
+prefab prefabs\objects\poles\pole_concrete_003_nocenter.x
+LOD1 prefabs\Objects\Poles\lod\pole_concrete_003_LOD1_nocenter.X 35
+LOD2 * 100
+prefab prefabs\objects\poles\pole_concrete_004_nocenter.x
+LOD1 prefabs\Objects\Poles\lod\pole_concrete_004_LOD1_nocenter.X 35
+LOD2 * 100
+prefab prefabs\objects\poles\pole_cross_arm_nocenter.x
+LOD1 prefabs\Objects\Poles\lod\pole_cross_arm_LOD1_nocenter.X 35
+LOD2 * 100
+prefab prefabs\objects\poles\pole_transformator_nocenter.x
+LOD1 prefabs\Objects\Poles\lod\pole_transformator_lod1_nocenter.X 35
+LOD2 prefabs\Objects\Poles\lod\pole_transformator_lod2_nocenter.X 55
+prefab prefabs\vehicles\car011_cp\steering_wheel_nocenter.x
+LOD1 prefabs\vehicles\lod\steering_wheel_lod1_nocenter.X 60
+LOD2 * 100
+prefab prefabs\objects\roots_pine01_nocenter.x
+LOD1 prefabs\Objects\lod\roots_pine01_lod1_nocenter.X 40
+LOD2 * 100
+prefab prefabs\buildings\windmill_old\windmill_old_001_nocenter.x
+LOD1 prefabs\Buildings\lod\windmill_old_001_lod1_nocenter.X 45
+LOD2 prefabs\Buildings\lod\windmill_old_001_lod2_nocenter.X 90
+prefab prefabs\Buildings\Gas_station\fuel_dispenser_new_nocenter.x
+LOD1 prefabs\Buildings\lod\fuel_dispenser_NEW_LOD1_nocenter.X 10
+LOD2 prefabs\Buildings\lod\fuel_dispenser_NEW_LOD2_nocenter.X 40
+prefab prefabs\vehicles\baler_cm\header_nocenter.x
+LOD1 prefabs\vehicles\lod\baler_header_LOD1_nocenter.X 80
+LOD2 * 100
+prefab prefabs\vehicles\baler_cm\rotor_nocenter.x
+LOD1 prefabs\vehicles\lod\baler_rotor_LOD1_nocenter.X 80
+LOD2 * 100
+prefab prefabs\vehicles\baler_cm\baler_cm_nocenter.x
+LOD1 prefabs\vehicles\lod\baler_CM_LOD1_nocenter.X 120
+LOD2 prefabs\vehicles\lod\baler_CM_LOD2_nocenter.X 135
+prefab prefabs\vehicles\baler_cq3\baler_cq3_nocenter.x
+LOD1 prefabs\vehicles\lod\baler_CQ3_lod1_nocenter.X 120
+LOD2 prefabs\vehicles\lod\baler_CQ3_lod2_nocenter.X 140
+prefab prefabs\vehicles\baler_old\baler_old_nocenter.x
+LOD1 prefabs\vehicles\lod\baler_old_lod1_nocenter.X 100
+LOD2 prefabs\vehicles\lod\baler_old_lod2_nocenter.X 140
+prefab prefabs\vehicles\cultivator_fs30\cultivator_fs30_nocenter.x
+LOD1 prefabs\vehicles\lod\cultivator_FS30_lod1_nocenter.X 80
+LOD2 * 100
+prefab prefabs\vehicles\cultivator_mc6\cultivator_mc6_nocenter.x
+LOD1 prefabs\vehicles\lod\cultivator_MC6_lod1_nocenter.X 80
+LOD2 * 100
+prefab prefabs\vehicles\cultivator_old\cultivator_old_nocenter.x
+LOD1 prefabs\vehicles\lod\cultivator_old_lod1_nocenter.X 80
+LOD2 * 100
+prefab prefabs\vehicles\drone\drone_folded_nocenter.x
+LOD1 prefabs\vehicles\lod\drone_folded_lod1_nocenter.X 80
+LOD2 * 100
+prefab prefabs\vehicles\drone\drone_001_nocenter.x
+LOD1 prefabs\vehicles\lod\drone_001_lod1_nocenter.X 80
+LOD2 * 100
+prefab prefabs\vehicles\manure_spreader_old\manure_spreader_old_nocenter.x
+LOD1 prefabs\vehicles\lod\manure_spreader_old_01_nocenter.X 80
+LOD2 prefabs\vehicles\lod\manure_spreader_old_02_nocenter.X 110
+prefab prefabs\vehicles\fertilizer_fa300\fertilizer_fa300_nocenter.x
+LOD1 prefabs\vehicles\lod\fertilizer_FA300_lod1_nocenter.X 75
+LOD2 * 100
+prefab prefabs\vehicles\fertilizer_old\fertilizer_old_nocenter.x
+LOD1 prefabs\vehicles\lod\fertilizer_old_lod1_nocenter.X 75
+LOD2 * 100
+prefab prefabs\vehicles\harvester_old_mf41\harvester_old_mf41_nocenter.x
+LOD1 prefabs\vehicles\lod\harvester_old_MF41_lod1_nocenter.X 100
+LOD2 prefabs\vehicles\lod\harvester_old_MF41_lod2_nocenter.X 140
+prefab prefabs\vehicles\harvester_old_mf41\header_lift_nocenter.x
+LOD1 prefabs\vehicles\lod\harvesterold_header_lift_lod1_nocenter.X 75
+LOD2 * 100
+prefab prefabs\vehicles\harvester_old_mf41\wheel_front_right_nocenter.x
+LOD1 prefabs\vehicles\lod\harvesterold_wheel_front_right_lod1_nocenter.X 75
+LOD2 * 100
+prefab prefabs\vehicles\harvester_old_mf41\wheel_front_left_nocenter.x
+LOD1 prefabs\vehicles\lod\harvesterold_wheel_front_left_lod1_nocenter.X 75
+LOD2 * 100
+prefab prefabs\vehicles\harvester_l770\harvester_l770_nocenter.x
+LOD1 prefabs\vehicles\lod\harvester_L770_LOD1_nocenter.X 115
+LOD2 prefabs\vehicles\lod\harvester_L770_LOD2_nocenter.X 170
+prefab prefabs\vehicles\harvester_l770\harvester_l770_lift_nocenter.x
+LOD1 prefabs\vehicles\lod\harvester_L770_lift_lod1_nocenter.X 80
+LOD2 * 100
+prefab prefabs\vehicles\trailer_ztc100\trailer_ztc100_nocenter.x
+LOD1 prefabs\vehicles\lod\trailer_ZTC100_lod1_nocenter.X 80
+LOD2 prefabs\vehicles\lod\trailer_ZTC100_lod2_nocenter.X 120
+prefab prefabs\vehicles\trailer_ztc100\trailer_ztc100_attachment_nocenter.x
+LOD1 prefabs\vehicles\lod\trailer_ZTC100_attachment_lod1_nocenter.X 80
+LOD2 * 100
+prefab prefabs\vehicles\trailer_wood_hds\trailer_wood_hds_nocenter.x
+LOD1 prefabs\vehicles\lod\trailer_wood_hds_lod1_nocenter.X 75
+LOD2 * 100
+prefab prefabs\vehicles\trailer_wood_hds\wheel_left_nocenter.x
+LOD1 prefabs\vehicles\lod\woodhds_wheel_left_lod1_nocenter.X 80
+LOD2 * 100
+prefab prefabs\vehicles\trailer_wood_hds\wheel_right_nocenter.x
+LOD1 prefabs\vehicles\lod\woodhds_wheel_right_lod1_nocenter.X 80
+LOD2 * 100
+prefab prefabs\vehicles\trailer_rt_10t\trailer_rt_10t_nocenter.x
+LOD1 prefabs\vehicles\lod\trailer_RT_10T_lod1_nocenter.X 80
+LOD2 prefabs\vehicles\lod\trailer_RT_10T_lod2_nocenter.X 110
+prefab prefabs\vehicles\trailer_old_transporter\attachment_nocenter.x
+LOD1 prefabs\vehicles\lod\traileroldtransporter_attachment_lod1_nocenter.X 80
+LOD2 * 100
+prefab prefabs\vehicles\trailer_old_transporter\trailer_old_transporter_nocenter.x
+LOD1 prefabs\vehicles\lod\trailer_old_transporter_lod1_nocenter.X 75
+LOD2 * 100
+prefab prefabs\vehicles\trailer_old_log\trailer_old_log_nocenter.x
+LOD1 prefabs\vehicles\lod\trailer_old_log_lod1_nocenter.X 80
+LOD2 prefabs\vehicles\lod\trailer_old_log_lod2_nocenter.X 110
+prefab prefabs\vehicles\trailer_old_hay\attachment_nocenter.x
+LOD1 prefabs\vehicles\lod\trailer_old_hay_attachment_lod1_nocenter.X 90
+LOD2 prefabs\vehicles\lod\trailer_old_hay_attachment_lod2_nocenter.X 110
+prefab prefabs\vehicles\trailer_old_hay\wheel_right_1_nocenter.x
+LOD1 prefabs\vehicles\lod\trailer_old_hay_wheel_right_lod1_nocenter.X 80
+LOD2 * 120
+prefab prefabs\vehicles\trailer_old_hay\wheel_left_1_nocenter.x
+LOD1 prefabs\vehicles\lod\trailer_old_hay_wheel_left_lod1_nocenter.X 80
+LOD2 * 120
+prefab prefabs\vehicles\trailer_old_hay\trailer_old_hay_nocenter.x
+LOD1 prefabs\vehicles\lod\trailer_old_hay_lod1_nocenter.X 90
+LOD2 prefabs\vehicles\lod\trailer_old_hay_lod2_nocenter.X 130
+prefab prefabs\vehicles\trailer_old_cereal\trailer_old_cereal_nocenter.x
+LOD1 prefabs\vehicles\lod\trailer_old_cereal_lod1_nocenter.X 80
+LOD2 * 100
+prefab prefabs\vehicles\tractor_tt1600\axle_nocenter.x
+LOD1 prefabs\vehicles\lod\tt600axle_lod1_nocenter.X 80
+LOD2 * 100
+prefab prefabs\vehicles\tractor_tt1600\body_nocenter.x
+LOD1 prefabs\vehicles\lod\tt600body_lod1_nocenter.X 90
+LOD2 * 110
+prefab prefabs\vehicles\tractor_tt1600\wheel_rear_left_nocenter.x
+LOD1 prefabs\vehicles\lod\tt600wheel_rear_left_lod1_nocenter.X 75
+LOD2 * 100
+prefab prefabs\vehicles\tractor_tt1600\wheel_rear_right_nocenter.x
+LOD1 prefabs\vehicles\lod\tt600wheel_rear_right_lod1_nocenter.X 75
+LOD2 * 100
+prefab prefabs\vehicles\tractor_tt1600\wheel_front_left_nocenter.x
+LOD1 prefabs\vehicles\lod\tt600wheel_front_left_lod1_nocenter.X 75
+LOD2 * 100
+prefab prefabs\vehicles\tractor_tt1600\wheel_front_right_nocenter.x
+LOD1 prefabs\vehicles\lod\tt600wheel_front_right_lod1_nocenter.X 75
+LOD2 * 100
+prefab prefabs\vehicles\tractor_tt1600\tractor_tt600_nocenter.x
+LOD1 prefabs\vehicles\lod\tractor_TT600_lod1_nocenter.X 90
+LOD2 * 130
+prefab prefabs\vehicles\tractor_tt1600\cabine_nocenter.x
+LOD1 prefabs\vehicles\lod\tt600cabine_lod1_nocenter.X 75
+LOD2 prefabs\vehicles\lod\tt600cabine_lod2_nocenter.X 115
+prefab prefabs\vehicles\tractor_l7_2\tractor_l7_2_nocenter.x
+LOD1 prefabs\vehicles\lod\tractor_L7_lod1_nocenter.X 75
+LOD2 prefabs\vehicles\lod\tractor_L7_lod2_nocenter.X 115
+prefab prefabs\vehicles\tractor_l7_2\wheel_rear_right_nocenter.x
+LOD1 prefabs\vehicles\lod\l7_wheel_rear_right_lod1_nocenter.X 75
+LOD2 * 125
+prefab prefabs\vehicles\tractor_l7_2\wheel_rear_left_nocenter.x
+LOD1 prefabs\vehicles\lod\l7_wheel_rear_left_lod1_nocenter.X 75
+LOD2 * 120
+prefab prefabs\vehicles\tractor_l7_2\wheel_front_right_nocenter.x
+LOD1 prefabs\vehicles\lod\l7_wheel_front_right_lod1_nocenter.X 75
+LOD2 * 125
+prefab prefabs\vehicles\tractor_l7_2\wheel_front_left_nocenter.x
+LOD1 prefabs\vehicles\lod\l7_wheel_front_left_lod1_nocenter.X 75
+LOD2 * 125
+prefab prefabs\vehicles\tractor_l7_2\front3p_nocenter.x
+LOD1 prefabs\vehicles\lod\l7_front3p_lod1_nocenter.X 75
+LOD2 * 125
+prefab prefabs\vehicles\tractor_l7_2\axle_nocenter.x
+LOD1 prefabs\vehicles\lod\l7_axle_lod1_nocenter.X 75
+LOD2 * 125
+prefab prefabs\vehicles\tractor_l7_2\mudguard_rear_left_nocenter.x
+LOD1 prefabs\vehicles\lod\l7_mudguard_rear_left_lod1_nocenter.X 75
+LOD2 * 125
+prefab prefabs\vehicles\tractor_l7_2\mudguard_rear_right_nocenter.x
+LOD1 prefabs\vehicles\lod\l7_mudguard_rear_right_lod1_nocenter.X 75
+LOD2 * 125
+prefab prefabs\vehicles\tractor_l7_2\body_nocenter.x
+LOD1 prefabs\vehicles\lod\l7_body_lod1_nocenter.X 75
+LOD2 * 125
+prefab prefabs\vehicles\tractor_l7_2\cabine_nocenter.x
+LOD1 prefabs\vehicles\lod\l7_cabine_lod1_nocenter.X 75
+LOD2 prefabs\vehicles\lod\l7_cabine_lod2_nocenter.X 130
+prefab prefabs\vehicles\tractor_l7_2\seat_nocenter.x
+LOD1 prefabs\vehicles\lod\l7_seat_lod1_nocenter.X 80
+LOD2 * 120
+prefab prefabs\vehicles\tractor_old_gen\3p_chains_nocenter.x
+LOD1 prefabs\vehicles\lod\tractor_old_gen_3p_chains_lod1_nocenter.X 80
+LOD2 prefabs\vehicles\lod\tractor_old_gen_3p_chains_lod2_nocenter.X 110
+prefab prefabs\vehicles\tractor_old_gen\exhaust_nocenter.x
+LOD1 prefabs\vehicles\lod\tractor_old_gen_exhaust_lod1_nocenter.X 80
+LOD2 * 110
+prefab prefabs\vehicles\tractor_old_gen\cabine_nocenter.x
+LOD1 prefabs\vehicles\lod\tractor_old_gen_cabine_lod1_nocenter.X 80
+LOD2 prefabs\vehicles\lod\tractor_old_gen_cabine_lod2_nocenter.X 110
+prefab prefabs\vehicles\tractor_old_gen\engine_nocenter.x
+LOD1 prefabs\vehicles\lod\tractor_old_gen_engine_lod1_nocenter.X 80
+LOD2 * 110
+prefab prefabs\vehicles\tractor_old_gen\mudguard_rear_left_nocenter.x
+LOD1 prefabs\vehicles\lod\tractor_old_gen_mud_rear_left_lod1_nocenter.X 80
+LOD2 * 110
+prefab prefabs\vehicles\tractor_old_gen\mudguard_rear_right_nocenter.x
+LOD1 prefabs\vehicles\lod\tractor_old_gen_mud_rear_right_lod1_nocenter.X 80
+LOD2 * 110
+prefab prefabs\vehicles\tractor_old_gen\body_nocenter.x
+LOD1 prefabs\vehicles\lod\tractor_old_gen_body_lod1_nocenter.X 80
+LOD2 prefabs\vehicles\lod\tractor_old_gen_body_lod2_nocenter.X 125
+prefab prefabs\vehicles\tractor_old_gen\tractor_old_gen_nocenter.x
+LOD1 prefabs\vehicles\lod\tractor_old_gen_lod1_nocenter.X 80
+LOD2 prefabs\vehicles\lod\tractor_old_gen_lod2_nocenter.X 110
+prefab prefabs\vehicles\tractor_old_gen\seat_nocenter.x
+LOD1 prefabs\vehicles\lod\tractor_old_gen_seat_lod1_nocenter.X 80
+LOD2 * 110
+prefab prefabs\vehicles\tractor_old_gen\steering_wheel_nocenter.x
+LOD1 prefabs\vehicles\lod\tractor_old_gen_steering_lod1_nocenter.X 80
+LOD2 * 110
+prefab prefabs\vehicles\tractor_old_gen\3p_rear_bottom_nocenter.x
+LOD1 prefabs\vehicles\lod\tractor_old_gen_3p_rear_bottom_lod1_nocenter.X 80
+LOD2 * 110
+prefab prefabs\vehicles\tractor_old_fnd\3p_rear_middle_nocenter.x
+LOD1 prefabs\vehicles\lod\tractor_old_3p_rear_middle_lod1_nocenter.X 80
+LOD2 * 110
+prefab prefabs\vehicles\tractor_old_fnd\seat_nocenter.x
+LOD1 prefabs\vehicles\lod\tractor_old_seat_lod1_nocenter.X 80
+LOD2 * 110
+prefab prefabs\vehicles\tractor_old_fnd\steering_wheel_nocenter.x
+LOD1 prefabs\vehicles\lod\tractor_old_steering_lod1_nocenter.X 80
+LOD2 * 110
+prefab prefabs\vehicles\tractor_old_fnd\axle_nocenter.x
+LOD1 prefabs\vehicles\lod\tractor_old_axle_lod1_nocenter.X 80
+LOD2 * 110
+prefab prefabs\vehicles\tractor_old_fnd\wheel_rear_left_nocenter.x
+LOD1 prefabs\vehicles\lod\tractor_old_fnd_wheel_rear_left_lod1_nocenter.X 75
+LOD2 * 100
+prefab prefabs\vehicles\tractor_old_fnd\wheel_rear_right_nocenter.x
+LOD1 prefabs\vehicles\lod\tractor_old_fnd_wheel_rear_right_lod1_nocenter.X 75
+LOD2 * 100
+prefab prefabs\vehicles\tractor_old_fnd\body_nocenter.x
+LOD1 prefabs\vehicles\lod\tractor_old_fnd_body_lod1_nocenter.X 80
+LOD2 prefabs\vehicles\lod\tractor_old_fnd_body_lod2_nocenter.X 110
+prefab prefabs\vehicles\tractor_old_fnd\cabine_nocenter.x
+LOD1 prefabs\vehicles\lod\tractor_old_fnd_cabine_lod1_nocenter.X 80
+LOD2 prefabs\vehicles\lod\tractor_old_fnd_cabine_lod2_nocenter.X 110
+prefab prefabs\vehicles\tractor_old_fnd\tractor_old_fnd_nocenter.x
+LOD1 prefabs\vehicles\lod\tractor_old_fnd_lod1_nocenter.X 80
+LOD2 prefabs\vehicles\lod\tractor_old_fnd_lod2_nocenter.X 110
+prefab prefabs\vehicles\header_old_mf41_cereal\header_reel_nocenter.x
+LOD1 prefabs\vehicles\lod\header_old_MF41_cerealreel_lod1_nocenter.X 75
+LOD2 * 100
+prefab prefabs\vehicles\header_old_mf41_cereal\header_old_mf41_cereal_nocenter.x
+LOD1 prefabs\vehicles\lod\header_old_MF41_cereal_lod1_nocenter.X 75
+LOD2 * 100
+prefab prefabs\vehicles\header_old_mf41_corn\helix_nocenter.x
+LOD1 prefabs\vehicles\lod\header_old_MF41_corn_helix_lod1_nocenter.X 90
+LOD2 * 110
+prefab prefabs\vehicles\header_old_mf41_corn\header_old_mf41_corn_nocenter.x
+LOD1 prefabs\vehicles\lod\header_old_MF41_corn_lod1_nocenter.X 85
+LOD2 prefabs\vehicles\lod\header_old_MF41_corn_lod2_nocenter.X 135
+prefab prefabs\vehicles\header_e3\header_e3_helix_nocenter.x
+LOD1 prefabs\vehicles\lod\header_e3_helix_lod1_nocenter.X 90
+LOD2 * 110
+prefab prefabs\vehicles\header_e3\header_e3_reel_nocenter.x
+LOD1 prefabs\vehicles\lod\header_e3_reel_lod1_nocenter.X 75
+LOD2 * 100
+prefab prefabs\vehicles\header_e3\header_e3_cereal_nocenter.x
+LOD1 prefabs\vehicles\lod\header_e3_cereal_lod1_nocenter.X 75
+LOD2 prefabs\vehicles\lod\header_e3_cereal_lod2_nocenter.X 115
+prefab prefabs\vehicles\plough_ma3\furrows_nocenter.x
+LOD1 prefabs\vehicles\lod\ma3_furrows_lod1_nocenter.X 90
+LOD2 prefabs\vehicles\lod\ma3_furrows_lod2_nocenter.X 120
+prefab prefabs\vehicles\plough_m200\plough_m200_nocenter.x
+LOD1 prefabs\vehicles\lod\plough_m200_lod1_nocenter.X 90
+LOD2 * 120
+prefab prefabs\vehicles\plough_lj86\furrows_nocenter.x
+LOD1 prefabs\vehicles\lod\lj96_furrows_lod1_nocenter.X 90
+LOD2 prefabs\vehicles\lod\lj96_furrows_lod2_nocenter.X 120
+prefab prefabs\vehicles\seeder_mg7\seeder_mg7_nocenter.x
+LOD1 prefabs\vehicles\lod\seeder_MG7_lod1_nocenter.X 90
+LOD2 prefabs\vehicles\lod\seeder_MG7_lod2_nocenter.X 120
+prefab prefabs\vehicles\seeder_old_001\drill_1_nocenter.x
+LOD1 prefabs\vehicles\lod\seeder_old_001drill1_lod1_nocenter.X 80
+LOD2 * 100
+prefab prefabs\vehicles\seeder_old_001\drill_2_nocenter.x
+LOD1 prefabs\vehicles\lod\seeder_old_001drill2_lod1_nocenter.X 80
+LOD2 * 100
+prefab prefabs\vehicles\seeder_old_001\drill_3_nocenter.x
+LOD1 prefabs\vehicles\lod\seeder_old_001drill3_lod1_nocenter.X 80
+LOD2 * 100
+prefab prefabs\vehicles\seeder_old_001\drill_4_nocenter.x
+LOD1 prefabs\vehicles\lod\seeder_old_001drill4_lod1_nocenter.X 80
+LOD2 * 100
+prefab prefabs\vehicles\seeder_old_001\wheel_left_nocenter.x
+LOD1 prefabs\vehicles\lod\seeder_old_001_wheelL_lod1_nocenter.X 80
+LOD2 * 100
+prefab prefabs\vehicles\seeder_old_001\wheel_right_nocenter.x
+LOD1 prefabs\vehicles\lod\seeder_old_001_wheelR_lod1_nocenter.X 80
+LOD2 * 100
+prefab prefabs\vehicles\seeder_old_001\seeder_old_001_nocenter.x
+LOD1 prefabs\vehicles\lod\seeder_old_001_lod1_nocenter.X 90
+LOD2 prefabs\vehicles\lod\seeder_old_001_lod2_nocenter.X 110
+prefab prefabs\vehicles\tractor_f69\tractor_f69_nocenter.x
+LOD1 prefabs\vehicles\lod\tractor_F69_lod1_nocenter.X 80
+LOD2 prefabs\vehicles\lod\tractor_F69_lod2_nocenter.X 100
+prefab prefabs\vehicles\tractor_f69\wheel_rear_right_nocenter.x
+LOD1 prefabs\vehicles\lod\f69_wheel_rear_right_lod1_nocenter.X 80
+LOD2 * 100
+prefab prefabs\vehicles\tractor_f69\wheel_rear_left_nocenter.x
+LOD1 prefabs\vehicles\lod\f69_wheel_rear_left_Lod1_nocenter.X 80
+LOD2 * 100
+prefab prefabs\vehicles\tractor_f69\wheel_front_right_nocenter.x
+LOD1 prefabs\vehicles\lod\f69_wheel_front_right_lod1_nocenter.X 80
+LOD2 * 100
+prefab prefabs\vehicles\tractor_f69\wheel_front_left_nocenter.x
+LOD1 prefabs\vehicles\lod\f69_wheel_front_left_lod1_nocenter.X 80
+LOD2 * 100
+prefab prefabs\vehicles\tractor_f69\body_nocenter.x
+LOD1 prefabs\vehicles\lod\f69_body_lod1_nocenter.X 100
+LOD2 * 140
+prefab prefabs\vehicles\tractor_f69\exhaust_nocenter.x
+LOD1 prefabs\vehicles\lod\f69_exhaust_Lod1_nocenter.X 80
+LOD2 * 100
+prefab prefabs\vehicles\tractor_f69\door_left_nocenter.x
+LOD1 prefabs\vehicles\lod\f69_door_left_lod1_nocenter.X 90
+LOD2 * 100
+prefab prefabs\vehicles\tractor_f69\door_right_nocenter.x
+LOD1 prefabs\vehicles\lod\f69_door_right_lod1_nocenter.X 90
+LOD2 * 100
+prefab prefabs\vehicles\tractor_f69\engine_nocenter.x
+LOD1 prefabs\vehicles\lod\f69_engine_lod1_nocenter.X 85
+LOD2 * 100
+prefab prefabs\vehicles\tractor_f69\cabine_nocenter.x
+LOD1 prefabs\vehicles\lod\f69_cabine_lod1_nocenter.X 85
+LOD2 prefabs\vehicles\lod\f69_cabine_lod2_nocenter.X 100
+prefab prefabs\vehicles\tractor_f69\axle_rear_nocenter.x
+LOD1 prefabs\vehicles\lod\f69_axle_rear_lod1_nocenter.X 80
+LOD2 * 100
+prefab prefabs\vehicles\tractor_f69\axle_nocenter.x
+LOD1 prefabs\vehicles\lod\f69_axle_lod1_nocenter.X 80
+LOD2 * 100
+prefab prefabs\vehicles\tractor_old_db\wheel_rear_right_nocenter.x
+LOD1 prefabs\vehicles\lod\tractor_old_db_wheel_rear_right_lod1_nocenter.X 85
+LOD2 * 100
+prefab prefabs\vehicles\tractor_old_db\wheel_rear_left_nocenter.x
+LOD1 prefabs\vehicles\lod\tractor_old_db_wheel_rear_left_lod1_nocenter.X 85
+LOD2 * 100
+prefab prefabs\vehicles\tractor_old_db\tractor_old_db_nocenter.x
+LOD1 prefabs\vehicles\lod\tractor_old_db_lod1_nocenter.X 90
+LOD2 prefabs\vehicles\lod\tractor_old_db_lod2_nocenter.X 110
+prefab prefabs\vehicles\tractor_old_db\cabine_nocenter.x
+LOD1 prefabs\vehicles\lod\tractor_old_db_cabine_lod1_nocenter.X 90
+LOD2 prefabs\vehicles\lod\tractor_old_db_cabine_lod2_nocenter.X 110
+prefab prefabs\vehicles\tractor_old_db\axle_nocenter.x
+LOD1 prefabs\vehicles\lod\tractor_old_db_axle_lod1_nocenter.X 85
+LOD2 * 100
+prefab prefabs\vehicles\tractor_old_db\engine_nocenter.x
+LOD1 prefabs\vehicles\lod\tractor_old_db_engine_lod1_nocenter.X 85
+LOD2 * 100
+prefab prefabs\vehicles\tractor_a530\wheel_rear_right_nocenter.x
+LOD1 prefabs\vehicles\lod\tractor_a530_wheel_rear_right_lod1_nocenter.X 85
+LOD2 * 100
+prefab prefabs\vehicles\tractor_a530\wheel_rear_left_nocenter.x
+LOD1 prefabs\vehicles\lod\tractor_a530_wheel_rear_left_lod1_nocenter.X 85
+LOD2 * 100
+prefab prefabs\vehicles\tractor_a530\wheel_front_right_nocenter.x
+LOD1 prefabs\vehicles\lod\tractor_a530_wheel_front_right_lod1_nocenter.X 85
+LOD2 * 100
+prefab prefabs\vehicles\tractor_a530\wheel_front_left_nocenter.x
+LOD1 prefabs\vehicles\lod\tractor_a530_wheel_front_left_lod1_nocenter.X 30
+LOD2 * 100
+prefab prefabs\vehicles\tractor_a530\cabine_nocenter.x
+LOD1 prefabs\vehicles\lod\tractor_a530_cabine_lod1_nocenter.X 85
+LOD2 prefabs\vehicles\lod\tractor_a530_cabine_lod2_nocenter.X 120
+prefab prefabs\vehicles\tractor_a530\body_nocenter.x
+LOD1 prefabs\vehicles\lod\tractor_a530_body_lod1_nocenter.X 100
+LOD2 * 140
+prefab prefabs\vehicles\tractor_a530\3p_rear_bottom_nocenter.x
+LOD1 prefabs\vehicles\lod\tractor_a530_3p_rear_bottom_lod1_nocenter.X 85
+LOD2 * 100
+prefab prefabs\vehicles\tractor_a530\axle_nocenter.x
+LOD1 prefabs\vehicles\lod\tractor_a530_axle_lod1_nocenter.X 80
+LOD2 * 100
+prefab prefabs\vehicles\tractor_a530\engine_nocenter.x
+LOD1 prefabs\vehicles\lod\tractor_a530_engine_lod1_nocenter.X 80
+LOD2 * 100
+prefab prefabs\vehicles\tractor_a530\mudguard_left_nocenter.x
+LOD1 prefabs\vehicles\lod\tractor_a530_mudguard_left_lod1_nocenter.X 85
+LOD2 * 100
+prefab prefabs\vehicles\tractor_a530\tractor_a530_nocenter.x
+LOD1 prefabs\vehicles\lod\tractor_a530_lod1_nocenter.X 85
+LOD2 prefabs\vehicles\lod\tractor_a530_lod2_nocenter.X 110
+prefab prefabs\vehicles\mower_mf1340_front\mower_mf1340_front_nocenter.x
+LOD1 prefabs\vehicles\lod\mower_MF1340_front_lod1_nocenter.X 85
+LOD2 prefabs\vehicles\lod\mower_MF1340_front_lod2_nocenter.X 110
+prefab prefabs\vehicles\mower_mf1340\left_side_nocenter.x
+LOD1 prefabs\vehicles\lod\mower_MF1340_front_left_side_lod1_nocenter.X 80
+LOD2 prefabs\vehicles\lod\mower_MF1340_front_left_side_lod2_nocenter.X 100
+prefab prefabs\vehicles\mower_mf1340\right_side_nocenter.x
+LOD1 prefabs\vehicles\lod\mower_MF1340_front_right_side_lod1_nocenter.X 80
+LOD2 prefabs\vehicles\lod\mower_MF1340_front_right_side_lod2_nocenter.X 100
+prefab prefabs\vehicles\manure_spreader_13k\manure_spreader_13k_nocenter.x
+LOD1 prefabs\vehicles\lod\manure_spreader_13k_lod1_nocenter.X 90
+LOD2 prefabs\vehicles\lod\manure_spreader_13k_lod2_nocenter.X 110
+prefab prefabs\vehicles\manure_spreader_13k\lid_nocenter.x
+LOD1 prefabs\vehicles\lod\manure_spreader_13k_lid_lod1_nocenter.X 80
+LOD2 * 100
+prefab prefabs\vehicles\manure_spreader_13k\wheel_right_nocenter.x
+LOD1 prefabs\vehicles\lod\manure_spreader_13k_wheel_right_lod1_nocenter.X 80
+LOD2 * 100
+prefab prefabs\vehicles\manure_spreader_13k\wheel_left_nocenter.x
+LOD1 prefabs\vehicles\lod\manure_spreader_13k_wheel_left_lod1_nocenter.X 80
+LOD2 * 100
+prefab prefabs\vehicles\header_crn3\helix_nocenter.x
+LOD1 prefabs\vehicles\lod\header_CRN3_helix_lod1_nocenter.X 90
+LOD2 * 110
+prefab prefabs\vehicles\header_crn3\header_crn3_nocenter.x
+LOD1 prefabs\vehicles\lod\header_CRN3_lod1_nocenter.X 90
+LOD2 prefabs\vehicles\lod\header_CRN3_lod2_nocenter.X 125
+prefab prefabs\vehicles\header_e10\header_e10_helix_nocenter.x
+LOD1 prefabs\vehicles\lod\header_e10_cereal_helix_lod1_nocenter.X 80
+LOD2 * 100
+prefab prefabs\vehicles\header_e10\header_e10_reel_nocenter.x
+LOD1 prefabs\vehicles\lod\header_e10_cereal_reel_lod1_nocenter.X 85
+LOD2 * 100
+prefab prefabs\vehicles\header_e10\header_e10_cereal_nocenter.x
+LOD1 prefabs\vehicles\lod\header_e10_cereal_lod1_nocenter.X 80
+LOD2 prefabs\vehicles\lod\header_e10_cereal_lod2_nocenter.X 110
+prefab prefabs\vehicles\front_weight\front_weights_500_nocenter.x
+LOD1 prefabs\vehicles\lod\Front_Weights_500_lod1_nocenter.X 90
+LOD2 * 110
+prefab prefabs\vehicles\front_weight\front_weights_250_nocenter.x
+LOD1 prefabs\vehicles\lod\Front_Weights_250_lod1_nocenter.X 90
+LOD2 * 110
+prefab prefabs\vehicles\front_weight\front_weight_1000_nocenter.x
+LOD1 prefabs\vehicles\lod\Front_Weight_1000_lod1_nocenter.X 90
+LOD2 * 110
+prefab prefabs\vehicles\manure_spreader_old\wheel_left_nocenter.x
+LOD1 prefabs\vehicles\lod\manure_spreader_old_wheel_left01_nocenter.X 80
+LOD2 * 100
+prefab prefabs\vehicles\manure_spreader_old\wheel_right_nocenter.x
+LOD1 prefabs\vehicles\lod\manure_spreader_old_wheel_right01_nocenter.X 80
+LOD2 * 100
+prefab prefabs\vehicles\harvester_l770\wheel_rear_right_nocenter.x
+LOD1 prefabs\vehicles\lod\l770_wheel_rear_right_lod1_nocenter.X 80
+LOD2 * 100
+prefab prefabs\vehicles\harvester_l770\wheel_rear_left_nocenter.x
+LOD1 prefabs\vehicles\lod\l770_wheel_rear_left_lod1_nocenter.X 80
+LOD2 * 100
+prefab prefabs\vehicles\harvester_l770\wheel_front_left_nocenter.x
+LOD1 prefabs\vehicles\lod\l770_wheel_front_left_lod1_nocenter.X 80
+LOD2 * 100
+prefab prefabs\vehicles\harvester_l770\wheel_front_right_nocenter.x
+LOD1 prefabs\vehicles\lod\l770_wheel_front_right_lod1_nocenter.X 80
+LOD2 * 100
+prefab prefabs\vehicles\harvester_l770\unloading_pipe_nocenter.x
+LOD1 prefabs\vehicles\lod\l770_pipe_lod1_nocenter.X 85
+LOD2 * 110
+prefab prefabs\buildings\windmill\wm_metal_old_turbine_3_0_nocenter.x
+LOD1 prefabs\Buildings\lod\wm_metal_old_turbine_3_0_lod1_nocenter.X 80
+LOD2 prefabs\Buildings\lod\wm_metal_old_turbine_3_0_lod2_nocenter.X 160
+prefab prefabs\buildings\windmill\wm_metal_new_trans_1_0_nocenter.x
+LOD1 prefabs\Buildings\lod\wm_metal_new_trans_1_0_lod1_nocenter.X 25
+LOD2 prefabs\Buildings\lod\wm_metal_new_trans_1_0_lod2_nocenter.X 50
+prefab prefabs\buildings\windmill\wm_metal_fixed_trans_1_0_nocenter.x
+LOD1 prefabs\Buildings\lod\wm_metal_fixed_trans_1_0_lod1_nocenter.X 25
+LOD2 prefabs\Buildings\lod\wm_metal_fixed_trans_1_0_lod2_nocenter.X 50
+prefab prefabs\buildings\windmill\wm_metal_old_turbine_2_0_nocenter.x
+LOD1 prefabs\Buildings\lod\wm_metal_old_turbine_2_0_lod1_nocenter.X 30
+LOD2 prefabs\Buildings\lod\wm_metal_old_turbine_2_0_lod2_nocenter.X 60
+prefab prefabs\buildings\windmill\wm_metal_new_turbine_2_0_nocenter.x
+LOD1 prefabs\Buildings\lod\wm_metal_new_turbine_2_0_lod1_nocenter.X 30
+LOD2 prefabs\Buildings\lod\wm_metal_new_turbine_2_0_lod2_nocenter.X 60
+prefab prefabs\buildings\cowshed\tank\slurry_pump_nocenter.x
+LOD1 prefabs\Buildings\lod\slurry_pump_lod1_nocenter.X 30
+LOD2 prefabs\Buildings\lod\slurry_pump_lod2_nocenter.X 60
+prefab prefabs\buildings\garages_stuff\can_003_nocenter.x
+LOD1 prefabs\Buildings\lod\can_003_lod1_nocenter.X 25
+LOD2 * 100
+prefab prefabs\buildings\garages_stuff\can_005_nocenter.x
+LOD1 prefabs\Buildings\lod\can_005_lod1_nocenter.X 25
+LOD2 * 100
+prefab prefabs\buildings\garages_stuff\can_001_nocenter.x
+LOD1 prefabs\Buildings\lod\can_001_lod1_nocenter.X 20
+LOD2 * 100
+prefab prefabs\buildings\garages_stuff\can_002_nocenter.x
+LOD1 prefabs\Buildings\lod\can_002_lod1_nocenter.X 25
+LOD2 * 100
+prefab prefabs\vehicles\car002_ch_pickup\car002_ch_pickup_nocenter.x
+LOD1 prefabs\vehicles\lod\car002_ch_pickup_lod1_nocenter.X 95
+LOD2 prefabs\vehicles\lod\car002_ch_pickup_lod2_nocenter.X 150
+prefab prefabs\vehicles\car002_ch_pickup\door_right_nocenter.x
+LOD1 prefabs\vehicles\lod\car002_ch_pickup_door_right_lod1_nocenter.X 90
+LOD2 prefabs\vehicles\lod\car002_ch_pickup_door_right_lod2_nocenter.X 130
+prefab prefabs\vehicles\car002_ch_pickup\door_left_nocenter.x
+LOD1 prefabs\vehicles\lod\car002_ch_pickup_door_left_lod1_nocenter.X 20
+LOD2 prefabs\vehicles\lod\car002_ch_pickup_door_left_lod2_nocenter.X 30
+prefab prefabs\vehicles\car002_ch_pickup\wheel_left_nocenter.x
+LOD1 prefabs\vehicles\lod\car002_ch_pickup_wl_lod1_nocenter.X 85
+LOD2 * 100
+prefab prefabs\vehicles\car002_ch_pickup\wheel_right_nocenter.x
+LOD1 prefabs\vehicles\lod\car002_ch_pickup_wr_lod1_nocenter.X 25
+LOD2 * 100
+prefab prefabs\vehicles\car002_ch_pickup\steering_wheel_nocenter.x
+LOD1 prefabs\vehicles\lod\car002_ch_pickup_wheel_lod1_nocenter.X 80
+LOD2 * 100
+prefab prefabs\buildings\castle\ca_wall_tower_1_0_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\castle\lod\ca_wall_tower_1_0_LOD2_nocenter.X 100
+prefab prefabs\buildings\castle\ca_wall_tower_1_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\castle\lod\ca_wall_tower_1_0_LOD2_nocenter.X 100
+prefab prefabs\buildings\castle\ca_wall_tower_window_1_0_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\castle\lod\ca_wall_tower_1_0_LOD2_nocenter.X 100
+prefab prefabs\buildings\castle\ca_wall_tower_crown_1_0_nocenter.x
+LOD1 prefabs\Buildings\castle\lod\ca_wall_tower_crown_1_0_LOD1_nocenter.X 150
+LOD2 * 200
+prefab prefabs\buildings\castle\ca_wall_pylon_2_0_nocenter.x
+LOD1 prefabs\Buildings\castle\lod\ca_wall_pylon_2_0_LOD1_nocenter.X 80
+LOD2 * 100
+prefab prefabs\buildings\castle\ca_wall_tower_base_1_0_nocenter.x
+LOD1 * 100
+LOD2 prefabs\Buildings\castle\lod\ca_wall_tower_base_LOD2_nocenter.X 140
+prefab prefabs\buildings\castle\ca_wall_tower_base_door_1_0_nocenter.x
+LOD1 * 100
+LOD2 prefabs\Buildings\castle\lod\ca_wall_tower_base_LOD2_nocenter.X 140
+prefab prefabs\buildings\castle\ca_wall_gate_1_0_nocenter.x
+LOD1 * 100
+LOD2 prefabs\Buildings\castle\lod\ca_wall_gate_1_0_LOD2_nocenter.X 150
+prefab prefabs\buildings\town_houses\town_hall_wood_nocenter.x
+LOD1 prefabs\Buildings\Town_houses\lod\town_hall_wood_LOD1_nocenter.X 140
+LOD2 prefabs\Buildings\Town_houses\lod\town_hall_wood_LOD2_nocenter.X 150
+prefab prefabs\buildings\garages_stuff\home_fuel_dispenser_nocenter.x
+LOD1 prefabs\Buildings\lod\fuel_dispenser_LOD1_nocenter.X 45
+LOD2 * 100
+prefab prefabs\buildings\wellls\we_stone_fixed_well_1_0_nocenter.x
+LOD1 prefabs\Buildings\wellls\lod\we_stone_fixed_well_1_0_lod1_nocenter.X 25
+LOD2 * 100
+prefab prefabs\buildings\wellls\we_metal_old_shaft_1_0_nocenter.x
+LOD1 prefabs\Buildings\wellls\lod\we_metal_old_shaft_1_0_lod1_nocenter.X 25
+LOD2 * 100
+prefab prefabs\buildings\wellls\we_nylon_fixed_line_1_0_nocenter.x
+LOD1 prefabs\Buildings\wellls\lod\we_nylon_fixed_line_1_0_lod1_nocenter.X 30
+LOD2 * 100
+prefab prefabs\buildings\wellls\we_wood_old_roof_1_1_nocenter.x
+LOD1 prefabs\Buildings\wellls\lod\we_wood_old_roof_1_1_lod1_nocenter.X 25
+LOD2 * 100
+prefab prefabs\buildings\shelters_stuff\workbench_001_nocenter.x
+LOD1 prefabs\Buildings\shelters_stuff\lod\workbench_001_lod1_nocenter.X 35
+LOD2 * 100
+prefab prefabs\buildings\shelters_stuff\metal_cabinet_nocenter.x
+LOD1 prefabs\Buildings\shelters_stuff\lod\metal_cabinet_lod1_nocenter.X 35
+LOD2 * 100
+prefab prefabs\buildings\shelters_stuff\muscle_rack_nocenter.x
+LOD1 prefabs\Buildings\shelters_stuff\lod\Muscle_rack_lod1_nocenter.X 35
+LOD2 * 100
+prefab prefabs\buildings\shelters_stuff\working_board_001_nocenter.x
+LOD1 prefabs\Buildings\shelters_stuff\lod\working_board_001_lod1_nocenter.X 35
+LOD2 * 100
+prefab prefabs\buildings\wellls\we_wood_old_roof_2_1_nocenter.x
+LOD1 prefabs\Buildings\wellls\lod\we_wood_old_roof_2_1_lod1_nocenter.X 30
+LOD2 * 100
+prefab prefabs\buildings\wellls\we_wood_new_roof_2_0_nocenter.x
+LOD1 prefabs\Buildings\wellls\lod\we_wood_new_roof_2_0_lod1_nocenter.X 30
+LOD2 * 100
+prefab prefabs\buildings\shelters_stuff\working_table_003_nocenter.x
+LOD1 prefabs\Buildings\shelters_stuff\lod\working_table_003_lod1_nocenter.X 30
+LOD2 * 100
+prefab prefabs\buildings\shelters_stuff\chair_001_nocenter.x
+LOD1 prefabs\Buildings\shelters_stuff\lod\chair_001_lod1_nocenter.X 35
+LOD2 * 100
+prefab prefabs\buildings\shelters_stuff\muscle_rack_greenhouse_nocenter.x
+LOD1 prefabs\Buildings\shelters_stuff\lod\Muscle_rack_greenhouse_lod1_nocenter.X 40
+LOD2 * 100
+prefab prefabs\buildings\bus_stop\bus_stop_old_metal_nocenter.x
+LOD1 prefabs\Buildings\bus_stop\lod\bus_stop_old_metal_lod1_nocenter.X 40
+LOD2 * 100
+prefab prefabs\buildings\bus_stop\bus_stop_old_nocenter.x
+LOD1 prefabs\Buildings\bus_stop\lod\bus_stop_old_lod1_nocenter.X 50
+LOD2 * 100
+prefab prefabs\buildings\bus_stop\bus_stop_new_nocenter.x
+LOD1 prefabs\Buildings\bus_stop\lod\bus_stop_new_lod1_nocenter.X 50
+LOD2 * 100
+prefab prefabs\buildings\dam\dam_nocenter.x
+LOD1 prefabs\Buildings\Dam\lod\dam_lod1_nocenter.X 90
+LOD2 prefabs\Buildings\Dam\lod\dam_lod2_nocenter.X 400
+prefab prefabs\buildings\dam\dam_building_001_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Dam\lod\dam_building_001_lod2_nocenter.X 50
+prefab prefabs\buildings\dam\dam_building_003_nocenter.x
+LOD1 * 1
+LOD2 prefabs\Buildings\Dam\lod\dam_building_003_lod2_nocenter.X 80
+prefab prefabs\objects\poles\pole_hv_007_nocenter.x
+LOD1 prefabs\Objects\Poles\lod\pole_HV_007_lod1_nocenter.X 70
+LOD2 prefabs\Objects\Poles\lod\pole_HV_003_lod2_nocenter.X 140
+prefab prefabs\objects\poles\pole_hv_003_nocenter.x
+LOD1 prefabs\Objects\Poles\lod\pole_HV_003_lod1_nocenter.X 40
+LOD2 * 100
+prefab prefabs\objects\poles\pole_hv_004_nocenter.x
+LOD1 prefabs\Objects\Poles\lod\pole_HV_004_lod1_nocenter.X 40
+LOD2 prefabs\Objects\Poles\lod\pole_HV_004_lod2_nocenter.X 80
+prefab prefabs\objects\poles\pole_hv_006_nocenter.x
+LOD1 prefabs\Objects\Poles\lod\pole_HV_006_lod1_nocenter.X 40
+LOD2 prefabs\Objects\Poles\lod\pole_HV_006_lod2_nocenter.X 80
+prefab prefabs\objects\poles\pole_hv_002_new_nocenter.x
+LOD1 prefabs\Objects\Poles\lod\pole_HV_002_NEW_lod1_nocenter.X 40
+LOD2 prefabs\Objects\Poles\lod\pole_HV_002_NEW_lod2_nocenter.X 100
+prefab prefabs\objects\poles\pole_hv_001_new_nocenter.x
+LOD1 prefabs\Objects\Poles\lod\pole_HV_001_NEW_lod1_nocenter.X 200
+LOD2 * 300
+prefab prefabs\objects\poles\pole_hv_008_new_nocenter.x
+LOD1 prefabs\Objects\Poles\lod\pole_HV_008_NEW_lod1_nocenter.X 50
+LOD2 prefabs\Objects\Poles\lod\pole_HV_008_NEW_lod2_nocenter.X 150
+prefab prefabs\objects\poles\pole_hv_007_new_nocenter.x
+LOD1 prefabs\Objects\Poles\lod\pole_HV_007_NEW_lod1_nocenter.X 40
+LOD2 prefabs\Objects\Poles\lod\pole_HV_007_NEW_lod2_nocenter.X 60
+prefab prefabs\objects\poles\pole_hv_003_new_nocenter.x
+LOD1 prefabs\Objects\Poles\lod\pole_HV_003_NEW_lod1_nocenter.X 40
+LOD2 prefabs\Objects\Poles\lod\pole_HV_003_NEW_lod2_nocenter.X 60
+prefab prefabs\buildings\town_houses\town_building_wood_002_nocenter.x
+LOD1 prefabs\Buildings\Town_houses\lod\town_building_wood_002_lod1_nocenter.X 45
+LOD2 prefabs\Buildings\Town_houses\lod\town_building_wood_002_lod2_nocenter.X 90
+prefab prefabs\buildings\town_houses\town_building_002_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Town_houses\lod\town_building_002_lod2_nocenter.X 150
+prefab prefabs\buildings\town_houses\town_building_008_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Town_houses\lod\town_building_008_lod2_nocenter.X 200
+prefab prefabs\buildings\town_houses\town_building_wood_004_nocenter.x
+LOD1 prefabs\Buildings\Town_houses\lod\town_building_wood_004_lod1_nocenter.X 20
+LOD2 prefabs\Buildings\Town_houses\lod\town_building_wood_004_lod2_nocenter.X 80
+prefab prefabs\buildings\town_houses\cloakroom_nocenter.x
+LOD1 prefabs\Buildings\Town_houses\lod\cloakroom_lod1_nocenter.X 45
+LOD2 * 100
+prefab prefabs\buildings\town_houses\lifeguard_tower_nocenter.x
+LOD1 prefabs\Buildings\Town_houses\lod\lifeguard_tower_LOD1_nocenter.X 35
+LOD2 prefabs\Buildings\Town_houses\lod\lifeguard_tower_LOD2_nocenter.X 80
+prefab prefabs\buildings\town_houses\town_hall_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Town_houses\lod\town_hall_lod2_nocenter.X 50
+prefab prefabs\buildings\town_houses\town_building_001_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Town_houses\lod\town_building_001_lod2_nocenter.X 100
+prefab prefabs\buildings\town_houses\town_building_wood_001_nocenter.x
+LOD1 prefabs\Buildings\Town_houses\lod\town_building_wood_001_lod1_nocenter.X 40
+LOD2 prefabs\Buildings\Town_houses\lod\town_building_wood_001_lod2_nocenter.X 90
+prefab prefabs\buildings\town_houses\town_building_004_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Town_houses\lod\town_building_004_lod2_nocenter.X 80
+prefab prefabs\buildings\town_houses\town_building_007_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Town_houses\lod\town_building_007_lod2_nocenter.X 190
+prefab prefabs\objects\poles\pole_concrete_001_nocenter.x
+LOD1 prefabs\Objects\Poles\pole_concrete_001_new_nocenter.X 75
+LOD2 * 100
+prefab prefabs\objects\poles\pole_concrete_002_nocenter.x
+LOD1 prefabs\Objects\Poles\lod\pole_concrete_002_lod1_nocenter.X 45
+LOD2 * 100
+prefab prefabs\buildings\town_houses\town_building_003_nocenter.x
+LOD1 prefabs\Buildings\Town_houses\lod\town_building_003_lod1_nocenter.X 50
+LOD2 * 100
+prefab prefabs\buildings\town_houses\town_building_shutters_001_nocenter.x
+LOD1 prefabs\Buildings\Town_houses\lod\town_building_shutters_001_Lod1_nocenter.X 29
+LOD2 * 100
+prefab prefabs\objects\poles\pole_wood_001_nocenter.x
+LOD1 prefabs\Objects\Poles\lod\pole_wood_001_lod1_nocenter.X 40
+LOD2 * 100
+prefab prefabs\trees\tree_birch03_nocenter.x
+LOD1 prefabs\trees\LOD\tree_birch03_lod1_nocenter.X 40
+LOD2 * 100
+prefab prefabs\trees\tree_birch02_nocenter.x
+LOD1 prefabs\trees\LOD\tree_birch02_lod1_nocenter.X 30
+LOD2 * 100
+prefab prefabs\trees\tree_birch01_nocenter.x
+LOD1 prefabs\trees\LOD\tree_birch01_lod1_nocenter.X 30
+LOD2 * 100
+prefab prefabs\objects\fruit_boxes\fruit_box_apple_nocenter.x
+LOD1 prefabs\Objects\fruit_boxes\lod\fruit_box_apple_lod1_nocenter.X 30
+LOD2 * 100
+prefab prefabs\buildings\garages\ga_ceramic_fixed_roof1_1_3_nocenter.x
+LOD1 prefabs\Buildings\garages\lod\ga_ceramic_fixed_roof1_1_2_lod1_nocenter.X 50
+LOD2 * 100
+prefab prefabs\buildings\garages\ga_ceramic_fixed_roof1_1_4_nocenter.x
+LOD1 prefabs\Buildings\garages\lod\ga_ceramic_fixed_roof1_1_2_lod1_nocenter.X 50
+LOD2 * 100
+prefab prefabs\buildings\garages\ga_ceramic_fixed_roof1_1_2_nocenter.x
+LOD1 prefabs\Buildings\garages\lod\ga_ceramic_fixed_roof1_1_2_lod1_nocenter.X 50
+LOD2 * 100
+prefab prefabs\buildings\garages\ga_ceramic_fixed_roof1_1_1_nocenter.x
+LOD1 prefabs\Buildings\garages\lod\ga_ceramic_fixed_roof1_1_2_lod1_nocenter.X 50
+LOD2 * 100
+prefab prefabs\buildings\garages\ga_ceramic_fixed_roof3_3_1_nocenter.x
+LOD1 prefabs\Buildings\garages\lod\ga_ceramic_fixed_roof1_1_2_lod1_nocenter.X 75
+LOD2 * 100
+prefab prefabs\buildings\garages\ga_ceramic_fixed_roof3_4_1_nocenter.x
+LOD1 prefabs\Buildings\garages\lod\ga_ceramic_fixed_roof1_1_2_lod1_nocenter.X 75
+LOD2 * 100
+prefab prefabs\buildings\garages\ga_ceramic_fixed_roof3_2_1_nocenter.x
+LOD1 prefabs\Buildings\garages\lod\ga_ceramic_fixed_roof1_1_2_lod1_nocenter.X 75
+LOD2 * 100
+prefab prefabs\buildings\garages\ga_ceramic_fixed_roof3_1_1_nocenter.x
+LOD1 prefabs\Buildings\garages\lod\ga_ceramic_fixed_roof1_1_2_lod1_nocenter.X 75
+LOD2 * 100
+prefab prefabs\buildings\garages\ga_ceramic_old_roof3_3_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\garages\lod\ga_ceramic_fixed_roof1_1_2_lod1_nocenter.X 120
+prefab prefabs\buildings\garages\ga_ceramic_old_roof3_4_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\garages\lod\ga_ceramic_fixed_roof1_1_2_lod1_nocenter.X 120
+prefab prefabs\buildings\garages\ga_ceramic_old_roof3_2_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\garages\lod\ga_ceramic_fixed_roof1_1_2_lod1_nocenter.X 130
+prefab prefabs\buildings\garages\ga_ceramic_old_roof3_1_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\garages\lod\ga_ceramic_fixed_roof1_1_2_lod1_nocenter.X 120
+prefab prefabs\buildings\barns\bn_bitumen_fixed_roof_3_4_nocenter.x
+LOD1 prefabs\Buildings\PlayerHouse_old\lod\bn_bitumen_fixed_roof_3_1_lod1_nocenter.X 40
+LOD2 * 100
+prefab prefabs\buildings\barns\bn_bitumen_fixed_roof_3_2_nocenter.x
+LOD1 prefabs\Buildings\PlayerHouse_old\lod\bn_bitumen_fixed_roof_3_1_lod1_nocenter.X 40
+LOD2 * 100
+prefab prefabs\buildings\barns\bn_bitumen_fixed_roof_3_1_nocenter.x
+LOD1 prefabs\Buildings\PlayerHouse_old\lod\bn_bitumen_fixed_roof_3_1_lod1_nocenter.X 40
+LOD2 * 100
+prefab prefabs\buildings\barns\bn_bitumen_fixed_roof_3_3_nocenter.x
+LOD1 prefabs\Buildings\PlayerHouse_old\lod\bn_bitumen_fixed_roof_3_1_lod1_nocenter.X 40
+LOD2 * 100
+prefab prefabs\buildings\barns\bn_bitumen_old_roof_4_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\PlayerHouse_old\lod\bn_bitumen_old_roof_lod2_nocenter.X 200
+prefab prefabs\buildings\barns\bn_bitumen_old_roof_4_3_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\PlayerHouse_old\lod\bn_bitumen_old_roof_lod2_nocenter.X 200
+prefab prefabs\buildings\barns\bn_bitumen_old_roof_4_2_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\PlayerHouse_old\lod\bn_bitumen_old_roof_lod2_nocenter.X 200
+prefab prefabs\buildings\barns\bn_bitumen_old_roof_4_4_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\PlayerHouse_old\lod\bn_bitumen_old_roof_lod2_nocenter.X 200
+prefab prefabs\buildings\silo\si_metal_fixed_blower_3_1_nocenter.x
+LOD1 prefabs\Buildings\Silo\lod\si_metal_fixed_blower_3_1_lod1_nocenter.X 10
+LOD2 prefabs\Buildings\Silo\lod\si_metal_fixed_blower_3_1_lod2_nocenter.X 25
+prefab prefabs\buildings\silo\si_concrete_fixed_platform_1_1_nocenter.x
+LOD1 prefabs\Buildings\Silo\lod\si_concrete_fixed_platform_1_1_lod1_nocenter.X 60
+LOD2 * 100
+prefab prefabs\buildings\silo\si_concrete_new_platform_1_1_nocenter.x
+LOD1 prefabs\Buildings\Silo\lod\si_concrete_new_platform_1_1_lod1_nocenter.X 60
+LOD2 * 100
+prefab prefabs\buildings\silo\si_metal_fixed_blower_4_1_nocenter.x
+LOD1 prefabs\Buildings\Silo\lod\si_metal_fixed_blower_4_1_lod1_nocenter.X 50
+LOD2 * 100
+prefab prefabs\buildings\silo\si_metal_new_blower_4_1_nocenter.x
+LOD1 prefabs\Buildings\Silo\lod\si_metal_new_blower_4_1_lod1_nocenter.X 15
+LOD2 prefabs\Buildings\Silo\lod\si_metal_new_blower_4_1_lod2_nocenter.X 30
+prefab prefabs\buildings\silo\si_metal_fixed_blower_1_2_nocenter.x
+LOD1 prefabs\Buildings\Silo\lod\si_metal_fixed_blower_1_2_lod1_nocenter.X 19
+LOD2 prefabs\Buildings\Silo\lod\si_metal_fixed_blower_1_2_lod2_nocenter.X 40
+prefab prefabs\buildings\silo\si_metal_new_blower_1_2_nocenter.x
+LOD1 prefabs\Buildings\Silo\lod\si_metal_new_blower_1_2_lod1_nocenter.X 19
+LOD2 prefabs\Buildings\Silo\lod\si_metal_new_blower_1_2_lod2_nocenter.X 40
+prefab prefabs\buildings\silo\si_wood_fixed_lid_1_1_nocenter.x
+LOD1 prefabs\Buildings\Silo\lod\si_wood_fixed_lid_1_1_lod1_nocenter.X 10
+LOD2 * 100
+prefab prefabs\buildings\silo\si_wood_new_lid_1_1_nocenter.x
+LOD1 prefabs\Buildings\Silo\lod\si_wood_new_lid_1_1_lod1_nocenter.X 30
+LOD2 * 100
+prefab prefabs\objects\fruit_boxes\fruit_box_watermelon_nocenter.x
+LOD1 prefabs\Objects\fruit_boxes\lod\fruit_box_watermelon_lod1_nocenter.X 30
+LOD2 * 100
+prefab prefabs\buildings\silo\si_wood_fixed_wall_middle_1_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Silo\lod\si_wood_fixed_lift_wall_lod2_nocenter.X 60
+prefab prefabs\buildings\silo\si_wood_fixed_roof_1_2_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Silo\lod\si_wood_fixed_roof_lod_nocenter.X 120
+prefab prefabs\buildings\silo\si_wood_old_roof_1_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Silo\lod\si_wood_fixed_roof_lod_nocenter.X 120
+prefab prefabs\buildings\silo\si_wood_fixed_roof_1_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Silo\lod\si_wood_fixed_roof_lod_nocenter.X 120
+prefab prefabs\buildings\cowshed\cs_bitumen_old_roof_middle_2_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_old_roof_lod2_nocenter.X 120
+prefab prefabs\buildings\cowshed\cs_bitumen_old_roof_middle_3_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_old_roof_lod2_nocenter.X 200
+prefab prefabs\buildings\cowshed\cs_bitumen_old_roof_middle_1_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_old_roof_lod2_nocenter.X 200
+prefab prefabs\buildings\cowshed\cs_bitumen_old_roof_bottom_1_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_old_roof_lod2_nocenter.X 200
+prefab prefabs\buildings\cowshed\cs_bitumen_old_roof_bottom_2_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_old_roof_lod2_nocenter.X 200
+prefab prefabs\buildings\cowshed\cs_bitumen_old_roof_top_4_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_old_roof_lod2_nocenter.X 200
+prefab prefabs\buildings\cowshed\cs_bitumen_old_roof_top_3_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_old_roof_lod2_nocenter.X 200
+prefab prefabs\buildings\cowshed\cs_bitumen_old_roof_bottom_3_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_old_roof_lod2_nocenter.X 200
+prefab prefabs\buildings\cowshed\cs_bitumen_old_roof_bottom_4_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_old_roof_lod2_nocenter.X 200
+prefab prefabs\buildings\cowshed\cs_bitumen_old_roof_top_1_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_old_roof_lod2_nocenter.X 200
+prefab prefabs\buildings\cowshed\cs_bitumen_new_roof_1_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_newroof_lod_nocenter.X 50
+prefab prefabs\buildings\cowshed\cs_bitumen_old_roof_edge_1_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_newroof_lod_nocenter.X 100
+prefab prefabs\buildings\cowshed\cs_bitumen_old_roof_edge_3_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_newroof_lod_nocenter.X 100
+prefab prefabs\buildings\cowshed\cs_bitumen_old_roof_edge_2_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_newroof_lod_nocenter.X 100
+prefab prefabs\buildings\cowshed\cs_bitumen_old_roof_edge_4_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_newroof_lod_nocenter.X 100
+prefab prefabs\buildings\cowshed\cs_bitumen_old_roof_middle_4_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_old_roof_lod2_nocenter.X 200
+prefab prefabs\buildings\cowshed\cs_bitumen_fixed_roof_edge_3_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_newroof_lod_nocenter.X 200
+prefab prefabs\buildings\cowshed\cs_bitumen_fixed_roof_edge_1_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_newroof_lod_nocenter.X 150
+prefab prefabs\buildings\cowshed\cs_bitumen_fixed_roof_edge_2_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_old_roof_lod2_nocenter.X 150
+prefab prefabs\buildings\cowshed\cs_bitumen_fixed_roof_edge_4_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_newroof_lod_nocenter.X 150
+prefab prefabs\buildings\cowshed\cs_bitumen_new_roof2_1_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_new_roof2_lod_nocenter.X 50
+prefab prefabs\buildings\cowshed\cs_bitumen_old_roof2_edge_3_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_new_roof2_lod_nocenter.X 100
+prefab prefabs\buildings\cowshed\cs_bitumen_old_roof_edge2_1_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_new_roof2_lod_nocenter.X 100
+prefab prefabs\buildings\cowshed\cs_bitumen_old_roof_edge2_2_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_new_roof2_lod_nocenter.X 100
+prefab prefabs\buildings\cowshed\cs_bitumen_old_roof2_edge_4_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_new_roof2_lod_nocenter.X 100
+prefab prefabs\buildings\cowshed\cs_bitumen_fixed_roof_edge2_2_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_new_roof2_lod_nocenter.X 100
+prefab prefabs\buildings\cowshed\cs_bitumen_fixed_roof2_edge_4_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_new_roof2_lod_nocenter.X 100
+prefab prefabs\buildings\cowshed\cs_bitumen_old_roof2_top_1_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_new_roof2_lod_nocenter.X 150
+prefab prefabs\buildings\cowshed\cs_bitumen_old_roof2_top_2_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_new_roof2_lod_nocenter.X 150
+prefab prefabs\buildings\cowshed\cs_bitumen_old_roof2_top_3_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_new_roof2_lod_nocenter.X 150
+prefab prefabs\buildings\cowshed\cs_bitumen_old_roof2_bottom_2_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_old_roof_lod2_nocenter.X 250
+prefab prefabs\buildings\cowshed\cs_bitumen_old_roof2_bottom_1_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_old_roof_lod2_nocenter.X 250
+prefab prefabs\buildings\cowshed\cs_bitumen_old_roof2_bottom_3_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_new_roof2_lod_nocenter.X 200
+prefab prefabs\buildings\cowshed\cs_bitumen_fixed_roof2_top_3_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_new_roof2_lod_nocenter.X 200
+prefab prefabs\buildings\cowshed\cs_bitumen_fixed_roof2_top_2_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_new_roof2_lod_nocenter.X 200
+prefab prefabs\buildings\cowshed\cs_bitumen_fixed_roof2_top_1_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_new_roof2_lod_nocenter.X 200
+prefab prefabs\buildings\cowshed\cs_bitumen_fixed_roof2_bottom_3_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_new_roof2_lod_nocenter.X 250
+prefab prefabs\buildings\barns\bn_bitumen_new_roof_1_1_nocenter.x
+LOD1 * 10
+LOD2 prefabs\Buildings\barns\lod\bn_bitumen_new_roof_lod_nocenter.X 30
+prefab prefabs\buildings\barns\bn_bitumen_new_roof_2_1_nocenter.x
+LOD1 * 20
+LOD2 prefabs\Buildings\barns\lod\bn_bitumen_new_roof_lod_nocenter.X 30
+prefab prefabs\buildings\barns\bn_bitumen_old_roof_edge_1_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_bitumen_new_roof_lod_nocenter.X 80
+prefab prefabs\buildings\barns\bn_bitumen_old_roof_edge_2_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_bitumen_new_roof_lod_nocenter.X 80
+prefab prefabs\buildings\barns\bn_bitumen_old_roof_edge_3_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_bitumen_new_roof_lod_nocenter.X 80
+prefab prefabs\buildings\barns\bn_bitumen_fixed_roof_edge_1_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_bitumen_new_roof_lod_nocenter.X 100
+prefab prefabs\buildings\barns\bn_bitumen_fixed_roof_edge_2_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_bitumen_new_roof_lod_nocenter.X 100
+prefab prefabs\buildings\barns\bn_bitumen_fixed_roof_edge_3_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_bitumen_new_roof_lod_nocenter.X 100
+prefab prefabs\buildings\barns\bn_bitumen_old_roof_bottom_4_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_bitumen_new_roof_lod_nocenter.X 100
+prefab prefabs\buildings\barns\bn_bitumen_old_roof_bottom_1_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_bitumen_new_roof_lod_nocenter.X 100
+prefab prefabs\buildings\barns\bn_bitumen_old_roof_middle_1_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_bitumen_new_roof_lod_nocenter.X 150
+prefab prefabs\buildings\barns\bn_bitumen_old_roof_top_1_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_bitumen_new_roof_lod_nocenter.X 100
+prefab prefabs\buildings\barns\bn_bitumen_old_roof_top_2_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_bitumen_new_roof_lod_nocenter.X 200
+prefab prefabs\buildings\barns\bn_bitumen_old_roof_middle_2_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_bitumen_new_roof_lod_nocenter.X 200
+prefab prefabs\buildings\barns\bn_bitumen_old_roof_bottom_2_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_bitumen_new_roof_lod_nocenter.X 200
+prefab prefabs\buildings\barns\bn_bitumen_old_roof_middle_4_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_bitumen_new_roof_lod_nocenter.X 230
+prefab prefabs\buildings\barns\bn_bitumen_old_roof_top_4_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_bitumen_new_roof_lod_nocenter.X 230
+prefab prefabs\buildings\barns\bn_bitumen_fixed_roof_top_1_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_bitumen_new_roof_lod_nocenter.X 200
+prefab prefabs\buildings\barns\bn_wood_fixed_wall_1_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_wood_old_wall_1_1_lod2_nocenter.X 100
+prefab prefabs\buildings\barns\bn_wood_fixed_wall_2_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_wood_old_wall_1_1_lod2_nocenter.X 100
+prefab prefabs\buildings\barns\bn_wood_new_wall_1_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_wood_new_wall_1_1_lod2_nocenter.X 100
+prefab prefabs\buildings\barns\bn_wood_new_wall_2_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_wood_new_wall_1_1_lod2_nocenter.X 100
+prefab prefabs\buildings\barns\bn_wood_new_wall_corner_1_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_wood_new_wall_corner_1_1_lod1_nocenter.X 100
+prefab prefabs\buildings\barns\bn_wood_fixed_wall_door_1_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_wood_old_wall_1_1_lod2_nocenter.X 100
+prefab prefabs\buildings\barns\bn_wood_new_wall_door_1_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_wood_new_wall_1_1_lod2_nocenter.X 100
+prefab prefabs\buildings\barns\bn_wood_fixed_wall_door_1_2_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_wood_old_wall_1_1_lod2_nocenter.X 150
+prefab prefabs\buildings\barns\bn_wood_old_wall_1_2_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_wood_old_wall_1_1_lod2_nocenter.X 200
+prefab prefabs\buildings\barns\bn_wood_old_wall_2_2_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_wood_old_wall_1_1_lod2_nocenter.X 200
+prefab prefabs\buildings\barns\bn_wood_fixed_wall_1_2_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_wood_old_wall_1_1_lod2_nocenter.X 150
+prefab prefabs\buildings\barns\bn_wood_fixed_wall_2_2_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_wood_old_wall_1_1_lod2_nocenter.X 150
+prefab prefabs\buildings\barns\bn_wood_old_wall_2_3_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_wood_old_wall_1_1_lod2_nocenter.X 170
+prefab prefabs\buildings\barns\bn_wood_old_wall_1_3_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_wood_old_wall_1_1_lod2_nocenter.X 180
+prefab prefabs\buildings\barns\bn_wood_fixed_wall_1_3_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_wood_old_wall_1_1_lod2_nocenter.X 200
+prefab prefabs\buildings\barns\bn_wood_fixed_wall_2_3_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_wood_old_wall_1_1_lod2_nocenter.X 100
+prefab prefabs\buildings\barns\bn_wood_old_wall_corner_1_2_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_wood_old_wall_corner_1_1_lod1_nocenter.X 150
+prefab prefabs\buildings\barns\bn_wood_fixed_wall_corner_1_2_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_wood_old_wall_corner_1_1_lod1_nocenter.X 150
+prefab prefabs\buildings\barns\bn_wood_old_wall_corner_1_3_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_wood_old_wall_corner_1_1_lod1_nocenter.X 200
+prefab prefabs\buildings\barns\bn_wood_fixed_wall_corner_1_3_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_wood_old_wall_corner_1_1_lod1_nocenter.X 200
+prefab prefabs\buildings\barns\bn_wood_old_wall_1_5_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_wood_old_wall_1_1_lod2_nocenter.X 250
+prefab prefabs\buildings\barns\bn_wood_fixed_wall_1_5_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_wood_old_wall_1_1_lod2_nocenter.X 200
+prefab prefabs\buildings\barns\bn_wood_fixed_wall_2_6_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_wood_old_wall_1_1_lod2_nocenter.X 250
+prefab prefabs\buildings\barns\bn_wood_old_wall_2_6_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_wood_old_wall_1_1_lod2_nocenter.X 250
+prefab prefabs\buildings\barns\bn_wood_fixed_wall_2_5_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_wood_old_wall_1_1_lod2_nocenter.X 250
+prefab prefabs\buildings\barns\bn_wood_old_wall_2_5_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_wood_old_wall_1_1_lod2_nocenter.X 250
+prefab prefabs\buildings\barns\bn_wood_fixed_wall_2_4_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_wood_old_wall_1_1_lod2_nocenter.X 250
+prefab prefabs\buildings\barns\bn_wood_fixed_wall_1_4_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_wood_old_wall_1_1_lod2_nocenter.X 250
+prefab prefabs\buildings\barns\bn_wood_old_wall_1_4_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_wood_old_wall_1_1_lod2_nocenter.X 250
+prefab prefabs\buildings\barns\bn_wood_old_wall_2_4_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_wood_old_wall_1_1_lod2_nocenter.X 250
+prefab prefabs\buildings\barns\bn_wood_fixed_wall_corner_1_5_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_wood_old_wall_corner_1_1_lod1_nocenter.X 200
+prefab prefabs\buildings\barns\bn_wood_old_wall_corner_1_5_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_wood_old_wall_corner_1_1_lod1_nocenter.X 250
+prefab prefabs\buildings\barns\bn_wood_fixed_wall_corner_1_4_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_wood_old_wall_corner_1_1_lod1_nocenter.X 250
+prefab prefabs\buildings\barns\bn_wood_old_wall_corner_1_4_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\barns\lod\bn_wood_old_wall_corner_1_1_lod1_nocenter.X 250
+prefab prefabs\buildings\garages\ga_concrete_new_wall_1_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\garages\lod\ga_concrete_new_wall_1_1_lod2_nocenter.X 200
+prefab prefabs\buildings\garages\ga_concrete_fixed_wall_1_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\garages\lod\ga_concrete_new_wall_1_1_lod2_nocenter.X 200
+prefab prefabs\buildings\garages\ga_concrete_old_wall_1_3_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\garages\lod\ga_concrete_new_wall_1_1_lod2_nocenter.X 250
+prefab prefabs\buildings\garages\ga_concrete_old_wall_1_2_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\garages\lod\ga_concrete_new_wall_1_1_lod2_nocenter.X 200
+prefab prefabs\buildings\garages\ga_concrete_fixed_wall_1_2_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\garages\lod\ga_concrete_new_wall_1_1_lod2_nocenter.X 250
+prefab prefabs\buildings\garages\ga_concrete_old_wall_1_4_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\garages\lod\ga_concrete_new_wall_1_1_lod2_nocenter.X 200
+prefab prefabs\buildings\garages\ga_concrete_fixed_wall_1_4_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\garages\lod\ga_concrete_new_wall_1_1_lod2_nocenter.X 200
+prefab prefabs\buildings\garages\ga_concrete_old_wall_1_5_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\garages\lod\ga_concrete_new_wall_1_1_lod2_nocenter.X 200
+prefab prefabs\buildings\garages\ga_concrete_fixed_wall_1_5_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\garages\lod\ga_concrete_new_wall_1_1_lod2_nocenter.X 200
+prefab prefabs\buildings\garages\ga_concrete_old_wall_1_6_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\garages\lod\ga_concrete_new_wall_1_1_lod2_nocenter.X 200
+prefab prefabs\buildings\garages\ga_concrete_fixed_wall_1_6_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\garages\lod\ga_concrete_new_wall_1_1_lod2_nocenter.X 200
+prefab prefabs\buildings\garages\ga_ceramic_new_roof2_1_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\garages\lod\ga_ceramic_new_roof2_1_1_lod2_nocenter.X 42
+prefab prefabs\buildings\garages\ga_ceramic_old_roof2_4_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\garages\lod\ga_ceramic_new_roof2_1_1_lod2_nocenter.X 250
+prefab prefabs\buildings\garages\ga_ceramic_old_roof2_1_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\garages\lod\ga_ceramic_new_roof2_1_1_lod2_nocenter.X 200
+prefab prefabs\buildings\garages\ga_ceramic_old_roof2_3_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\garages\lod\ga_ceramic_new_roof2_1_1_lod2_nocenter.X 250
+prefab prefabs\buildings\garages\ga_ceramic_new_roof_3_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\garages\lod\ga_ceramic_new_roof_3_1_lod1_nocenter.X 50
+prefab prefabs\buildings\garages\ga_ceramic_old_roof_edge_3_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\garages\lod\ga_ceramic_new_roof_3_1_lod1_nocenter.X 200
+prefab prefabs\buildings\garages\ga_ceramic_fixed_roof_edge_3_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\garages\lod\ga_ceramic_new_roof_3_1_lod1_nocenter.X 200
+prefab prefabs\buildings\garages\ga_ceramic_fixed_roof_edge_3_2_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\garages\lod\ga_ceramic_new_roof_3_1_lod1_nocenter.X 200
+prefab prefabs\buildings\garages\ga_ceramic_old_roof_edge_3_2_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\garages\lod\ga_ceramic_new_roof_3_1_lod1_nocenter.X 200
+prefab prefabs\buildings\garages\ga_ceramic_old_roof_edge_3_3_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\garages\lod\ga_ceramic_new_roof_3_1_lod1_nocenter.X 200
+prefab prefabs\buildings\garages\ga_ceramic_fixed_roof_edge_3_3_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\garages\lod\ga_ceramic_new_roof_3_1_lod1_nocenter.X 200
+prefab prefabs\buildings\garages\ga_ceramic_old_roof_edge_3_4_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\garages\lod\ga_ceramic_new_roof_3_1_lod1_nocenter.X 200
+prefab prefabs\buildings\garages\ga_ceramic_fixed_roof_edge_3_4_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\garages\lod\ga_ceramic_new_roof_3_1_lod1_nocenter.X 200
+prefab prefabs\buildings\garages\ga_ceramic_old_roof_3_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\garages\lod\ga_ceramic_new_roof_3_1_lod1_nocenter.X 200
+prefab prefabs\buildings\garages\ga_ceramic_fixed_roof_3_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\garages\lod\ga_ceramic_new_roof_3_1_lod1_nocenter.X 200
+prefab prefabs\buildings\garages\ga_ceramic_new_roof_1_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\garages\lod\ga_ceramic_new_roof_1_1_lod1_nocenter.X 50
+prefab prefabs\buildings\garages\ga_ceramic_fixed_roof_edge_1_4_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\garages\lod\ga_ceramic_new_roof_1_1_lod1_nocenter.X 180
+prefab prefabs\buildings\garages\ga_ceramic_fixed_roof_edge_1_2_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\garages\lod\ga_ceramic_new_roof_1_1_lod1_nocenter.X 180
+prefab prefabs\buildings\garages\ga_ceramic_fixed_roof_edge_1_3_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\garages\lod\ga_ceramic_new_roof_1_1_lod1_nocenter.X 180
+prefab prefabs\buildings\garages\ga_ceramic_fixed_roof_edge_1_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\garages\lod\ga_ceramic_new_roof_1_1_lod1_nocenter.X 180
+prefab prefabs\buildings\garages\ga_ceramic_old_roof_edge_1_4_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\garages\lod\ga_ceramic_new_roof_1_1_lod1_nocenter.X 180
+prefab prefabs\buildings\garages\ga_ceramic_old_roof_edge_1_2_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\garages\lod\ga_ceramic_new_roof_1_1_lod1_nocenter.X 180
+prefab prefabs\buildings\garages\ga_ceramic_old_roof_edge_1_3_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\garages\lod\ga_ceramic_new_roof_1_1_lod1_nocenter.X 180
+prefab prefabs\buildings\garages\ga_ceramic_old_roof_edge_1_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\garages\lod\ga_ceramic_new_roof_1_1_lod1_nocenter.X 180
+prefab prefabs\buildings\garages\ga_ceramic_old_roof_bottom_1_4_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\garages\lod\ga_ceramic_new_roof_1_1_lod1_nocenter.X 200
+prefab prefabs\buildings\garages\ga_ceramic_old_roof_top_1_4_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\garages\lod\ga_ceramic_new_roof_1_1_lod1_nocenter.X 200
+prefab prefabs\buildings\garages\ga_ceramic_old_roof_bottom_1_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\garages\lod\ga_ceramic_new_roof_1_1_lod1_nocenter.X 200
+prefab prefabs\buildings\garages\ga_ceramic_old_roof_top_1_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\garages\lod\ga_ceramic_new_roof_1_1_lod1_nocenter.X 200
+prefab prefabs\buildings\garages\ga_ceramic_old_roof_bottom_1_2_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\garages\lod\ga_ceramic_new_roof_1_1_lod1_nocenter.X 250
+prefab prefabs\buildings\garages\ga_ceramic_old_roof_bottom_1_3_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\garages\lod\ga_ceramic_new_roof_1_1_lod1_nocenter.X 250
+prefab prefabs\buildings\garages\ga_ceramic_old_roof_top_1_3_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\garages\lod\ga_ceramic_new_roof_1_1_lod1_nocenter.X 250
+prefab prefabs\buildings\garages\ga_ceramic_old_roof_top_1_2_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\garages\lod\ga_ceramic_new_roof_1_1_lod1_nocenter.X 200
+prefab prefabs\buildings\shop_mini\shop_mini_floor_nocenter.x
+LOD1 prefabs\Buildings\Shop_mini\lod\shopminifloor_lod1_nocenter.X 70
+LOD2 * 100
+prefab prefabs\buildings\cowshed\cs_bitumen_new_roof3_1_0_nocenter.x
+LOD1 * 1
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_new_roof3_1_0_lod2_nocenter.X 50
+prefab prefabs\buildings\cowshed\cs_bitumen_new_roof3_3_0_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_new_roof3_1_0_lod2_nocenter.X 50
+prefab prefabs\buildings\cowshed\cs_bitumen_new_roof3_4_0_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_new_roof3_1_0_lod2_nocenter.X 50
+prefab prefabs\buildings\cowshed\cs_bitumen_new_roof3_2_0_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_new_roof3_1_0_lod2_nocenter.X 50
+prefab prefabs\buildings\cowshed\cs_bitumen_fixed_roof3_3_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_new_roof3_1_0_lod2_nocenter.X 300
+prefab prefabs\buildings\cowshed\cs_bitumen_fixed_roof3_1_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_new_roof3_1_0_lod2_nocenter.X 300
+prefab prefabs\buildings\cowshed\cs_bitumen_fixed_roof3_2_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_new_roof3_1_0_lod2_nocenter.X 300
+prefab prefabs\buildings\cowshed\cs_bitumen_fixed_roof3_4_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_new_roof3_1_0_lod2_nocenter.X 300
+prefab prefabs\buildings\cowshed\cs_bitumen_old_roof3_3_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_new_roof3_1_0_lod2_nocenter.X 250
+prefab prefabs\buildings\cowshed\cs_bitumen_old_roof3_1_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_new_roof3_1_0_lod2_nocenter.X 250
+prefab prefabs\buildings\cowshed\cs_bitumen_old_roof3_4_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_new_roof3_1_0_lod2_nocenter.X 250
+prefab prefabs\buildings\cowshed\cs_bitumen_old_roof3_2_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Cowshed\lod\cs_bitumen_new_roof3_1_0_lod2_nocenter.X 250
+prefab prefabs\buildings\shop_mini\shop_mini_wall_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Shop_mini\lod\shopminifloor_lod2_nocenter.X 65
+prefab prefabs\buildings\playerhouse_old\hs_wood_fixed_roof_innerside_1_0_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\PlayerHouse_old\lod\hs_wood_old_roof_innerside_2_4_lod2_nocenter.X 200
+prefab prefabs\buildings\playerhouse_old\hs_wood_old_roof_innerside_2_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\PlayerHouse_old\lod\hs_wood_old_roof_innerside_2_4_lod2_nocenter.X 230
+prefab prefabs\buildings\playerhouse_old\hs_wood_old_roof_innerside_3_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\PlayerHouse_old\lod\hs_wood_old_roof_innerside_2_4_lod2_nocenter.X 220
+prefab prefabs\buildings\playerhouse_old\hs_wood_old_roof_innerside_1_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\PlayerHouse_old\lod\hs_wood_old_roof_innerside_2_4_lod2_nocenter.X 250
+prefab prefabs\buildings\playerhouse_old\hs_wood_fixed_roof_innerside_3_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\PlayerHouse_old\lod\hs_wood_old_roof_innerside_2_4_lod2_nocenter.X 250
+prefab prefabs\buildings\playerhouse_old\hs_wood_old_roof_innerside_3_2_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\PlayerHouse_old\lod\hs_wood_old_roof_innerside_2_4_lod2_nocenter.X 420
+prefab prefabs\buildings\playerhouse_old\hs_wood_old_roof_innerside_2_2_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\PlayerHouse_old\lod\hs_wood_old_roof_innerside_2_4_lod2_nocenter.X 420
+prefab prefabs\buildings\playerhouse_old\hs_wood_old_roof_innerside_1_2_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\PlayerHouse_old\lod\hs_wood_old_roof_innerside_2_4_lod2_nocenter.X 420
+prefab prefabs\buildings\playerhouse_old\hs_wood_fixed_roof_innerside_1_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\PlayerHouse_old\lod\hs_wood_old_roof_innerside_2_4_lod2_nocenter.X 250
+prefab prefabs\buildings\playerhouse_old\hs_wood_old_roof_innerside_2_3_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\PlayerHouse_old\lod\hs_wood_old_roof_innerside_2_4_lod2_nocenter.X 420
+prefab prefabs\buildings\playerhouse_old\hs_wood_old_roof_innerside_1_3_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\PlayerHouse_old\lod\hs_wood_old_roof_innerside_2_4_lod2_nocenter.X 420
+prefab prefabs\buildings\playerhouse_old\hs_wood_old_roof_innerside_1_4_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\PlayerHouse_old\lod\hs_wood_old_roof_innerside_2_4_lod2_nocenter.X 420
+prefab prefabs\buildings\playerhouse_old\hs_wood_old_roof_innerside_2_4_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\PlayerHouse_old\lod\hs_wood_old_roof_innerside_2_4_lod2_nocenter.X 340
+prefab prefabs\buildings\playerhouse_old\hs_wood_old_roof_innerside_3_4_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\PlayerHouse_old\lod\hs_wood_old_roof_innerside_2_4_lod2_nocenter.X 720
+prefab prefabs\buildings\playerhouse_old\hs_wood_old_roof_innerside_3_3_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\PlayerHouse_old\lod\hs_wood_old_roof_innerside_2_4_lod2_nocenter.X 420
+prefab prefabs\buildings\playerhouse_old\hs_wood_fixed_roof_innerside_2_3_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\PlayerHouse_old\lod\hs_wood_old_roof_innerside_lod2_nocenter.X 222
+prefab prefabs\buildings\playerhouse_old\hs_wood_fixed_roof_innerside_3_3_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\PlayerHouse_old\lod\hs_wood_old_roof_innerside_lod2_nocenter.X 250
+prefab prefabs\buildings\playerhouse_old\hs_wood_fixed_roof_innerside_3_4_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\PlayerHouse_old\lod\hs_wood_old_roof_innerside_lod2_nocenter.X 250
+prefab prefabs\buildings\playerhouse_old\hs_wood_fixed_roof_innerside_2_4_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\PlayerHouse_old\lod\hs_wood_old_roof_innerside_lod2_nocenter.X 250
+prefab prefabs\buildings\playerhouse_old\hs_wood_fixed_roof_innerside_1_4_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\PlayerHouse_old\lod\hs_wood_old_roof_innerside_lod2_nocenter.X 250
+prefab prefabs\buildings\playerhouse_old\hs_wood_fixed_roof_innerside_3_2_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\PlayerHouse_old\lod\hs_wood_old_roof_innerside_lod2_nocenter.X 200
+prefab prefabs\buildings\playerhouse_old\hs_wood_fixed_roof_innerside_2_2_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\PlayerHouse_old\lod\hs_wood_old_roof_innerside_lod2_nocenter.X 250
+prefab prefabs\buildings\playerhouse_old\hs_wood_fixed_roof_innerside_2_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\PlayerHouse_old\lod\hs_wood_old_roof_innerside_lod2_nocenter.X 250
+prefab prefabs\buildings\playerhouse_old\hs_wood_fixed_roof_innerside_1_2_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\PlayerHouse_old\lod\hs_wood_old_roof_innerside_lod2_nocenter.X 250
+prefab prefabs\buildings\playerhouse_old\hs_wood_fixed_roof_innerside_1_3_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\PlayerHouse_old\lod\hs_wood_old_roof_innerside_lod2_nocenter.X 250
+prefab prefabs\buildings\forest_houses\hs_ceramic_fixed_roof_2_0_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\forest_houses\lod\hs_ceramic_fixed_roof_2_0_lod2_nocenter.X 50
+prefab prefabs\buildings\forest_houses\hs_ceramic_fixed_roof_1_0_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\forest_houses\lod\hs_ceramic_fixed_roof_2_0_lod2_nocenter.X 70
+prefab prefabs\buildings\forest_houses\hs_ceramic_old_roof_3_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\forest_houses\lod\hs_ceramic_fixed_roof_2_0_lod2_nocenter.X 150
+prefab prefabs\buildings\forest_houses\hs_ceramic_old_roof_2_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\forest_houses\lod\hs_ceramic_fixed_roof_2_0_lod2_nocenter.X 170
+prefab prefabs\buildings\bridges\bridge_metal_001_nocenter.x
+LOD1 prefabs\Buildings\bridges\lod\bridge_metal_001_lod1_nocenter.X 90
+LOD2 prefabs\Buildings\bridges\lod\bridge_metal_001_lod2_nocenter.X 270
+prefab prefabs\vehicles\car_006_old\car_006_old_nocenter.x
+LOD1 prefabs\vehicles\car_006_old\lod\car_006_old_lod1_nocenter.X 90
+LOD2 prefabs\vehicles\car_006_old\lod\car_006_old_lod2_nocenter.X 120
+prefab prefabs\vehicles\car_006_old\door_right_nocenter.x
+LOD1 prefabs\vehicles\car_006_old\lod\car_006_olddoorright_lod1_nocenter.X 80
+LOD2 * 110
+prefab prefabs\vehicles\car_006_old\door_left_nocenter.x
+LOD1 prefabs\vehicles\car_006_old\lod\car_006_olddoorleft_lod1_nocenter.X 80
+LOD2 * 110
+prefab prefabs\vehicles\car_006_old\wheel_left_nocenter.x
+LOD1 prefabs\vehicles\car_006_old\lod\car_006_oldwheelL_lod1_nocenter.X 80
+LOD2 * 100
+prefab prefabs\vehicles\car_006_old\wheel_right_nocenter.x
+LOD1 prefabs\vehicles\car_006_old\lod\car_006_oldwheelR_lod1_nocenter.X 80
+LOD2 * 100
+prefab prefabs\vehicles\car_007_old\car_007_old_nocenter.x
+LOD1 prefabs\vehicles\car_007_old\lod\car_007_old_lod1_nocenter.X 90
+LOD2 prefabs\vehicles\car_007_old\lod\car_007_old_lod2_nocenter.X 120
+prefab prefabs\vehicles\car_007_old\door_left_nocenter.x
+LOD1 prefabs\vehicles\car_007_old\lod\car_007_doorL_lod1_nocenter.X 80
+LOD2 * 110
+prefab prefabs\vehicles\car_007_old\door_right_nocenter.x
+LOD1 prefabs\vehicles\car_007_old\lod\car_007_doorR_lod1_nocenter.X 80
+LOD2 * 110
+prefab prefabs\vehicles\car_007_old\wheel_left_nocenter.x
+LOD1 prefabs\vehicles\car_007_old\lod\car_007_wheelL_lod1_nocenter.X 80
+LOD2 * 100
+prefab prefabs\vehicles\car_007_old\wheel_right_nocenter.x
+LOD1 prefabs\vehicles\car_007_old\lod\car_007_wheelR_lod1_nocenter.X 80
+LOD2 * 100
+prefab prefabs\buildings\bridges\bridge_metal_002_nocenter.x
+LOD1 prefabs\Buildings\bridges\lod\bridge_metal_002_lod1_nocenter.X 90
+LOD2 prefabs\Buildings\bridges\lod\bridge_metal_002_lod2_nocenter.X 270
+prefab prefabs\vehicles\car_008_old\car_008_old_nocenter.x
+LOD1 prefabs\vehicles\car_008_old\lod\car_008_old_lod1_nocenter.X 90
+LOD2 prefabs\vehicles\car_008_old\lod\car_008_old_lod2_nocenter.X 120
+prefab prefabs\buildings\shop_coffee_bar\bar_004_nocenter.x
+LOD1 prefabs\Buildings\Shop_coffee_bar\lod1\bar_004_lod1_nocenter.X 35
+LOD2 * 100
+prefab prefabs\buildings\shop_coffee_bar\bar_002_nocenter.x
+LOD1 * 1
+LOD2 prefabs\Buildings\Shop_coffee_bar\lod1\bar_002_lod2_nocenter.X 40
+prefab prefabs\buildings\shop_buildings_supply\shop_buildings_supply_2_nocenter.x
+LOD1 prefabs\Buildings\Shop_buildings_supply\lod\Shop_buildings_supply_2_lod1_nocenter.X 45
+LOD2 * 100
+prefab prefabs\buildings\shop_buildings_supply\shop_buildings_supply_3_nocenter.x
+LOD1 prefabs\Buildings\Shop_buildings_supply\lod\Shop_buildings_supply_3_lod1_nocenter.X 40
+LOD2 prefabs\Buildings\Shop_buildings_supply\lod\Shop_buildings_supply_3_lod2_nocenter.X 75
+prefab prefabs\buildings\shop_buildings_supply\shop_buildings_supply_1_nocenter.x
+LOD1 prefabs\Buildings\Shop_buildings_supply\lod\Shop_buildings_supply_1_lod1_nocenter.X 60
+LOD2 * 100
+prefab prefabs\buildings\castle\ca_wall_crown_1_0_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\castle\lod\ca_wall_crown_1_0_lod2_nocenter.X 100
+prefab prefabs\buildings\castle\ca_wood_platform_1_0_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\castle\lod\ca_wood_platform_1_0_lod2_nocenter.X 120
+prefab prefabs\buildings\castle\ca_wall_1_0_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\castle\lod\ca_wall_1_0_lod1_nocenter.X 100
+prefab prefabs\buildings\castle\ca_wall_corner_1_0_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\castle\lod\ca_wall_1_0_lod1_nocenter.X 150
+prefab prefabs\buildings\castle\ca_wall_ruin_1_1_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\castle\lod\ca_wall_1_0_lod1_nocenter.X 250
+prefab prefabs\buildings\castle\ca_wall_ruin_2_3_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\castle\lod\ca_wall_1_0_lod1_nocenter.X 350
+prefab prefabs\buildings\castle\ca_wall_ruin_1_2_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\castle\lod\ca_wall_1_0_lod1_nocenter.X 250
+prefab prefabs\buildings\castle\hallway_nocenter.x
+LOD1 prefabs\Buildings\castle\lod\hallway_LOD1_nocenter.X 40
+LOD2 prefabs\Buildings\castle\lod\hallway_LOD2_nocenter.X 80
+prefab prefabs\buildings\town_houses\lifeguard_tower_new_nocenter.x
+LOD1 prefabs\Buildings\Town_houses\lod\lifeguard_tower_NEW_lod1_nocenter.X 40
+LOD2 * 100
+prefab prefabs\buildings\town_houses\town_building_010_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Town_houses\lod\town_building_010_lod2_nocenter.X 150
+prefab prefabs\buildings\town_houses\town_building_009_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Town_houses\lod\town_building_009_lod2_nocenter.X 150
+prefab prefabs\buildings\mast\mast_0_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\mast\lod\mast_0_lod2_nocenter.X 190
+prefab prefabs\buildings\town_houses\fountain_001_nocenter.x
+LOD1 prefabs\Buildings\Town_houses\lod\fountain_001_lod1_nocenter.X 30
+LOD2 prefabs\Buildings\Town_houses\lod\fountain_001_lod2_nocenter.X 50
+prefab prefabs\buildings\mast\mast_2_nocenter.x
+LOD1 prefabs\Buildings\mast\lod\mast_2_lod1_nocenter.X 50
+LOD2 prefabs\Buildings\mast\lod\mast_2_lod2_nocenter.X 200
+prefab prefabs\buildings\mast\mast_1_nocenter.x
+LOD1 prefabs\Buildings\mast\lod\mast_1_lod1_nocenter.X 50
+LOD2 prefabs\Buildings\mast\lod\mast_1_lod2_nocenter.X 200
+prefab prefabs\buildings\mast\mast_0_new_nocenter.x
+LOD1 prefabs\Buildings\mast\lod\mast_0_new_lod1_nocenter.X 50
+LOD2 * 100
+prefab prefabs\buildings\mast\mast_1_new_nocenter.x
+LOD1 prefabs\Buildings\mast\lod\mast_1_new_lod1_nocenter.X 100
+LOD2 prefabs\Buildings\mast\lod\mast_1_new_lod2_nocenter.X 200
+prefab prefabs\buildings\mast\mast_2_new_nocenter.x
+LOD1 prefabs\Buildings\mast\lod\mast_2_new_lod1_nocenter.X 100
+LOD2 prefabs\Buildings\mast\lod\mast_2_new_lod2_nocenter.X 200
+prefab prefabs\buildings\town_houses\city_wall_002_nocenter.x
+LOD1 * 80
+LOD2 prefabs\Buildings\Town_houses\lod\city_wall_002_lod1_nocenter.X 80
+prefab prefabs\buildings\town_houses\city_wall_ruined_right_002_nocenter.x
+LOD1 * 35
+LOD2 prefabs\Buildings\Town_houses\lod\city_wall_002_lod1_nocenter.X 150
+prefab prefabs\buildings\town_houses\city_wall_ruined_right_001_nocenter.x
+LOD1 * 40
+LOD2 prefabs\Buildings\Town_houses\city_wall_001_nocenter.X 150
+prefab prefabs\buildings\town_houses\street_stairs_nocenter.x
+LOD1 prefabs\Buildings\Town_houses\lod\street_stairs_lod1_nocenter.X 30
+LOD2 * 100
+prefab prefabs\buildings\scaffold\scaffold2_nocenter.x
+LOD1 prefabs\Buildings\scaffold\lod\scaffold2_lod1_nocenter.X 40
+LOD2 * 100
+prefab prefabs\buildings\scaffold\scaffold1_nocenter.x
+LOD1 prefabs\Buildings\scaffold\lod\scaffold1_lod1_nocenter.X 40
+LOD2 * 100
+prefab prefabs\vehicles\trailer_header_old\trailer_header_old_nocenter.x
+LOD1 prefabs\vehicles\lod\trailer_header_old_lod1_nocenter.X 95
+LOD2 * 120
+prefab prefabs\vehicles\trailer_header\trailer_header_nocenter.x
+LOD1 prefabs\vehicles\lod\trailer_header_lod1_nocenter.X 95
+LOD2 * 120
+prefab prefabs\vehicles\mower_sidecutter_old\mower_sidecutter_old_nocenter.x
+LOD1 prefabs\vehicles\lod\mower_sidecutter_old_lod1_nocenter.X 95
+LOD2 * 120
+prefab prefabs\vehicles\mower_sidecutter_old\knives_nocenter.x
+LOD1 prefabs\vehicles\lod\knives_lod1_nocenter.X 80
+LOD2 * 110
+prefab prefabs\vehicles\mower_sidecutter\side_nocenter.x
+LOD1 prefabs\vehicles\lod\side_lod1_nocenter.X 80
+LOD2 * 110
+prefab prefabs\vehicles\mower_sidecutter\mower_sidecutter_nocenter.x
+LOD1 prefabs\vehicles\lod\mower_sidecutter_lod1_nocenter.X 80
+LOD2 * 110
+prefab prefabs\vehicles\rake_old\rotor_nocenter.x
+LOD1 prefabs\vehicles\lod\rotor_lod1_nocenter.X 80
+LOD2 * 110
+prefab prefabs\vehicles\rake_old\rake_old_nocenter.x
+LOD1 prefabs\vehicles\lod\rake_old_lod1_nocenter.X 80
+LOD2 * 110
+prefab prefabs\vehicles\rake_double\rotor_right_nocenter.x
+LOD1 prefabs\vehicles\lod\rotor_right_lod1_nocenter.X 80
+LOD2 * 110
+prefab prefabs\vehicles\rake_double\rotor_left_nocenter.x
+LOD1 prefabs\vehicles\lod\rotor_left_lod1_nocenter.X 80
+LOD2 * 110
+prefab prefabs\vehicles\rake_double\rake_double_nocenter.x
+LOD1 prefabs\vehicles\lod\rake_double_lod1_nocenter.X 80
+LOD2 * 110
+prefab prefabs\vehicles\rake_double\right_side_nocenter.x
+LOD1 prefabs\vehicles\lod\right_side_lod1_nocenter.X 80
+LOD2 * 110
+prefab prefabs\vehicles\rake_double\left_side_nocenter.x
+LOD1 prefabs\vehicles\lod\left_side_lod1_nocenter.X 80
+LOD2 * 110

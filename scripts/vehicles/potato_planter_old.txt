@@ -1,0 +1,118 @@
+Vehicle >potato_planter_old
+prefab prefabs\vehicles\potato_planter_old\potato_planter_old_nocenter.x
+Mass 500.0
+Stiffness 10
+
+dont_destroy_crops
+
+spawn_id 69
+
+
+tag >MT44
+
+
+renew_and_paint
+repairable potato_planter_old.dds potato_planter_old_repaired.dds
+color 0.28 0.38 0.26
+
+
+sadzarka
+siewnik
+przyczepa
+price 12000
+grain_capacity 600
+working_width 3.0
+old_tractors_can_attach
+zaczep_tylko_do_traktora
+
+
+// stosowac gdy kolka sie kreca i dziala zlozona zamiast rozlozonej
+reverse_fold
+
+// czym mozna napelniac
+// Pszenica=0, Kukurydza=1, Owies=2, Zyto=3, Slonecznik=4, Jeczmien=5, Lubin=6, Groch=7, Ziemniak=8, Burak=9, Trawa=10, Kora=11, Zrebki=12, Trociny=13 
+
+suitable_for 8
+
+
+
+
+// COLLISION MESH
+
+// pScaleZ
+mnoznik_fizyki_z 0.88
+// pScaleY
+mnoznik_fizyki_y 0.62
+// pScaleX
+mnoznik_fizyki_x 0.75
+
+// pTransZ
+przesuniecie_fizyki_przod 0.15
+// pTransY
+przesuniecie_fizyki_gora 0.7
+// pTransX
+przesuniecie_fizyki_prawo 0.0
+
+
+
+
+
+// HOOKS
+zaczep3p zaczep3p
+zaczep3pgora zaczep3pgora
+
+pto pto
+
+additional_lift_3p_when_up 0.26
+additional_lift_3p_when_down 0.0
+
+add_when_loose 0.13
+
+
+
+
+
+// ANIMATIONS
+// animacja tekstury w osi v podczas koszenia (cmd0)
+// move_on_operate <nr_attachmentu_lub_0> <nr_subsetu_liczac_od_0> <Mnoznik_Predkosci_default_1.0>
+move_on_operate 2 1 4
+move_on_operate 3 0 -4
+
+// animacja tekstury w osi v podczas wysypywania (cmd0)
+// move_on_unload <nr_attachmentu_lub_0> <nr_subsetu_liczac_od_0> <Mnoznik_Predkosci_default_1.0>
+// move_on_unload 2 0 4
+
+
+// SUPPORT LEG (1)
+attachment_stopka prefabs\vehicles\potato_planter_old\support_leg_nocenter.x support_leg 0.00 0.35
+
+// potatoes (2)
+hide_if_empty
+mnoznik_skali_ladunku 0.06
+attachment_zboze prefabs\vehicles\potato_planter_old\potatoes_nocenter.x potatoes
+
+// potato1 (3)
+hide_if_empty
+attachment prefabs\vehicles\potato_planter_old\potato1_nocenter.x potato1
+
+
+// WHEELS
+
+reverse
+attachment_wheel prefabs\vehicles\potato_planter_old\wheel_left_nocenter.x wheel_left 0 1 2.22
+
+reverse
+attachment_wheel prefabs\vehicles\potato_planter_old\wheel_right_nocenter.x wheel_right 0 1 2.22
+
+
+
+// FX
+
+working_fx afx_sianie fx0
+working_fx afx_sianie fx1
+working_fx afx_sianie fx2
+
+
+// LIGHTS
+
+

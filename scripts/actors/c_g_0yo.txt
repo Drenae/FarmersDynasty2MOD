@@ -1,0 +1,71 @@
+actor c_g_0yo
+name >NameF8
+
+model prefabs\models\c_g_infant\c_g_infant.X
+
+socket_eyes oczy
+
+contact_distance 8
+contact_angle 50
+
+nie_dociagaj_do_gruntu 
+
+rotate_180 
+default_phase sleep
+
+scale 1.0
+
+
+
+
+// clothes
+// max attachments 16
+
+// HAIR
+// random_hair prefabs\attachments\c_g_9yo_hair_001_nocenter.x hair
+
+// GLASSES
+// random_attachment prefabs\attachments\eyewear_001_nocenter.X eyewear
+
+// class 0 - boots
+// clothes 0 prefabs\models\clothes\Kids\Boy\class0_boots\c_b_6_shoes.X
+// clothes_winter 0 prefabs\models\clothes\Kids\Boy\class0_boots\c_b_6_shoes.X
+// clothes_modern 0 prefabs\models\clothes\Kids\Boy\class0_boots\c_b_6_shoes.X
+// clothes_modern_winter 0 prefabs\models\clothes\Kids\Boy\class0_boots\c_b_6_shoes.X
+
+// class 1 - pants
+// clothes 1 prefabs\models\clothes\Kids\Boy\class1_pants\c_b_3_diaper.X
+// clothes_winter 1 prefabs\models\clothes\Kids\Boy\class1_pants\c_b_3_diaper.X
+// clothes_modern 1 prefabs\models\clothes\Kids\Boy\class1_pants\c_b_3_diaper.X
+// clothes_modern_winter 1 prefabs\models\clothes\Kids\Boy\class1_pants\c_b_3_diaper.X
+
+// class 2 - shirts
+// clothes 2 prefabs\models\clothes\Kids\Boy\class2_shirts\c_b_3_shirt.X
+// clothes_winter 2 prefabs\models\clothes\Kids\Boy\class2_shirts\c_b_3_shirt.X
+// clothes_modern 2 prefabs\models\clothes\Kids\Boy\class2_shirts\c_b_3_shirt.X
+// clothes_modern_winter 2 prefabs\models\clothes\Kids\Boy\class2_shirts\c_b_3_shirt.X
+
+// class 3 - addons
+// skinmesh_attachment 3 prefabs\models\clothes\Kids\Boy\class2_shirts\
+// skinmesh_attachment 3 prefabs\models\clothes\Kids\Boy\class2_shirts\
+
+
+
+
+
+// animations
+
+phase idle
+animation c_infant_idle1
+animation c_infant_idle2
+animation c_infant_idle3
+on_end idle
+
+phase sleep
+animation c_infant_sleep
+on_end sleep
+
+
+
+
+

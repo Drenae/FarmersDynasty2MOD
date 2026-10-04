@@ -1,0 +1,2 @@
+mesh_filename prefabs\vehicles\baler_cm\gate_rotor_nocenter.x
+socket gate 0.000000 -0.270000 0.000000

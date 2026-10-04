@@ -1,0 +1,10 @@
+mesh_filename prefabs\vehicles\fertilizer_old\fertilizer_old_nocenter.x
+socket wheel_left -0.655000 -0.670000 0.100000
+socket wheel_right 0.655000 -0.670000 0.100000
+socket shaft -0.000000 -1.070000 0.390000
+socket atomizer1 -0.305000 -1.100000 0.100000
+socket atomizer2 0.335000 -1.100000 0.100000
+socket gear -0.490000 -0.670000 0.070000
+socket chain -0.490000 -0.665000 0.060000
+socket zaczep 0.000000 1.360000 -0.020000
+socket wheel_fake 0.000000 0.580000 0.130000

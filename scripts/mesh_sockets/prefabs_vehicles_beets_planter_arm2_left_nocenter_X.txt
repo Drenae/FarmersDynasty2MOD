@@ -1,0 +1,2 @@
+mesh_filename prefabs\vehicles\beets_planter\arm2_left_nocenter.x
+socket left_side -1.360000 -0.000000 0.010000

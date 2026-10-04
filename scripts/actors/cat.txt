@@ -1,0 +1,120 @@
+actor cat
+
+default_phase idle
+model prefabs\models\animals\cat\cat.X
+
+
+
+
+
+
+phase idle
+animation cat_idle1
+animation cat_idle2
+animation cat_idle3
+animation cat_idle4
+animation cat_idle5
+animation cat_idle6
+animation cat_idle7
+animation cat_lick
+on_end idle
+on_end idle
+on_end idle
+on_end idle
+on_end lies_down
+on_end sit
+on_end eat
+on_end drink
+
+
+
+
+
+phase lies_down
+animation cat_lies_down
+on_end lies_idle
+
+phase lies_idle
+animation cat_lies_idle1
+animation cat_lies_idle2
+on_end lies_idle
+on_end lies_idle
+on_end gets_up
+on_end gets_up
+on_end sleep
+
+phase gets_up
+animation cat_gets_up
+on_end idle
+
+phase sleep
+animation cat_sleep
+on_end sleep
+on_end sleep
+on_end sleep
+on_end lies_idle
+
+
+
+
+
+
+phase sit
+animation cat_sit_start
+on_end sit_idle
+
+phase sit_idle
+animation cat_sit_idle1
+animation cat_sit_idle2
+animation cat_sit_idle3
+animation cat_sit_idle4
+on_end sit_idle
+on_end sit_idle
+on_end sit_idle
+on_end sit_end
+
+phase sit_end
+animation cat_sit_end
+on_end idle
+
+
+
+
+
+phase drink
+animation cat_drink
+on_end drink
+on_end idle
+on_end idle
+
+
+
+
+
+phase eat
+animation cat_eat
+on_end eat
+on_end idle
+on_end idle
+
+
+
+
+
+phase walk
+animation cat_walk
+on_end walk
+
+phase walk_crunch
+animation cat_crunch_walk
+on_end walk_crunch
+
+phase trot
+animation cat_trot
+on_end trot
+
+phase run
+animation cat_run
+on_end run
+
+

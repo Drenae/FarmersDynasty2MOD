@@ -1,0 +1,73 @@
+Vehicle >m200_plough
+prefab prefabs\vehicles\plough_m200\plough_m200_nocenter.x
+Mass 140.0
+Stiffness 10
+
+spawn_id 38
+
+tag >MT05
+
+renew_and_paint
+color 0.29 0.43 0.73
+
+plug
+price 2500
+przyczepa
+do_not_rotate
+invert_groove
+working_width 2
+
+old_tractors_can_attach
+
+
+
+
+// COLLISION MESH
+
+// pScaleZ
+mnoznik_fizyki_z 0.9
+// pScaleY
+mnoznik_fizyki_y 0.4
+// pScaleX
+mnoznik_fizyki_x 0.8
+
+// pTransZ
+przesuniecie_fizyki_przod 0.0
+// pTransY
+przesuniecie_fizyki_gora 0.74
+// pTransX
+przesuniecie_fizyki_prawo -0.2
+
+
+
+
+// HOOKS
+zaczep3p zaczep3p
+zaczep3pgora zaczep3pgora
+
+additional_lift_3p_when_up 0.75
+additional_lift_3p_when_down 0.1
+
+add_when_loose 0.3
+
+
+
+
+
+
+// support leg (1) 
+
+
+attachment_stopka prefabs\vehicles\plough_m200\support_leg_nocenter.x support_leg 0.02 0.75
+
+
+
+// WORKING_FX <nazwa_fx> <socket> [<numer_attachmentu>] [<czy_jak_plug_obrocony>] [<prefab_spod_ziemi>] [<mnoznik_predkosci_przesuwu_tekstury>]
+working_fx fx_plow_dust01 fx0 0 0 prefabs\vehicles\plough_lj86\chunk_nocenter.x 0.285
+working_fx fx_plow_dust01 fx1 0 0 prefabs\vehicles\plough_lj86\chunk_nocenter.x 0.265
+working_fx fx_plow_dust01 fx2 0 0 prefabs\vehicles\plough_lj86\chunk_nocenter.x 0.245
+
+
+
+
+

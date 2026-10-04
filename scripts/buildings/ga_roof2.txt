@@ -1,0 +1,85 @@
+// definiuje kolejne prefaby (stopnie przebudowy), w grze moze byc wlozony dowolny, ale musza byc unikalne dla danego setu
+// part <id_warstwy> <id_materialu> <klucz_text_keys_z_opisem> <sciezka\prefab>
+// -1 jako indeks materialu oznacza ten sam material, ale nie budowe tylko naprawe, czyli przejscie z polamanych na naprostowane deski BEZ kupowania desek.
+
+
+// eternit
+part 0 17 MAT17 prefabs\buildings\garages\ga_ceramic_old_roof_edge_3_1_nocenter.x
+part 1 -1  MAT17 prefabs\buildings\garages\ga_ceramic_fixed_roof_edge_3_1_nocenter.x
+
+part 2 17 MAT17 prefabs\buildings\garages\ga_ceramic_old_roof_edge_3_2_nocenter.x
+part 3 -1  MAT17 prefabs\buildings\garages\ga_ceramic_fixed_roof_edge_3_2_nocenter.x
+
+part 4 17 MAT17 prefabs\buildings\garages\ga_ceramic_old_roof_edge_3_3_nocenter.x
+part 5 -1  MAT17 prefabs\buildings\garages\ga_ceramic_fixed_roof_edge_3_3_nocenter.x
+
+part 6 17 MAT17 prefabs\buildings\garages\ga_ceramic_old_roof_edge_3_4_nocenter.x
+part 7 -1  MAT17 prefabs\buildings\garages\ga_ceramic_fixed_roof_edge_3_4_nocenter.x
+
+part 8 17 MAT17 prefabs\buildings\garages\ga_ceramic_old_roof_3_1_nocenter.x
+part 9 -1  MAT17 prefabs\buildings\garages\ga_ceramic_fixed_roof_3_1_nocenter.x
+
+
+
+// new
+//bitumen
+part 10 13 MAT13 prefabs\Buildings\garages\ga_ceramic_new_roof_3_5_nocenter.X
+
+// red shingle
+part 11 14 MAT14 prefabs\buildings\garages\ga_shingle_new_roof_1a_nocenter.x
+
+// green metal
+part 12 15 MAT15 prefabs\buildings\garages\ga_metal_new_roof_2a_nocenter.x
+
+// red ceramic
+part 13 16 MAT16 prefabs\buildings\garages\ga_ceramic_new_roof_3a_nocenter.x
+
+// tin roof
+part 14 17 MAT17 prefabs\buildings\garages\ga_tin_new_roof_4a_nocenter.x
+
+
+// niewidoczny
+part 15 26 MAT26 prefabs\Buildings\garages\ga_ceramic_new_roof_3_6_nocenter.X
+part 16 -1 MAT26 prefabs\buildings\garages\ga_stretch_fixed_roof_3_6_nocenter.x
+
+
+
+part 17 14 MAT14 prefabs\Buildings\garages\ga_ceramic_new_roof_3_4_nocenter.X
+part 18 15 MAT15 prefabs\Buildings\garages\ga_ceramic_new_roof_3_2_nocenter.X
+part 19 16 MAT16 prefabs\Buildings\garages\ga_ceramic_new_roof_3_3_nocenter.X
+part 20 17 MAT17 prefabs\Buildings\garages\ga_ceramic_new_roof_3_1_nocenter.X
+
+
+
+
+
+
+
+// i teraz dla danego elementu definiujemy w ktory moze przejsc
+// pierwszy parametr to ktorego tyczy sie definicja, nastepne - w ktore moze byc zmieniony
+
+path 0   1 10 11 12 13 14
+path 1   10 11 12 13 14
+path 2   3 10 11 12 13 14
+path 3   10 11 12 13 14
+path 4   5 10 11 12 13 14
+path 5   10 11 12 13 14
+path 6   7 10 11 12 13 14
+path 7   10 11 12 13 14
+path 8   9 10 11 12 13 14
+path 9   10 11 12 13 14
+
+path 10   11 12 13 14
+path 11   10 12 13 14
+path 12   10 11 13 14
+path 13   10 11 12 14
+path 14   10 11 12 13
+
+path 15   10 11 12 13 14 16
+path 16   10 11 12 13 14
+
+path 17   10 11 12 13 14
+path 18   10 11 12 13 14
+path 19   10 11 12 13 14
+path 20   10 11 12 13 14
+

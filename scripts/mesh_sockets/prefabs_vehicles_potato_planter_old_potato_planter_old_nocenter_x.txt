@@ -1,0 +1,13 @@
+mesh_filename prefabs\vehicles\potato_planter_old\potato_planter_old_nocenter.x
+socket wheel_left -1.290000 -0.415000 0.230000
+socket zaczep3p 0.000000 0.710000 0.300000
+socket zaczep3pgora 0.000000 0.770000 0.930000
+socket s0 -1.800000 -0.200000 0.000000
+socket s1 1.700000 -0.200000 0.000000
+socket potatoes 0.000000 -0.010000 0.220000
+socket fx0 -1.080000 -0.200000 0.100000
+socket fx1 -0.000000 -0.200000 0.100000
+socket fx2 1.170000 -0.200000 0.100000
+socket support_leg 0.025000 0.690000 0.690000
+socket wheel_right 1.260000 -0.415000 0.230000
+socket potato1 0.000000 0.000000 0.000000

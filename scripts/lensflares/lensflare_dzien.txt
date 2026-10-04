@@ -1,0 +1,51 @@
+flare lf_d_10.tga
+distance 3.9
+scale 1.0
+additive
+
+flare lf_d_11.tga
+distance 14.5
+scale 25.0
+additive
+
+flare lf_d_2.tga
+distance 30
+scale 18.0
+additive
+scalable_with_distance
+
+flare lf_d_12.tga
+distance 14
+scale 4
+additive
+scalable_with_distance
+
+flare lf_d_12.tga
+distance 8
+scale 5
+additive
+scalable_with_distance
+
+flare lf_d_12.tga
+distance 22
+scale 6
+additive
+scalable_with_distance
+
+flare lf_d_12.tga
+distance 28
+scale 7
+additive
+scalable_with_distance
+flare lf_d_12.tga
+distance 18
+scale 7.5
+additive
+scalable_with_distance
+
+
+flare lf_d_12.tga
+distance 38
+scale 8
+additive
+scalable_with_distance

@@ -1,0 +1,17 @@
+mesh_filename prefabs\vehicles\car_003\car_003_nocenter.x
+socket wheel_front_right 0.610000 1.440000 0.390000
+socket wheel_front_left -0.610000 1.440000 0.390000
+socket wheel_rear_left -0.610000 -1.290000 0.390000
+socket wheel_rear_right 0.610000 -1.290000 0.390000
+socket steering_wheel -0.370000 0.280000 1.030000
+socket lp1 0.620000 2.070000 0.810000
+socket lp2 -0.620000 2.070000 0.810000
+socket lt1 -0.700000 -2.060000 0.970000
+socket lt2 0.700000 -2.060000 0.970000
+socket lc1 -0.700000 -2.050000 0.900000
+socket lc2 0.700000 -2.050000 0.900000
+socket kierowca -0.320000 0.060000 0.430000
+socket ML -0.900000 0.480000 1.150000
+socket ML_target -0.970000 -0.300000 1.250000
+socket MR 0.900000 0.440000 1.150000
+socket MR_target 0.960000 -0.470000 1.240000

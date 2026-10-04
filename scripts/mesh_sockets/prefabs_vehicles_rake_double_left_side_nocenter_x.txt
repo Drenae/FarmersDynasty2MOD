@@ -1,0 +1,10 @@
+mesh_filename prefabs\vehicles\rake_double\left_side_nocenter.x
+socket wheel1 -0.710000 -0.260000 -1.275000
+socket wheel2 -0.760000 0.260000 -1.275000
+socket wheel3 -1.510000 0.700000 -1.275000
+socket wheel4 -1.650000 0.695000 -1.275000
+socket rotor -1.570000 0.010000 -1.040000
+socket p1a -1.110000 -0.000000 -0.530000
+socket wheel5 -2.390000 0.260000 -1.275000
+socket wheel6 -2.450000 -0.250000 -1.275000
+socket p3a -1.010000 -0.230000 0.220000

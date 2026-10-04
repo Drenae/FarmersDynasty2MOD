@@ -1,0 +1,2 @@
+mesh_filename prefabs\buildings\windmill_old\windmill_old_001_nocenter.x
+socket rotor 0.000000 3.700000 19.480003

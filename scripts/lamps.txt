@@ -1,0 +1,61 @@
+//
+// skrypt opisuje lampy w swiecie - do automatycznego dodawania projektorow oraz fxow (blikow) dla lamp w swiecie.
+//
+// dla:
+// lamp path_prefab.x
+// definiujemy
+// projector <socket_projector> <radius> <power> <cone_degrees>
+// fx <socket_fx> <nazwa_fx>
+// projector jest max 1, fx jest max 8
+//
+// UWAGA - nie podawaæ FXów ze skoñczonym czasem ¿ycia - tylko nieskoñczone!
+
+
+lamp prefabs\Objects\Poles\pole_lamp_001_nocenter.X
+projector light 24 2.5 170
+
+lamp prefabs\objects\poles\pole_lamp_001_new_nocenter.x
+projector light 24 2.5 170
+
+
+
+lamp prefabs\Objects\Poles\pole_lamp_002_nocenter.X
+projector light 24 2.1 170
+
+lamp prefabs\objects\poles\pole_lamp_002_new_nocenter.x
+projector light 24 2.1 170
+
+
+
+lamp prefabs\Objects\Poles\street_lamp_top_001_nocenter.X
+projector light 19 1.5 170
+
+lamp prefabs\objects\poles\street_lamp_top_001_new_nocenter.x
+projector light 19 1.5 170
+
+
+
+lamp prefabs\objects\poles\street_lamp_top_002_new_nocenter.x
+projector light 19 1.5 170
+
+lamp prefabs\Objects\Poles\street_lamp_top_002_nocenter.X
+projector light 19 1.5 170
+
+
+
+lamp prefabs\Objects\Poles\street_lamp_top_003_nocenter.X
+projector light 19 1.5 170
+
+lamp prefabs\objects\poles\street_lamp_top_003_new_nocenter.x
+projector light 19 1.5 170
+
+
+
+lamp prefabs\objects\poles\billboard_small_001_nocenter.x
+projector light 19 1.5 170
+
+
+
+
+
+

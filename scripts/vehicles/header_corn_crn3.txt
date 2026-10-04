@@ -1,0 +1,52 @@
+Vehicle >header_crn3
+prefab prefabs\vehicles\header_crn3\header_crn3_nocenter.x
+Mass 190.0
+Stiffness 10
+
+spawn_id 13
+
+tag >MT19
+
+price 7000
+
+
+Kombajn_id 2
+
+renew_and_paint
+color 0.335 0.453 0.320
+
+corn
+
+heder
+standard_heder
+add_when_loose 0.1
+
+
+// kolejnosc attachmentow jest wazna! - helix, knives, reel
+
+attachment prefabs\vehicles\header_crn3\helix_nocenter.x helix
+// attachment prefabs\vehicles\header_crn3\knives_nocenter.x knives
+
+
+// COLLISION MESH
+
+// pScaleY
+mnoznik_fizyki_y 0.5
+// pScaleZ
+mnoznik_fizyki_z 0.70
+// pScaleX
+mnoznik_fizyki_x 0.9
+
+// pTransY
+przesuniecie_fizyki_gora 0.75
+// pTransZ
+przesuniecie_fizyki_przod 0.29
+// pTransX
+przesuniecie_fizyki_prawo 0.0
+
+
+
+
+// SOUNDS
+working_sound sfx\vehicles\header.wav
+

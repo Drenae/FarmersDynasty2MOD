@@ -1,0 +1,4 @@
+mesh_filename prefabs\objects\beehives\centrifuge_nocenter.x
+socket handler -0.040000 0.000000 1.300000
+socket hanger 0.000000 0.000000 0.000000
+socket box 0.000000 -0.500000 -0.020000

@@ -1,0 +1,2 @@
+mesh_filename prefabs\pickable\flashlight_nocenter.x
+socket lamp 0.000000 0.060000 0.020000

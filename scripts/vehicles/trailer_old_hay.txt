@@ -1,0 +1,94 @@
+Vehicle >trailer_old_hay
+prefab prefabs\vehicles\trailer_old_hay\trailer_old_hay_nocenter.x
+Mass 700.0
+Stiffness 10
+
+spawn_id 22
+
+tag >MT35
+
+
+
+przyczepa
+price 2100
+working_width 6
+bale
+old_tractors_can_attach
+
+
+hay_sockets x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 x15 x16 x17 x18 x19 x20
+crate_sockets y1 y2 y3
+
+
+renew_and_paint
+repairable trailers_old.dds trailers_old_repaired.dds
+color 0.29 0.30 0.32
+
+
+hak_tyl zaczep_tyl
+
+
+
+// COLLISION MESH
+
+collision_mesh prefabs\vehicles\trailer_old_hay\PHYSICS_trailer_old_hay_nocenter.X
+
+// pScaleY
+mnoznik_fizyki_y 0.1
+// pScaleZ
+mnoznik_fizyki_z 0.9
+// pScaleX 0.4
+mnoznik_fizyki_x 0.56
+
+// pTransY bylo 0.95
+przesuniecie_fizyki_gora 0.68
+// pTransZ
+przesuniecie_fizyki_przod -0.1
+// pTransX
+przesuniecie_fizyki_prawo 0.0
+
+
+
+
+
+// THILL
+// definiuje obiekt zaczepu, socket w przyczepie na ktorym bedzie przyczepiony, jego socket ktory zlapie przyczepe i jego socket ktorym zlapie traktor
+zaczep prefabs\vehicles\trailer_old_hay\attachment_nocenter.x zaczep przyczepa traktor
+// dyszel socket_w_zaczepie socket_w_traktorze
+thill prefabs\vehicles\trailer_old_hay\thill_nocenter.x thill zaczep
+
+
+// WHEELS
+front_wheel prefabs\vehicles\trailer_old_hay\wheel_right_1_nocenter.x wheel_front_right
+front_wheel prefabs\vehicles\trailer_old_hay\wheel_left_1_nocenter.x wheel_front_left
+
+wheel prefabs\vehicles\trailer_old_hay\wheel_right_1_nocenter.x wheel_rear_right
+wheel prefabs\vehicles\trailer_old_hay\wheel_left_1_nocenter.x wheel_rear_left
+
+wheel_invisible prefabs\vehicles\trailer_old_hay\wheel_left_1_nocenter.x wheel_fake
+
+
+
+// HAY
+// attachment prefabs\Buildings\barns_stuff\hay_bale_cuboid.X x1
+// attachment prefabs\Buildings\barns_stuff\hay_bale_cuboid.X x2
+// attachment prefabs\Buildings\barns_stuff\hay_bale_cuboid.X x3
+// attachment prefabs\Buildings\barns_stuff\hay_bale_cuboid.X x4
+// attachment prefabs\Buildings\barns_stuff\hay_bale_cuboid.X x5
+// attachment prefabs\Buildings\barns_stuff\hay_bale_cuboid.X x6
+// attachment prefabs\Buildings\barns_stuff\hay_bale_cuboid.X x7
+// attachment prefabs\Buildings\barns_stuff\hay_bale_cuboid.X x8
+// attachment prefabs\Buildings\barns_stuff\hay_bale_cuboid.X x9
+// attachment prefabs\Buildings\barns_stuff\hay_bale_cuboid.X x10
+// attachment prefabs\Buildings\barns_stuff\hay_bale_cuboid.X x11
+// attachment prefabs\Buildings\barns_stuff\hay_bale_cuboid.X x12
+// attachment prefabs\Buildings\barns_stuff\hay_bale_cuboid.X x13
+// attachment prefabs\Buildings\barns_stuff\hay_bale_cuboid.X x14
+// attachment prefabs\Buildings\barns_stuff\hay_bale_cuboid.X x15
+// attachment prefabs\Buildings\barns_stuff\hay_bale_cuboid.X x16
+// attachment prefabs\Buildings\barns_stuff\hay_bale_cuboid.X x17
+// attachment prefabs\Buildings\barns_stuff\hay_bale_cuboid.X x18
+// attachment prefabs\Buildings\barns_stuff\hay_bale_cuboid.X x19
+// attachment prefabs\Buildings\barns_stuff\hay_bale_cuboid.X x20
+
+

@@ -1,0 +1,2 @@
+mesh_filename prefabs\vehicles\trailer_s18k\piston2_nocenter.x
+socket piston 0.000000 0.000000 0.000000

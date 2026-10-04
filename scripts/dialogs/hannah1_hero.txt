@@ -1,0 +1,86 @@
+//
+//Dialog z hannah
+//
+
+//The sweetest business
+//elo jestem wnukiem dziadka, elo twój dziadek był sigma chadem pozbieraj mi japka to dostaniesz przyczepke flatbedowom
+hero_dialog hannah1_dialog1
+hero DLQ16L01
+actor DLQ16L02
+hero DLQ16L03
+actor DLQ16L04
+hero DLQ16L05
+actor DLQ16L09
+actor DLQ16L11
+actor DLQ16L12
+hero DLQ16L13
+actor DLQ16L14
+actor DLQ16L15
+actor DLQ16L16
+actor DLQ16L17
+hero DLQ16L18
+
+
+//elo jestem wnukiem dziadka, elo twój dziadek był świnia, menda i wsza nieludzka, paszoł won mi stąd
+hero_dialog hannah1_dialog31
+hero DLQ16L01
+actor DLQ16L02
+hero DLQ16L03
+actor DLQ16L04
+hero DLQ16L05
+actor DLQ16L06
+actor DLQ16L07
+hero DLQ16L08
+
+
+//elo jesteś z powrotem, twój dziadek jednak był spoko, możesz mi jabłek nazrywać
+hero_dialog hannah1_dialog32
+actor DLQ16L10
+actor DLQ16L11
+actor DLQ16L12
+hero DLQ16L13
+actor DLQ16L14
+actor DLQ16L15
+actor DLQ16L16
+actor DLQ16L17
+hero DLQ16L18
+
+
+//pozbierane, dzieki ryju masz przyczepke, zajrzyj do luny, jest smutna bo ta stara wiedzma jej umarla
+hero_dialog hannah1_dialog2
+hero DLQ16L19
+actor DLQ16L20
+actor DLQ16L21
+hero DLQ16L22
+actor DLQ16L23
+actor DLQ16L23A
+actor DLQ16L23B
+hero DLQ16L24
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,116 @@
+Vehicle >plough_LJ86
+prefab prefabs\vehicles\plough_LJ86\plough_LJ86_nocenter.X
+Mass 500.0
+Stiffness 10
+
+spawn_id 37
+
+tag >MT05
+
+renew_and_paint
+color 0.843 0.219 0.223
+
+plug
+price 28000
+przyczepa
+invert_groove
+working_width 3.5
+add_when_loose 0.45
+furrows_attachment 1
+
+
+
+
+// COLLISION MESH
+
+// pScaleZ
+mnoznik_fizyki_z 0.9
+// pScaleY
+mnoznik_fizyki_y 0.45
+// pScaleX
+mnoznik_fizyki_x 0.6
+
+// pTransZ
+przesuniecie_fizyki_przod -0.1
+// pTransY
+przesuniecie_fizyki_gora 0.3
+// pTransX
+przesuniecie_fizyki_prawo 0.0
+
+
+
+
+
+
+
+// HOOKS
+zaczep3p zaczep3p
+zaczep3pgora zaczep3pgora
+mnoznik_kata_na_3p_gora 7
+
+// zmienia wysokosc podniesienia 3p w fazie opuszczonej
+// mnoznik_podniesienia_na_3p_dol -0.1
+additional_lift_3p_when_up 0.5
+additional_lift_3p_when_down 0.3
+
+
+// PLOUGH
+
+// furrows (1)
+attachment prefabs\vehicles\plough_LJ86\furrows_nocenter.X furrows
+
+// support leg (2)
+attachment prefabs\vehicles\plough_LJ86\support_leg_nocenter.X support_leg 1 0.02 0.8
+
+// support wheel arm (3)
+plough_support_wheel_arm
+attachment prefabs\vehicles\plough_LJ86\support_wheel_nocenter.X support_wheel 1
+
+// wheel (4)
+plough_wheel
+attachment_wheel prefabs\vehicles\plough_LJ86\wheel_nocenter.x wheel 3
+
+// disks
+Rotate_X
+attachment_wheel prefabs\vehicles\plough_lj86\disk1_nocenter.x disk1 1
+
+Rotate_X
+attachment_wheel prefabs\vehicles\plough_lj86\disk2_nocenter.x disk2 1
+
+
+
+
+// PISTONS
+// piston <prefab> <nr_attachmentu> <socket> <nr_attachmentu_docelowego> <socket_docelowy> <rotacja po osi R F U>
+piston prefabs\vehicles\plough_LJ86\piston1_nocenter.X 0 p1 1 p2 R
+piston prefabs\vehicles\plough_LJ86\piston2_nocenter.X 1 p2 0 p1 R
+
+// piston prefabs\vehicles\plough_lj86\support_wheel_hydraulic_nocenter.x 1 p3 3 p4
+// piston prefabs\vehicles\plough_lj86\support_wheel_piston_nocenter.x 3 p4 1 p3
+
+
+
+// ANIM FX
+// attachment_anim_fx <prefab> <socket> [<attachment do przyczepienia lub 0>] [<mnoznik predkosci przesuwu gibania - 1 domyslnie>] [<mnoznik gibania animacji - 1 domyslnie>] [<mnoznik predkosci przesuwu tekstury - 1 domyslnie>]
+// attachment_anim_fx prefabs\vehicles\plough_LJ\plow_anim_ground_nocenter.X fx2 1 0.5 0.5
+
+
+// WORKING_FX <nazwa_fx> <socket> [<numer_attachmentu>] [<czy_jak_plug_obrocony>] [<prefab_spod_ziemi>] [<mnoznik_predkosci_przesuwu_tekstury>]
+working_fx fx_plow_dust01 fx0 1 0 prefabs\vehicles\plough_lj86\chunk_nocenter.x 0.11
+working_fx fx_plow_dust01 fx1 1 0 prefabs\vehicles\plough_lj86\chunk_nocenter.x 0.12
+working_fx fx_plow_dust01 fx2 1 0 prefabs\vehicles\plough_lj86\chunk_nocenter.x 0.115
+working_fx fx_plow_dust01 fx3 1 0 prefabs\vehicles\plough_lj86\chunk_nocenter.x 0.135
+working_fx fx_plow_dust01 fx4 1 0 prefabs\vehicles\plough_lj86\chunk_nocenter.x 0.1125
+working_fx fx_plow_dust01 fx5 1 1 prefabs\vehicles\plough_lj86\chunk_nocenter.x 0.11
+working_fx fx_plow_dust01 fx6 1 1 prefabs\vehicles\plough_lj86\chunk_nocenter.x 0.12
+working_fx fx_plow_dust01 fx7 1 1 prefabs\vehicles\plough_lj86\chunk_nocenter.x 0.115
+working_fx fx_plow_dust01 fx8 1 1 prefabs\vehicles\plough_lj86\chunk_nocenter.x 0.135
+working_fx fx_plow_dust01 fx9 1 1 prefabs\vehicles\plough_lj86\chunk_nocenter.x 0.1125
+
+
+
+
+
+// SOUNDS
+// sound_cmd3_on sounds\vehicles\plough1.wav
+

@@ -1,0 +1,4 @@
+mesh_filename prefabs\vehicles\potato_harvester\transporter_nocenter.x
+socket potato5 0.000000 0.000000 0.000000
+socket p1a 0.190000 -0.850000 0.260000
+socket p2a 0.190000 0.885000 0.260000

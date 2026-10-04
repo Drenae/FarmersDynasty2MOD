@@ -1,0 +1,5 @@
+mesh_filename prefabs\vehicles\plough_ma3\plough_ma3_nocenter.x
+socket furrows 0.060000 -0.220000 0.175000
+socket zaczep3p 0.000000 0.000000 0.000000
+socket zaczep3pgora 0.000000 0.030000 0.750000
+socket p1 -0.000000 -0.200000 0.850000

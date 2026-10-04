@@ -1,0 +1,40 @@
+//
+// Dialog z molly
+//
+
+// dzien dobry, poka farme
+hero_dialog molly1_dialog1
+actor DLQ03L01
+hero DLQ03L01A
+actor DLQ03L01B
+hero DLQ03L02
+actor DLQ03L03
+hero DLQ03L04
+actor DLQ03L05
+hero DLQ03L05a
+
+// gdzie mam mieszkac? cho do lasu
+hero_dialog molly1_dialog2
+hero DLQ03L15
+actor DLQ03L16
+
+// jestesmy w lesie, napraw chatke
+hero_dialog molly1_dialog3
+actor DLQ03L18
+hero DLQ03L19
+actor DLQ03L20
+
+// drewno naczopane, masz tu pomidorki i rub zupe
+hero_dialog molly1_dialog4
+actor DLQ03L22
+actor DLQ03L22C
+
+
+
+
+
+
+
+
+
+

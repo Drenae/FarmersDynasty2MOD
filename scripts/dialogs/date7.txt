@@ -1,0 +1,268 @@
+// date7
+//w altance
+hero_dialog date7
+
+//0 w ten przeklęty pierścień baba wlewa całą nienawiść do rzeczy, które mężczyzna kochał przed ślubem
+add_mesh prefabs\attachments\ring_nocenter.x date2_chair1
+
+//intro
+actor_silent 1.5
+black
+//pora 17
+movie_camera
+camera_pos date7_cam00
+camera_look_at date7_cam00_look_at
+print dialog_intro
+
+
+//spotykajo sie na miejscu
+// Hello dear! You look sad, anything wrong?
+actor DLD07L01
+movie_camera
+fade_in
+rotate_180
+fov 1.1
+
+camera_pos date7_cam00
+camera_move_to date7_cam00_target 0.17
+camera_look_at date7_cam00_look_at
+
+hero_pos date7_h_pos00
+hero_anim h_date7_idle1
+hero_look_at date7_h_pos00_look_at
+
+actor_pos date7_w_pos00
+actor_anim w_date7_walk1
+actor_look_at date7_w_pos00_look_at
+
+
+//gadajo razem
+// No, not at all. And I'm not sad. I just...
+hero DLD07L02
+movie_camera
+fade_in
+rotate_180
+fov 1.1
+
+camera_pos date7_cam01
+camera_move_to date7_cam01_target 0.05
+camera_look_at date7_cam01_look_at
+
+hero_pos date7_h_pos00
+hero_anim h_date7_speak_listen
+hero_look_at date7_h_pos00_look_at
+
+actor_pos date7_w_pos00
+actor_anim w_date7_speak_listen
+actor_look_at date7_w_pos00_look_at
+
+
+
+
+//widok na oboje
+actor DLD07L03
+movie_camera
+fade_in
+rotate_180
+fov 0.8
+
+camera_pos date7_cam02
+camera_look_at date7_cam02_look_at
+
+hero_pos date7_h_pos00
+hero_anim h_date7_speak_listen
+hero_look_at date7_h_pos00_look_at
+//dof_distance 1.2
+
+actor_pos date7_w_pos00
+actor_anim w_date7_speak_listen
+actor_look_at date7_w_pos00_look_at
+
+// cont
+hero DLD07L04
+movie_camera
+//fade_in
+rotate_180
+fov 0.8
+
+camera_pos date7_cam02
+camera_look_at date7_cam02_look_at
+
+hero_pos date7_h_pos00
+//hero_anim h_date7_speak_listen
+hero_look_at date7_h_pos00_look_at
+//dof_distance 1.2
+
+actor_pos date7_w_pos00
+//actor_anim w_date7_speak_listen
+actor_look_at date7_w_pos00_look_at
+
+// cont
+actor DLD07L05
+movie_camera
+//fade_in
+rotate_180
+fov 0.8
+
+camera_pos date7_cam02
+camera_look_at date7_cam02_look_at
+
+hero_pos date7_h_pos00
+//hero_anim h_date7_speak_listen
+hero_look_at date7_h_pos00_look_at
+//dof_distance 1.2
+
+actor_pos date7_w_pos00
+//actor_anim w_date7_speak_listen
+actor_look_at date7_w_pos00_look_at
+
+
+
+
+//widok zza laski
+hero DLD07L06
+movie_camera
+fade_in
+rotate_180
+fov 1.1
+//dof_distance 2
+
+camera_pos date7_cam03
+camera_look_at date7_cam03_look_at
+
+hero_pos date7_h_pos00
+hero_anim h_date7_speak_listen
+hero_look_at date7_h_pos00_look_at
+
+actor_pos date7_w_pos00
+actor_anim w_date7_speak_listen
+actor_look_at date7_w_pos00_look_at
+
+
+//widok zza bohatera
+actor DLD07L07
+movie_camera
+fade_in
+rotate_180
+fov 1.1
+
+like_player 0.1
+camera_pos date7_cam04
+camera_look_at date7_cam04_look_at
+//dof_distance 2
+
+hero_pos date7_h_pos00
+hero_anim h_date7_speak_listen
+hero_look_at date7_h_pos00_look_at
+
+actor_pos date7_w_pos00
+actor_anim w_date7_speak_listen
+actor_look_at date7_w_pos00_look_at
+
+
+
+
+
+actor_silent 0.5
+black
+
+
+//ido sobie
+// I'm glad you feel the same way about life. I have something for you.
+hero DLD07L08
+movie_camera
+fade_in
+rotate_180
+fov 1.1
+
+camera_pos date7_cam05
+camera_move_to date7_cam05_target 0.75
+camera_look_at date7_cam05_look_at
+
+hero_pos date7_h_w_pos00
+hero_anim h_date5_walk2
+hero_look_at date7_h_w_pos00_look_at
+
+actor_pos date7_h_w_pos00
+actor_anim w_date5_walk1
+actor_look_at date7_h_w_pos00_look_at
+
+
+//koniec randki
+// ehm... Expect the unexpected?
+actor DLD07L09
+movie_camera
+fade_in
+rotate_180
+fov 1.1
+
+like_player 0.1
+
+camera_pos date7_cam06
+camera_move_to date7_cam06_target 0.24
+camera_look_at date7_cam06_look_at
+
+// ktorego mesha, na jaki socket
+attach_hero 0 ring_in_hand
+
+
+//przedluzenie sceny zeby zdazyl dac pierscionek
+actor_silent 4
+movie_camera
+rotate_180
+fov 1.1
+
+camera_move_to date7_cam06_target 0.24
+camera_look_at date7_cam06_look_at
+
+attach_hero 0 ring_in_hand
+
+
+
+//koniec
+actor_silent 2
+black
+movie_camera
+
+end_dialog
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

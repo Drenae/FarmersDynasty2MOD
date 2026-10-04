@@ -1,0 +1,91 @@
+// definiuje kolejne prefaby (stopnie przebudowy), w grze moze byc wlozony dowolny, ale musza byc unikalne dla danego setu
+// part <id_warstwy> <id_materialu> <klucz_text_keys_z_opisem> <sciezka\prefab>
+// -1 jako indeks materialu oznacza ten sam material, ale nie budowe tylko naprawe, czyli przejscie z polamanych na naprostowane deski BEZ kupowania desek.
+
+
+
+part 0 5 MAT05 prefabs\Buildings\garages\ga_concrete_old_wall_1_2_nocenter.X
+part 1 -1  MAT05 prefabs\Buildings\garages\ga_concrete_fixed_wall_1_2_nocenter.X
+
+part 2 5 MAT05 prefabs\Buildings\garages\ga_concrete_old_wall_1_3_nocenter.X
+part 3 -1  MAT05 prefabs\Buildings\garages\ga_concrete_fixed_wall_1_3_nocenter.X
+
+part 4 5 MAT05 prefabs\Buildings\garages\ga_concrete_old_wall_1_4_nocenter.X
+part 5 -1  MAT05 prefabs\Buildings\garages\ga_concrete_fixed_wall_1_4_nocenter.X
+
+part 6 5 MAT05 prefabs\Buildings\garages\ga_concrete_old_wall_1_5_nocenter.X
+part 7 -1  MAT05 prefabs\Buildings\garages\ga_concrete_fixed_wall_1_5_nocenter.X
+
+part 8 5  MAT05 prefabs\Buildings\garages\ga_concrete_old_wall_1_6_nocenter.X
+part 9 -1  MAT05 prefabs\Buildings\garages\ga_concrete_fixed_wall_1_6_nocenter.X
+
+
+
+part 10 3 MAT03 prefabs\Buildings\garages\ga_brick_old_wall_1_2_nocenter.X
+part 11 -1  MAT03 prefabs\Buildings\garages\ga_brick_fixed_wall_1_2_nocenter.X
+
+part 12 3 MAT03 prefabs\Buildings\garages\ga_brick_fixed_wall_1_1_nocenter.X
+
+
+// new brick
+part 13 4 MAT04 prefabs\Buildings\garages\ga_brick_new_wall_1_1_nocenter.X
+
+
+// very old plaster
+
+part 14 3 MAT03 prefabs\Buildings\garages\ga_concrete_old_wall_3_4_nocenter.X
+part 15 -1  MAT03 prefabs\Buildings\garages\ga_concrete_fixed_wall_3_4_nocenter.X
+
+part 16 3 MAT03 prefabs\Buildings\garages\ga_concrete_old_wall_3_3_nocenter.X
+part 17 -1  MAT03 prefabs\Buildings\garages\ga_concrete_fixed_wall_3_3_nocenter.X
+
+part 18 3 MAT03 prefabs\Buildings\garages\ga_concrete_old_wall_3_2_nocenter.X
+part 19 -1  MAT03 prefabs\Buildings\garages\ga_concrete_fixed_wall_3_2_nocenter.X
+
+part 20 3 MAT03 prefabs\Buildings\garages\ga_concrete_old_wall_3_1_nocenter.X
+part 21 -1  MAT03 prefabs\Buildings\garages\ga_concrete_fixed_wall_3_1_nocenter.X
+
+part 22 3 MAT03 prefabs\Buildings\garages\ga_concrete_fixed_wall_3_0_nocenter.X
+
+
+
+part 23 5 MAT05 prefabs\Buildings\garages\ga_concrete_fixed_wall_1_1_nocenter.X
+
+
+// new plaster
+part 24 6 MAT06 prefabs\Buildings\garages\ga_concrete_new_wall_1_1_nocenter.X
+part 25 27  MAT27 prefabs\Buildings\garages\ga_concrete_new_wall_1_1_nocenter.X
+
+
+
+
+// i teraz dla danego elementu definiujemy w ktory moze przejsc
+// pierwszy parametr to ktorego tyczy sie definicja, nastepne - w ktore moze byc zmieniony
+
+path 0   1 13
+path 1   13 24
+path 2   3 13
+path 3   13 24
+path 4   5 13
+path 5   13 24
+path 6   7 13
+path 7   13 24
+path 8   9 13
+path 9   13 24
+path 10   11 13
+path 11   13 24
+path 12   13 24
+path 13   24
+
+path 14   13 15
+path 15   13 24
+path 16   13 17
+path 17   13 24
+path 18   13 19
+path 19   13 24
+path 20   13 21
+path 21   13 24
+path 22   13 24
+path 23   13 24
+path 24   13 25
+path 25   13 25

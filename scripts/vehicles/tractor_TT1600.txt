@@ -1,0 +1,348 @@
+Vehicle >tractor_TT1600
+prefab prefabs\vehicles\tractor_tt1600\tractor_tt600_nocenter.x
+Mass 8000.0
+Stiffness 10
+player_can_drive
+
+spawn_id 4
+
+tag >MT01
+
+renew_and_paint
+color 0.67 0.70 0.39
+
+traktor
+price 116600
+CVT 2
+bhp 165
+tank 280
+
+
+// DRIVER
+skala_kierowcy 0.0
+driver_anim_drive_left h_drive_tractor_L7_left
+driver_anim_drive_right h_drive_tractor_L7_right
+driver_anim_drive h_drive_tractor_L7
+
+
+
+
+
+// COLLISION MESH
+
+// pScaleZ
+mnoznik_fizyki_z 1.0
+// pScaleY
+mnoznik_fizyki_y 1.1
+// pScaleX
+mnoznik_fizyki_x 0.95
+
+// pTransZ
+przesuniecie_fizyki_przod 0.0
+// pTransY
+przesuniecie_fizyki_gora 1.65
+// pTransX
+przesuniecie_fizyki_prawo 0.0
+
+
+
+//PANEL
+
+// PANEL
+// wskazowka_obrotow pos_x pos_y skala kat_min kat_max
+// wskazowka_temp pos_x pos_y skala kat_min kat_max
+// wskazowka_paliwo pos_x pos_y skala kat_min kat_max
+
+// wskazowka_predkosc ma dodatkowy parametr - maks prędkość do jakiej jest wyskalowany licznik.
+// wskazowka_predkosc pos_x pos_y skala kat_min kat_max max_predkosc
+// Wskazówka prędkości jest zablokowana dla maksymalnej prędkości = maksymalnego dozwolonego kąta.
+
+
+
+
+panel TT_panel.dds
+
+wskazowka_paliwo 734 611 0.6 130 220
+wskazowka_predkosc  299 282 1.8 45 300 30
+wskazowka_obrotow 299 282 1.0 40 300
+wskazowka_temp 865 723 0.6 310 230
+napis_czas 220 400 54
+// napis_obroty 330 64 36
+// napis_bieg0 350 95 36
+ikona_swiatla  607 902
+ikona_max_temp 823 913
+// ikona_3P 188 146
+// ikona_WOM 246 146
+//wskazowka_akumulator 616 727 0.6 50 130
+
+
+//wskazowka_temp
+//wskazowka_paliwo
+//napis_czas
+//wskazowka_obrotow
+//napis_obroty
+//napis_predkosc
+//napis_bieg0
+//napis_bieg1
+//napis_tempomat
+//napis_przebieg0
+//napis_roboczogodzin
+//ikona_swiatla  9 39
+//ikona_max_temp 11 234
+//ikona_3P 77 157
+//ikona_WOM 149 40
+//graf_pole 90 80
+//graf_wypelnienie 191 80
+
+
+
+
+
+// PTO
+
+front_shaft1 prefabs\vehicles\linkage_parts\pto_shaft1_new_nocenter.X
+front_shaft2 prefabs\vehicles\linkage_parts\pto_shaft2_new_nocenter.X
+shaft1 prefabs\vehicles\linkage_parts\pto_shaft1_new_nocenter.X
+shaft2 prefabs\vehicles\linkage_parts\pto_shaft2_new_nocenter.X
+
+
+
+
+// UPPER LINK ARM
+
+// FRONT
+front_piston1 prefabs\vehicles\linkage_parts\upperlink1_new_nocenter.X
+front_piston2 prefabs\vehicles\linkage_parts\upperlink2_new_nocenter.X
+
+// BACK
+piston1 prefabs\vehicles\linkage_parts\upperlink1_new_nocenter.X
+piston2 prefabs\vehicles\linkage_parts\upperlink2_new_nocenter.X
+
+
+
+// HOOKS
+hak zaczep_dolny
+hak_gorny zaczep
+
+// 3-POINT HITCH
+zaczep3p zaczep3p
+z3p1 prefabs\vehicles\tractor_tt1600\3p_rear_top_nocenter.x
+z3p2 prefabs\vehicles\tractor_tt1600\3p_rear_bottom_nocenter.x
+z3p3 prefabs\vehicles\tractor_tt1600\3p_rear_middle_nocenter.x
+Wysokosc_Podniesienia3P 0.2
+
+
+
+// FRONT 3-POINT SYSTEM & PTO
+zaczep_front3p zaczep_przod
+zaczep_front3p_gora front3p_gora
+zaczep_front3p_pto front3p_pto
+
+
+
+
+// Front 3P (1)
+attachment_front3p prefabs\vehicles\tractor_tt1600\front3p_nocenter.X front3p
+piston prefabs\vehicles\tractor_tt1600\front3p_piston2_nocenter.x 0 front3p_piston 1 p1 
+piston prefabs\vehicles\tractor_tt1600\front3p_piston_nocenter.X 1 p1 0 front3p_piston
+piston prefabs\vehicles\tractor_tt1600\front3p_piston2_nocenter.X 0 front3p_piston2 1 p2 
+piston prefabs\vehicles\tractor_tt1600\front3p_piston_nocenter.X 1 p2 0 front3p_piston2
+
+
+
+// FRONT AXLE (2)
+attachment_axle prefabs\vehicles\tractor_tt1600\axle_nocenter.x axle
+
+
+// STEERING WHEEL
+steering_wheel prefabs\vehicles\tractor_tt1600\steering_wheel_nocenter.x steering_wheel
+korekcja_kierownicy 30
+mnoznik_obrotu_kierownicy 3.1
+
+// DOOR
+attachment_door prefabs\vehicles\tractor_tt1600\door_left_nocenter.x door_left door_left2 -85
+attachment prefabs\vehicles\tractor_tt1600\door_right_nocenter.x door_right
+
+
+// WHEELS & MUDGUARDS
+front_wheel prefabs\vehicles\tractor_tt1600\wheel_front_left_nocenter.x wheel_front_left 1.062
+front_wheel prefabs\vehicles\tractor_tt1600\wheel_front_right_nocenter.x wheel_front_right 1.062
+wheel prefabs\vehicles\tractor_tt1600\wheel_rear_left_nocenter.x wheel_rear_left
+wheel prefabs\vehicles\tractor_tt1600\wheel_rear_right_nocenter.x wheel_rear_right
+
+
+
+
+
+// RESTORATION
+
+attachment prefabs\vehicles\tractor_tt1600\mudguard_rear_right_nocenter.X restoration
+attachment prefabs\vehicles\tractor_tt1600\mudguard_rear_left_nocenter.X restoration
+attachment prefabs\vehicles\tractor_tt1600\axle_rear_nocenter.X restoration
+attachment prefabs\vehicles\tractor_tt1600\seat_nocenter.X restoration
+attachment prefabs\vehicles\tractor_tt1600\cabine_nocenter.X restoration
+attachment prefabs\vehicles\tractor_tt1600\exhaust_nocenter.X restoration
+attachment prefabs\vehicles\tractor_tt1600\body_nocenter.X restoration
+attachment prefabs\vehicles\tractor_tt1600\windows_nocenter.X restoration
+// attachment prefabs\vehicles\tractor_tt1600\engine_nocenter.X restoration
+
+
+
+
+
+
+
+// LIGHTS
+
+attachment_light prefabs\vehicles\tractor_tt1600\lamp1_nocenter.X light1
+attachment_name swiatlo_lp1
+swiatlo_przod lp1 1
+swiatlo_z swiatlo_lp1
+
+attachment_light prefabs\vehicles\tractor_tt1600\lamp2_nocenter.X light2
+attachment_name swiatlo_lp2
+swiatlo_przod lp2 1
+swiatlo_z swiatlo_lp2
+
+attachment_light prefabs\vehicles\tractor_tt1600\lamp3_nocenter.X light3
+attachment_name swiatlo_lp3
+swiatlo_przod lp3
+swiatlo_z swiatlo_lp3
+
+attachment_light prefabs\vehicles\tractor_tt1600\lamp4_nocenter.X light4
+attachment_name swiatlo_lp4
+swiatlo_przod lp4
+swiatlo_z swiatlo_lp4
+
+attachment_light prefabs\vehicles\tractor_tt1600\lamp5_nocenter.X light5
+attachment_name swiatlo_lp5
+swiatlo_przod lp5
+swiatlo_z swiatlo_lp5
+
+attachment_light prefabs\vehicles\tractor_tt1600\lamp6_nocenter.X light6
+attachment_name swiatlo_lp6
+swiatlo_przod lp6
+swiatlo_z swiatlo_lp6
+
+attachment_light prefabs\vehicles\tractor_tt1600\lamp7_nocenter.X light7
+attachment_name swiatlo_lp7
+swiatlo_przod lp7
+swiatlo_z swiatlo_lp7
+
+attachment_light prefabs\vehicles\tractor_tt1600\lamp8_nocenter.X light8
+attachment_name swiatlo_lp8
+swiatlo_przod lp8
+swiatlo_z swiatlo_lp8
+
+
+attachment_light prefabs\vehicles\tractor_tt1600\lamp9_nocenter.X light9
+attachment_name swiatlo_lp9
+swiatlo_przod lp9 1
+swiatlo_z swiatlo_lp9
+
+attachment_light prefabs\vehicles\tractor_tt1600\lamp10_nocenter.X light10
+attachment_name swiatlo_lp10
+swiatlo_przod lp10
+swiatlo_z swiatlo_lp10
+
+
+
+attachment_light prefabs\vehicles\tractor_tt1600\lamp11_nocenter.X light11
+attachment_name swiatlo_lt1
+swiatlo_tyl lt1 1
+swiatlo_z swiatlo_lt1
+
+attachment_light prefabs\vehicles\tractor_tt1600\lamp12_nocenter.X light12
+attachment_name swiatlo_lt2
+swiatlo_tyl lt2
+swiatlo_z swiatlo_lt2
+
+attachment_light prefabs\vehicles\tractor_tt1600\lamp13_nocenter.X light13
+attachment_name swiatlo_lt3
+swiatlo_tyl lt3
+swiatlo_z swiatlo_lt3
+
+attachment_light prefabs\vehicles\tractor_tt1600\lamp14_nocenter.X light14
+attachment_name swiatlo_lt4
+swiatlo_tyl lt4
+swiatlo_z swiatlo_lt4
+
+
+
+
+attachment_light prefabs\vehicles\tractor_tt1600\lamp15_nocenter.X light15
+attachment_name swiatlo_lc1
+swiatlo_cofania lc1
+swiatlo_z swiatlo_lc1
+
+attachment_light prefabs\vehicles\tractor_tt1600\lamp16_nocenter.X light16
+attachment_name swiatlo_lc2
+swiatlo_cofania lc2
+swiatlo_z swiatlo_lc2
+
+
+
+
+
+
+
+// INTERIOR LIGHTS
+vehicle_light vehicle_light1 0.6 3.4 90 90 90
+vehicle_light vehicle_light2 0.6 3.4 90 90 90
+
+// alarm lamps
+// attachment_alarm_lamp prefabs\vehicles\tractor_tt1600\signal_lamp_mirror_nocenter.x signal_lamp1
+// attachment_alarm_lamp prefabs\vehicles\tractor_tt1600\signal_lamp_mirror_nocenter.x signal_lamp2
+
+
+
+
+// SOUNDS
+
+Sound_Gear_Up sfx\vehicles\gear_up.wav
+Sound_Gear_Down sfx\vehicles\gear_down.wav
+Sound_Speed_Up sfx\vehicles\speed_up.wav
+Sound_Speed_Down sfx\vehicles\speed_down.wav
+Sound_Direction_Forward sfx\vehicles\direction_forward.wav
+Sound_Direction_Back sfx\vehicles\direction_back.wav
+
+engine_start_sound sfx\vehicles\tractor_L134_engine_start1.wav
+engine_stop_sound sfx\vehicles\tractor_L134_engine_stop1.wav
+
+engine_frequency_add_during_wheel_spin 4000 
+
+engine_sound sfx\vehicles\tractor_L134_engine_work1.wav
+engine_frequency_base 44100
+engine_frequency_change 2
+
+
+engine_sound2 sfx\vehicles\tractor_L134_engine_idle1.wav
+engine_frequency_base2 45100
+engine_frequency_change2 100
+
+Wheel_Spin_Splash_Sound_Water sfx\vehicles\water_spin1.wav 3.3
+Wheel_Spin_Splash_Sound_Water sfx\vehicles\water_spin2.wav 2.8
+Wheel_Spin_Splash_Sound_Water sfx\vehicles\water_spin3.wav 4.2
+Wheel_Spin_Splash_Sound_Water sfx\vehicles\water_spin4.wav 3.8
+Wheel_Spin_Splash_Sound_Water sfx\vehicles\water_spin5.wav 3.3
+Wheel_Spin_Splash_Sound_Water sfx\vehicles\water_spin6.wav 2.2
+Wheel_Spin_Splash_Sound_Water sfx\vehicles\water_spin7.wav 3.8
+Wheel_Spin_Splash_Sound_Water sfx\vehicles\water_spin8.wav 4.2
+
+Wheel_Spin_Splash_Sound_Mud sfx\vehicles\mud_spin1.wav 1.9
+Wheel_Spin_Splash_Sound_Mud sfx\vehicles\mud_spin2.wav 2.5
+Wheel_Spin_Splash_Sound_Mud sfx\vehicles\mud_spin3.wav 1.8
+Wheel_Spin_Splash_Sound_Mud sfx\vehicles\mud_spin4.wav 2.5
+Wheel_Spin_Splash_Sound_Mud sfx\vehicles\mud_spin5.wav 1.9
+Wheel_Spin_Splash_Sound_Mud sfx\vehicles\mud_spin6.wav 2.5
+Wheel_Spin_Splash_Sound_Mud sfx\vehicles\mud_spin7.wav 1.8
+Wheel_Spin_Splash_Sound_Mud sfx\vehicles\mud_spin8.wav 2.5
+
+Wheel_Splash_Sound_Enter_Water sfx\vehicles\water_splash1.wav 4.1
+Wheel_Splash_Sound_Enter_Water sfx\vehicles\water_splash2.wav 4.5
+Wheel_Splash_Sound_Enter_Water sfx\vehicles\water_splash3.wav 3.6
+
+
+
+
+

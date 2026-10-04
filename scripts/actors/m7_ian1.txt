@@ -1,0 +1,137 @@
+actor m7_ian1
+
+default_phase idle
+model prefabs\models\m7\m7.X
+name >NameM83
+
+eye prefabs\attachments\eye_left_gray_nocenter.X eye_left
+eye prefabs\attachments\eye_right_gray_nocenter.X eye_right
+
+contact_distance 8
+contact_angle 50
+salesman
+
+rotate_180 
+scale 0.97
+immovable
+voice 1
+
+default_item flour donut croissant wheatbread ryebread ryeroll wheatroll baguette
+
+dont_add_anything_else
+
+
+
+// Dialog anims
+
+// animacje idle calego ciala do dialogow (NPC z NPC, NPC z graczem), max 8
+dialog_anim_idle m_listen1
+dialog_anim_idle m_listen2
+dialog_anim_idle m_listen3
+dialog_anim_idle m_listen4
+
+// animacje mowi do dialogow (NPC z NPC, NPC z graczem), max 8
+dialog_anim_talk m_speak1
+dialog_anim_talk m_speak2
+dialog_anim_talk m_speak3
+dialog_anim_talk m_speak4
+
+// animacje (tylko glowa) gada do dialogow (NPC z NPC, NPC z graczem), max 8
+dialog_anim_talk_head m_talking_head1
+dialog_anim_talk_head m_talking_head2
+dialog_anim_talk_head m_talking_head3
+dialog_anim_talk_head m_talking_head4
+
+
+
+// clothes
+// max attachments 16
+
+// HAIR
+
+// random_hair prefabs\attachments\m_hair_006_nocenter.x hair
+// random_hair prefabs\attachments\m_hair_006_nocenter.x hair
+// random_hair prefabs\attachments\m_hair_006_nocenter.x hair
+// random_hair prefabs\attachments\m_hair_006_nocenter.x hair
+// random_hair prefabs\attachments\m_hair_006_nocenter.x hair
+// random_hair prefabs\attachments\m_hair_006_nocenter.x hair
+// random_hair prefabs\attachments\m_hair_006_nocenter.x hair
+// random_hair prefabs\attachments\m_hair_006_nocenter.x hair
+// random_hair prefabs\attachments\m_hair_006_nocenter.x hair
+// random_hair prefabs\attachments\m_hair_006_nocenter.x hair
+// random_hair prefabs\attachments\m_hair_006_nocenter.x hair
+// random_hair prefabs\attachments\m_hair_006_nocenter.x hair
+// random_hair prefabs\attachments\m_hair_006_nocenter.x hair
+// random_hair prefabs\attachments\m_hair_006_nocenter.x hair
+// random_hair prefabs\attachments\m_hair_006_nocenter.x hair
+// random_hair prefabs\attachments\m_hair_006_nocenter.x hair
+
+
+
+// glasses
+
+random_attachment prefabs\attachments\id_ian_nocenter.x id
+random_attachment prefabs\attachments\eyewear_60s_001_nocenter.x eyewear
+
+
+
+
+
+// clothes
+
+
+
+// class 0 - boots
+clothes 0 prefabs\models\clothes\man\class0_boots\m_halfshoes_001.X
+clothes_winter 0 prefabs\models\clothes\man\class0_boots\m_halfshoes_001.X
+clothes_modern 0 prefabs\models\clothes\man\class0_boots\m_halfshoes_001.X
+clothes_modern_winter 0 prefabs\models\clothes\man\class0_boots\m_halfshoes_001.X
+
+
+// class 1 - pants
+clothes 1 prefabs\models\clothes\man\class1_pants\m_slim_jeans_001.X
+clothes_winter 1 prefabs\models\clothes\man\class1_pants\m_slim_jeans_001.X
+clothes_modern 1 prefabs\models\clothes\man\class1_pants\m_slim_jeans_001.X
+clothes_modern_winter 1 prefabs\models\clothes\man\class1_pants\m_slim_jeans_001.X
+
+
+// class 2 - shirts
+clothes 2 prefabs\models\clothes\man\class2_shirts\m_collar_shirt_tie.X
+clothes_winter 2 prefabs\models\clothes\man\class2_shirts\m_collar_shirt_tie.X
+clothes_modern 2 prefabs\models\clothes\man\class2_shirts\m_collar_shirt_tie.X
+clothes_modern_winter 2 prefabs\models\clothes\man\class2_shirts\m_collar_shirt_tie.X
+
+
+
+// class 3 - beard
+
+
+
+
+
+
+
+
+// animations
+
+
+
+
+phase idle
+animation m_idle1
+on_end idle
+
+
+phase walk
+animation m_walk
+on_end walk
+
+
+phase talk
+animation m_talk1
+on_end talk
+
+
+
+
+

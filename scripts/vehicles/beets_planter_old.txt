@@ -1,0 +1,107 @@
+Vehicle >beets_planter_old
+prefab prefabs\vehicles\beets_planter_old\beets_planter_old_nocenter.x
+Mass 700.0
+Stiffness 10
+
+spawn_id 71
+
+tag >MT48
+
+renew_and_paint
+repairable beets_planter_old.dds beets_planter_old_repaired.dds
+color 0.74 0.31 0.23
+
+
+
+siewnik
+przyczepa
+price 9000
+grain_capacity 400
+working_width 4.2
+
+old_tractors_can_attach
+zaczep_tylko_do_traktora
+
+
+// stosowac gdy kolka sie kreca i dziala zlozona zamiast rozlozonej
+reverse_fold
+reverse_fold_panel_info
+
+
+// czym mozna napelniac
+// Pszenica=0, Kukurydza=1, Owies=2, Zyto=3, Slonecznik=4, Jeczmien=5, Lubin=6, Groch=7, Ziemniak=8, Burak=9, Trawa=10, Kora=11, Zrebki=12, Trociny=13 
+
+suitable_for 9
+
+
+
+
+// COLLISION MESH
+
+// pScaleZ
+mnoznik_fizyki_z 0.99
+// pScaleY
+mnoznik_fizyki_y 0.4
+// pScaleX
+mnoznik_fizyki_x 1.1
+
+// pTransZ
+przesuniecie_fizyki_przod 0.0
+// pTransY
+przesuniecie_fizyki_gora 0.4
+// pTransX
+przesuniecie_fizyki_prawo 0
+
+// add_when_loose 0.22
+
+
+
+// HOOKS
+zaczep3p zaczep3p
+zaczep3pgora zaczep3pgora
+
+
+additional_lift_3p_when_up 0.35
+additional_lift_3p_when_down 0.15
+mnoznik_kata 1.3
+
+
+
+
+// SEEDER
+
+
+
+// WHEELS & MUDGUARDS
+// prefab_kola socket_kola promien_kola podniesienie_osi_kola
+
+
+
+
+// DISKS
+
+reverse
+attachment_wheel prefabs\vehicles\beets_planter_old\wheel1_nocenter.x wheel1 0 1 2.5
+reverse
+attachment_wheel prefabs\vehicles\beets_planter_old\wheel2_nocenter.x wheel2 0 1 2.5
+reverse
+attachment_wheel prefabs\vehicles\beets_planter_old\wheel3_nocenter.x wheel3 0 1 2.5
+reverse
+attachment_wheel prefabs\vehicles\beets_planter_old\wheel4_nocenter.x wheel4 0 1 2.5
+
+
+
+
+// LIGHTS
+
+
+
+
+// FX
+
+working_fx afx_sianie fx0
+working_fx afx_sianie fx1
+
+
+
+

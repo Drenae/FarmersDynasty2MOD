@@ -1,0 +1,32 @@
+actor cow
+
+default_phase je
+model prefabs\models\animals\cow\cow_001.X
+
+socket_eyes oczy
+
+contact_distance 8
+contact_angle 50
+
+ignore_physics
+animal
+
+
+
+
+phase je
+animation cow_je
+on_end je
+
+
+
+
+
+
+
+
+
+
+
+
+

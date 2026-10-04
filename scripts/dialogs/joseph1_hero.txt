@@ -1,0 +1,34 @@
+
+//
+// Dialog z josephem
+//
+
+//Audrey & Claire
+//dzien dobry, potrzebuje nawozu, kk milion bucksuw sie nalezy, ale dzemiary potrzebujo na zeszyt btw twoj brat Jack mnie przysyla, a to masz i dawaj ta flaszke
+hero_dialog joseph1_dialog1
+actor DLQ12L40
+hero DLQ12L41
+actor DLQ12L42
+hero DLQ12L43
+actor DLQ12L44
+hero DLQ12L45
+actor DLQ12L46
+hero DLQ12L47
+actor DLQ12L48
+hero DLQ12L49
+actor DLQ12L50
+hero DLQ12L51
+actor DLQ12L52
+hero DLQ12L53
+actor DLQ12L54
+actor DLQ12L55
+hero DLQ12L56
+actor DLQ12L57
+hero DLQ12L58
+actor DLQ12L59
+hero DLQ12L60
+
+
+
+
+

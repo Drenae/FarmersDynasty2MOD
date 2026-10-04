@@ -1,0 +1,95 @@
+actor pig
+
+default_phase idle
+model prefabs\models\animals\pig\pig.X
+
+socket_eyes oczy
+
+contact_distance 8
+contact_angle 50
+
+ignore_physics
+animal
+
+
+phase idle
+animation pig_idle1
+animation pig_idle2
+animation pig_idle3
+animation pig_idle4
+animation pig_idle5
+on_end idle
+on_end idle
+on_end idle
+on_end lies_down
+on_end drink
+on_end eat
+
+
+
+
+
+phase lies_down
+animation pig_lies_down
+on_end sit
+
+phase sit
+animation pig_sit
+on_end sit
+on_end sit
+on_end sit
+on_end gets_up
+on_end gets_up
+on_end gets_up
+on_end gets_up
+on_end sleep
+
+phase gets_up
+animation pig_gets_up
+on_end idle
+
+phase sleep
+animation pig_sleep
+on_end sleep
+on_end sleep
+on_end sleep
+on_end sit
+
+
+
+
+
+phase drink
+animation pig_drink
+on_end drink
+on_end idle
+
+
+
+
+phase eat
+animation pig_eat
+on_end eat
+on_end idle
+
+
+
+
+phase walk
+animation pig_walk
+on_end walk
+
+phase trot
+animation pig_trot
+on_end trot
+
+
+phase run
+animation pig_run
+on_end run
+
+
+
+
+
+

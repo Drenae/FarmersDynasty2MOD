@@ -1,0 +1,205 @@
+// definicje aktorow
+
+// hero
+actor 0 prefabs\models\hero1\hero1.x act_hero
+
+clothing 0 prefabs\models\clothes\hero1_shoes.X
+clothing 1 prefabs\models\clothes\hero1_pants.X
+clothing 2 prefabs\models\clothes\hero1_jacket.X
+hair prefabs\attachments\flat_cap_nocenter.X hair wlosy_hero1
+attachment prefabs\Buildings\kitchen_stuff\mug_nocenter.X mug
+// attachment prefabs\Buildings\kitchen_stuff\mug_nocenter.X mug2
+
+// Molly
+actor 1 prefabs\models\w3\w3.X act_molly
+clothing 0 prefabs\models\clothes\Woman\class0_boots\w_garden_shoes_001.X
+clothing 1 prefabs\models\clothes\Woman\class1_pants\w_jeans_001.X
+clothing 2 prefabs\models\clothes\Woman\class2_shirts\w_garden_shirt_001.X
+hair prefabs\attachments\w_hair_001_nocenter.X hair wlosy_molly
+attachment prefabs\Buildings\kitchen_stuff\mug_nocenter.X mug
+
+
+
+
+do_not_skip
+
+//start
+cut start
+time 0.2
+hour 15
+black
+
+music music\ambient_night2_60s.ogg
+
+
+
+
+// 1 - Molly lawka
+cut cut1
+time 10
+fade_in 0.1
+hour 17
+weather 0.32
+
+
+light_fireplace  fireplace_forest
+
+camera_pos za2_cam1
+camera_move_to za2_cam1a 0.1
+camera_look_at za2_cam1a
+
+
+actor_pos 0 za2_h1_fire
+animation 0 h_idle_mugs
+actor_look_at 0 za2_look_at5
+
+actor_pos 1 za2_molly_bench
+animation 1 w_listen1
+actor_look_at 1 za2_look_at2
+
+actor DLC02L01
+
+
+
+
+// 2 - molly siada
+camera_fov 0.6
+cut cut2
+time 7
+fade_in 0.5
+hour 17
+weather 0.32
+
+light_fireplace  fireplace_forest
+
+camera_pos za2_cam2
+camera_look_at za2_look_at2
+
+actor_pos 0 za2_h1_bench
+animation 0 h_idle_mugs
+actor_look_at 0 za2_look_at1
+
+actor_pos 1 za2_molly_bench
+animation 1 w_stand_to_sit_cutscene
+actor_look_at 1 za2_look_at2
+
+
+actor DLC02L02
+
+
+
+
+// 3 - molly wyciaga reke
+camera_fov 0.8
+cut cut3
+time 5
+fade_in 0.5
+hour 17
+weather 0.32
+
+camera_pos za2_cam3
+camera_move_to za2_cam3a 0.04
+camera_look_at za2_look_at1
+
+
+animation 0 h_give_mug
+actor_look_at 0 za2_look_at1
+
+animation 1 w_sit_mug_catch
+actor_look_at 1 za2_look_at2
+
+actor DLC02L03
+
+
+
+
+// 4 - molly gorace
+camera_fov 0.6
+cut cut4
+time 6
+fade_in 0.5
+hour 17
+weather 0.32
+
+camera_pos za2_cam6
+camera_move_to za2_cam6a 0.07
+camera_look_at za2_look_at3
+
+
+animation 0 h_sit_mug
+actor_look_at 0 za2_look_at1
+
+animation 1 w_sit_mug
+actor_look_at 1 za2_look_at2
+
+
+actor DLC02L05
+
+
+
+
+
+// 5 - hero i molly z kubkami
+camera_fov 0.8
+cut cut5
+time 12
+fade_in 0.5
+hour 17
+weather 0.32
+
+camera_pos za2_cam4
+camera_look_at za2_look_at0
+
+
+animation 0 h_sit_mug
+actor_look_at 0 za2_look_at1
+
+animation 1 w_sit_mug
+actor_look_at 1 za2_look_at2
+
+actor DLC02L05
+
+
+
+
+// 6 - na ogien
+camera_fov 0.9
+cut cut6
+time 10
+fade_in 0.5
+hour 17
+weather 0.32
+
+camera_pos za2_cam5
+camera_move_to za2_cam5a 0.1
+camera_look_at za2_look_at2
+
+actor DLC02L06
+
+
+
+
+// 7 - na ogien2
+camera_fov 0.9
+cut cut7
+time 1
+fade_out 1
+hour 17
+weather 0.32
+
+camera_pos za2_cam5a
+camera_look_at za2_look_at2
+
+
+
+
+// 8 - na ogien2
+cut cut8
+black
+time 2
+
+camera_pos za2_cam5a
+camera_look_at za2_look_at2
+
+
+

@@ -1,0 +1,4 @@
+mesh_filename prefabs\vehicles\cultivator_mc6\rightside_nocenter.x
+socket roller1 1.310000 -2.180000 -0.630000
+socket p2 0.110000 0.050000 0.160000
+socket roller2 1.310000 -2.680000 -0.650000

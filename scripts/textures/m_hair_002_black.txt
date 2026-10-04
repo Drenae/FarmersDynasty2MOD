@@ -1,0 +1,13 @@
+texture m_hair_002_black.dds
+transparent
+hair
+2sided
+animation_speed 1.000000
+appear_distance 0.000000
+normal m_hair_002_norma.dds
+normal_density 1.000000
+detail_density 16.000000
+detail_as_normal
+metalness 0.000000
+reflection_for_nonmetals 0.240000
+move_along_v 0.000000

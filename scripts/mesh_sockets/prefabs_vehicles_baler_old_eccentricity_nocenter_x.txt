@@ -1,0 +1,2 @@
+mesh_filename prefabs\vehicles\baler_old\eccentricity_nocenter.x
+socket p1 0.000000 -0.310000 0.000000

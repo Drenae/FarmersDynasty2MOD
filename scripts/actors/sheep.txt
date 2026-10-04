@@ -1,0 +1,108 @@
+actor sheep
+
+default_phase idle
+model prefabs\models\animals\sheep\sheep.X
+
+socket_eyes oczy
+
+contact_distance 8
+contact_angle 50
+
+ignore_physics
+animal
+
+
+// owca stoi
+
+phase idle
+animation sheep_idle1
+animation sheep_idle2
+animation sheep_idle3
+animation sheep_idle4
+on_end idle
+on_end idle
+on_end idle
+// on_end walk
+on_end lie
+on_end eat
+on_end drink
+on_end sleep
+
+
+phase eat
+animation sheep_eat
+on_end eat
+on_end eat
+on_end idle
+
+
+phase drink
+animation sheep_drink
+on_end drink
+on_end drink
+on_end idle
+
+
+
+phase lie
+animation sheep_lies_down
+on_end lie2
+
+phase lie2
+animation sheep_sit
+on_end getsup
+
+phase getsup
+animation sheep_gets_up
+on_end idle
+
+
+
+
+phase sleep
+animation sheep_lies_down
+on_end sleep2
+
+phase sleep2
+animation sheep_sleep
+on_end sleep2
+on_end sleep2
+on_end getsup
+
+
+
+
+phase walk
+animation sheep_walk
+on_end walk
+on_end walk
+on_end walk
+on_end walk
+on_end trot
+
+phase trot
+animation sheep_trot
+on_end trot
+on_end trot
+on_end trot
+on_end run
+
+phase run
+animation sheep_run
+on_end run
+on_end run
+on_end run
+on_end trot2
+
+phase trot2
+animation sheep_trot
+on_end trot2
+on_end walk2
+
+phase walk2
+animation sheep_walk
+on_end walk
+on_end idle
+
+
+

@@ -1,0 +1,82 @@
+// definiuje kolejne prefaby (stopnie przebudowy), w grze moze byc wlozony dowolny, ale musza byc unikalne dla danego setu
+// part <id_warstwy> <id_materialu> <klucz_text_keys_z_opisem> <sciezka\prefab>
+// -1 jako indeks materialu oznacza ten sam material, ale nie budowe tylko naprawe, czyli przejscie z polamanych na naprostowane deski BEZ kupowania desek.
+
+
+// old plaster
+part 0 3  MAT03 prefabs\Buildings\Cowshed\cs_brick_old_wall_2_1_nocenter.X
+part 1 -1  MAT03 prefabs\Buildings\Cowshed\cs_brick_fixed_wall_2_1_nocenter.X
+
+part 2 3  MAT03 prefabs\Buildings\Cowshed\cs_brick_old_wall_2_2_nocenter.X
+part 3 -1  MAT03 prefabs\Buildings\Cowshed\cs_brick_fixed_wall_2_2_nocenter.X
+
+part 4 3  MAT03 prefabs\Buildings\Cowshed\cs_brick_old_wall_2_3_nocenter.X
+part 5 -1  MAT03 prefabs\Buildings\Cowshed\cs_brick_fixed_wall_2_3_nocenter.X
+
+part 6 3  MAT03 prefabs\Buildings\Cowshed\cs_brick_old_wall_2_4_nocenter.X
+part 7 -1  MAT03 prefabs\Buildings\Cowshed\cs_brick_fixed_wall_2_4_nocenter.X
+
+part 8 3  MAT03 prefabs\Buildings\Cowshed\cs_brick_fixed_wall_2_0_nocenter.X
+
+
+
+// brick
+part 9 3  MAT03 prefabs\Buildings\Cowshed\cs_brick_old_wall_1_2_nocenter.X
+part 10 -1  MAT03 prefabs\Buildings\Cowshed\cs_brick_fixed_wall_1_2_nocenter.X
+
+part 11 3  MAT03 prefabs\Buildings\Cowshed\cs_brick_old_wall_1_1_nocenter.X
+part 12 -1  MAT03 prefabs\Buildings\Cowshed\cs_brick_fixed_wall_1_1_nocenter.X
+
+part 13 3  MAT03 prefabs\Buildings\Cowshed\cs_brick_fixed_wall_1_0_nocenter.X
+
+
+// plaster
+part 14 5  MAT05 prefabs\Buildings\Cowshed\cs_concrete_old_wall_1_2_nocenter.X
+part 15 -1  MAT05 prefabs\Buildings\Cowshed\cs_concrete_fixed_wall_1_2_nocenter.X
+
+part 16 5  MAT05 prefabs\Buildings\Cowshed\cs_concrete_old_wall_1_1_nocenter.X
+part 17 -1  MAT05 prefabs\Buildings\Cowshed\cs_concrete_fixed_wall_1_1_nocenter.X
+
+part 18 5  MAT05 prefabs\Buildings\Cowshed\cs_concrete_fixed_wall_1_0_nocenter.X
+
+
+// new plaster
+part 19 6  MAT06 prefabs\Buildings\Cowshed\cs_concrete_new_wall_1_0_nocenter.X
+
+part 20 27  MAT27 prefabs\Buildings\Cowshed\cs_concrete_new_wall_1_0_nocenter.X
+
+
+// new brick
+part 21 4  MAT04 prefabs\buildings\cowshed\cs_brick_new_wall_1_0_nocenter.x
+
+
+// i teraz dla danego elementu definiujemy w ktory moze przejsc
+// pierwszy parametr to ktorego tyczy sie definicja, nastepne - w ktore moze byc zmieniony
+
+path 0   1 21
+path 1   19 21
+path 2   3 21
+path 3   19 21
+path 4   5 21
+path 5   19 21
+path 6   7 21
+path 7   19 21
+path 8   19 21
+
+
+path 9   10 21
+path 10   19 21
+path 11   12 21
+path 12   19 21
+path 13   19 21
+
+path 14   15 21
+path 15   19 21
+path 16   17 21
+path 17   19 21
+path 18   19 21
+
+path 19   20 21
+path 20   20 21
+path 21   19
+

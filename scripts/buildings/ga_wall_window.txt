@@ -1,0 +1,69 @@
+// definiuje kolejne prefaby (stopnie przebudowy), w grze moze byc wlozony dowolny, ale musza byc unikalne dla danego setu
+// part <id_warstwy> <id_materialu> <klucz_text_keys_z_opisem> <sciezka\prefab>
+// -1 jako indeks materialu oznacza ten sam material, ale nie budowe tylko naprawe, czyli przejscie z polamanych na naprostowane deski BEZ kupowania desek.
+
+
+
+part 0 5 MAT05 prefabs\Buildings\garages\ga_concrete_old_wall_window_1_2_nocenter.X
+part 1 -1  MAT05 prefabs\Buildings\garages\ga_concrete_fixed_wall_window_1_2_nocenter.X
+
+part 2 5 MAT05 prefabs\Buildings\garages\ga_concrete_old_wall_window_1_3_nocenter.X
+part 3 -1  MAT05 prefabs\Buildings\garages\ga_concrete_fixed_wall_window_1_3_nocenter.X
+
+part 4 5 MAT05 prefabs\Buildings\garages\ga_concrete_old_wall_window_1_4_nocenter.X
+part 5 -1  MAT05 prefabs\Buildings\garages\ga_concrete_fixed_wall_window_1_4_nocenter.X
+
+
+
+part 6 3 MAT03 prefabs\Buildings\garages\ga_brick_old_wall_window_1_2_nocenter.X
+part 7 -1  MAT03 prefabs\Buildings\garages\ga_brick_fixed_wall_window_1_2_nocenter.X
+
+part 8 3 MAT03 prefabs\Buildings\garages\ga_brick_fixed_wall_window_1_1_nocenter.X
+
+
+// new brick
+part 9 4 MAT04 prefabs\Buildings\garages\ga_brick_new_wall_window_1_1_nocenter.X
+
+
+
+// very old plaster
+part 10 3  MAT03 prefabs\buildings\garages\ga_concrete_old_wall_window_3_1_nocenter.x
+part 11 -1  MAT03 prefabs\buildings\garages\ga_concrete_fixed_wall_window_3_1_nocenter.x
+
+part 12 3  MAT03 prefabs\buildings\garages\ga_concrete_fixed_wall_window_3_0_nocenter.x
+
+
+
+
+
+part 13 3 MAT03 prefabs\Buildings\garages\ga_concrete_fixed_wall_window_1_1_nocenter.X
+
+
+// new plaster
+part 14 6 MAT06 prefabs\Buildings\garages\ga_concrete_new_wall_window_1_1_nocenter.X
+part 15 27  MAT27 prefabs\Buildings\garages\ga_concrete_new_wall_window_1_1_nocenter.X
+
+
+
+
+// i teraz dla danego elementu definiujemy w ktory moze przejsc
+// pierwszy parametr to ktorego tyczy sie definicja, nastepne - w ktore moze byc zmieniony
+
+path 0   1 9
+path 1   9 14
+path 2   3 9
+path 3   9 14
+path 4   5 9
+path 5   9 14
+path 6   7 9
+path 7   9 14
+path 8   9 14
+path 9   14
+path 10   9 11
+path 11   9 14
+path 12   9 14
+path 13   9 14
+path 14   9 15
+path 15   9 15
+
+

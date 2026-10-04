@@ -1,0 +1,10 @@
+mesh_filename prefabs\vehicles\tractor_old_fnd\tractor_old_demo_nocenter.x
+socket wheel_front_left -0.640000 1.320000 0.580000
+socket wheel_front_right 0.640000 1.320000 0.580000
+socket wheel_rear_left -0.610000 -0.790000 0.770000
+socket wheel_rear_right 0.610000 -0.790000 0.770000
+socket kamera 0.030000 -0.900000 2.230000
+socket kierowca -0.000000 -1.060000 0.520000
+socket rura 0.500000 -1.250000 0.560000
+socket zaczep 0.000000 -1.500000 0.920000
+socket zaczep_dolny 0.000000 -1.590000 0.400000

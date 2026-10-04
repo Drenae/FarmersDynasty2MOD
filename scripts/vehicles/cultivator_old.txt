@@ -1,0 +1,81 @@
+Vehicle >cultivator_old
+prefab prefabs\vehicles\cultivator_old\cultivator_old_nocenter.x
+Mass 200.0
+Stiffness 10
+
+spawn_id 31
+
+tag >MT23
+
+
+
+kultywator
+przyczepa
+price 8000
+working_width 3.2
+old_tractors_can_attach
+do_not_sell
+
+renew_and_paint
+repairable cultivator_old.dds cultivator_old_repaired.dds
+color 0.35 0.52 0.56
+
+
+
+// COLLISION MESH
+
+// pScaleZ
+mnoznik_fizyki_z 0.8
+// pScaleY
+mnoznik_fizyki_y 0.5
+// pScaleX
+mnoznik_fizyki_x 0.9
+
+// pTransZ
+przesuniecie_fizyki_przod -0.1
+// pTransY
+przesuniecie_fizyki_gora 0.6
+// pTransX
+przesuniecie_fizyki_prawo 0.0
+
+
+
+// HOOKS
+zaczep3p zaczep3p
+zaczep3pgora zaczep3pgora
+
+// additional_lift_3p_when_up 0.1
+// additional_lift_3p_when_down -0.1
+// mnoznik_kata 0.2
+
+add_when_loose 0.2
+old_tractors_can_attach
+
+
+
+
+
+// WHEELS
+reverse
+Rotate_X
+attachment_wheel prefabs\vehicles\cultivator_old\wheel_left_nocenter.X wheel_left
+
+reverse
+Rotate_X
+attachment_wheel prefabs\vehicles\cultivator_old\wheel_right_nocenter.X wheel_right
+
+
+
+// REPAIBLE
+attachment prefabs\vehicles\cultivator_old\repair_cultivator_old_blades_nocenter.X repair
+
+
+
+// WORKING FX
+working_fx fx_plow_dust01 fx0
+working_fx afx_sianie fx1
+working_fx fx_plow_dust01 fx2
+working_fx afx_sianie fx3
+
+
+

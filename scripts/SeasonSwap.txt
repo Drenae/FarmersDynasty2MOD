@@ -1,0 +1,948 @@
+//
+// zamienia obiekty ze starej epoki na nowa
+
+prefab prefabs\objects\poles\demo_billboard_car_store_2_nocenter.x
+swap prefabs\objects\poles\demo_billboard_car_store_nocenter.x
+
+prefab prefabs\objects\poles\demo_billboard_gas_station_2_nocenter.x
+swap prefabs\objects\poles\demo_billboard_gas_station_nocenter.x
+
+prefab prefabs\objects\poles\pole_hv_002_nocenter.x
+swap prefabs\objects\poles\pole_hv_002_new_nocenter.x
+
+prefab prefabs\objects\poles\pole_hv_003_nocenter.x
+swap prefabs\objects\poles\pole_hv_003_new_nocenter.x
+
+prefab prefabs\objects\poles\pole_hv_004_nocenter.x
+swap prefabs\objects\poles\pole_hv_004_new_nocenter.x
+
+prefab prefabs\objects\poles\pole_hv_005_nocenter.x
+swap prefabs\objects\poles\pole_hv_005_new_nocenter.x
+
+prefab prefabs\objects\poles\pole_hv_006_nocenter.x
+swap prefabs\objects\poles\pole_hv_006_new_nocenter.x 
+
+prefab prefabs\objects\poles\pole_hv_007_nocenter.x
+swap prefabs\objects\poles\pole_hv_007_new_nocenter.x
+
+prefab prefabs\objects\poles\pole_hv_008_nocenter.x
+swap prefabs\objects\poles\pole_hv_008_new_nocenter.x
+
+prefab prefabs\objects\poles\pole_hv_001_nocenter.x
+swap prefabs\objects\poles\pole_hv_001_new_nocenter.x
+
+prefab prefabs\buildings\town_houses\town_shop_001_nocenter.x
+swap prefabs\buildings\town_houses\town_shop_001_new_nocenter.x
+
+prefab prefabs\buildings\town_houses\town_shop_002_nocenter.x
+swap prefabs\buildings\town_houses\town_shop_002_new_nocenter.x
+
+prefab prefabs\buildings\town_houses\town_door_002_nocenter.x
+swap prefabs\buildings\town_houses\town_door_001_nocenter.x
+
+prefab prefabs\buildings\town_houses\town_door_003_nocenter.x
+swap prefabs\buildings\town_houses\town_door_008_nocenter.x
+
+prefab prefabs\buildings\town_houses\town_door_004_nocenter.x
+swap prefabs\buildings\town_houses\town_door_007_nocenter.x
+
+prefab prefabs\buildings\town_houses\town_door_005_nocenter.x
+swap prefabs\buildings\town_houses\town_door_006_nocenter.x
+
+prefab prefabs\buildings\town_houses\lifeguard_tower_nocenter.x
+swap prefabs\buildings\town_houses\lifeguard_tower_NEW_nocenter.x
+
+prefab prefabs\buildings\town_houses\cloakroom_nocenter.x
+swap prefabs\buildings\town_houses\cloakroom_NEW_nocenter.x
+
+prefab prefabs\buildings\furniture\deck_chair_nocenter.x
+swap prefabs\buildings\furniture\deck_chair_NEW_nocenter.x
+
+prefab prefabs\buildings\town_houses\town_hall_nocenter.x
+swap prefabs\buildings\town_houses\town_hall_new_nocenter.x
+
+prefab prefabs\buildings\town_houses\town_hall_wood_nocenter.x
+swap prefabs\buildings\town_houses\town_hall_wood_new_nocenter.x
+
+prefab prefabs\buildings\town_houses\town_building_001_nocenter.x
+swap prefabs\buildings\town_houses\town_building_001_new_nocenter.x
+
+prefab prefabs\buildings\town_houses\town_building_wood_001_nocenter.x
+swap prefabs\buildings\town_houses\town_building_wood_001_new_nocenter.x
+
+prefab prefabs\buildings\town_houses\town_building_wood_002_nocenter.x
+swap prefabs\buildings\town_houses\town_building_wood_002_new_nocenter.x
+
+prefab prefabs\buildings\town_houses\town_building_002_nocenter.x
+swap prefabs\buildings\town_houses\town_building_002_new_nocenter.x
+
+prefab prefabs\buildings\town_houses\town_building_003_nocenter.x
+swap prefabs\buildings\town_houses\town_building_003_new_nocenter.x
+
+prefab prefabs\buildings\town_houses\town_building_wood_003_nocenter.x
+swap prefabs\buildings\town_houses\town_building_wood_003_new_nocenter.x
+
+prefab prefabs\buildings\town_houses\town_building_004_nocenter.x
+swap prefabs\buildings\town_houses\town_building_004_new_nocenter.x
+
+prefab prefabs\buildings\town_houses\town_building_wood_004_nocenter.x
+swap prefabs\buildings\town_houses\town_building_wood_004_new_nocenter.x
+
+prefab prefabs\buildings\town_houses\town_building_005_nocenter.x
+swap prefabs\buildings\town_houses\town_building_005_new_nocenter.x
+
+prefab prefabs\buildings\town_houses\town_building_006_nocenter.x
+swap prefabs\buildings\town_houses\town_building_006_new_nocenter.x
+
+prefab prefabs\buildings\town_houses\town_building_wood_006_nocenter.x
+swap prefabs\buildings\town_houses\town_building_wood_006_new_nocenter.x
+
+prefab prefabs\buildings\town_houses\town_building_007_nocenter.x
+swap prefabs\buildings\town_houses\town_building_007_new_nocenter.x
+
+prefab prefabs\buildings\town_houses\town_building_008_nocenter.x
+swap prefabs\buildings\town_houses\town_building_008_new_nocenter.x
+
+prefab prefabs\buildings\town_houses\town_building_009_nocenter.x
+swap prefabs\buildings\town_houses\town_building_009_new_nocenter.x
+
+prefab prefabs\buildings\town_houses\town_building_010_nocenter.x
+swap prefabs\buildings\town_houses\town_building_010_new_nocenter.x
+
+
+prefab prefabs\buildings\town_houses\town_building_shutters_001_nocenter.x
+swap prefabs\buildings\town_houses\town_building_shutters_001_new_nocenter.x
+
+prefab prefabs\buildings\town_houses\town_building_shutters_002_nocenter.x
+swap prefabs\buildings\town_houses\town_building_shutters_002_new_nocenter.x
+
+prefab prefabs\buildings\town_houses\town_building_shutters_003_nocenter.x
+swap prefabs\buildings\town_houses\town_building_shutters_003_new_nocenter.x
+
+prefab prefabs\buildings\town_houses\town_building_shutters_004_nocenter.x
+swap prefabs\buildings\town_houses\town_building_shutters_004_new_nocenter.x
+
+prefab prefabs\buildings\town_houses\town_building_shutters_005_nocenter.x
+swap prefabs\buildings\town_houses\town_building_shutters_005_new_nocenter.x
+
+prefab prefabs\buildings\town_houses\town_building_shutters_006_nocenter.x
+swap prefabs\buildings\town_houses\town_building_shutters_006_new_nocenter.x
+
+
+
+
+prefab prefabs\buildings\wedding_decorations\wedding_wall_4_nocenter.x
+swap prefabs\buildings\wedding_decorations\wedding_wall_4_new_nocenter.x
+
+prefab prefabs\buildings\wedding_decorations\wedding_wall_3_nocenter.x
+swap prefabs\buildings\wedding_decorations\wedding_wall_3_new_nocenter.x
+
+prefab prefabs\buildings\wedding_decorations\wedding_wall_2_nocenter.x
+swap prefabs\buildings\wedding_decorations\wedding_wall_2_new_nocenter.x
+
+prefab prefabs\buildings\wedding_decorations\wedding_wall_1_nocenter.x
+swap prefabs\buildings\wedding_decorations\wedding_wall_1_new_nocenter.x
+
+prefab prefabs\buildings\wedding_decorations\wedding_pergola_nocenter.x
+swap prefabs\buildings\wedding_decorations\wedding_pergola_new_nocenter.x
+
+prefab prefabs\buildings\wedding_decorations\chair_nocenter.x
+swap prefabs\buildings\wedding_decorations\chair_new_nocenter.x
+
+prefab prefabs\buildings\wedding_decorations\chairs_nocenter.x
+swap prefabs\buildings\wedding_decorations\chairs_new_nocenter.x
+
+prefab prefabs\buildings\wedding_decorations\baloons_3_nocenter.x
+swap prefabs\buildings\wedding_decorations\baloons_3_new_nocenter.x
+
+prefab prefabs\buildings\wedding_decorations\baloons_2_nocenter.x
+swap prefabs\buildings\wedding_decorations\baloons_2_new_nocenter.x
+
+prefab prefabs\buildings\wedding_decorations\baloons_1_nocenter.x
+swap prefabs\buildings\wedding_decorations\baloons_1_new_nocenter.x
+
+prefab prefabs\buildings\wedding_decorations\fence_1_nocenter.x
+swap prefabs\buildings\wedding_decorations\fence_1_new_nocenter.x
+
+
+
+
+prefab prefabs\buildings\shop_machinery\canopy_nocenter.x
+swap prefabs\buildings\shop_machinery\canopy_new_nocenter.x
+
+
+
+prefab prefabs\buildings\shop_silo\silo_building_004_nocenter.X
+swap prefabs\buildings\shop_silo\silo_building_004_NEW_nocenter.X
+
+prefab prefabs\buildings\shop_silo\silo_building_003_nocenter.X
+swap prefabs\buildings\shop_silo\silo_building_003_NEW_nocenter.X
+
+prefab prefabs\buildings\shop_silo\silo_building_005_nocenter.X
+swap prefabs\buildings\shop_silo\silo_building_005_NEW_nocenter.X
+
+prefab prefabs\buildings\shop_silo\silo_pipe_005_nocenter.X
+swap prefabs\buildings\shop_silo\silo_pipe_005_NEW_nocenter.X
+
+prefab prefabs\buildings\shop_silo\silo7_nocenter.X
+swap prefabs\buildings\shop_silo\silo7_NEW_nocenter.X
+
+prefab prefabs\buildings\shop_silo\silo_mount_002_nocenter.X
+swap prefabs\buildings\shop_silo\silo_mount_002_NEW_nocenter.X
+
+prefab prefabs\buildings\shop_silo\silo6_nocenter.X
+swap prefabs\buildings\shop_silo\silo6_NEW_nocenter.X
+
+prefab prefabs\buildings\shop_silo\silo_building_002_nocenter.X
+swap prefabs\buildings\shop_silo\silo_building_002_NEW_nocenter.X
+
+prefab prefabs\buildings\shop_silo\silo_building3_nocenter.X
+swap prefabs\buildings\shop_silo\silo_building3_NEW_nocenter.X
+
+prefab prefabs\buildings\shop_silo\silo1_nocenter.X
+swap prefabs\buildings\shop_silo\silo1_NEW_nocenter.X
+
+prefab prefabs\buildings\shop_silo\silo3_nocenter.X
+swap prefabs\buildings\shop_silo\silo3_NEW_nocenter.X
+
+prefab prefabs\buildings\shop_silo\silo1_wall_nocenter.X
+swap prefabs\buildings\shop_silo\silo1_wall_NEW_nocenter.X
+
+prefab prefabs\buildings\shop_silo\silo1_interior_nocenter.X
+swap prefabs\buildings\shop_silo\silo1_interior_NEW_nocenter.X
+
+prefab prefabs\buildings\shop_silo\silo_building2_nocenter.X
+swap prefabs\buildings\shop_silo\silo_building2_NEW_nocenter.X
+
+prefab prefabs\buildings\shop_silo\silo2_nocenter.X
+swap prefabs\buildings\shop_silo\silo2_NEW_nocenter.X
+
+prefab prefabs\buildings\shop_silo\silo_pipe_001_nocenter.X
+swap prefabs\buildings\shop_silo\silo_pipe_001_NEW_nocenter.X
+
+prefab prefabs\buildings\shop_silo\silo1_basement_nocenter.X
+swap prefabs\buildings\shop_silo\silo1_basement_NEW_nocenter.X
+
+prefab prefabs\buildings\shop_silo\silo1_balcony_nocenter.X
+swap prefabs\buildings\shop_silo\silo1_balcony_NEW_nocenter.X
+
+prefab prefabs\buildings\shop_silo\silo1_pouring_nocenter.X
+swap prefabs\buildings\shop_silo\silo1_pouring_NEW_nocenter.X
+
+prefab prefabs\buildings\shop_silo\silo1_balcony_handrail_nocenter.X
+swap prefabs\buildings\shop_silo\silo1_balcony_handrail_NEW_nocenter.X
+
+prefab prefabs\buildings\shop_silo\silo_building_001_nocenter.X
+swap prefabs\buildings\shop_silo\silo_building_001_NEW_nocenter.X
+
+prefab prefabs\buildings\shop_silo\silo_outhouse_001_nocenter.X
+swap prefabs\buildings\shop_silo\silo_outhouse_001_NEW_nocenter.X
+
+prefab prefabs\buildings\shop_silo\silo_outhouse_002_nocenter.X
+swap prefabs\buildings\shop_silo\silo_outhouse_002_NEW_nocenter.X
+
+prefab prefabs\buildings\shop_silo\silo_pipe_002_nocenter.X
+swap prefabs\buildings\shop_silo\silo_pipe_002_NEW_nocenter.X
+
+prefab prefabs\buildings\shop_silo\silo_gate_chute_nocenter.X
+swap prefabs\buildings\shop_silo\silo_gate_chute_NEW_nocenter.X
+
+prefab prefabs\buildings\shop_silo\silo_grain_chute_nocenter.X
+swap prefabs\buildings\shop_silo\silo_grain_chute_NEW_nocenter.X
+
+prefab prefabs\buildings\shop_silo\silo_grain_chute2_nocenter.X
+swap prefabs\buildings\shop_silo\silo_grain_chute2_NEW_nocenter.X
+
+prefab prefabs\buildings\shop_silo\band_fence_nocenter.X
+swap prefabs\buildings\shop_silo\band_fence_NEW_nocenter.X
+
+prefab prefabs\buildings\shop_silo\silo1_top3_nocenter.X
+swap prefabs\buildings\shop_silo\silo1_top3_NEW_nocenter.X
+
+prefab prefabs\buildings\shop_silo\silo1_top2_nocenter.X
+swap prefabs\buildings\shop_silo\silo1_top2_NEW_nocenter.X
+
+prefab prefabs\buildings\shop_silo\silo1_top_nocenter.X
+swap prefabs\buildings\shop_silo\silo1_top_NEW_nocenter.X
+
+prefab prefabs\buildings\shop_silo\silo_outhouse_003_nocenter.X
+swap prefabs\buildings\shop_silo\silo_outhouse_003_NEW_nocenter.X
+
+prefab prefabs\buildings\shop_silo\silo_outhouse_004_nocenter.X
+swap prefabs\buildings\shop_silo\silo_outhouse_004_NEW_nocenter.X
+
+prefab prefabs\buildings\shop_silo\silo_outhouse_004_bend_nocenter.X
+swap prefabs\buildings\shop_silo\silo_outhouse_004_bend_NEW_nocenter.X
+
+prefab prefabs\buildings\shop_silo\silo_pipe_004_nocenter.X
+swap prefabs\buildings\shop_silo\silo_pipe_004_NEW_nocenter.X
+
+prefab prefabs\buildings\shop_silo\silo_outhouse_004_mount_nocenter.X
+swap prefabs\buildings\shop_silo\silo_outhouse_004_mount_NEW_nocenter.X
+
+prefab prefabs\buildings\shop_silo\silo_outhouse_004_bend_mount_nocenter.X
+swap prefabs\buildings\shop_silo\silo_outhouse_004_bend_mount_NEW_nocenter.X
+
+prefab prefabs\buildings\shop_silo\silo_pipe_003_nocenter.X
+swap prefabs\buildings\shop_silo\silo_pipe_003_NEW_nocenter.X
+
+prefab prefabs\buildings\shop_silo\silo5_nocenter.X
+swap prefabs\buildings\shop_silo\silo5_NEW_nocenter.X
+
+prefab prefabs\buildings\shop_silo\silo4_nocenter.X
+swap prefabs\buildings\shop_silo\silo4_NEW_nocenter.X
+
+prefab prefabs\buildings\shop_silo\silo1_lighting_rod_nocenter.X
+swap prefabs\buildings\shop_silo\silo1_lighting_rod_NEW_nocenter.X
+
+prefab prefabs\buildings\shop_silo\silo_door_nocenter.X
+swap prefabs\buildings\shop_silo\silo_door_NEW_nocenter.X
+
+prefab prefabs\buildings\shop_silo\silo_mount_nocenter.X
+swap prefabs\buildings\shop_silo\silo_mount_NEW_nocenter.X
+
+prefab prefabs\buildings\shop_silo\silo_outhouse_004_pylon_nocenter.X
+swap prefabs\buildings\shop_silo\silo_outhouse_004_pylon_NEW_nocenter.X
+
+
+
+prefab prefabs\buildings\shop_agro\agro_shop_desk_nocenter.x
+swap prefabs\buildings\shop_agro\agro_shop_desk_NEW_nocenter.x
+
+prefab prefabs\buildings\shop_agro\cash_register_nocenter.x
+swap prefabs\buildings\shop_agro\cash_register_NEW_nocenter.x
+
+prefab prefabs\buildings\shop_agro\shop_agro_0_nocenter.x
+swap prefabs\buildings\shop_agro\shop_agro_0_new_nocenter.x
+
+prefab prefabs\buildings\shop_agro\shop_agro_1_nocenter.x
+swap prefabs\buildings\shop_agro\shop_agro_1_new_nocenter.x
+
+prefab prefabs\buildings\shop_agro\shop_agro_2_nocenter.x
+swap prefabs\buildings\shop_agro\shop_agro_2_new_nocenter.x
+
+prefab prefabs\buildings\shop_agro\shop_agro_3_nocenter.x
+swap prefabs\buildings\shop_agro\shop_agro_3_new_nocenter.x
+
+prefab prefabs\buildings\shop_agro\shop_agro_4_nocenter.x
+swap prefabs\buildings\shop_agro\shop_agro_4_new_nocenter.x
+
+prefab prefabs\buildings\shop_agro\door_1_nocenter.x
+swap prefabs\buildings\shop_agro\door_1_new_nocenter.x
+
+prefab prefabs\buildings\shop_agro\door_2_nocenter.x
+swap prefabs\buildings\shop_agro\door_2_new_nocenter.x
+
+prefab prefabs\buildings\shop_agro\commodity_shelf_1_nocenter.x
+swap prefabs\buildings\shop_agro\commodity_shelf_1_new_nocenter.x
+
+
+
+prefab prefabs\Buildings\Shop_buildings_supply\Shop_buildings_supply_1_nocenter.X
+swap prefabs\Buildings\Shop_buildings_supply\Shop_buildings_supply_1_NEW_nocenter.X
+
+prefab prefabs\Buildings\Shop_buildings_supply\Shop_buildings_supply_2_nocenter.X
+swap prefabs\Buildings\Shop_buildings_supply\Shop_buildings_supply_2_NEW_nocenter.X
+
+prefab prefabs\Buildings\Shop_buildings_supply\Shop_buildings_supply_3_nocenter.X
+swap prefabs\Buildings\Shop_buildings_supply\Shop_buildings_supply_3_NEW_nocenter.X
+
+prefab prefabs\Buildings\Shop_buildings_supply\Shop_buildings_supply_4_nocenter.X
+swap prefabs\Buildings\Shop_buildings_supply\Shop_buildings_supply_4_NEW_nocenter.X
+
+prefab prefabs\Buildings\Shop_buildings_supply\shelf_1_nocenter.X
+swap prefabs\Buildings\Shop_buildings_supply\shelf_1_NEW_nocenter.X
+
+prefab prefabs\Buildings\Shop_buildings_supply\shelf_2_nocenter.X
+swap prefabs\Buildings\Shop_buildings_supply\shelf_2_NEW_nocenter.X
+
+
+
+prefab prefabs\buildings\gas_station\gas_station_pylon_nocenter.x
+swap prefabs\buildings\gas_station\gas_station_pylon_new_nocenter.x
+
+prefab prefabs\buildings\gas_station\gas_station_roof_nocenter.x
+swap prefabs\buildings\gas_station\gas_station_roof_new_nocenter.x
+
+prefab prefabs\buildings\gas_station\pylon_nocenter.x
+swap prefabs\buildings\gas_station\pylon_new_nocenter.x
+
+prefab prefabs\buildings\gas_station\shop_nocenter.x
+swap prefabs\buildings\gas_station\shop_new_nocenter.x
+
+prefab prefabs\buildings\gas_station\shop2_nocenter.x
+swap prefabs\buildings\gas_station\shop2_new_nocenter.x
+
+prefab prefabs\buildings\gas_station\infusion_box_1_nocenter.x
+swap prefabs\buildings\gas_station\infusion_box_1_new_nocenter.x
+
+prefab prefabs\buildings\gas_station\infusion_box_2_nocenter.x
+swap prefabs\buildings\gas_station\infusion_box_2_new_nocenter.x
+
+prefab prefabs\buildings\gas_station\roof_metal_1_nocenter.x
+swap prefabs\buildings\gas_station\roof_metal_1_new_nocenter.x
+
+prefab prefabs\buildings\gas_station\roof_metal_2_nocenter.x
+swap prefabs\buildings\gas_station\roof_metal_2_new_nocenter.x
+
+prefab prefabs\buildings\gas_station\gas_station_logo_nocenter.x
+swap prefabs\buildings\gas_station\gas_station_logo_new_nocenter.x
+
+prefab prefabs\buildings\garages_stuff\fuel_dispenser_nocenter.x
+swap prefabs\buildings\gas_station\fuel_dispenser_new_nocenter.x
+
+
+
+prefab prefabs\buildings\shop_machinery\garages_nocenter.x
+swap prefabs\buildings\shop_machinery\garages_new_nocenter.x
+
+prefab prefabs\buildings\shop_machinery\shop_machinery_1_nocenter.x
+swap prefabs\buildings\shop_machinery\shop_machinery_1_new_nocenter.x
+
+
+
+//prefab prefabs\buildings\buildings_materials\pallet_brick_new_nocenter.x
+//swap prefabs\buildings\buildings_materials\modern_pallet_brick_new_nocenter.x
+
+//prefab prefabs\buildings\buildings_materials\pallet_wood_new_nocenter.x
+//swap prefabs\buildings\buildings_materials\modern_pallet_wood_new_nocenter.x
+
+//prefab prefabs\buildings\buildings_materials\pallet_glass_new_nocenter.x
+//swap prefabs\buildings\buildings_materials\modern_pallet_glass_new_nocenter.x
+
+//prefab prefabs\buildings\buildings_materials\pallet_metal_new_nocenter.x
+//swap prefabs\buildings\buildings_materials\modern_pallet_metal_new_nocenter.x
+
+//prefab prefabs\buildings\buildings_materials\pallet_plaster_new_nocenter.x
+//swap prefabs\buildings\buildings_materials\modern_pallet_plaster_new_nocenter.x
+
+//prefab prefabs\buildings\buildings_materials\pallet_paint_new_nocenter.x
+//swap prefabs\buildings\buildings_materials\modern_pallet_paint_new_nocenter.x
+
+//prefab prefabs\buildings\buildings_materials\pallet_bitumen_new_nocenter.x
+//swap prefabs\buildings\buildings_materials\modern_pallet_bitumen_new_nocenter.x
+
+//prefab prefabs\buildings\buildings_materials\pallet_roof_1_new_nocenter.x
+//swap prefabs\buildings\buildings_materials\modern_pallet_roof_1_new_nocenter.x
+
+//prefab prefabs\buildings\buildings_materials\pallet_roof_2_new_nocenter.x
+//swap prefabs\buildings\buildings_materials\modern_pallet_roof_2_new_nocenter.x
+
+//prefab prefabs\buildings\buildings_materials\pallet_roof_3_new_nocenter.x
+//swap prefabs\buildings\buildings_materials\modern_pallet_roof_3_new_nocenter.x
+
+//prefab prefabs\buildings\buildings_materials\pallet_roof_4_new_nocenter.x
+//swap prefabs\buildings\buildings_materials\modern_pallet_roof_4_new_nocenter.x
+
+
+
+
+prefab prefabs\buildings\farm_entrance\fe_stone_fixed_wall_1_0_nocenter.x
+swap prefabs\buildings\farm_entrance\fe2_plaster_fixed_wall_1_0_nocenter.x
+
+prefab prefabs\buildings\farm_entrance\fe_stone_fixed_wall_2_0_nocenter.x
+swap prefabs\buildings\farm_entrance\fe2_plaster_fixed_wall_2_0_nocenter.x
+
+prefab prefabs\buildings\farm_entrance\fe_stone_fixed_pylon_1_0_nocenter.x
+swap prefabs\buildings\farm_entrance\fe2_plaster_fixed_pylon_1_0_nocenter.x
+
+prefab prefabs\buildings\farm_entrance\fe_stone_fixed_pylon_2_0_nocenter.x
+swap prefabs\buildings\farm_entrance\fe2_plaster_fixed_pylon_2_0_nocenter.x
+
+prefab prefabs\buildings\farm_entrance\fe_wood_fixed_arc_1_0_nocenter.x
+swap prefabs\buildings\farm_entrance\fe2_metal_old_arc_1_0_nocenter.x
+
+prefab prefabs\buildings\farm_entrance\fe_wood_new_arc_1_0_nocenter.x
+swap prefabs\buildings\farm_entrance\fe2_metal_new_arc_1_0_nocenter.x
+
+prefab prefabs\buildings\farm_entrance\fe_wood_old_gate_2_0_nocenter.x
+swap prefabs\buildings\farm_entrance\fe2_metal_old_gate_2_0_nocenter.x
+
+prefab prefabs\buildings\farm_entrance\fe_wood_new_gate_2_0_nocenter.x
+swap prefabs\buildings\farm_entrance\fe2_metal_new_gate_2_0_nocenter.x
+
+prefab prefabs\buildings\farm_entrance\fe_wood_old_gate_1_0_nocenter.x
+swap prefabs\buildings\farm_entrance\fe2_metal_old_gate_1_0_nocenter.x
+
+prefab prefabs\buildings\farm_entrance\fe_wood_fixed_gate_1_0_nocenter.x
+swap prefabs\buildings\farm_entrance\fe2_metal_fixed_gate_1_0_nocenter.x
+
+prefab prefabs\buildings\farm_entrance\fe_wood_new_gate_1_0_nocenter.x
+swap prefabs\buildings\farm_entrance\fe2_metal_new_gate_1_0_nocenter.x
+
+prefab prefabs\buildings\farm_entrance\fe_wood_old_fence_1_0_nocenter.x
+swap prefabs\buildings\farm_entrance\fe2_metal_old_fence_1_0_nocenter.x
+     
+prefab prefabs\buildings\farm_entrance\fe_wood_fixed_fence_1_0_nocenter.x
+swap prefabs\buildings\farm_entrance\fe2_metal_fixed_fence_1_0_nocenter.x
+
+prefab prefabs\buildings\farm_entrance\fe_wood_new_fence_1_0_nocenter.x
+swap prefabs\buildings\farm_entrance\fe2_metal_new_fence_1_0_nocenter.x
+
+prefab prefabs\buildings\farm_entrance\fe_wood_old_fence_2_0_nocenter.x
+swap prefabs\buildings\farm_entrance\fe2_metal_old_fence_2_0_nocenter.x
+
+prefab prefabs\buildings\farm_entrance\fe_wood_fixed_fence_2_0_nocenter.x
+swap prefabs\buildings\farm_entrance\fe2_metal_fixed_fence_2_0_nocenter.x
+
+prefab prefabs\buildings\farm_entrance\fe_wood_new_fence_2_0_nocenter.x
+swap prefabs\buildings\farm_entrance\fe2_metal_fixed_fence_2_0_nocenter.x
+
+
+
+
+
+
+prefab prefabs\objects\road_signs\guardrail_45dg_nocenter.x
+swap prefabs\objects\road_signs\guardrail_45dg_new_nocenter.x
+
+prefab prefabs\objects\road_signs\guardrail_22dg_nocenter.x
+swap prefabs\objects\road_signs\guardrail_22dg_new_nocenter.x
+
+prefab prefabs\objects\road_signs\guardrail_nocenter.x
+swap prefabs\objects\road_signs\guardrail_new_nocenter.x
+
+prefab prefabs\objects\road_signs\guardrail_left_end_nocenter.x
+swap prefabs\objects\road_signs\guardrail_left_end_new_nocenter.x
+
+prefab prefabs\objects\road_signs\guardrail_right_end_nocenter.x
+swap prefabs\objects\road_signs\guardrail_right_end_new_nocenter.x
+
+
+
+prefab prefabs\objects\poles\billboard_small_001_fake_nocenter.x
+swap prefabs\objects\poles\billboard_small_001_nocenter.x
+
+prefab prefabs\objects\poles\billboard_small_002_fake_nocenter.x
+swap prefabs\objects\poles\billboard_small_002_nocenter.x
+
+prefab prefabs\objects\poles\billboard_small_003_fake_nocenter.x
+swap prefabs\objects\poles\billboard_small_003_nocenter.x
+
+prefab prefabs\objects\poles\billboard_small_004_fake_nocenter.x
+swap prefabs\objects\poles\billboard_small_004_nocenter.x
+
+prefab prefabs\objects\poles\billboard_small_005_fake_nocenter.x
+swap prefabs\objects\poles\billboard_small_005_nocenter.x
+
+prefab prefabs\objects\windmills\windmill_fake_nocenter.x
+swap prefabs\objects\windmills\windmill_turbine_nocenter.x
+
+
+prefab prefabs\objects\poles\billboard_old_nocenter.x
+swap prefabs\objects\poles\billboard_new_nocenter.x
+
+prefab prefabs\objects\road_signs\speed_retarder_old_nocenter.x
+swap prefabs\objects\road_signs\speed_retarder_new_nocenter.x
+
+prefab prefabs\objects\poles\street_pole_001.x
+swap prefabs\objects\poles\street_pole_001_new.x
+
+prefab prefabs\objects\poles\street_pole_002.x
+swap prefabs\objects\poles\street_pole_002_new.x
+
+prefab prefabs\objects\poles\street_pole_003.x
+swap prefabs\objects\poles\street_pole_003_new.x
+
+prefab prefabs\objects\poles\street_lamp_002_nocenter.x
+swap prefabs\objects\poles\street_lamp_002_new_nocenter.x
+
+prefab prefabs\objects\poles\street_lamp_001_nocenter.x
+swap prefabs\objects\poles\street_lamp_001_new_nocenter.x
+
+prefab prefabs\objects\poles\street_lamp_top_003_nocenter.x
+swap prefabs\objects\poles\street_lamp_top_003_new_nocenter.x
+
+prefab prefabs\objects\poles\street_lamp_top_002_nocenter.x
+swap prefabs\objects\poles\street_lamp_top_002_new_nocenter.x
+
+prefab prefabs\objects\poles\street_lamp_top_001_nocenter.x
+swap prefabs\objects\poles\street_lamp_top_001_new_nocenter.x
+
+prefab prefabs\objects\poles\pole_wood_001_nocenter.x
+swap prefabs\objects\poles\pole_wood_001_new_nocenter.x
+
+prefab prefabs\objects\poles\pole_concrete_001_nocenter.x
+swap prefabs\objects\poles\pole_concrete_001_new_nocenter.x
+
+prefab prefabs\objects\poles\pole_concrete_002_nocenter.x
+swap prefabs\objects\poles\pole_concrete_002_new_nocenter.x
+
+prefab prefabs\objects\poles\pole_metal_001_nocenter.x
+swap prefabs\objects\poles\pole_metal_001_new_nocenter.x
+
+prefab prefabs\objects\poles\pole_cross_arm_nocenter.x
+swap prefabs\objects\poles\pole_cross_arm_new_nocenter.x
+
+prefab prefabs\objects\poles\pole_lamp_001_nocenter.x
+swap prefabs\objects\poles\pole_lamp_001_new_nocenter.x
+
+prefab prefabs\objects\poles\pole_lamp_002_nocenter.x
+swap prefabs\objects\poles\pole_lamp_002_new_nocenter.x
+
+prefab prefabs\objects\poles\pole_concrete_003_nocenter.x
+swap prefabs\objects\poles\pole_concrete_003_new_nocenter.x
+
+prefab prefabs\objects\poles\pole_concrete_004_nocenter.x
+swap prefabs\objects\poles\pole_concrete_004_new_nocenter.x
+
+prefab prefabs\objects\road_signs\rs_old_11_nocenter.x
+swap prefabs\objects\road_signs\rs_new_11_nocenter.x
+
+prefab prefabs\objects\road_signs\rs_old_12_nocenter.x
+swap prefabs\objects\road_signs\rs_new_12_nocenter.x
+
+prefab prefabs\objects\road_signs\rs_old_4_nocenter.x
+swap prefabs\objects\road_signs\rs_new_4_nocenter.x
+
+prefab prefabs\objects\road_signs\rs_old_3_nocenter.x
+swap prefabs\objects\road_signs\rs_new_3_nocenter.x
+
+prefab prefabs\objects\road_signs\rs_old_2_nocenter.x
+swap prefabs\objects\road_signs\rs_new_2_nocenter.x
+
+prefab prefabs\objects\road_signs\rs_old_1_nocenter.x
+swap prefabs\objects\road_signs\rs_new_1_nocenter.x
+
+prefab prefabs\objects\road_signs\rs_old_5_nocenter.x
+swap prefabs\objects\road_signs\rs_new_5_nocenter.x
+
+prefab prefabs\objects\road_signs\rs_old_6_nocenter.x
+swap prefabs\objects\road_signs\rs_new_6_nocenter.x
+
+prefab prefabs\objects\road_signs\rs_old_7_nocenter.x
+swap prefabs\objects\road_signs\rs_new_7_nocenter.x
+
+prefab prefabs\objects\road_signs\rs_old_8_nocenter.x
+swap prefabs\objects\road_signs\rs_new_8_nocenter.x
+
+prefab prefabs\objects\road_signs\rs_old_9_nocenter.x
+swap prefabs\objects\road_signs\rs_new_9_nocenter.x
+
+prefab prefabs\objects\road_signs\rs_old_10_nocenter.x
+swap prefabs\objects\road_signs\rs_new_10_nocenter.x
+
+prefab prefabs\Buildings\mast\mast_0_nocenter.X
+swap prefabs\Buildings\mast\mast_0_new_nocenter.X
+
+prefab prefabs\Buildings\mast\mast_1_nocenter.X
+swap prefabs\Buildings\mast\mast_1_new_nocenter.X
+
+prefab prefabs\Buildings\mast\mast_2_nocenter.X
+swap prefabs\Buildings\mast\mast_2_new_nocenter.X
+
+
+
+// Fences
+
+prefab prefabs\objects\fences_chainlink\fence_chainlink_001_nocenter.x
+swap prefabs\objects\fences_chainlink\fence_chainlink_001_new_nocenter.x
+
+prefab prefabs\objects\fences_chainlink\fence_chainlink_002_nocenter.x
+swap prefabs\objects\fences_chainlink\fence_chainlink_002_new_nocenter.x
+
+prefab prefabs\objects\fences_chainlink\fence_chainlink_gate_left_nocenter.x
+swap prefabs\objects\fences_chainlink\fence_chainlink_gate_left_new_nocenter.x
+
+prefab prefabs\objects\fences_chainlink\fence_chainlink_gate_right_nocenter.x
+swap prefabs\objects\fences_chainlink\fence_chainlink_gate_right_new_nocenter.x
+
+prefab prefabs\objects\fences_chainlink\fence_chainlink_pole_nocenter.x
+swap prefabs\objects\fences_chainlink\fence_chainlink_pole_new_nocenter.x
+
+
+prefab prefabs\objects\fences\pl_wood_new_fence7_corner_1_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_wood_new_fence7_corner_1_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_fixed_fence7_corner_1_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_wood_fixed_fence7_corner_1_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_new_fence7_1_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_wood_new_fence7_1_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_fixed_fence7_1_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_wood_fixed_fence7_1_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_new_fence7_2_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_wood_new_fence7_2_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_fixed_fence7_2_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_wood_fixed_fence7_2_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_new_fence7_3_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_wood_new_fence7_3_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_fixed_fence7_3_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_wood_fixed_fence7_3_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_new_fence7_door_1_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_wood_new_fence7_door_1_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_fixed_fence7_door_1_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_wood_fixed_fence7_door_1_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_new_fence7_pole_1_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_wood_new_fence7_pole_1_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_fixed_fence7_pole_1_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_wood_fixed_fence7_pole_1_1_modern_nocenter.x
+
+
+prefab prefabs\objects\fences\pl_stone_fixed_fence6_1_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_stone_fixed_fence6_1_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_concrete_fixed_fence6_1_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_concrete_fixed_fence6_1_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_concrete_fixed_fence6_pole_1_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_concrete_fixed_fence6_pole_1_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_stone_fixed_fence6_pole_1_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_stone_fixed_fence6_pole_1_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_stone_fixed_fence6_pole_2_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_stone_fixed_fence6_pole_2_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_new_fence6_1_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_new_fence6_1_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_fixed_fence6_1_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_fixed_fence6_1_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_fixed_fence6_1_2_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_fixed_fence6_1_2_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_old_fence6_1_2_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_old_fence6_1_2_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_fixed_fence6_1_3_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_fixed_fence6_1_3_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_old_fence6_1_3_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_old_fence6_1_3_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_new_fence6_wicket_1_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_new_fence6_wicket_1_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_fixed_fence6_wicket_1_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_fixed_fence6_wicket_1_1_modern_nocenter.x
+
+
+prefab prefabs\objects\fences\pl_wood_fixed_fence2_wicket_1_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_fixed_fence2_wicket_1_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_new_fence2_wicket_1_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_new_fence2_wicket_1_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_new_fence2_gate_2_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_new_fence2_gate_2_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_fixed_fence2_gate_2_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_fixed_fence2_gate_2_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_old_fence2_gate_2_2_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_old_fence2_gate_2_2_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_fixed_fence2_gate_2_2_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_fixed_fence2_gate_2_2_modern_nocenter.x
+
+prefab prefabs\objects\fences\modern\pl_metal_new_fence2_gate_1_1_modern_nocenter.x
+swap prefabs\objects\fences\pl_wood_new_fence2_gate_1_1_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_fixed_fence2_gate_1_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_fixed_fence2_gate_1_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_old_fence2_gate_1_2_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_old_fence2_gate_1_2_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_fixed_fence2_gate_1_2_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_fixed_fence2_gate_1_2_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_new_fence2_pole_2_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_new_fence2_pole_2_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_fixed_fence2_pole_2_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_fixed_fence2_pole_2_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_new_fence2_pole_1_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_new_fence2_pole_1_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_fixed_fence2_pole_1_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_fixed_fence2_pole_1_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_new_fence2_1_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_new_fence2_1_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_fixed_fence2_1_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_fixed_fence2_1_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_fixed_fence2_1_2_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_fixed_fence2_1_2_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_old_fence2_1_3_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_old_fence2_1_3_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_fixed_fence2_1_3_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_fixed_fence2_1_3_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_old_fence2_1_4_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_old_fence2_1_4_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_fixed_fence2_1_4_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_fixed_fence2_1_4_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_old_fence2_1_5_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_old_fence2_1_5_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_fixed_fence2_1_5_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_fixed_fence2_1_5_modern_nocenter.x
+
+
+prefab prefabs\objects\fences\pl_wood_fixed_fence_wicket_1_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_fixed_fence_wicket_1_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_new_fence_wicket_1_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_new_fence_wicket_1_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_new_fence_gate_1_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_new_fence_gate_1_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_fixed_fence_gate_1_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_fixed_fence_gate_1_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_old_fence_gate_1_2_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_old_fence_gate_1_2_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_fixed_fence_gate_1_2_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_fixed_fence_gate_1_2_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_new_fence_gate_2_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_new_fence_gate_2_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_fixed_fence_gate_2_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_fixed_fence_gate_2_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_old_fence_gate_2_2_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_old_fence_gate_2_2_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_fixed_fence_gate_2_2_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_fixed_fence_gate_2_2_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_fixed_fence_pole_2_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_fixed_fence_pole_2_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_new_fence_pole_2_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_new_fence_pole_2_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_new_fence_1_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_new_fence_1_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_fixed_fence_1_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_fixed_fence_1_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_old_fence_2_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_old_fence_2_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_fixed_fence_2_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_fixed_fence_2_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_old_fence_3_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_old_fence_3_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_fixed_fence_3_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_fixed_fence_3_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_old_fence_4_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_old_fence_4_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_fixed_fence_4_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_fixed_fence_4_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_old_fence_5_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_old_fence_5_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_fixed_fence_5_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_fixed_fence_5_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_old_fence_6_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_old_fence_6_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_fixed_fence_6_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_fixed_fence_6_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_fixed_fence_pole_1_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_wood_fixed_fence_pole_1_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_new_fence_pole_1_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_wood_new_fence_pole_1_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_fixed_fence3_wicket_1_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_fixed_fence3_wicket_1_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_new_fence3_wicket_1_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_new_fence3_wicket_1_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_new_fence3_1_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_new_fence3_1_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_fixed_fence3_1_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_fixed_fence3_1_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_old_fence3_1_2_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_old_fence3_1_2_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_fixed_fence3_1_2_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_fixed_fence3_1_2_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_old_fence3_1_3_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_old_fence3_1_3_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_fixed_fence3_1_3_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_fixed_fence3_1_3_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_old_fence3_1_4_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_old_fence3_1_4_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_fixed_fence3_1_4_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_fixed_fence3_1_4_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_fixed_fence3_pole_1_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_fixed_fence3_pole_1_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_new_fence3_pole_1_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_new_fence3_pole_1_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_new_fence3_gate_2_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_new_fence3_gate_2_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_fixed_fence3_gate_2_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_fixed_fence3_gate_2_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_old_fence3_gate_2_2_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_old_fence3_gate_2_2_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_fixed_fence3_gate_2_2_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_fixed_fence3_gate_2_2_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_fixed_fence3_pole_2_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_fixed_fence3_pole_2_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_new_fence3_pole_2_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_new_fence3_pole_2_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_new_fence3_gate_1_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_new_fence3_gate_1_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_fixed_fence3_gate_1_1_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_fixed_fence3_gate_1_1_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_old_fence3_gate_1_2_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_old_fence3_gate_1_2_modern_nocenter.x
+
+prefab prefabs\objects\fences\pl_wood_fixed_fence3_gate_1_2_nocenter.x
+swap prefabs\objects\fences\modern\pl_metal_fixed_fence3_gate_1_2_modern_nocenter.x
+
+
+
+
+

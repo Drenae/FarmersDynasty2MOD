@@ -1,0 +1,57 @@
+dialog dl_random
+random
+
+actor0 RND02L01
+actor0 RND02L02
+actor0 RND02L03
+actor0 RND02L04
+actor0 RND02L05
+actor0 RND02L06
+actor0 RND02L07
+actor0 RND02L08
+actor0 RND02L09
+actor0 RND02L10
+actor0 RND02L11
+actor0 RND02L12
+actor0 RND02L13
+actor0 RND02L14
+actor0 RND02L15
+actor0 RND02L16
+actor0 RND02L17
+actor0 RND02L18
+actor0 RND02L19
+actor0 RND02L20
+actor0 RND02L21
+actor0 RND02L22
+
+
+
+dialog dl_random2
+random
+
+actor0 RND01L01
+actor0 RND01L02
+actor0 RND01L03
+actor0 RND01L04
+actor0 RND01L05
+actor0 RND01L06
+actor0 RND01L07
+actor0 RND01L08
+actor0 RND01L09
+actor0 RND01L10
+actor0 RND01L11
+actor0 RND01L12
+actor0 RND01L13
+actor0 RND01L14
+actor0 RND01L15
+actor0 RND01L16
+actor0 RND01L17
+actor0 RND01L18
+actor0 RND01L19
+actor0 RND01L20
+actor0 RND01L21
+actor0 RND01L22
+actor0 RND01L23
+actor0 RND01L24
+actor0 RND01L25
+actor0 RND01L26

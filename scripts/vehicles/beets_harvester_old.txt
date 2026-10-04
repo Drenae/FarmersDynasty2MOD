@@ -1,0 +1,191 @@
+Vehicle >beets_harvester_old
+prefab prefabs\vehicles\beets_harvester_old\beets_harvester_old_nocenter.x
+Mass 800.0
+Stiffness 10
+
+spawn_id 74
+
+tag >MT50
+
+
+renew_and_paint
+repairable beets_harvester_old.dds beets_harvester_old_repaired.dds
+color 0.32 0.42 0.54
+
+
+przyczepa
+potatoes_harvester
+beets_only
+price 24000
+grain_capacity 8000
+
+old_tractors_can_attach
+zaczep_tylko_do_traktora
+
+
+// stosowac gdy kolka sie kreca i dziala zlozona zamiast rozlozonej
+reverse_fold_panel_info
+reverse_fold
+
+
+
+
+// COLLISION MESH
+
+// pScaleY
+mnoznik_fizyki_y 1.3
+// pScaleZ
+mnoznik_fizyki_z 0.64
+// pScaleX
+mnoznik_fizyki_x 0.8
+
+// pTransY
+przesuniecie_fizyki_gora 1.7
+// pTransZ
+przesuniecie_fizyki_przod -0.35
+// pTransX
+przesuniecie_fizyki_prawo 0.15
+
+
+// HOOKS
+hak zaczep
+zaczep_do_hak_gorny
+pto pto
+
+
+
+
+// ANIMATIONS
+// animacja tekstury w osi v podczas koszenia (cmd0)
+// move_on_operate <nr_attachmentu_lub_0> <nr_subsetu_liczac_od_0> <Mnoznik_Predkosci_default_1.0>
+move_on_operate 0 2 -80
+move_on_operate 11 0 -5
+move_on_operate 12 0 -3
+move_on_operate 13 0 -3
+
+
+// animacja tekstury w osi v podczas wysypywania (cmd0)
+// move_on_unload <nr_attachmentu_lub_0> <nr_subsetu_liczac_od_0> <Mnoznik_Predkosci_default_1.0>
+move_on_unload 3 0 -80
+move_on_unload 1 1 -80
+move_on_unload 14 0 3
+
+
+// LIFT/TRANSPORTER (1)
+rotate_cmd4 -0.4 0.42 Z
+attachment prefabs\vehicles\beets_harvester_old\transporter_nocenter.x transporter
+
+// DIGGER (2)
+rotate_cmd3 0.25 Z 0.07
+attachment prefabs\vehicles\beets_harvester_old\digger_nocenter.x digger
+
+// conveyor (3)
+attachment prefabs\vehicles\beets_harvester_old\conveyor_nocenter.x conv
+
+// SUPPORT LEG (4)
+attachment_stopka prefabs\vehicles\beets_harvester_old\support_leg_nocenter.x support_leg 0.00 0.25
+
+
+
+
+// REELS
+
+// reel5 (5)
+rotate_cmd3 2
+attachment prefabs\vehicles\beets_harvester_old\reel5_nocenter.x reel5
+
+// reel6 (6)
+rotate_cmd3 2
+attachment prefabs\vehicles\beets_harvester_old\reel6_nocenter.x reel6
+
+// reel3 (7)
+rotate_cmd3 2 Y
+attachment prefabs\vehicles\beets_harvester_old\reel3_nocenter.x reel3
+
+
+// reel1 (8)
+rotate_cmd3 1
+attachment prefabs\vehicles\beets_harvester_old\reel1_nocenter.x reel1 2
+
+// reel2 (9)
+rotate_cmd3 -1 Y
+attachment prefabs\vehicles\beets_harvester_old\reel2_nocenter.x reel2 2
+
+// reel1 (10)
+rotate_cmd3 -1
+attachment prefabs\vehicles\beets_harvester_old\reel4_nocenter.x reel4 2
+
+
+
+
+// BEETS
+// (11)
+hide_if_empty
+attachment prefabs\vehicles\beets_harvester_old\beets1_nocenter.x beets1
+
+// (12)
+hide_if_empty
+attachment prefabs\vehicles\beets_harvester_old\beets3_nocenter.x beets3
+
+// beets bin (13)
+mnoznik_skali_ladunku 2.9
+// mnoznik_skali_ladunku_x 1.3
+attachment_zboze prefabs\vehicles\beets_harvester_old\beets_nocenter.x beets
+
+// (14)
+hide_if_empty
+attachment prefabs\vehicles\beets_harvester_old\beets2_nocenter.x beets2 1
+
+
+
+
+// WHEELS
+// prefab_kola socket_kola promien_kola podniesienie_osi_kola
+
+wheel_invisible prefabs\vehicles\beets_harvester\wheel_left_nocenter.x wheel_front
+wheel_invisible prefabs\vehicles\beets_harvester\wheel_left_nocenter.x wheel_front1
+wheel prefabs\vehicles\beets_harvester\wheel_left_nocenter.x wheel_left
+wheel prefabs\vehicles\beets_harvester\wheel_right_nocenter.x wheel_right
+
+
+
+
+// PISTONS
+// piston <prefab> <nr_attachmentu> <socket> <nr_attachmentu_docelowego> <socket_docelowy>
+piston prefabs\vehicles\beets_harvester_old\p2_nocenter.x 0 p1 2 p1a
+piston prefabs\vehicles\beets_harvester_old\p1_nocenter.x 2 p1a 0 p1
+
+
+
+
+// FX
+working_fx afx_kultywacja fx0
+working_fx afx_kultywacja fx1
+working_fx afx_kultywacja fx2
+
+
+
+
+// LIGHTS
+
+attachment_light prefabs\vehicles\beets_harvester_old\lamp1_nocenter.x light1
+attachment_name swiatlo_lt1
+swiatlo_tyl lt1
+swiatlo_z swiatlo_lt1
+
+attachment_light prefabs\vehicles\beets_harvester_old\lamp2_nocenter.x light2
+attachment_name swiatlo_lt2
+swiatlo_cofania lt2
+swiatlo_z swiatlo_lt2
+
+attachment_light prefabs\vehicles\beets_harvester_old\lamp3_nocenter.x light3
+attachment_name swiatlo_lc1
+swiatlo_cofania lc1
+swiatlo_z swiatlo_lc1
+
+
+
+// SOUNDS
+working_sound sfx\vehicles\haybaler_old.wav
+
+

@@ -1,0 +1,111 @@
+Vehicle >mower_mm1340f
+prefab prefabs\vehicles\mower_mf1340_front\mower_mf1340_front_nocenter.x
+Mass 1100.0
+Stiffness 10
+
+spawn_id 45
+
+tag >MT12
+
+renew_and_paint
+color 0.86 0.28 0.28
+
+kosiarka
+przyczepa
+price 10000
+working_width 4
+
+
+
+// COLLISION MESH
+
+// pScaleZ
+mnoznik_fizyki_z 0.8
+// pScaleY
+mnoznik_fizyki_y 0.5
+// pScaleX
+mnoznik_fizyki_x 0.9
+
+// pTransZ
+przesuniecie_fizyki_przod -0.2
+// pTransY
+przesuniecie_fizyki_gora 0.7
+// pTransX
+przesuniecie_fizyki_prawo 0.0
+
+
+
+// HOOKS
+zaczep3p zaczep3p
+zaczep3pgora zaczep3pgora
+zaczep3pshaft zaczep3pshaft
+
+
+additional_lift_3p_when_up 0.8
+additional_lift_3p_when_down 0.48
+mnoznik_kata 2.5
+
+
+add_when_loose 0.18
+
+
+
+
+// reel (1)
+rotate_cmd3 6
+attachment prefabs\vehicles\mower_mf1340_front\reel_nocenter.x reel
+
+
+
+// rotor1 (2)
+rotate_cmd3 -6 Y
+attachment prefabs\vehicles\mower_mf1340_front\rotor_nocenter.x rotor1
+
+// rotor1 (3)
+rotate_cmd3 -7.5 Y
+attachment prefabs\vehicles\mower_mf1340_front\rotor_nocenter.x rotor2
+
+// rotor1 (4)
+rotate_cmd3 -5 Y
+attachment prefabs\vehicles\mower_mf1340_front\rotor_nocenter.x rotor3
+
+// rotor1 (5)
+rotate_cmd3 -7.5 Y
+attachment prefabs\vehicles\mower_mf1340_front\rotor_nocenter.x rotor4
+
+// rotor1 (6)
+rotate_cmd3 -6 Y
+attachment prefabs\vehicles\mower_mf1340_front\rotor_nocenter.x rotor5
+
+// rotor1 (7)
+rotate_cmd3 -7.5 Y
+attachment prefabs\vehicles\mower_mf1340_front\rotor_nocenter.x rotor6
+
+
+
+
+
+// LIGHTS
+
+attachment_light prefabs\vehicles\mower_mf1340_front\lamp1_nocenter.x light1
+attachment_name swiatlo_lt1
+swiatlo_tyl lt1
+swiatlo_z swiatlo_lt1
+
+attachment_light prefabs\vehicles\mower_mf1340_front\lamp2_nocenter.x light2
+attachment_name swiatlo_lc1
+swiatlo_cofania lc1
+swiatlo_z swiatlo_lc1
+
+
+
+// WORKING FX
+working_fx afx_mower fx0
+working_fx afx_mower fx1
+working_fx afx_mower fx2
+
+
+
+// SOUNDS
+working_sound sfx\vehicles\mower_work.wav
+// sound_cmd3_on sfx\vehicles\mower_work.wav

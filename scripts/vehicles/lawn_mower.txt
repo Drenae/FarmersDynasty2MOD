@@ -1,0 +1,108 @@
+Vehicle >Lawnmower
+prefab prefabs\vehicles\lawn_mower_shl_rt61\lawn_mower_shl_rt61_nocenter.x
+Mass 900.0
+Stiffness 10
+player_can_drive
+
+
+spawn_ID 51
+
+
+tag >MT54
+
+
+car
+kosiarka
+price 3000
+automatic
+max_vel 35
+bhp 15
+no_back_beep
+no_door_sound
+
+wheels_do_not_dig
+
+
+// PANEL
+
+panel shl_rt61_display.dds
+
+napis_czas 145 280 84
+napis_obroty 135 370 64
+napis_predkosc 295 370 64
+
+
+
+// DRIVER
+skala_kierowcy 0.0
+driver_anim_drive_left h_drive_old_tractor_left
+driver_anim_drive_right h_drive_old_tractor_right
+driver_anim_drive h_drive_old_tractor
+
+
+
+// COLLISION MESH
+
+// pScaleZ
+mnoznik_fizyki_z 0.9
+// pScaleY
+mnoznik_fizyki_y 0.3
+// pScaleX
+mnoznik_fizyki_x 0.3
+
+// pTransZ
+przesuniecie_fizyki_przod 0.0
+// pTransY
+przesuniecie_fizyki_gora 0.54
+// pTransX
+przesuniecie_fizyki_prawo 0.0
+
+
+
+
+// WHEELS & MUDGUARDS
+front_wheel prefabs\vehicles\lawn_mower_shl_rt61\wheel_front_right_nocenter.x wheel_front_right
+front_wheel prefabs\vehicles\lawn_mower_shl_rt61\wheel_front_left_nocenter.x wheel_front_left
+wheel prefabs\vehicles\lawn_mower_shl_rt61\wheel_rear_right_nocenter.x wheel_rear_right
+wheel prefabs\vehicles\lawn_mower_shl_rt61\wheel_rear_left_nocenter.x wheel_rear_left
+// wheel_invisible prefabs\vehicles\lawn_mower_shl_rt61\wheel_fake_nocenter.x wheel_fake
+
+
+
+// STEERING WHEEL
+steering_wheel prefabs\vehicles\lawn_mower_shl_rt61\steering_wheel_nocenter.x steering_wheel
+korekcja_kierownicy 20
+mnoznik_obrotu_kierownicy 2.35
+
+
+// WORKING FX
+working_fx afx_motorsense fx0
+working_fx afx_motorsense fx1
+
+
+// LIGHTS
+swiatlo_przod lp1 1
+swiatlo_przod lp2 1
+
+
+// SOUNDS
+
+engine_start_sound sfx\vehicles\lawnmower_start.wav
+engine_stop_sound sfx\vehicles\lawnmower_stop.wav
+
+engine_frequency_add_during_wheel_spin 10
+
+
+working_sound sfx\vehicles\lawnmower_work.wav
+
+
+engine_sound sfx\vehicles\lawnmower_idle.wav
+engine_frequency_base 40000
+engine_frequency_change 120
+
+engine_sound2 sfx\vehicles\lawnmower_idle.wav
+engine_frequency_base2 46100
+engine_frequency_change2 40
+
+
+

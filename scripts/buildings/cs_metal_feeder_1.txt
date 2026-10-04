@@ -1,0 +1,29 @@
+// definiuje kolejne prefaby (stopnie przebudowy), w grze moze byc wlozony dowolny, ale musza byc unikalne dla danego setu
+// part <id_warstwy> <id_materialu> <klucz_text_keys_z_opisem> <sciezka\prefab>
+// -1 jako indeks materialu oznacza ten sam material, ale nie budowe tylko naprawe, czyli przejscie z polamanych na naprostowane deski BEZ kupowania desek.
+
+// old metal
+part 0 18  MAT18 prefabs\buildings\cowshed\cs_metal_fixed_wall_feeder_1_0_nocenter.x
+
+//scratch
+part 1 19  MAT19 prefabs\buildings\cowshed\cs_metal_scratch_wall_feeder_1_0_nocenter.x
+
+
+//new
+part 2 20  MAT20 prefabs\buildings\cowshed\cs_metal_new_wall_feeder_1_0_nocenter.x
+
+
+//painted
+part 3 27  MAT27 prefabs\buildings\cowshed\cs_metal_new_wall_feeder_1_0_nocenter.x
+
+
+
+// i teraz dla danego elementu definiujemy w ktory moze przejsc
+// pierwszy parametr to ktorego tyczy sie definicja, nastepne - w ktore moze byc zmieniony
+
+path 0   1
+path 1   3
+path 2   3
+path 3   3
+
+

@@ -1,0 +1,29 @@
+// definiuje kolejne prefaby (stopnie przebudowy), w grze moze byc wlozony dowolny, ale musza byc unikalne dla danego setu
+// part <id_warstwy> <id_materialu> <klucz_text_keys_z_opisem> <sciezka\prefab>
+// -1 jako indeks materialu oznacza ten sam material, ale nie budowe tylko naprawe, czyli przejscie z polamanych na naprostowane deski BEZ kupowania desek.
+
+
+// bitumen
+part 0 13  MAT13 prefabs\buildings\sawmill\sm_bitumen_new_roof_5_4_nocenter.x
+
+// red shingle
+part 1 14  MAT14 prefabs\buildings\sawmill\sm_bitumen_new_roof_5_0_nocenter.x
+
+// green metal
+part 2 15  MAT15 prefabs\buildings\sawmill\sm_bitumen_new_roof_5_1_nocenter.x
+
+// red ceramic
+part 3 16  MAT16 prefabs\buildings\sawmill\sm_bitumen_new_roof_5_2_nocenter.x
+
+// tin roof
+part 4 17  MAT17 prefabs\buildings\sawmill\sm_bitumen_new_roof_5_3_nocenter.x
+
+
+// i teraz dla danego elementu definiujemy w ktory moze przejsc
+// pierwszy parametr to ktorego tyczy sie definicja, nastepne - w ktore moze byc zmieniony
+
+path 0   1 2 3 4
+path 1   0 2 3 4
+path 2   0 1 3 4
+path 3   0 1 2 4
+path 4   0 1 2 3

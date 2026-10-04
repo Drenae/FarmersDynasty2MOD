@@ -1,0 +1,36 @@
+//
+// Dialog z nelly
+//
+
+// dzien dobry, zaoraj pole to dostaniesz krowe, nuh-uh, to dwie krowy, zgoda
+hero_dialog nelly1_dialog1
+hero DLQ08L07
+actor DLQ08L08
+hero DLQ08L09
+actor DLQ08L10
+actor DLQ08L11
+hero DLQ08L12
+actor DLQ08L13
+hero DLQ08L14
+actor DLQ08L15
+
+// zaorane, ok to krowy sa u ciebie juz
+hero_dialog nelly1_dialog2
+hero DLQ08L16
+actor DLQ08L17
+hero DLQ08L18
+actor DLQ08L19
+hero DLQ08L20
+
+
+
+
+
+
+
+
+
+
+
+
+

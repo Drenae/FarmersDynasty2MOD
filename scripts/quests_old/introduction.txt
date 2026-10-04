@@ -1,0 +1,265 @@
+
+// nazwa questa, unikalna i wymagana
+name introduction
+icon hud_map_social.dds
+given_by_icon actor_unknown_woman.dds
+
+set_day 78
+set_pora 13.5
+set_snow 0.1
+
+title OB12
+initial_waypoint molly1
+initial_objective OB14
+given_by molly1
+
+tutorial
+
+// gdy startuje ten quest, niech bedzie sledzony
+focus_on_start
+
+social_award 1
+// jesli quest ma sie odpalic na starcie gry
+default
+
+map maps\map1.map
+
+//molly znika z kadru, cutscenka
+wait 0.1 -waypoint *
+character_teleport molly1 molly_teleport	
+wait 0.1
+cutscene intro
+
+//fade_in 0.5
+//molly pojawia sie i przychodzi na farme
+character_teleport molly1 s_molly1	
+set_phase molly1 walk_intro
+
+
+//naprawianie chatki w lesie, czesci farmy emily, czesci farmy dzemiar, czesci farmy anavri
+wait 0.1 -checkpoint 10
+fix_building forest_greenhouse
+fix_building forest_cabin_000
+fix_building neighbor_garage_002
+fix_building neighbor_henhouse_002
+fix_building neighbor_house_002
+wait 0.1
+//fix_building neighbor_house_020
+//fix_building neighbor_barn_020
+//fix_building neighbor_garage_020
+//fix_building neighbor_house_022
+//wait 0.1
+//fix_building neighbor_greenhouse_022
+//fix_building neighbor_silo_022
+//fix_building neighbor_garage_022
+fix_building old_mill_silo
+wait 0.1 -checkpoint 20
+
+forbid_talk_to_npc
+forbid_auto_activate_quests
+forbid_repair
+forbid_canister
+forbid_sparewheel
+forbid_wirebrush
+forbid_sleep
+lock_time 17.2
+
+demo_task_add 1
+demo_task_add 2
+demo_task_add 3
+demo_task_add 4
+
+set set_que_closed
+
+add_pallet 4 spawn_pallet_bricks1
+add_pallet 1 spawn_pallet_wood1
+
+wait 0.1
+
+
+actor_goto molly1 molly_meet -distance 1 -checkpoint 25
+set_phase molly1 wait
+
+//wait 10000
+
+//molly wita nas na farmie
+goto molly1 -distance 5 -waypoint molly1 -checkpoint 30
+wait 0.1 -waypoint *
+hero_dialog molly1_dialog1 molly1
+wait_end_hero_dialog
+wait 0.1
+set_chapter_var 1
+Chapter 1
+give_player oldclothing1 1
+wait 0.1 -objective OB15 -checkpoint 40 
+set_achievment FD2_ACH_01
+wait 3
+set_phase molly1 walk_intro1
+
+demo_task_check 1
+
+//idziemy z molly obczaic szklarnie i garaz
+actor_goto molly1 intro_marker_002 -distance 0.5 -checkpoint 50
+set_phase molly1 wait
+goto molly1 -distance 5 -waypoint molly1 -checkpoint 60
+set_phase molly1 walk_intro1 -waypoint *
+actor_say molly1 DLQ03L06
+//wait_end_actor_say
+//wait 1
+
+//idziemy z molly obczaic oborę
+actor_goto molly1 intro_marker_003 -distance 0.5 -checkpoint 65
+set_phase molly1 wait
+goto molly1 -distance 5 -waypoint molly1 -checkpoint 70
+set_phase molly1 walk_intro1 -waypoint *
+actor_say molly1 DLQ03L08
+//wait_end_actor_say
+//wait 1
+
+
+//idziemy z molly obczaić stodole
+actor_goto molly1 intro_marker_005 -distance 0.5 -checkpoint 110
+set_phase molly1 wait
+goto molly1 -distance 5 -waypoint molly1 -checkpoint 120
+set_phase molly1 barn -waypoint *
+actor_say molly1 DLQ03L11
+wait_end_actor_say
+wait 0.1 -checkpoint 130
+set_phase molly1 wait
+
+//trzeba wziac scaffolda i wlezc na dach stodoly
+wait_pickup scaffold -waypoint intro_scaffold -objective OB16 -checkpoint 140
+goto intro_marker_006 -distance 1.5 -waypoint intro_marker_006 -objective OB17 -checkpoint 150
+set_chapter_var 2
+actor_say molly1 DLQ03L12 -waypoint *
+
+wait 0.5
+
+demo_task_delete 1
+demo_task_check 2
+demo_task_add 5
+
+wait_end_actor_say
+
+wait 0.1 -objective OB18 -checkpoint 160
+goto molly1 -distance 5 -waypoint molly1 -checkpoint 170
+set_phase molly1 walk_intro1 -waypoint *
+actor_say molly1 DLQ03L13
+
+
+
+//idziemy z molly obczaic kurnik
+set_phase molly1 walk_intro1
+actor_goto molly1 intro_marker_008 -distance 1 -checkpoint 180
+set_phase molly1 wait
+goto molly1 -distance 5 -waypoint molly1 -checkpoint 190
+set_phase molly1 henhouse -waypoint *
+actor_say molly1 DLQ03L14
+wait_end_actor_say
+wait 0.2
+
+//dialog o domku w lesie
+set_phase molly1 wait
+goto molly1 -distance 5 -waypoint molly1 -checkpoint 200
+wait 0.2 -waypoint *
+hero_dialog molly1_dialog2 molly1
+wait_end_hero_dialog
+wait 1 -objective OB19 -checkpoint 210
+
+
+//idziemy z molly obczaic domek w lesie
+set_phase molly1 run_intro
+actor_say molly1 DLQ03L17
+actor_goto molly1 intro_marker_009 -distance 1 -checkpoint 215
+set_phase molly1 wait
+goto molly1 -distance 5 -waypoint molly1 -checkpoint 220
+wait 0.2 -waypoint *
+hero_dialog molly1_dialog3 molly1
+wait_end_hero_dialog
+wait 2 -checkpoint 230
+actor_say molly1 DLQ03L20A
+wait 0.5
+info OB19A -checkpoint 240
+
+display_ES 1
+
+//naprawiamy drzwi
+allow_repair
+wait_pickup repair -waypoint intro_planks -objective OB20 -checkpoint 250
+wait_repair cabin_door -waypoint intro_door -objective OB21 -checkpoint 260
+unset set_que_closed -waypoint *
+set_chapter_var 3
+actor_say molly1 DLQ03L21 -checkpoint 270
+
+demo_task_delete 2
+demo_task_check 3
+demo_task_add 6
+
+wait 1
+set_phase molly1 walk_intro1
+actor_goto molly1 intro_marker_010 -distance 1 -checkpoint 275
+set_phase molly1 wait
+
+//czopamy krzaki na drewno
+wait_pickup axe -waypoint intro_axe -objective OB22 -checkpoint 280
+wait 0.1 -waypoint intro_bushes_marker -checkpoint 290
+wait 0.2 -playerhas firewood 10 -objective OB23 -checkpoint 300
+
+// skipujemy 5 - rozpalanie ogniska
+demo_task_delete 3
+demo_task_check 4
+demo_task_add 7
+
+goto molly1 -distance 4 -waypoint molly1 -objective OB23A -checkpoint 310
+wait 0.1 -waypoint *
+hero_dialog molly1_dialog4 molly1
+wait_end_hero_dialog
+wait 0.5 -checkpoint 320
+
+//gotujemy zupe, cutscenka
+//uczymy sie gotowac
+unlock_perk chef00
+wait 0.5 -waypoint fireplace_forest_marker -objective OB24 -checkpoint 330
+give_player tomato 10
+give_player cookpot 1
+wait 1 -playerhas tomato2 1 -checkpoint 340
+wait 1
+set_chapter_var 4
+actor_say molly1 DLQ03L22D
+wait_end_actor_say -checkpoint 350
+wait 2
+hero_dialog forest molly1
+wait 0.1 -waypoint *
+
+wait 0.5
+demo_task_delete 4
+demo_task_check 5
+demo_task_add 8
+
+//molly idzie do siebie
+wait 3
+likes_player molly1 0.25
+actor_say molly1 DLQ03L22B
+wait_end_actor_say -checkpoint 360
+wait 1
+actor_say molly1 DLQ03L23A
+wait_end_actor_say -checkpoint 365
+wait 1
+actor_say molly1 DLQ03L23
+wait_end_actor_say -checkpoint 370
+wait 1
+set_phase molly1 walk_intro1
+
+wait 5 -checkpoint 380
+start_quest New_pallets
+set_achievment FD2_ACH_02
+print koniec_questa_introduction
+wait 1
+
+allow_talk_to_npc
+//allow_auto_activate_quests
+start_quest Emily_barn
+
+
+
+

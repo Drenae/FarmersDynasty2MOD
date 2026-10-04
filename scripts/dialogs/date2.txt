@@ -1,0 +1,396 @@
+// date0
+// na wiezy ruinki
+hero_dialog date2
+
+
+// intro
+actor_silent 1.5
+black
+// pora 16
+movie_camera
+camera_pos date0_cam02
+camera_look_at date0_cam02_look_at
+print dialog_intro
+
+// bohater stoi na wiezy
+actor_silent 6
+movie_camera
+fade_in
+rotate_180
+fov 0.5
+print dialog_na_wiezy
+
+dof_distance 15
+
+camera_pos date0_cam02
+camera_move_to date0_cam02_target 0.7
+camera_look_at date0_cam02_look_at
+
+camera_forward -5
+
+hero_pos date0_h_pos00
+hero_anim h_date0_idle1
+hero_look_at date0_h_pos00_look_at
+
+
+// laska przychodzi
+actor DLD02L01
+movie_camera
+fade_in
+rotate_180
+fov 0.87
+print laska_przychodzi
+
+camera_pos date0_cam00
+camera_move_to date0_cam00_target 0.4
+camera_look_at date0_cam00_look_at
+
+hero_pos date0_h_pos00
+hero_anim h_date0_idle2
+hero_look_at date0_h_pos00_look_at
+
+actor_pos date0_w_pos00
+actor_anim w_date0_walk1
+actor_look_at date0_w_pos00_look_at
+
+
+//stojo razem
+// No stress, trust me, sunsets from this place are beautiful. 
+hero DLD02L02
+movie_camera
+fade_in
+rotate_180
+fov 0.87
+print dialog_stoja_razem
+
+camera_pos date0_cam01
+camera_move_to date0_cam01_target 0.08
+camera_look_at date0_cam01_look_at
+
+camera_up 0.1
+
+hero_pos date0_h_pos00
+hero_anim h_date0_idle3
+hero_look_at date0_h_pos01_look_at
+
+actor_pos date0_w_pos00
+actor_anim w_idle2
+actor_look_at date0_w_pos01_look_at
+
+
+
+//stojo razem
+actor DLD02L03
+movie_camera
+fade_in
+rotate_180
+fov 0.85
+print dialog_stoja_razem2
+
+camera_pos date0_cam05
+camera_look_at date0_cam05_look_at
+
+camera_up 0.2
+camera_forward -2.6
+
+hero_pos date0_h_pos00
+hero_anim h_idle1
+hero_look_at date0_h_pos01_look_at
+
+actor_pos date0_w_pos00
+actor_anim w_speak1
+actor_look_at date0_w_pos01_look_at
+
+
+
+//stojo razem
+//widok zza laski
+label choice1
+choice
+movie_camera
+fade_in
+rotate_180
+fov 0.75
+
+camera_pos date0_cam03
+camera_look_at date0_cam03_look_at
+
+camera_up 0.1
+dof_distance 1
+
+hero_pos date0_h_pos00
+hero_anim h_idle1
+hero_look_at date0_h_pos01_look_at
+
+actor_pos date0_w_pos00
+actor_anim w_idle1
+actor_look_at date0_w_pos01_look_at
+
+answer DLD02L04
+on_answer_goto_label dalej1a
+
+answer DLD02L05
+on_answer_goto_label dalej1b
+
+
+
+//stojo razem
+//widok zza bohatera
+label dalej1a
+actor DLD02L06
+movie_camera
+fade_in
+rotate_180
+fov 0.75
+print dialog_stoja_razem4
+
+camera_pos date0_cam04
+camera_look_at date0_cam04_look_at
+
+hero_pos date0_h_pos00
+hero_anim h_idle1
+hero_look_at date0_h_pos01_look_at
+
+actor_pos date0_w_pos00
+actor_anim w_speak1
+actor_look_at date0_w_pos01_look_at
+
+goto_label koniec1
+
+
+//stojo razem
+//widok zza bohatera
+label dalej1b
+actor DLD02L07
+movie_camera
+fade_in
+rotate_180
+fov 0.75
+
+camera_pos date0_cam04
+camera_look_at date0_cam04_look_at
+
+hero_pos date0_h_pos00
+hero_anim h_idle1
+hero_look_at date0_h_pos01_look_at
+
+actor_pos date0_w_pos00
+actor_anim w_speak1
+actor_look_at date0_w_pos01_look_at
+
+like_player 0.1
+
+
+
+//stojo razem
+//widok zza laski
+label choice2
+choice
+movie_camera
+fade_in
+rotate_180
+fov 0.75
+
+camera_pos date0_cam03
+camera_look_at date0_cam03_look_at
+
+camera_up 0.1
+dof_distance 1
+
+hero_pos date0_h_pos00
+hero_anim h_idle1
+hero_look_at date0_h_pos01_look_at
+
+actor_pos date0_w_pos00
+actor_anim w_idle1
+actor_look_at date0_w_pos01_look_at
+
+answer DLD02L08
+on_answer_goto_label dalej2a
+
+answer DLD02L09
+on_answer_goto_label dalej2b
+
+
+//stojo razem
+//widok zza bohatera
+label dalej2a
+actor DLD02L10
+movie_camera
+fade_in
+rotate_180
+fov 0.75
+print dialog_stoja_razem4
+
+camera_pos date0_cam04
+camera_look_at date0_cam04_look_at
+
+hero_pos date0_h_pos00
+hero_anim h_idle1
+hero_look_at date0_h_pos01_look_at
+
+actor_pos date0_w_pos00
+actor_anim w_speak1
+actor_look_at date0_w_pos01_look_at
+
+goto_label koniec1
+
+
+//stojo razem
+//widok zza bohatera
+label dalej2b
+actor DLD02L11
+movie_camera
+fade_in
+rotate_180
+fov 0.75
+
+camera_pos date0_cam04
+camera_look_at date0_cam04_look_at
+
+hero_pos date0_h_pos00
+hero_anim h_idle1
+hero_look_at date0_h_pos01_look_at
+
+actor_pos date0_w_pos00
+actor_anim w_speak1
+actor_look_at date0_w_pos01_look_at
+
+like_player 0.1
+
+
+
+//stojo razem
+hero DLD02L12
+movie_camera
+fade_in
+rotate_180
+fov 0.87
+print dialog_stoja_razem
+
+camera_pos date0_cam01
+camera_move_to date0_cam01_target 0.05
+camera_look_at date0_cam01_look_at
+
+camera_up 0.1
+
+hero_pos date0_h_pos00
+hero_anim h_speak1
+hero_look_at date0_h_pos01_look_at
+
+actor_pos date0_w_pos00
+actor_anim w_idle1
+actor_look_at date0_w_pos01_look_at
+
+
+actor DLD02L13
+movie_camera
+rotate_180
+fov 0.87
+print dialog_stoja_razem
+
+//camera_pos date0_cam0
+camera_move_to date0_cam01_target 0.05
+camera_look_at date0_cam01_look_at
+
+camera_up 0.1
+
+hero_pos date0_h_pos00
+hero_anim h_idle1
+hero_look_at date0_h_pos01_look_at
+
+actor_pos date0_w_pos00
+actor_anim w_speak1
+actor_look_at date0_w_pos01_look_at
+
+
+//stojo razem
+hero DLD02L14
+movie_camera
+rotate_180
+fov 0.87
+print dialog_stoja_razem
+
+//camera_pos date0_cam01
+camera_move_to date0_cam01_target 0.05
+camera_look_at date0_cam01_look_at
+
+camera_up 0.1
+
+hero_pos date0_h_pos00
+hero_anim h_speak1
+hero_look_at date0_h_pos01_look_at
+
+actor_pos date0_w_pos00
+actor_anim w_idle1
+actor_look_at date0_w_pos01_look_at
+
+
+
+
+//koniec randki
+label koniec1
+actor_silent 0.75
+black
+movie_camera
+camera_pos date0_cam07
+camera_look_at date0_cam07_look_at
+print dialog_koniec_randki
+
+
+//ido sobie
+// Wonderful place, wonderful evening.
+hero DLD02L15
+movie_camera
+fade_in
+rotate_180
+fov 0.7
+print dialog_ida_sobie
+
+hero_pos date0_h_pos01
+hero_anim h_date0_walk1
+hero_look_at date0_h_pos02_look_at
+
+actor_pos date0_w_pos01
+actor_anim w_date0_walk2
+actor_look_at date0_w_pos02_look_at
+
+camera_pos date0_cam07
+camera_move_to date0_cam07_target 0.4
+camera_look_at date0_cam07_look_at
+
+
+//ido sobie
+// I'll be happy to show you other charming places.
+actor DLD02L16
+movie_camera
+fade_in
+rotate_180
+fov 1.0
+print dialog_ida_sobie_2
+
+hero_pos date0_h_pos01
+hero_anim h_date0_walk1
+hero_look_at date0_h_pos02_look_at
+
+actor_pos date0_w_pos01
+actor_anim w_date0_walk2
+actor_look_at date0_w_pos02_look_at
+
+camera_pos date0_cam08
+camera_move_to date0_cam08_target 0.4
+camera_look_at date0_cam08_look_at
+
+
+//koniec
+actor_silent 2
+black
+movie_camera
+
+end_dialog
+
+
+
+
+
+

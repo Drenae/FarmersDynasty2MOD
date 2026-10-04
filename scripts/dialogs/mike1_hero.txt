@@ -1,0 +1,56 @@
+//
+// Dialog z mike
+//
+
+// Family Business
+// elo, oddawaj hajs bratu
+hero_dialog mike1_dialog1
+actor DLQ18L19
+hero DLQ18L20
+actor DLQ18L21
+hero DLQ18L22
+actor DLQ18L23
+hero DLQ18L24
+actor DLQ18L25
+actor DLQ18L26
+hero DLQ18L27
+actor DLQ18L28
+hero DLQ18L29
+actor DLQ18L30
+hero DLQ18L31
+actor DLQ18L32
+hero DLQ18L33
+actor DLQ18L34
+hero DLQ18L35
+
+
+// Mike's spreader
+// elo, naprawie ci garaz a ty mie dej tom cysterne na gumnwno
+hero_dialog mike1_dialog2
+actor DLQ20L01
+hero DLQ20L02
+actor DLQ20L03
+actor DLQ20L04
+hero DLQ20L05
+actor DLQ20L06
+actor DLQ20L07
+actor DLQ20L08
+hero DLQ20L09
+actor DLQ20L10
+hero DLQ20L11
+
+
+// garaz naprawiony, dawaj cysterne
+hero_dialog mike1_dialog3
+hero DLQ20L12
+actor DLQ20L13
+hero DLQ20L14
+actor DLQ20L15
+hero DLQ20L16
+actor DLQ20L17
+
+
+
+
+
+

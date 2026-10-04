@@ -1,0 +1,696 @@
+// wedding cutscene, 60's era
+
+
+// actors
+
+// 0 - groom
+actor 0 prefabs\models\hero1\hero1.X act_groom_wed
+clothing 0 prefabs\models\clothes\hero\class0_boots\h_wedding_suit_shoes.X
+clothing 1 prefabs\models\clothes\hero\class1_pants\h_wedding_suit_slacks_60s.X
+clothing 2 prefabs\models\clothes\hero\class2_shirts\h_wedding_suit_jacket_60s.X
+
+// hair prefabs\attachments\m_hair_006_nocenter.X hair
+
+
+// 1 - bride
+actor 1 prefabs\models\w1\w1.X act_bride_wed
+clothing 2 prefabs\models\clothes\Woman\class2_shirts\w_wedding_dress_retro.X
+
+hair prefabs\attachments\w_hair_004_nocenter.X hair
+
+
+// 2 - piano player
+actor 2 prefabs\models\m1\m1.X act01_wed
+clothing 0 prefabs\models\clothes\man\class0_boots\m_slips_on_001.X
+clothing 1 prefabs\models\clothes\man\class1_pants\m_slacks_001.X
+clothing 2 prefabs\models\clothes\Man\class2_shirts\m_suit_red.X
+
+hair prefabs\attachments\m_hat_2_nocenter.x hair
+
+
+// 3 - violin player
+actor 3 prefabs\models\w7\w7.X act02_violin_wed
+clothing 0 prefabs\models\clothes\Woman\class0_boots\w_short_cowboy_boots.X
+// clothing 1 prefabs\models\clothes\Woman\class1_pants\w_jeans_001.X
+clothing 2 prefabs\models\clothes\Woman\class2_shirts\w_long_dress_red.X
+
+hair prefabs\attachments\w_hair_001_nocenter.X hair
+attachment prefabs\objects\wedding_stuff\violin_nocenter.x violin
+
+
+
+// 4 - bridesmaid 1
+actor 4 prefabs\models\w6\w6.X act04_bridesmaid_1_wed
+clothing 0 prefabs\models\clothes\Woman\class0_boots\w_sneakers_001.X
+// clothing 1 prefabs\models\clothes\Woman\class1_pants\w_jeans_001.X
+clothing 2 prefabs\models\clothes\Woman\class2_shirts\w_long_dress_pink.X
+
+hair prefabs\attachments\w_hair_007_nocenter.x hair
+
+
+// 5 - bridesmaid 2
+actor 5 prefabs\models\w5\w5.X act05_bridesmaid_2_wed
+clothing 0 prefabs\models\clothes\Woman\class0_boots\w_sneakers_001.X
+// clothing 1 prefabs\models\clothes\Woman\class1_pants\w_jeans_001.X
+clothing 2 prefabs\models\clothes\Woman\class2_shirts\w_long_dress_pink.X
+
+hair prefabs\attachments\w_hair_005_nocenter.x hair
+
+
+
+
+// guests
+
+
+// 6 - guest10
+actor 6 prefabs\models\w5\w5.X guest10_wed
+clothing 0 prefabs\models\clothes\Woman\class0_boots\w_shoes_canvas_001.X
+clothing 1 prefabs\models\clothes\Woman\class1_pants\w_jeans_001.X
+clothing 2 prefabs\models\clothes\Woman\class2_shirts\w_sweater_collar_001.X
+
+hair prefabs\attachments\w_hair_002_nocenter.x hair
+
+
+
+// 7 - guest09
+actor 7 prefabs\models\m7\m7.X guest09_wed
+clothing 0 prefabs\models\clothes\man\class0_boots\m_cowboy_shoes_60s.X
+clothing 1 prefabs\models\clothes\man\class1_pants\m_slim_jeans_001.X
+clothing 2 prefabs\models\clothes\man\class2_shirts\m_collar_shirt_short_open.X
+
+hair prefabs\attachments\flat_cap_nocenter.x hair
+
+
+
+
+// 8 - guest01
+actor 8 prefabs\models\m2\m2.X guest01_wed
+clothing 0 prefabs\models\clothes\man\class0_boots\m_cowboy_shoes_60s.X
+clothing 1 prefabs\models\clothes\man\class1_pants\m_slim_jeans_001.X
+clothing 2 prefabs\models\clothes\man\class2_shirts\m_collar_shirt_short_open.X
+
+hair prefabs\attachments\m_hat_8_nocenter.x hair
+
+
+
+// 9 - guest02
+actor 9 prefabs\models\m3\m3.X guest02_wed
+clothing 0 prefabs\models\clothes\man\class0_boots\m_cowboy_shoes.X
+clothing 1 prefabs\models\clothes\man\class1_pants\m_pants_pockets_001.X
+clothing 2 prefabs\models\clothes\man\class2_shirts\m_sweater_layered_001.X
+
+hair prefabs\attachments\m_hair_001_nocenter.x hair
+
+
+
+// 10 - guest03
+actor 10 prefabs\models\w3\w3.X guest03_wed
+clothing 0 prefabs\models\clothes\Woman\class0_boots\w_shoes_canvas_001.X
+clothing 1 prefabs\models\clothes\Woman\class1_pants\w_jeans_001.X
+clothing 2 prefabs\models\clothes\Woman\class2_shirts\w_sweater_collar_001.X
+
+hair prefabs\attachments\w_hair_002_nocenter.x hair
+
+
+// 11 - guest04
+actor 11 prefabs\models\m4\m4.X guest04_wed
+clothing 0 prefabs\models\clothes\man\class0_boots\m_cowboy_shoes.X
+clothing 1 prefabs\models\clothes\man\class1_pants\m_pants_pockets_001.X
+clothing 2 prefabs\models\clothes\man\class2_shirts\m_sweater_layered_001.X
+
+hair prefabs\attachments\m_hair_005_nocenter.x hair
+
+
+
+// 12 - guest05
+actor 12 prefabs\models\w4\w4.X guest05_wed
+clothing 0 prefabs\models\clothes\Woman\class0_boots\w_shoes_canvas_001.X
+clothing 1 prefabs\models\clothes\Woman\class1_pants\w_jeans_001.X
+clothing 2 prefabs\models\clothes\Woman\class2_shirts\w_shirt_rolled_sleeves_60s.X
+
+hair prefabs\attachments\w_hair_003_nocenter.x hair
+
+
+// 13 - guest06
+actor 13 prefabs\models\m5\m5.X guest06_wed
+clothing 0 prefabs\models\clothes\man\class0_boots\m_cowboy_shoes.X
+clothing 1 prefabs\models\clothes\man\class1_pants\m_pants_pockets_001.X
+clothing 2 prefabs\models\clothes\man\class2_shirts\m_sweater_layered_001.X
+
+hair prefabs\attachments\m_hair_004_nocenter.x hair
+
+
+
+// 14 - guest07
+actor 14 prefabs\models\w5\w5.X guest07_wed
+clothing 0 prefabs\models\clothes\Woman\class0_boots\w_shoes_canvas_001.X
+clothing 1 prefabs\models\clothes\Woman\class1_pants\w_jeans_001.X
+clothing 2 prefabs\models\clothes\Woman\class2_shirts\w_sweater_collar_001.X
+
+hair prefabs\attachments\w_hat_001_nocenter.x hair
+
+
+
+
+
+// decorations
+
+// 16 - wed deco 1
+actor 16 prefabs\buildings\wedding_decorations\wed_deco_1_nocenter.x wed_deco1
+
+// 17 - wed deco 2
+actor 17 prefabs\buildings\wedding_decorations\wed_deco_2_nocenter.x wed_deco2
+
+// 18 - wed deco 2a
+actor 18 prefabs\buildings\wedding_decorations\wed_deco_2a_nocenter.x wed_deco2a
+
+// 19 - wed deco 2b
+actor 19 prefabs\buildings\wedding_decorations\wed_deco_2b_nocenter.x wed_deco2b
+
+// 20 - wed deco 2c
+actor 20 prefabs\buildings\wedding_decorations\wed_deco_2c_nocenter.x wed_deco2c
+
+// 21 - wed deco 3
+actor 21 prefabs\buildings\wedding_decorations\wed_deco_3_nocenter.x wed_deco3
+
+// 22 - wed deco 3a
+actor 22 prefabs\buildings\wedding_decorations\wed_deco_3a_nocenter.x wed_deco3a
+
+// 23 - wed deco 3b
+actor 23 prefabs\buildings\wedding_decorations\wed_deco_3b_nocenter.x wed_deco3b
+
+// 24 - wed deco 3c
+actor 24 prefabs\buildings\wedding_decorations\wed_deco_3c_nocenter.x wed_deco3c
+
+
+
+
+
+// stuff
+
+// 25 - rings
+actor 25 prefabs\attachments\rings_nocenter.x two_rings_wed
+
+// 26 - violin bow
+actor 26 prefabs\objects\wedding_stuff\violin_bow_nocenter.x
+
+// 27 - book
+actor 27 prefabs\attachments\wedding_book_nocenter.x
+
+// 28 - bouquet
+actor 28 prefabs\attachments\bouquet_nocenter.x
+
+// 29 - tray with no rings
+actor 29 prefabs\attachments\rings_empty_nocenter.x no_rings_wed
+
+// 30 - one ring
+actor 30 prefabs\attachments\ring_nocenter.x ring_wed
+
+
+// 31 - priest
+actor 31 prefabs\models\priest\priest.X priest_wed
+clothing 0 prefabs\models\clothes\man\class0_boots\m_leather_shoes.X
+clothing 1 prefabs\models\clothes\man\class1_pants\m_collar_pants_priest.X
+clothing 2 prefabs\models\clothes\man\class2_shirts\m_collar_shirt_priest.X
+hair prefabs\attachments\m_hat_priest_nocenter.x hair
+attachment prefabs\attachments\eyewear_60s_002_nocenter.X eyewear
+
+
+
+
+
+
+
+cut start
+time 2
+black
+// era 0
+//day 266
+hour 12
+weather 0.5
+music music\weddingday.ogg
+
+actor_pos 16 wed_deco_0
+actor_pos 17 wed_deco_00
+actor_pos 21 wed_deco_000
+
+
+
+// golden rings
+cut cut0
+fade_in 0.3
+time 5
+
+camera_pos cam00_wed
+camera_move_to cam00_wed_target 0.05
+camera_look_at cam00_wed_look_at
+
+actor_pos 25 rings_wed
+
+actor_pos 18 wed_deco_00
+actor_pos 19 wed_deco_00
+
+actor_pos 22 wed_deco_000
+actor_pos 23 wed_deco_000
+
+
+
+
+
+
+
+// piano_violin act1
+cut cut1
+fade_in 0.9
+time 5
+
+camera_pos cam01_wed
+camera_move_to cam01_wed_target 0.15
+camera_look_at cam01_wed_look_at
+
+actor_pos 2 act01_wed
+animation 2 m_playing_piano
+actor_look_at 2 act01_wed_look_at
+
+actor_pos 3 act02_wed
+animation 3 w_playing_violin
+actor_pos 26 act02_violin_wed violin_bow
+actor_look_at 3 act02_wed_look_at
+
+
+actor_pos 20 wed_deco_00
+actor_pos 24 wed_deco_000
+
+
+
+
+
+// piano_violin act2
+cut cut2
+fade_in 0.9
+time 7
+
+camera_pos cam02_wed
+camera_move_to cam02_wed_target 0.2
+camera_look_at cam02_wed_look_at
+
+
+actor_pos 2 act01_wed
+animation 2 m_playing_piano
+actor_look_at 2 act01_wed_look_at
+
+actor_pos 3 act02_wed
+animation 3 w_playing_violin
+actor_pos 26 act02_violin_wed violin_bow
+actor_look_at 3 act02_wed_look_at
+
+
+
+
+
+// groom, cam03
+cut cut3
+fade_in 0.3
+time 6.0
+
+camera_pos cam03_wed
+camera_move_to cam03_wed_target 0.09
+camera_look_at cam03_wed_look_at
+
+
+actor_pos 0 act_groom
+animation 0 m_idle1_wed
+actor_look_at 0 act_groom_look_at
+
+
+
+
+// bride, cam04
+cut cut4
+fade_in 0.9
+time 7
+
+camera_pos cam04_wed
+camera_move_to cam04_wed_target 0.10
+camera_look_at cam04_wed_look_at
+
+
+actor_pos 1 act_bride
+actor_pos 28 act_bride_wed bouquet
+animation 1 w_idle1_wed
+actor_look_at 1 act_bride_look_at
+
+
+
+
+// guests, cam05
+cut cut5
+fade_in 0.9
+time 7.0
+
+camera_pos cam05_wed
+camera_move_to cam05_wed_target 0.09
+camera_look_at cam05_wed_look_at
+
+
+actor_pos 3 act02_wed
+animation 3 w_playing_violin
+actor_pos 26 act02_violin_wed violin_bow
+actor_look_at 3 act02_wed_look_at
+
+
+
+actor_pos 6 guest10_wed
+animation 6 w_sit
+actor_look_at 6 guest01_wed_look_at
+
+actor_pos 7 guest09_wed
+animation 7 m_sit
+actor_look_at 7 guest02_wed_look_at
+
+actor_pos 8 guest01_wed
+animation 8 m_sit
+actor_look_at 8 guest01_wed_look_at
+
+actor_pos 9 guest02_wed
+animation 9 m_sit
+actor_look_at 9 guest01_wed_look_at
+
+actor_pos 10 guest03_wed
+animation 10 w_sit
+actor_look_at 10 guest01_wed_look_at
+
+actor_pos 11 guest04_wed
+animation 11 m_sit
+actor_look_at 11 guest01_wed_look_at
+
+actor_pos 12 guest05_wed
+animation 12 w_sit
+actor_look_at 12 guest01_wed_look_at
+
+actor_pos 13 guest06_wed
+animation 13 m_sit
+actor_look_at 13 guest02_wed_look_at
+
+actor_pos 14 guest07_wed
+animation 14 w_sit
+actor_look_at 14 guest02_wed_look_at
+
+
+
+
+
+
+// bride walking, cam06
+cut cut6
+fade_in 0.9
+time 7.0
+
+camera_pos cam06_wed
+camera_move_to cam06_wed_target 0.65
+camera_look_at cam06_wed_look_at
+
+
+actor_move_bezier 1 bride_bzr_01 0.6
+actor_pos 28 act_bride_wed bouquet
+animation 1 w_walk_slow_wed
+
+actor_pos 0 act_groom
+animation 0 m_idle1
+actor_look_at 0 act_groom_look_at
+
+actor_pos 4 act04_bridesmaid
+animation 4 w_idle3
+actor_look_at 4 bridesmaid_1_look_at
+
+actor_pos 5 act05_bridesmaid
+animation 5 w_idle4
+actor_look_at 5 bridesmaid_1_look_at
+
+
+
+
+// groom shot behind, cam07
+cut cut7
+fade_in 0.9
+time 5
+
+camera_pos cam07_wed
+camera_move_to cam07_wed_target 0.1
+camera_look_at cam07_wed_look_at
+
+actor_pos 0 act_groom
+animation 0 m_idle2_wed
+actor_look_at 0 act_groom_look_at
+
+actor_move_bezier 1 bride_bzr_01a 0.82
+actor_pos 28 act_bride_wed bouquet
+animation 1 w_walk_slow_wed
+
+actor_pos 4 act04_bridesmaid
+animation 4 w_idle3
+actor_look_at 4 bridesmaid_1_look_at
+
+actor_pos 5 act05_bridesmaid
+animation 5 w_idle4
+actor_look_at 5 bridesmaid_1_look_at
+
+
+
+
+
+// groom and bride together, cam08
+cut cut8
+fade_in 0.2
+time 7.0
+
+camera_pos cam08_wed
+camera_move_to cam08_wed_target 0.2
+camera_look_at cam08_wed_look_at
+
+
+actor_pos 0 act_groom1
+animation 0 m_idle2
+actor_look_at 0 act_groom1_look_at
+
+actor_pos 1 act_bride1
+actor_pos 28 act_bride_wed bouquet
+animation 1 w_idle2
+actor_look_at 1 act_bride1_look_at
+
+actor_pos 31 act_priest
+animation 31 m_priest_read
+actor_look_at 31 act_priest_look_at
+
+actor_pos 27 priest_wed book
+
+
+
+// groom and bride walking1, cam09
+cut cut9
+fade_in 0.9
+time 4.0
+
+camera_pos cam09_wed
+camera_move_to cam09_wed_target 0.4
+camera_look_at cam09_wed_look_at
+
+
+actor_move_bezier 1 bride_bzr_02 0.82
+actor_pos 28 act_bride_wed bouquet
+animation 1 w_walk_slow
+actor_look_at 1 act_bride1_look_at
+
+actor_move_bezier 0 groom_bzr_02 0.82
+animation 0 h_walk_slow
+actor_look_at 0 act_groom1_look_at
+
+actor_pos 31 act_priest
+animation 31 m_priest_read
+actor_look_at 31 act_priest_look_at
+
+actor_pos 27 priest_wed book
+
+
+
+
+// groom and bride walking2, cam10
+cut cut0
+fade_in 0.9
+time 7.0
+
+camera_pos cam10_wed
+camera_move_to cam10_wed_target 0.8
+camera_look_at cam10_wed_look_at
+
+
+actor_move_bezier 1 bride_bzr_02 0.82
+actor_pos 28 act_bride_wed bouquet
+animation 1 w_walk_slow2_wed
+actor_look_at 1 act_bride1_look_at
+
+actor_move_bezier 0 groom_bzr_02 0.82
+animation 0 m_walk_slow_wed
+actor_look_at 0 act_groom1_look_at
+
+
+actor_move_bezier 4 act04_bzr 0.82
+animation 4 w_walk_slow_wed
+
+actor_move_bezier 5 act05_bzr 0.82
+animation 5 w_walk_slow
+
+
+
+
+// groom and bride walking3, cam11
+cut cut11
+fade_in 0.9
+time 6.5
+
+camera_pos cam11_wed
+camera_move_to cam11_wed_target 1
+camera_look_at cam11_wed_look_at
+
+actor_move_bezier 1 bride_bzr_02 0.82
+actor_pos 28 act_bride_wed bouquet
+animation 1 w_walk_slow
+actor_look_at 1 act_bride1_look_at
+
+actor_move_bezier 0 groom_bzr_02 0.82
+animation 0 h_walk
+actor_look_at 0 act_groom1_look_at
+
+actor_pos 31 act_priest
+animation 31 m_priest_read
+actor_look_at 31 act_priest_look_at
+
+actor_pos 27 priest_wed book
+
+
+
+// groom and bride at the altar, cam12
+cut cut12
+fade_in 0.2
+time 6.0
+
+
+camera_pos cam12_wed
+camera_move_to cam12_wed_target 0.15
+camera_look_at cam12_wed_look_at
+
+
+actor_pos 0 act_groom2
+animation 0 m_idle2
+actor_look_at 0 act_groom2_look_at
+
+actor_pos 1 act_bride2
+actor_pos 28 act_bride_wed bouquet
+animation 1 w_idle1_wed
+actor_look_at 1 act_bride3_look_at
+
+actor_pos 4 act04_bridesmaid1
+animation 4 w_clapping
+actor_look_at 4 bridesmaid_2_look_at
+
+actor_pos 5 act05_bridesmaid1
+animation 5 w_clapping
+actor_look_at 5 bridesmaid_2_look_at
+
+actor_pos 13 guest06_wed
+animation 13 m_clapping
+actor_look_at 13 guest02_wed_look_at
+
+actor_pos 14 guest07_wed
+animation 14 m_clapping
+actor_look_at 14 guest02_wed_look_at
+
+actor_pos 31 act_priest
+animation 31 m_priest_read
+actor_look_at 31 act_priest_look_at
+
+actor_pos 27 priest_wed book
+
+
+
+
+// shoot on ring in hand
+cut cut14
+fade_in 0.2
+time 6.0
+
+
+camera_pos cam14_wed
+camera_look_at cam14_wed_look_at
+
+actor_pos 0 act_groom2
+actor_pos 30 act_groom_wed ring_in_hand
+animation 0 m_on_knee_wed
+actor_look_at 0 act_groom2_look_at
+
+actor_pos 1 act_bride2
+actor_pos 28 act_bride_wed bouquet_left
+animation 1 w_on_knee_wed
+actor_look_at 1 act_bride3_look_at
+
+actor_pos 13 guest06_wed
+animation 13 m_clapping
+actor_look_at 13 guest02_wed_look_at
+
+actor_pos 14 guest07_wed
+animation 14 m_clapping
+actor_look_at 14 guest02_wed_look_at
+
+actor_pos 31 act_priest
+animation 31 m_priest_idle
+actor_look_at 31 act_priest_look_at
+
+actor_pos 27 priest_wed book
+
+
+
+// groom and bride hug, cam13
+cut cut13
+fade_in 0.2
+time 11.5
+
+actor_pos 25 act_bride_look_at
+actor_pos 29 rings_wed
+actor_pos 30 act_bride_look_at
+
+camera_pos cam13_wed
+camera_move_to cam13_wed_target 0.17
+camera_look_at cam13_wed_look_at
+
+
+actor_pos 1 act_groom2
+actor_pos 28 act_bride_wed bouquet
+animation 1 w_carry_hug_wed
+actor_look_at 1 act_groom2_look_at
+
+actor_pos 0 act_groom2
+animation 0 m_carry_hug_wed
+actor_look_at 0 act_groom2_look_at
+
+actor_pos 31 act_priest
+animation 31 m_priest_idle
+actor_look_at 31 act_priest_look_at
+
+actor_pos 27 priest_wed book
+
+
+// fade in
+
+cut end
+fade_out 0.7
+time 0.2
+
+
+cut end_black
+black
+time 2.2
+
+
+
+
+

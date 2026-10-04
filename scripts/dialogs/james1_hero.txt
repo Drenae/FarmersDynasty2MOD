@@ -1,0 +1,69 @@
+//
+//Dialog z jamesem
+//
+
+//Remembering Molly
+//elo james, elo widze ze jestes wnukiem dziadka, ja jestem programista i nie umiem w rolnictwo, zabaluj moje pole to dostaniesz balownice
+hero_dialog james1_dialog1
+actor DLQ15L01
+hero DLQ15L02
+actor DLQ15L03
+hero DLQ15L04
+hero DLQ15L05
+actor DLQ15L06
+actor DLQ15L07
+hero DLQ15L08
+actor DLQ15L09
+hero DLQ15L10
+actor DLQ15L11
+hero DLQ15L12
+actor DLQ15L13
+hero DLQ15L14
+actor DLQ15L15
+hero DLQ15L16
+actor DLQ15L17
+actor DLQ15L18
+actor DLQ15L19
+hero DLQ15L20
+actor DLQ15L21
+
+
+
+//zabalowane, dzieki mordo balownica jest twoja, a jak zamawiac roboli?, a tak po prostu btw idz do erica nauczy cie kraftingu
+hero_dialog james1_dialog2
+hero DLQ15L22
+actor DLQ15L23
+hero DLQ15L23A
+actor DLQ15L23B
+hero DLQ15L23C
+actor DLQ15L23D
+actor DLQ15L23E
+hero DLQ15L23F
+actor DLQ15L24
+hero DLQ15L25
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

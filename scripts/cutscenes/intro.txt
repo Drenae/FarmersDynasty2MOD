@@ -1,0 +1,697 @@
+// definicje aktorow
+
+// hero dziadek
+actor 0 prefabs\models\hero1\hero1.x intro_actor_hero
+
+clothing 0 prefabs\models\clothes\hero1_shoes.X
+clothing 1 prefabs\models\clothes\hero1_pants.X
+clothing 2 prefabs\models\clothes\hero1_jacket.X
+hair prefabs\attachments\flat_cap_nocenter.X hair intro_hair_hero
+
+//stary pickup
+actor 1 prefabs\vehicles\car011_cp_old\car011_cp_old_nocenter.x intro_actor_pickup
+
+//kola starego pickup
+actor 2 prefabs\vehicles\car011_cp_old\wheel_left_old_nocenter.x
+turning_wheel 1
+actor 3 prefabs\vehicles\car011_cp_old\wheel_right_old_nocenter.x
+turning_wheel 1
+actor 4 prefabs\vehicles\car011_cp_old\wheel_left_old_nocenter.x
+actor 5 prefabs\vehicles\car011_cp_old\wheel_right_old_nocenter.x
+
+//kierowca
+actor 6 prefabs\models\m3\m3.x intro_actor_driver 
+
+clothing 0 prefabs\models\clothes\man\class0_boots\m_basket_shoes_001.X
+clothing 1 prefabs\models\clothes\man\class1_pants\m_pants_pockets_001.X
+clothing 2 prefabs\models\clothes\man\class2_shirts\m_jacket_1_60s.X
+hair prefabs\attachments\m_hair_003_nocenter.X hair wlosy_hero1
+
+//zaladunek
+actor 7 prefabs\objects\tools\loading_on_truck_001_nocenter.x intro_actor_loading
+
+// kot
+actor 8 prefabs\models\animals\cat\cat1_intro.x intro_actor_cat1
+// kot2
+actor 9 prefabs\models\animals\cat\cat2_intro.x intro_actor_cat2
+
+// walizka
+actor 10 prefabs\objects\tools\suitcase_nocenter.x intro_actor_suitcase
+
+
+// kaczka
+actor 11 prefabs\models\animals\duck\duck.x intro_actor_duck1
+
+// kaczka2
+actor 12 prefabs\models\animals\duck\duck.x intro_actor_duck2
+
+// deer
+actor 13 prefabs\models\animals\deer02\deer02.X intro_actor_deer
+
+// intro_lamps
+actor 14 prefabs\vehicles\car011_cp_old\intro_lamp_nocenter.x intro_lamps
+
+
+//do_not_skip
+
+//start
+cut start
+black
+time 1.8
+hour 15
+
+hide_all_npc
+
+actor_move_bezier 1 intro_cs_bzr 0.1
+rotate_actor_x 2 9
+rotate_actor_x 3 9
+rotate_actor_x 4 6
+rotate_actor_x 5 6
+
+
+actor_pos 0 intro_actor_pickup passenger2
+animation 0 intro_hero_car_idle1
+actor_pos 2 intro_actor_pickup wheel_front_left
+actor_pos 3 intro_actor_pickup wheel_front_right
+actor_pos 4 intro_actor_pickup wheel_rear_left
+actor_pos 5 intro_actor_pickup wheel_rear_right
+actor_pos 6 intro_actor_pickup kierowca
+animation 6 h_drive_old_pickup
+actor_pos 7 intro_actor_pickup loading
+
+actor_pos 8 intro_cat1
+animation 8 cat_sit_idle2
+actor_look_at 8 intro_cam1_lookat
+actor_pos 9 intro_cat2
+animation 9 cat_sleep
+
+actor_pos 10 intro_actor_pickup suitcase
+
+actor_pos 11 intro_duck1
+animation 11 duck_swim
+actor_look_at 11 intro_cam1_lookat
+
+actor_pos 12 intro_duck2
+animation 12 duck_sleep
+actor_look_at 12 intro_cam1_lookat
+
+actor_pos 13 intro_cow1
+animation 13 deer02_idle3
+actor_look_at 13 intro_cam1_lookat
+
+
+
+
+
+
+
+
+
+// z wody do kotow
+cut cut1
+fade_in 0.3
+time 8
+hour 14
+weather 0.4
+
+sound2D sfx\cutscenes\intro_cut1.wav
+
+camera_pos intro_cam1
+camera_move_to intro_cam1_target 0.05
+camera_look_at intro_cam1_lookat
+
+
+actor_move_bezier 1 intro_cs_bzr 4
+rotate_actor_x 2 9
+rotate_actor_x 3 9
+rotate_actor_x 4 6
+rotate_actor_x 5 6
+
+
+actor_pos 0 intro_actor_pickup passenger2
+animation 0 intro_hero_car_idle1
+actor_pos 2 intro_actor_pickup wheel_front_left
+actor_pos 3 intro_actor_pickup wheel_front_right
+actor_pos 4 intro_actor_pickup wheel_rear_left
+actor_pos 5 intro_actor_pickup wheel_rear_right
+actor_pos 6 intro_actor_pickup kierowca
+animation 6 h_drive_old_pickup
+actor_pos 7 intro_actor_pickup loading
+
+actor_pos 8 intro_cat1
+animation 8 cat_sit_idle2
+actor_look_at 8 intro_cam1_lookat
+actor_pos 9 intro_cat2
+animation 9 cat_sleep
+
+actor_pos 10 intro_actor_pickup suitcase
+
+actor_pos 11 intro_duck1
+animation 11 duck_swim
+actor_look_at 11 intro_cam3_target
+
+actor_pos 12 intro_duck2
+animation 12 duck_sleep
+actor_look_at 12 intro_cam1_lookat
+
+
+
+cut cut1a
+fade_out 0.6
+time 0.2
+
+
+
+
+
+// rzut na auto
+cut cut2
+fade_in 0.3
+time 8
+hour 13
+weather 0.36
+
+text SUBI01
+
+music music\ambient_winter_night.ogg
+sound2D sfx\cutscenes\intro_cut2.wav
+
+camera_pos intro_cam2
+camera_move_to intro_cam2_target 0.3
+camera_look_at intro_hair_hero
+
+actor_move_bezier 1 intro_cs_bzr 3
+rotate_actor_x 2 9
+rotate_actor_x 3 9
+rotate_actor_x 4 6
+rotate_actor_x 5 6
+
+actor_shake 1 1.0
+
+actor_pos 0 intro_actor_pickup passenger2
+animation 0 intro_hero_car_idle1
+
+actor_pos 2 intro_actor_pickup wheel_front_left
+actor_pos 3 intro_actor_pickup wheel_front_right
+actor_pos 4 intro_actor_pickup wheel_rear_left
+actor_pos 5 intro_actor_pickup wheel_rear_right
+
+actor_pos 6 intro_actor_pickup kierowca
+animation 6 h_drive_old_pickup
+actor_pos 7 intro_actor_pickup loading
+actor_pos 10 intro_actor_pickup suitcase
+
+
+actor_pos 14 intro_actor_pickup light1
+
+
+
+
+
+// na bohatera na pace tył prawa
+cut cut3
+fade_in 0.4
+time 7
+hour 13
+weather 0.34
+
+say DLI01
+
+sound2D sfx\cutscenes\intro_cut3.wav
+
+camera_pos intro_actor_pickup cam3
+camera_look_at intro_actor_pickup cam_target
+
+actor_move_bezier 1 intro_cs_bzr 3
+rotate_actor_x 2 9
+rotate_actor_x 3 9
+rotate_actor_x 4 6
+rotate_actor_x 5 6
+
+actor_shake 1 1.5
+
+actor_pos 0 intro_actor_pickup passenger2
+animation 0 intro_hero_car_idle1
+actor_pos 2 intro_actor_pickup wheel_front_left
+actor_pos 3 intro_actor_pickup wheel_front_right
+actor_pos 4 intro_actor_pickup wheel_rear_left
+actor_pos 5 intro_actor_pickup wheel_rear_right
+
+actor_pos 6 intro_actor_pickup kierowca
+animation 6 h_drive_old_pickup
+actor_pos 7 intro_actor_pickup loading
+actor_pos 10 intro_actor_pickup suitcase
+
+
+
+
+
+
+// na bohatera na pace blisko prawa
+cut cut4
+time 10
+hour 13
+weather 0.32
+
+say DLI02
+
+sound2D sfx\cutscenes\intro_cut5.wav
+
+camera_pos intro_actor_pickup cam1
+camera_look_at intro_actor_pickup cam_target
+
+
+actor_move_bezier 1 intro_cs_bzr 4
+
+actor_pos 0 intro_actor_pickup passenger2
+animation 0 intro_hero_car_idle1
+actor_pos 2 intro_actor_pickup wheel_front_left
+actor_pos 3 intro_actor_pickup wheel_front_right
+actor_pos 4 intro_actor_pickup wheel_rear_left
+actor_pos 5 intro_actor_pickup wheel_rear_right
+
+actor_shake 1 1.0
+
+actor_pos 6 intro_actor_pickup kierowca
+animation 6 h_drive_old_pickup
+actor_pos 7 intro_actor_pickup loading
+actor_pos 10 intro_actor_pickup suitcase
+
+
+
+
+
+
+
+
+// na zakrecie z zewnatrz
+cut cut5
+hour 13
+time 5
+fade_in 0.4
+weather 0.3
+
+afx_spod_kol afx_wheel_snow 0.3f
+
+sound2D sfx\cutscenes\intro_cut7.wav
+
+camera_pos intro_cam3
+camera_move_to intro_cam3_target 1.5
+camera_look_at intro_hair_hero
+
+actor_move_bezier 1 intro_cs_bzr 2
+rotate_actor_x 2 4
+rotate_actor_x 3 4
+rotate_actor_x 4 3
+rotate_actor_x 5 3
+
+actor_shake 1 1.5
+
+actor_pos 0 intro_actor_pickup passenger2
+animation 0 intro_hero_car_idle1
+actor_pos 2 intro_actor_pickup wheel_front_left
+actor_pos 3 intro_actor_pickup wheel_front_right
+actor_pos 4 intro_actor_pickup wheel_rear_left
+actor_pos 5 intro_actor_pickup wheel_rear_right
+
+actor_pos 6 intro_actor_pickup kierowca
+animation 6 h_drive_old_pickup
+actor_pos 7 intro_actor_pickup loading
+actor_pos 10 intro_actor_pickup suitcase
+
+actor_pos 13 intro_cow1
+animation 13 deer02_idle3
+actor_look_at 13 intro_cam1_lookat
+
+
+
+// na pace tyl
+cut cut6
+hour 14
+time 10
+
+say DLI03
+
+afx_spod_kol afx_wheel_snow 0.3f
+
+sound2D sfx\cutscenes\intro_cut6.wav
+
+camera_pos intro_actor_pickup cam2
+camera_look_at intro_hair_hero
+
+actor_move_bezier 1 intro_cs_bzr 4
+
+actor_shake 1 1.0
+
+actor_pos 0 intro_actor_pickup passenger2
+animation 0 intro_hero_car_idle1
+actor_pos 2 intro_actor_pickup wheel_front_left
+actor_pos 3 intro_actor_pickup wheel_front_right
+actor_pos 4 intro_actor_pickup wheel_rear_left
+actor_pos 5 intro_actor_pickup wheel_rear_right
+
+actor_pos 6 intro_actor_pickup kierowca
+animation 6 h_drive_old_pickup
+actor_pos 7 intro_actor_pickup loading
+actor_pos 10 intro_actor_pickup suitcase
+
+actor_pos 13 intro_cow1
+animation 13 deer02_idle3
+actor_look_at 13 intro_cam1_lookat
+
+
+
+
+// na zakrecie z zewnatrz
+cut cut7
+hour 11
+time 6
+fade_in 0.4
+
+afx_spod_kol afx_wheel_snow 0.3f
+
+sound2D sfx\cutscenes\intro_cut3.wav
+
+camera_pos intro_cam4
+camera_move_to intro_cam4_target 1
+camera_look_at intro_hair_hero
+
+actor_move_bezier 1 intro_cs_bzr 4
+rotate_actor_x 2 8
+rotate_actor_x 3 8
+rotate_actor_x 4 6
+rotate_actor_x 5 6
+
+actor_shake 1 1.5
+
+actor_pos 0 intro_actor_pickup passenger2
+animation 0 intro_hero_car_idle1
+actor_pos 2 intro_actor_pickup wheel_front_left
+actor_pos 3 intro_actor_pickup wheel_front_right
+actor_pos 4 intro_actor_pickup wheel_rear_left
+actor_pos 5 intro_actor_pickup wheel_rear_right
+
+actor_pos 6 intro_actor_pickup kierowca
+animation 6 h_drive_old_pickup
+actor_pos 7 intro_actor_pickup loading
+actor_pos 10 intro_actor_pickup suitcase
+
+actor_pos 13 intro_cow1
+animation 13 deer02_idle3
+actor_look_at 13 intro_cam1_lookat
+
+
+
+
+
+
+// na bohatera na pace blisko prawa
+cut cut8
+time 9
+hour 12
+
+afx_spod_kol afx_wheel_snow 0.3f
+
+say DLI04
+
+sound2D sfx\cutscenes\intro_cut4.wav
+
+camera_pos intro_actor_pickup cam1
+camera_look_at intro_actor_pickup cam_target
+
+actor_move_bezier 1 intro_cs_bzr 4
+
+actor_shake 1 1.0
+
+actor_pos 0 intro_actor_pickup passenger2
+animation 0 intro_hero_car_idle1
+actor_pos 2 intro_actor_pickup wheel_front_left
+actor_pos 3 intro_actor_pickup wheel_front_right
+actor_pos 4 intro_actor_pickup wheel_rear_left
+actor_pos 5 intro_actor_pickup wheel_rear_right
+
+actor_pos 6 intro_actor_pickup kierowca
+animation 6 h_drive_old_pickup
+actor_pos 7 intro_actor_pickup loading
+actor_pos 10 intro_actor_pickup suitcase
+
+
+
+
+
+
+// kamera w gore
+cut cut9
+fade_in 0.3
+time 6
+hour 11
+
+afx_spod_kol afx_wheel_snow 0.3f
+
+sound2D sfx\cutscenes\intro_cut8.wav
+
+camera_pos intro_cam5
+camera_move_to intro_cam5_target 1
+camera_look_at intro_hair_hero
+
+actor_move_bezier 1 intro_cs_bzr 4
+
+actor_shake 1 1.5
+
+actor_pos 0 intro_actor_pickup passenger2
+animation 0 intro_hero_car_idle1
+actor_pos 2 intro_actor_pickup wheel_front_left
+actor_pos 3 intro_actor_pickup wheel_front_right
+actor_pos 4 intro_actor_pickup wheel_rear_left
+actor_pos 5 intro_actor_pickup wheel_rear_right
+
+actor_pos 6 intro_actor_pickup kierowca
+animation 6 h_drive_old_pickup
+actor_pos 7 intro_actor_pickup loading
+actor_pos 10 intro_actor_pickup suitcase
+
+actor_pos 14 intro_actor_pickup light1
+
+
+
+// podworko
+cut cut10
+fade_in 0.2
+time 13
+hour 12
+
+afx_spod_kol afx_wheel_snow 0.3f
+
+sound2D sfx\cutscenes\intro_cut9.wav
+
+camera_pos intro_cam6
+camera_move_to intro_cam6_target 0.3
+camera_look_at intro_hair_hero
+
+actor_shake 1 3.0
+
+actor_move_bezier 1 intro_cs2_bzr 2
+rotate_actor_x 2 9
+rotate_actor_x 3 9
+rotate_actor_x 4 6
+rotate_actor_x 5 6
+
+actor_pos 0 intro_actor_pickup passenger2
+animation 0 intro_hero_car_idle1
+actor_pos 2 intro_actor_pickup wheel_front_left
+actor_pos 3 intro_actor_pickup wheel_front_right
+actor_pos 4 intro_actor_pickup wheel_rear_left
+actor_pos 5 intro_actor_pickup wheel_rear_right
+
+actor_pos 6 intro_actor_pickup kierowca
+animation 6 h_drive_old_pickup
+actor_pos 7 intro_actor_pickup loading
+actor_pos 10 intro_actor_pickup suitcase
+
+actor_pos 14 intro_actor_pickup light1
+
+
+// wysiada
+cut cut11
+fade_in 0.4
+time 7
+hour 12
+
+sound2D sfx\cutscenes\intro_cut10.wav
+
+camera_pos intro_cam7
+camera_move_to intro_cam7_target 0.5
+camera_look_at intro_hair_hero
+
+
+actor_move_bezier 1 intro_cs2_bzr 0
+
+actor_pos 0 intro_actor_pickup passenger2
+animation 0 intro_hero_car_out
+actor_pos 2 intro_actor_pickup wheel_front_left
+actor_pos 3 intro_actor_pickup wheel_front_right
+actor_pos 4 intro_actor_pickup wheel_rear_left
+actor_pos 5 intro_actor_pickup wheel_rear_right
+
+actor_pos 6 intro_actor_pickup kierowca
+animation 6 h_drive_old_pickup
+actor_pos 7 intro_actor_pickup loading
+actor_pos 10 intro_actor_pickup suitcase
+
+actor_pos 14 intro_actor_pickup light1
+
+
+
+// hero stoi
+cut cut12
+fade_in 0.4
+time 7
+hour 12
+
+say DLI05
+
+sound2D sfx\cutscenes\intro_cut11.wav
+
+afx_spod_kol afx_wheel_snow 0.3f
+
+camera_pos intro_cam8
+camera_move_to intro_cam8_target 0.4
+camera_look_at intro_hair_hero
+
+
+actor_move_bezier 1 intro_cs2_bzr 1
+rotate_actor_x 2 6
+rotate_actor_x 3 6
+rotate_actor_x 4 4
+rotate_actor_x 5 4
+
+actor_shake 1 1.5
+
+
+actor_pos 0 intro_hero_stands
+animation 0 intro_hero_car_stands
+actor_look_at 0 intro_hero_stands_lookat
+
+actor_pos 2 intro_actor_pickup wheel_front_left
+actor_pos 3 intro_actor_pickup wheel_front_right
+actor_pos 4 intro_actor_pickup wheel_rear_left
+actor_pos 5 intro_actor_pickup wheel_rear_right
+
+actor_pos 6 intro_actor_pickup kierowca
+animation 6 h_drive_old_pickup
+actor_pos 7 intro_actor_pickup loading
+
+actor_pos 10 intro_suitcase_stands
+actor_look_at 10 intro_suitcase_stands_lookat
+
+actor_pos 14 intro_actor_pickup light1
+
+
+
+
+// hero ujecie na twarz
+cut cut13
+time 5.0
+hour 10
+fade_in 0.4
+
+camera_pos intro_cam9
+camera_move_to intro_cam9_target 0.15
+camera_look_at intro_hair_hero
+
+
+actor_move_bezier 1 intro_cs_bzr 0
+actor_pos 2 intro_actor_pickup wheel_front_left
+actor_pos 3 intro_actor_pickup wheel_front_right
+actor_pos 4 intro_actor_pickup wheel_rear_left
+actor_pos 5 intro_actor_pickup wheel_rear_right
+
+actor_pos 6 intro_actor_pickup kierowca
+animation 6 h_drive_old_pickup
+actor_pos 7 intro_actor_pickup loading
+
+
+actor_pos 0 intro_hero_stands
+animation 0 intro_hero_car_stands
+actor_look_at 0 intro_hero_stands_lookat
+
+actor_pos 10 intro_suitcase_stands
+actor_look_at 10 intro_suitcase_stands_lookat
+
+actor_pos 14 intro_actor_pickup light1
+
+
+
+// hero idzie patrzy
+cut cut14
+time 6
+hour 12
+fade_in 0.4
+
+
+sound2D sfx\cutscenes\intro_cut12.wav
+
+
+camera_pos intro_cam10
+camera_move_to intro_cam10_target 0.1
+camera_look_at intro_hair_hero
+
+actor_pos 0 intro_hero_stands
+animation 0 intro_hero_car_walk
+
+actor_pos 10 intro_suitcase_stands
+actor_look_at 10 intro_suitcase_stands_lookat
+
+actor_pos 14 intro_actor_pickup light1
+
+
+
+
+// hero idzie patrzy
+cut cut15
+time 5
+hour 12
+
+camera_pos intro_cam11
+camera_move_to intro_cam11_target 0.06
+camera_look_at intro_hair_hero
+
+actor_pos 10 intro_suitcase_stands
+actor_look_at 10 intro_suitcase_stands_lookat
+
+
+actor_pos 14 intro_actor_pickup light1
+
+
+
+// hero idzie patrzy2
+cut cut16
+fade_in 0.4
+time 10
+hour 12
+
+camera_pos intro_cam12
+camera_move_to intro_cam12_target 0.25
+camera_look_at intro_cam12_lookat
+
+actor_pos 10 intro_suitcase_stands
+actor_look_at 10 intro_suitcase_stands_lookat
+
+actor_pos 14 intro_actor_pickup light1
+
+
+cut end
+fade_out 0.7
+time 0.2
+hour 14
+
+cut end_black
+black
+time 2.2
+hour 14
+
+
+
+
+
+

@@ -1,0 +1,2 @@
+mesh_filename prefabs\buildings\cowshed\tank\slurry_pump_nocenter.x
+socket slurry -3.100000 0.040000 3.000000

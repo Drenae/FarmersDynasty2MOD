@@ -1,0 +1,425 @@
+hero_dialog forest
+
+// 0 - Mollys mug
+add_mesh prefabs\Buildings\kitchen_stuff\mug_nocenter.X za2_look_at0
+// 1 - 2nd mug
+add_mesh prefabs\Buildings\kitchen_stuff\mug_nocenter.X za2_look_at0
+
+//start
+
+actor_silent 2
+black
+// weather 0.45
+movie_camera
+
+
+
+// 1-1 - Molly i hero przy lawce
+actor_silent 2
+movie_camera
+
+fade_in
+fov 0.75
+
+dof_distance 3
+
+camera_pos za2_cam1
+camera_move_to za2_cam1a 0.1
+camera_look_at za2_cam1a
+
+
+hero_pos za2_h1_fire
+hero_anim h_idle_mugs
+hero_look_at za2_look_at4
+
+actor_pos za2_molly_bench
+actor_anim w_listen1
+actor_look_at za2_look_at5
+
+
+
+light_fireplace  fireplace_forest
+
+// ktorego mesha, na jaki socket
+attach_hero 0 mug2
+// attach_hero 1 mug_left
+
+
+
+
+
+// 1-2 Molly odzywa sie
+
+// It smells wonderful, I see someone has culinary talent 
+actor DLC02L01
+
+movie_camera
+fov 0.75
+
+// camera_move_to za2_cam1a 0.1
+camera_look_at za2_cam1a
+
+dof_distance 3
+
+hero_pos za2_h1_fire
+// hero_anim h_idle_mugs
+hero_look_at za2_look_at4
+
+actor_pos za2_molly_bench
+// actor_anim w_listen1
+actor_look_at za2_look_at5
+
+// ktorego mesha, na jaki socket
+attach_hero 0 mug2
+// attach_hero 1 mug_left
+
+
+
+
+
+
+// 2-1 - Molly siada
+actor_silent 3
+movie_camera
+fade_in
+fov 0.75
+
+camera_pos za2_cam2
+camera_look_at za2_look_at2
+
+hero_pos za2_h1_bench
+hero_anim h_idle_mugs
+hero_look_at za2_look_at4
+
+actor_pos za2_molly_bench
+actor_anim w_stand_to_sit_cutscene
+actor_look_at za2_look_at5
+
+dof_distance 3
+
+
+light_fireplace  fireplace_forest
+
+// ktorego mesha, na jaki socket
+attach_hero 0 mug2
+// attach_hero 1 mug_left
+
+
+
+
+// 2-2 - Molly siada
+
+// The power of natural vegetables and a secret ingredient 
+hero DLC02L02
+
+movie_camera
+fov 0.75
+
+camera_look_at za2_look_at2
+
+hero_pos za2_h1_bench
+// hero_anim h_idle_mugs
+hero_look_at za2_look_at4
+
+actor_pos za2_molly_bench
+// actor_anim w_stand_to_sit_cutscene
+actor_look_at za2_look_at5
+
+dof_distance 3
+
+// ktorego mesha, na jaki socket
+attach_hero 0 mug2
+// attach_hero 1 mug_left
+
+
+
+
+// 3-1 - Molly wyciaga reke
+actor_silent 4
+movie_camera
+fade_in
+fov 0.75
+
+camera_pos za2_cam3
+camera_move_to za2_cam3a 0.04
+camera_look_at za2_look_at1
+
+hero_pos za2_h1_bench
+hero_anim h_give_mug
+hero_look_at za2_look_at4
+
+actor_pos za2_molly_bench
+actor_anim w_sit_mug_catch
+actor_look_at za2_look_at5
+
+dof_distance 3
+
+light_fireplace  fireplace_forest
+
+// ktorego mesha, na jaki socket
+attach_hero 0 mug2
+// attach_hero 1 mug_left
+
+
+
+
+
+
+// 3-2 - Molly wyciaga reke
+
+// Here you go, this is for you
+hero DLC02L03
+
+movie_camera
+fov 0.75
+
+camera_move_to za2_cam3a 0.04
+camera_look_at za2_look_at1
+
+hero_pos za2_h1_bench
+// hero_anim h_give_mug
+hero_look_at za2_look_at4
+
+actor_pos za2_molly_bench
+// actor_anim w_sit_mug_catch
+actor_look_at za2_look_at5
+
+dof_distance 3
+
+light_fireplace  fireplace_forest
+
+// ktorego mesha, na jaki socket
+attach_hero 0 mug2
+// attach_hero 1 mug_left
+
+
+
+
+
+
+// 4-1 - hero i molly z kubkami
+
+actor_silent 4
+movie_camera
+fade_in
+fov 0.75
+
+dof_distance 3
+
+camera_pos za2_cam6
+camera_move_to za2_cam6a 0.07
+camera_look_at za2_look_at3
+
+hero_pos za2_h1_bench2
+hero_anim h_sit_mug
+hero_look_at za2_look_at4
+
+actor_pos za2_molly_bench
+actor_anim w_sit_mug
+actor_look_at za2_look_at5
+
+
+
+light_fireplace  fireplace_forest
+
+// ktorego mesha, na jaki socket
+attach_actor 0 mug
+attach_hero 1 mug
+
+
+
+// 4-2 - hero i molly z kubkami
+
+// Really hot
+actor DLC02L04
+
+movie_camera
+fov 0.75
+
+camera_move_to za2_cam6a 0.07
+camera_look_at za2_look_at3
+
+hero_pos za2_h1_bench2
+// hero_anim h_sit_mug
+hero_look_at za2_look_at4
+
+actor_pos za2_molly_bench
+// actor_anim w_sit_mug
+actor_look_at za2_look_at5
+
+dof_distance 3
+
+light_fireplace  fireplace_forest
+
+// ktorego mesha, na jaki socket
+attach_actor 0 mug
+attach_hero 1 mug
+
+
+
+
+
+
+
+// 5-1 - ujecie z ogniem
+
+actor_silent 3
+movie_camera
+fade_in
+fov 0.75
+
+camera_pos za2_cam4
+camera_look_at za2_look_at0
+
+hero_pos za2_h1_bench2
+// hero_anim h_sit_mug
+hero_look_at za2_look_at4
+
+actor_pos za2_molly_bench
+// actor_anim w_sit_mug
+actor_look_at za2_look_at5
+
+dof_distance 3
+
+// light_fireplace  fireplace_forest
+
+// ktorego mesha, na jaki socket
+attach_actor 0 mug
+attach_hero 1 mug
+
+
+
+
+
+
+// 5-2 - ujecie z ogniem
+
+// You did great, I think you'll be a good local
+actor DLC02L05
+
+movie_camera
+fov 0.75
+
+camera_look_at za2_look_at0
+
+hero_pos za2_h1_bench2
+// hero_anim h_sit_mug
+hero_look_at za2_look_at4
+
+actor_pos za2_molly_bench
+// actor_anim w_sit_mug
+actor_look_at za2_look_at5
+
+dof_distance 3
+
+// light_fireplace  fireplace_forest
+
+// ktorego mesha, na jaki socket
+attach_actor 0 mug
+attach_hero 1 mug
+
+
+
+
+
+
+// 6-1 - ujecie nad ogniem
+actor_silent 3
+movie_camera
+fov 0.75
+
+
+// ktorego mesha, na jaki socket
+attach_actor 0 mug
+attach_hero 1 mug
+
+camera_pos za2_cam5
+camera_move_to za2_cam5a 0.1
+camera_look_at za2_look_at6
+
+hero_pos za2_h1_bench2
+hero_anim h_sit_mug
+hero_look_at za2_look_at4
+
+actor_pos za2_molly_bench
+actor_anim w_sit_mug
+actor_look_at za2_look_at5
+
+dof_distance 3
+
+light_fireplace  fireplace_forest
+
+// ktorego mesha, na jaki socket
+attach_actor 0 mug
+attach_hero 1 mug
+
+
+
+
+// 6-2 - ujecie nad ogniem
+
+// A lot of work, I count on your help in the future
+hero DLC02L06
+
+movie_camera
+fov 0.75
+
+camera_move_to za2_cam5a 0.1
+camera_look_at za2_look_at6
+
+hero_pos za2_h1_bench2
+// hero_anim h_sit_mug
+hero_look_at za2_look_at4
+
+actor_pos za2_molly_bench
+// actor_anim w_sit_mug
+actor_look_at za2_look_at5
+
+dof_distance 3
+
+light_fireplace  fireplace_forest
+
+// ktorego mesha, na jaki socket
+attach_actor 0 mug
+attach_hero 1 mug
+
+
+
+
+
+// 6-3 - ujecie nad ogniem
+
+actor_silent 3
+movie_camera
+fov 0.75
+
+camera_move_to za2_cam5a 0.1
+camera_look_at za2_look_at6
+
+hero_pos za2_h1_bench2
+// hero_anim h_sit_mug
+hero_look_at za2_look_at4
+
+actor_pos za2_molly_bench
+actor_anim w_sit_mug
+actor_look_at za2_look_at5
+
+dof_distance 3
+
+// ktorego mesha, na jaki socket
+attach_actor 0 mug
+attach_hero 1 mug
+
+
+// Black
+
+actor_silent 2
+black
+movie_camera
+
+
+teleport_player_to za2_h1_fire
+
+
+end_dialog
+

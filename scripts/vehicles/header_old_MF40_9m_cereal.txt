@@ -1,0 +1,53 @@
+Vehicle >header_mf41_9m_cereal
+prefab prefabs\vehicles\header_old_mf41_9m_cereal\header_old_mf41_cereal_9m_nocenter.x
+Mass 400.0
+Stiffness 10
+
+spawn_id 58
+
+tag >MT26
+
+
+
+price 4500
+
+Kombajn_id 1
+
+heder
+standard_heder
+add_when_loose 0.0
+
+// kolejnosc attachmentow jest wazna! - helix, knives, reel
+
+attachment prefabs\vehicles\header_old_mf41_9m_cereal\header_helix_nocenter.x helix
+attachment prefabs\vehicles\header_old_mf41_9m_cereal\header_knives_nocenter.x knives
+attachment prefabs\vehicles\header_old_mf41_9m_cereal\header_reel_nocenter.x reel
+
+
+renew_and_paint
+repairable header_9m_old_MF41.dds header_9m_old_MF41_repaired.dds
+color 0.76 0.55 0.29
+
+
+
+
+// COLLISION MESH
+
+// pScaleY
+mnoznik_fizyki_y 0.50
+// pScaleZ
+mnoznik_fizyki_z 0.57
+// pScaleX
+mnoznik_fizyki_x 0.85
+
+// pTransY
+przesuniecie_fizyki_gora 0.53
+// pTransZ
+przesuniecie_fizyki_przod -0.1
+// pTransX
+przesuniecie_fizyki_prawo 0.0
+
+
+
+// SOUNDS
+working_sound sfx\vehicles\header.wav

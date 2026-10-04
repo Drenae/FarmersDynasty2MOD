@@ -1,0 +1,6 @@
+mesh_filename prefabs\vehicles\trailer_s18k\trailer_s18k_attachment_nocenter.x
+socket wheel_front_right 0.770000 0.000000 0.530000
+socket wheel_front_left -0.770000 -0.000000 0.530000
+socket thill 0.000000 0.695000 0.853000
+socket traktor 0.000000 2.630000 0.850000
+socket przyczepa 0.000000 0.000000 0.020000

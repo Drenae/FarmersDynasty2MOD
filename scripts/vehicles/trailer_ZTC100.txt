@@ -1,0 +1,69 @@
+Vehicle >trailer_ZTP100
+prefab prefabs\vehicles\trailer_ztc100\trailer_ztc100_nocenter.x
+Mass 1300.0
+Stiffness 10
+
+spawn_id 20
+
+tag >MT02
+
+renew_and_paint
+color 0.113 0.113 0.113
+
+przyczepa
+price 11000
+working_width 6
+bale
+mnoznik_skali_ladunku 1.4
+
+
+
+hak_tyl zaczep_tyl
+
+
+
+hay_sockets x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 x15 x16 x17 x18 x19 x20 x21 x22 x23 x24 x25 x26 x27 x28 x29 x30 x31 x32 x33 x34 x35 x36 x37 x38 x39
+crate_sockets y1 y2 y3 y4 y5 y6 y7 y8 y9 y10 y11 y12
+
+
+
+// COLLISION MESH
+
+// pScaleY
+mnoznik_fizyki_y 0.1
+// pScaleZ
+mnoznik_fizyki_z 1.0
+// pScaleX
+mnoznik_fizyki_x 0.7
+
+// pTransY
+przesuniecie_fizyki_gora 1
+// pTransZ
+przesuniecie_fizyki_przod 0.02
+// pTransX
+przesuniecie_fizyki_prawo 0.0
+
+
+
+
+
+// THILL
+// definiuje obiekt zaczepu, socket w przyczepie na ktorym bedzie przyczepiony, jego socket ktory zlapie przyczepe i jego socket ktorym zlapie traktor
+zaczep prefabs\vehicles\trailer_ztc100\trailer_ztc100_attachment_nocenter.x attachment przyczepa traktor
+// dyszel socket_w_zaczepie socket_w_traktorze
+thill prefabs\vehicles\trailer_ztc100\trailer_ztc100_thill_nocenter.x thill zaczep
+
+// WHEELS
+front_wheel prefabs\vehicles\trailer_ztc100\wheel_right_nocenter.x wheel_front_right
+front_wheel prefabs\vehicles\trailer_ztc100\wheel_left_nocenter.x wheel_front_left
+
+wheel prefabs\vehicles\trailer_ztc100\wheel_right_nocenter.x wheel_rear_right
+wheel prefabs\vehicles\trailer_ztc100\wheel_left_nocenter.x wheel_rear_left
+
+// LIGHTS
+swiatlo_tyl lt1
+swiatlo_tyl lt2
+swiatlo_cofania lc1
+swiatlo_cofania lc2
+
+

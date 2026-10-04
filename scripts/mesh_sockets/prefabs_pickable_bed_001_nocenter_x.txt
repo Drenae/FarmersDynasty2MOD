@@ -1,0 +1,2 @@
+mesh_filename prefabs\pickable\bed_001_nocenter.x
+socket mattress 0.000000 0.000000 0.390000

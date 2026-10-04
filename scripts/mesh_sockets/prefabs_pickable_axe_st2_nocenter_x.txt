@@ -1,0 +1,2 @@
+mesh_filename prefabs\pickable\axe_st2_nocenter.x
+socket blade 0.000000 0.660000 -0.180000

@@ -1,0 +1,45 @@
+// stoly (tylko naprawione) na których może być posadzona sadzonka szklarniowa.
+// muszą być częścią markera building, inaczej mechanizm nie wykryje (szczególnie jak będą omami)
+
+
+prefab prefabs\buildings\greenhouses\gh_wood_fixed_table_1_0_nocenter.x
+socket bowl1
+socket bowl2
+socket bowl3
+socket bowl4
+
+prefab prefabs\buildings\greenhouses\gh_wood_fixed_table_1_1_nocenter.x
+socket bowl1
+socket bowl2
+socket bowl3
+socket bowl4
+
+prefab prefabs\buildings\greenhouses\gh_wood_fixed_table_1_2_nocenter.x
+socket bowl1
+socket bowl2
+socket bowl3
+socket bowl4
+
+prefab prefabs\buildings\greenhouses\gh_wood_fixed_table_1_3_nocenter.x
+socket bowl1
+socket bowl2
+socket bowl3
+socket bowl4
+
+prefab prefabs\buildings\greenhouses\gh_wood_fixed_table_1_4_nocenter.x
+socket bowl1
+socket bowl2
+socket bowl3
+socket bowl4
+
+prefab prefabs\buildings\greenhouses\gh_wood_fixed_table_1_5_nocenter.x
+socket bowl1
+socket bowl2
+socket bowl3
+socket bowl4
+
+prefab prefabs\buildings\greenhouses\gh_wood_new_table_1_0_nocenter.x 
+socket bowl1
+socket bowl2
+socket bowl3
+socket bowl4

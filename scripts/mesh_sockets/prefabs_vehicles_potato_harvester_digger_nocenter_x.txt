@@ -1,0 +1,2 @@
+mesh_filename prefabs\vehicles\potato_harvester\digger_nocenter.x
+socket potato1 0.000000 0.000000 0.000000

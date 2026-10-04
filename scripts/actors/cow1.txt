@@ -1,0 +1,30 @@
+actor cow
+
+default_phase stoi
+model prefabs\models\animals\cow\cow_001.X
+
+socket_eyes oczy
+
+contact_distance 8
+contact_angle 50
+
+ignore_physics
+animal
+
+
+// krowa_stoi
+
+phase stoi
+animation cow_idle1
+animation cow_idle2
+animation cow_idle3
+animation cow_idle4
+on_end stoi
+
+
+
+
+
+
+
+

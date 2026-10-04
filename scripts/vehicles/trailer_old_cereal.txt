@@ -1,0 +1,117 @@
+Vehicle >trailer_old_cereal
+prefab prefabs\vehicles\trailer_old_cereal\trailer_old_cereal_nocenter.x
+Mass 700.0
+Stiffness 10
+
+spawn_id 21
+
+tag >MT34
+
+
+
+
+trolley_classic
+// trolley_side
+przyczepa
+grain
+grain_capacity 5000
+price 8000
+used
+old_tractors_can_attach
+
+// to definiuje jak szybko rosnie gorka od ziarna
+mnoznik_wzrostu_ladunku 1
+
+// to ustala wysokosc globalna ladunku
+mnoznik_skali_ladunku 8
+
+
+renew_and_paint
+repairable trailers_old.dds trailers_old_repaired.dds
+color 0.37 0.37 0.37
+
+
+
+
+
+// COLLISION MESH
+
+// collision_mesh prefabs\vehicles\trailer_old_cereal\physics_trailer_old_cereal_nocenter.x
+
+// pScaleY
+mnoznik_fizyki_y 0.4
+// pScaleZ
+mnoznik_fizyki_z 1.1
+// pScaleX
+mnoznik_fizyki_x 1.1
+
+// pTransY
+przesuniecie_fizyki_gora 1.5
+// pTransZ
+przesuniecie_fizyki_przod 0.0
+// pTransX
+przesuniecie_fizyki_prawo 0.0
+
+
+
+hak_tyl zaczep_tyl
+
+
+
+
+// THILL
+// definiuje obiekt zaczepu, socket w przyczepie na ktorym bedzie przyczepiony, jego socket ktory zlapie przyczepe i jego socket ktorym zlapie traktor
+zaczep prefabs\vehicles\trailer_old_cereal\attachment_nocenter.x zaczep przyczepa traktor
+// dyszel socket_w_zaczepie socket_w_traktorze
+thill prefabs\vehicles\trailer_old_cereal\thill_nocenter.x thill zaczep
+
+
+// to jest glowna wywrotka (1)
+attachment_trolley prefabs\vehicles\trailer_old_cereal\trolley_nocenter.X trolley trolley
+
+// przypinane do attachment_trolley (2)
+trolley_gate prefabs\vehicles\trailer_old_cereal\gate_nocenter.X gate 1
+
+attachment_zboze prefabs\vehicles\trailer_old_cereal\loading_nocenter.x loading 1
+
+
+
+
+// WHEELS
+front_wheel prefabs\vehicles\trailer_old_cereal\wheel_right_1_nocenter.x wheel_front_right
+front_wheel prefabs\vehicles\trailer_old_cereal\wheel_left_1_nocenter.x wheel_front_left
+
+wheel prefabs\vehicles\trailer_old_cereal\wheel_right_1_nocenter.x wheel_rear_right
+wheel prefabs\vehicles\trailer_old_cereal\wheel_left_1_nocenter.x wheel_rear_left
+
+wheel_invisible prefabs\vehicles\trailer_old_cereal\wheel_left_1_nocenter.x wheel_fake
+
+
+
+// PISTONS
+trolley_piston1 prefabs\vehicles\trailer_old_cereal\piston1_nocenter.x piston
+trolley_piston2 prefabs\vehicles\trailer_old_cereal\piston2_nocenter.x piston
+trolley_piston3 prefabs\vehicles\trailer_old_cereal\piston3_nocenter.x piston
+trolley_piston4 prefabs\vehicles\trailer_old_cereal\piston4_nocenter.x piston
+
+
+
+
+// LIGHTS
+
+swiatlo_cofania lc1
+
+swiatlo_tyl lt1
+swiatlo_tyl lt2
+
+
+// ANIM FX
+// attachment_anim_fx <prefab> <socket> [<attachment do przyczepienia lub 0>] [<mnoznik predkosci przesuwu gibania - 1 domyslnie>] [<mnoznik gibania animacji - 1 domyslnie>] [<mnoznik predkosci przesuwu tekstury - 1 domyslnie>]
+attachment_anim_fx prefabs\vehicles\trailer_old_cereal\anim_dump_nocenter.x anim_dump 0 0.5 0.5
+
+// fx do wysypywania zboza z przyczepy
+// spill_grain_fx <nazwa_fx> <nazwa_socketa> [<numer attachmentu>]
+spill_grain_fx afx_spill_grain spill_grain 0
+
+
+

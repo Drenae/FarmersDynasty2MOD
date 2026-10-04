@@ -1,0 +1,3 @@
+mesh_filename prefabs\vehicles\trailer_wood_hds\crane4_nocenter.x
+socket hook1 -0.210000 -0.000000 -0.620000
+socket hook2 0.200000 -0.000000 -0.620000

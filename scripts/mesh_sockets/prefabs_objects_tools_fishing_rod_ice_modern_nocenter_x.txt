@@ -1,0 +1,2 @@
+mesh_filename prefabs\objects\tools\fishing_rod_ice_modern_nocenter.x
+socket tip -0.017000 0.810000 -0.010000

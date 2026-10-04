@@ -1,0 +1,5 @@
+mesh_filename prefabs\Objects\Poles\pole_cross_arm_new_nocenter.X
+socket s1 -1.230835 -0.027283 10.255257
+socket s2 -0.757629 -0.027588 10.262522
+socket s3 0.756836 -0.027893 10.266621
+socket s4 1.223816 -0.023788 10.268013

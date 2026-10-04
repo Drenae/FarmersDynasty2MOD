@@ -1,0 +1,84 @@
+actor rooster
+
+default_phase idle
+model prefabs\models\animals\rooster\rooster.X
+
+socket_eyes oczy
+
+contact_distance 8
+contact_angle 50
+
+ignore_physics
+animal
+
+
+phase idle
+animation rooster_idle1
+on_end idle
+on_end sit
+on_end scratch
+// on_end walk_slow
+on_end crow
+on_end crow
+on_end crow
+
+phase crow
+animation rooster_crowing
+on_end idle
+
+phase sit
+animation rooster_sit
+on_end sit
+on_end sleep
+
+phase sleep
+animation rooster_sleep
+on_end sleep
+on_end sit2
+
+phase sit2
+animation rooster_sit
+on_end  idle
+
+
+phase scratch
+animation rooster_scratch
+on_end  eat
+
+phase eat
+animation rooster_eat
+on_end  eat
+on_end  scratch
+on_end  idle
+
+
+
+phase walk_slow
+animation rooster_walk_slow
+on_end  walk_slow
+on_end  walk_slow
+on_end  walk
+
+phase walk
+animation rooster_walk
+on_end  walk
+on_end  walk
+on_end  walk_random
+
+phase walk_random
+animation rooster_walk_random
+on_end  walk_random
+on_end  walk_random
+on_end  fly
+
+phase fly
+animation rooster_fly
+on_end  fly
+on_end  fly
+on_end  fly
+on_end  walk2
+
+phase walk2
+animation rooster_walk_random
+on_end  idle
+

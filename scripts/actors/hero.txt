@@ -1,0 +1,101 @@
+actor hero
+
+
+default_phase idle
+model prefabs\models\hero1\hero1.X
+
+socket_eyes oczy
+
+contact_distance 8
+contact_angle 50
+
+
+rotate_180 
+
+voice 6
+
+// clothes
+// max attachments 16
+
+
+random_hair prefabs\attachments\flat_cap_nocenter.X hair
+random_hair prefabs\attachments\flat_cap_nocenter.X hair
+random_hair prefabs\attachments\flat_cap_nocenter.X hair
+random_hair prefabs\attachments\flat_cap_nocenter.X hair
+random_hair prefabs\attachments\flat_cap_nocenter.X hair
+random_hair prefabs\attachments\flat_cap_nocenter.X hair
+random_hair prefabs\attachments\flat_cap_nocenter.X hair
+random_hair prefabs\attachments\flat_cap_nocenter.X hair
+random_hair prefabs\attachments\flat_cap_nocenter.X hair
+random_hair prefabs\attachments\flat_cap_nocenter.X hair
+random_hair prefabs\attachments\flat_cap_nocenter.X hair
+random_hair prefabs\attachments\flat_cap_nocenter.X hair
+random_hair prefabs\attachments\flat_cap_nocenter.X hair
+random_hair prefabs\attachments\flat_cap_nocenter.X hair
+random_hair prefabs\attachments\flat_cap_nocenter.X hair
+random_hair prefabs\attachments\flat_cap_nocenter.X hair
+
+
+// class 0 - boots
+skinmesh_attachment 0 prefabs\models\clothes\hero1_shoes.X
+
+
+// class 1 - pants
+skinmesh_attachment 1 prefabs\models\clothes\hero1_pants.X
+
+
+
+// class 2 - shirts
+skinmesh_attachment 2 prefabs\models\clothes\hero1_coat_001.X
+
+
+
+// class 3 - beard
+
+
+
+
+
+// animations
+
+
+
+
+phase idle
+animation h_idle1
+on_end idle
+
+
+phase walk
+animation h_walk
+on_end walk
+
+
+phase talk
+animation h_speak1
+animation h_speak2
+animation h_speak3
+on_end talk
+
+
+
+// sit
+
+phase sit1
+animation h_stand_to_sit
+on_end sit2
+
+phase sit2
+animation h_sit_mug
+on_end sit3
+
+phase sit3
+animation h_sit_to_stand
+on_end sit1
+
+
+
+
+
+
+

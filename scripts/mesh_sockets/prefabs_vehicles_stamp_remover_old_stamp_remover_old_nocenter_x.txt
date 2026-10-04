@@ -1,0 +1,6 @@
+mesh_filename prefabs\vehicles\stamp_remover_old\stamp_remover_old_nocenter.x
+socket rotor 0.000000 -0.220000 -0.040000
+socket pto -0.000000 0.420000 0.210000
+socket zaczep3p 0.000000 0.710000 0.210000
+socket zaczep3pgora 0.000000 0.790000 0.930000
+socket support_leg 0.000000 0.160000 -0.370000

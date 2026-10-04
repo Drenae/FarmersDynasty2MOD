@@ -1,0 +1,169 @@
+Vehicle >beets_planter
+prefab prefabs\vehicles\beets_planter\beets_planter_nocenter.x
+Mass 500.0
+Stiffness 10
+
+spawn_id 72
+
+tag >MT49
+
+renew_and_paint
+color 0.46 0.46 0.50
+
+siewnik
+przyczepa
+price 42000
+grain_capacity 1200
+working_width 8
+force_fold
+
+// czym mozna napelniac
+// Pszenica=0, Kukurydza=1, Owies=2, Zyto=3, Slonecznik=4, Jeczmien=5, Lubin=6, Groch=7, Ziemniak=8, Burak=9, Trawa=10, Kora=11, Zrebki=12, Trociny=13 
+
+suitable_for 9
+
+
+
+
+// COLLISION MESH
+
+// pScaleZ
+mnoznik_fizyki_z 0.65
+// pScaleY
+mnoznik_fizyki_y 0.6
+// pScaleX
+mnoznik_fizyki_x 0.93
+
+// pTransZ
+przesuniecie_fizyki_przod 0.1
+// pTransY
+przesuniecie_fizyki_gora 0.1
+// pTransX
+przesuniecie_fizyki_prawo 0
+
+
+
+additional_lift_3p_when_up 0.9
+additional_lift_3p_when_down 0.4
+mnoznik_kata 1.8
+add_when_loose 0.03
+
+
+
+// HOOKS
+zaczep3p zaczep3p
+zaczep3pgora zaczep3pgora
+// zaczep3pshaft zaczep3pshaft
+
+
+
+
+
+
+// SEEDER
+
+// leftlift (1)
+rotate_cmd4 -1.8 0.12 Z
+attachment prefabs\vehicles\beets_planter\arm2_left_nocenter.X left_side
+
+// rightlift (2)
+rotate_cmd4 1.8 0.12 Z
+attachment prefabs\vehicles\beets_planter\arm2_right_nocenter.X right_side
+
+
+
+//leftside (3)
+rotate_cmd4 1.8 0.12 Z
+attachment prefabs\vehicles\beets_planter\left_side_nocenter.X left_side 1
+
+//rightside (4)
+rotate_cmd4 -1.8 0.12 Z
+attachment prefabs\vehicles\beets_planter\right_side_nocenter.X right_side 2
+
+// leftlift (5)
+rotate_cmd4 -1.8 0.12 Z
+attachment prefabs\vehicles\beets_planter\arm_left_nocenter.X p1_left 3
+
+// rightlift (6)
+rotate_cmd4 1.8 0.12 Z
+attachment prefabs\vehicles\beets_planter\arm_right_nocenter.X p1_right 4
+
+
+// SUPPORT LEG (7)
+attachment_stopka prefabs\vehicles\beets_planter\support_leg_nocenter.X support_leg 0.02 0.3
+
+
+
+
+// PISTONS
+// piston <prefab> <nr_attachmentu> <socket> <nr_attachmentu_docelowego> <socket_docelowy> <rotacja po osi R F U>
+
+piston prefabs\vehicles\beets_planter\piston2_nocenter.X 0 p2_left 5 p1_left
+piston prefabs\vehicles\beets_planter\piston1_nocenter.X 5 p1_left 0 p2_left
+
+piston prefabs\vehicles\beets_planter\piston2_nocenter.X 0 p2_right 6 p1_right
+piston prefabs\vehicles\beets_planter\piston1_nocenter.X 6 p1_right 0 p2_right
+
+
+
+
+// WHEELS & MUDGUARDS
+// prefab_kola socket_kola promien_kola podniesienie_osi_kola
+
+reverse
+attachment_wheel prefabs\vehicles\beets_planter\wheel_left_nocenter.X wheel_left 0 1 1.5
+reverse
+attachment_wheel prefabs\vehicles\beets_planter\wheel_right_nocenter.X wheel_right 0 1 1.5
+
+reverse
+attachment_wheel prefabs\vehicles\beets_planter\wheel_left_nocenter.X wheel_left 3 1 1.5
+reverse
+attachment_wheel prefabs\vehicles\beets_planter\wheel_right_nocenter.X wheel_right 4 1 1.5
+
+wheel_invisible prefabs\vehicles\beets_planter\wheel_right_nocenter.X wheel_fake
+
+
+
+
+// DISKS
+
+reverse
+attachment_wheel prefabs\vehicles\beets_planter\wheel_small_nocenter.X wheel_small 0 1 1.5
+
+reverse
+attachment_wheel prefabs\vehicles\beets_planter\wheel_small1_nocenter.X wheel_small1 3 1 1.5
+
+reverse
+attachment_wheel prefabs\vehicles\beets_planter\wheel_small1_nocenter.X wheel_small1 4 1 1.5
+
+
+
+
+// LIGHTS
+
+attachment_light prefabs\vehicles\beets_planter\lamp1_nocenter.x light1
+attachment_name swiatlo_lt1
+swiatlo_tyl lt1
+swiatlo_z swiatlo_lt1
+
+attachment_light prefabs\vehicles\beets_planter\lamp2_nocenter.x light2
+attachment_name swiatlo_lt2
+swiatlo_cofania lt2
+swiatlo_z swiatlo_lt2
+
+attachment_light prefabs\vehicles\beets_planter\lamp3_nocenter.x light3
+attachment_name swiatlo_lc1
+swiatlo_cofania lc1
+swiatlo_z swiatlo_lc1
+
+
+
+// FX
+
+working_fx afx_sianie fx0
+working_fx afx_sianie fx1
+working_fx afx_sianie fx2
+working_fx afx_sianie fx3
+
+
+

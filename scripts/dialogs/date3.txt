@@ -1,0 +1,279 @@
+//date3
+//w altance
+hero_dialog date3
+
+//0 kwiatki dekoracyjne
+add_mesh prefabs\buildings\wedding_decorations\daco_flowers_001_nocenter.x date3_deco01
+
+//1 kwiatki dekoracyjne
+add_mesh prefabs\buildings\wedding_decorations\daco_flowers_002_nocenter.x date3_deco01
+
+//2 kwiatki dekoracyjne
+add_mesh prefabs\buildings\wedding_decorations\daco_flowers_003_nocenter.x date3_deco01
+
+//4 ławeczka
+add_mesh prefabs\buildings\barns_stuff\wood_bench_nocenter.x date3_bench
+
+
+//intro
+actor_silent 1.5
+black
+//pora 18
+movie_camera
+camera_pos date3_cam00
+camera_look_at date3_cam00_look_at
+print dialog_intro
+music music\date2.ogg
+
+
+//laska przychodzi
+// hello, oh my god, it looks amazing.
+actor DLD03L01
+movie_camera
+fade_in
+rotate_180
+fov 0.7
+
+camera_pos date3_cam00
+camera_move_to date3_cam00_target 0.5
+camera_look_at date3_cam00_look_at
+
+hero_pos date3_h_pos00
+hero_anim h_date3_idle1
+hero_look_at date3_h_pos00_look_at
+
+actor_pos date3_w_pos00
+actor_anim w_date3_walk1
+actor_look_at date3_w_pos00_look_at
+
+
+//siadajo na ławce
+//You prepared all this yourself, what's the occasion?
+actor DLD03L02
+movie_camera
+fade_in
+rotate_180
+fov 0.5
+
+camera_up -0.15
+
+camera_pos date3_cam01
+camera_move_to date3_cam01_target 0.4
+camera_look_at date3_cam01_look_at
+
+hero_pos date3_h_w_pos01
+hero_anim h_date3_walk_sit
+hero_look_at date3_w_pos01_look_at
+
+actor_pos date3_h_w_pos01
+actor_anim w_date3_walk_sit
+actor_look_at date3_w_pos01_look_at
+
+print siadaja
+
+//actor_silent 0.5
+//black
+//movie_camera
+
+
+//siedzo razem
+//I thought a lot about life, the future, happiness...
+hero DLD03L03
+movie_camera
+fade_in
+rotate_180
+fov 0.9
+
+camera_up -0.2
+camera_pos date3_cam02
+camera_look_at date3_cam02_look_at
+
+hero_pos date3_h_w_pos01
+hero_anim h_date3_sit_talk
+hero_look_at date3_w_pos01_look_at
+
+actor_pos date3_h_w_pos01
+actor_anim w_date3_sit_talk
+actor_look_at date3_w_pos01_look_at
+
+print siedza_raz
+
+//siedzo razem
+// Any interesting thoughts?
+actor DLD03L04
+movie_camera
+fade_in
+rotate_180
+fov 0.8
+
+like_player 0.1
+camera_up -0.12
+camera_pos date3_cam03
+camera_look_at date3_cam03_look_at
+
+hero_pos date3_h_w_pos01
+hero_anim h_date3_sit_talk
+hero_look_at date3_w_pos01_look_at
+
+actor_pos date3_h_w_pos01
+actor_anim w_date3_sit_talk
+actor_look_at date3_w_pos01_look_at
+
+print siedza_dwa
+
+
+//pozniej
+//actor_silent 4
+//black
+//pora 19
+//movie_camera
+//text DLD03SUB01
+
+
+//siedzo na ławce
+//widok na oboje
+hero DLD03L05
+movie_camera
+fade_in
+rotate_180
+fov 0.8
+
+camera_up -0.1
+
+camera_pos date3_cam04
+camera_look_at date3_cam04_look_at
+dof_distance 1.2
+
+hero_pos date3_h_w_pos01
+hero_anim h_date3_dialog
+hero_look_at date3_w_pos01_look_at
+
+actor_pos date3_h_w_pos01
+actor_anim w_date3_dialog
+actor_look_at date3_w_pos01_look_at
+
+actor DLD03L06
+movie_camera
+//fade_in
+rotate_180
+fov 0.8
+
+camera_up -0.1
+
+camera_pos date3_cam04
+camera_look_at date3_cam04_look_at
+dof_distance 1.2
+
+hero_pos date3_h_w_pos01
+hero_anim h_date3_dialog
+hero_look_at date3_w_pos01_look_at
+
+actor_pos date3_h_w_pos01
+actor_anim w_date3_dialog
+actor_look_at date3_w_pos01_look_at
+
+
+
+//siedzo na ławce
+//widok zza laski
+hero DLD03L07
+movie_camera
+fade_in
+rotate_180
+fov 0.8
+
+camera_up -0.12
+camera_pos date3_cam05
+camera_look_at date3_cam05_look_at
+dof_distance 1.2
+
+hero_pos date3_h_w_pos01
+hero_anim h_date3_dialog
+hero_look_at date3_w_pos01_look_at
+
+actor_pos date3_h_w_pos01
+actor_anim w_date3_dialog
+actor_look_at date3_w_pos01_look_at
+
+print siedza_cztery
+
+//siedzo na ławce
+//widok zza bohatera
+actor DLD03L08
+movie_camera
+fade_in
+rotate_180
+fov 0.8
+like_player 0.1
+
+camera_pos date3_cam06
+camera_look_at date3_cam06_look_at
+dof_distance 1.2
+
+hero_pos date3_h_w_pos01
+hero_anim h_date3_dialog
+hero_look_at date3_w_pos01_look_at
+
+actor_pos date3_h_w_pos01
+actor_anim w_date3_dialog
+actor_look_at date3_w_pos01_look_at
+
+
+//buziaczek
+//You are everything to me.
+actor DLD03L10
+movie_camera
+fade_in
+rotate_180
+fov 0.8
+
+camera_pos date3_cam07
+camera_move_to date3_cam07_target 0.08
+camera_look_at date3_cam07_look_at
+
+hero_pos date3_h_w_pos02
+hero_anim h_date3_kiss
+hero_look_at date3_w_pos01_look_at
+
+actor_pos date3_h_w_pos02
+actor_anim w_date3_kiss
+actor_look_at date3_w_pos01_look_at
+
+
+//mizianko
+//It will be a beautiful life.
+hero DLD03L11
+movie_camera
+fade_in
+rotate_180
+fov 0.8
+
+camera_pos date3_cam08
+camera_move_to date3_cam08_target 0.06
+camera_look_at date3_cam08_look_at
+
+//hero_pos date3_h_w_pos02
+//hero_anim h_date3_kiss
+//hero_look_at date3_w_pos01_look_at
+
+//actor_pos date3_h_w_pos02
+//actor_anim w_date3_kiss
+//actor_look_at date3_w_pos01_look_at
+
+
+//koniec
+actor_silent 2
+black
+movie_camera
+
+end_dialog
+
+
+
+
+
+
+
+
+
+

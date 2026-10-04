@@ -1,0 +1,70 @@
+
+// nazwa questa, unikalna i wymagana
+name Mateo_family_business
+icon hud_map_social.dds
+given_by_icon actor_unknown_man.dds
+
+title OC22
+initial_waypoint mateo1
+initial_objective OC23
+given_by mateo1
+
+// gdy startuje ten quest, niech bedzie sledzony
+focus_on_start
+
+auto_activate_distance 400
+
+social_award 2
+award trailer_old_hay
+
+wait 0.1 -waypoint * -checkpoint 10
+
+//idziemy na farme 10, dialog z mateo
+goto mateo1 -distance 5 -waypoint mateo1 -checkpoint 20
+wait 0.1 -waypoint *
+hero_dialog mateo1_dialog1 mateo1
+wait_end_hero_dialog
+wait 1 -checkpoint 30
+
+//idziemy na farme 15, dialog z mike
+goto mike1 -distance 5 -waypoint mike1 -objective OC24 -checkpoint 40
+wait 0.1 -waypoint *
+hero_dialog mike1_dialog1 mike1
+wait_end_hero_dialog
+wait 1 -checkpoint 50
+
+//idziemy na farme 13, dialog z luke, dostajemy bucksy dla mateo
+goto luke1 -distance 5 -waypoint luke1 -objective OC25 -checkpoint 60
+wait 0.1 -waypoint *
+hero_dialog luke1_dialog1 luke1
+wait_end_hero_dialog
+give_cash 1200
+wait 1 -checkpoint 70
+
+//idziemy na farme 10, dialog z mateo, musisz miec jego bucksy
+goto mateo1 -distance 5 -waypoint mateo1 -objective OC26 -checkpoint 80 -playerhas_cash 1200
+wait 0.1 -waypoint *
+hero_dialog mateo1_dialog2 mateo1
+take_cash 1200
+likes_player mateo1 0.25
+wait_end_hero_dialog
+wait 1 -checkpoint 90
+
+//odbieramy przyczepe na sianko
+give_vehicle_to_player mateo_hay_trailer
+goto mateo_hay_trailer -distance 8 -waypoint mateo_hay_trailer -objective OC27 -checkpoint 100
+wait 1 -waypoint * -checkpoint 110
+skill_advance TeamPlayer 10
+wait 1 -waypoint * -checkpoint 120
+print koniec_questa_mateo_family_business
+wait 1
+
+start_quest Luke_baler
+start_quest Mike_spreader
+
+
+
+
+
+
+

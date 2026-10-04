@@ -1,0 +1,66 @@
+
+// nazwa questa, unikalna i wymagana
+name William_help
+icon hud_map_social.dds
+given_by_icon actor_unknown_man.dds
+
+title OC01
+initial_waypoint william1
+initial_objective OC02
+given_by william1
+
+// gdy startuje ten quest, niech bedzie sledzony
+focus_on_start
+
+social_award 1
+
+wait 0.1 -waypoint * -checkpoint 10
+
+//idziemy na farme 2, dialog z Williamem
+goto william1 -distance 5 -waypoint william1 -checkpoint 30
+wait 0.1 -waypoint *
+hero_dialog william1_dialog2 william1
+wait_end_hero_dialog
+wait 0.2 -checkpoint 40
+
+//William daje graczowi pile i pozycza przyczepe
+give_player chainsaw 1
+give_vehicle_to_player william_logtrailer
+allow_field_work field_090
+wait 1 -checkpoint 50
+
+//scinamy choinke
+wait 1 -waypoint william_tree_marker -objective OC03 -checkpoint 60
+wait_cut_tree william_tree -checkpoint 70
+wait 0.1 -waypoint * -checkpoint 80
+
+//ladujemy logi na przyczepe
+wait_loaded_logs william_logtrailer 5 -waypoint william_logtrailer -objective OC04 -checkpoint 90
+wait 0.1 -waypoint * -checkpoint 100
+
+//wyladowujemy logi na wyznaczone miejsce
+wait_store_logs william_log_storage 5 -waypoint william_log_storage -objective OC05 -checkpoint 110
+wait 0.1 -waypoint * -checkpoint 120
+
+//zadanie wykonane, wracamy do Williama
+goto william1 -distance 5 -waypoint william1 -objective OC06 -checkpoint 130
+wait 0.1 -waypoint *
+hero_dialog william1_dialog3 william1
+forbid_field_work field_090
+detach_trailer tractor01
+wait 0.2
+take_vehicle_from_player william_logtrailer
+wait_end_hero_dialog 
+wait 0.2 -checkpoint 140
+
+print koniec_questa_william_help
+wait 1
+
+start_quest Molly_remember
+start_quest Hannah_sweetest_business
+
+
+
+
+
+

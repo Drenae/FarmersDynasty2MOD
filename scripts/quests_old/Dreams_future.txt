@@ -1,0 +1,53 @@
+
+// nazwa questa, unikalna i wymagana
+name Dreams_future
+icon hud_map_social.dds
+given_by_icon actor_unknown_social.dds
+
+title OB83
+initial_waypoint timepicture
+initial_objective OB84
+given_by jeremy1
+
+// gdy startuje ten quest, niech bedzie sledzony
+focus_on_start
+
+social_award 1
+
+wait 0.1 -waypoint * -checkpoint 10
+wait 0.1 -waypoint timepicture -checkpoint 20
+wait_hang_timepicture
+wait 0.5 -waypoint * -checkpoint 30
+
+print koniec_questa_dreams_future
+wait 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

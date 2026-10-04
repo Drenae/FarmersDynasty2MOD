@@ -1,0 +1,21 @@
+//
+// Dialog z ricardo
+//
+
+
+//dzien dobry jestem ricardo tracz pieniezny biznesmen
+hero_dialog ricardo1_dialog1
+actor DLQ13L01
+hero DLQ13L02
+actor DLQ13L03
+hero DLQ13L04
+actor DLQ13L05
+hero DLQ13L06
+
+
+
+
+
+
+
+

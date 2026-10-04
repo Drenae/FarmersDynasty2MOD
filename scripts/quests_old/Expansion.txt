@@ -1,0 +1,44 @@
+
+// nazwa questa, unikalna i wymagana
+name Expansion
+icon hud_map_social.dds
+given_by_icon actor_unknown_man.dds
+
+title OB57
+initial_waypoint jeremy1
+initial_objective OB58
+given_by jeremy1
+
+// gdy startuje ten quest, niech bedzie sledzony
+focus_on_start
+
+social_award 1
+
+wait 0.1 -waypoint * -checkpoint 10
+
+//idziemy na farme 3, dialog z dziadkiem
+goto jeremy1 -distance 5 -waypoint jeremy1 -checkpoint 20
+wait 0.1 -waypoint *
+hero_dialog jeremy1_dialog5 jeremy1
+wait_end_hero_dialog
+give_player timepicture 1
+wait 2 -checkpoint 30
+
+
+
+Chapter 2
+wait 2 -checkpoint 40
+print koniec_questa_expansion
+
+start_quest Anavri_meet
+start_quest Audrey_Claire
+start_quest Dreams_future
+start_quest The_landlord
+
+
+
+
+
+
+
+

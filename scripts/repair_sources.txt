@@ -1,0 +1,169 @@
+//
+// plik opisuje smieci w swiecie ktore mozna podniesc zeby z nich naprawiac (starymi deskami, starymi ceglami etc)
+// liczba po prefabie to ilosc podniesionych rzeczy * 8 
+// po liczbie okreslic co dostajemy do inventory po podniesieniu
+//
+
+
+// odpady budowlane, gruz, stare deski, dachowki
+prefab prefabs\garbage_rubble\rubble_001_nocenter.x 40 repair
+prefab prefabs\garbage_rubble\rubble_002_nocenter.x 64 repair
+prefab prefabs\garbage_rubble\rubble_003_nocenter.x 72 repair 8 firewood
+prefab prefabs\garbage_rubble\rubble_004_nocenter.x 80 repair 8 firewood
+prefab prefabs\garbage_rubble\rubble_005_nocenter.x 104 repair 16 firewood
+
+prefab prefabs\garbage_rubble\rubble_base_nocenter.x 64 repair
+prefab prefabs\garbage_rubble\rubble_base2_nocenter.x 56 repair
+
+prefab prefabs\garbage_rubble\board_narrow_001_nocenter.x 32 repair 16 firewood
+prefab prefabs\garbage_rubble\board_narrow_002_nocenter.x 32 repair 16 firewood
+prefab prefabs\garbage_rubble\board_narrow_003_nocenter.x 24 repair 8 firewood
+prefab prefabs\garbage_rubble\board_narrow_004_nocenter.x 24 repair 8 firewood
+
+prefab prefabs\garbage_rubble\board_single_001_nocenter.x 48 repair 16 firewood
+prefab prefabs\garbage_rubble\board_single_002_nocenter.x 48 repair 16 firewood
+prefab prefabs\garbage_rubble\board_single_003_nocenter.x 40 repair 8 firewood
+prefab prefabs\garbage_rubble\board_single_004_nocenter.x 48 repair 16 firewood
+
+prefab prefabs\garbage_rubble\board_001_nocenter.x 24 repair 8 firewood
+prefab prefabs\garbage_rubble\board_002_nocenter.x 32 repair 8 firewood
+prefab prefabs\garbage_rubble\board_003_nocenter.x 48 repair 16 firewood 
+prefab prefabs\garbage_rubble\board_004_nocenter.x 88 repair 24 firewood
+prefab prefabs\garbage_rubble\board_005_nocenter.x 96 repair 32 firewood
+prefab prefabs\garbage_rubble\board_006_nocenter.x 120 repair 32 firewood
+
+prefab prefabs\garbage_rubble\roof_piece_001_nocenter.x 16 repair
+prefab prefabs\garbage_rubble\roof_piece_002_nocenter.x 24 repair
+
+
+// palety
+prefab prefabs\garbage_rubble\pallet_001_nocenter.x  32 repair 8 firewood
+prefab prefabs\garbage_rubble\pallet_old_001_nocenter.x 16 repair 8 firewood
+prefab prefabs\garbage_rubble\pallet_old_002_nocenter.x 16 repair 8 firewood
+prefab prefabs\garbage_rubble\pallet_old_003_nocenter.x 24 repair 8 firewood
+prefab prefabs\garbage_rubble\pallet_old_004_nocenter.x 8 repair 8 firewood
+
+
+// kartony
+prefab prefabs\objects\cardboards\cardboard_001_nocenter.x 8 repair
+prefab prefabs\objects\cardboards\cardboard_002_nocenter.x 8 repair
+prefab prefabs\objects\cardboards\cardboard_003_nocenter.x 8 repair
+prefab prefabs\objects\cardboards\cardboard_004_nocenter.x 8 repair
+prefab prefabs\objects\cardboards\cardboard_005_nocenter.x 8 repair
+prefab prefabs\objects\cardboards\cardboard_006_nocenter.x 8 repair
+
+
+// smieci metalowe
+prefab prefabs\buildings\garages_stuff\can_001_nocenter.x 8 metalparts
+prefab prefabs\buildings\garages_stuff\can_002_nocenter.x 8 metalparts
+prefab prefabs\buildings\garages_stuff\can_003_nocenter.x 8 metalparts
+prefab prefabs\buildings\garages_stuff\can_004_nocenter.x 8 metalparts
+prefab prefabs\buildings\garages_stuff\can_005_nocenter.x 8 metalparts
+prefab prefabs\buildings\garages_stuff\bottle_003_nocenter.x 8 metalparts
+prefab prefabs\buildings\garages_stuff\spray_001_nocenter.x 8 metalparts
+prefab prefabs\buildings\garages_stuff\oil_lamp_nocenter.x 8 metalparts
+prefab prefabs\buildings\garages_stuff\oil_can_small_nocenter.x 8 metalparts
+prefab prefabs\buildings\henhouse_stuff\bucket_metal_nocenter.x 8 metalparts
+prefab prefabs\Buildings\henhouse_stuff\feeder_nocenter.X 16 metalparts
+prefab prefabs\objects\tools\flashlight_nocenter.x 8 metalparts
+player_prefab prefabs\buildings\garages_stuff\old_engine_nocenter.X 24 metalparts
+player_prefab prefabs\buildings\garages_stuff\anvil_nocenter.X 32 metalparts
+player_prefab prefabs\buildings\garages_stuff\vise_nocenter.x 8 metalparts
+player_prefab prefabs\buildings\garages_stuff\dispenser_pump_nocenter.x 16 metalparts
+player_prefab prefabs\buildings\garages_stuff\heater_nocenter.x 24 metalparts
+player_prefab prefabs\buildings\garages_stuff\metal_barrel_001_nocenter.x 16 metalparts
+player_prefab prefabs\buildings\garages_stuff\metal_barrel_002_nocenter.x 24 metalparts
+player_prefab prefabs\buildings\garages_stuff\metal_barrel_003_nocenter.x 16 metalparts
+player_prefab prefabs\buildings\cowshed_stuff\grinder_cowshed_nocenter.x 32 metalparts
+player_prefab prefabs\buildings\cowshed_stuff\crusher_cowshed_nocenter.x 8 metalparts 8 firewood
+player_prefab prefabs\buildings\cowshed_stuff\wheelbarrow_nocenter.x 16 metalparts
+
+
+// smieci drewniane
+prefab prefabs\Buildings\henhouse_stuff\basket_nocenter.X 8 firewood
+prefab prefabs\buildings\henhouse_stuff\bucket_wood_nocenter.x 8 firewood
+prefab prefabs\Buildings\henhouse_stuff\feeder_wood_small_nocenter.X 8 firewood
+prefab prefabs\Buildings\henhouse_stuff\feeder_wood_nocenter.X 8 firewood 
+player_prefab prefabs\buildings\barns_stuff\crusher_nocenter.X 8 firewood 8 metalparts
+player_prefab prefabs\buildings\barns_stuff\grappling_hook_nocenter.X 8 firewood 8 metalparts
+player_prefab prefabs\buildings\barns_stuff\ladder_nocenter.X 8 firewood
+player_prefab prefabs\buildings\barns_stuff\scales_nocenter.X 8 firewood 8 metalparts
+player_prefab prefabs\buildings\barns_stuff\wood_barrel_nocenter.X 16 firewood 8 metalparts
+player_prefab prefabs\buildings\barns_stuff\wood_harnes_nocenter.X 8 firewood 8 leather
+player_prefab prefabs\buildings\barns_stuff\wood_harrow_nocenter.X 16 firewood 8 metalparts
+player_prefab prefabs\buildings\barns_stuff\wood_frame_nocenter.X 8 firewood
+player_prefab prefabs\buildings\barns_stuff\wood_trough_nocenter.X 8 firewood
+player_prefab prefabs\buildings\barns_stuff\wood_wheel_nocenter.X 8 firewood 8 metalparts
+player_prefab prefabs\objects\fruit_boxes\fruit_box_nocenter.x 8 firewood
+player_prefab prefabs\objects\fruit_boxes\fruit_box_apple_nocenter.x 8 firewood 88 apple
+player_prefab prefabs\objects\fruit_boxes\fruit_box_watermelon_nocenter.x 8 firewood 40 melon
+player_prefab prefabs\objects\fruit_boxes\fruit_box_zucchini_nocenter.x 8 firewood 56 zucchini
+player_prefab prefabs\objects\tools\broom_nocenter.x 8 firewood
+player_prefab prefabs\objects\tools\fork_nocenter.x 8 firewood 8 metalparts
+player_prefab prefabs\objects\tools\hoe_nocenter.x 8 firewood 8 metalparts
+player_prefab prefabs\objects\tools\rake_nocenter.x 8 firewood
+player_prefab prefabs\objects\tools\scythe_nocenter.x 8 firewood 8 metalparts
+player_prefab prefabs\objects\tools\shovel_nocenter.x 8 firewood 8 metalparts
+
+
+// smieci inne
+prefab prefabs\buildings\garages_stuff\bottle_001_nocenter.x 8 glass
+prefab prefabs\buildings\garages_stuff\bottle_002_nocenter.x 8 glass
+prefab prefabs\buildings\barns_stuff\rope_001_nocenter.X 8 fabric
+prefab prefabs\buildings\barns_stuff\rope_002_nocenter.X 8 fabric
+prefab prefabs\buildings\barns_stuff\rope_003_nocenter.X 8 fabric
+player_prefab prefabs\Objects\tools\grains_bag_nocenter.X 80 seedling
+player_prefab prefabs\buildings\henhouse_stuff\feeder_rubber_nocenter.X 8 repair
+player_prefab prefabs\buildings\henhouse_stuff\sack_big_nocenter.x 16 fabric
+player_prefab prefabs\buildings\greenhouses_stuff\ceramic_pot_001_nocenter.x 16 repair
+player_prefab prefabs\buildings\greenhouses_stuff\ceramic_pot_002_nocenter.x 8 repair
+player_prefab prefabs\buildings\greenhouses_stuff\ceramic_pot_003_nocenter.x 8 repair
+player_prefab prefabs\buildings\greenhouses_stuff\ceramic_pot_004_nocenter.x 8 repair
+player_prefab prefabs\buildings\greenhouses_stuff\ceramic_pot_005_nocenter.x 8 repair
+player_prefab prefabs\buildings\greenhouses_stuff\ceramic_pot_006_nocenter.x 16 repair
+
+
+//meble spoza furniture
+player_prefab prefabs\buildings\garages_stuff\saw_table_nocenter.x 8 metalparts 8 firewood
+player_prefab prefabs\buildings\shelters_stuff\metal_cabinet_nocenter.x 16 metalparts 
+player_prefab prefabs\buildings\shelters_stuff\metal_locker_nocenter.x 16 metalparts
+player_prefab prefabs\buildings\shelters_stuff\metal_locker_door1_nocenter.x 8 metalparts
+player_prefab prefabs\buildings\shelters_stuff\metal_locker_door2_nocenter.x 8 metalparts
+player_prefab prefabs\buildings\shelters_stuff\muscle_rack_nocenter.x 8 metalparts 8 firewood
+player_prefab prefabs\buildings\shelters_stuff\working_board_001_nocenter.x 8 firewood
+player_prefab prefabs\buildings\shelters_stuff\wall_cabinet_001_nocenter.x 8 firewood
+player_prefab prefabs\buildings\shelters_stuff\wall_cabinet_002_nocenter.x 8 firewood
+player_prefab prefabs\buildings\shelters_stuff\wall_cabinet_002_door1_nocenter.x 8 firewood
+player_prefab prefabs\buildings\shelters_stuff\wall_cabinet_002_door2_nocenter.x 8 firewood
+player_prefab prefabs\buildings\shelters_stuff\wall_cabinet_003_nocenter.x 8 firewood
+player_prefab prefabs\buildings\shelters_stuff\wall_cabinet_003_door1_nocenter.x 8 firewood
+player_prefab prefabs\buildings\shelters_stuff\wall_cabinet_004_nocenter.x 8 firewood
+player_prefab prefabs\buildings\shelters_stuff\working_table_001_nocenter.x 16 firewood 8 metalparts
+player_prefab prefabs\buildings\shelters_stuff\working_table_001_drower_nocenter.x 8 firewood
+player_prefab prefabs\buildings\shelters_stuff\working_table_002_nocenter.x 16 firewood 8 metalparts
+player_prefab prefabs\buildings\shelters_stuff\working_table_002_drower_nocenter.x 8 firewood
+player_prefab prefabs\buildings\shelters_stuff\working_table_003_nocenter.x 8 firewood 8 metalparts
+player_prefab prefabs\buildings\shelters_stuff\workbench_002_drower_nocenter.x 8 firewood
+player_prefab prefabs\buildings\shelters_stuff\chair_001_nocenter.x 8 metalparts 8 leather
+player_prefab prefabs\buildings\shelters_stuff\chair_002_nocenter.x 8 firewood
+
+
+// pajeczyny
+prefab prefabs\objects\spider_web\spider_web_001_nocenter.x 0 *
+prefab prefabs\objects\spider_web\spider_web_002_nocenter.x 0 *
+prefab prefabs\objects\spider_web\spider_web_003_nocenter.x 0 *
+prefab prefabs\objects\spider_web\spider_web_004_nocenter.x 0 *
+prefab prefabs\objects\spider_web\spider_web_005_nocenter.x 0 *
+prefab prefabs\objects\spider_web\spider_web_006_nocenter.x 0 *
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,80 @@
+Vehicle >trailer_old_transporter
+prefab prefabs\vehicles\trailer_old_transporter\trailer_old_transporter_nocenter.x
+Mass 700.0
+Stiffness 10
+
+spawn_id 24
+
+tag >MT34
+
+
+
+przyczepa
+price 2100
+working_width 6
+bale
+old_tractors_can_attach
+
+
+hay_sockets x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 x15 x16 x17 x18 x19 x20 x21 x22 x23 x24 x25 x26 x27
+crate_sockets y1 y2 y3 y4
+
+
+renew_and_paint
+repairable trailers_old.dds trailers_old_repaired.dds
+color 0.32 0.30 0.29
+
+
+
+
+// COLLISION MESH
+
+
+collision_mesh prefabs\vehicles\trailer_old_transporter\PHYSICS_trailer_old_transporter_nocenter.x
+
+// pScaleY
+mnoznik_fizyki_y 0.1
+// pScaleZ
+mnoznik_fizyki_z 1.1
+// pScaleX
+mnoznik_fizyki_x 0.7
+
+// pTransY
+przesuniecie_fizyki_gora 0.9
+// pTransZ
+przesuniecie_fizyki_przod 0.25
+// pTransX
+przesuniecie_fizyki_prawo 0.0
+
+
+hak_tyl zaczep_tyl
+
+
+// THILL
+// definiuje obiekt zaczepu, socket w przyczepie na ktorym bedzie przyczepiony, jego socket ktory zlapie przyczepe i jego socket ktorym zlapie traktor
+zaczep prefabs\vehicles\trailer_old_transporter\attachment_nocenter.x zaczep przyczepa traktor
+// dyszel socket_w_zaczepie socket_w_traktorze
+thill prefabs\vehicles\trailer_old_transporter\thill_nocenter.x thill zaczep
+
+
+// WHEELS
+front_wheel prefabs\vehicles\trailer_old_transporter\wheel_right_2_nocenter.x wheel_front_right
+front_wheel prefabs\vehicles\trailer_old_transporter\wheel_left_2_nocenter.x wheel_front_left
+
+wheel prefabs\vehicles\trailer_old_transporter\wheel_right_2_nocenter.x wheel_rear_right
+wheel prefabs\vehicles\trailer_old_transporter\wheel_left_2_nocenter.x wheel_rear_left
+
+wheel_invisible prefabs\vehicles\trailer_old_transporter\wheel_left_2_nocenter.x wheel_fake
+
+
+
+
+// LIGHTS
+
+swiatlo_cofania lc1
+
+swiatlo_tyl lt1
+swiatlo_tyl lt2
+
+
+

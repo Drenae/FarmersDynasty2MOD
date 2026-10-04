@@ -1,0 +1,332 @@
+Vehicle >F69
+prefab prefabs\vehicles\tractor_F69\tractor_F69_nocenter.X
+Mass 6900.0
+Stiffness 10
+player_can_drive
+
+spawn_id 2
+
+tag >MT01
+
+renew_and_paint
+color 0.84 0.56 0.15
+
+traktor
+price 90000
+max_vel 31
+CVT
+bhp 105
+tank 80
+old_tractor
+no_door_sound
+no_back_beep
+
+// w litrach
+//fuel_level 80
+// indeksowane od 0
+// wheel_removed 1
+
+
+
+
+// DRIVER
+skala_kierowcy 0.0
+driver_anim_drive_left h_drive_old_tractor_left
+driver_anim_drive_right h_drive_old_tractor_right
+driver_anim_drive h_drive_old_tractor
+
+
+// COLLISION MESH
+
+// pScaleZ
+mnoznik_fizyki_z 0.9
+// pScaleY
+mnoznik_fizyki_y 0.40
+// pScaleX
+mnoznik_fizyki_x 0.95
+
+// pTransZ
+przesuniecie_fizyki_przod -0.1
+// pTransY
+przesuniecie_fizyki_gora 1.1
+// pTransX
+przesuniecie_fizyki_prawo 0.0
+
+
+
+
+// PANEL
+// wskazowka_obrotow pos_x pos_y skala kat_min kat_max
+// wskazowka_temp pos_x pos_y skala kat_min kat_max
+// wskazowka_paliwo pos_x pos_y skala kat_min kat_max
+
+// wskazowka_predkosc ma dodatkowy parametr - maks prędkość do jakiej jest wyskalowany licznik.
+// wskazowka_predkosc pos_x pos_y skala kat_min kat_max max_predkosc
+// Wskazówka prędkości jest zablokowana dla maksymalnej prędkości = maksymalnego dozwolonego kąta.
+
+
+
+
+panel tractor_F69_gauges.tga
+
+wskazowka_predkosc 138 141 0.9 50 310 25
+//wskazowka_obrotow 412 117 0.6
+
+wskazowka_temp 512 333 0.95 60 120
+wskazowka_paliwo 281 338 1.0 305 235
+
+//wskazowka_akumulator 400 107 0.7 220 140
+
+
+
+
+//wskazowka_temp
+//wskazowka_paliwo
+//napis_czas
+//wskazowka_obrotow
+//napis_obroty
+//napis_predkosc
+//napis_bieg0
+//napis_bieg1
+//napis_tempomat
+//napis_przebieg0
+//napis_roboczogodzin 107 85 1
+//ikona_swiatla  9 39
+//ikona_max_temp 11 234
+//ikona_3P 77 157
+//ikona_WOM 149 40
+//graf_pole 90 80
+//graf_wypelnienie 191 80
+
+
+
+
+
+
+// HOOKS
+hak zaczep_dolny
+hak_gorny zaczep
+
+
+// 3-POINT HITCH
+zaczep3p zaczep3p
+z3p1 prefabs\vehicles\tractor_F69\3p_rear_top_nocenter.x
+z3p2 prefabs\vehicles\tractor_F69\3p_rear_bottom_nocenter.x
+z3p3 prefabs\vehicles\tractor_F69\3p_rear_middle_nocenter.x
+Wysokosc_Podniesienia3P 0.4
+
+
+// BACK
+piston1 prefabs\vehicles\linkage_parts\upperlink1_nocenter.X
+piston2 prefabs\vehicles\linkage_parts\upperlink2_nocenter.X
+
+// alternatywnie
+// piston1 prefabs\vehicles\linkage_parts\upperlink1_new_nocenter.X
+// piston2 prefabs\vehicles\linkage_parts\upperlink2_new_nocenter.X
+
+
+// PTO
+
+// front_shaft1 prefabs\vehicles\linkage_parts\pto_shaft1_nocenter.X
+// front_shaft2 prefabs\vehicles\linkage_parts\pto_shaft2_nocenter.X
+
+// alternatywnie
+// front_shaft1 prefabs\vehicles\linkage_parts\pto_shaft1_new_nocenter.X
+// front_shaft2 prefabs\vehicles\linkage_parts\pto_shaft2__new_nocenter.X
+
+
+
+
+
+
+
+// FRONT AXLE (1)
+attachment_axle prefabs\vehicles\tractor_F69\axle_nocenter.x axle
+
+
+// STEERING WHEEL
+steering_wheel prefabs\vehicles\tractor_F69\steering_wheel_nocenter.x steering_wheel
+korekcja_kierownicy 20
+mnoznik_obrotu_kierownicy 2.0
+
+
+
+// DOOR
+attachment_door prefabs\vehicles\tractor_F69\door_left_nocenter.x door_left door_left2 -85
+attachment prefabs\vehicles\tractor_F69\door_right_nocenter.x door_right
+
+
+
+// WHEELS & MUDGUARDS
+front_wheel prefabs\vehicles\tractor_F69\wheel_front_left_nocenter.x wheel_front_left 1.062
+front_wheel prefabs\vehicles\tractor_F69\wheel_front_right_nocenter.x wheel_front_right 1.062
+wheel prefabs\vehicles\tractor_F69\wheel_rear_left_nocenter.x wheel_rear_left
+wheel prefabs\vehicles\tractor_F69\wheel_rear_right_nocenter.x wheel_rear_right
+
+
+
+
+// RESTORATION
+
+attachment prefabs\vehicles\tractor_F69\mudguard_rear_right_nocenter.X restoration
+attachment prefabs\vehicles\tractor_F69\mudguard_rear_left_nocenter.X restoration
+attachment prefabs\vehicles\tractor_F69\axle_rear_nocenter.X restoration
+attachment prefabs\vehicles\tractor_F69\seat_nocenter.X restoration
+attachment prefabs\vehicles\tractor_F69\cabine_nocenter.X restoration
+attachment prefabs\vehicles\tractor_F69\exhaust_nocenter.X restoration
+attachment prefabs\vehicles\tractor_F69\engine_nocenter.X restoration
+attachment prefabs\vehicles\tractor_F69\body_nocenter.X restoration
+
+
+
+
+
+// PEDALS
+
+// komenda obracajaca attachment podczas pracy. Podawana bezposrednio PRZED attachmentem ktorego dotyczy
+// rotate <os_obrotu> <warunek> <mnoznik> [<dodatkowy_skret_os> <dodatkowy_skret_rotacja>]
+// <os_obrotu> to: right - wokol osi X
+//                 forward - wokol osi Z
+//                 up - wokol osi Y
+// <warunek> to: enable - wlaczony silnik, predkosc to mnoznik (stopnie/sek)
+//               rpm    - predkosc zalezy od obrotow silnika * mnoznik (w stpniach)
+//               speed  - predkosc to predkosc pojazdu (kph) * mnoznik (w stpniach)
+//               turn   - ustala sie kat: wspolczynnik obrotu kierownicy * mnoznik (w stpniach)
+//               gas    - ustala sie kat: wcianiety gaz (maks wcisniety to 1) * mnoznik (w stpniach)
+//               brake  - ustala sie kat: wcianiety hamulec (maks wcisniety to 1) * mnoznik (w stpniach)
+//               direction - ustala sie kat: (jazda przod to 1, jazda tyl to 0) * mnoznik (w stpniach)
+//               clutch - ustala sie kat: (wysprzeglony to 1, sprzeglo puszczone to 0) * mnoznik (w stpniach)
+// dodatkowy skret pozwala na stale skrzywic obrot wokol dodatkowej osi, np. wygiac wiatrak chlodnizy obracajacy sie wokol osi Z, o staly kat wokol osi X
+// <dodatkowy_skret_os> to: add_rot_right dodaje staly obrot wokol osi X
+//                          add_rot_forward dodaje staly obrot wokol osi Z
+//                          add_rot_up dodaje staly obrot wokol osi Y
+// <dodatkowy_skret_rotacja> to stala wartosc (w stopniach) dodatkowego obrotu
+//
+// dodatkowe (stale) skrety mozna stosowac wiecej niz jeden, na przyklad na koncu linijki moze byc add_rot_right 15 add_rot_up 45 (w dowolnej kolejnosci), a moze nie byc zadnego
+//
+// przykladowo:
+// rotate right rpm 90 add_rot_up 45 - obraca attachment wokol osi X o 90 stopni/sek razy RPM (gdzie 1000 to 1), z dodatkowym stalym skrzywieniem wokol osi Y wynoszacym 45 stopni
+// albo
+// rotate forward turn 1 add_rot_right 15 - obraca pretem sterujacym kierownicy dokladnie o kat kierownicy, i przekrzywia go w osi X o 15 stopni
+
+
+
+
+
+
+// LIGHTS
+
+attachment_light prefabs\vehicles\tractor_F69\lamp1_nocenter.X light1
+attachment_name swiatlo_lp1
+swiatlo_przod lp1 1
+swiatlo_z swiatlo_lp1
+
+attachment_light prefabs\vehicles\tractor_F69\lamp2_nocenter.X light2
+attachment_name swiatlo_lp2
+swiatlo_przod lp2 1
+swiatlo_z swiatlo_lp2
+
+attachment_light prefabs\vehicles\tractor_F69\lamp3_nocenter.X light3
+attachment_name swiatlo_lp3
+swiatlo_przod lp3
+swiatlo_z swiatlo_lp3
+
+attachment_light prefabs\vehicles\tractor_F69\lamp4_nocenter.X light4
+attachment_name swiatlo_lp4
+swiatlo_przod lp4
+swiatlo_z swiatlo_lp4
+
+attachment_light prefabs\vehicles\tractor_F69\lamp5_nocenter.X light5
+attachment_name swiatlo_lp5
+swiatlo_przod lp5 1
+swiatlo_z swiatlo_lp5
+
+attachment_light prefabs\vehicles\tractor_F69\lamp6_nocenter.X light6
+attachment_name swiatlo_lp6
+swiatlo_przod lp6
+swiatlo_z swiatlo_lp6
+
+attachment_light prefabs\vehicles\tractor_F69\lamp7_nocenter.X light7
+attachment_name swiatlo_lp7
+swiatlo_przod lp7
+swiatlo_z swiatlo_lp7
+
+attachment_light prefabs\vehicles\tractor_F69\lamp8_nocenter.X light8
+attachment_name swiatlo_lp8
+swiatlo_przod lp8
+swiatlo_z swiatlo_lp8
+
+
+attachment_light prefabs\vehicles\tractor_F69\lamp9_nocenter.X light9
+attachment_name swiatlo_lt1
+swiatlo_przod lt1
+swiatlo_z swiatlo_lt1
+
+attachment_light prefabs\vehicles\tractor_F69\lamp10_nocenter.X light10
+attachment_name swiatlo_lt2
+swiatlo_przod lt2
+swiatlo_z swiatlo_lt2
+
+
+swiatlo_cofania lc1
+
+
+// INTERIOR LIGHTS
+vehicle_light vehicle_light1 2.5 0.3 229 224 225
+
+
+
+
+
+
+// SOUNDS
+
+Sound_Gear_Up sfx\vehicles\gear_up.wav
+Sound_Gear_Down sfx\vehicles\gear_down.wav
+Sound_Speed_Up sfx\vehicles\speed_up.wav
+Sound_Speed_Down sfx\vehicles\speed_down.wav
+Sound_Direction_Forward sfx\vehicles\direction_forward.wav
+Sound_Direction_Back sfx\vehicles\direction_back.wav
+
+engine_start_sound sfx\vehicles\tractor_engine_start1.wav
+engine_stop_sound sfx\vehicles\engine_stop1.wav
+
+engine_frequency_add_during_wheel_spin 4000 
+
+engine_sound sfx\vehicles\tractor_engine_work1.wav
+engine_frequency_base 41800
+engine_frequency_change 150
+
+
+engine_sound2 sfx\vehicles\tractor_engine_idle1.wav
+engine_frequency_base2 45100
+engine_frequency_change2 100
+
+
+Wheel_Spin_Splash_Sound_Water sfx\vehicles\water_spin1.wav 3.3
+Wheel_Spin_Splash_Sound_Water sfx\vehicles\water_spin2.wav 2.8
+Wheel_Spin_Splash_Sound_Water sfx\vehicles\water_spin3.wav 4.2
+Wheel_Spin_Splash_Sound_Water sfx\vehicles\water_spin4.wav 3.8
+Wheel_Spin_Splash_Sound_Water sfx\vehicles\water_spin5.wav 3.3
+Wheel_Spin_Splash_Sound_Water sfx\vehicles\water_spin6.wav 2.2
+Wheel_Spin_Splash_Sound_Water sfx\vehicles\water_spin7.wav 3.8
+Wheel_Spin_Splash_Sound_Water sfx\vehicles\water_spin8.wav 4.2
+
+Wheel_Spin_Splash_Sound_Mud sfx\vehicles\mud_spin1.wav 1.9
+Wheel_Spin_Splash_Sound_Mud sfx\vehicles\mud_spin2.wav 2.5
+Wheel_Spin_Splash_Sound_Mud sfx\vehicles\mud_spin3.wav 1.8
+Wheel_Spin_Splash_Sound_Mud sfx\vehicles\mud_spin4.wav 2.5
+Wheel_Spin_Splash_Sound_Mud sfx\vehicles\mud_spin5.wav 1.9
+Wheel_Spin_Splash_Sound_Mud sfx\vehicles\mud_spin6.wav 2.5
+Wheel_Spin_Splash_Sound_Mud sfx\vehicles\mud_spin7.wav 1.8
+Wheel_Spin_Splash_Sound_Mud sfx\vehicles\mud_spin8.wav 2.5
+
+Wheel_Splash_Sound_Enter_Water sfx\vehicles\water_splash1.wav 4.1
+Wheel_Splash_Sound_Enter_Water sfx\vehicles\water_splash2.wav 4.5
+Wheel_Splash_Sound_Enter_Water sfx\vehicles\water_splash3.wav 3.6
+
+
+
+
+
+

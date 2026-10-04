@@ -1,0 +1,517 @@
+// date4
+//w kawiarni za mostem
+hero_dialog date4
+
+//0 stolik
+add_mesh prefabs\buildings\shop_coffee_bar\bar_table2_nocenter.x date6_table1
+
+//1 krzeslo 1
+add_mesh prefabs\buildings\shop_coffee_bar\bar_chair_nocenter.x date6_chair1
+
+//2 krzeslo 2
+add_mesh prefabs\buildings\shop_coffee_bar\bar_chair_nocenter.x date6_chair2
+
+
+//intro
+actor_silent 1.5
+black
+//pora 17
+movie_camera
+camera_pos date6_cam00
+camera_look_at date6_cam00_look_at
+print dialog_intro
+music music\date2.ogg
+
+
+//spotykajo sie w kawiarni
+//My old friend is the chef here, he will prepare us something special, regional.
+hero DLD04L01
+movie_camera
+fade_in
+rotate_180
+fov 1.1
+
+camera_pos date6_cam00
+camera_move_to date6_cam00_target 0.17
+camera_look_at date6_cam00_look_at
+
+hero_pos date6_h_pos01
+hero_anim h_date6_sit1
+hero_look_at date6_h_pos00_look_at
+
+actor_pos date6_w_pos01
+actor_anim w_date6_sit2
+actor_look_at date6_w_pos01_look_at
+
+
+//gadajo razem
+//I'm open to new experiences, I hope it will be delicious.
+actor DLD04L02
+movie_camera
+fade_in
+rotate_180
+fov 0.8
+
+camera_pos date6_cam01
+camera_move_to date6_cam01_target 0.05
+camera_look_at date6_cam01_look_at
+
+hero_pos date6_h_pos01
+hero_anim h_date6_sit2
+hero_look_at date6_h_pos00_look_at
+
+actor_pos date6_w_pos01
+actor_anim w_date6_sit1
+actor_look_at date6_w_pos01_look_at
+
+
+//pozniej
+
+
+
+//widok na oboje
+hero DLD04L03
+movie_camera
+fade_in
+rotate_180
+fov 0.95
+
+camera_pos date6_cam02
+camera_look_at date6_cam02_look_at
+//dof_distance 2
+
+hero_pos date6_h_pos01
+hero_anim h_date6_speak_listen
+hero_look_at date6_h_pos00_look_at
+
+actor_pos date6_w_pos01
+actor_anim w_date6_speak_listen
+actor_look_at date6_w_pos01_look_at
+
+actor DLD04L04
+movie_camera
+//fade_in
+rotate_180
+fov 0.95
+
+camera_pos date6_cam02
+camera_look_at date6_cam02_look_at
+//dof_distance 2
+
+hero_pos date6_h_pos01
+hero_anim h_date6_speak_listen
+hero_look_at date6_h_pos00_look_at
+
+actor_pos date6_w_pos01
+actor_anim w_date6_speak_listen
+actor_look_at date6_w_pos01_look_at
+
+
+
+
+
+
+
+
+//widok zza laski
+hero DLD04L05
+movie_camera
+fade_in
+rotate_180
+fov 0.9
+
+camera_pos date6_cam03
+camera_look_at date6_cam03_look_at
+//dof_distance 2
+
+hero_pos date6_h_pos01
+hero_anim h_date6_speak_listen
+hero_look_at date6_h_pos00_look_at
+
+actor_pos date6_w_pos01
+actor_anim w_date6_speak_listen
+actor_look_at date6_w_pos01_look_at
+
+
+//widok zza bohatera
+actor DLD04L06
+movie_camera
+fade_in
+rotate_180
+fov 0.9
+
+camera_pos date6_cam04
+camera_look_at date6_cam04_look_at
+//dof_distance 2
+
+hero_pos date6_h_pos01
+hero_anim h_date6_speak_listen
+hero_look_at date6_h_pos00_look_at
+
+actor_pos date6_w_pos01
+actor_anim w_date6_speak_listen
+actor_look_at date6_w_pos01_look_at
+
+
+
+//widok zza laski
+hero DLD04L07
+movie_camera
+fade_in
+rotate_180
+fov 0.9
+
+camera_pos date6_cam03
+camera_look_at date6_cam03_look_at
+//dof_distance 2
+
+hero_pos date6_h_pos01
+hero_anim h_date6_speak_listen
+hero_look_at date6_h_pos00_look_at
+
+actor_pos date6_w_pos01
+actor_anim w_date6_speak_listen
+actor_look_at date6_w_pos01_look_at
+
+
+//widok zza bohatera
+actor DLD04L08
+movie_camera
+fade_in
+rotate_180
+fov 0.9
+
+camera_pos date6_cam04
+camera_look_at date6_cam04_look_at
+//dof_distance 2
+
+hero_pos date6_h_pos01
+hero_anim h_date6_speak_listen
+hero_look_at date6_h_pos00_look_at
+
+actor_pos date6_w_pos01
+actor_anim w_date6_speak_listen
+actor_look_at date6_w_pos01_look_at
+
+
+
+
+
+//widok na oboje
+label choice1
+choice
+movie_camera
+fade_in
+rotate_180
+fov 0.95
+
+camera_pos date6_cam02
+camera_look_at date6_cam02_look_at
+//dof_distance 2
+
+hero_pos date6_h_pos01
+hero_anim h_date6_speak_listen
+hero_look_at date6_h_pos00_look_at
+
+actor_pos date6_w_pos01
+actor_anim w_date6_speak_listen
+actor_look_at date6_w_pos01_look_at
+
+answer DLD04L09
+on_answer_goto_label dalej1a
+
+answer DLD04L10
+on_answer_goto_label dalej1b
+
+
+//widok zza bohatera
+label dalej1a
+actor DLD04L11
+movie_camera
+fade_in
+rotate_180
+fov 0.9
+
+camera_pos date6_cam04
+camera_look_at date6_cam04_look_at
+//dof_distance 2
+
+hero_pos date6_h_pos01
+hero_anim h_date6_speak_listen
+hero_look_at date6_h_pos00_look_at
+
+actor_pos date6_w_pos01
+actor_anim w_date6_speak_listen
+actor_look_at date6_w_pos01_look_at
+
+goto_label dalej1
+
+//widok zza bohatera
+label dalej1b
+actor DLD04L12
+movie_camera
+fade_in
+rotate_180
+fov 0.9
+
+like_player 0.1
+
+camera_pos date6_cam04
+camera_look_at date6_cam04_look_at
+//dof_distance 2
+
+hero_pos date6_h_pos01
+hero_anim h_date6_speak_listen
+hero_look_at date6_h_pos00_look_at
+
+actor_pos date6_w_pos01
+actor_anim w_date6_speak_listen
+actor_look_at date6_w_pos01_look_at
+
+goto_label dalej1
+
+label dalej1
+//widok zza bohatera
+actor DLD04L13
+movie_camera
+//fade_in
+rotate_180
+fov 0.9
+
+camera_pos date6_cam04
+camera_look_at date6_cam04_look_at
+//dof_distance 2
+
+hero_pos date6_h_pos01
+hero_anim h_date6_speak_listen
+hero_look_at date6_h_pos00_look_at
+
+actor_pos date6_w_pos01
+actor_anim w_date6_speak_listen
+actor_look_at date6_w_pos01_look_at
+
+
+
+
+
+
+//widok na oboje
+label choice2
+choice
+movie_camera
+fade_in
+rotate_180
+fov 0.95
+
+camera_pos date6_cam02
+camera_look_at date6_cam02_look_at
+//dof_distance 2
+
+hero_pos date6_h_pos01
+hero_anim h_date6_speak_listen
+hero_look_at date6_h_pos00_look_at
+
+actor_pos date6_w_pos01
+actor_anim w_date6_speak_listen
+actor_look_at date6_w_pos01_look_at
+
+answer DLD04L14
+on_answer_goto_label dalej2a
+
+answer DLD04L15
+on_answer_goto_label dalej2b
+
+
+
+//widok zza bohatera
+label dalej2a
+actor DLD04L16
+movie_camera
+fade_in
+rotate_180
+fov 0.9
+
+camera_pos date6_cam04
+camera_look_at date6_cam04_look_at
+//dof_distance 2
+
+hero_pos date6_h_pos01
+hero_anim h_date6_speak_listen
+hero_look_at date6_h_pos00_look_at
+
+actor_pos date6_w_pos01
+actor_anim w_date6_speak_listen
+actor_look_at date6_w_pos01_look_at
+
+goto_label dalej2
+
+//widok zza bohatera
+label dalej2b
+actor DLD04L17
+movie_camera
+fade_in
+rotate_180
+fov 0.9
+
+like_player 0.1
+
+camera_pos date6_cam04
+camera_look_at date6_cam04_look_at
+//dof_distance 2
+
+hero_pos date6_h_pos01
+hero_anim h_date6_speak_listen
+hero_look_at date6_h_pos00_look_at
+
+actor_pos date6_w_pos01
+actor_anim w_date6_speak_listen
+actor_look_at date6_w_pos01_look_at
+
+goto_label dalej2
+
+label dalej2
+//widok zza bohatera
+actor DLD04L18
+movie_camera
+//fade_in
+rotate_180
+fov 0.9
+
+camera_pos date6_cam04
+camera_look_at date6_cam04_look_at
+//dof_distance 2
+
+hero_pos date6_h_pos01
+hero_anim h_date6_speak_listen
+hero_look_at date6_h_pos00_look_at
+
+actor_pos date6_w_pos01
+actor_anim w_date6_speak_listen
+actor_look_at date6_w_pos01_look_at
+
+
+
+//koniec randki
+//It was an excellent dish, thank you for a great evening.
+label koniec1
+hero DLD04L19
+movie_camera
+fade_in
+rotate_180
+fov 1.1
+
+camera_pos date6_cam05
+camera_move_to date6_cam05_target 0.13
+camera_look_at date6_cam05_look_at
+
+hero_pos date6_h_pos01
+hero_anim h_date6_sit1
+hero_look_at date6_h_pos00_look_at
+
+actor_pos date6_w_pos01
+actor_anim w_date6_sit1
+actor_look_at date6_w_pos01_look_at
+
+
+actor DLD04L20
+movie_camera
+//fade_in
+rotate_180
+fov 1.1
+
+//camera_pos date6_cam05
+camera_move_to date6_cam05_target 0.13
+camera_look_at date6_cam05_look_at
+
+hero_pos date6_h_pos01
+//hero_anim h_date6_sit1
+hero_look_at date6_h_pos00_look_at
+
+actor_pos date6_w_pos01
+//actor_anim w_date6_sit1
+actor_look_at date6_w_pos01_look_at
+
+
+
+//koniec
+actor_silent 0.5
+black
+movie_camera
+
+end_dialog
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

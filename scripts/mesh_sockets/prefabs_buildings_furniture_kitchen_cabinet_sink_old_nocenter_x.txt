@@ -1,0 +1,4 @@
+mesh_filename prefabs\buildings\furniture\kitchen_cabinet_sink_old_nocenter.x
+socket wife 0.000000 -0.500000 0.000000
+socket fx -0.005000 0.047000 1.060000
+socket sit 0.000000 -0.500000 1.700000

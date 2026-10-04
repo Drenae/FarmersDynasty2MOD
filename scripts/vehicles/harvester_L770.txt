@@ -1,0 +1,305 @@
+Vehicle >harvester_L770
+prefab prefabs\vehicles\harvester_l770\harvester_l770_nocenter.x
+Mass 6100.0
+Stiffness 10
+player_can_drive
+
+spawn_id 10
+
+tag >MT06
+
+renew_and_paint
+color 0.335 0.453 0.320
+
+kombajn
+Kombajn_id 2
+price 100000
+CVT
+BHP 170
+tank 920
+reverse_wheels
+grain_capacity 12000
+max_vel 32
+do_not_sell
+
+
+// DRIVER
+skala_kierowcy 0.0
+driver_anim_drive_left h_drive_harvester_old_left
+driver_anim_drive_right h_drive_harvester_old_right
+driver_anim_drive h_drive_harvester_old
+
+
+
+// COLLISION MESH
+
+// pScaleY
+mnoznik_fizyki_y 1.7
+// pScaleZ
+mnoznik_fizyki_z 0.86
+// pScaleX
+mnoznik_fizyki_x 0.8
+
+// pTransY
+przesuniecie_fizyki_gora 2.4
+// pTransZ
+przesuniecie_fizyki_przod -0.1
+// pTransX
+przesuniecie_fizyki_prawo -0.1 
+
+
+
+// HOOKS
+hak zaczep_dolny
+hak_gorny zaczep
+
+
+
+// PIPE (1)
+rotate_cmd1 1.6 0.15
+attachment prefabs\vehicles\harvester_l770\unloading_pipe_nocenter.x pipe
+
+
+// REAR AXLE (2)
+attachment_axle prefabs\vehicles\harvester_l770\rear_axis_nocenter.x rear_axis
+
+
+// HEADER LIFT (3)
+rotate_cmd0 0.35
+attachment prefabs\vehicles\harvester_l770\harvester_l770_lift_nocenter.x header_lift
+
+
+
+
+
+// STEERING WHEEL
+steering_wheel prefabs\vehicles\harvester_l770\steering_wheel_nocenter.x steering_wheel
+korekcja_kierownicy 20
+mnoznik_obrotu_kierownicy 3.1
+
+
+// DOOR
+attachment_door prefabs\vehicles\harvester_l770\door_nocenter.x door door2 -53
+
+
+// WHEELS & MUDGUARDS
+front_wheel prefabs\vehicles\harvester_l770\wheel_rear_left_nocenter.x wheel_rear_left
+front_wheel prefabs\vehicles\harvester_l770\wheel_rear_right_nocenter.x wheel_rear_right
+wheel prefabs\vehicles\harvester_l770\wheel_front_left_nocenter.x wheel_front_left
+wheel prefabs\vehicles\harvester_l770\wheel_front_right_nocenter.x wheel_front_right
+
+attachment_mudguard prefabs\vehicles\harvester_l770\pipe_rear_left_nocenter.x wheel_rear_left
+attachment_mudguard prefabs\vehicles\harvester_l770\pipe_rear_right_nocenter.x wheel_rear_right
+
+
+
+
+// REAR ANIM FX
+// attachment_anim_fx <prefab> <socket> [<attachment do przyczepienia lub 0>] [<mnoznik predkosci przesuwu gibania - 1 domyslnie>] [<mnoznik gibania animacji - 1 domyslnie>] [<mnoznik predkosci przesuwu tekstury - 1 domyslnie>]
+attachment_anim_fx prefabs\vehicles\harvester_l770\anim_dump_nocenter.x wysyp 0 1 0.5 4
+
+// PIPE ANIM FX
+// attachment_anim_grain_fx jest ekskluzywnie do wysypywania zboza z rur kombajnow
+attachment_anim_grain_fx prefabs\vehicles\harvester_l770\anim_dump_pipe_nocenter.x anim_dump 1 0.5 0.5
+
+
+// DUMP TANK
+// attachment_anim_fx <prefab> <socket> [<attachment do przyczepienia lub 0>] [<mnoznik predkosci przesuwu gibania - 1 domyslnie>] [<mnoznik gibania animacji - 1 domyslnie>] [<mnoznik predkosci przesuwu tekstury - 1 domyslnie>]
+// attachment_anim_fx prefabs\vehicles\harvester_l770\anim_dump_tank_nocenter.x tank 0 0.5 0.5
+
+
+
+
+
+// PISTONS
+piston prefabs\vehicles\harvester_l770\p2_nocenter.x 0 p2_left 3 p1_left
+piston prefabs\vehicles\harvester_l770\p1_nocenter.x 3 p1_left 0 p2_left
+piston prefabs\vehicles\harvester_l770\p2_nocenter.x 0 p2_right 3 p1_right
+piston prefabs\vehicles\harvester_l770\p1_nocenter.x 3 p1_right 0 p2_right
+
+
+
+// LIGHTS
+
+
+attachment_light prefabs\vehicles\harvester_l770\lamp2_nocenter.x light2
+attachment_name swiatlo_lp2
+swiatlo_przod lp2
+swiatlo_z swiatlo_lp2
+
+attachment_light prefabs\vehicles\harvester_l770\lamp3_nocenter.x light3
+attachment_name swiatlo_lp3
+swiatlo_przod lp3 1
+swiatlo_z swiatlo_lp3
+
+
+attachment_light prefabs\vehicles\harvester_l770\lamp4_nocenter.x light4
+attachment_name swiatlo_lp4
+swiatlo_przod lp4 1
+swiatlo_z swiatlo_lp4
+
+attachment_light prefabs\vehicles\harvester_l770\lamp5_nocenter.x light5
+attachment_name swiatlo_lp5
+swiatlo_przod lp5
+swiatlo_z swiatlo_lp5
+
+attachment_light prefabs\vehicles\harvester_l770\lamp6_nocenter.x light6
+attachment_name swiatlo_lp6
+swiatlo_przod lp6
+swiatlo_z swiatlo_lp6
+
+attachment_light prefabs\vehicles\harvester_l770\lamp7_nocenter.x light7
+attachment_name swiatlo_lp7
+swiatlo_przod lp7 1
+swiatlo_z swiatlo_lp7
+
+attachment_light prefabs\vehicles\harvester_l770\lamp8_nocenter.x light8
+attachment_name swiatlo_lp8
+swiatlo_przod lp8
+swiatlo_z swiatlo_lp8
+
+attachment_light prefabs\vehicles\harvester_l770\lamp9_nocenter.x light9
+attachment_name swiatlo_lp9
+swiatlo_przod lp9
+swiatlo_z swiatlo_lp9
+
+
+
+attachment_light prefabs\vehicles\harvester_l770\lamp11_nocenter.x light11
+attachment_name swiatlo_lp11
+swiatlo_przod lp11
+swiatlo_z swiatlo_lp11
+
+attachment_light prefabs\vehicles\harvester_l770\lamp12_nocenter.x light12
+attachment_name swiatlo_lp12
+swiatlo_przod lp12
+swiatlo_z swiatlo_lp12
+
+attachment_light prefabs\vehicles\harvester_l770\lamp13_nocenter.x light13
+attachment_name swiatlo_lp13
+swiatlo_przod lp13
+swiatlo_z swiatlo_lp13
+
+attachment_light prefabs\vehicles\harvester_l770\lamp14_nocenter.x light14
+attachment_name swiatlo_lp14
+swiatlo_przod lp14
+swiatlo_z swiatlo_lp14
+
+attachment_light prefabs\vehicles\harvester_l770\lamp15_nocenter.x light15
+attachment_name swiatlo_lp15
+swiatlo_przod lp15
+swiatlo_z swiatlo_lp15
+
+attachment_light prefabs\vehicles\harvester_l770\lamp16_nocenter.x light16
+attachment_name swiatlo_lp16
+swiatlo_przod lp16
+swiatlo_z swiatlo_lp16
+
+attachment_light prefabs\vehicles\harvester_l770\lamp17_nocenter.x light17
+attachment_name swiatlo_lp17
+swiatlo_przod lp17
+swiatlo_z swiatlo_lp17
+
+attachment_light prefabs\vehicles\harvester_l770\lamp18_nocenter.x light18
+attachment_name swiatlo_lp18
+swiatlo_przod lp18
+swiatlo_z swiatlo_lp18
+
+attachment_light prefabs\vehicles\harvester_l770\lamp19_nocenter.x light19
+attachment_name swiatlo_lt1
+swiatlo_przod lp19
+swiatlo_z swiatlo_lt1
+
+attachment_light prefabs\vehicles\harvester_l770\lamp20_nocenter.x light20
+attachment_name swiatlo_lt2
+swiatlo_przod lp20
+swiatlo_z swiatlo_lt2
+
+attachment_light prefabs\vehicles\harvester_l770\lamp21_nocenter.x light21
+attachment_name swiatlo_lt21
+swiatlo_tyl lt1
+swiatlo_z swiatlo_lt21
+
+attachment_light prefabs\vehicles\harvester_l770\lamp22_nocenter.x light22
+attachment_name swiatlo_lt22
+swiatlo_tyl lt2
+swiatlo_z swiatlo_lt22
+
+attachment_light prefabs\vehicles\harvester_l770\lamp23_nocenter.x light23
+attachment_name swiatlo_lt23
+swiatlo_cofania lc1
+swiatlo_z swiatlo_lt23
+
+
+
+
+attachment_alarm_lamp prefabs\vehicles\harvester_l770\signal_lamp_mirror_nocenter.X signal_lamp1
+attachment_alarm_lamp prefabs\vehicles\harvester_l770\signal_lamp_mirror_nocenter.X signal_lamp2
+
+
+
+
+
+
+
+
+
+// INTERIOR LIGHTS
+vehicle_light vehicle_light1 0.4 1.2 209 224 225
+vehicle_light vehicle_light2 0.4 1.2 221 159 114
+
+
+
+
+
+// SOUNDS
+
+
+Sound_Gear_Up sfx\vehicles\gear_up.wav
+Sound_Gear_Down sfx\vehicles\gear_down.wav
+Sound_Speed_Up sfx\vehicles\speed_up.wav
+Sound_Speed_Down sfx\vehicles\speed_down.wav
+Sound_Direction_Forward sfx\vehicles\direction_forward.wav
+Sound_Direction_Back sfx\vehicles\direction_back.wav
+
+engine_start_sound sfx\vehicles\harvesterL6_start.wav
+engine_stop_sound sfx\vehicles\harvesterL6_stop.wav
+
+engine_frequency_add_during_wheel_spin 4000 
+
+engine_sound sfx\vehicles\harvesterL6_work.wav
+engine_frequency_base 44100
+engine_frequency_change 10
+
+
+engine_sound2 sfx\vehicles\harvesterL6_idle.wav
+engine_frequency_base2 45100
+engine_frequency_change2 100
+
+Wheel_Spin_Splash_Sound_Water sfx\vehicles\water_spin1.wav 3.3
+Wheel_Spin_Splash_Sound_Water sfx\vehicles\water_spin2.wav 2.8
+Wheel_Spin_Splash_Sound_Water sfx\vehicles\water_spin3.wav 4.2
+Wheel_Spin_Splash_Sound_Water sfx\vehicles\water_spin4.wav 3.8
+Wheel_Spin_Splash_Sound_Water sfx\vehicles\water_spin5.wav 3.3
+Wheel_Spin_Splash_Sound_Water sfx\vehicles\water_spin6.wav 2.2
+Wheel_Spin_Splash_Sound_Water sfx\vehicles\water_spin7.wav 3.8
+Wheel_Spin_Splash_Sound_Water sfx\vehicles\water_spin8.wav 4.2
+
+Wheel_Spin_Splash_Sound_Mud sfx\vehicles\mud_spin1.wav 1.9
+Wheel_Spin_Splash_Sound_Mud sfx\vehicles\mud_spin2.wav 2.5
+Wheel_Spin_Splash_Sound_Mud sfx\vehicles\mud_spin3.wav 1.8
+Wheel_Spin_Splash_Sound_Mud sfx\vehicles\mud_spin4.wav 2.5
+Wheel_Spin_Splash_Sound_Mud sfx\vehicles\mud_spin5.wav 1.9
+Wheel_Spin_Splash_Sound_Mud sfx\vehicles\mud_spin6.wav 2.5
+Wheel_Spin_Splash_Sound_Mud sfx\vehicles\mud_spin7.wav 1.8
+Wheel_Spin_Splash_Sound_Mud sfx\vehicles\mud_spin8.wav 2.5
+
+Wheel_Splash_Sound_Enter_Water sfx\vehicles\water_splash1.wav 4.1
+Wheel_Splash_Sound_Enter_Water sfx\vehicles\water_splash2.wav 4.5
+Wheel_Splash_Sound_Enter_Water sfx\vehicles\water_splash3.wav 3.6
+
+// sound_cmd1_on sfx\vehicles\combine_pipe1.wav
+// sound_cmd1_off sfx\vehicles\combine_pipe1.wav
+// sound_cmd2_on sfx\vehicles\combine_unloading.wav
+
+

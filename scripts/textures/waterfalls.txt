@@ -1,0 +1,10 @@
+texture waterfalls.dds
+translucent
+2sided
+do_not_cast_shadow
+animation_speed 1.000000
+appear_distance 0.000000
+normal_density 1.000000
+detail_density 16.000000
+detail_as_normal
+metalness 0.100000

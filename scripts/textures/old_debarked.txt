@@ -1,0 +1,11 @@
+texture old_debarked.dds
+animation_speed 1.000000
+appear_distance 0.000000
+normal debarked_normal.dds
+normal_density 1.000000
+detail debarked_normal.dds
+detail_density 6.000000
+detail_as_normal
+glossiness 0.200000
+reflection_for_nonmetals 0.140000
+move_along_v 0.000000

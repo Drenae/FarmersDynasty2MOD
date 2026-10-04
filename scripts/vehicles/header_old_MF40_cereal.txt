@@ -1,0 +1,95 @@
+Vehicle >header_old_MF41_cereal
+prefab prefabs\vehicles\header_old_MF41_cereal\header_old_MF41_cereal_nocenter.x
+Mass 300.0
+Stiffness 10
+
+spawn_id 15
+
+tag >MT26
+
+
+
+price 2500
+
+Kombajn_id 1
+
+heder
+standard_heder
+add_when_loose 0.0
+
+// kolejnosc attachmentow jest wazna! - helix, knives, reel
+
+attachment prefabs\vehicles\header_old_MF41_cereal\header_helix_nocenter.x helix
+attachment prefabs\vehicles\header_old_MF41_cereal\header_knives_nocenter.x knives
+attachment prefabs\vehicles\header_old_MF41_cereal\header_reel_nocenter.x reel
+
+
+renew_and_paint
+repairable header_old_MF41.dds header_old_MF41_repaired.dds
+color 0.8 0.39 0.32
+
+
+
+// COLLISION MESH
+
+// pScaleY
+mnoznik_fizyki_y 0.45
+// pScaleZ
+mnoznik_fizyki_z 0.76
+// pScaleX
+mnoznik_fizyki_x 0.9
+
+// pTransY
+przesuniecie_fizyki_gora 0.55
+// pTransZ
+przesuniecie_fizyki_przod -0.1
+// pTransX
+przesuniecie_fizyki_prawo 0.0
+
+
+
+
+
+	// trzy kola laczace belt1
+// rotate right rpm 20
+// attachment prefabs\vehicles\header_old_MF41_cereal\reel_1_nocenter.X reel1
+
+// rotate right rpm 20
+// attachment prefabs\vehicles\header_old_MF41_cereal\reel_2_nocenter.X reel2
+
+// rotate right rpm 20
+// attachment prefabs\vehicles\header_old_MF41_cereal\reel_1_nocenter.X reel3
+
+// attachment prefabs\vehicles\header_old_MF41_cereal\belt_1_nocenter.X reel1
+
+
+
+	// trzy kola laczace belt2
+// rotate right rpm 20
+// attachment prefabs\vehicles\header_old_MF41_cereal\reel_3_nocenter.X reel4
+
+// rotate right rpm 20
+// attachment prefabs\vehicles\header_old_MF41_cereal\reel_4_nocenter.X reel5
+
+// rotate right rpm 20
+// attachment prefabs\vehicles\header_old_MF41_cereal\reel_2_nocenter.X reel6
+
+// attachment prefabs\vehicles\header_old_MF41_cereal\belt_2_nocenter.X reel4
+
+
+
+	// trzy kola laczace belt3
+// rotate right rpm 20
+// attachment prefabs\vehicles\header_old_MF41_cereal\reel_5_nocenter.X reel7
+
+// rotate right rpm 20
+// attachment prefabs\vehicles\header_old_MF41_cereal\reel_5_nocenter.X reel8
+
+// attachment prefabs\vehicles\header_old_MF41_cereal\belt_3_nocenter.X reel7
+
+
+
+
+
+// SOUNDS
+working_sound sfx\vehicles\header.wav

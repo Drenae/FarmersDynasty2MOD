@@ -1,0 +1,3158 @@
+//
+// file describes params that will be automatically assigned by editor while the mesh is created
+// caution! if set, these will overwrite editor settings!
+//
+// list of params:
+// physics <1-box, 2-cyllinder, 3 - sphere> <mass>
+//         <4-mesh shape> <mass> <prefabs\path\physics_simple_mesh.x>
+//         <0-mesh physics (from the same mesh - mesh collide)>
+
+
+
+// BUILDINGS
+// ale nie ma przymusu ktore czesci sa w ktorym skrypcie, rozdzial jest dla czytelnosci
+
+
+
+
+// Gas station
+wildcart prefabs\buildings\gas_station\gas_station_roof_new_nocenter.x
+physics 4 0 prefabs\buildings\gas_station\physics_gas_station_roof_new_nocenter.x
+
+wildcart prefabs\buildings\gas_station\gas_station_roof_nocenter.x
+physics 4 0 prefabs\buildings\gas_station\physics_gas_station_roof_nocenter.x
+
+
+// TOWN
+
+wildcart prefabs\buildings\town_houses\town_hall_nocenter.x
+physics 4 0 prefabs\buildings\town_houses\physics_town_hall_nocenter.x
+
+wildcart prefabs\buildings\town_houses\town_hall_NEW_nocenter.x
+physics 4 0 prefabs\buildings\town_houses\physics_town_hall_nocenter.x
+
+
+wildcart prefabs\buildings\town_houses\town_building_001_nocenter.x
+physics 4 0 prefabs\buildings\town_houses\physics_town_building_001_nocenter.x
+wildcart prefabs\buildings\town_houses\town_building_007_nocenter.x
+physics 4 0 prefabs\buildings\town_houses\physics_town_building_007_nocenter.x
+
+wildcart prefabs\buildings\town_houses\town_building_001_NEW_nocenter.x
+physics 4 0 prefabs\buildings\town_houses\physics_town_building_001_nocenter.x
+wildcart prefabs\buildings\town_houses\town_building_007_NEW_nocenter.x
+physics 4 0 prefabs\buildings\town_houses\physics_town_building_007_nocenter.x
+
+wildcart prefabs\buildings\town_houses\town_building_002_nocenter.x
+physics 4 0 prefabs\buildings\town_houses\physics_town_building_002_nocenter.x
+wildcart prefabs\buildings\town_houses\town_building_008_nocenter.x
+physics 4 0 prefabs\buildings\town_houses\physics_town_building_008_nocenter.x
+
+wildcart prefabs\buildings\town_houses\town_building_002_NEW_nocenter.x
+physics 4 0 prefabs\buildings\town_houses\physics_town_building_002_nocenter.x
+wildcart prefabs\buildings\town_houses\town_building_008_NEW_nocenter.x
+physics 4 0 prefabs\buildings\town_houses\physics_town_building_008_nocenter.x
+
+wildcart prefabs\buildings\town_houses\town_building_005_nocenter.x
+physics 4 0 prefabs\buildings\town_houses\physics_town_building_005_nocenter.x
+wildcart prefabs\buildings\town_houses\town_building_009_nocenter.x
+physics 4 0 prefabs\buildings\town_houses\physics_town_building_009_nocenter.x
+
+wildcart prefabs\buildings\town_houses\town_building_005_NEW_nocenter.x
+physics 4 0 prefabs\buildings\town_houses\physics_town_building_005_nocenter.x
+wildcart prefabs\buildings\town_houses\town_building_009_NEW_nocenter.x
+physics 4 0 prefabs\buildings\town_houses\physics_town_building_009_nocenter.x
+
+wildcart prefabs\buildings\town_houses\town_building_006_nocenter.x
+physics 4 0 prefabs\buildings\town_houses\physics_town_building_006_nocenter.x
+wildcart prefabs\buildings\town_houses\town_building_010_nocenter.x
+physics 4 0 prefabs\buildings\town_houses\physics_town_building_010_nocenter.x
+
+wildcart prefabs\buildings\town_houses\town_building_006_NEW_nocenter.x
+physics 4 0 prefabs\buildings\town_houses\physics_town_building_006_nocenter.x
+wildcart prefabs\buildings\town_houses\town_building_010_NEW_nocenter.x
+physics 4 0 prefabs\buildings\town_houses\physics_town_building_010_nocenter.x
+
+wildcart prefabs\buildings\town_houses\town_building_003_nocenter.x
+physics 4 0 prefabs\buildings\town_houses\physics_town_building_003_nocenter.x
+wildcart prefabs\buildings\town_houses\town_building_004_nocenter.x
+physics 4 0 prefabs\buildings\town_houses\physics_town_building_004_nocenter.x
+
+wildcart prefabs\buildings\town_houses\town_building_003_NEW_nocenter.x
+physics 4 0 prefabs\buildings\town_houses\physics_town_building_003_nocenter.x
+wildcart prefabs\buildings\town_houses\town_building_004_NEW_nocenter.x
+physics 4 0 prefabs\buildings\town_houses\physics_town_building_004_nocenter.x
+
+
+
+
+// CASTLE
+
+wildcart prefabs\buildings\castle\ca_floor_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\castle\ca_wall_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\castle\ca_wall_window_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\castle\ca_wall_corner_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\castle\ca_wall_crown_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\castle\ca_wood_element_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\castle\ca_wall_ruin_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\castle\ca_wall_ruin_1_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\castle\ca_wall_ruin_1_3_nocenter.x
+physics 1
+wildcart prefabs\buildings\castle\ca_wall_ruin_2_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\castle\ca_wall_ruin_2_3_nocenter.x
+physics 1
+wildcart prefabs\buildings\castle\ca_floor_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\castle\ca_door_1_0_nocenter.x
+physics 1
+
+
+
+
+
+
+// HENHOUSE
+
+wildcart prefabs\buildings\henhouse\hh_wood_new_wall_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_fixed_wall_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_fixed_wall_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_old_wall_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_old_wall_1_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_fixed_wall_1_2_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\henhouse\hh_wood_new_wall_2_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_fixed_wall_2_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_fixed_wall_2_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_old_wall_2_1_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\henhouse\hh_wood_new_wall_3_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_fixed_wall_3_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_fixed_wall_3_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_old_wall_3_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_fixed_wall_3_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_old_wall_3_2_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\henhouse\hh_wood_new_door_4_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_fixed_door_4_0_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\henhouse\hh_wood_new_henhouse_front_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_fixed_henhouse_front_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_old_henhouse_front_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_fixed_henhouse_front_1_1_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\henhouse\hh_wood_new_henhouse_back_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_fixed_henhouse_back_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_old_henhouse_back_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_fixed_henhouse_back_1_1_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\henhouse\hh_wood_new_henhouse_right_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_fixed_henhouse_right_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_old_henhouse_right_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_fixed_henhouse_right_1_1_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\henhouse\hh_wood_new_henhouse_left_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_fixed_henhouse_left_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_old_henhouse_left_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_fixed_henhouse_left_1_1_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\henhouse\hh_wood_new_wall_5_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_fixed_wall_5_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_old_wall_5_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_fixed_wall_5_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_fixed_wall_6_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_old_wall_6_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_fixed_wall_6_1_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\henhouse\hh_wood_new_box_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_fixed_box_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_fixed_box_1_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_fixed_box_1_3_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_fixed_box_1_4_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_new_box_1_5_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_fixed_box_1_6_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_fixed_box_1_7_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_fixed_box_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_old_box_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_old_box_1_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_old_box_1_3_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_old_box_1_4_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_fixed_box_1_5_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_old_box_1_6_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_old_box_1_7_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\henhouse\hh_wood_new_henhouse_roof_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_fixed_henhouse_roof_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_old_henhouse_roof_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\henhouse\hh_wood_fixed_henhouse_roof_1_1_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\henhouse\hh_wood_new_bitumen_5_0_nocenter.x
+physics 4 0 prefabs\buildings\henhouse\hh_wood_new_bitumen_4_0_nocenter.x
+wildcart prefabs\buildings\henhouse\hh_metal_new_roof_2_nocenter.x
+physics 4 0 prefabs\buildings\henhouse\hh_wood_new_bitumen_4_0_nocenter.x
+wildcart prefabs\buildings\henhouse\hh_wood_new_bitumen_5_1_nocenter.x
+physics 4 0 prefabs\buildings\henhouse\hh_wood_new_bitumen_4_1_nocenter.x
+wildcart prefabs\buildings\henhouse\hh_metal_new_roof_2a_nocenter.x
+physics 4 0 prefabs\buildings\henhouse\hh_wood_new_bitumen_4_1_nocenter.x
+
+wildcart prefabs\buildings\henhouse\hh_wood_fixed_bitumen_1_0_nocenter.x
+physics 4 0 prefabs\buildings\henhouse\hh_wood_new_bitumen_4_0_nocenter.x
+wildcart prefabs\buildings\henhouse\hh_wood_old_bitumen_1_0_nocenter.x
+physics 4 0 prefabs\buildings\henhouse\hh_wood_new_bitumen_4_0_nocenter.x
+wildcart prefabs\buildings\henhouse\hh_wood_old_bitumen_1_1_nocenter.x
+physics 4 0 prefabs\buildings\henhouse\hh_wood_new_bitumen_4_1_nocenter.x
+wildcart prefabs\buildings\henhouse\hh_wood_fixed_bitumen_1_1_nocenter.x
+physics 4 0 prefabs\buildings\henhouse\hh_wood_new_bitumen_4_1_nocenter.x
+
+
+
+
+
+
+
+// SHELTERS
+
+wildcart prefabs\buildings\shelters\sh_wood_new_fence_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\shelters\sh_wood_fixed_fence_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\shelters\sh_wood_old_fence_1_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\shelters\sh_wood_fixed_fence_1_2_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\shelters\sh_wood_fixed_wall_window_2_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\shelters\sh_wood_old_wall_window_2_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\shelters\sh_wood_fixed_wall_window_2_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\shelters\sh_wood_new_wall_window_2_1_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\shelters\sh_wood_fixed_wall_window_1_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\shelters\sh_wood_old_wall_window_1_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\shelters\sh_wood_fixed_wall_window_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\shelters\sh_wood_new_wall_window_1_2_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\shelters\sh_wood_fixed_wall_1_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\shelters\sh_wood_old_wall_1_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\shelters\sh_wood_fixed_wall_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\shelters\sh_wood_new_wall_1_1_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\shelters\sh_wood_fixed_wall_door_1_2_nocenter.x
+physics 4 0 prefabs\buildings\shelters\physics_sh_wall_door_1_1_nocenter.x
+wildcart prefabs\buildings\shelters\sh_wood_old_wall_door_1_2_nocenter.x
+physics 4 0 prefabs\buildings\shelters\physics_sh_wall_door_1_1_nocenter.x
+wildcart prefabs\buildings\shelters\sh_wood_fixed_wall_door_1_1_nocenter.x
+physics 4 0 prefabs\buildings\shelters\physics_sh_wall_door_1_1_nocenter.x
+wildcart prefabs\buildings\shelters\sh_wood_new_wall_door_1_1_nocenter.x
+physics 4 0 prefabs\buildings\shelters\physics_sh_wall_door_1_1_nocenter.x
+
+wildcart prefabs\buildings\shelters\sh_wood_fixed_wall_front_1_2_nocenter.x
+physics 4 0 prefabs\buildings\shelters\physics_sh_wall_front_1_1_nocenter.x
+wildcart prefabs\buildings\shelters\sh_wood_old_wall_front_1_2_nocenter.x
+physics 4 0 prefabs\buildings\shelters\physics_sh_wall_front_1_1_nocenter.x
+wildcart prefabs\buildings\shelters\sh_wood_fixed_wall_front_1_1_nocenter.x
+physics 4 0 prefabs\buildings\shelters\physics_sh_wall_front_1_1_nocenter.x
+wildcart prefabs\buildings\shelters\sh_wood_new_wall_front_1_1_nocenter.x
+physics 4 0 prefabs\buildings\shelters\physics_sh_wall_front_1_1_nocenter.x
+
+wildcart prefabs\buildings\shelters\sh_wood_fixed_wall_front_2_2_nocenter.x
+physics 4 0 prefabs\buildings\shelters\physics_sh_wall_front_2_1_nocenter.x
+wildcart prefabs\buildings\shelters\sh_wood_old_wall_front_2_2_nocenter.x
+physics 4 0 prefabs\buildings\shelters\physics_sh_wall_front_2_1_nocenter.x
+wildcart prefabs\buildings\shelters\sh_wood_fixed_wall_front_2_1_nocenter.x
+physics 4 0 prefabs\buildings\shelters\physics_sh_wall_front_2_1_nocenter.x
+wildcart prefabs\buildings\shelters\sh_wood_new_wall_front_2_1_nocenter.x
+physics 4 0 prefabs\buildings\shelters\physics_sh_wall_front_2_1_nocenter.x 
+
+wildcart prefabs\buildings\shelters\sh_bitumen_new_roof4_1_1_nocenter.x
+physics 4 0 prefabs\buildings\shelters\sh_bitumen_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\shelters\sh_stretch_fixed_roof6_1_1_nocenter.x
+physics 4 0 prefabs\buildings\shelters\sh_bitumen_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\shelters\sh_bitumen_old_roof_edge_1_1_nocenter.x
+physics 4 0 prefabs\buildings\shelters\sh_bitumen_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\shelters\sh_bitumen_old_roof_edge_2_1_nocenter.x
+physics 4 0 prefabs\buildings\shelters\sh_bitumen_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\shelters\sh_bitumen_old_roof_edge_3_1_nocenter.x
+physics 4 0 prefabs\buildings\shelters\sh_bitumen_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\shelters\sh_bitumen_old_roof_edge_4_1_nocenter.x
+physics 4 0 prefabs\buildings\shelters\sh_bitumen_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\shelters\sh_bitumen_fixed_roof_edge_1_1_nocenter.x
+physics 4 0 prefabs\buildings\shelters\sh_bitumen_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\shelters\sh_bitumen_fixed_roof_edge_2_1_nocenter.x
+physics 4 0 prefabs\buildings\shelters\sh_bitumen_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\shelters\sh_bitumen_fixed_roof_edge_3_1_nocenter.x
+physics 4 0 prefabs\buildings\shelters\sh_bitumen_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\shelters\sh_bitumen_fixed_roof_edge_4_1_nocenter.x
+physics 4 0 prefabs\buildings\shelters\sh_bitumen_new_roof5_1_1_nocenter.x
+
+wildcart prefabs\buildings\shelters\sh_bitumen_new_corner_roof4_1_1_nocenter.x
+physics 4 0 prefabs\buildings\shelters\sh_bitumen_new_corner_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\shelters\sh_bitumen_new_corner_roof4_1_2_nocenter.x
+physics 4 0 prefabs\buildings\shelters\sh_bitumen_new_corner_roof_1_2_nocenter.x
+
+wildcart prefabs\buildings\shelters\sh_metal_new_roof_2_nocenter.x
+physics 4 0 prefabs\buildings\shelters\sh_bitumen_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\shelters\sh_metal_new_roof_2a_nocenter.x
+physics 4 0 prefabs\buildings\shelters\sh_bitumen_new_corner_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\shelters\sh_metal_new_roof_2b_nocenter.x
+physics 4 0 prefabs\buildings\shelters\sh_bitumen_new_corner_roof5_1_2_nocenter.x
+
+wildcart prefabs\buildings\shelters\sh_wood_new_ceiling_3_1_nocenter.x
+physics 4 0 prefabs\buildings\shelters\physics_sh_ceiling_3_1_nocenter.x
+wildcart prefabs\buildings\shelters\sh_wood_fixed_ceiling_3_1_nocenter.x
+physics 4 0 prefabs\buildings\shelters\physics_sh_ceiling_3_1_nocenter.x
+wildcart prefabs\buildings\shelters\sh_wood_old_ceiling_3_2_nocenter.x
+physics 4 0 prefabs\buildings\shelters\physics_sh_ceiling_3_1_nocenter.x
+wildcart prefabs\buildings\shelters\sh_wood_fixed_ceiling_3_2_nocenter.x
+physics 4 0 prefabs\buildings\shelters\physics_sh_ceiling_3_1_nocenter.x
+
+
+
+
+
+
+// SILO
+
+wildcart prefabs\buildings\silo\si_wood_fixed_handrail_4_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\silo\si_wood_old_handrail_4_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\silo\si_wood_fixed_handrail_4_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\silo\si_wood_new_handrail_4_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\silo\si_wood_new_floor_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\silo\si_wood_new_floor_2_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\silo\si_wood_new_floor_3_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\silo\si_wood_fixed_floor_1_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\silo\si_wood_fixed_floor_2_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\silo\si_wood_fixed_floor_3_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\silo\si_wood_old_floor_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\silo\si_wood_old_floor_3_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\silo\si_wood_fixed_floor_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\silo\si_wood_fixed_floor_2_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\silo\si_wood_fixed_floor_3_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\silo\si_wood_fixed_floor_4_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\silo\si_wood_new_floor_4_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\silo\si_wood_fixed_wall_3_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\silo\si_wood_fixed_wall_3_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\silo\si_wood_fixed_wall_3_3_nocenter.x
+physics 1
+wildcart prefabs\buildings\silo\si_wood_new_wall_3_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\silo\si_wood_fixed_wall_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\silo\si_wood_fixed_wall_1_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\silo\si_wood_fixed_wall_1_3_nocenter.x
+physics 1
+wildcart prefabs\buildings\silo\si_wood_new_wall_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\silo\si_wood_new_lift_wall_2_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\silo\si_wood_fixed_lift_wall_2_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\silo\si_wood_old_lift_wall_2_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\silo\si_wood_old_lift_wall_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\silo\si_wood_fixed_lift_wall_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\silo\si_wood_new_lift_wall_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\silo\si_wood_old_lift_wall_3_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\silo\si_wood_fixed_lift_wall_3_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\silo\si_wood_new_lift_wall_3_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\silo\si_wood_new_stairs_6_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\silo\si_wood_fixed_stairs_6_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\silo\si_wood_new_stairs_7_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\silo\si_wood_fixed_stairs_7_1_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\silo\si_wood_fixed_wall_2_1_nocenter.x
+physics 4 0 prefabs\buildings\silo\physics_si_wall_2_1_nocenter.x
+wildcart prefabs\buildings\silo\si_wood_fixed_wall_2_2_nocenter.x
+physics 4 0 prefabs\buildings\silo\physics_si_wall_2_1_nocenter.x
+wildcart prefabs\buildings\silo\si_wood_new_wall_2_1_nocenter.x
+physics 4 0 prefabs\buildings\silo\physics_si_wall_2_1_nocenter.x
+wildcart prefabs\buildings\silo\si_wood_fixed_wall_door_3_1_nocenter.x
+physics 4 0 prefabs\buildings\silo\physics_si_wall_door_3_1_nocenter.x
+wildcart prefabs\buildings\silo\si_wood_fixed_wall_door_3_2_nocenter.x
+physics 4 0 prefabs\buildings\silo\physics_si_wall_door_3_1_nocenter.x
+wildcart prefabs\buildings\silo\si_wood_new_wall_door_3_1_nocenter.x
+physics 4 0 prefabs\buildings\silo\physics_si_wall_door_3_1_nocenter.x
+wildcart prefabs\buildings\silo\si_wood_fixed_wall_door_1_1_nocenter.x
+physics 4 0 prefabs\buildings\silo\physics_si_wall_door_1_1_nocenter.x
+wildcart prefabs\buildings\silo\si_wood_fixed_wall_door_1_2_nocenter.x
+physics 4 0 prefabs\buildings\silo\physics_si_wall_door_1_1_nocenter.x
+wildcart prefabs\buildings\silo\si_wood_new_wall_door_1_1_nocenter.x
+physics 4 0 prefabs\buildings\silo\physics_si_wall_door_1_1_nocenter.x
+wildcart prefabs\buildings\silo\si_wood_fixed_wall_door_2_1_nocenter.x
+physics 4 0 prefabs\buildings\silo\physics_si_wall_door_2_1_nocenter.x
+wildcart prefabs\buildings\silo\si_wood_fixed_wall_door_2_2_nocenter.x
+physics 4 0 prefabs\buildings\silo\physics_si_wall_door_2_1_nocenter.x
+wildcart prefabs\buildings\silo\si_wood_new_wall_door_2_1_nocenter.x
+physics 4 0 prefabs\buildings\silo\physics_si_wall_door_2_1_nocenter.x
+
+
+
+
+
+// GREENHOUSE
+
+wildcart prefabs\buildings\greenhouses\gh_wood_fixed_table_1_5_nocenter.x
+physics 1
+wildcart prefabs\buildings\greenhouses\gh_wood_old_table_1_5_nocenter.x
+physics 1
+wildcart prefabs\buildings\greenhouses\gh_wood_fixed_table_1_4_nocenter.x
+physics 1
+wildcart prefabs\buildings\greenhouses\gh_wood_old_table_1_4_nocenter.x
+physics 1
+wildcart prefabs\buildings\greenhouses\gh_wood_fixed_table_1_3_nocenter.x
+physics 1
+wildcart prefabs\buildings\greenhouses\gh_wood_old_table_1_3_nocenter.x
+physics 1
+wildcart prefabs\buildings\greenhouses\gh_wood_fixed_table_1_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\greenhouses\gh_wood_old_table_1_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\greenhouses\gh_wood_fixed_table_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\greenhouses\gh_wood_old_table_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\greenhouses\gh_wood_fixed_table_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\greenhouses\gh_wood_new_table_1_0_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\greenhouses\gh_brick_new_wall_3_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\greenhouses\gh_plaster_new_wall_3_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\greenhouses\gh_brick_fixed_wall_3_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\greenhouses\gh_brick_new_wall_2_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\greenhouses\gh_plaster_new_wall_2_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\greenhouses\gh_brick_new_wall_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\greenhouses\gh_plaster_new_wall_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\greenhouses\gh_brick_fixed_wall_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\greenhouses\gh_brick_new_wall_up_2_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\greenhouses\gh_plaster_new_wall_up_2_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\greenhouses\gh_brick_new_wall_up_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\greenhouses\gh_plaster_new_wall_up_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\greenhouses\gh_brick_fixed_wall_up_1_0_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\greenhouses\gh_glass_fixed_window_roof_1_1_nocenter.x
+physics 4 0 prefabs\buildings\greenhouses\gh_glass_fixed_window_roof_1_0_nocenter.x
+wildcart prefabs\buildings\greenhouses\gh_glass_fixed_window_roof_1_3_nocenter.x
+physics 4 0 prefabs\buildings\greenhouses\gh_glass_fixed_window_roof_1_0_nocenter.x
+
+wildcart prefabs\buildings\greenhouses\gh_glass_fixed_window_roof_2_1_nocenter.x
+physics 4 0 prefabs\buildings\greenhouses\gh_glass_fixed_window_roof_2_0_nocenter.x
+wildcart prefabs\buildings\greenhouses\gh_glass_fixed_window_roof_2_3_nocenter.x
+physics 4 0 prefabs\buildings\greenhouses\gh_glass_fixed_window_roof_2_0_nocenter.x
+
+wildcart prefabs\buildings\greenhouses\gh_glass_fixed_window_roof_3_1_nocenter.x
+physics 4 0 prefabs\buildings\greenhouses\gh_glass_fixed_window_roof_3_0_nocenter.x
+wildcartprefabs\buildings\greenhouses\gh_glass_fixed_window_roof_3_3_nocenter.x
+physics 4 0 prefabs\buildings\greenhouses\gh_glass_fixed_window_roof_3_0_nocenter.x
+
+wildcart prefabs\buildings\greenhouses\gh_glass_fixed_window_roof_4_1_nocenter.x
+physics 4 0 prefabs\buildings\greenhouses\gh_glass_fixed_window_roof_4_0_nocenter.x
+wildcartprefabs\buildings\greenhouses\gh_glass_fixed_window_roof_4_3_nocenter.x
+physics 4 0 prefabs\buildings\greenhouses\gh_glass_fixed_window_roof_4_0_nocenter.x
+
+wildcart prefabs\buildings\greenhouses\gh_glass_fixed_window_5_1_nocenter.x
+physics 4 0 prefabs\buildings\greenhouses\gh_glass_fixed_window_5_0_nocenter.x
+wildcart prefabs\buildings\greenhouses\gh_glass_fixed_window_4_1_nocenter.x
+physics 4 0 prefabs\buildings\greenhouses\gh_glass_fixed_window_4_0_nocenter.x
+
+wildcart prefabs\buildings\greenhouses\gh_glass_fixed_window_corner_1_1_nocenter.x
+physics 4 0 prefabs\buildings\greenhouses\gh_glass_fixed_window_corner_1_0_nocenter.x
+wildcart prefabs\buildings\greenhouses\gh_glass_fixed_window_corner_2_1_nocenter.x
+physics 4 0 prefabs\buildings\greenhouses\gh_glass_fixed_window_corner_2_0_nocenter.x
+wildcart prefabs\buildings\greenhouses\gh_glass_fixed_window_2_1_nocenter.x
+physics 4 0 prefabs\buildings\greenhouses\gh_glass_fixed_window_2_0_nocenter.x
+wildcart prefabs\buildings\greenhouses\gh_glass_fixed_window_1_1_nocenter.x
+physics 4 0 prefabs\buildings\greenhouses\gh_glass_fixed_window_1_0_nocenter.x
+wildcart prefabs\buildings\greenhouses\gh_glass_fixed_window_door_1_1_nocenter.x
+physics 4 0 prefabs\buildings\greenhouses\gh_glass_fixed_window_door_1_0_nocenter.x
+wildcart prefabs\buildings\greenhouses\gh_glass_fixed_door_1_1_nocenter.x
+physics 4 0 prefabs\buildings\greenhouses\gh_glass_new_door_1_0_nocenter.x
+wildcart prefabs\buildings\greenhouses\gh_glass_fixed_door_2_1_nocenter.x
+physics 4 0 prefabs\buildings\greenhouses\gh_glass_new_door_2_0_nocenter.x
+
+wildcart prefabs\buildings\greenhouses\gh_glass_fixed_window_front_3_1_nocenter.x
+physics 4 0 prefabs\buildings\greenhouses\gh_glass_new_window_front_3_0_nocenter.x
+wildcart prefabs\buildings\greenhouses\gh_glass_fixed_window_front_4_1_nocenter.x
+physics 4 0 prefabs\buildings\greenhouses\gh_glass_new_window_front_4_0_nocenter.x
+
+wildcart prefabs\buildings\greenhouses\gh_glass_fixed_window_bottom_1_1_nocenter.x
+physics 4 0 prefabs\buildings\greenhouses\gh_glass_new_window_bottom_1_0_nocenter.x
+
+
+
+
+
+
+// GARAGE
+
+wildcart prefabs\buildings\garages\ga_brick_new_wall_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_concrete_new_wall_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_concrete_fixed_wall_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_concrete_fixed_wall_1_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_concrete_fixed_wall_1_3_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_concrete_old_wall_1_4_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_concrete_fixed_wall_1_4_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_concrete_old_wall_1_5_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_concrete_fixed_wall_1_5_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_concrete_fixed_wall_1_6_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_brick_fixed_wall_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_brick_old_wall_1_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_brick_fixed_wall_1_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_concrete_fixed_wall_3_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_concrete_fixed_wall_3_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_concrete_fixed_wall_3_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_concrete_fixed_wall_3_3_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_concrete_fixed_wall_3_4_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_brick_new_innerwall_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_concrete_new_innerwall_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_concrete_fixed_innerwall_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_concrete_fixed_innerwall_1_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_concrete_old_innerwall_1_3_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_concrete_fixed_innerwall_1_3_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_concrete_old_innerwall_1_4_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_concrete_fixed_innerwall_1_4_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_concrete_fixed_innerwall_1_5_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_brick_fixed_wall_3_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_brick_fixed_wall_3_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_brick_fixed_wall_3_3_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_brick_fixed_wall_3_4_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\garages\ga_wood_fixed_gate_6_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_old_gate_6_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_fixed_gate_6_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_new_gate_6_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_fixed_gate_5_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_old_gate_5_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_fixed_gate_5_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_new_gate_5_1_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\garages\ga_wood_fixed_gate_4_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_old_gate_4_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_fixed_gate_4_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_new_gate_4_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_new_gate_3_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_fixed_gate_3_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_old_gate_3_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_fixed_gate_3_2_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\garages\ga_wood_new_gate_2_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_fixed_gate_2_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_old_gate_2_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_fixed_gate_2_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_new_gate_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_fixed_gate_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_old_gate_1_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_fixed_gate_1_2_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\garages\ga_wood_new_floor_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_fixed_floor_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_old_floor_1_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_fixed_floor_1_2_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\garages\ga_wood_new_floor_2_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_fixed_floor_2_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_old_floor_2_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_fixed_floor_2_2_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\garages\ga_wood_new_floor_3_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_fixed_floor_3_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_old_floor_3_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_fixed_floor_3_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_old_floor_3_3_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_fixed_floor_3_3_nocenter.x
+physics 1
+
+
+wildcart prefabs\buildings\garages\ga_concrete_fixed_innergate_bottom_2_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_concrete_old_innergate_bottom_2_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_concrete_fixed_innergate_bottom_2_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_concrete_new_innergate_bottom_2_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_brick_new_innergate_bottom_2_1_nocenter.x
+physics 1
+
+
+wildcart prefabs\buildings\garages\ga_concrete_fixed_innergate_bottom_3_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_concrete_old_innergate_bottom_3_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_concrete_fixed_innergate_bottom_3_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_concrete_new_innergate_bottom_3_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_brick_new_innergate_bottom_3_1_nocenter.x
+physics 1
+
+
+wildcart prefabs\buildings\garages\ga_concrete_fixed_innergate_bottom_4_3_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_concrete_old_innergate_bottom_4_3_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_concrete_fixed_innergate_bottom_4_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_concrete_old_innergate_bottom_4_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_concrete_fixed_innergate_bottom_4_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_concrete_new_innergate_bottom_4_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_brick_new_innergate_bottom_4_1_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\garages\ga_concrete_fixed_wall_4_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_concrete_fixed_wall_4_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_concrete_fixed_wall_4_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_concrete_fixed_wall_2_3_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_concrete_old_wall_2_3_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_concrete_fixed_wall_2_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_concrete_old_wall_2_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_concrete_fixed_wall_2_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_concrete_new_wall_2_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_brick_new_wall_2_1_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\garages\ga_concrete_fixed_innerwall_2_3_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_concrete_fixed_innerwall_2_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_concrete_fixed_innerwall_2_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_concrete_new_innerwall_2_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_brick_new_innerwall_2_1_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\garages\ga_wood_new_handrail_3_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_fixed_handrail_3_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_old_handrail_3_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_fixed_handrail_3_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_new_handrail_2_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_fixed_handrail_2_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_old_handrail_2_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_fixed_handrail_2_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_new_handrail_4_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_fixed_handrail_4_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_old_handrail_4_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_fixed_handrail_4_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_new_handrail_5_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_fixed_handrail_5_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_old_handrail_5_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_fixed_handrail_5_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_new_handrail_7_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_fixed_handrail_7_1_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\garages\ga_wood_new_door_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_fixed_door_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_old_door_1_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_fixed_door_1_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_old_door_1_3_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_fixed_door_1_3_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\garages\ga_wood_new_window_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_fixed_window_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_old_window_1_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_fixed_window_1_2_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\garages\ga_wood_fixed_lamella_fence_1_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_old_lamella_fence_1_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_fixed_lamella_fence_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\garages\ga_wood_new_lamella_fence_1_1_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\garages\ga_brick_new_wall_corner_1_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_corner_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_new_wall_corner_1_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_corner_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_wall_corner_1_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_corner_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_old_wall_corner_1_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_corner_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_wall_corner_1_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_corner_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_wall_corner_1_3_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_corner_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_wall_corner_1_4_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_corner_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_brick_fixed_wall_corner_1_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_corner_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_brick_fixed_wall_corner_1_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_corner_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_wall_corner_3_0_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_corner_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_old_wall_corner_3_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_corner_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_wall_corner_3_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_corner_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_wall_corner_3_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_corner_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_wall_corner_3_3_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_corner_1_1_nocenter.x
+
+wildcart prefabs\buildings\garages\ga_brick_new_innerwall_corner_1_3_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innerwall_corner_1_3_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_new_innerwall_corner_1_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innerwall_corner_1_3_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_innerwall_corner_1_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innerwall_corner_1_3_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_old_innerwall_corner_1_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innerwall_corner_1_3_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_innerwall_corner_1_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innerwall_corner_1_3_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_innerwall_corner_1_3_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innerwall_corner_1_3_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_innerwall_corner_1_4_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innerwall_corner_1_3_nocenter.x
+
+wildcart prefabs\buildings\garages\ga_brick_new_wall_door_1_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_door_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_new_wall_door_1_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_door_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_wall_door_1_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_door_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_old_wall_door_1_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_door_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_wall_door_1_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_door_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_old_wall_door_1_3_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_door_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_wall_door_1_3_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_door_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_old_wall_door_1_4_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_door_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_wall_door_1_4_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_door_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_brick_fixed_wall_door_1_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_door_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_brick_old_wall_door_1_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_door_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_brick_fixed_wall_door_1_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_door_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_wall_door_3_0_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_door_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_wall_door_3_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_door_1_1_nocenter.x
+
+wildcart prefabs\buildings\garages\ga_brick_new_innerwall_door_1_4_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innerwall_door_1_4_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_new_innerwall_door_1_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innerwall_door_1_4_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_innerwall_door_1_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innerwall_door_1_4_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_old_innerwall_door_1_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innerwall_door_1_4_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_innerwall_door_1_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innerwall_door_1_4_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_old_innerwall_door_1_3_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innerwall_door_1_4_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_innerwall_door_1_3_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innerwall_door_1_4_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_old_innerwall_door_1_4_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innerwall_door_1_4_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_innerwall_door_1_4_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innerwall_door_1_4_nocenter.x
+
+wildcart prefabs\buildings\garages\ga_brick_new_wall_window_1_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_window_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_new_wall_window_1_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_window_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_wall_window_1_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_window_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_old_wall_window_1_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_window_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_wall_window_1_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_window_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_old_wall_window_1_3_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_window_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_wall_window_1_3_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_window_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_old_wall_window_1_4_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_window_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_wall_window_1_4_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_window_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_brick_fixed_wall_window_1_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_window_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_brick_old_wall_window_1_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_window_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_brick_fixed_wall_window_1_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_window_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_wall_window_3_0_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_window_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_wall_window_3_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_window_1_1_nocenter.x
+
+wildcart prefabs\buildings\garages\ga_brick_new_innerwall_window_1_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innerwall_window_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_new_innerwall_window_1_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innerwall_window_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_innerwall_window_1_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innerwall_window_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_old_innerwall_window_1_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innerwall_window_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_innerwall_window_1_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innerwall_window_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_old_innerwall_window_1_3_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innerwall_window_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_innerwall_window_1_3_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innerwall_window_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_innerwall_window_1_4_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innerwall_window_1_1_nocenter.x
+
+wildcart prefabs\buildings\garages\ga_brick_new_gate_top_1_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_gate_top_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_new_gate_top_1_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_gate_top_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_gate_top_1_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_gate_top_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_old_gate_top_1_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_gate_top_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_gate_top_1_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_gate_top_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_gate_top_5_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_gate_top_1_1_nocenter.x
+
+wildcart prefabs\buildings\garages\ga_brick_new_innergate_top_1_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innergate_top_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_new_innergate_top_1_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innergate_top_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_innergate_top_1_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innergate_top_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_old_innergate_top_1_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innergate_top_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_innergate_top_1_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innergate_top_1_1_nocenter.x
+
+wildcart prefabs\buildings\garages\ga_brick_new_gate_top_2_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_gate_top_2_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_new_gate_top_2_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_gate_top_2_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_gate_top_2_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_gate_top_2_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_gate_top_6_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_gate_top_2_1_nocenter.x
+
+wildcart prefabs\buildings\garages\ga_brick_new_innergate_top_2_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innergate_top_2_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_new_innergate_top_2_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innergate_top_2_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_innergate_top_2_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innergate_top_2_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_old_innergate_top_2_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innergate_top_2_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_innergate_top_2_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innergate_top_2_1_nocenter.x
+
+wildcart prefabs\buildings\garages\ga_brick_new_wall_corner_2_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_corner_2_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_new_wall_corner_2_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_corner_2_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_wall_corner_2_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_corner_2_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_old_wall_corner_2_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_corner_2_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_wall_corner_2_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_corner_2_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_wall_corner_4_0_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_corner_2_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_old_wall_corner_4_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_corner_2_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_wall_corner_4_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_wall_corner_2_1_nocenter.x
+
+wildcart prefabs\buildings\garages\ga_brick_new_innerwall_corner_2_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innerwall_corner_2_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_new_innerwall_corner_2_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innerwall_corner_2_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_innerwall_corner_2_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innerwall_corner_2_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_innerwall_corner_2_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innerwall_corner_2_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_innerwall_corner_2_3_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innerwall_corner_2_1_nocenter.x
+
+wildcart prefabs\buildings\garages\ga_brick_new_gate_top_3_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_gate_top_3_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_new_gate_top_3_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_gate_top_3_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_gate_top_3_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_gate_top_3_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_old_gate_top_3_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_gate_top_3_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_gate_top_3_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_gate_top_3_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_old_gate_top_3_3_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_gate_top_3_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_gate_top_3_3_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_gate_top_3_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_gate_top_7_0_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_gate_top_3_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_old_gate_top_7_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_gate_top_3_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_gate_top_7_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_gate_top_3_1_nocenter.x
+
+wildcart prefabs\buildings\garages\ga_brick_new_innergate_top_3_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innergate_top_3_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_new_innergate_top_3_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innergate_top_3_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_innergate_top_3_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innergate_top_3_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_old_innergate_top_3_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innergate_top_3_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_innergate_top_3_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innergate_top_3_1_nocenter.x
+
+wildcart prefabs\buildings\garages\ga_brick_new_gate_top_4_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_gate_top_4_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_new_gate_top_4_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_gate_top_4_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_gate_top_4_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_gate_top_4_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_old_gate_top_4_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_gate_top_4_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_gate_top_4_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_gate_top_4_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_gate_top_8_0_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_gate_top_4_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_old_gate_top_8_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_gate_top_4_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_gate_top_8_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_gate_top_4_1_nocenter.x
+
+wildcart prefabs\buildings\garages\ga_brick_new_innergate_top_4_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innergate_top_4_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_new_innergate_top_4_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innergate_top_4_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_innergate_top_4_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innergate_top_4_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_old_innergate_top_4_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innergate_top_4_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_innergate_top_4_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_innergate_top_4_1_nocenter.x
+
+wildcart prefabs\buildings\garages\ga_concrete_fixed_wall_front_2_4_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_brick_new_wall_front_2_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_old_wall_front_2_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_brick_new_wall_front_2_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_wall_front_2_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_brick_new_wall_front_2_1_nocenter.x
+
+wildcart prefabs\buildings\garages\ga_concrete_fixed_innerwall_front_2_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_brick_new_innerwall_front_2_1_nocenter.x
+
+wildcart prefabs\buildings\garages\ga_concrete_fixed_wall_front_1_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_brick_new_wall_front_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_wall_front_1_5_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_brick_new_wall_front_1_1_nocenter.x
+
+wildcart prefabs\buildings\garages\ga_concrete_fixed_innerwall_front_1_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_brick_new_innerwall_front_1_1_nocenter.x
+
+wildcart prefabs\buildings\garages\ga_concrete_fixed_wall_front_3_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_brick_new_wall_front_3_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_old_wall_front_3_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_brick_new_wall_front_3_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_old_wall_front_3_4_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_brick_new_wall_front_3_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_fixed_wall_front_3_5_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_brick_new_wall_front_3_1_nocenter.x
+
+wildcart prefabs\buildings\garages\ga_concrete_fixed_innerwall_front_3_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_brick_new_innerwall_front_3_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_concrete_old_innerwall_front_3_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_brick_new_innerwall_front_3_1_nocenter.x
+
+wildcart prefabs\buildings\garages\ga_wood_fixed_stairs_2_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_stairs_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_wood_old_stairs_2_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_stairs_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_wood_fixed_stairs_2_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_stairs_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_wood_new_stairs_1_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_stairs_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_wood_fixed_stairs_1_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_stairs_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_wood_old_stairs_1_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_stairs_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_wood_fixed_stairs_1_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_stairs_1_1_nocenter.x
+
+wildcart prefabs\buildings\garages\ga_wood_fixed_handrail_6_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_handrail_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_wood_old_handrail_6_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_handrail_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_wood_fixed_handrail_6_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_handrail_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_wood_new_handrail_1_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_handrail_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_wood_fixed_handrail_1_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_handrail_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_wood_old_handrail_1_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_handrail_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_wood_fixed_handrail_1_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\physics_ga_handrail_1_1_nocenter.x
+
+wildcart prefabs\buildings\garages\ga_stretch_fixed_roof_3_6_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof_3_5_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_new_roof_3_4_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof_3_5_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_fixed_roof_edge_3_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof_3_5_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_old_roof_edge_3_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof_3_5_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_fixed_roof_edge_3_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof_3_5_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_old_roof_edge_3_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof_3_5_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_fixed_roof_edge_3_3_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof_3_5_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_old_roof_edge_3_3_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof_3_5_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_fixed_roof_edge_3_4_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof_3_5_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_old_roof_edge_3_4_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof_3_5_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_fixed_roof_3_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof_3_5_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_old_roof_3_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof_3_5_nocenter.x
+wildcart prefabs\buildings\garages\ga_metal_new_roof_2a_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof_3_5_nocenter.x
+
+wildcart prefabs\buildings\garages\ga_stretch_fixed_roof4_1_3_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_stretch_fixed_roof4_1_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_stretch_fixed_roof4_1_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_fixed_roof_top_1_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_fixed_roof_middle_1_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_fixed_roof_bottom_1_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_fixed_roof_top_1_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_fixed_roof_middle_1_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_fixed_roof_bottom_1_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_fixed_roof_top_1_3_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_fixed_roof_middle_1_3_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_fixed_roof_bottom_1_3_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_fixed_roof_top_1_4_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_fixed_roof_middle_1_4_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_fixed_roof_bottom_1_4_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_old_roof_top_1_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_old_roof_middle_1_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_old_roof_bottom_1_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_old_roof_top_1_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_old_roof_middle_1_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_old_roof_bottom_1_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_old_roof_top_1_3_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_old_roof_middle_1_3_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_old_roof_bottom_1_3_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_old_roof_top_1_4_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_old_roof_middle_1_4_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_old_roof_bottom_1_4_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_old_roof_edge_1_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_old_roof_edge_1_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_old_roof_edge_1_3_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_old_roof_edge_1_4_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_fixed_roof_edge_1_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_fixed_roof_edge_1_3_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_fixed_roof_edge_1_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_fixed_roof_edge_1_4_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_fixed_roof1_1_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_fixed_roof1_1_2_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_fixed_roof1_1_3_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_fixed_roof1_1_4_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_fixed_roof3_1_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_fixed_roof3_2_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_fixed_roof3_3_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_fixed_roof3_4_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_old_roof3_1_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_old_roof3_2_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_old_roof3_3_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_old_roof3_4_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_old_roof2_1_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_old_roof2_4_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_old_roof2_2_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_old_roof2_5_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_old_roof2_3_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_old_roof2_6_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_fixed_roof2_1_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_fixed_roof2_4_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_fixed_roof2_2_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_fixed_roof2_5_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_fixed_roof2_3_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_ceramic_fixed_roof2_6_1_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+wildcart prefabs\buildings\garages\ga_metal_new_roof_2b_nocenter.x
+physics 4 0 prefabs\buildings\garages\ga_ceramic_new_roof5_1_1_nocenter.x
+
+
+
+
+// BARN
+
+
+wildcart prefabs\buildings\barns\bn_wood_old_ceiling_6_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wood_ceiling_6_0_nocenter.x
+wildcart prefabs\buildings\barns\bn_wood_old_ceiling_6_2_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wood_ceiling_6_0_nocenter.x
+
+wildcart prefabs\buildings\barns\bn_wood_old_ceiling_5_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wood_ceiling_6_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_wood_old_ceiling_5_3_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wood_ceiling_6_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_wood_old_ceiling_5_5_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wood_ceiling_6_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_wood_old_ceiling_5_2_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wood_ceiling_6_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_wood_old_ceiling_5_4_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wood_ceiling_6_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_wood_old_ceiling_5_6_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wood_ceiling_6_1_nocenter.x
+
+wildcart prefabs\buildings\barns\bn_wood_fixed_wall_1_5_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_wood_fixed_wall_1_4_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_wood_fixed_wall_1_3_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_wood_fixed_wall_1_2_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_wood_new_wall_1_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_wood_fixed_wall_1_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_wood_fixed_wall_2_6_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_wood_fixed_wall_2_5_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_wood_fixed_wall_2_4_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_wood_fixed_wall_2_3_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_wood_old_wall_2_3_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_wood_fixed_wall_2_2_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_wood_new_wall_2_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_wood_fixed_wall_2_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_1_1_nocenter.x
+
+wildcart prefabs\buildings\barns\bn_wood_fixed_wall_corner_1_5_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_corner_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_wood_fixed_wall_corner_1_4_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_corner_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_wood_fixed_wall_corner_1_3_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_corner_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_wood_old_wall_corner_1_3_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_corner_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_wood_fixed_wall_corner_1_2_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_corner_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_wood_new_wall_corner_1_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_corner_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_wood_fixed_wall_corner_1_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_corner_1_1_nocenter.x
+
+wildcart prefabs\buildings\barns\bn_wood_fixed_wall_door_1_2_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_door_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_wood_new_wall_door_1_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_door_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_wood_fixed_wall_door_1_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_door_1_1_nocenter.x
+
+wildcart prefabs\buildings\barns\bn_wood_fixed_wall_gate_1_2_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_gate_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_wood_new_wall_gate_1_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_gate_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_wood_fixed_wall_gate_1_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_gate_1_1_nocenter.x
+
+wildcart prefabs\buildings\barns\bn_wood_fixed_wall_gate_2_2_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_gate_2_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_wood_new_wall_gate_2_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_gate_2_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_wood_fixed_wall_gate_2_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_gate_2_1_nocenter.x
+
+wildcart prefabs\buildings\barns\bn_concrete_new_wall_up_corner_1_0_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_up_corner_1_0_nocenter.x
+wildcart prefabs\buildings\barns\bn_concrete_fixed_wall_up_corner_1_0_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_up_corner_1_0_nocenter.x
+wildcart prefabs\buildings\barns\bn_brick_fixed_wall_up_corner_1_0_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_up_corner_1_0_nocenter.x
+
+wildcart prefabs\buildings\barns\bn_brick_new_wall_up_corner_1_0_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_up_corner_1_0_nocenter.x
+wildcart prefabs\buildings\barns\bn_concrete_fixed_wall_up_corner_2_0_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_up_corner_1_0_nocenter.x
+wildcart prefabs\buildings\barns\bn_concrete_fixed_wall_up_corner_2_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_up_corner_1_0_nocenter.x
+wildcart prefabs\buildings\barns\bn_brick_fixed_wall_up_corner_1_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_up_corner_1_0_nocenter.x
+
+wildcart prefabs\buildings\barns\bn_concrete_new_wall_down_corner_1_0_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_down_corner_1_0_nocenter.x
+wildcart prefabs\buildings\barns\bn_concrete_fixed_wall_down_corner_1_0_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_down_corner_1_0_nocenter.x
+wildcart prefabs\buildings\barns\bn_brick_fixed_wall_down_corner_1_0_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_down_corner_1_0_nocenter.x
+wildcart prefabs\buildings\barns\bn_brick_old_wall_down_corner_1_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_down_corner_1_0_nocenter.x
+wildcart prefabs\buildings\barns\bn_brick_new_wall_down_corner_1_0_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_down_corner_1_0_nocenter.x
+wildcart prefabs\buildings\barns\bn_concrete_fixed_wall_down_corner_2_0_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_down_corner_1_0_nocenter.x
+wildcart prefabs\buildings\barns\bn_concrete_fixed_wall_down_corner_2_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_down_corner_1_0_nocenter.x
+wildcart prefabs\buildings\barns\bn_brick_fixed_wall_down_corner_1_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_down_corner_1_0_nocenter.x
+
+wildcart prefabs\buildings\barns\bn_concrete_new_wall_up_corner_inner_1_0_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_up_corner_inner_1_0_nocenter.x
+wildcart prefabs\buildings\barns\bn_concrete_fixed_wall_up_corner_inner_1_0_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_up_corner_inner_1_0_nocenter.x
+wildcart prefabs\buildings\barns\bn_brick_fixed_wall_up_corner_inner_1_0_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_up_corner_inner_1_0_nocenter.x
+wildcart prefabs\buildings\barns\bn_brick_fixed_wall_up_corner_1_2_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_up_corner_inner_1_0_nocenter.x
+wildcart prefabs\buildings\barns\bn_brick_new_wall_up_corner_inner_1_0_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_up_corner_inner_1_0_nocenter.x
+
+wildcart prefabs\buildings\barns\bn_concrete_new_wall_down_corner_inner_1_0_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_down_corner_inner_1_0_nocenter.x
+wildcart prefabs\buildings\barns\bn_concrete_fixed_wall_down_corner_inner_1_0_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_down_corner_inner_1_0_nocenter.x
+wildcart prefabs\buildings\barns\bn_brick_fixed_wall_down_corner_inner_1_0_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_down_corner_inner_1_0_nocenter.x
+wildcart prefabs\buildings\barns\bn_brick_old_wall_down_corner_inner_1_2_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_down_corner_inner_1_0_nocenter.x
+wildcart prefabs\buildings\barns\bn_brick_fixed_wall_down_corner_inner_1_2_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_down_corner_inner_1_0_nocenter.x
+wildcart prefabs\buildings\barns\bn_brick_new_wall_down_corner_inner_1_0_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_down_corner_inner_1_0_nocenter.x
+
+wildcart prefabs\buildings\barns\bn_bitumen_fixed_roof_3_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_fixed_roof_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_bitumen_old_roof_4_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_fixed_roof_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_bitumen_fixed_roof_4_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_fixed_roof_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_bitumen_fixed_roof_3_2_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_fixed_roof_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_bitumen_old_roof_4_2_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_fixed_roof_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_bitumen_fixed_roof_4_2_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_fixed_roof_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_bitumen_fixed_roof_3_3_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_fixed_roof_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_bitumen_old_roof_4_3_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_fixed_roof_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_bitumen_fixed_roof_4_3_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_fixed_roof_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_bitumen_fixed_roof_3_4_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_fixed_roof_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_bitumen_old_roof_4_4_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_fixed_roof_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_bitumen_fixed_roof_4_4_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_fixed_roof_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_bitumen_old_roof_edge_1_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_fixed_roof_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_bitumen_fixed_roof_edge_1_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_fixed_roof_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_bitumen_old_roof_edge_2_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_fixed_roof_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_bitumen_fixed_roof_edge_2_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_fixed_roof_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_bitumen_old_roof_edge_3_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_fixed_roof_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_bitumen_fixed_roof_edge_3_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_fixed_roof_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_bitumen_fixed_roof_bottom_1_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_fixed_roof_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_bitumen_fixed_roof_bottom_2_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_fixed_roof_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_bitumen_fixed_roof_bottom_3_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_fixed_roof_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_bitumen_fixed_roof_bottom_4_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_fixed_roof_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_bitumen_fixed_roof_middle_1_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_fixed_roof_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_bitumen_fixed_roof_middle_2_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_fixed_roof_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_bitumen_fixed_roof_middle_3_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_fixed_roof_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_bitumen_fixed_roof_middle_4_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_fixed_roof_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_bitumen_fixed_roof_top_1_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_fixed_roof_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_bitumen_fixed_roof_top_2_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_fixed_roof_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_bitumen_fixed_roof_top_3_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_fixed_roof_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_bitumen_fixed_roof_top_4_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_fixed_roof_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_bitumen_old_roof_bottom_1_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_fixed_roof_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_bitumen_old_roof_bottom_2_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_fixed_roof_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_bitumen_old_roof_bottom_3_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_fixed_roof_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_bitumen_old_roof_bottom_4_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_fixed_roof_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_bitumen_old_roof_middle_1_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_fixed_roof_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_bitumen_old_roof_middle_2_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_fixed_roof_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_bitumen_old_roof_middle_3_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_fixed_roof_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_bitumen_old_roof_middle_4_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_fixed_roof_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_bitumen_old_roof_top_1_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_fixed_roof_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_bitumen_old_roof_top_2_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_fixed_roof_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_bitumen_old_roof_top_3_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_fixed_roof_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_bitumen_old_roof_top_4_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_fixed_roof_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_metal_new_roof_2_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_fixed_roof_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_stretch_fixed_roof_7_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_fixed_roof_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_stretch_fixed_roof_7_2_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_fixed_roof_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_stretch_fixed_roof_7_3_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_fixed_roof_1_1_nocenter.x
+
+wildcart prefabs\buildings\barns\bn_bitumen_fixed_roof_3_5_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_new_roof_4_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_bitumen_old_roof_3_5_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_new_roof_4_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_bitumen_fixed_roof_4_5_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_new_roof_4_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_stretch_fixed_roof_8_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_new_roof_4_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_metal_new_roof_2a_nocenter.x
+physics 4 0 prefabs\buildings\barns\bn_bitumen_new_roof_4_1_nocenter.x
+
+wildcart prefabs\buildings\barns\bn_wood_fixed_wall_front_1_2_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_front_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_wood_new_wall_front_1_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_front_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_wood_fixed_wall_front_1_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_front_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_wood_fixed_wall_front_1_3_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_front_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_wood_old_wall_front_1_3_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_front_1_1_nocenter.x
+
+wildcart prefabs\buildings\barns\bn_wood_fixed_wall_front_2_2_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_front_2_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_wood_new_wall_front_2_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_front_2_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_wood_fixed_wall_front_2_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_front_2_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_wood_fixed_wall_front_2_3_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_front_2_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_wood_old_wall_front_2_3_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_wall_front_2_1_nocenter.x
+
+wildcart prefabs\buildings\barns\bn_wood_fixed_stairs_1_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_stairs_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_wood_fixed_stairs_1_2_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_stairs_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_wood_old_stairs_1_2_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_stairs_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_wood_fixed_stairs_1_3_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_stairs_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_wood_old_stairs_1_3_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_stairs_1_1_nocenter.x
+wildcart prefabs\buildings\barns\bn_wood_new_stairs_1_1_nocenter.x
+physics 4 0 prefabs\buildings\barns\physics_bn_stairs_1_1_nocenter.x
+
+
+wildcart prefabs\buildings\barns\bn_brick_fixed_innerwall_up_2_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\barns\bn_brick_fixed_innerwall_down_2_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\barns\bn_brick_fixed_wall_up_2_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\barns\bn_brick_fixed_wall_down_2_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\barns\bn_concrete_new_wall_up_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\barns\bn_concrete_new_wall_down_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\barns\bn_concrete_new_innerwall_up_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\barns\bn_concrete_new_innerwall_down_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\barns\bn_concrete_fixed_wall_up_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\barns\bn_concrete_fixed_wall_down_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\barns\bn_concrete_fixed_innerwall_up_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\barns\bn_concrete_fixed_innerwall_down_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\barns\bn_brick_fixed_wall_up_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\barns\bn_brick_fixed_wall_down_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\barns\bn_brick_fixed_innerwall_up_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\barns\bn_brick_fixed_innerwall_down_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\barns\bn_brick_fixed_wall_up_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\barns\bn_brick_fixed_wall_down_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\barns\bn_brick_fixed_innerwall_up_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\barns\bn_brick_fixed_innerwall_down_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\barns\bn_brick_new_wall_down_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\barns\bn_brick_new_wall_up_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\barns\bn_brick_new_innerwall_up_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\barns\bn_brick_new_innerwall_down_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\barns\bn_concrete_fixed_wall_up_3_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\barns\bn_concrete_fixed_wall_down_3_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\barns\bn_brick_fixed_wall_up_3_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\barns\bn_brick_fixed_wall_down_3_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\barns\bn_brick_fixed_wall_up_3_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\barns\bn_brick_fixed_wall_down_3_2_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\barns\bn_concrete_fixed_wall_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\barns\bn_brick_fixed_wall_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\barns\bn_brick_fixed_wall_inner_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\barns\bn_concrete_new_wall_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\barns\bn_concrete_new_wall_inner_1_1_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\barns\bn_wood_fixed_floor_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\barns\bn_wood_fixed_floor_1_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\barns\bn_wood_new_floor_1_1_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\barns\bn_wood_fixed_floor_2_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\barns\bn_wood_fixed_floor_2_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\barns\bn_wood_new_floor_2_1_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\barns\bn_wood_fixed_gate_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\barns\bn_wood_new_gate_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\barns\bn_wood_fixed_gate_1_2_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\barns\bn_wood_fixed_gate_2_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\barns\bn_wood_new_gate_2_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\barns\bn_wood_fixed_gate_2_2_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\barns\bn_wood_fixed_door_1_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\barns\bn_wood_new_door_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\barns\bn_wood_fixed_door_1_1_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\barns\bn_wood_fixed_fence_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\barns\bn_wood_new_fence_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\barns\bn_wood_fixed_fence_1_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\barns\bn_wood_fixed_fence_1_3_nocenter.x
+physics 1
+
+
+
+
+// COWSHED
+
+
+
+wildcart prefabs\buildings\cowshed\cs_wood_fixed_balcony_1_2_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\PHYSICS_cs_wood_balcony_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_wood_old_balcony_1_2_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\PHYSICS_cs_wood_balcony_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_wood_fixed_balcony_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\PHYSICS_cs_wood_balcony_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_wood_old_balcony_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\PHYSICS_cs_wood_balcony_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_wood_new_balcony_1_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\PHYSICS_cs_wood_balcony_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_wood_fixed_balcony_1_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\PHYSICS_cs_wood_balcony_nocenter.x
+
+wildcart prefabs\buildings\cowshed\cs_brick_old_innerwall_1_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_concrete_old_wall_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_old_wall_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_innerwall_1_7_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_innerwall_1_6_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_innerwall_1_5_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_innerwall_1_4_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_concrete_new_innerwall_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_innerwall_1_3_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_innerwall_1_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_innerwall_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_old_innerwall_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_innerwall_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_new_innerwall_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_new_wall_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_concrete_new_wall_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_concrete_fixed_wall_1_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_concrete_fixed_wall_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_concrete_fixed_wall_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_wall_1_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_wall_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_wall_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_wall_2_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_wall_2_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_wall_2_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_wall_2_3_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_wall_2_4_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_concrete_new_innerwall_up_7_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_new_innerwall_up_7_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_innerwall_up_7_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_concrete_new_wall_up_7_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_concrete_fixed_wall_up_7_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_new_wall_up_7_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_wall_up_7_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_concrete_new_innerwall_up_8_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_new_innerwall_up_8_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_innerwall_up_8_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_concrete_new_wall_up_8_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_concrete_fixed_wall_up_8_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_new_wall_up_8_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_wall_up_8_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_concrete_new_innerwall_up_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_new_innerwall_up_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_innerwall_up_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_old_innerwall_up_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_innerwall_up_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_concrete_new_wall_up_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_concrete_fixed_wall_up_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_concrete_old_wall_up_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_concrete_fixed_wall_up_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_new_wall_up_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_wall_up_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_wall_up_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_old_wall_up_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_innerwall_half_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_old_innerwall_half_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_innerwall_half_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_new_innerwall_half_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_concrete_new_innerwall_half_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_cornice_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_concrete_new_cornice_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_new_cornice_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_wood_fixed_ceiling_1_4_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_wood_fixed_ceiling_1_3_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_wood_old_ceiling_1_3_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_wood_fixed_ceiling_1_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_wood_fixed_ceiling_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_wood_new_ceiling_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_wood_fixed_ceiling_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_wood_fixed_floor_1_4_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_wood_fixed_floor_1_3_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_wood_fixed_floor_1_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_wood_fixed_floor_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_wood_new_floor_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_wood_fixed_floor_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_wood_fixed_ceiling_2_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_wood_old_ceiling_2_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_wood_fixed_ceiling_2_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_wood_old_ceiling_2_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_wood_new_ceiling_2_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_wood_fixed_ceiling_2_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_wood_fixed_partition_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_wood_new_partition_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_wood_old_partition_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_wood_fixed_partition_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_wood_old_partition_1_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_wood_fixed_partition_1_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_wood_fixed_ceiling_bar_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_wood_new_ceiling_bar_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_wood_fixed_ceiling_bar_2_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_wood_new_ceiling_bar_2_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_wood_fixed_tudor_wall_corner_up_3_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_wood_new_tudor_wall_corner_up_3_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_metal_scratch_door_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_metal_fixed_door_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_metal_new_door_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_wall_box_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_concrete_new_wall_box_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_wall_box_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_old_wall_box_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_new_wall_box_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_metal_new_wall_box_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_metal_fixed_wall_box_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_metal_scratch_wall_box_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_metal_new_wall_box_4_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_metal_fixed_wall_box_4_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_metal_scratch_wall_box_4_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_metal_new_wall_box_3_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_metal_fixed_wall_box_3_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_metal_scratch_wall_box_3_0_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\cowshed\cs_brick_new_wall_door_2_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_wall_door_2_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_old_wall_door_2_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_wall_door_2_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_old_wall_door_2_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_wall_door_2_2_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\cowshed\cs_wood_fixed_door_1_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wood_fixed_door_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_wood_new_door_1_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wood_fixed_door_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_wood_old_door_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wood_fixed_door_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_wood_fixed_door_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wood_fixed_door_1_0_nocenter.x
+
+wildcart prefabs\buildings\cowshed\cs_brick_new_innerwall_window_1_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_innerwall_window_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_innerwall_window_1_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_innerwall_window_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_old_innerwall_window_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_innerwall_window_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_innerwall_window_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_innerwall_window_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_old_innerwall_window_1_2_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_innerwall_window_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_innerwall_window_1_2_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_innerwall_window_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_concrete_new_innerwall_window_1_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_innerwall_window_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_innerwall_window_1_3_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_innerwall_window_1_0_nocenter.x
+
+wildcart prefabs\buildings\cowshed\cs_brick_new_innerwall_door_1_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_innerwall_door_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_innerwall_door_1_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_innerwall_door_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_old_innerwall_door_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_innerwall_door_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_innerwall_door_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_innerwall_door_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_innerwall_door_1_3_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_innerwall_door_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_innerwall_door_1_2_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_innerwall_door_1_0_nocenter.x
+
+wildcart prefabs\buildings\cowshed\cs_brick_new_innerwall_window_2_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_innerwall_window_2_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_innerwall_window_2_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_innerwall_window_2_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_old_innerwall_window_2_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_innerwall_window_2_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_innerwall_window_2_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_innerwall_window_2_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_old_innerwall_window_2_2_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_innerwall_window_2_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_innerwall_window_2_2_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_innerwall_window_2_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_concrete_new_innerwall_window_2_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_innerwall_window_2_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_innerwall_window_2_3_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_innerwall_window_2_0_nocenter.x
+
+wildcart prefabs\buildings\cowshed\cs_brick_new_innerwall_gate_1_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_innerwall_gate_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_innerwall_gate_1_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_innerwall_gate_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_old_innerwall_gate_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_innerwall_gate_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_innerwall_gate_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_innerwall_gate_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_concrete_new_innerwall_gate_1_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_innerwall_gate_1_0_nocenter.x
+
+wildcart prefabs\buildings\cowshed\cs_brick_new_wall_window_1_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_window_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_concrete_new_wall_window_1_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_window_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_concrete_fixed_wall_window_1_2_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_window_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_concrete_old_wall_window_1_2_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_window_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_concrete_fixed_wall_window_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_window_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_concrete_fixed_wall_window_1_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_window_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_wall_window_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_window_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_old_wall_window_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_window_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_wall_window_1_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_window_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_wall_window_3_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_window_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_wall_window_3_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_window_1_0_nocenter.x
+
+wildcart prefabs\buildings\cowshed\cs_brick_new_wall_door_1_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_door_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_concrete_new_wall_door_1_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_door_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_concrete_fixed_wall_door_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_door_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_concrete_old_wall_door_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_door_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_concrete_fixed_wall_door_1_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_door_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_wall_door_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_door_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_old_wall_door_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_door_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_wall_door_1_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_door_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_wall_door_3_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_door_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_wall_door_3_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_door_1_0_nocenter.x
+
+wildcart prefabs\buildings\cowshed\cs_brick_new_wall_window_2_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_window_2_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_concrete_new_wall_window_2_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_window_2_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_concrete_fixed_wall_window_2_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_window_2_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_wall_window_2_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_window_2_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_wall_window_4_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_window_2_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_wall_window_4_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_window_2_0_nocenter.x
+
+wildcart prefabs\buildings\cowshed\cs_brick_new_wall_gate_1_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_gate_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_concrete_new_wall_gate_1_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_gate_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_concrete_fixed_wall_gate_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_gate_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_concrete_old_wall_gate_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_gate_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_concrete_fixed_wall_gate_1_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_gate_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_wall_gate_1_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_gate_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_wall_gate_2_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_gate_1_0_nocenter.x
+
+wildcart prefabs\buildings\cowshed\cs_brick_new_wall_corner_1_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_corner_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_concrete_new_wall_corner_1_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_corner_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_concrete_fixed_wall_corner_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_corner_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_concrete_old_wall_corner_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_corner_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_concrete_fixed_wall_corner_1_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_corner_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_wall_corner_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_corner_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_old_wall_corner_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_corner_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_wall_corner_1_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_corner_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_wall_corner_3_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_corner_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_wall_corner_3_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_corner_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_wall_corner_3_2_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_corner_1_0_nocenter.x
+
+wildcart prefabs\buildings\cowshed\cs_brick_new_innerwall_corner_1_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_innerwall_corner_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_innerwall_corner_1_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_innerwall_corner_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_old_innerwall_corner_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_innerwall_corner_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_innerwall_corner_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_innerwall_corner_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_old_innerwall_corner_1_2_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_innerwall_corner_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_innerwall_corner_1_2_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_innerwall_corner_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_concrete_new_innerwall_corner_1_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_innerwall_corner_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_innerwall_corner_1_3_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_innerwall_corner_1_0_nocenter.x
+
+wildcart prefabs\buildings\cowshed\cs_brick_old_innerwall_up_corner_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_brick_new_innerwall_up_corner_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_innerwall_up_corner_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_brick_new_innerwall_up_corner_1_0_nocenter.x
+
+wildcart prefabs\buildings\cowshed\cs_concrete_fixed_wall_up_corner_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_concrete_new_wall_up_corner_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_wall_up_corner_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_concrete_new_wall_up_corner_1_0_nocenter.x
+
+wildcart prefabs\buildings\cowshed\cs_brick_old_innerwall_up_corner_2_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_brick_new_innerwall_up_corner_2_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_innerwall_up_corner_2_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_brick_new_innerwall_up_corner_2_0_nocenter.x
+
+wildcart prefabs\buildings\cowshed\cs_concrete_fixed_wall_up_corner_2_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_brick_new_wall_up_corner_2_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_concrete_old_wall_up_corner_2_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_brick_new_wall_up_corner_2_0_nocenter.x
+
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_innerwall_up_corner_4_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_brick_new_innerwall_up_corner_4_0_nocenter.x
+
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_window_innerwall_up_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_brick_innerwall_up_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_old_window_innerwall_up_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_brick_innerwall_up_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_window_innerwall_up_1_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_brick_innerwall_up_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_new_window_innerwall_up_1_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_brick_innerwall_up_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_concrete_new_window_innerwall_up_1_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_brick_innerwall_up_1_0_nocenter.x
+
+wildcart prefabs\buildings\cowshed\cs_concrete_new_window_wall_up_1_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_window_wall_up_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_concrete_fixed_window_wall_up_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_window_wall_up_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_concrete_old_window_wall_up_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_window_wall_up_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_concrete_fixed_window_wall_up_1_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_window_wall_up_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_new_window_wall_up_1_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_window_wall_up_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_window_wall_up_1_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_window_wall_up_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_window_wall_up_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_window_wall_up_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_old_window_wall_up_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_window_wall_up_1_0_nocenter.x
+
+wildcart prefabs\buildings\cowshed\cs_brick_old_innerwall_up_10_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_brick_new_innerwall_up_10_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_crashed_fixed_wall_up_10_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_brick_new_innerwall_up_10_0_nocenter.x
+
+wildcart prefabs\buildings\cowshed\cs_concrete_fixed_wall_up_10_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_brick_fixed_wall_up_10_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_concrete_old_wall_up_10_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_brick_fixed_wall_up_10_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_wall_up_10_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_brick_fixed_wall_up_10_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_old_wall_up_10_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_brick_fixed_wall_up_10_0_nocenter.x
+
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_innerwall_up_6_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_brick_new_innerwall_up_6_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_crashed_fixed_wall_up_6_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_brick_new_innerwall_up_6_0_nocenter.x
+
+wildcart prefabs\buildings\cowshed\cs_brick_old_wall_up_6_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_brick_fixed_wall_up_6_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_wall_up_6_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_brick_fixed_wall_up_6_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_concrete_old_wall_up_6_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_brick_fixed_wall_up_6_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_concrete_fixed_wall_up_6_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_brick_fixed_wall_up_6_0_nocenter.x
+
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_innerwall_up_5_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_brick_new_innerwall_up_5_0_nocenter.x
+
+wildcart prefabs\buildings\cowshed\cs_concrete_fixed_wall_up_5_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_brick_fixed_wall_up_5_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_concrete_old_wall_up_5_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_brick_fixed_wall_up_5_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_wall_up_5_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_brick_fixed_wall_up_5_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_old_wall_up_5_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_brick_fixed_wall_up_5_0_nocenter.x
+
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_innerwall_up_4_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_brick_new_innerwall_up_4_0_nocenter.x
+
+wildcart prefabs\buildings\cowshed\cs_concrete_fixed_wall_up_4_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_brick_fixed_wall_up_4_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_concrete_old_wall_up_4_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_brick_fixed_wall_up_4_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_wall_up_4_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_brick_fixed_wall_up_4_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_old_wall_up_4_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_brick_fixed_wall_up_4_0_nocenter.x
+
+wildcart prefabs\buildings\cowshed\cs_brick_new_innerwall_corner_2_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_innerwall_corner_2_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_innerwall_corner_2_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_innerwall_corner_2_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_old_innerwall_corner_2_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_innerwall_corner_2_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_innerwall_corner_2_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_innerwall_corner_2_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_concrete_new_innerwall_corner_2_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_innerwall_corner_2_0_nocenter.x
+
+wildcart prefabs\buildings\cowshed\cs_brick_new_wall_corner_2_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_corner_2_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_concrete_new_wall_corner_2_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_corner_2_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_innerwall_corner_2_2_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_corner_2_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_concrete_fixed_wall_corner_2_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_corner_2_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_concrete_old_wall_corner_2_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_corner_2_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_concrete_fixed_wall_corner_2_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_corner_2_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_wall_corner_2_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_corner_2_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_wall_corner_4_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wall_corner_2_0_nocenter.x
+
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_wall_up_12_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_brick_fixed_wall_up_12_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_wall_up_14_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_brick_fixed_wall_up_12_0_nocenter.x
+
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_wall_up_11_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_brick_fixed_wall_up_11_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_brick_fixed_wall_up_15_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_brick_fixed_wall_up_11_0_nocenter.x
+
+wildcart prefabs\buildings\cowshed\cs_bitumen_new_roof3_3_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof6_1_1_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_bitumen_new_roof3_1_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof6_1_1_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_bitumen_new_roof3_4_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof6_1_1_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_bitumen_new_roof3_2_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof6_1_1_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_bitumen_fixed_roof3_3_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof6_1_1_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_bitumen_fixed_roof3_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof6_1_1_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_bitumen_fixed_roof3_4_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof6_1_1_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_bitumen_fixed_roof3_2_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof6_1_1_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_bitumen_old_roof3_3_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof6_1_1_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_bitumen_old_roof3_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof6_1_1_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_bitumen_old_roof3_4_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof6_1_1_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_bitumen_old_roof3_2_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof6_1_1_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_stretch_fixed_roof7_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof6_1_1_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_stretch_fixed_roof7_1_2_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof6_1_1_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_stretch_fixed_roof7_1_3_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof6_1_1_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_bitumen_fixed_roof4_top_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof6_1_1_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_bitumen_fixed_roof4_top_2_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof6_1_1_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_bitumen_fixed_roof4_top_3_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof6_1_1_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_bitumen_fixed_roof4_bottom_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof6_1_1_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_bitumen_fixed_roof4_bottom_2_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof6_1_1_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_bitumen_fixed_roof4_bottom_3_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof6_1_1_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_bitumen_fixed_roof2_bottom_3_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof6_1_1_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_bitumen_fixed_roof2_bottom_2_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof6_1_1_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_bitumen_fixed_roof2_bottom_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof6_1_1_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_bitumen_fixed_roof2_edge_3_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof6_1_1_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_bitumen_fixed_roof_edge2_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof6_1_1_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_bitumen_fixed_roof2_top_3_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof6_1_1_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_bitumen_fixed_roof2_top_2_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof6_1_1_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_bitumen_fixed_roof2_top_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof6_1_1_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_bitumen_fixed_roof2_edge_4_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof6_1_1_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_bitumen_fixed_roof_edge2_2_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof6_1_1_nocenter.x
+
+wildcart prefabs\buildings\cowshed\cs_bitumen_fixed_roof_top_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof_1_1_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_bitumen_fixed_roof_top_2_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof_1_1_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_bitumen_fixed_roof_top_3_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof_1_1_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_bitumen_fixed_roof_top_4_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof_1_1_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_bitumen_fixed_roof_middle_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof_1_1_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_bitumen_fixed_roof_middle_2_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof_1_1_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_bitumen_fixed_roof_middle_3_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof_1_1_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_bitumen_fixed_roof_middle_4_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof_1_1_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_bitumen_fixed_roof_bottom_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof_1_1_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_bitumen_fixed_roof_bottom_2_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof_1_1_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_bitumen_fixed_roof_bottom_3_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof_1_1_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_bitumen_fixed_roof_bottom_4_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof_1_1_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_bitumen_fixed_roof_edge_2_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof_1_1_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_bitumen_fixed_roof_edge_4_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof_1_1_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_bitumen_fixed_roof_edge_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof_1_1_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_bitumen_fixed_roof_edge_3_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof_1_1_nocenter.x
+
+
+wildcart prefabs\buildings\cowshed\cs_stretch_fixed_roof7a_1_3_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof6a_1_1_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_stretch_fixed_roof7a_1_2_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof6a_1_1_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_stretch_fixed_roof7a_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof6a_1_1_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_bitumen_new_roof3a_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\cs_bitumen_new_roof6a_1_1_nocenter.x
+
+
+wildcart prefabs\buildings\cowshed\cs_wood_fixed_roof_innerside_4_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wood_fixed_roof_innerside_nocenter.X
+wildcart prefabs\buildings\cowshed\cs_wood_old_roof_innerside_4_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wood_fixed_roof_innerside_nocenter.X
+wildcart prefabs\buildings\cowshed\cs_wood_fixed_roof_innerside_3_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wood_fixed_roof_innerside_nocenter.X
+wildcart prefabs\buildings\cowshed\cs_wood_old_roof_innerside_3_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wood_fixed_roof_innerside_nocenter.X
+wildcart prefabs\buildings\cowshed\cs_wood_fixed_roof_innerside_3_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wood_fixed_roof_innerside_nocenter.X
+wildcart prefabs\buildings\cowshed\cs_wood_new_roof_innerside_3_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_wood_fixed_roof_innerside_nocenter.X
+
+
+
+
+wildcart prefabs\buildings\cowshed\cs_wood_fixed_stairs_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_stairs_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_wood_new_stairs_1_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_stairs_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_wood_fixed_stairs_1_0_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_stairs_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_wood_old_stairs_1_1_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_stairs_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_wood_old_stairs_1_2_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_stairs_1_0_nocenter.x
+wildcart prefabs\buildings\cowshed\cs_wood_fixed_stairs_1_2_nocenter.x
+physics 4 0 prefabs\buildings\cowshed\physics_cs_stairs_1_0_nocenter.x
+
+
+
+
+// HOUSES
+
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_balcony_1_3_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wood_balcony_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_balcony_1_2_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wood_balcony_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_balcony_1_1_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wood_balcony_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wood_old_balcony_1_1_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wood_balcony_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_balcony_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wood_balcony_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_balcony_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wood_balcony_nocenter.x
+
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_stairs_handrail_1_4_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_stairs_handrail_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_stairs_handrail_1_4_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_stairs_handrail_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wood_old_stairs_handrail_1_5_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_stairs_handrail_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_stairs_handrail_1_5_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_stairs_handrail_nocenter.x
+
+
+
+
+wildcart prefabs\buildings\playerhouse_old\hs_brick_new2_wall_corner_2_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_corner_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_brick_new_wall_corner_2_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_corner_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_brick_fixed_wall_corner_2_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_corner_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_brick_fixed_wall_corner_2_1_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_corner_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_brick_fixed_wall_corner_2_2_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_corner_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_brick_new2_wall_corner_20_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_corner_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_brick_new_wall_corner_20_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_corner_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_brick_fixed_wall_corner_20_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_corner_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_brick_fixed_wall_corner_20_1_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_corner_2_0_nocenter.x
+
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_new2_wall_door_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_door_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_new_wall_door_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_door_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_fixed_wall_door_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_door_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_old_wall_door_1_1_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_door_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_fixed_wall_door_1_1_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_door_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_old_wall_door_1_2_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_door_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_fixed_wall_door_1_2_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_door_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_new2_wall_door_10_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_door_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_new_wall_door_10_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_door_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_fixed_wall_door_10_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_door_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_old_wall_door_10_1_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_door_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_fixed_wall_door_10_1_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_door_2_0_nocenter.x
+
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_new2_wall_window_2_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_window_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_new_wall_window_2_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_window_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_fixed_wall_window_2_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_window_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_old_wall_window_2_1_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_window_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_fixed_wall_window_2_1_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_window_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_fixed_wall_window_2_2_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_window_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_old_wall_window_2_3_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_window_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_fixed_wall_window_2_3_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_window_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_new2_wall_window_20_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_window_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_new_wall_window_20_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_window_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_fixed_wall_window_20_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_window_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_old_wall_window_20_1_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_window_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_fixed_wall_window_20_1_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_window_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_fixed_wall_window_20_2_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_window_2_0_nocenter.x
+
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_new2_wall_window_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_window_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_new_wall_window_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_window_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_fixed_wall_window_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_window_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_fixed_wall_window_1_1_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_window_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_old_wall_window_1_2_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_window_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_fixed_wall_window_1_2_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_window_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_old_wall_window_1_3_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_window_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_fixed_wall_window_1_3_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_window_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_new2_wall_window_10_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_window_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_new_wall_window_10_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_window_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_fixed_wall_window_10_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_window_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_fixed_wall_window_10_1_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_window_1_0_nocenter.x
+
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_new2_wall_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_new_wall_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_fixed_wall_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_fixed_wall_1_1_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_old_wall_1_2_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_fixed_wall_1_2_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_old_wall_1_3_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_fixed_wall_1_3_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_fixed_wall_1_4_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_new2_wall_10_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_new_wall_10_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_fixed_wall_10_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_fixed_wall_10_1_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_1_0_nocenter.x
+
+wildcart prefabs\buildings\playerhouse_old\hs_brick_new2_innerwall_corner_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_corner_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_brick_new_innerwall_corner_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_corner_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_brick_fixed_innerwall_corner_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_corner_2_0_nocenter.x
+
+wildcart prefabs\buildings\playerhouse_old\hs_brick_new2_wall_door_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_door_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_brick_new_wall_door_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_door_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_brick_fixed_wall_door_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_door_2_0_nocenter.x
+
+wildcart prefabs\buildings\playerhouse_old\hs_brick_new2_wall_window_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_brick_new_wall_window_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_brick_fixed_wall_window_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_1_0_nocenter.x
+
+wildcart prefabs\buildings\playerhouse_old\hs_brick_new2_wall_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_brick_new_wall_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_brick_fixed_wall_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_1_0_nocenter.x
+
+wildcart prefabs\buildings\playerhouse_old\hs_brick_new2_innerwall_door_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_innerwall_door_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_brick_new_innerwall_door_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_innerwall_door_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_brick_fixed_innerwall_door_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_innerwall_door_2_0_nocenter.x
+
+wildcart prefabs\buildings\playerhouse_old\hs_brick_new2_innerwall_window_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_innerwall_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_brick_new_innerwall_window_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_innerwall_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_brick_fixed_innerwall_window_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_innerwall_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_brick_new2_innerwall_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_innerwall_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_brick_new_innerwall_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_innerwall_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_brick_fixed_innerwall_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_innerwall_1_0_nocenter.x
+
+wildcart prefabs\buildings\playerhouse_old\hs_wallpaper_fixed_wall_corner_1_10_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_innerwall_corner_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_new_innerwall_corner_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_innerwall_corner_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wallpaper_new_wall_corner_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_innerwall_corner_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wallpaper_fixed_wall_corner_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_innerwall_corner_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wallpaper_fixed_wall_corner_1_1_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_innerwall_corner_2_0_nocenter.x
+
+wildcart prefabs\buildings\playerhouse_old\hs_wallpaper_fixed_wall_window_1_11_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_innerwall_window_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wallpaper_fixed_wall_window_1_10_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_innerwall_window_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_new_innerwall_window_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_innerwall_window_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wallpaper_new_wall_window_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_innerwall_window_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wallpaper_fixed_wall_window_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_innerwall_window_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wallpaper_fixed_wall_window_1_1_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_innerwall_window_1_0_nocenter.x
+
+wildcart prefabs\buildings\playerhouse_old\hs_wallpaper_fixed_wall_window_2_10_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_innerwall_window_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_new_innerwall_window_2_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_innerwall_window_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wallpaper_new_wall_window_2_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_innerwall_window_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wallpaper_fixed_wall_window_2_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_innerwall_window_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wallpaper_fixed_wall_window_2_1_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_innerwall_window_2_0_nocenter.x
+
+wildcart prefabs\buildings\playerhouse_old\hs_wallpaper_fixed_wall_door_1_10_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_innerwall_door_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_new_innerwall_door_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_innerwall_door_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wallpaper_new_wall_door_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_innerwall_door_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wallpaper_fixed_wall_door_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_innerwall_door_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wallpaper_fixed_wall_door_1_1_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_innerwall_door_2_0_nocenter.x
+
+wildcart prefabs\buildings\playerhouse_old\hs_wallpaper_fixed_wall_1_10_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_innerwall_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_new_innerwall_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_innerwall_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wallpaper_new_wall_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_innerwall_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wallpaper_fixed_wall_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_innerwall_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wallpaper_fixed_wall_1_1_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_innerwall_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wallpaper_fixed_wall_1_2_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_innerwall_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wallpaper_fixed_wall_1_3_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_innerwall_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wallpaper_fixed_wall_1_4_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_innerwall_1_0_nocenter.x
+
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_wall_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_wall_1_1_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_wall_1_2_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_1_0_nocenter.x
+
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_wall_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_wall_3_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_wall_3_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wood_old_wall_3_1_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_wall_3_1_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_wall_3_2_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_1_0_nocenter.x
+
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_wall_window_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_window_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_wall_window_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_window_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_wall_window_1_1_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_window_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wood_old_wall_window_1_2_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_window_1_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_wall_window_1_2_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_window_1_0_nocenter.x
+
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_wall_window_2_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_window_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_wall_window_2_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_window_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wood_old_wall_window_2_1_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_window_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_wall_window_2_1_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_window_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wood_old_wall_window_2_2_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_window_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_wall_window_2_2_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_window_2_0_nocenter.x
+
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_wall_window_3_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_window_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_wall_window_3_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_window_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wood_old_wall_window_3_1_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_window_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_wall_window_3_1_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_window_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wood_old_wall_window_3_2_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_window_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_wall_window_3_2_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_window_2_0_nocenter.x
+
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_wall_door_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_door_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_wall_door_1_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_door_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wood_old_wall_door_1_1_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_door_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_wall_door_1_1_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_door_2_0_nocenter.x
+
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_wall_door_3_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_door_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_wall_door_3_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_door_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wood_old_wall_door_3_1_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_door_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_wall_door_3_1_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_door_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_wall_door_3_2_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_door_2_0_nocenter.x
+
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_wall_corner_3_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_corner_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_wall_corner_3_0_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_corner_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wood_old_wall_corner_3_1_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_corner_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_wall_corner_3_1_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_corner_2_0_nocenter.x
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_wall_corner_3_2_nocenter.x
+physics 4 0 prefabs\buildings\playerhouse_old\physics_hs_wall_corner_2_0_nocenter.x
+
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_door_4_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_door_4_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_gate_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_gate_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_old_gate_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_gate_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_gate_2_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_gate_2_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_old_gate_2_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_gate_2_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wallpaper_fixed_wall_2_10_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_new_innerwall_2_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wallpaper_new_wall_2_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wallpaper_fixed_wall_2_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wallpaper_fixed_wall_3_10_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_plaster_new_innerwall_3_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wallpaper_new_wall_3_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wallpaper_fixed_wall_3_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wallpaper_fixed_wall_3_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_wall_2_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_wall_2_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_old_wall_2_3_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_wall_2_3_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_wall_2_4_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_wall_2_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_wall_2_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_old_wall_2_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_wall_2_2_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_railing_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_railing_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_old_railing_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_railing_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_old_railing_1_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_railing_1_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_railing_1_3_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_railing_2_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_railing_2_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_old_railing_2_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_railing_2_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_old_railing_2_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_railing_2_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_railing_2_3_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_balcony_3_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_balcony_3_0_nocenter.x
+physics 1
+
+
+
+
+
+
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_ceiling_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_ceiling_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_old_ceiling_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_ceiling_1_1_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_shutter_2_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_shutter_2_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_old_shutter_2_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_shutter_2_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_old_shutter_2_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_shutter_2_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_shutter_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_shutter_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_old_shutter_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_shutter_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_old_shutter_1_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_shutter_1_2_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_door_2_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_door_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_door_3_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_door_3_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_old_door_3_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_door_3_1_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_window_3_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_window_3_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_window_4_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_window_4_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_window_6_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_old_window_6_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_window_6_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_window_6_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_window_5_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_old_window_5_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_window_5_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_window_5_0_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_pylon_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_pylon_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_cornice_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_cornice_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_old_cornice_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_cornice_1_1_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_floor_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_old_floor_1_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_floor_4_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_floor_3_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_floor_2_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_floor_2_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_floor_2_01_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_floor_3_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_floor_2_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_floor_2_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_old_floor_2_11_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_floor_2_11_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_old_floor_2_12_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_floor_2_12_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_floor_2_13_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_floor_3_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_floor_2_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_floor_2_2_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_floor_2_21_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_floor_2_22_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_floor_3_3_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_floor_2_3_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_floor_2_3_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_floor_2_31_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_old_floor_2_32_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_floor_2_32_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_floor_3_4_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_floor_2_4_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_floor_2_4_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_old_floor_2_41_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_floor_2_41_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_floor_3_5_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_floor_2_5_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_floor_2_5_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_floor_3_6_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_floor_2_6_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_floor_2_6_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_old_floor_2_61_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_floor_2_61_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_floor_3_7_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_floor_2_7_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_floor_2_7_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_floor_2_71_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_floor_2_72_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_floor_2_73_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_floor_2_74_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_floor_2_75_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_floor_3_8_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_floor_2_8_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_floor_2_8_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_floor_3_9_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_new_floor_2_9_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_wood_fixed_floor_2_9_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\playerhouse_old\hs_concrete_new_ceiling_4_10_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_concrete_fixed_ceiling_4_10_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_concrete_fixed_ceiling_4_11_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_concrete_new_ceiling_4_9_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_concrete_fixed_ceiling_4_9_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_concrete_fixed_ceiling_4_91_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_concrete_fixed_ceiling_4_92_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_concrete_fixed_ceiling_4_93_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_concrete_fixed_ceiling_4_94_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_concrete_new_ceiling_4_0_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_concrete_fixed_ceiling_4_0_nocenter.x
+physics 1
+
+wildcart prefabs\buildings\playerhouse_old\hs_brick_new_chimney_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_brick_fixed_chimney_1_1_nocenter.x
+physics 1
+wildcart prefabs\buildings\playerhouse_old\hs_concrete_new_chimney_1_1_nocenter.x
+physics 1
+

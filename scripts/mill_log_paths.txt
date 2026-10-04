@@ -1,0 +1,109 @@
+// okresla sciezki jakimi podrozuja logi miedzy markerami
+
+
+// sciezka z wody do bark strippera
+path do_milla
+
+move_to mill00
+speed 0.6
+
+move_to mill01
+speed 1.0
+move szczeki1 szczeki1End 1.0
+
+move_to mill02
+speed 1.0
+
+// tu jest poczatek tasmociagu
+move_to mill03
+move szczeki1 szczeki1Start 1.9
+speed 0.5
+// set BarkRemovalSound
+
+move_to mill04
+speed 2
+sound3d obj3521020 sfx\objects\bark_removal.wav
+
+move_to mill05
+action bark_knife
+
+// fx jaki skad
+fx afx_mill_bark mill_fx_bark
+
+
+// ruszam do mill06, musze zamienic na loga bez kory
+move_to mill06
+//switch_log_to prefabs\buildings\sawmill\tree_debarked_nocenter.X
+switch_log_to_debarked
+add_bark 70
+
+// przeskok w gore na rozdzielnik
+move_to mill07
+speed 5
+
+// na sam koniec rozdzielnika
+move_to mill08
+unset BarkRemovalSound
+
+
+
+
+// sciezka w lewo do log containera
+path do_logow
+
+move_to mill10
+speed 1.0
+
+move_to mill11
+roll -1
+speed 0.6
+
+move_to mill12
+roll -1
+speed 0.5
+move szczeki2 szczeki2End 0.47
+
+move_to mill13
+speed 7
+move szczeki2 szczeki2Start 1.2
+drop_with_physics
+
+
+
+// sciezka w prawo do pily
+
+path do_pily
+
+move_to mill20
+roll 1
+speed 1.0
+
+move_to mill21
+roll 1
+speed 1.0
+
+move_to mill22
+roll 1
+speed 0.6
+
+move_to mill23
+sound3d obj9954024 sfx\objects\board_cutter.wav
+speed 0.5
+move saw_trolley MillSawTrolleyEnd 0.5
+//action BoardCutterCover
+
+// fx jaki skad
+fx afx_mill_saw mill_fx_saws
+
+
+move_to mill24
+roll -1
+speed 1.0
+move saw_trolley MillSawTrolleyStart 1.0
+
+
+move_to mill25
+speed 1.0
+destroy
+add_planks 0.5
+add_chips 25

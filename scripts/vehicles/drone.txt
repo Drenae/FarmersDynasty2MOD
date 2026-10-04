@@ -1,0 +1,67 @@
+Vehicle >drone
+prefab prefabs\vehicles\drone\drone_nocenter.X
+Mass 20.0
+Stiffness 10
+
+spawn_id 43
+
+tag >MT24
+
+
+price 5000
+working_width 3.2
+
+
+
+// COLLISION MESH
+
+// pScaleZ
+mnoznik_fizyki_z 0.8
+// pScaleY
+mnoznik_fizyki_y 0.5
+// pScaleX
+mnoznik_fizyki_x 0.9
+
+// pTransZ
+przesuniecie_fizyki_przod -0.1
+// pTransY
+przesuniecie_fizyki_gora 0.6
+// pTransX
+przesuniecie_fizyki_prawo 0.0
+
+
+
+// HOOKS
+// zaczep3p zaczep3p
+/ zaczep3pgora zaczep3pgora
+
+
+
+
+//rotors
+attachment prefabs\vehicles\drone\rotor2_nocenter.x r1
+attachment prefabs\vehicles\drone\rotor2_nocenter.x r2
+attachment prefabs\vehicles\drone\rotor2_nocenter.x r3
+attachment prefabs\vehicles\drone\rotor2_nocenter.x r4
+
+
+
+// battery
+attachment prefabs\vehicles\drone\drone_battery_nocenter.X battery
+
+
+// tank
+attachment prefabs\vehicles\drone\drone_tank_nocenter.X tank
+
+
+
+
+
+// WORKING FX
+working_fx fx_plow_dust01 fx0
+working_fx afx_sianie fx1
+working_fx fx_plow_dust01 fx2
+working_fx afx_sianie fx3
+
+
+

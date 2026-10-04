@@ -1,0 +1,55 @@
+
+// nazwa questa, unikalna i wymagana
+name Hannah_sweetest_business
+icon hud_map_social.dds
+given_by_icon actor_unknown_woman.dds
+
+title OC12
+initial_waypoint hannah1
+initial_objective OC13
+given_by hannah1
+
+social_award 1
+award trailer_old_transporter
+
+wait 0.1 -waypoint * -checkpoint 10
+
+//idziemy na farme 22
+goto hannah1 -distance 5 -waypoint hannah1 -checkpoint 20
+wait 0.1 -waypoint *
+
+wait 1 -checkpoint 30
+
+// dialog z hannah w zaleznosci czy sie pomoglo dzemiarom w latach 60.
+// quest_dependency <quest_nadrzedny> <dialog_jak_juz_wykonany> <label_objective_jak_nie_wykonany> <dialog_jak_nie_wykonany> <dialog_jak_wracam_po_wykonaniu> <dialogi_z_kim> <dialogi_od_dystansu>
+quest_dependency Audrey_Claire hannah1_dialog1 OC13A hannah1_dialog31 hannah1_dialog32 hannah1 5 -waypoint hannah1
+wait_end_hero_dialog
+wait 1 -checkpoint 40
+
+//zbieramy japka
+wait 1 -playerhas apple 300 -waypoint hannah_orchard -objective OC14 -checkpoint 50
+wait 0.1 -waypoint *
+
+//zebrane, wracamy, dialog z Hannah
+goto hannah1 -distance 5 -waypoint hannah1 -objective OC15 -checkpoint 60 -playerhas apple 300
+wait 0.1 -waypoint *
+hero_dialog hannah1_dialog2 hannah1
+take_from_player apple 300
+likes_player hannah1 0.25
+wait_end_hero_dialog
+wait 1 -checkpoint 70
+
+//odbieramy nagrode
+goto hannah_flatbed -distance 8 -waypoint hannah_flatbed -objective OC16 -checkpoint 80
+give_vehicle_to_player hannah_flatbed
+wait 1 -waypoint * -checkpoint 90
+print koniec_questa_hannah_sweetest_business
+wait 1
+
+start_quest Luna_touch_time
+
+
+
+
+
+
