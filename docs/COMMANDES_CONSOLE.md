@@ -18,7 +18,7 @@ AddPallet 1             # palette de bois, essence aléatoire
 AddPallet 4             # briques
 AddPallet 27            # peinture ; couleur non garantie
 AddDryPallet 1          # palette de bois sèche
-setcash 100000          # à tester sur une sauvegarde de test
+setcash 100000          # définit l'argent disponible à 100 000 (ne l'ajoute pas)
 ```
 
 `AddPallet` reçoit un ID de matériau ; la seconde valeur numérique sert à l'humidité pour le bois et **pas** à choisir l'essence. Pour l'ID 1, essences internes : 0 Pin, 1 Chêne, 2 Bouleau, 3 Épicéa, 4 Peuplier.
@@ -30,7 +30,7 @@ setcash 100000          # à tester sur une sauvegarde de test
 | Nom | Description | Statut |
 |---|---|---|
 | `cash` | Modifie l'argent ; paramètre numérique, effet exact à confirmer | Identifié |
-| `setcash` | Définit une valeur d'argent ; entier lu par le gestionnaire | Identifié |
+| `setcash` | Définit directement le montant total d'argent du joueur à la valeur indiquée. **Ne s'ajoute pas** au solde existant. Syntaxe : `setcash <montant>`. | Confirmé |
 | `give` | Ajoute un objet d'après son identifiant interne | Identifié |
 | `AddPallet` | Crée une palette à partir d'un ID de matériau ; bois ID 1 avec essence aléatoire | Confirmé |
 | `AddDryPallet` | Crée une palette sèche ; bois ID 1 avec essence aléatoire | Confirmé |
@@ -425,9 +425,13 @@ Ces identifiants ont été trouvés dans le même ensemble de chaînes, mais ne 
 
 ## Tests en jeu confirmés
 
+- **2026-10-10 — `setcash <montant>`** : définit le solde total du joueur au montant indiqué, sans ajouter cette somme au solde précédent. Confirmation par test en jeu de l'utilisateur.
+
 - **2026-10-10 — `SkillsProgress 100`** : la barre de progression des compétences atteint 100 %. Le joueur peut débloquer des compétences ; chaque déblocage consomme une partie de la barre. Observation communiquée après test en jeu. La commande ne prouve pas à elle seule que chaque compétence est débloquée automatiquement.
 
 ## Historique
+
+- 2026-10-10 : confirmation de `setcash` (définit le solde, ne l'augmente pas).
 
 - 2026-10-10 : confirmation en jeu de `SkillsProgress 100` et mise à jour de son fonctionnement.
 - 2026-10-10 : création du catalogue initial, 351 chaînes candidates, à partir de l'inventaire extrait de l'EXE. Aucun fichier du jeu modifié.
