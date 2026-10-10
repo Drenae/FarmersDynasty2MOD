@@ -51,7 +51,7 @@ setcash 100000          # à tester sur une sauvegarde de test
 | Nom | Description | Statut |
 |---|---|---|
 | `ResetSkills` | Réinitialisation des compétences (effet à tester) | Identifié |
-| `SkillsProgress` | Progression des compétences ; paramètres à identifier | Identifié |
+| `SkillsProgress` | Ajoute de la progression/XP disponible pour débloquer des compétences. **Test en jeu :** `SkillsProgress 100` remplit la barre à 100 % ; débloquer une compétence consomme un pourcentage de cette réserve. Le comportement avec d'autres valeurs et la limite maximale restent à vérifier. | Confirmé |
 | `UnlockPerk` | Débloque un avantage ; ID à identifier | Identifié |
 | `LockPerk` | Verrouille un avantage ; ID à identifier | Identifié |
 | `StartQuest` | Fonction liée à « StartQuest » ; effet et paramètres à confirmer | À déterminer |
@@ -423,6 +423,11 @@ Ces identifiants ont été trouvés dans le même ensemble de chaînes, mais ne 
 
 À chaque nouvelle commande validée : mettre à jour sa description, sa syntaxe exacte, ses arguments, son statut et si possible le comportement observé. Ne pas supprimer les entrées incertaines sans preuve. Documenter les risques des commandes destructives.
 
+## Tests en jeu confirmés
+
+- **2026-10-10 — `SkillsProgress 100`** : la barre de progression des compétences atteint 100 %. Le joueur peut débloquer des compétences ; chaque déblocage consomme une partie de la barre. Observation communiquée après test en jeu. La commande ne prouve pas à elle seule que chaque compétence est débloquée automatiquement.
+
 ## Historique
 
+- 2026-10-10 : confirmation en jeu de `SkillsProgress 100` et mise à jour de son fonctionnement.
 - 2026-10-10 : création du catalogue initial, 351 chaînes candidates, à partir de l'inventaire extrait de l'EXE. Aucun fichier du jeu modifié.
